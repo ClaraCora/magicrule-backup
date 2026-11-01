@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:25.729427+00:00",
+  "client": "Loon",
+  "rule": "Wistia",
+  "rule_updated_at": "2026-07-26T10:49:22.051313+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wistia_rules_70c10b334f28afce.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28fd644e7795a315ec58eea91002a205ee5f5fbf08eed7e01260413ad2d9a5f5",
+        "bytes_sha256": "a4a6ab21e7af998c1491f4bb589b2955713005577e212796429d4ad350b42640",
+        "semantic_sha256": "4c86eb4e371cf15010d2800b2de983b94c927840129cff988e0f66f42086c82d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wistia_domain-set_d937decf327974a6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66a5732a25bb7138be22b0104b3ce61a1a30855ee333d430b1566e7e6f93c918",
+        "bytes_sha256": "d175a74d760cbadc3ae9980bc91cd15d23f48f790afc6b9e5d92d0bc972d703a",
+        "semantic_sha256": "aba8bcb55ba89166b9bab16b55af85c07290632c5b0a9fe9505ea1dce9a29b21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

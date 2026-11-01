@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:00.110935+00:00",
+  "client": "Egern",
+  "rule": "IINA",
+  "rule_updated_at": "2026-07-26T10:34:15.014722+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IINA_rules_eeb186873710954c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf3db9ac296a688ff60eaa28598d1b4c6380ca91cb8d2d3ff92ba9d47623f883",
+        "bytes_sha256": "0b31440944d838d46156fc1e744aa4cca7ef2f65e8be54558226bc2364772d28",
+        "semantic_sha256": "a822863aa19f9bb22cd8b328592d6477de292b87e4cefb46a8e074f309b46c6f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

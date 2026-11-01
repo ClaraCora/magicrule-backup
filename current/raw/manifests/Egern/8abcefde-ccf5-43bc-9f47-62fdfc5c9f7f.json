@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:14.410228+00:00",
+  "client": "Egern",
+  "rule": "VRCDN",
+  "rule_updated_at": "2026-07-26T10:48:02.772121+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VRCDN_rules_541eb365559f7287.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9be6cc85fc8889ff93b47b4bacd9967063dc18e563b5e98cd35dded1053bb6d8",
+        "bytes_sha256": "dc1337dec28dd30043c44b08be72025360c00411328c3c926bfd1cd3b1560cf0",
+        "semantic_sha256": "fabfa3bc8a48c1fa564fffe1eb0aef51e5a68205e142b0bc66beacbff4875b86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

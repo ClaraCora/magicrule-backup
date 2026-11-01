@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:52.890266+00:00",
+  "client": "Egern",
+  "rule": "LetsEncrypt",
+  "rule_updated_at": "2026-07-26T08:35:45.872673+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LetsEncrypt_rules_e3f542ce539a9cc8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a5f4a98424cc4f7441bfe0653ef6be73c76e6914d951ed405bdfe1997bf15afa",
+        "bytes_sha256": "b0963d926a464529e79a63bae5792dd5bd90c4a3b13c38516917f48bfafb5605",
+        "semantic_sha256": "cca56a7c2c85d9a90e432b3d41fe80639c2860dcd3518cb9b974ea8cd4bd4cfe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

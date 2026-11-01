@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:59.129002+00:00",
+  "client": "Egern",
+  "rule": "FlowUs",
+  "rule_updated_at": "2026-07-26T10:28:17.209001+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FlowUs_rules_b8dccebe94bc0d90.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ab82b1fe230c9dcaa99a10b42a0af971d458c444787365c3ccd382e8eac9185",
+        "bytes_sha256": "f1d9abe5ff0b7a6368370e45c14412ca37a7966ce0dabaaedbd19651c10fc484",
+        "semantic_sha256": "f236ff24f8f78f3a03c51c28f23909d35d5cbbc535801d8f3a7e28ca2d8a3fb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

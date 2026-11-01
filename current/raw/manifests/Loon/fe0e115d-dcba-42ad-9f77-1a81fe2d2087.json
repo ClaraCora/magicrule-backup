@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:34.559119+00:00",
+  "client": "Loon",
+  "rule": "Nexo",
+  "rule_updated_at": "2026-07-26T10:38:34.969671+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nexo_rules_c840535015a45384.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51ecefe7e46e23d89eed5f5fb5f3147e5ee5bfb22abf9a15a8bfa3813cc16c46",
+        "bytes_sha256": "329876be5eec6839bfaa84b472b09eacc1e86bd788235eeaffc1de646e0c3bac",
+        "semantic_sha256": "8c6e2188b8fe2a2861a744833abe0ca1f6c6f5a6fa82ff558b5252fa5438e663",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nexo_domain-set_346e0af25cc464f8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "299b82074415e8d7c2d507624b42e1b0112071b1173fb7f534411c6d24fb3586",
+        "bytes_sha256": "d58f7d8f32c00ffaf7b0bca6753dd0fe70abfaf0662668b5002108823e31aa0d",
+        "semantic_sha256": "4097e64612b6c4dc4504226190cb7d29ef10e88f3b263f4b289897f94ab4777b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

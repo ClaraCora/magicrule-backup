@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:48:08.397820+00:00",
+  "client": "Mihomo",
+  "rule": "Twilio",
+  "rule_updated_at": "2026-07-26T10:46:40.593441+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Twilio_classical_5dbc02fdeaef34f5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7db8d810965a5c675d91282b4470533170987d2263a6268c831c0d94096ed82",
+        "bytes_sha256": "3c7014702afaddef4fa6bb349352d15277b7531ff7e89eb485d20be37918f01e",
+        "semantic_sha256": "1c0dddb171acf2f62258b5d178bf4e86b1df8959ece13cd75b799383e39f49a8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Twilio_domain_f563256299ec5c18.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e592d78b1cdea90f357f4f63fb180b9042d67064b21e67b2df7f08a31fc978c7",
+        "bytes_sha256": "7032a535cfd22b381b1fb13c51ce356df34438c3cc2bce1196de3757cdf4915b",
+        "semantic_sha256": "3c99a307bb1e7ad4fd0abd4bf190ca8c83b7e7b7000b963287b3dda71edb4fe5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Twilio_domain-mrs_47c1e0d90caef1a4.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "cc477e74b1c888429c131b68c0580b7bcf38a3f328e50740df9c9fb28d6aaa98",
+        "bytes_sha256": "b54ad8acfcc45b1ec5cdb9ea15e75012ef326f38f7bd1bf96d83c7720f49f03f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

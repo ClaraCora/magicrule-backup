@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:48.876221+00:00",
+  "client": "Egern",
+  "rule": "HKETGroup",
+  "rule_updated_at": "2026-07-26T10:31:48.506121+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HKETGroup_rules_14111a79ddab0e0c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4bf20d6094052956684b9af9d16af306b25785c4ff3b678913248015c9fa075",
+        "bytes_sha256": "73d7ed4431b11dd4dceac7f7cf2062036972080b9bbc408c9ef48334af32815a",
+        "semantic_sha256": "3fa42c7686974da800175e50280368323771c764e5958b1aba0a8ff860a72b75",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

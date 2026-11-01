@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:56.156116+00:00",
+  "client": "Egern",
+  "rule": "SciHub",
+  "rule_updated_at": "2026-07-26T10:42:41.241377+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SciHub_rules_0031223768eb3e97.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7beceb8dc4745db4b8da4458db8c38b3ade06440cf7b37c2079a7999fddcd904",
+        "bytes_sha256": "05e05f209563a9d97811ee1a1351a0c305820c630f7bf7e40922ba1bffea0c9e",
+        "semantic_sha256": "b5b28c03986c975cd83b971d89efff81dae8b71c488c8e78035df0be55e57ce6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:36.497425+00:00",
+  "client": "Egern",
+  "rule": "CDEK",
+  "rule_updated_at": "2026-07-26T10:19:54.439974+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CDEK_rules_6da90a558e649960.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1b899ccf66c92579238424e426011bca7d38d17486d0a7d42398680f5a0c350",
+        "bytes_sha256": "4265e34a218a8c6a2fbec40e73b14c9b23b4464d9ac3455a746a292950f246de",
+        "semantic_sha256": "c393b46352a6b84f1ea218960e8b9b5566f4e5fbbd82ad69576225d4b8f42dba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

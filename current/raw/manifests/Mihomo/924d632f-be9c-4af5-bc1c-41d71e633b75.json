@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-27T01:48:23.835199+00:00",
+  "client": "Mihomo",
+  "rule": "XiMaLaYa",
+  "rule_updated_at": "2026-07-26T10:49:44.020298+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XiMaLaYa_classical_4517083a10cdc03f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2d8894106f81c47278da1a3ab6702bdc690f28622dbb001893d0c260f49efb0",
+        "bytes_sha256": "bcfdefb1038a5333afdcae4686ea93ba47b4f28c9373e33297a45a8cbb0a0334",
+        "semantic_sha256": "ad95bffbca57f0af7a7a0ecaa6a7d570432d504a41aa44dfbfcbfb7c049ca97c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XiMaLaYa_domain_6fffaabfde052235.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7a2a0cc5389cae143056e6530f4778c943ee58117ecc1426e4c2a344b37c011",
+        "bytes_sha256": "0e0b2ae7378d7a2096e763e63a7712deb8cf90a6774655b3bc830d97be619889",
+        "semantic_sha256": "687df3e17c8f50cfecaf73da250d958a3bcdad6d6a9d1165b532a1a4d4890dbc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XiMaLaYa_domain-mrs_03b548ebaea036a5.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "63c4ab08556fb12d9a4afa750abfb0dcd4fcac5aa131f2c8f7e7a673b7eb0785",
+        "bytes_sha256": "d1e5ad83f5be02b328c9b41a7f314bbbd3f7f360d2422093dd5e848d4e3fcdb2",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/XiMaLaYa.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:44:46.026334+00:00",
+  "client": "Loon",
+  "rule": "HongKongPost",
+  "rule_updated_at": "2026-07-26T10:31:53.966640+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HongKongPost_rules_3c4caed67c7bfd13.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46c18d6b21c925cb4c6a370d4029da1fd37c4c4bd72f4a5c5e6ba1af359811b4",
+        "bytes_sha256": "5c31e13b125f7fd466cdc972cbb889bb0d83b886f063e2bfea48acf37c9c1ba3",
+        "semantic_sha256": "5279270993ddbd1af53142c613bee71656f2796f377014c2044025f64ca83026",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HongKongPost_domain-set_b19e4200b9da1865.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "80f78fd79c98d7cf14bc838cd06336cc0615d700d03ed754c51be2c0bed4a8b0",
+        "bytes_sha256": "e602d2529119a85fcbd3dc647326cb7f0aa765707dfc86968ae37587e25d1248",
+        "semantic_sha256": "eefe52e7e641bce037b641f6bbfc2818ac03c8dfad51c02cb990ca0270d2a3e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:48:26.897534+00:00",
+  "client": "Egern",
+  "rule": "Netlify",
+  "rule_updated_at": "2026-07-26T08:35:29.283942+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Netlify_rules_c8093e6de0fd23a8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f054cf8a1756227e927af6751748974ab4cd394c2dec9d27380bf248c1d31808",
+        "bytes_sha256": "a4c43255e78e9174f6f9c2d0f46e01fe09a6f6c0081437e2a4016c886cc482a3",
+        "semantic_sha256": "a9f0468e6d9c969ea29d6ff7b9648f50fe20add8e5c3325ce26613f1c814ec6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

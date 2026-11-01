@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:09.404946+00:00",
+  "client": "Egern",
+  "rule": "Vaptcha",
+  "rule_updated_at": "2026-07-26T10:47:43.488546+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Vaptcha_rules_ea70c80a9c377780.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d699cfffcbbadb01ab3aa4751d1c5208050056e8edc689cbf958b2c1f4930f8d",
+        "bytes_sha256": "1fac74bc9edff5bbcbd74cb6d45b792893c096b2a53c7c1a9ca05ab7df4a16f2",
+        "semantic_sha256": "2ded0a697c7f0d14fa356168428d20589b9a81ceb9fc2c57e743c7187cc9dc56",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

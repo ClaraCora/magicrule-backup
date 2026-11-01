@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:05.257408+00:00",
+  "client": "Egern",
+  "rule": "Codeberg",
+  "rule_updated_at": "2026-07-26T07:23:42.144512+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codeberg_rules_649185d6d4c19595.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9fe475ca7cfe22a3b4ae8613ab0b5355e961cfa29906e75661b6dc5765595713",
+        "bytes_sha256": "5a311e0096f6139cd70f55530f4b700175d43ed71d553934299b4100a2cfc435",
+        "semantic_sha256": "380d9e11c85758b0bc82bb4d91a978c7933c7288cbe0b0510a329caafec780b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

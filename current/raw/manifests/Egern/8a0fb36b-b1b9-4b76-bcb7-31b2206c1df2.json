@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:11.523278+00:00",
+  "client": "Egern",
+  "rule": "Udacity",
+  "rule_updated_at": "2026-07-26T10:46:53.946951+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Udacity_rules_a7a3f5c521c7ef1a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffb6ef6d64991cfb9e69ed1e7840c9e658f9e2d28693000fe577d1736830785e",
+        "bytes_sha256": "6cd8701a72c7bf763f89d9e7ba1d205bd047e1dd8013b8dba1ad3358e6becbd8",
+        "semantic_sha256": "cf31537f89d2f35fad439c13046c196d371be1d24df084151f4fb73e07c0a00b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

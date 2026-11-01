@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:23.125518+00:00",
+  "client": "Loon",
+  "rule": "IEEE",
+  "rule_updated_at": "2026-07-26T10:34:04.009209+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IEEE_rules_5b69554850f1478d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c6440eb8cc831c35838ee40ae428d39927b6e7c0693ce720afc960bb131c82e",
+        "bytes_sha256": "77bbe60419839de9e3abb698965c568ce9f04672a088df9edc34223857d5fbbe",
+        "semantic_sha256": "02dcd96cbb0e8cf7f0b813d64ec6dc69cb598d448074c0a3e93f58e7a5c20f74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IEEE_domain-set_3d992e3ddb61575b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09a7d5b7f81960cf3028790e9274ecca38104882dd786f90d08fdd695d1bb7ed",
+        "bytes_sha256": "45913ecc0e18c3558f2bc45b39fde93af2f3c58dc02c186ab744516569fd06ac",
+        "semantic_sha256": "84f8a6ac4740e71bc9cfd071df29597cdd12943b90a361b72580e3a46c652fcd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

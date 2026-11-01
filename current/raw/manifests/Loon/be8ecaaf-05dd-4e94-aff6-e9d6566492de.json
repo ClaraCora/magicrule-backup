@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:25.497586+00:00",
+  "client": "Loon",
+  "rule": "Gismeteo",
+  "rule_updated_at": "2026-07-26T10:28:52.807239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gismeteo_rules_a2f4ba5ff3221483.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f30235e9ba8d7ff79f12db88b714a8085f11d67770503c22508d900f92e1c790",
+        "bytes_sha256": "8f54d5badd7e1260da41f2b0278c5d1e3ca44ed645b0a9cc9c7b78e9f143882f",
+        "semantic_sha256": "0dc4a868a0f6185b081b15ebb4f9cc45dec75a4b09c66967924c0341d7eb3b10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gismeteo_domain-set_1530f68d7e68f0f5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c2d705db9bd32ece80cc308733d04f690814481a395d5e19eca619c1fbba602",
+        "bytes_sha256": "59fd75fbb8b516af2268d7fc8785c55c1cf95cc37d4ee7dca0e6fd43f91fb53e",
+        "semantic_sha256": "cd162a97af6731278779d3b9f96a2ca23f74d8172fad6989aa12c73b9aee32ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

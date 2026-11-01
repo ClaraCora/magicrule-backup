@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:39.836939+00:00",
+  "client": "Loon",
+  "rule": "Deppon",
+  "rule_updated_at": "2026-07-26T10:25:18.863387+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Deppon_rules_124cecabacf927ec.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c1aa62537e71642b613a8a706478dfaf6c2aaf7e39580ff39883d8c5bfd2b37",
+        "bytes_sha256": "c47615494c86abc721a04f08a6aa9d2274764cd325baf2431c6143d5604491d2",
+        "semantic_sha256": "90253ac43bf44fd2f8783f8f8bd398bb0823821b6edf072f3ea49eb118900491",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Deppon_domain-set_11ba86861430af15.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1dda9244f9c5bd5f902032fae6147114b1a58ed964cb234b254e99d1af296bd9",
+        "bytes_sha256": "540eeae4a09f145555dd2ca8a706d43083c09698ba24d9853fb5267f1a1724aa",
+        "semantic_sha256": "9efe7534b41dfc558ca3091ed25bf1d234ac0e391e336f559ebd3e6bac3e4b1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

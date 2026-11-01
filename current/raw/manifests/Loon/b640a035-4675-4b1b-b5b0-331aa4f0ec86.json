@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:00.540549+00:00",
+  "client": "Loon",
+  "rule": "Egghead",
+  "rule_updated_at": "2026-07-26T08:35:56.115199+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Egghead_rules_ea45b3741d1f386b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd767118d4f5e21e32d57c1c9b9c8a8cbccf71c97708b84e1509e0d50788dde2",
+        "bytes_sha256": "90c973aa5587713c50f011b3fc76fbba91a6ccae2599513ac35a58b295afc60d",
+        "semantic_sha256": "151f2a66ce803a0cee3de24926a208827c21331302c5730db91b8e22272dd5f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Egghead_domain-set_a0bb5c9653ad0e09.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5aa07281ee5e3e1947e48d795db93763baf7994dbb47760d8e7f14d0a4f89791",
+        "bytes_sha256": "7c19e1052c6669d56b7b6f9a86b87c3c6c86b099aa7be8cf2f8c520317923e69",
+        "semantic_sha256": "7b13d1824e6da1f3742d51553178c0354b37771c22249a351a70568737246704",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

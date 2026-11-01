@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:45:00.592833+00:00",
+  "client": "Loon",
+  "rule": "PUBG",
+  "rule_updated_at": "2026-07-26T08:36:58.191986+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PUBG_rules_357f092c3f21e8fe.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b7fd1050336b725a58ceb70f3713656f2285323bad134c74b6f737bf01eb6f17",
+        "bytes_sha256": "390f80dbf48cd316906d72d7e500fd7c81add32020e8e2244f9222195b4c50f4",
+        "semantic_sha256": "496db9b2b0ba320010c4a97deae6b2e1f8e558af62bfaefa9a9152632f46a89a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PUBG_domain-set_5151b7f52ba73638.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8244a66c337026a24fc67eef5ffa4d3a7c872569dfb5e7ccd801df00cc57107f",
+        "bytes_sha256": "144ffbd00505c30b26cb3c9190303e36ec27c115a9092e51a8d66e3f056ce443",
+        "semantic_sha256": "1e316968a60a3bf361048a3cf09e0bcf6acedc1209cc9b3587fc708a5efa69d9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

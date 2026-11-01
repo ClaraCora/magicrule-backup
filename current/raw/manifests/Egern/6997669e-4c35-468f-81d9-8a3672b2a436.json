@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:31.633969+00:00",
+  "client": "Egern",
+  "rule": "CasImages",
+  "rule_updated_at": "2026-07-26T10:19:35.375625+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CasImages_rules_e4ebc394ea59752c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba4145da9cfa625f3d78ef62956e42676f48f5f435c22f49ed6046f44efa7a97",
+        "bytes_sha256": "a9f1f9012e4d14983a7ae0b5eb1fa6e8cbb1b7277b7702a25be19df3e428ad6d",
+        "semantic_sha256": "1260237100a8a09865e1efef84cc048e3793ccd078515a9c7c36eb37a9235a2b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

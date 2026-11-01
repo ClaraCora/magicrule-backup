@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:43:22.251015+00:00",
+  "client": "Mihomo",
+  "rule": "Walmart",
+  "rule_updated_at": "2026-07-26T08:39:40.234034+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Walmart_classical_7251cdb514827588.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c11735ae11ee7e6cec8d4c71744c3a99349fd307b75fcdaebaaaaf82527b411",
+        "bytes_sha256": "cf4c59ebc7670cef8293a00598b0833fe2d4fa26cd550dcefcdddb3ec6b656f6",
+        "semantic_sha256": "4c83ba05bbcb800ab019a9b61a984adca5706c9a6e0b07ddeeb1dad62d681ce6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Walmart_domain_b98877c818a76a54.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2fefec2d49f8a578bb7f14c2cad28274368606072427641dd8a6e3b1d715a2f5",
+        "bytes_sha256": "c1751b007aa1bfe569087084e9b8a475d5d717a5e3439542d1be7e923b84e920",
+        "semantic_sha256": "ca4821b95425196bcf2c41875113797c3ede9cc771fae9480e2019006eb11e04",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Walmart_domain-mrs_648ff16396834f92.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "7651fefd60e2ab7596ec71ae49505f03fb8330008aae1ddee8753cac949173e0",
+        "bytes_sha256": "b7745145884db5b3bd4dad99912e5fd2938be7d1db7135c6e1b38528d788e099",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

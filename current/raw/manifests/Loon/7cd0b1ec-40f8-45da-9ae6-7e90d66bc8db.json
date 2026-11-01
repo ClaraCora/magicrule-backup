@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:47:30.872215+00:00",
+  "client": "Loon",
+  "rule": "Technogym",
+  "rule_updated_at": "2026-07-26T10:45:25.211113+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Technogym_rules_4f13f30f9479e8cc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3262f5825003ec49327ad93bc9ada915f015c4476535d5ef87fd5512c87cb80",
+        "bytes_sha256": "d90522914deeffcd786b497190951753e62994d05c52797cd40e5fc5e1b2673e",
+        "semantic_sha256": "f5ce409828ed6638fb80e09afae4aed74775716dc7ca42b3ff760072e5875c6c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Technogym_domain-set_438518641fcc15ec.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "27d4fa069955488d8d1e8f0910cfab11951ed20572e7ae34b8a89ff3bc045503",
+        "bytes_sha256": "2274fa0053756a2326b5205ad14e90ccc22a49a034df4abdef7868a673527d4c",
+        "semantic_sha256": "de3e79586cf1bb209e471796793f45fa8bbdbcf21be3e963e1e0d42c9aa776f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

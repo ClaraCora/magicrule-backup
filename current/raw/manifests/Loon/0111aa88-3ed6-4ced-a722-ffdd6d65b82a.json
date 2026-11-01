@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:40:06.076693+00:00",
+  "client": "Loon",
+  "rule": "Groq",
+  "rule_updated_at": "2026-07-26T10:30:39.942935+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Groq_rules_438ca14c7777fea4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9fe6d498dfd327be661ff6eadee07d34337434f933ef1cd60a1a478721e6c7a6",
+        "bytes_sha256": "1733c2e773a65656774319ba5c3f11b37e1571dd32947e36fc30d1d87737d751",
+        "semantic_sha256": "708b4a56bd51252d3934ffd8b627fcfae6b4c1434873bb2b71df0e6d193bcbe4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Groq_domain-set_828be08ca242553d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7d52bf38d426ec37b96ec836d4f08a18f4b78a64af49ae4a5233071c39f2460",
+        "bytes_sha256": "3f825d1c66d6e4b527d8b55783ef6d310ad132c7d49ea8a0500874a234df3a83",
+        "semantic_sha256": "d228eb6ef1939b51cc63a70158318453098bca1888212db9b059aa0705fd0226",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

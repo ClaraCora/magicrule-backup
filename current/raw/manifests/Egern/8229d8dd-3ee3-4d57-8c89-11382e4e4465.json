@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:51.516663+00:00",
+  "client": "Egern",
+  "rule": "Golang",
+  "rule_updated_at": "2026-07-26T08:35:47.285200+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Golang_rules_c747b349b1be3d55.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2c9a18992511eea2afca32bbcffc78c01cb05439978c0902b296e37bb9547707",
+        "bytes_sha256": "8d68df67b0025693f64333f74c9acada69d229fb85abb0168ded39dc541a8e93",
+        "semantic_sha256": "56c0d059b27de6e59d425084e607eeeed059ad7636263b71501a1f043fea35d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

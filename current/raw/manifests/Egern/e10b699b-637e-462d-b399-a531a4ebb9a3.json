@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:01.996152+00:00",
+  "client": "Egern",
+  "rule": "FengXing",
+  "rule_updated_at": "2026-07-26T10:27:44.336839+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FengXing_rules_634230bbbfe50d20.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31eac001a7d4ff0d6b9fdf14a249fca42564996891b982f9879649eb64c6093f",
+        "bytes_sha256": "11f6b69ac6f66959caa71aa972519a163e87252576e7e5af312256fc80aa989b",
+        "semantic_sha256": "e529dad961c915b34f059a5bf4af20521d6e9e44aeab44005f70badac2eb91a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

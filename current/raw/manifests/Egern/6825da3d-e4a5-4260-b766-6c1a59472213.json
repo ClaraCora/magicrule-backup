@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:13.229555+00:00",
+  "client": "Egern",
+  "rule": "Reuters",
+  "rule_updated_at": "2026-07-26T10:42:11.983625+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Reuters_rules_35c60ec4415a4333.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2a2dafc2ccc6c31c168322cc02996666460ed5bf27d6ee07a24ac631f67b9ab",
+        "bytes_sha256": "e1f6c1bd1895932de78dc46a4769392805250c91514c88061d6607e3cf377d81",
+        "semantic_sha256": "3502cfe1d3bea3c97345d291a9ad981625c85260512fec4737603f3232311a02",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

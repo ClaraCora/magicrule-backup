@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:39.667824+00:00",
+  "client": "Egern",
+  "rule": "Deppon",
+  "rule_updated_at": "2026-07-26T10:25:18.983378+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Deppon_rules_7c1edc1113e1580d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7afde833aa015522bf38234d6fb7f9e1bf380de360911a44188ad09d80f5556",
+        "bytes_sha256": "e27a1b67b533754cc0ae65a4a407eace8f91499ee054d33662833267aecae0c8",
+        "semantic_sha256": "623fcd15d143ebc5e503f69b83b83991f5bc584a377f8ab1a3e57fabdfc2b156",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:04.202329+00:00",
+  "client": "Egern",
+  "rule": "Nexon",
+  "rule_updated_at": "2026-07-26T08:37:13.907737+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nexon_rules_8b978e0620793137.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75a838b4981253112a0ca2c9d262215cc21805bff40fc142385ed738c68882af",
+        "bytes_sha256": "74b941aa8797e67d687239649ddb310c828fdf90bb8985a802b44c1b3a5607bc",
+        "semantic_sha256": "872a8cf1ed8a9d7b352d7118180bb8148ac904e4c629488bbad76e8d2f7a7207",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

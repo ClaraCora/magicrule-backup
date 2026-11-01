@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:05.208791+00:00",
+  "client": "Egern",
+  "rule": "LongBridge",
+  "rule_updated_at": "2026-07-26T10:37:11.416830+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LongBridge_rules_a53ffcc84d6c2e97.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b26662ed6631893b1affa0304c143f9f534ae3b8e16b3ead908fc5a182f29293",
+        "bytes_sha256": "5b52b6b20216093d24a01f74949d709af030d3222bb9a4e3c67b78a4ef2ff5e0",
+        "semantic_sha256": "597e8c2c2aafa81d89ef5cab47c2283bc39313a145116deb1ed8905aa5c7e25b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

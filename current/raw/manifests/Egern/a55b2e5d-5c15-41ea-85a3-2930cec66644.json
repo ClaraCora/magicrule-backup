@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:06.917023+00:00",
+  "client": "Egern",
+  "rule": "Gracg",
+  "rule_updated_at": "2026-07-26T10:30:38.145184+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gracg_rules_ca8cd9400f8a4199.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f090b5c50390f490c09cf6f305c93092c0513f84ae3852e4dab2bc1eb79a1c20",
+        "bytes_sha256": "466c7aba5f9578f859ad7cce2744da7a408333532afebd60485c627996073c56",
+        "semantic_sha256": "6b59fe0e16a8ab1e4a1601878f9aa0c8ee6391467a47a7d9b421484433fc7a2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:40:37.779073+00:00",
+  "client": "Loon",
+  "rule": "BluepochGames",
+  "rule_updated_at": "2026-07-26T08:36:14.643240+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BluepochGames_rules_e7ff9ceff11936d3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "96628a2601e53c80c2da3f032c4c629a445fe02db5bba0813f556a8f34e566d7",
+        "bytes_sha256": "e6ece76ceed2e78801a6b449da8c768d2e222962c95d025ed37aa6584f9256bb",
+        "semantic_sha256": "f4802e9c739f5d461c7a17260bb7cbc2e5f53d2192da59f71af782b7d3f2721e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BluepochGames_domain-set_ef9edecab4f06121.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b1e662441527dc7d74b90813ec8ec2174ba8bd8b4bc7293761474d22108538f",
+        "bytes_sha256": "7742368d7f8c68fefcd435c7893a0beb72cf760b8c8f3531307dd466ef319f7f",
+        "semantic_sha256": "a31ecb898955e44730d5a500898ee4bc1108eb29501cb4e2bd7a1a771253681d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:16.377399+00:00",
+  "client": "Egern",
+  "rule": "TheSun",
+  "rule_updated_at": "2026-07-26T10:45:46.487966+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheSun_rules_0a19a6420a84c60e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81ecfce70b8fd67730f92961abb7c2551c627c1b3837211da37e37308c0d1bc1",
+        "bytes_sha256": "0e7d1864c8c5f6c79f4dd39efcc991945406d1ae27146426e2b4455c1b16f29b",
+        "semantic_sha256": "4256cb397b23e30fa9fd7a43485e396ee1d40fbcf13f739444e82e2a329318f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

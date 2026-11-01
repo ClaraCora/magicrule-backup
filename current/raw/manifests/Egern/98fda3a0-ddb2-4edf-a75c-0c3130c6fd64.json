@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:41.344274+00:00",
+  "client": "Egern",
+  "rule": "Rumble",
+  "rule_updated_at": "2026-07-26T10:42:35.120331+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Rumble_rules_1aa5c25b3311122a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa1b4071117a3bc5c38e344b25a001c369f0beb620b66f304d32b6388e3bc75c",
+        "bytes_sha256": "c3ded6200ff3aa8ed4637421953daa303360e139d71ba08594ab177cea807be8",
+        "semantic_sha256": "ce441c3c8db0506fdb280494cabc53740a26a22514a41c4790ef37a1614c46bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

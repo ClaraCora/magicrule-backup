@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:26.789880+00:00",
+  "client": "Egern",
+  "rule": "Goodreads",
+  "rule_updated_at": "2026-07-26T10:29:12.754066+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Goodreads_rules_e6016205cefe1758.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52678d20f3780a38177eb6f8a611fd36dadceb5d0dffe48b1c460a5cad332a66",
+        "bytes_sha256": "c62b3b22352fe0c67230f3dbeaaeb26de7acc7c1eb81df36b7ea9aec159c9da6",
+        "semantic_sha256": "eb6dc504a58a6fdf8c33561add4e337678f3d32dce54a37b24e2a29ac3524fca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

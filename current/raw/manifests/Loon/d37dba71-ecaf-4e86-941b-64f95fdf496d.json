@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:50.377733+00:00",
+  "client": "Loon",
+  "rule": "Woolite",
+  "rule_updated_at": "2026-07-26T10:49:18.939572+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Woolite_rules_b5a269cb60206051.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a62ec22246906c894fc4ced9f1a8f20a20b8eb22d35a3c410b5c531303461f1e",
+        "bytes_sha256": "cc07238d58d98c8bf944971fa321975be3257660ec1218b9707f71db596e3790",
+        "semantic_sha256": "81396acef6ec785a6f0ee40e9e1fee4c25cfdc98e395cf97b37d1bb09fd3c18f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Woolite_domain-set_b87bc80a86130d9c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9eb4540d42a8c15c60633b4bfb4d177cd81673f2986fa1c6d049f9bf452be544",
+        "bytes_sha256": "7053f439106e279d5e5bcff0894d32f0e63aa2139e266e1c489a650a502ba1de",
+        "semantic_sha256": "65d845356d379e7937bce0da50e547dbfc1499fa61ef2024d1599647ed858275",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

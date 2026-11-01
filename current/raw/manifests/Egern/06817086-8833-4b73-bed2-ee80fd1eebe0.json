@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:40:25.038796+00:00",
+  "client": "Egern",
+  "rule": "SCMP",
+  "rule_updated_at": "2026-07-26T10:42:46.088651+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SCMP_rules_3b60ed5265ee54b4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef0b5c4cc1c6ce34cfcdd6429cc2a2481dbff2b130bbfcccba6bdc175cf1f28b",
+        "bytes_sha256": "68ad8f0514334ba76ba368adcf93988a78620c9632414565ecd88e950676891f",
+        "semantic_sha256": "d3eb7c003eba3843a05b95b711242a008829bbfa4e8b01a86f64703d4640074b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

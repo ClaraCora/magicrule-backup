@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:40:21.326880+00:00",
+  "client": "Egern",
+  "rule": "GGSel",
+  "rule_updated_at": "2026-07-26T08:36:59.693566+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GGSel_rules_8a8ffd5e71d63eae.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "698cdff1bdfdbc82d818e5414333cc810fe34b7fcdde08779cd3cb3f0af0e10d",
+        "bytes_sha256": "e0980342efab225dc5b4f13be7089e0bf1f7d344840ed560c8856bf86b2ac16f",
+        "semantic_sha256": "d996855230364a796372b57bcf0251a621c652b386550abb7d1492ab01792441",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

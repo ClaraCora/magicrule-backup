@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:09.012779+00:00",
+  "client": "Egern",
+  "rule": "LinakeSi",
+  "rule_updated_at": "2026-07-26T08:38:26.891621+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinakeSi_rules_e6d966c7b4cf2d60.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2652e31e64c010ba6b22be0b625cc39098678b3647d136f5dda63252480c78cf",
+        "bytes_sha256": "9f64ecf6ddea393a4d1faeb74ea091c7d6f0998109d8dadb2efd444753f181d0",
+        "semantic_sha256": "2ea39c8667ad139ab4cdb2c61c757c7f10c4c8efc1f23de5ebde17fa46c8a251",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

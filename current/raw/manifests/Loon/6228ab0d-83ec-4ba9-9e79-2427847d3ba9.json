@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:44:24.038315+00:00",
+  "client": "Loon",
+  "rule": "Sky",
+  "rule_updated_at": "2026-07-26T10:43:13.115263+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Sky_rules_1e133dc2a7113152.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4b3e8770c6be411a7a2ec32837758c2ba39cf4dd1c362cf5cdd38484a89c053",
+        "bytes_sha256": "8ef43ee01040bd0edbd3d0ba4f35bb15036c334f96169f047807e30bec88fb56",
+        "semantic_sha256": "220de1fe553ea5cd6ddc010014629c5925c2fd4a9a14d256af80e5f826014072",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Sky_domain-set_10cc574e90baac6a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98ef530fa89d34b52bc0870b7102a8a8fd74b286c1ee4aacc71bc0b79c8a3f0c",
+        "bytes_sha256": "c233dc142925455b42fc0339aa2c5d10c2e2771de520ae4d8113d78992883cf0",
+        "semantic_sha256": "dc53466444ca3f908282bf149c058f5fea2d1028d36049f7866d7655e56a7ab2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

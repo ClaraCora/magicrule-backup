@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:06.499846+00:00",
+  "client": "Egern",
+  "rule": "TechTimes",
+  "rule_updated_at": "2026-07-26T10:45:26.837016+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TechTimes_rules_1b92e409e5df1e38.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17627e407fa0df3f714744645d380db1c8309c11d961a9f373625ace8a51ab7a",
+        "bytes_sha256": "bba486cd2bdab6425c12987c9c3b15a07de05a6422467742409fa5385765397e",
+        "semantic_sha256": "f3659cc5d028c3c51556beb7a7b494fb0ac2b2f19321d386b079aa384c22ceb7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

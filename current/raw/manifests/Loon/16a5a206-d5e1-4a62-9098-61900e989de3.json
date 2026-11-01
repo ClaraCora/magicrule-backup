@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:41:14.882701+00:00",
+  "client": "Loon",
+  "rule": "LinkedIn",
+  "rule_updated_at": "2026-07-26T10:36:49.522729+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinkedIn_rules_633c4fe769c8a1a3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17cab6e170d2978915bd215be6334c38d0eb889c7c5a27115d34333a18d9c8f9",
+        "bytes_sha256": "d60a4a6bfc2a1cb2ed532bc5958cfe1f803a5eee06963235b96b113626babaf8",
+        "semantic_sha256": "0733450560120d9ff92e933351715d909db844234f1d92d1d24db4ad16d7ccc7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinkedIn_domain-set_5a74fba0bf1c4219.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7740d09c7b0a100db89cf7b13c78076a316b20369aa4b38f4290aaaa0215cfd",
+        "bytes_sha256": "8c5bce2d6b5334410c524c2ef1deaac8de5a45279eae953b380a2c2883718804",
+        "semantic_sha256": "593cad7136b21bc8dc31f7baa835b739c2fe3fc199a737d511933189eec1e1bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

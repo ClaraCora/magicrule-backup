@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:22.766970+00:00",
+  "client": "Egern",
+  "rule": "IEEE",
+  "rule_updated_at": "2026-07-26T10:34:04.123324+00:00",
+  "type_counts": {
+    "domain_suffix_set": 54
+  },
+  "total_line_count": 54,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IEEE_rules_17b3d364dd0ab6fa.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc5a289625ded97dc68a11f94f9c54ae7338dd163bbeadef1272d8b326fe1c22",
+        "bytes_sha256": "15508e49b599720502092300ad9b1379b675363c1ad4ead074876f566d73dd03",
+        "semantic_sha256": "444bc6b7c8d85436b9d2cdec6b88cd1dc04128eddeea93fb34d013faf77bcd70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

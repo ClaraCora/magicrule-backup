@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:06.607465+00:00",
+  "client": "Egern",
+  "rule": "KeChuang",
+  "rule_updated_at": "2026-07-26T10:35:32.142279+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/KeChuang_rules_dfe9e6b147ca4901.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7774a8511d62672d65abae01a4a5c4ab7544ed608b533535150176218076646c",
+        "bytes_sha256": "2bb25d2fb99306a5f8581aa4cb51558e131ab21c0bf7c6b5776523eb69292f84",
+        "semantic_sha256": "4e14aeb41699ce5b6d098259482a0ef4191d437ff214a5cb8817ff0eff673f04",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

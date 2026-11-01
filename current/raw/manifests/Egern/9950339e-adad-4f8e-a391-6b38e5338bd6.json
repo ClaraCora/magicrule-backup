@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:45.180426+00:00",
+  "client": "Egern",
+  "rule": "HeroGame",
+  "rule_updated_at": "2026-07-26T08:37:00.490120+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HeroGame_rules_650ef2f144846b38.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c9bfa157c2dddc2a79d960b49f63cec5f18cc51f66a9a56d10591c54f7791ef",
+        "bytes_sha256": "8c6e9f4dec868edd4ca5bd0b30b7e2ab89bf25d9be80053e3d95bcead97cd778",
+        "semantic_sha256": "fb26f8f8cd78496aa938890af4e167233442194873f4264739651770a5de4fb7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

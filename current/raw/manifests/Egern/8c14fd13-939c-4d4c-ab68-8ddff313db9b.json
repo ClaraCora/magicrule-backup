@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:17.015406+00:00",
+  "client": "Egern",
+  "rule": "Konami",
+  "rule_updated_at": "2026-07-26T08:37:27.907753+00:00",
+  "type_counts": {
+    "domain_suffix_set": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Konami_rules_f447c9e2535ebbfb.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48ff719701ef5840219e7af8adcc98891726250d48032dbef824e21e1f4d0440",
+        "bytes_sha256": "008449cecce7b78cc5d914b0110a44f4bc15a1c8789ffee780ed183aee69c016",
+        "semantic_sha256": "095ca1edf1c6fc1e8a2f9c7569364e79ecbee910c54b4c08eaa18a0748217391",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

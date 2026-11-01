@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:27.742042+00:00",
+  "client": "Mihomo",
+  "rule": "UbuntuKylin",
+  "rule_updated_at": "2026-07-26T08:35:50.232485+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UbuntuKylin_classical_c6a791ed5e9fc998.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4bba97af244b5d5ae89c40d3c4adb9ab16d8466f7a74c2b18e04776921a1226a",
+        "bytes_sha256": "a29803ee01279310193e6336137464524a5eae322ac3422075d7e5b20e53c2e1",
+        "semantic_sha256": "d6b935ff499be020974813195e093960f8a986c17e64c67248e134f2609ba2b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UbuntuKylin_domain_27306a89a4921fc1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bafc8237ae6cbd5f2bf854de7aeffde8b55721f7cc68e52bc36ae20b818816b2",
+        "bytes_sha256": "99bc9cc4cda88d7b9efdd53996ddfc665573abef99cad297a9ad0ba2cf24d433",
+        "semantic_sha256": "71f402954f7d79fd39621ca06061d4e9e279d9a6d6a4b1bcd04e670e45e66f47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UbuntuKylin_domain-mrs_08fe1f62e6915f34.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "52d11e81af1822ff02710613e60abbf7b94f6802ce5592a99851460ca5dfba1a",
+        "bytes_sha256": "7968c3e1e79ea2361f22f94fa0e80bf971523f759021a46a32541f1ac196cbe9",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

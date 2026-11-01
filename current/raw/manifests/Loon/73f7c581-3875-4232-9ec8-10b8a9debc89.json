@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:32.268627+00:00",
+  "client": "Loon",
+  "rule": "Pearson",
+  "rule_updated_at": "2026-07-26T10:40:23.287589+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 93
+  },
+  "total_line_count": 93,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pearson_rules_eeb66035fb25c861.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13cbc8263af2db87d72c9b769b7c29963bc412e5ce30ed996265296b9a5df3dd",
+        "bytes_sha256": "acab387db36f8c8f4ee9350c454954e903e0ef7fa0052fd9a45eecd94bf83321",
+        "semantic_sha256": "c3ecb7bfb889f028e655de65f052887195253b061afb32f0ef7e454dbfd4e752",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pearson_domain-set_468e8c107e40df79.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b63c894ac09af110ff111aa0e0fcc4662abf542f2415a303549ebd48d09c3c27",
+        "bytes_sha256": "20da72ac6c8851aa91962ce358dacf405428d01c3c9e44c3afdda2bdb6ffdc2b",
+        "semantic_sha256": "43d8e9915b74a1093acea9fe290d47575ecee83234e435bee0fb6008df30a166",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

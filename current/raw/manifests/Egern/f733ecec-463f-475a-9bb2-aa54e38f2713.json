@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:01.932108+00:00",
+  "client": "Egern",
+  "rule": "TranslateWiki",
+  "rule_updated_at": "2026-07-26T10:46:32.295829+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TranslateWiki_rules_6d4463c081840522.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72413ed745b81ecd18224037d62d50a49b3ac497fd9b6f97bd6853828c04a695",
+        "bytes_sha256": "0ae4558b9f5eeb0d53cc35633c60544409106926ba8497f0cea4c35683090880",
+        "semantic_sha256": "4ee8ac631b56b3e073988c93804b5e4d85a705addb63e519c7d2c9387810d6be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

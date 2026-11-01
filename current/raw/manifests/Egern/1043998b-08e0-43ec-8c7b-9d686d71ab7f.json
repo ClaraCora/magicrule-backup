@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:40:58.015439+00:00",
+  "client": "Egern",
+  "rule": "StandardChartered",
+  "rule_updated_at": "2026-07-26T10:43:56.486384+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StandardChartered_rules_509fb2855726ff22.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "811f3e595c16eec3c23ebe25b15c86df99be8ed623453bfab9ed4f664e8046d7",
+        "bytes_sha256": "29ab092a87ee4605abbd5f35167e66ade60c76aa47994fa9497e5f20ba741377",
+        "semantic_sha256": "7ead280ac4898ec65e6c37e3fce4e512fafe0a87cdee8ebe1acff1768ccd2de0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

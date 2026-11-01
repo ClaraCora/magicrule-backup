@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:44.007030+00:00",
+  "client": "Egern",
+  "rule": "NBCUniversal",
+  "rule_updated_at": "2026-07-26T10:38:05.507558+00:00",
+  "type_counts": {
+    "domain_suffix_set": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NBCUniversal_rules_aece5bdbcc913aa5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5449cf692575d63e7b30df3e4a2c78b19d2a07025e405e29f97abe7e9bca5621",
+        "bytes_sha256": "2032e90ee8864ce080e3172679207ec1f49a022c30bf4266f9e55bf167a82e37",
+        "semantic_sha256": "7a79529ed1733d41c3e921ac9df34c967a23b184f5469ff14d2b3b9651e22610",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

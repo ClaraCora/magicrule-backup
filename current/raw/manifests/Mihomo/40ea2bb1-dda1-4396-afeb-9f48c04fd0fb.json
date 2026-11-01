@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:56.822323+00:00",
+  "client": "Mihomo",
+  "rule": "SciHub",
+  "rule_updated_at": "2026-07-26T10:42:41.284353+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SciHub_classical_f4f8ad7fcb537578.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d85e8d058162fef9c1d774085904e4a33fd9020f68c55405cfa18dd89b0f687e",
+        "bytes_sha256": "3cdfdc90db73c495350bd2228b4dac7d9e961df38dd5ca90aa88399bebeefba8",
+        "semantic_sha256": "672f5fb7315e3ce8f121575194b6728e137524122187c3d3fe9939db3860fc86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SciHub_domain_50972d3997ef8560.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a9cbd3e018bb0707a28d2e9b2a9903da73e86d7458b8a8800c74269d1a2200d",
+        "bytes_sha256": "8f144b88896a7b6e4e304e824c183d07d6418e7289df70157e2fe46dc8fbdd32",
+        "semantic_sha256": "34aaa00e97e3a6b76b35f013274277e2fbd3f26b8dc931b648ed914ef42d0d7a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SciHub_domain-mrs_92464a1c4f7a2a81.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "97fd553100a04197c563311c7a8c089c6fb1381c40d2151c427a6bbe193e1666",
+        "bytes_sha256": "86ee9f0182b64834e5603e43b26f92aa374c24635a149af91001e0cf76789fe5",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

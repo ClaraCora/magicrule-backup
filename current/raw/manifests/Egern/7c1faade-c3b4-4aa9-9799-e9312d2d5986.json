@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:28.118088+00:00",
+  "client": "Egern",
+  "rule": "LiZhi",
+  "rule_updated_at": "2026-07-26T08:39:20.812685+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LiZhi_rules_77552d6014d86069.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f5ddcb071a8c8adfa7d939bd1a02cb744e266f9e4ab1cb56477a7774ff711db1",
+        "bytes_sha256": "d53cab9d2d561add9b9cfbd4078540105a1d1832174d096305dc02aef177784c",
+        "semantic_sha256": "b3e67f8cbcb3b16e2c5f36a477c3f3412df193d6502c585c07b2828dd7806db7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

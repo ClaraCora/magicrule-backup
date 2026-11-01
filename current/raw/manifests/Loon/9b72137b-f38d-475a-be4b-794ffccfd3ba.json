@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:46.628665+00:00",
+  "client": "Loon",
+  "rule": "WikiDot",
+  "rule_updated_at": "2026-07-26T10:49:06.315259+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiDot_rules_586835438abe0e73.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87e33271c6db8067cc3751f35a015a79c070c866cbea06ab937566ee969eb9e2",
+        "bytes_sha256": "5017cf5d67885ead792a54e647fe0872011e5c91bf2652ee5835c5fd890b445d",
+        "semantic_sha256": "0140c44dfca9d377359c7b570fa944cb2c323b9f49627200a1d0c6b9b692953c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiDot_domain-set_35fd899e4ae949ea.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b68fb6706702ad423ac3ab38ee1a3b92587fe978ba2fc8f616d6e164b5df4e30",
+        "bytes_sha256": "c992019fa9fdbd197a4e270bd16aacd0e39fb0b6d81715ca913941c4859a27a3",
+        "semantic_sha256": "242dc06591edeb94af737a7f41e17007485d7e6d75387a0048427c0f318ac0dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

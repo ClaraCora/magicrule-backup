@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:48:25.663769+00:00",
+  "client": "Egern",
+  "rule": "TheLinuxFoundation",
+  "rule_updated_at": "2026-07-26T08:35:35.197548+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 15
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheLinuxFoundation_rules_9ef9941e87a16a81.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5d57900d9442d35f2855fd87e343232db9b820ed3278866ba001e71d86b10b3",
+        "bytes_sha256": "bca7ee0b09170138ad72094712ac0ef02e25e828168e6f8c3d9098ce76de79dc",
+        "semantic_sha256": "21c63bffcf2c9582442b4a1012affd8c83215755d033f6aa8a9e0fe4d79095f4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

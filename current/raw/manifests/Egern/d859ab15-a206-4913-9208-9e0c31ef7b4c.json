@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:27.341291+00:00",
+  "client": "Egern",
+  "rule": "OkJike",
+  "rule_updated_at": "2026-07-26T10:39:24.026659+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OkJike_rules_6e10d1efba087b17.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "120c56ad31f2896170ad2d629cd2167b7845f07c385dddeafc4fe824bd71822c",
+        "bytes_sha256": "4f391300ee20cedf5524c2272c37ef8f99efa172b6b7a87608f59141d1a5b7f2",
+        "semantic_sha256": "800c5730f1cd4ab1f6bf870177925440b870ec8723704f15e96759292f53fc13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

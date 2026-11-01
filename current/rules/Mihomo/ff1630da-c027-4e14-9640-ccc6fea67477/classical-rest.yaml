@@ -1,0 +1,17 @@
+# NAME: Amazon
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-10-29 11:04:24
+# BEHAVIOR: classical
+# DOMAIN-KEYWORD: 1
+# DOMAIN-WILDCARD: 5
+# PROCESS-NAME: 1
+
+payload:
+- 'DOMAIN-KEYWORD,avoddashs'
+- 'DOMAIN-WILDCARD,aboutamazon*'
+- 'DOMAIN-WILDCARD,amazon.*'
+- 'DOMAIN-WILDCARD,amazonaws.*'
+- 'DOMAIN-WILDCARD,kindle.*'
+- 'DOMAIN-WILDCARD,kindleoasis.*'
+- 'PROCESS-NAME,com.amazon.avod.thirdpartyclient'

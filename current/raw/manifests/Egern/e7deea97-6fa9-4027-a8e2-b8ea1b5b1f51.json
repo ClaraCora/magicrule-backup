@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:37.738640+00:00",
+  "client": "Egern",
+  "rule": "OpenStreetMap",
+  "rule_updated_at": "2026-07-26T10:39:40.339371+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenStreetMap_rules_602b2450dc20b85d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d697734a168ef92fc9a7ad0ef31df962103a934ecede2418165101e5eb9051dc",
+        "bytes_sha256": "378d45b9a10e8a3c86b85fd30e1103e6e34976ddec42d71a2921351d6534f0d4",
+        "semantic_sha256": "a4c04b96da50786b21f8ff3a863b194c2a13979c9ac06a792e6b911f9793fbfa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

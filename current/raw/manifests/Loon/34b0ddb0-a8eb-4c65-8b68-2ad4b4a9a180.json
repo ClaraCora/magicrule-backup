@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:23.000173+00:00",
+  "client": "Loon",
+  "rule": "Mainichi",
+  "rule_updated_at": "2026-07-26T10:37:17.256627+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mainichi_rules_a2ab8075c29c47ba.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "861e665b970f8f79277b8e6306db563e18c46f8a6aaf6e783a871bd1b2ae7402",
+        "bytes_sha256": "04575bd859329e730796b2b041bbc46b910b00e13b786f8c5ff80f803723ab20",
+        "semantic_sha256": "d2519a2fb13e24e7799f6deae7c32d2cc0bf646b05d23ce11ac5d5b205267e72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mainichi_domain-set_b29250ef699bcc88.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a6b7933f69201213ed2200713e4df82e7274ada1568c8a1b1fb3c77526833ec",
+        "bytes_sha256": "82a3a02b456a415c551933eb3a3b135a4f5d7ab8eb2d6d82b0fcad69cb976fd0",
+        "semantic_sha256": "339bf04a2872b93df1c18f846eaf4a3fe1482a5d5025b2a3866ef388efdf092a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:40:37.525937+00:00",
+  "client": "Egern",
+  "rule": "BluepochGames",
+  "rule_updated_at": "2026-07-26T08:36:14.766615+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BluepochGames_rules_fca19cd5eed69521.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5d5f2839d30b0cdbcdc3471c6c2fbd2d1deef568cee0ca5dd131ed4b581db9a2",
+        "bytes_sha256": "e242273fce8fd2240fc1531856306d9141d90434d65fe57c50e9e05e18fd7481",
+        "semantic_sha256": "068644bb8983d4f3f3d8d0ef01fb4583e83d949e7662f20856f35f6b3e6708b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

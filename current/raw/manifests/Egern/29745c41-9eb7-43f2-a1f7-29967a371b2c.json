@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:58.023202+00:00",
+  "client": "Egern",
+  "rule": "Gamesplanet",
+  "rule_updated_at": "2026-07-26T08:36:57.747910+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gamesplanet_rules_07106269f69ced91.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "caf7f46036715fcd0995f11141febcb0e467b2c26e039d68eef60daed6a5d3ea",
+        "bytes_sha256": "0584108f4771419d433112cd3e5e5c23ba4c49c3f8c4d46ce4781a130c0d2b91",
+        "semantic_sha256": "70d9e226d86ee44d0d80ec55873e935d83eb2353c608d6af888fc53edbd0854b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:33.219811+00:00",
+  "client": "Loon",
+  "rule": "Madshi",
+  "rule_updated_at": "2026-07-26T10:37:05.500028+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Madshi_rules_c5a8402e42fa4d3b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3f69a8d8daf289139990ad813c4dd77c96e24ca2e87e3b943b07305c66c496bb",
+        "bytes_sha256": "a8bcaee18d4c8d27f56623fb8eeea25c9c950e4eafada7b3afa1f28a0f8f49bc",
+        "semantic_sha256": "64cc0dfd742328cb88ce459f5f11cc1642df664bbe61f8c03cf87f8b5626aacd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Madshi_domain-set_8b25ac1835bc4a75.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf8afb3a2eba697df8af6c779897f6ffe96808380f93d558fc20ff8ee079e9f5",
+        "bytes_sha256": "5b53a7184979694e9fd8d9855c12b16b68de18aa0bf0db370a5606527c3079aa",
+        "semantic_sha256": "3e62f24ecb586d7d968f45e35305cfac80508d492cf992e77facce9fb742fc46",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

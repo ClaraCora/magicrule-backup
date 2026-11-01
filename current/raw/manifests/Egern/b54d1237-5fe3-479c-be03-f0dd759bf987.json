@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:54.261707+00:00",
+  "client": "Egern",
+  "rule": "JiyuKobo",
+  "rule_updated_at": "2026-07-26T10:35:17.200138+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/JiyuKobo_rules_b98410c5e07334a4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e04432aae4a7be7127b187f66f9d1b978a5f8b39345bfb729b7036c908ed004f",
+        "bytes_sha256": "d05ea3d970adb10b9c7413d9b80ab516cc6e017a993c1b3e75e031348d9da51a",
+        "semantic_sha256": "c4e34b851ecf6bfb4b97397d16d941d50b5efbd7e3c451e3b43cdec78fe9a058",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

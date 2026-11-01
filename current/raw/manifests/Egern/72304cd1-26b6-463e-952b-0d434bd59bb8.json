@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:21.426595+00:00",
+  "client": "Egern",
+  "rule": "Cygames",
+  "rule_updated_at": "2026-07-26T08:36:25.779641+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Cygames_rules_5a684f4f3ec9efa9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2242d21ed08e772e97d93c06df382571d66b3c32943d50baf3a6ebfb975d4816",
+        "bytes_sha256": "712208f431785dadcfe9b072dd19e5a0b9679428219c8f041af30423fb2372af",
+        "semantic_sha256": "6f19063c68ff751f723e79f56432247bdb1e88e390cc43932c9dd340896ca037",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

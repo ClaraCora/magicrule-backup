@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:16.829379+00:00",
+  "client": "Egern",
+  "rule": "SquareUp",
+  "rule_updated_at": "2026-07-26T10:44:01.405840+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SquareUp_rules_b853a9288dd8d382.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "815db8636ec27866b39a660eaf59b89fc0b589d213afa16173046e02f227f0b6",
+        "bytes_sha256": "ddce2105bb8691a7239d1e7c3603ab1163b6c0f00b80835dada6c7a87714a3cb",
+        "semantic_sha256": "91fa90239f7d3e8a3304b0124d4445dfa6c8b5b268c564a675bae6a8f723afe0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

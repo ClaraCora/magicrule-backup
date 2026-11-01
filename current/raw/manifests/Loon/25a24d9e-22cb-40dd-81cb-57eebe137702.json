@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:51.280215+00:00",
+  "client": "Loon",
+  "rule": "Glyphs",
+  "rule_updated_at": "2026-07-26T10:29:10.891779+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Glyphs_rules_a4ef26a33654d8ac.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc6d949df4bd9097c3477f6a3e80ca7f51e853b8280b220944e4eb0974ce8932",
+        "bytes_sha256": "7f1d71bd8fc154b43ff0492701484f4e74fd1f75a475e14081c25b8e2eccf612",
+        "semantic_sha256": "75ff57d9413ba758143e73446f636920b47a6e1056124a643c2186fa14733aef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Glyphs_domain-set_24d81dc1b18b594b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "88295007a441e07d9c4131ba042e3d66f68266868c9f03bfa6c1331d878f460c",
+        "bytes_sha256": "ce49a05c0095b1372a6618f7c1ee20db5e0d57d0512837d2c737282695706ef6",
+        "semantic_sha256": "66a4c71e3dbbb1987bc15a43bad57cb155829a33db5eea9f787bb58615932c7c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

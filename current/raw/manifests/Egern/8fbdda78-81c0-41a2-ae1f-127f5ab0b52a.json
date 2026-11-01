@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:20.781100+00:00",
+  "client": "Egern",
+  "rule": "Veet",
+  "rule_updated_at": "2026-07-26T10:47:44.639467+00:00",
+  "type_counts": {
+    "domain_suffix_set": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Veet_rules_62bf595c2ad0ce7e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "654a2ed185371283e42531adf7a03ffcc97d13e4cb2f8bc908608d1cbc0b4774",
+        "bytes_sha256": "8e13a05c8711e8543dba9d64613975840807658a3c47e7dbe3a5923630bb94c0",
+        "semantic_sha256": "3e91053114942a95e27b22d3eac06e2e289ab51be29c431ae9999017b9a46a0e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

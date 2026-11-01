@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:45:58.062121+00:00",
+  "client": "Loon",
+  "rule": "YoStar",
+  "rule_updated_at": "2026-07-26T08:36:53.386954+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YoStar_rules_54ae7c51572a7a1d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e018f78b86970c246098b88e7645cf5cf17f2d40cce1f0091cedcbb41987c753",
+        "bytes_sha256": "6f961504b25488532ea161fb4b901e5fd499e4e7d4c417877523469485f2b826",
+        "semantic_sha256": "e87a1bfc139aeef444bd7ec0fac1c920cb10699099815a091a531e3fd8dd6261",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YoStar_domain-set_d419ef6745e5aba8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "72f47b80e070ab050a6583b43aeccd09f3f371cbda6ffec8a1a3e2358f344ee5",
+        "bytes_sha256": "c655ff0a3827bfeb16011d1a525f366facb741f62293447d031c9628fde35413",
+        "semantic_sha256": "04fef1529d2589707d7776627a8e428aa590a726d9b0119954ccf1d100cca6e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:02.030627+00:00",
+  "client": "Loon",
+  "rule": "Strepsils",
+  "rule_updated_at": "2026-07-26T10:44:19.193052+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Strepsils_rules_7d97241aa4c4cd5d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "672e27c088cf1f53fec1dc21992b53cb54a4c1c3571c1c098b5eb4c5c00bf0f1",
+        "bytes_sha256": "ebd20e6a6e09bd243d38e44eca0304a3a2987e4b553a68065abbfd06d5c0a5f5",
+        "semantic_sha256": "0b086767837ac0265f725b438eb412fb2f6d00e051615b6089a736a53493d7bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Strepsils_domain-set_7dc966276cdd1b4a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "198d34fa4f7daf3568604c6b1abd9d78c9d9ff0b7245ba11133084076f12a097",
+        "bytes_sha256": "e7ddccd5b87d06bfc8587f96696a569348a6649c5eb494b6bcade0045adbf7b9",
+        "semantic_sha256": "74911bcc5eba484e13b21479495e4422852c84e22ec04505e82441f08b85b0f2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

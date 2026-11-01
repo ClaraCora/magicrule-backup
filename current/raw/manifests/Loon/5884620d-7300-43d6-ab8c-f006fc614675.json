@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:49.586063+00:00",
+  "client": "Loon",
+  "rule": "OKAApps",
+  "rule_updated_at": "2026-07-26T10:39:28.485239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OKAApps_rules_b7c8c40306cbbf89.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b604fddd8614dde039ee8c014b7569bafb1dc0134db4cc6eacf903869495c9d",
+        "bytes_sha256": "b7292bf966eb463f6e52508175acf435a4433c054d3f9c4ee2b5b444230c86ae",
+        "semantic_sha256": "43dcac591436e29d3f7a9fb36e8dd8f31f1e133f423c8f16039c18163f143c86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OKAApps_domain-set_2bec4a679be6d8e4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95af8ce3e433ced75dc63aa5f384165aa7397a913910cb87334862781d76b911",
+        "bytes_sha256": "4e494eacdb4abb8de6534d8e4b442531e5351e403494fff8f5d26ea4b3d31a5c",
+        "semantic_sha256": "86fbe91ac023526505d9f8ac84f9c1d724b46cac9a226f302384afe9e52339e2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

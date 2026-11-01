@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:24.178039+00:00",
+  "client": "Egern",
+  "rule": "QNAP",
+  "rule_updated_at": "2026-07-26T08:37:40.600058+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/QNAP_rules_1683eaf1775cd23e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "02aa44dc9b4fdc9acc6e7606de106b8921535f5ac90716d3cef054501bcad414",
+        "bytes_sha256": "309ed5eda2fc58a68de695755348a927f86485af8ca2cfe92b600d2d29cd55b7",
+        "semantic_sha256": "bf4f371e50ca9d9c981d75d05d569cb52a30a0f6b1010659b152a5061a6edaa5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

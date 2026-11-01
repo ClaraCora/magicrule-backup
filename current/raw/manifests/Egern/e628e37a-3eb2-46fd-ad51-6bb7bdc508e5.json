@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:25.088491+00:00",
+  "client": "Egern",
+  "rule": "Threads",
+  "rule_updated_at": "2026-07-26T10:45:54.553993+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Threads_rules_aae6182b9366e667.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f29143f8f088b3ce9de237cbad2165976e13e7f85f645851263a56f08834d9f",
+        "bytes_sha256": "0b490e702049d702afa8a260e30c1a04369650a18de87f651580b69851247fc1",
+        "semantic_sha256": "6656b042a46c2028fcdd15901ae18e40871a24073c5dcc8f11368ee0181880a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

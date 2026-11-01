@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:50.283238+00:00",
+  "client": "Loon",
+  "rule": "LibGen",
+  "rule_updated_at": "2026-07-26T10:36:32.849576+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LibGen_rules_115eebbb3eae7539.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d967cde8c98667b3ba224ea5806f7915554729eee8aaa62bca1133ba3f22ad4c",
+        "bytes_sha256": "787cd5d0760c259bfb8547e72c20609f95ad0de626f478b35f3670bfbf8147f2",
+        "semantic_sha256": "450e35905f36edae373439c0bea20c6db887bd9ec780bf869c9ae50a01d98e74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LibGen_domain-set_2b9b8aac6070efc2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bfec9e3cccd4c1265dee9e0981d225061763833f99b2e8c9a5be1f95f9e82b8",
+        "bytes_sha256": "2e1f561fbb86868d447264447b728bd359b2122701d86c32cc0d2817614b8e7b",
+        "semantic_sha256": "90830838678b19d76c1b08369813f07a1490a84b8ef6a11eb48719fbfe2e5a09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

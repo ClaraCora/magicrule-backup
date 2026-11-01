@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:43.098774+00:00",
+  "client": "Egern",
+  "rule": "YnoProject",
+  "rule_updated_at": "2026-07-26T08:37:14.357545+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YnoProject_rules_c2a68e36115a5b25.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "64b131b306b2fcab1e32ca7d71ab559aaf071d2c8378e078114d22fc98a4c4bf",
+        "bytes_sha256": "7f6ffc1f9439f0ddbd05f7cf0efdbaa6101504fb1b17f1232e0913267ed81704",
+        "semantic_sha256": "b286bb78016413a931e991f3bb26aa73209a82b703da31ee149407fd33549165",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

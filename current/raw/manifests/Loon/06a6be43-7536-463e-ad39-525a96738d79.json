@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09T16:17:40.578245+00:00",
+  "client": "Loon",
+  "rule": "ConnectivityCheck",
+  "rule_updated_at": "2026-10-09T15:58:55.724676+00:00",
+  "type_counts": {
+    "DOMAIN": 17,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ConnectivityCheck_rules_0b31ebe00f07eeee.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "85d43300d2590acb4d953de15475c2318998a7f08ba6659df364ab802c0d9058",
+        "bytes_sha256": "53345ebb4be5ad48792dde6e8f389b4d9b7d8adb6340b9ba844e57aa614b167b",
+        "semantic_sha256": "58b23d044e6d2d41c5734e6bba7c54fea90e1175c471d83558f7d04bed364ca8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ConnectivityCheck_domain-set_362ff52f768eb8d7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "20702beceec9386ae43d213ef4827f4a6ef33a546c78fbac6f7b8ce4ab33c023",
+        "bytes_sha256": "8f59c294c0cfe4cb57b2615c6268abdc9e0254556112c5b220225660178dc739",
+        "semantic_sha256": "2bf740cdc1f148c8f45083ff54a59065af5a09f84ec6606cbbe425c850db33e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

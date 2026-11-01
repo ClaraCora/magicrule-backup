@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:56.833364+00:00",
+  "client": "Egern",
+  "rule": "Mucinex",
+  "rule_updated_at": "2026-07-26T10:37:48.533297+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mucinex_rules_99bcdf21559cee9d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4708bf55496896e886b6ba4c099a0ca067805b989c5c0c468641db896029205",
+        "bytes_sha256": "ba113ce33792c9ee7a88f0311e19cd748e162d539b3f0c327860154c7e98555c",
+        "semantic_sha256": "7d265b2766873bc984599417ec4aa8b658dc57766884a9593e8f8ba0b25c677d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

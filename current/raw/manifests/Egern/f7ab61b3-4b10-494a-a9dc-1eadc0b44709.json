@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:04.324785+00:00",
+  "client": "Egern",
+  "rule": "Showtime",
+  "rule_updated_at": "2026-07-26T10:43:10.312484+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Showtime_rules_eadcdc33b5b96177.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "95c88b70411ee183e7aa7c1e455c1625ad2e9cb5697a9c6ce5d00bc649a57256",
+        "bytes_sha256": "5d7f7eac98e8e660c32fc0213acd4970b334ac676bb09802b5515423ba856aab",
+        "semantic_sha256": "a829a7766be04cda933ba4dc8abf1b4ae01092b4888a2e625b20efd53bfbc10e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

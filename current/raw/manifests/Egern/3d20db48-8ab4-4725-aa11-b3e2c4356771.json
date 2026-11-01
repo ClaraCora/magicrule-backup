@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T01:42:47.340733+00:00",
+  "client": "Egern",
+  "rule": "GlobalCloud",
+  "rule_updated_at": "2026-07-26T10:32:04.581808+00:00",
+  "type_counts": {
+    "ip_cidr6_set": 2770,
+    "domain_suffix_set": 19,
+    "ip_cidr_set": 5779
+  },
+  "total_line_count": 8568,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_rules_8ff693584a6b243c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3bce7c07704914e0d721b05bfb0cea78e53ac0cb954d4a4a542f9d09007f236",
+        "bytes_sha256": "35631099eb84c35e412aaa4af87ba517cdbb09ca18bf6c5fb3d4c689e65475ca",
+        "semantic_sha256": "d8c069c1e01a2eaf4f98f6895f8f59fb0e067f5f4e3e973638030ac6325d9b79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
+  ]
+}

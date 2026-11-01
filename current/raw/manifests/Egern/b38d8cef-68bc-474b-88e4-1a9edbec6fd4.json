@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:49:49.551212+00:00",
+  "client": "Egern",
+  "rule": "Ubisoft",
+  "rule_updated_at": "2026-07-26T08:35:50.894832+00:00",
+  "type_counts": {
+    "domain_set": 27,
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ubisoft_rules_95d935bfe970d0c9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7359e1633a40f048b3293c1a4ee8ccc75108b24ec19fa041aef1624376c4dab0",
+        "bytes_sha256": "e5e2ae7f6197d39f5ffe0698010e9ed33168d065fed6252ffbdbcfdc01a1ddcb",
+        "semantic_sha256": "4bb96c7e56929661f01853b713cfc87afd563a11bdf46466b9fbd4a5e31ffed8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

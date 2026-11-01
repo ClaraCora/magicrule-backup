@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:54:50.011459+00:00",
+  "client": "Loon",
+  "rule": "Clarivate",
+  "rule_updated_at": "2026-07-26T10:23:44.764154+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Clarivate_rules_78bdc58c23b17921.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c915a739620607739999fd7d38e7a505a232897427b3325e81ea29696be1904",
+        "bytes_sha256": "0a97cb1d904354ca5b8271fc2d63f03c2d7276fc64d6694923b9e9125ba81475",
+        "semantic_sha256": "d01bd329e70b3a30af0cac5b93a9f725ebec3cc0a9641d7dd76f3f8b53674f0c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Clarivate_domain-set_d5c0fb65738388e1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b1f45cd75685bd827ff9a95d14c401da998eb2151285903b3aea068e7dbbf015",
+        "bytes_sha256": "09eef57ea51b843fb55b7704aff26fb3d72dc2a6013c7a3e7e507385a61c4a00",
+        "semantic_sha256": "6c32513dbab139afce3fe4162cdf7d3c607ea4adfa35cf57e13058ee37109295",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:41.152554+00:00",
+  "client": "Mihomo",
+  "rule": "WikiHow",
+  "rule_updated_at": "2026-07-26T10:49:16.431655+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiHow_classical_2f5aeb3ddaf8cda8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77197850448953be9660f8ec8dc4b727768159e4b334309556f57f9ed28de41d",
+        "bytes_sha256": "1a6df02515ec2c72ca145f551387db35e367caf300d8f0101700ed74b4f5e336",
+        "semantic_sha256": "6fee48d4bdf155ef069f8c25ee2d3edb4e98de821842957fce21ccd1c0564037",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiHow_domain_4e300e5a6037766c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "973c0ac76fd5d81d678481ee6cd9b413ba772d4bc11a7a8af7a8096d6a2e077e",
+        "bytes_sha256": "6e27b2e3e8720ecdd7da2a4a0e38e76975463c198876f764b4ea6daee5023e69",
+        "semantic_sha256": "e10add6ccc596ef3482a27cbc61036f58924868758756c0fc5acc11ed965801e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiHow_domain-mrs_a65110f686bb97aa.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c61b30e7bf475ade42d2d8470be7ab7210ee2f397b0ba1b350eb7e5c34c316e",
+        "bytes_sha256": "45cc1d01c5f09322245e8c679b93a70a8651f260bba329ab7a51af415f849697",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

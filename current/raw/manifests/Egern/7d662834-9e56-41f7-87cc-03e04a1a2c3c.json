@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:32.088592+00:00",
+  "client": "Egern",
+  "rule": "Certinomis",
+  "rule_updated_at": "2026-07-26T10:19:43.816214+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Certinomis_rules_19a1d768ea3f020d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52e5bbd4f2806c921caf6f9866efc984aa1391870821325df4c4723a6368e655",
+        "bytes_sha256": "d653098df6539198becd67e470db1a3c370a2635030fd1d933e0646482619f5f",
+        "semantic_sha256": "ac15561a71bc4ee4b5147549bfa80e5bc0ba4001a934cc00734bc26d1b6306f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:33.541904+00:00",
+  "client": "Egern",
+  "rule": "PlutoTV",
+  "rule_updated_at": "2026-07-26T10:41:06.284698+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PlutoTV_rules_5dd1eb95f3c4103a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de8263bb76372a826e133708b05ab0e7faa47e83366affa70cc85b5a1f4c7a94",
+        "bytes_sha256": "1aa89b87300ba52247f74d85d9492a4bd6810fdcaa79d973eebfc6ab37f12aa8",
+        "semantic_sha256": "e49a6979a6d2da13df7796445c5bee404d7c60fbc342c7215c5e3279bf9941aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

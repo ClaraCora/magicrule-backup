@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-29T03:27:52.692350+00:00",
+  "client": "Egern",
+  "rule": "Cursor",
+  "rule_updated_at": "2026-10-29T03:05:25.523389+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Cursor_rules_221ddd2c84ed8fa1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a72626773be56a02b4a0575b61352883818f91489ab303c8fea18a886ccdff4",
+        "bytes_sha256": "067c0581032cb1148822490b44d9c9e6723f0d7e372b2dbf9a1864434569f4a6",
+        "semantic_sha256": "9c32711c91495879f8877907a123464b23fa927e5e13d92edd53148749c8556c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

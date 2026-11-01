@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:32.785854+00:00",
+  "client": "Egern",
+  "rule": "Dwion",
+  "rule_updated_at": "2026-07-26T10:27:00.961614+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dwion_rules_141e3ffffdcbcf1f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76db0edf3dfc74a67c8e138bd1415e0fe5d96949415a8f9276dc37e7737ea3f1",
+        "bytes_sha256": "b1e163d21ed62e963dc0e07a9701246e6039ec2954ddc3b5a253ce2dd8b4e49d",
+        "semantic_sha256": "38f9ec37e3f8b4d82af3940fbf5142e9507ed0b1eaff82b5cd9f6f100dfea3fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

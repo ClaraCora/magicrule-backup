@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:45.191098+00:00",
+  "client": "Egern",
+  "rule": "KooLearn",
+  "rule_updated_at": "2026-07-26T10:35:45.576327+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/KooLearn_rules_32a935b811feabc1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c965c17bb9eb773e6505b839f0cfa7a05365438bffaaf6685aa828e999fb62b7",
+        "bytes_sha256": "b452cd1c7f04cf8628a58bc80b3f9e62ae6df939be318359f4a2c35d24281f62",
+        "semantic_sha256": "3aaa1ce6c8198ea2484383fbac4f9e4d04b26879a04eef9dfae1ab73d9b6c8ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

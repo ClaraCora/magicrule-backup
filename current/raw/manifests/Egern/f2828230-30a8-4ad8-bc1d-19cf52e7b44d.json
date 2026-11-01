@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:23.785654+00:00",
+  "client": "Egern",
+  "rule": "Nordstrom",
+  "rule_updated_at": "2026-07-26T08:39:33.280449+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nordstrom_rules_2c34013eb02d17a4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c3723a1c4210ea79b02390dd7e0d3527c09c14c2773f3349240881ed225f49f7",
+        "bytes_sha256": "cdd991b788661321ccab5b94a2e9379a6846a1efe88b465d69c7bafbadbb63e3",
+        "semantic_sha256": "228393710e70087b76d96c77506dd267b8997f528909e2eb09d9d0d5838a0510",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

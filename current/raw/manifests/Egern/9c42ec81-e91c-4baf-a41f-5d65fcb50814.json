@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:52.703158+00:00",
+  "client": "Egern",
+  "rule": "TianCity",
+  "rule_updated_at": "2026-07-26T08:36:59.351481+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TianCity_rules_038c73b3d478499f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "975d4d8d0aba6be10a1c028da65184ebe330d94d7b04418909b6b4e8f2aeed21",
+        "bytes_sha256": "307d438271acddac45046f6732f9a44e0870fab562373e0dd7f0e66efd7bbb42",
+        "semantic_sha256": "45160f4e915ee3bb60a60b398c4819d231f487f6c02e82300ed2a44bf3132f48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

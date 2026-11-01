@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:53:59.257161+00:00",
+  "client": "Mihomo",
+  "rule": "Fandom",
+  "rule_updated_at": "2026-07-26T10:27:31.607724+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fandom_classical_b7fc7cf3ae91c132.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a72d93e69d158a615620e689a54a93ea707aee823b613c38ef9895e0ea7c4df",
+        "bytes_sha256": "f07ba30b690b533029feabecea6c8569407c906b4ec5a2b102edbd95408217fe",
+        "semantic_sha256": "16e7e7ff6a1edeb1e3107cffe110515250c604fbf84a3cb50fd002f65f709f3d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fandom_domain_b9ac3edfff67982e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "267d5df3a8df832d506b2fcdc02553d61e35a5878e3585e3ae77f1fcdcb4bf8a",
+        "bytes_sha256": "66b62d5d67907cc4fdd601936be9bd9c7de3b42497b5f82050a420abfc8a0381",
+        "semantic_sha256": "b334e69782157bf0e754463e72216a545e10f40afafb42a1901b327b5c6c8ed1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fandom_domain-mrs_051309b5992a6627.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "80157a2b5a0cea2a8940be1b93fbcf98ac5d41cd4c327ec11f1d10675a568a86",
+        "bytes_sha256": "d13feb2b1059435b2c30edc10a2b8aa618f5f11f239fb9b0791a9150dc71ded1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

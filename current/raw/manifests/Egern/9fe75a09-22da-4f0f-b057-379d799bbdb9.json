@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:59.332029+00:00",
+  "client": "Egern",
+  "rule": "Modrinth",
+  "rule_updated_at": "2026-07-26T10:37:42.899043+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Modrinth_rules_ad000e5a3b0a5570.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e789f135a17cda1f63f3079ee54c6c8d64806e677d228dafbccff1b76340ffe",
+        "bytes_sha256": "66df7ad414ff4f46b2e2889311341eaa0e88eef4126b6dedc3f945b2f4ee82d1",
+        "semantic_sha256": "3df88ad5abeb3e7389fbe876069b1a81842679ad709be1c01bdfbbc07a5e103b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

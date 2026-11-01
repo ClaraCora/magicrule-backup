@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:38.643296+00:00",
+  "client": "Egern",
+  "rule": "Coupang",
+  "rule_updated_at": "2026-07-26T08:39:21.461119+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Coupang_rules_aef1efe2c1bbeb19.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff819513974dee4c787ac159bd02159873ce73ddc113d030f957c3f38bfb6e16",
+        "bytes_sha256": "de185a97772facb305537d04123ede4f6d136f14f8644cbef2ce1a62a9621fc7",
+        "semantic_sha256": "77fc377653bf8b526820ae9589b5d0d4e2197976199c3681ec4cdd0cef72d46a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

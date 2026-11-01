@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:53.068460+00:00",
+  "client": "Loon",
+  "rule": "LetsEncrypt",
+  "rule_updated_at": "2026-07-26T08:35:45.741328+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LetsEncrypt_rules_a5b98681e07bd032.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ffa12667d32c2d141ff651169cac47cd35aadafcacd38f59f66f1703bf3e465",
+        "bytes_sha256": "c0586d21259fd6fd9949e1d4d687cf12caf9a4edcc4ddf1b5cd101cc7614bc84",
+        "semantic_sha256": "180a84c7e699fa8e60856fc25046e4796c1884bc8c6e7e19b84047ed6303aac2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LetsEncrypt_domain-set_735d0cbea4c29185.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d56123aeedb3d67b0e593b9baa2f30caa2e85d6020949b13f6ac85a0677cc55",
+        "bytes_sha256": "7d2218c0759b85286b61c9a013630eb1faa08eb58c71308675565021182c6f3f",
+        "semantic_sha256": "d9616a3dc70eb15564c624ab8c2604cae445b2846ab7e459aabf9a0ff244d9df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

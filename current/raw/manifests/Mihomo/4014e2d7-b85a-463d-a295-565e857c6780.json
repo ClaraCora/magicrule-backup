@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:54.525192+00:00",
+  "client": "Mihomo",
+  "rule": "OpenSourceInsights",
+  "rule_updated_at": "2026-07-26T10:39:47.491296+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSourceInsights_classical_f3dc3e245f96bb17.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc70e43147c7a4429c9c142fb1bc574ea160e0c2aebac09103d9b59ea8c8d5d1",
+        "bytes_sha256": "34f1488682368aad389055ab0c35b67a8002e09fa3d9a14b6030ef4aac0d3504",
+        "semantic_sha256": "b784b361f0ae85da7d4795be494ecd4ab5e4b85cf220c11aa0d13206cbc99757",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSourceInsights_domain_c7c26f3a06f1e320.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d28ad357edfaf80d3818ffacb6cf2c4b176e29293f67ec259ce3d92e3a973b33",
+        "bytes_sha256": "9ce010b91bba426b851606231a12e6bd096c32d05fc9b6de65a192555284bccf",
+        "semantic_sha256": "c9996d16a674c5ad9dc578b96365009026fab1c6b20915b89f6582cbcbee4a2f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSourceInsights_domain-mrs_f540ed7c99883e78.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d326ee5efb1fbf18735d8d8d2301ec2768cbc59b64d7378fdd89f83cc7f3adbf",
+        "bytes_sha256": "6e38cd28ad31825988b912be5fd77faa341cbb5952b4685651d1245831115f88",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:40:48.945530+00:00",
+  "client": "Loon",
+  "rule": "StraitsX",
+  "rule_updated_at": "2026-07-26T10:44:18.448976+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StraitsX_rules_d76549e50d5ac004.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0eebb124f9aa61abb027ad017302b4d393a324c3b793d200fc7fae37e255baeb",
+        "bytes_sha256": "5d059124cec76a6bd465474497bfd98e20dccc081d363f26b8816eeeaa5c8826",
+        "semantic_sha256": "928437c3e5ff87ce015dcd2f55bad793642d80ef5cea13b2075c3d27275ed42e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StraitsX_domain-set_32d12d8349674019.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a519cff6a1927e691797b42ece7dd6b7645ad10c03258a048ae6a5644330cb5",
+        "bytes_sha256": "6fbde37f6977265316b9c0007dbb45eb5efa6aa2d516add03b31810d6532c97e",
+        "semantic_sha256": "0282aea20284b76871c16a97c8d37ed81764023e0a84c8745f13e77ce91fa3b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

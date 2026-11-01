@@ -1,0 +1,23 @@
+# NAME: China
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-10-30 09:50:54
+# BEHAVIOR: classical
+# DOMAIN-KEYWORD: 10
+# DOMAIN-WILDCARD: 2
+# GEOIP: 1
+
+payload:
+- 'DOMAIN-KEYWORD,-cn'
+- 'DOMAIN-KEYWORD,.tmall.com'
+- 'DOMAIN-KEYWORD,alicdn'
+- 'DOMAIN-KEYWORD,alipay'
+- 'DOMAIN-KEYWORD,aliyun'
+- 'DOMAIN-KEYWORD,baidu'
+- 'DOMAIN-KEYWORD,beplay'
+- 'DOMAIN-KEYWORD,microsoft'
+- 'DOMAIN-KEYWORD,officecdn'
+- 'DOMAIN-KEYWORD,taobao'
+- 'DOMAIN-WILDCARD,qhimgs?.com'
+- 'DOMAIN-WILDCARD,windows-*.net'
+- 'GEOIP,CN'

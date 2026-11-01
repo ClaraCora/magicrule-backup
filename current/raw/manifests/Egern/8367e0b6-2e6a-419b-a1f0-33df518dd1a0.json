@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:47:53.455565+00:00",
+  "client": "Egern",
+  "rule": "Forza",
+  "rule_updated_at": "2026-07-26T08:36:31.244353+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Forza_rules_110acdf3d51dbc94.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "767a9604f99cfc41d07411a866d6ca77aaab00ec72e519becf51dc6ef1c75773",
+        "bytes_sha256": "17754fa776e1ddf5d420efbf81037cbfbe986798809af9894ccf0e16e348ac37",
+        "semantic_sha256": "182c1d33f1a29db1539589fe7faa110ce1b7a67642d6aaa3e68fd0a4b411f97a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

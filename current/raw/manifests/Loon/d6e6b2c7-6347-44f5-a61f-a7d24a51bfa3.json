@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:52:09.349508+00:00",
+  "client": "Loon",
+  "rule": "LinakeSi",
+  "rule_updated_at": "2026-07-26T08:38:26.765659+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinakeSi_rules_f3ef6febfecad5b2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bcfcd2770a390fdd18bb59474c9411336a71b8d8e138ee28ddcf9dfa64d8778",
+        "bytes_sha256": "87bed184139353af958978a70d8ab579a2cb9adc72522d2469c2f254339b179e",
+        "semantic_sha256": "fa93b0aa2fbb38ce055ff204e429561a522184d453a84b075c064e575fe63847",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinakeSi_domain-set_bb1a321be9be1054.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a37700975dbaa7f4883ae6bb2c817e11f2197a9455516f3ade45c1328e94dfcc",
+        "bytes_sha256": "26fd9c3882488b2b35022917ce0b59f443e6452510809f1bf19dd28d3cf63946",
+        "semantic_sha256": "97068e044815da8f935f86717a6d67844ac89f244482d5b42032a81fc61b057f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

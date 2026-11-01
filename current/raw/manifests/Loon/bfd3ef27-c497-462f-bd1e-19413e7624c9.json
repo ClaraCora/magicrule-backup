@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:31.732415+00:00",
+  "client": "Loon",
+  "rule": "Spiceworks",
+  "rule_updated_at": "2026-07-26T10:43:34.669150+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Spiceworks_rules_932c6ae409355312.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f793c630ee3dc8f57f6c4153a3c077e3cc60a192cfd90da6bbbdac9d0ad1924f",
+        "bytes_sha256": "e7e7f1dffa539790227be8fc22587023752089398c227396779c43dc7d561a7c",
+        "semantic_sha256": "d01c12f85148e90c027aeae0b08d16cc9e4ea952e862ee8c2d995921a750f231",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Spiceworks_domain-set_124b5194845cfe22.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5b7aa5f84b82e3e11e88656887241bd7676947e09a2319c84bd1bbe6a4ccd475",
+        "bytes_sha256": "b136624f604785812defcd1e02b826e33034707268e80783e873fa91e053e396",
+        "semantic_sha256": "0fc8e66c62b7739dd6e5f1fc437bef4fc30719a1397e2a5644ab71046d7b6dc5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

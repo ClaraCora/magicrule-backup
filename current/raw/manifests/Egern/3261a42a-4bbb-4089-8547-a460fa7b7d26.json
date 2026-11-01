@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:15.689255+00:00",
+  "client": "Egern",
+  "rule": "WISeKey",
+  "rule_updated_at": "2026-07-26T10:49:22.869387+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WISeKey_rules_4a47353ec2cc1045.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da7adbd2f73ebfc3561592f1f2602198ef3f232dc0931392e57470417d674ac5",
+        "bytes_sha256": "b7b72759d7e2d8f26fa03c0adbe58bcaeb8cef0dc61d3b95e11e4c21efda7962",
+        "semantic_sha256": "dfd33af66d27e17c71837ffd9044f87e3b44aea76f2e7364f8a77b6f1a4718f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

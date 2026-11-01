@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:37.933800+00:00",
+  "client": "Egern",
+  "rule": "Dettol",
+  "rule_updated_at": "2026-07-26T10:25:09.227913+00:00",
+  "type_counts": {
+    "domain_suffix_set": 35
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dettol_rules_766a23b25f66d054.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0feaf410a9b5712cdb46e0661eec480a771ddc301fd087f27a87c9fffd8485b",
+        "bytes_sha256": "4a743667a70286e5b248fe91b1a0a1c1848bee2c66912fb1d3f97642589f3a30",
+        "semantic_sha256": "0b1fa38e92489f07765a74bd8e1d3aef1850412c3910f4c5885372f9337a6b45",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

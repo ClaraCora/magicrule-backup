@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:52:34.889168+00:00",
+  "client": "Loon",
+  "rule": "Flickr",
+  "rule_updated_at": "2026-07-26T10:27:59.164338+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flickr_rules_a17a372e19f98442.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "acd5c1424c37b7bff096befd727a5ff359017eede99b327bf147602923320b2c",
+        "bytes_sha256": "ec6a9ae3fa25a92e2d0eed2a478940f73705d9ee0d8ba342f59855720417b9ab",
+        "semantic_sha256": "04aa13a6234aef178756d1c841b8d17421c89f6ed881ab7f96f639e2817822e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flickr_domain-set_3e4ba7aa70a0b051.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "adb06a232afb77703f786d5a0d3a9aef7a383068fd072f943914fad696927523",
+        "bytes_sha256": "de4104af9b745d8d4f15007e9bac63e283311201cad5d1830587a77355363b52",
+        "semantic_sha256": "9076946c5f0ddd00ad5cdb7cf8f8d1ccd70472f9de1f3facffe915dccc916091",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

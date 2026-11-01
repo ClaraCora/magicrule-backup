@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:34.457144+00:00",
+  "client": "Egern",
+  "rule": "Flickr",
+  "rule_updated_at": "2026-07-26T10:27:59.280385+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flickr_rules_f1b76f96bdc3ab82.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b944d27ace67466187dcfaaebcd2aa8ad38fb5d844e1615b8f19f87c59da0dd",
+        "bytes_sha256": "3866dac9ed30d3c3119f60acac1b90e8e3a16c7537e6ef6a786d83b0dcad3f7c",
+        "semantic_sha256": "045869d36e45edb8f02ba24c1be4ae2839de1633475220c8060f91ffa30fbb7b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

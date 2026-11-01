@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:33.696680+00:00",
+  "client": "Loon",
+  "rule": "PlutoTV",
+  "rule_updated_at": "2026-07-26T10:41:06.154556+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PlutoTV_rules_1a14b5888df742b7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9b1fafc3e4a044294624e0560a100a1a682bf388b6b938598cd966196d7fb8f",
+        "bytes_sha256": "0721b6122c5007859ba09b30bead405b040a4598fcd564223a6b58dd5e5d9e6b",
+        "semantic_sha256": "f44c2df499c0dd131fb508e9b81cb409aab7a7a8d7af6d353e0bb5dbac85950b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PlutoTV_domain-set_d9262c391150fbac.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "379c4a0b28c16bf105cb094f236e9139b7061b9ad402c7977d9bd9de3f3fb5f1",
+        "bytes_sha256": "50f961025e7e9d65f2a38bd4ef1e08368b6a310b1fe62b0d8acf6b1b485a5a4a",
+        "semantic_sha256": "07c9102ea2ce617bf5c0a21a328894f1e03c26b0321f3e20c628d23dcb9304f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:35.003682+00:00",
+  "client": "Egern",
+  "rule": "Flutter",
+  "rule_updated_at": "2026-07-26T08:35:42.876749+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flutter_rules_b46d7a82041a3f46.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a1428d278642a7021e86643fcdef4dc130e2b1bac076896780c43f341248d43",
+        "bytes_sha256": "6f4daa66dfd55ac9e09e4120c7200547784a7cf9322082b678160ddb9c7f1c55",
+        "semantic_sha256": "fe2f126ddf96fe0afb293e104a42c871a6b4ede2f76735078de63b67fd8eab93",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

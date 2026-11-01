@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:47:26.841643+00:00",
+  "client": "Egern",
+  "rule": "Nurofen",
+  "rule_updated_at": "2026-07-26T10:39:34.224964+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 27
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nurofen_rules_ec675df5d3976228.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "983bc1c85394173d8da8e6d90db560665b91d9f6d264940b6fee8481879d5f34",
+        "bytes_sha256": "34f1d062b3bd6ec3574541a42404c5a6a0494e1b2323dd6dc5c46fb2dfa1fdcd",
+        "semantic_sha256": "f5cd6bd08c6fb26a61ca57adb4dff7712aa1c8cf75cad15609fb22a1d55d6d3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

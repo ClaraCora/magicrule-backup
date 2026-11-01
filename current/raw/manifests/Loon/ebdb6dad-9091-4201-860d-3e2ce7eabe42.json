@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:54:01.087936+00:00",
+  "client": "Loon",
+  "rule": "ArtStation",
+  "rule_updated_at": "2026-07-26T10:15:11.577335+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ArtStation_rules_1ffdc51792a53f34.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11aebe56d398855666455b9220d16e6f9cb516abc574cc261ddd750c64714873",
+        "bytes_sha256": "8e1042af2f510d0332c694b248d46778cf3aaf5ef4840344106b431b8b912d79",
+        "semantic_sha256": "55f367bb7d4b864117d695acc8b875381feeeac57b7a142758d57413aae2acb8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ArtStation_domain-set_a075338dd02864d9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "538c7cbbfadc7f1789c36518d3602658af4a52b02e3dcb6050fdf6d53f8e5431",
+        "bytes_sha256": "0735c4757880f5c986fbf2d4cc0709337bbced1e4ddf06124476d9e86d96eb20",
+        "semantic_sha256": "e93aae72be723e82743b6645238337bbedede02eff4c2674467db23b5ddcaa1c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

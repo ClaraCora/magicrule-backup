@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:49:50.175746+00:00",
+  "client": "Mihomo",
+  "rule": "Ubisoft",
+  "rule_updated_at": "2026-07-26T08:35:52.136255+00:00",
+  "type_counts": {
+    "DOMAIN": 27,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ubisoft_classical_bc748415dcc8adbd.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc5ace56cbf9676adf83a103725e148d759f51b60914b5973b705d41461b9b45",
+        "bytes_sha256": "e5d4c73f315a20d02a19125ae5d3dd0f84c26c50c9fa09bf3905993b922b1a0f",
+        "semantic_sha256": "a396d2343d24a63e65e90d0c891e657db066bae6ce63aea143b05ee229e69b90",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ubisoft_domain_a817d67f1d09a6b9.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3485b55265b97bb99404adcb6a36ab2810e32c2216150e57c954c9deb02bfe8f",
+        "bytes_sha256": "4639b56de1c25283c8f453372834c7da954e9e398893f1c9f7fa67d2ddf9058c",
+        "semantic_sha256": "4c39cc5efd0053dc4728b2cad3d9ac30eadf31d3b2bc72f0d9e2730f5c112311",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ubisoft_domain-mrs_260aaed98d6fead8.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "46cab592b3c8764f4bc89e03dc85c3d8c21b36f6dade44093945e3785a42f87a",
+        "bytes_sha256": "717b8a070f406d0268c05bae0048c083bf51e3e205c3a241f23f2575dd138f22",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

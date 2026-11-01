@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:50:41.392569+00:00",
+  "client": "Egern",
+  "rule": "GeeTest",
+  "rule_updated_at": "2026-07-26T10:28:27.942648+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GeeTest_rules_3b5eedc3b6a3a4ca.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3df01e7535e56cc8ce8735fd7cbf97ab248d19b08871abcc5f38f5a88a443966",
+        "bytes_sha256": "7cdbbd30c9668ff128df195779f277f06b9d87b5af753404dcd4b03366a6e4d9",
+        "semantic_sha256": "88396f015263564cae7027e72f4298c793fba53b3d2695a4cac51ca4c893f82f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

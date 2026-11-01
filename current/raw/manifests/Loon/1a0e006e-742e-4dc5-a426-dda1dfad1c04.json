@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:22.848384+00:00",
+  "client": "Loon",
+  "rule": "PolyU",
+  "rule_updated_at": "2026-07-26T10:41:13.677006+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PolyU_rules_690fbd238591424a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08f7a79ba9384fa5b9b2470606808546e927851826d3706361238d2eae19ba9f",
+        "bytes_sha256": "52adfcd6b28f4c9355d07eb899e63fdae73b2d57068bc9da7ed8d574db2abb62",
+        "semantic_sha256": "6263451477464533c12fab355265230db54239083fecf112ece4305e3d9ac93e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PolyU_domain-set_e84a091246b3ab44.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1eaebd8a0ab933533fd8aff35b81112e05923217814e232d1464eb154facf724",
+        "bytes_sha256": "fe83661ae546014871e83004d74bd3691bdc34f10b2ef8d106856b09d4436de5",
+        "semantic_sha256": "084b4cfb869904e7794d2e179fa265c80b13a1e2c47dfa92f17906ae4c42a862",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

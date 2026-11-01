@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:00.341027+00:00",
+  "client": "Loon",
+  "rule": "DMIT",
+  "rule_updated_at": "2026-07-26T08:39:08.017530+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DMIT_rules_51334a02db01fef2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee3cfd5bf4db0987c5a8fc7825b539bfc4d9d9297297fbc3d8c07b240d822497",
+        "bytes_sha256": "0895d5b583f652b07e4b503d6558c2676c0563f9f4cfe68da12cc5c7324f4f4d",
+        "semantic_sha256": "a0ecbe2736bc2da7c2d0b222a040c34338c50085ee2cc9b84cec75bc09f613bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DMIT_domain-set_00cb586d24a33aad.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff4d7df316eb987fd550467a023ab27925a881aa4855e0f37587ddd69cf7a179",
+        "bytes_sha256": "fdacacead81c4ea2568175c16abcee936c6fd6fd7565112dd30fbfc902654b92",
+        "semantic_sha256": "d42e80fdcf4c6880f6e74c0e66a2cd47f6cd946767ce3d341d9ec362def11c99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

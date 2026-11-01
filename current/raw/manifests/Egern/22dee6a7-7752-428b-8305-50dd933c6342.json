@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:43.202595+00:00",
+  "client": "Egern",
+  "rule": "OpenWeather",
+  "rule_updated_at": "2026-07-26T10:39:40.241218+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenWeather_rules_b4a05d5533e64bd5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e662317c62c8cc6bb51f7f6b1c6ab3058f931ae4aef60e0e610642282044a5da",
+        "bytes_sha256": "4a97dedacd9f22745bd9e5a49d57f83dec8e9a2b8c9dfa0499d1b7c6be9b0bb0",
+        "semantic_sha256": "0d87b31c9074f27640e4784f0a4d8ca4851508e1d345ed4670bbc6402e1bd6b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

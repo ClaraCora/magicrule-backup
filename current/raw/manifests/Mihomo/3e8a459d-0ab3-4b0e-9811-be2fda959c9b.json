@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-10-29T03:08:29.922008+00:00",
+  "client": "Mihomo",
+  "rule": "WarGaming",
+  "rule_updated_at": "2026-10-29T02:37:35.587376+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WarGaming_classical_f42fe1382271f6a8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b0bac3c3c5c3a954085da0a40d9718af40273039b00819f563ecacf30c9046d",
+        "bytes_sha256": "50afe3f97728397eac51d1c905ae6e4ba980e4b3a3638b0f575551ec10b6285d",
+        "semantic_sha256": "b9711f99acd6d84a1e3438a9a5f2700495d4302e9e77080a7b14a794e26c4c52",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WarGaming_domain_1e0fadc7f712dc08.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57b27bd0ce87e52e08914d4b909f9d208a0698232c63cd47f96b6a80bd94855d",
+        "bytes_sha256": "9b96cae212bd61c1c8c1cb4075deb64d94a96987f355af8de001bbfe05f1da77",
+        "semantic_sha256": "cd2ee80d644951dd3fb7a063a7170cebc57c49118ec53e734a479795e62e409f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WarGaming_domain-mrs_f1fc3c54045ee0bc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "43e6715148281a8b5db718442571231d2fcf3d3690c7a3986c10ddd7b407eb6f",
+        "bytes_sha256": "6603856f4ab9f6e8d0234a2a307704dfd94e2374e54d5c4ab66fc973e3b8cc94",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

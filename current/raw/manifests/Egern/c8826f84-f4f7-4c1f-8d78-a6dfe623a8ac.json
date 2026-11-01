@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:06.917626+00:00",
+  "client": "Egern",
+  "rule": "SNodeHome",
+  "rule_updated_at": "2026-07-26T08:35:51.286593+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SNodeHome_rules_6e8f0d52c420a80e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4b8ea4d562be5cce7b23959a9384820fa6eba8e3d029001074fbf8f4bbbacdc",
+        "bytes_sha256": "e06239ef40116e4411af9143723c6904279766b90c4d10578a81734cc7910116",
+        "semantic_sha256": "c191bda8d2d8cb7a25c44afd4f33fef7f75ccd04d7aed64bf349ceb86f1b573b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

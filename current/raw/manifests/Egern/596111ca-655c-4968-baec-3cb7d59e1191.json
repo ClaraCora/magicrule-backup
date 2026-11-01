@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:52.290302+00:00",
+  "client": "Egern",
+  "rule": "Eneba",
+  "rule_updated_at": "2026-07-26T08:36:30.559031+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Eneba_rules_9be5a5e913d55f62.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4ca9471afadd2b28f9eba64487797cd4a925f858a8b282bd3c92bbaf490e63d",
+        "bytes_sha256": "ad78e2c05b85cf134eb68f48d295cda5bbe30781329c7c53b1de26b3b389f3d4",
+        "semantic_sha256": "a94122f94aa8cf64be990e135e47b84f5e1cfb09f253f1e8036d7c73dd63256d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

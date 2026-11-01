@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:55:37.253757+00:00",
+  "client": "Mihomo",
+  "rule": "Codecademy",
+  "rule_updated_at": "2026-07-26T08:35:53.014321+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codecademy_classical_876f49930f3c6660.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94cd70c4af6763fe636c92a0e0679881db553d71afb7f8efab4827418a1f969a",
+        "bytes_sha256": "3584146c8fc682261885c8eb5b2a59beaef35da0d2a70e45c7ee0e48e4d1ce9b",
+        "semantic_sha256": "606f88e076a6503ce8a39e1bf842dfe853f588bf658b7e46f207203fc95c83c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codecademy_domain_80e11bb15ddbd223.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "06f2367d06b7a890db70bc3413cd9fc4f9950f231bef1f30bf4b05a211210fe7",
+        "bytes_sha256": "c765fbc7952b778594466e2d68833ea0dfab46f46669e15d4a958267fe5a7d47",
+        "semantic_sha256": "e983b0cba9d1e8ea584c66760a6186bbd9e05f8d94714d20c9532c9e09a917c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codecademy_domain-mrs_25a09d18ea4a1df0.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2a70e369b29f69b8cf543ecb1f176eaa9a32c43857b651d3c3c6a1a021cc0789",
+        "bytes_sha256": "1cdbd25748caa8626b241bbbb6770eee03cd4abc1d87b598e8d03273af1f840e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

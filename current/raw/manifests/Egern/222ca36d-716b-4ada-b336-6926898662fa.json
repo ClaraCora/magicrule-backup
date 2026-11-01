@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:41:40.943312+00:00",
+  "client": "Egern",
+  "rule": "OneKey",
+  "rule_updated_at": "2026-07-26T10:39:29.543006+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OneKey_rules_507a3dcacd3a24ec.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81359edc2b0f655ce81d2b5656d00b9024fa92c38ef1277a44b7c90926a44bb0",
+        "bytes_sha256": "c5297fd3766fb850aafa1e30b635db47ee1a64e295060cd6ba03086a9d306198",
+        "semantic_sha256": "cefdd170e3d631f69108541cee1ac3fdd00ff9ba397338687f84e0d094831c5c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

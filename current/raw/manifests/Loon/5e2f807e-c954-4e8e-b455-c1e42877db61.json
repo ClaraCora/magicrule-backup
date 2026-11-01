@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:58.599469+00:00",
+  "client": "Loon",
+  "rule": "SteamUnlocked",
+  "rule_updated_at": "2026-07-26T08:35:49.774187+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SteamUnlocked_rules_41f71a72fc98ba0d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42fa8182666d0c2b5c1b6e6d2e19e7361ebf4a21698898e7317273cb667b4e21",
+        "bytes_sha256": "4fa1549240643624e27c3ca1d135fd71f17b5b4a61563fcc7b6bbafa22877818",
+        "semantic_sha256": "467aaee4385263d10bfec384f4ded3349c31643235774c84190aab2a7cf5ccd5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SteamUnlocked_domain-set_5ce4c3c53bb03b65.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47364e49f8171ff7c808f1893924379d9bbfc562cc2eaf5c9015c8f45ff70d65",
+        "bytes_sha256": "5d475704361d0a8627eff6380fd5b4490a72a696fcc40aa88e5d955fd6baf2f9",
+        "semantic_sha256": "7ca5735b069bb8dee67e2b224d92ae258da3b584106c466dbcc70412836ef121",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

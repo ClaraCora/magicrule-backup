@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-29T03:08:29.914573+00:00",
+  "client": "Egern",
+  "rule": "WarGaming",
+  "rule_updated_at": "2026-10-29T02:37:35.516333+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WarGaming_rules_ca736e8660df37d7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c0d74ecdab29dc640eb3087aa586b0096ad3e0ac5d46ad8879d7974ffe367f6",
+        "bytes_sha256": "3dbfa10a0b1d7b9992f4ae7a87d384fbfa845162263650d1d1052b81d5880673",
+        "semantic_sha256": "8901373889adf9a50c1189f2f91dccf61b6cff2ebc27791a478306a9e6d55632",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

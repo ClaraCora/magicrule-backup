@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:48:50.949950+00:00",
+  "client": "Mihomo",
+  "rule": "VMware",
+  "rule_updated_at": "2026-07-26T08:36:22.569999+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 103
+  },
+  "total_line_count": 104,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VMware_classical_5b9a38bdb8558f42.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3f84b71ce532bd75d7364410f02c1baa3299c8d994c7c1e8b094d8d36bd8631",
+        "bytes_sha256": "ba237240b8eeab0a29eb195677a6ae999229c223d6a7961c42f54d15d609ec7b",
+        "semantic_sha256": "9acbb4449212b63792fa96c23d778a6f4382c87dee6f7bd714ba04912820e402",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VMware_domain_fdd004025e1d0832.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f483cef01ec370b894a8e7d334f0564d688e1487d6e534b85b22ef8f9ffb0b8b",
+        "bytes_sha256": "10d9975473315c9c066155f5f1f81b6fa119597b02d2cffc70499b060f45d759",
+        "semantic_sha256": "285c040f4ff05ea49255d143d14d55ae8bea7d39d70b0d883c77b5e643f8191c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VMware_domain-mrs_6e7014c56f3208c0.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6a4cac710f51f6f5aa14832877cf8fea7784b685793f6524f76ad7bfb9d83af9",
+        "bytes_sha256": "d708ea91aa5fd9dc9e399efb9fa2d5a90aeb45e998fcaba055b651eeeba8226e",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:41.416440+00:00",
+  "client": "Egern",
+  "rule": "GlobalCDN",
+  "rule_updated_at": "2026-08-08T02:57:26.860950+00:00",
+  "type_counts": {
+    "domain_suffix_set": 195
+  },
+  "total_line_count": 195,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCDN_rules_9428edf103438ec4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a72fac80741a8e9f8b18bd3e902d75bed19d7e7a222d2bca356c1e2cba5895d",
+        "bytes_sha256": "b7c13b2c778a2cd2ce4ff17afea63895d3500aa8b8df8e062fe61b661955db67",
+        "semantic_sha256": "717c324268c3bf72b8c157127f0c261fafe725c961746a8c6ba9315462ee9420",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

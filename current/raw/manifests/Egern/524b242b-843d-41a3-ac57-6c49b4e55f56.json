@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:30.176772+00:00",
+  "client": "Egern",
+  "rule": "Liberapay",
+  "rule_updated_at": "2026-07-26T10:36:32.929928+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Liberapay_rules_9ab1ce569fcdca43.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c2630cae1ad544456f0a50297bef443328b4cf0d2d3441de5475b75778c5f72",
+        "bytes_sha256": "64d3e77af8449fbbbd7ad121dba91be9e4516a51afeb202503262868c376f0fd",
+        "semantic_sha256": "a9f878266ca83c20842472ea6ff984003dc1df64507da1e3f5a109fe86e9bbec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

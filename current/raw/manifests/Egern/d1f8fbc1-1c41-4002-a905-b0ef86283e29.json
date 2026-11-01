@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:41.006514+00:00",
+  "client": "Egern",
+  "rule": "Fedora",
+  "rule_updated_at": "2026-07-26T08:35:16.658173+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fedora_rules_abe91edcf7ddbd3c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a5e6594361c4ca1e79a9655e3a20435f4a702517f3c25870e26b73d9c318bc3",
+        "bytes_sha256": "9eef18bcf4f03ef47aae19d5ae92c908eda6aa143ce0b8343b969bc819c207bb",
+        "semantic_sha256": "ebbd557f23b140b2ca60f8bf62616bf128ab0a0282e0e01774c225509707d294",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

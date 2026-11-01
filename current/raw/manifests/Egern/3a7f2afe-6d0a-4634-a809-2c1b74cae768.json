@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:39.453572+00:00",
+  "client": "Egern",
+  "rule": "PoloCloud",
+  "rule_updated_at": "2026-07-26T08:38:27.549743+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PoloCloud_rules_1e3f852a37d2508a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1253be3f6051c167ac64c2d714cf72fb30b46863023253f948fc353de4f93af9",
+        "bytes_sha256": "d3ef1f19d1f4ecfef28f5179ba5a58a8e6555cb4a09ac35ecb1aafd700c22da8",
+        "semantic_sha256": "bda6a570f826be29d84ed83c3961f8e8d976fcd062f9799a34ed72e8a4aeae55",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

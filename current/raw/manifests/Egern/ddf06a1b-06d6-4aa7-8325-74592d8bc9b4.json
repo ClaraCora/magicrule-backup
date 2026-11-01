@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:44.003660+00:00",
+  "client": "Egern",
+  "rule": "FCBox",
+  "rule_updated_at": "2026-07-26T10:27:47.362181+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FCBox_rules_799f26d7f479406d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d82a67537a51a2507646ef9a06215a5f91ca493497f0891ec174ff848a28ad97",
+        "bytes_sha256": "30592df23a96b0df9adb9e5dedab952d2828b4f604b1c98e4f203ef0fdf42089",
+        "semantic_sha256": "c014e8600cde501c9df8cf676965c1b1f620811e3b49e992d3b789bd0914944e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

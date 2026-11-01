@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:46.414492+00:00",
+  "client": "Egern",
+  "rule": "Code",
+  "rule_updated_at": "2026-07-26T08:35:55.956084+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Code_rules_45a14558bbb85dbe.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e3841e4f6634936ff3ed8320fd5f897a1074c4b73c7e5dd93b4490472993d30",
+        "bytes_sha256": "bd9ae8a135bc3fa239380c7983a80eccf3a9c0a05f4edadd9d1dd775c8f908fa",
+        "semantic_sha256": "49d752b43549c5c85769de2716bdbc15c74db1a15524ccf81beaf3b952b4e660",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:52:00.577391+00:00",
+  "client": "Loon",
+  "rule": "IINA",
+  "rule_updated_at": "2026-07-26T10:34:14.908810+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IINA_rules_f174f58944ebe36a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d8e5c99eddc4e4d4a23ee6376566e2cb8fff3fe10e2ae3c6e059e79c6fbbdb85",
+        "bytes_sha256": "e499415f378ef1dd7998849b51fdf8b66eb07beaf3343bdf7b016fa8a0c6880e",
+        "semantic_sha256": "827116fcff4202890f62c8d172db2babbf84b0ee06e9f7b68805a4bfcc4e74d9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IINA_domain-set_121d90016c6c306b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ec10e847b933388a1b123e9658fa471de34b5e0cd9a3c1789e4507238abc6dbb",
+        "bytes_sha256": "99d07e1d2ddf8e10ff29b1a5cbb80cc0bf9fed0b0b4bc0aed614aa1cc96bcd34",
+        "semantic_sha256": "9e27352f9c2b7f30594c26e51837d5dd55bb6d76187ac72fa5018d3f290679e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

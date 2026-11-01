@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:46.096448+00:00",
+  "client": "Egern",
+  "rule": "MetaBrainz",
+  "rule_updated_at": "2026-07-26T10:37:31.128488+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MetaBrainz_rules_3a129521d4a05a49.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57c632b05f1b99fa95d7be268da51fc5a40aee0408276ab484ec1b16ee6fa080",
+        "bytes_sha256": "5d5c460bbf72af39e66e30981331367b82be76aa27ca93cb7df33131cb45072c",
+        "semantic_sha256": "684c6d96c4bc475d70b280b34ee935d442e7cf246d4880cabbb72c8faa568f30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

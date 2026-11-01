@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:03.070503+00:00",
+  "client": "Egern",
+  "rule": "GoDaddy",
+  "rule_updated_at": "2026-07-26T08:39:17.462424+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GoDaddy_rules_5a4fcd98d60a8c81.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccc828831706596b8431564761291c9a97334a3b60e3148d2b9552cd00994572",
+        "bytes_sha256": "6cc81105f7d79a245c4669aeefce0b17e6f79b198d7ed4bb48787f68479a1243",
+        "semantic_sha256": "7ddc7845a0d0796f45896f6c07041f2584d6a9e0a3ed3b341ffeef1faa94c4ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

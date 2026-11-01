@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:43.348394+00:00",
+  "client": "Loon",
+  "rule": "QWeather",
+  "rule_updated_at": "2026-07-26T10:41:53.579564+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/QWeather_rules_b8a28bfcba056d3f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b2261aaa6b2c86df35d714c42dd93a99c3dc56a8ad78d901efe60baeda5ebcb",
+        "bytes_sha256": "c3f6d85a1ed72652bcc309dfb09146f36717c6db5ffa9d743aa22c4b0de74644",
+        "semantic_sha256": "c52961b90b4cadf2f6425227cbdaced2825fd578e3ecafa445d8c738ecd30868",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/QWeather_domain-set_17c29a92b3731325.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7996cdd618aedf1b09b7b79f651afdd6a188346337b3d5dda3bad5d297ed94be",
+        "bytes_sha256": "1bc562cb3de8ad8931ea9ee2e709d1443d829f2b7ce19bc8c5716f10092658f0",
+        "semantic_sha256": "e3321c10b555306dd6646cb53b6d31c9fb4cc68fab98cb61f70347809c6f8537",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

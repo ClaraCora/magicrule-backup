@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:10.779271+00:00",
+  "client": "Egern",
+  "rule": "Chegg",
+  "rule_updated_at": "2026-07-26T10:19:49.397509+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Chegg_rules_7b467adfcc354d44.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "954466138604f51c971be30855d3fe4fc1e327854cce2b5fbb4bf820c0b88989",
+        "bytes_sha256": "2ad49e5ea1122b3c6a75c1c5a8a6396065ccd2e8bd948a0c1cff6d360aceebfa",
+        "semantic_sha256": "628227a4e4ba1c6b3233ce4d0e4a540ca6ca8c0fda6fcaffbac2dc645b30bedd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:09.760381+00:00",
+  "client": "Egern",
+  "rule": "Radiko",
+  "rule_updated_at": "2026-07-26T08:37:57.046629+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Radiko_rules_c6dab5633f02afa6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21ed11df92a0d22091beeda82957dd3b27b2c279d216537fa25e386ac15d9889",
+        "bytes_sha256": "17a6f47afbae3923c3de4b28aece6cd7a48f5138330ec74f6c7cc944f521781a",
+        "semantic_sha256": "8cda32b68d166de93859e993381d427aab3398d51c2bfcc3eaee2996df1befcc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

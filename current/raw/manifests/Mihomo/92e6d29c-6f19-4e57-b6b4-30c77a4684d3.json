@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:48:26.493883+00:00",
+  "client": "Mihomo",
+  "rule": "TheLinuxFoundation",
+  "rule_updated_at": "2026-07-26T08:35:36.369928+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheLinuxFoundation_classical_79339db14a97bd75.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38c4454897331ff8cb148dcb10a58b4514b16c08ce720a166f20a378a3ba6edf",
+        "bytes_sha256": "e157c3647910b97830017e1c3db6010384ffbb35a28c6e04f44f0f51f0df1e28",
+        "semantic_sha256": "eaad677610a5595099addfb9427da5e9dc1090fc8f82b99ed2389aadadaa7154",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheLinuxFoundation_domain_b0248ef4a30d8348.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b1d0207dfc81c51792b7a901c59cee267bb6cd5b115948b93a147ed72a6aa86c",
+        "bytes_sha256": "237e193f1548637fb0437f0a94e99344c7c004141f3be574e3483e24826e7f63",
+        "semantic_sha256": "7ff3cdf9b9e4de96c0b5c26b2b6f90bbd314eba0d9a5c547df6a2bd85f5817c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheLinuxFoundation_domain-mrs_bc537781711a9857.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "d14dd0e3883cd9cfcf3c279de5a1f007a6d2b10dcd57557d90d334992cc891b4",
+        "bytes_sha256": "3eedf847a33b1f9c84b924706de6e22331d4671159eba0d525e98200cf928c1c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

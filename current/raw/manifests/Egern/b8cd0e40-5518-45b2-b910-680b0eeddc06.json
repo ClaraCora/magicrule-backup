@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:50:13.194764+00:00",
+  "client": "Egern",
+  "rule": "MVideo",
+  "rule_updated_at": "2026-07-26T08:38:24.651377+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MVideo_rules_ea4bba23a13d1034.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1484c96c3a65efde6fefa3ce76ae0bca61aedcf3aef65e05ff7f483165171000",
+        "bytes_sha256": "a09f31b33d39f0184cf5bec287e141f4376f96acf3fdf69a1b8708a0e0cc5d13",
+        "semantic_sha256": "677a46b0a50ca0c197a88a89106a6ee9737129805fcf8ee926c36fc8853937f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

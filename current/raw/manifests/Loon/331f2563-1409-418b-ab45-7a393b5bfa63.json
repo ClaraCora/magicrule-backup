@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:19.264740+00:00",
+  "client": "Loon",
+  "rule": "MIT",
+  "rule_updated_at": "2026-07-26T10:37:37.488876+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MIT_rules_a5ff0ae5030d7d74.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0f421561bf768b8f32778aa72b363538bff3b19bf3f4cb8c941fe44924b28865",
+        "bytes_sha256": "306b663e05617ea0b3bbffa8979113e61f2621dc268c055d46567d7a8e96bbb5",
+        "semantic_sha256": "8589437f4f729a294d6152cb6ea0bd3a353b649d902e0fbb16a7e68fe31830ba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MIT_domain-set_ca8648d77d46a5e4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9eafab9226ed6df5efc9d38440d5e9218882451fabe1eea8aafea3660d165bc3",
+        "bytes_sha256": "60c9a8cd49c09e2a23e82753c9d3e9a95ef85c7d777e2bcf707c05a8425f781b",
+        "semantic_sha256": "59f96e5aeab7338159c2b5e19c7048b99afb5c5f815e9b1108ec840a44795e18",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

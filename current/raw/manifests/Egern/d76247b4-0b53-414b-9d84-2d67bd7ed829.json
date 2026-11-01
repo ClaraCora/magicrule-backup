@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:11.566680+00:00",
+  "client": "Egern",
+  "rule": "UUChat",
+  "rule_updated_at": "2026-07-26T08:36:47.311644+00:00",
+  "type_counts": {
+    "domain_suffix_set": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UUChat_rules_e898c7cf78e2c382.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e650e7f09ce47526f21f5326681a2f1c1d801db819648359332aa90ac8e63a5c",
+        "bytes_sha256": "5157066eae01327ea0fcca6fe11bcff0c19545ca64ca1e32b4e431f727ec54b4",
+        "semantic_sha256": "3c1b9cb5161d505abda3c3f9d7abddd318b1e6458ed26e61953a36c680619f6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

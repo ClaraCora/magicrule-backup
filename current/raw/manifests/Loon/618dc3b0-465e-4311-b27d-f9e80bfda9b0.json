@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:44:19.474395+00:00",
+  "client": "Loon",
+  "rule": "XEdge",
+  "rule_updated_at": "2026-07-26T10:49:36.109686+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XEdge_rules_a8354dff74a22071.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9ea8e7df7427524e8bbdde5cbd60bd895ce805207d6d70ef27cc6592c39b3739",
+        "bytes_sha256": "f49296cfb3fece61b48610a87223c28e4267dd2025a834f3140443706da237bc",
+        "semantic_sha256": "5c0eca9d5733c41a7cadc9b19883e18ce6364a8efa5be960094740917ba15bb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XEdge_domain-set_f8f303dce3aaac70.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bacbaf81db3075693c899804805ac159bfbc2db73943c2c4e00e59552c421f7d",
+        "bytes_sha256": "6c60a443dd407f0538aaf76353beb5ed6325fc3becffbbbf4a3383fe005622c6",
+        "semantic_sha256": "481003557f2109c0df9b3b8c73f2a3dd30dde9d7557895e5b1aa710d550e4746",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:54.054014+00:00",
+  "client": "Loon",
+  "rule": "OpenSourceInsights",
+  "rule_updated_at": "2026-07-26T10:39:47.263038+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSourceInsights_rules_83aac20ad503467c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9fa9630bf9f50ca595eeb86abfb2e56c7deaec7eb89b156c7cbeb780eaab7be",
+        "bytes_sha256": "69ebe73727b375817a4ae8ecafdb5da0a8f7550a8228dba00c880ce98cda99b8",
+        "semantic_sha256": "a35154af27447edd46bd7ec832edbec7af51898df2e5fd588822914ec8493e51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSourceInsights_domain-set_c558e0bd3ac3ba96.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1639af96530c904e1e730ec0ce1400bf959ce8d64040b98d92f0d7d62a073b67",
+        "bytes_sha256": "26a08d21dcf0babb62096631061c800ad2040b7b29aef84084ba17604c11cbc8",
+        "semantic_sha256": "65a8e845ec37d211d8c2f83c17f99d4cc6ec03b154588a9cc3e5ebb7f0425208",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

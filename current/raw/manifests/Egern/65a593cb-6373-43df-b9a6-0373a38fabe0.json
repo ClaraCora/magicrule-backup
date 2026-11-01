@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:44:54.800725+00:00",
+  "client": "Egern",
+  "rule": "FontShop",
+  "rule_updated_at": "2026-07-26T10:28:05.637598+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontShop_rules_b59ffd49b5f87c1e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "490ca25b0b64163f3e37a4827bb3c4cc2424dc257e6fbdb40b4bb37912e41abd",
+        "bytes_sha256": "857ef3fce84c8df48211f27126ca73ad7d0ca1ca6ca9a564c3e339795f8426e2",
+        "semantic_sha256": "6462e1b35d91bc1500a5cb79a515340936825463fe14cb3319cd89b1a0162765",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:06.025077+00:00",
+  "client": "Egern",
+  "rule": "AdobeActivation",
+  "rule_updated_at": "2026-07-26T09:55:32.959168+00:00",
+  "type_counts": {
+    "domain_set": 134
+  },
+  "total_line_count": 134,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AdobeActivation_rules_79a10f95b08d57fc.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b00e8162befde6e3559539f5d6ce9a36f1692387ae8c7b2109ad318e881c9f8",
+        "bytes_sha256": "1223711f8eee4d322aa6151cbf85e0a24c647e9954e48b1f7e84ffbb8d282a59",
+        "semantic_sha256": "6d8e9d33c326b6166f1c2d75c3010f918c34cd7ce3b8762028f85481ff5071e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:48.923820+00:00",
+  "client": "Loon",
+  "rule": "ServicePipe",
+  "rule_updated_at": "2026-07-26T08:38:38.939323+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ServicePipe_rules_d39121fcbcc59e3f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4cef1a8806908a702b8ee34f81cb33acbf5cf91af217d415d0e633322aa3431f",
+        "bytes_sha256": "c9cac2e4e37241bcc80e8af13cc9b0c8061a914b8bbef7bacd91476d70658305",
+        "semantic_sha256": "2441bbaef8a631afa6728736a75a5e5299da64e68bf1fa2d0e9f847a9c2cb3e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ServicePipe_domain-set_10244738fd7f3921.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fed042fc3a4bb35a0dbaa2463247dd194392e282342086537950a066cc057b3b",
+        "bytes_sha256": "a70ac900549df1b8f91a335cdeb177c211b67a05db557cf1445e2719a3ec614c",
+        "semantic_sha256": "44b5ddfefffc9bb84a830fe40fde9033edf9df8e6a6f2026fe1bfab8fa454457",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

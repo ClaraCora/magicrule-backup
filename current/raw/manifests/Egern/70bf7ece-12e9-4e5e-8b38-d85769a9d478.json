@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:56.489066+00:00",
+  "client": "Egern",
+  "rule": "StarfieldTech",
+  "rule_updated_at": "2026-07-26T10:44:04.661761+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarfieldTech_rules_374b506472ed581b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "640c8f0b67ac0d6f3fee0e522e0cfdeba8aed10682ed1a5f159e48b1df7fb9fa",
+        "bytes_sha256": "97a95f55ea2ce4a1eef3de33aa3e8d498d68fbef7bc82b71634631bc36880174",
+        "semantic_sha256": "aebe7651efb25997be4749c303e9d4fca96fdcd7cd0ffc189469c0f7bf577272",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

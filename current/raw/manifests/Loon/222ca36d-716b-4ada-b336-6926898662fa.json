@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:41:41.040957+00:00",
+  "client": "Loon",
+  "rule": "OneKey",
+  "rule_updated_at": "2026-07-26T10:39:29.388584+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OneKey_rules_3f49ff0de05f1aa0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "426db4d1988f865607a40a89d318ae9f399fe173121b31237d00eee47eafcd22",
+        "bytes_sha256": "9751ec25c2fdf0ca9b3c021ae6ff4d2fc6264e101bfca76daaadaf203f278064",
+        "semantic_sha256": "028e684bf1e6e781b8aba947882ed0c22b80e4726cbdd5398ee73bf366cbdc03",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OneKey_domain-set_1be2eff46e37660d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b96e152bbdefb593b1e6eb8849c6b298ad339adca4e85510d9cc01c709d035e9",
+        "bytes_sha256": "6346b58536c023f8a12ead3445850ebf71af82a55592176ff9bbe8e06cd8ae33",
+        "semantic_sha256": "f4a6bd48c39340312ca8faa47f19cd0aee23d4ac6ebe8a59390e58ee7ad0b18d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

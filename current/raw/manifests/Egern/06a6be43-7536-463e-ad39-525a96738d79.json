@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-09T16:17:40.610171+00:00",
+  "client": "Egern",
+  "rule": "ConnectivityCheck",
+  "rule_updated_at": "2026-10-09T15:58:55.812612+00:00",
+  "type_counts": {
+    "domain_set": 17,
+    "domain_suffix_set": 11
+  },
+  "total_line_count": 28,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ConnectivityCheck_rules_ece02abdf86f217d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e78533301cd23ca189ddd2649b2bda0bb09d01bd64161d1d936acb8cf9f9df5",
+        "bytes_sha256": "c52feccdffb839f856d29a5f21aba254f305832513e5c749b4350ce6c819d7ed",
+        "semantic_sha256": "5fbb87a3f5d528c6673c215fe659412674eeda84dd088bd3441fcf6302858d0d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

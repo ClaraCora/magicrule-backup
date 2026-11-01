@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:54:24.632187+00:00",
+  "client": "Mihomo",
+  "rule": "Nordstrom",
+  "rule_updated_at": "2026-07-26T08:39:33.310674+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nordstrom_classical_b2334710b406fe14.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09a9172ccff6bf7dce57860efead21c759dd34a29421c24280252bc835622972",
+        "bytes_sha256": "a9810bdb3aa4864ab8e29fd39c9d39ef17b8b920c87755f8f9b7b38c0181b2b9",
+        "semantic_sha256": "9a3e6dc24e7548d52b0d14e17a4c0cebcebc3f91e7dbbddf4d9e852a8f9232e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nordstrom_domain_c0213583c2c6e292.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3b9aab55dc98e99982368849237b9bb15dd82b99dd41d803df35283c150cbdb",
+        "bytes_sha256": "e106860bcea2909ad4ef60f132a1373119a1b1645160d699fc2f1f453da17f24",
+        "semantic_sha256": "67de22ea1c672fe2a69d1cf192fe4c7dafd8c6cbf66c552ecd91d7da88a800a8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Nordstrom_domain-mrs_8815a789fe636e86.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5044de56917ae859e4773b60ba9fb0a39eafc12c7d25ffce26479e090e01e16f",
+        "bytes_sha256": "47183fa17dc0adeabe38d27e5b1b6698a91e8f3fe856166e5ac0cc72c14f5835",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

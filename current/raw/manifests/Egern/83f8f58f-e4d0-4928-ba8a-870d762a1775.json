@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:55.362422+00:00",
+  "client": "Egern",
+  "rule": "Kindle",
+  "rule_updated_at": "2026-07-26T10:35:37.806274+00:00",
+  "type_counts": {
+    "domain_suffix_set": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Kindle_rules_3b2c054381bef9f6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59d4afd542cb2696b8c280318ef0f17aa70cd8671226adb0977ef29d278ea01c",
+        "bytes_sha256": "d74bdc4481bd50e94c4cc282dbfc9d5ebd0f22c61b8fb30e61a7b9f2c0aa92a6",
+        "semantic_sha256": "2b04dde44ed7ac26206e90e9107e3618fa9a87de648ac1cab161d3af3bbca40f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

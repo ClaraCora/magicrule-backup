@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:55.228028+00:00",
+  "client": "Egern",
+  "rule": "LouisVuitton",
+  "rule_updated_at": "2026-07-26T10:36:56.095913+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LouisVuitton_rules_e3763964c9fbb777.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d3ba03f36fbcbe76ed2bcb620f56f9ef3f42332722ea7aba630d5d27ac1dc7f",
+        "bytes_sha256": "46b041c754efe79dea4ee19d396511e64d38006708b3695e3175a88fc68728de",
+        "semantic_sha256": "82cdc59f833482fc194249997712ce13a18b7735d5e10f75b65d1a08aab89c23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

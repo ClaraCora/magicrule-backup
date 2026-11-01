@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:01.026946+00:00",
+  "client": "Loon",
+  "rule": "EscapeFromTarkov",
+  "rule_updated_at": "2026-07-26T08:36:29.709839+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EscapeFromTarkov_rules_fd8083a53e11dc4a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "20014928b391be7c8508659b13f1e1dbdbd274dac8e5d677658f98d052587e2b",
+        "bytes_sha256": "8148076b7ae4c5aaf17354ffb20fae8b0c9e3526834c76553ce61fb9ae0bac40",
+        "semantic_sha256": "a85e81a11343fc05f5c26ca3eb9a54382d8e9b6ea1362595e7daf7930108bdd2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EscapeFromTarkov_domain-set_457eb0794dc2ce8b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5647d95d7cb347c8245070eebbcd0c8c80dc02614b378f8c22fd40dde831de2c",
+        "bytes_sha256": "1f9b193b65e903948613c17da01ec1f7d629c95959305473b9423cae1944d5f6",
+        "semantic_sha256": "cf4f1f0e237d54d85d7424313478519e313d8b5600787d5ab91d9add6c8bc98a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

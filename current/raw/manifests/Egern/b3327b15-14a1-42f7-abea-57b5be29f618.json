@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:48.323089+00:00",
+  "client": "Egern",
+  "rule": "Selectel",
+  "rule_updated_at": "2026-07-26T08:39:25.654913+00:00",
+  "type_counts": {
+    "domain_suffix_set": 24
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Selectel_rules_eabf60a1664390cd.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa8d8a2fbe915bd654c4935d585aa32a49ec2f5668443edd83a8cf029a7b7fae",
+        "bytes_sha256": "4f5031f3b54942e57ee3d1e687cf60876c76ef6163c2262e5f828438acc1b566",
+        "semantic_sha256": "9d8a20aa32b90cafd6c325725dac0a7c555e88ebf485282fd2d32665efd17c04",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

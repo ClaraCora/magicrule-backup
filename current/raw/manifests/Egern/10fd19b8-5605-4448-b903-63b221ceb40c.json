@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:02.200326+00:00",
+  "client": "Egern",
+  "rule": "InShot",
+  "rule_updated_at": "2026-07-26T10:34:44.085490+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/InShot_rules_9f1b5bb20bda0382.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c9916cdd2293b79fa1743dc09a5ad02ca89cefdd18c9d5ef67d51934e26cffde",
+        "bytes_sha256": "38a98f52b310cc01a4037b2599c0fb34f82cbada3294ec439a4d274919c9e4e8",
+        "semantic_sha256": "d6feaacb17c47c671f80c0cec41271b14182c7daaea237c96a503a48ad5c5d8b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

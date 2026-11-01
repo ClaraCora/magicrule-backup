@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:09.248634+00:00",
+  "client": "Egern",
+  "rule": "Enfa",
+  "rule_updated_at": "2026-07-26T10:27:23.164072+00:00",
+  "type_counts": {
+    "domain_suffix_set": 31
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Enfa_rules_fa0cc5bd92072535.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "791576de374d991149cba656bfadbc4c40d013b9efd7ba8c2b26d0cc7311c886",
+        "bytes_sha256": "be78d5aa49d7aac005d7dd91a22c3c6c1757645d8d7c12df7403666cbc63edce",
+        "semantic_sha256": "cbafa8dd795a98065beab443e1e9c2bd530a88bea937bda57425cf2d7ed089d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

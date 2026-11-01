@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:48.258542+00:00",
+  "client": "Egern",
+  "rule": "SymantecPKI",
+  "rule_updated_at": "2026-07-26T10:44:54.712790+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SymantecPKI_rules_d07cbc592a7864cd.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5a3f8274cf9723dfc79f838b34541bbf206f2c3b86d6661e4179c2a3df5a3a4",
+        "bytes_sha256": "ca59a7633452bf6547d2f7bf47bd43306df121f6708ca60e6a5673a5417cb646",
+        "semantic_sha256": "d2d0f48016d88ccb86c218d735ef4278d8ff76f7a8ca74bbc81411219e1ce739",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

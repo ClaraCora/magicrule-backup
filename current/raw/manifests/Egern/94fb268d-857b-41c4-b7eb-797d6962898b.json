@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:32.977645+00:00",
+  "client": "Egern",
+  "rule": "PStorage",
+  "rule_updated_at": "2026-07-26T08:37:38.764381+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PStorage_rules_a3fd3fce5ef6dcbf.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23e62f10bcea6cb40536627ef8d24b6463cacb15656b5b26e613f13c94d292ba",
+        "bytes_sha256": "e028754e49d7deb91758a0ac25b2585f4865eec6355702b71db8a400ae913bea",
+        "semantic_sha256": "7c1cbcc0da45df545a891f584cf4e12139480fdc1a208fe2a3342b507eeb2663",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

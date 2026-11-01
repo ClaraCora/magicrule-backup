@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:11.690058+00:00",
+  "client": "Loon",
+  "rule": "Udacity",
+  "rule_updated_at": "2026-07-26T10:46:53.800729+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Udacity_rules_6e022fbd358623ce.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c49caf3ec3be813747a0eab53fe69f264191f1113f09f87d024ff3b87c3a6b4",
+        "bytes_sha256": "64d3a82084951a9a6d3211c5789dc0ddbc2eeca52c23fa7076c6976d8b60a1e2",
+        "semantic_sha256": "95d012679c60095f17d5fdfb45bd504a3c937454c82f504ab97c1739e90d2d86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Udacity_domain-set_5dc5fd9c7f9ef69b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "874588abe2de07e3780c88a3be6c1dc49e05522a0c5b0d6fa32827d8c4d4cc87",
+        "bytes_sha256": "2233f042feb8d1b001f98dac58c942eb4689ea45e9f09ede7918ff120a3dd572",
+        "semantic_sha256": "4fa8ac1e829ad88e42023da58619a580002a2e2bec3e79162f2f55bebc88d853",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

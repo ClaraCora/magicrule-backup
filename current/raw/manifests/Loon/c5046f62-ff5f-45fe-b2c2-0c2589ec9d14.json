@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:49.647849+00:00",
+  "client": "Loon",
+  "rule": "ImgBB",
+  "rule_updated_at": "2026-07-26T10:34:31.543214+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImgBB_rules_782a14887033c229.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "616e1bb83882850f12ccaab552458b8c241e63621b4b2429a7a9838462de6085",
+        "bytes_sha256": "d379541c06997201813b06bd47309a7d86cddbe4a0f47a95adac0798f170d218",
+        "semantic_sha256": "52bd88f0130f5a6219e1869184c51cf93d5a95be5f4d8f10f869b487aba95a85",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImgBB_domain-set_3356f9ad31ad946f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55ac0057df037d17f4d321473944735987826ed5301363114624592e845a6efa",
+        "bytes_sha256": "7995cc4755b4e89dd92728c42431d4a4935b1b890286085b405169660a7cf5ad",
+        "semantic_sha256": "2d659b3eba1b0a4977e9b21b248f7a27d477d129333d3824ac7101447e1a618e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

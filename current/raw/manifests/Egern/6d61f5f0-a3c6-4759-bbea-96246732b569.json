@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:47.559605+00:00",
+  "client": "Egern",
+  "rule": "Wish",
+  "rule_updated_at": "2026-07-26T10:49:18.169476+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wish_rules_32294ae4c98d1c8d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "584edf8a6c04c4e14f3bbed13d9f39648685035b51f62e14811e9d85c627433b",
+        "bytes_sha256": "4e674e46a2608e0e0905d45334c44236fab8ecee4d2b016ffec4e3bae1cbd1e0",
+        "semantic_sha256": "3e60154846734d0c60113f88b85edd10e7a940999528318cdbd32748a965599f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

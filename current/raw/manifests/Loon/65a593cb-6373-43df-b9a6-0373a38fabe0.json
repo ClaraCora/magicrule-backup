@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:44:54.890648+00:00",
+  "client": "Loon",
+  "rule": "FontShop",
+  "rule_updated_at": "2026-07-26T10:28:05.504562+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontShop_rules_06db08023a5a9112.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29ace8db6e236616fe122ed0937fba2f90adb43bf63a8b31a3d0ccb92dab2c30",
+        "bytes_sha256": "b4571be48704301e7d2dfb20f0d639c3e58418ba7281eb79ee020714d219a721",
+        "semantic_sha256": "677b9248b0da2638ac376345579764115a255fe8db05a6ff5d8af66247b1b763",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontShop_domain-set_8fd881885e7cb889.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1fb4b08eaeb0ff7a0339a09d58ced0019ae0f85da586146ccca908e70cb05f7",
+        "bytes_sha256": "d0dbd0fb77f8d7aaa5d52b17e2aa4ae6f7638e4bf6c56e56c95a5a2afb6d4764",
+        "semantic_sha256": "fd0406283982bb3df50d25a21a64d4792af84b20bb9621b2788461de088559ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

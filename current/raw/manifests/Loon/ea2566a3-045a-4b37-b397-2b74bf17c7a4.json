@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:53:48.439040+00:00",
+  "client": "Loon",
+  "rule": "Narwal",
+  "rule_updated_at": "2026-07-26T10:38:04.477661+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Narwal_rules_ff938cafad405d71.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a246f5d353e097b75e5acea763bff95805af740e8feba49fd187ef3a92175a2c",
+        "bytes_sha256": "6cc109e87459a6d0f5b679cf4364330bbd417734ff21bc7a4286a79185a944f3",
+        "semantic_sha256": "ca99bb526085b1d58583b76c9ca48989da8f793b6f3ccbdb4d4221931a214757",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Narwal_domain-set_f74cd97b4d054826.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91b32bdf6e57d1f969ec64aaaf745fa49795116d22965086ac52ab33e8f919ea",
+        "bytes_sha256": "a2fb32811da5e9202b9738d5de2659913c98a6c129051462f3852fb64f6c94be",
+        "semantic_sha256": "67cd4eb5ceca00b2ad0e982148da2246bd1aacdc4a31f44e1cfcc8bb8d9ffd63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,13 @@
+# NAME: AppleProxy
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-08-27 10:02:04
+# USER-AGENT: 5
+# IP-CIDR: 1
+
+USER-AGENT,AppleNews*
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.news*
+USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.tv*
+IP-CIDR,17.0.0.0/8,no-resolve

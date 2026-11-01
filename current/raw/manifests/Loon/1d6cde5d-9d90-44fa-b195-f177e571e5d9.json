@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:41:28.470966+00:00",
+  "client": "Loon",
+  "rule": "Actalis",
+  "rule_updated_at": "2026-07-26T09:55:21.526475+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Actalis_rules_d8bcc9d16df81172.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1d97dc2ef3f3fbcd5f8364ea3d6852b325c2015ba66ad761d3762b25d882b337",
+        "bytes_sha256": "fa11ee3b8ff3c9a94b3e63d09ff723ddbabad630d5b5a17102767eaef183fcaa",
+        "semantic_sha256": "1def9c7928573d8ba197b8652b36e099b725d5301865beaf470de629de305f56",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Actalis_domain-set_2627e78162c3e693.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30bf30d7ff3657f6fee0db8515c387c7684a0416fdfc21b6d337405cc551300e",
+        "bytes_sha256": "bee9a2a0b2dd7b68a6f8f187179dbecf632103b7e95ace5a506f3324d73e4c7c",
+        "semantic_sha256": "7863f09035c1fa799638a5ec4178c695a43b19c9f53e779bbe5471e6e366a8cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

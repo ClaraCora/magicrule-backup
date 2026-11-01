@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:34.796974+00:00",
+  "client": "Egern",
+  "rule": "Booking",
+  "rule_updated_at": "2026-07-26T08:38:26.548146+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Booking_rules_52a4b507b599de7b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db5fbf42161653ae0325414c70a16226bbdae50bd0bde26d7d07465bbc0f4e4c",
+        "bytes_sha256": "0846c1db1a06d45cd855a32be8706b603675d32ed7212467bb40c611b4e89857",
+        "semantic_sha256": "8ad9ec1cf433f0b8a66d833611c022627467c14906a3e13f10202f44b075914f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

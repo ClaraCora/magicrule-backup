@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:24.835505+00:00",
+  "client": "Mihomo",
+  "rule": "OTPBank",
+  "rule_updated_at": "2026-07-26T10:39:51.317160+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OTPBank_classical_0c350c6606714fa5.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4bf2a2f6dfeb24526e3da07d32588350c6000568b9b49687aa17b40cc163877c",
+        "bytes_sha256": "702a970fdc2a02ace0b54170ffafa36f49dc2dac765b99baffa5e8c021170370",
+        "semantic_sha256": "fe6bde68cd810c009585c189e55e37ed1831d1f62a83bef0c7efa78531c87a86",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OTPBank_domain_0258acf567edc12b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b332580eb14a41c891e0ae643ac8bfc4ee4823def0098c2ed04191d1b04430a",
+        "bytes_sha256": "7598b2d5944aa06b6dd63ddfd5c975e8b874e69df533b4379b655a69c17cc1e9",
+        "semantic_sha256": "e8c2680b2020d141c722580493caaf920e7b951e973f6ff4d87477f8e9a5683e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OTPBank_domain-mrs_1d3fc8b5d7b88bdc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "045136ce50f46b250195f9a7632255d47930782f28b729aa714d8e553f2e8859",
+        "bytes_sha256": "99782b148bb8a110b6279e2b050044c448ceb67b14bd768c5be442810935dcb1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

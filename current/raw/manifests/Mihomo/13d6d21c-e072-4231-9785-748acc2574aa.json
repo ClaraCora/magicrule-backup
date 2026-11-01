@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:09.791472+00:00",
+  "client": "Mihomo",
+  "rule": "ZTOExpress",
+  "rule_updated_at": "2026-07-26T10:51:10.865968+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ZTOExpress_classical_201b4277d0b8248d.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d25c5f69be4422442b73cc28ea4267b23264dcf235b810af5842e31cda47f395",
+        "bytes_sha256": "c9187f6fdc88542cb804e52e97109301732375d978d4177ecd710c700937a744",
+        "semantic_sha256": "53b3b28483db1cab4a2bfe492b381b80e3141d0c13048d6c3c2d7aef72e1bcdb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ZTOExpress_domain_d915fbf8e6f1b94d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a090e432d84de18e2aff77b517c55d438eac9bc2753e9883e60c949cc499eef",
+        "bytes_sha256": "85c7422a3ff8affa915ec9abe4f317b5c367223c32243d8df287150036b4e8d7",
+        "semantic_sha256": "56844dec126cc25415564a9e7ce4bb370b9fda375a7a9e7f52acc80878007cad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ZTOExpress_domain-mrs_f9013e9ed47d471b.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5769cc1b135b6a759d7e21bb9353b17aab9fd237d7c997ef3f47d45011e9bc52",
+        "bytes_sha256": "9fcf606b66cb7e6335efff498bd8967f0f3c427a9b995c88000ca464cffd2f57",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:42.636403+00:00",
+  "client": "Egern",
+  "rule": "Evernote",
+  "rule_updated_at": "2026-07-26T10:27:29.253873+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Evernote_rules_854c8ddc0b05250f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c79a3224be6876e89e08e094c023797b48264ea8e6ad3eb4193b91406890d61c",
+        "bytes_sha256": "07eeaca26786e9ee47fbad97be5d284b79d518a59c9ad4baa90506ac76010a91",
+        "semantic_sha256": "7a98792c48901cda5cf110180e1908d9a4e0e42155c00dd91ddaf6b5d982af1f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

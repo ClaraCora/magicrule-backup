@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-29T02:46:10.718183+00:00",
+  "client": "Loon",
+  "rule": "OpenSpeedTest",
+  "rule_updated_at": "2026-10-29T02:37:27.356788+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSpeedTest_rules_43303bac75ae4a53.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0268579d5223e49c6cf8b008ff4947e22fc0c5d1e5dfaaad649ec1811f3dac20",
+        "bytes_sha256": "b7497d774876afc0ce59d0ac18f9b3b06189a85f349a8efbdaf9d4d9905cb9f4",
+        "semantic_sha256": "ce60072fc2f2d58ddd9db4aa584797fdb33e3a1a6ca1990302a3507263a9f089",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenSpeedTest_domain-set_f234da3437846ea0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ae6e72664f1595c44d2ddfd74cdc70daf960daad424304b549a895b8322af8a",
+        "bytes_sha256": "1ebd6b8e189f1b0ffc6596d87d19a06d6729e106967cdb0217ad0b3774cfcbb2",
+        "semantic_sha256": "e1572d7b942115cd2d11ff0e24826e9469a4efa4594d11e963614598b5450702",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

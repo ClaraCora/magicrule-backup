@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:52:22.084305+00:00",
+  "client": "Loon",
+  "rule": "WeatherCN",
+  "rule_updated_at": "2026-07-26T10:49:02.120965+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WeatherCN_rules_da5109728c83649a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8622bce915e1cbdd6e8578662b5488f3ef861cfbc1312529555c52ea48e6f6b",
+        "bytes_sha256": "7ab17e059038fc3990de3128750c214d30831ea78b50ec5b837be455e96ecb08",
+        "semantic_sha256": "f9490150b3666de682071ff0d3f66ed15e49e142f2a95263d49c9c9dbad6d02e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WeatherCN_domain-set_2fd6f2ea35bc0d24.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c1273616eacfbc354aad56a502ed5bf0fe2b803c13fdf6b0a5812542db3e846",
+        "bytes_sha256": "0895b25889b7d2e5c1cfa751ce9fb0ff275900db8db4b041672fa5419a8f1e11",
+        "semantic_sha256": "630895b690fbb9980b53a28b7a5975446e07e7bc5fe7f0f36d5ef3d320addfb3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

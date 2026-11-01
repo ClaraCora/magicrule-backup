@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:43:14.702619+00:00",
+  "client": "Mihomo",
+  "rule": "ESET",
+  "rule_updated_at": "2026-07-26T08:39:40.047658+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ESET_classical_ebc87b33a86329eb.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db66c3bd3bb1a84250a0c10e7a3674b334c64bd6f6e7c6ee96a5875ea139288f",
+        "bytes_sha256": "51714ddfe144cd78fd4b98958d40ab2266d1834b55f511804745346ae0526f75",
+        "semantic_sha256": "d5aab456334b08d0f69918fa22421ccde6629b3ae9d00d8a4cdc78d66aede983",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ESET_domain_f74caca3409ca4f3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d29b25c1ec04882c589dbf74873abf57a444c85158ae9821d2c40e808d083fcb",
+        "bytes_sha256": "03a484e2ff68648fb1197c0b6d7987964161882ef474edc8e551c4cbca5734ed",
+        "semantic_sha256": "d59ce4ab9408e79b3c0f112ca0fd69b220ef27a57e2c82699a35d242e5fded46",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ESET_domain-mrs_ec2bb5ccb1ac352f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1bdd8c9ac1e995666d221a1b9a3e049004360bd6c20e6fe99976464616d3d823",
+        "bytes_sha256": "3747d7836718fa12d899411c8493645fc1bd10c2546da5125ca5e1604d44a0ca",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

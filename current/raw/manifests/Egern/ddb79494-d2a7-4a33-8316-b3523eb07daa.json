@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:39.183283+00:00",
+  "client": "Egern",
+  "rule": "Bridgestone",
+  "rule_updated_at": "2026-07-26T10:19:26.567949+00:00",
+  "type_counts": {
+    "domain_suffix_set": 98
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bridgestone_rules_c878203599d771f6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f0648bbf371ce8046e5be368c22c0f40a3ccc47c0e620fde20b12df337d4728",
+        "bytes_sha256": "2c59dc3e6a7688265cc53782153270c64b1d0deec980a52c1c17d4374d99161b",
+        "semantic_sha256": "664cb0a514b7b8c63b6bf2901d5d67b77647edea373e73c606609ad92b9dacba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

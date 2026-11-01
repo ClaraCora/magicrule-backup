@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:49:24.526834+00:00",
+  "client": "Loon",
+  "rule": "Aerogard",
+  "rule_updated_at": "2026-07-26T09:56:11.669915+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Aerogard_rules_9c136f51de34a908.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e32f25a1bdc4a432ab5ed58ee5fb98d1824e471c5b7d19d7f3d656a3e5cdfbd",
+        "bytes_sha256": "29185d74e0bd8a72c442e108ed77991c84ae5a8414107a279efa23eb11f3c0f0",
+        "semantic_sha256": "723a23dc50ca2db423708ad37192968e6fb4d86afe586d6fb295b787758bdb00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Aerogard_domain-set_4d63074590c9d8e4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4550f446c1beab14340811e915bc27f23f8a131cf35e43e540d447e6a07d15b",
+        "bytes_sha256": "22d7aa1d94d39317536856c2943e96ce9df0f0f5b88f30d2080426cd06b4946e",
+        "semantic_sha256": "b7dac9301c7345b3ec8796b139d8d17e8484188767b388ea586d1b95ed6548d9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

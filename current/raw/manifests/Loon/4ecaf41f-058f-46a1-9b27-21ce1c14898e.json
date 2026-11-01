@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:21.719787+00:00",
+  "client": "Loon",
+  "rule": "Walmart",
+  "rule_updated_at": "2026-07-26T08:39:34.579600+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Walmart_rules_876da8afc08ae865.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "542e2c870fb71a0ab7c9e05d65d3d8ad36ccda1cca340c03afde7a4b27c44fec",
+        "bytes_sha256": "ce4592fce5ddb365aff0047a3af5510852f405845245d542a53fe749f2cbb8d4",
+        "semantic_sha256": "6347b7884141ec6c5f5d2593e7fb44d87c1609dd6ff283ffcc4ceeb3fba07d4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Walmart_domain-set_599d38c4ed124ffd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ca2fb09089211d819625e5753b54052641e8c4faeb9b47dc6e623f072bbf8fe4",
+        "bytes_sha256": "71be670a39157746063d842d51880c7038570e0361af51c80da8501bddbe5a46",
+        "semantic_sha256": "16359427dfbfe932fd5a12477e8c4a07d3938abd0b448c4eb7b172536fe2e9aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

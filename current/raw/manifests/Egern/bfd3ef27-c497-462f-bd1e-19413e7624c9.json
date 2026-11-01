@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:31.477213+00:00",
+  "client": "Egern",
+  "rule": "Spiceworks",
+  "rule_updated_at": "2026-07-26T10:43:34.823499+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Spiceworks_rules_f7c0c51557b2bdf8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47b9a7d6a517d8d15963cfc8ebdbb47ea9f0ce9909bed055557e6e1eb145c2f0",
+        "bytes_sha256": "a1f0395975e4c00ce848339ba74e876661dcc02fce3183e6324ed19f6a7bc7f2",
+        "semantic_sha256": "757510c77e375f8c459b0bd6c330376865a525761ecffce6f860f2427b67a424",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

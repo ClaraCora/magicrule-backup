@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:30.041418+00:00",
+  "client": "Egern",
+  "rule": "Bohemia",
+  "rule_updated_at": "2026-07-26T08:36:20.906991+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bohemia_rules_cab3a55b0acc2bf0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1212a69d4b96fa2b4ab7ee801790ed6d47e110f461e64ef6f249ba114975e217",
+        "bytes_sha256": "682f399ae15e346857391c292e6e816f74b9e9ba2190672dc589803cce7d0b16",
+        "semantic_sha256": "8f55736cf78b1087325012c09c85bd2bc700ad76df9343ea1946d69e188eadea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

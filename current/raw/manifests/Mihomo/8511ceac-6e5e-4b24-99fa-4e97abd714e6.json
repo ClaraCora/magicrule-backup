@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:48:01.412937+00:00",
+  "client": "Mihomo",
+  "rule": "EscapeFromTarkov",
+  "rule_updated_at": "2026-07-26T08:36:29.877854+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EscapeFromTarkov_classical_3754358ba3529031.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81451bbe482f8723cd0ad382a56b5847a51c66b459e95057476af3451ff8c80c",
+        "bytes_sha256": "65bbe4de6a3dbd057a6fa9817eb2772f19f251a33316d08fad48856d2ded2f56",
+        "semantic_sha256": "4d80448f1ebc865baf76d62763297eaad2af3eacda6675e658475c7238768892",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EscapeFromTarkov_domain_92a981cd3fa4904e.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4ca7325631872f4e3a50970ef99ff7641a22f3382bfd5edf346f8722929f559c",
+        "bytes_sha256": "2a6baa3f8336bd6abf22c6dbeab7856cc17b71078a50312677433c2b037c57ad",
+        "semantic_sha256": "6b6c71b60b644b8f703ba87754e80e10450b898728229af0d4d14422de407c83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EscapeFromTarkov_domain-mrs_f11f010c2d10ff06.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0932ee639a32356e98ed609564365fad9ee64386cc99239ff594c72f4ba081f2",
+        "bytes_sha256": "374394d1befc092a52f6ec324365977962c9fba4ad2569164b4c8a2e4ca9b1fb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

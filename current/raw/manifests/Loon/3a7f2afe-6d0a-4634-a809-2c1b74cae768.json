@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:39.575750+00:00",
+  "client": "Loon",
+  "rule": "PoloCloud",
+  "rule_updated_at": "2026-07-26T08:38:27.427882+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PoloCloud_rules_c153365e2f7153f6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "54cf94b8f959ce3439de03bd19f0e36b5a302bb19fd4ed867eb0399d1b1f5306",
+        "bytes_sha256": "a393527d5830fc62b5a0532b915a1e1fbd868e3a241ac63d58558c31e0f2b7a5",
+        "semantic_sha256": "04f1beb5c954f2fb1f26e91d31a92ddae9f3385125c48dcdbcd6b52f91d44c68",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PoloCloud_domain-set_5450f9ad9d587a63.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cad21a864725c1491e7a3c2f508fb35163f0b6f44838b9b8ec185f7f0b39dcd4",
+        "bytes_sha256": "ab8f06f8cee8e79292bc51ff77fb7342dea72c2eb84cfece0ad8491691ac3283",
+        "semantic_sha256": "af042ce54f3ccb844829223e7979dd5a68b7250ee4d99be85ce703e553017782",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

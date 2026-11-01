@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:05.415180+00:00",
+  "client": "Loon",
+  "rule": "LongBridge",
+  "rule_updated_at": "2026-07-26T10:37:11.268399+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LongBridge_rules_efc65b47f8834ddb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "589ed87811db3b6ece5a6865d15d5b1aca055164132efb5f2aceb3110178aee5",
+        "bytes_sha256": "16c500b130126bf0dc7d07cbf712bb4b22c39af4c6e02675352d7febb92976f0",
+        "semantic_sha256": "a150d01b54ab80ef17c0c24650e6ca1da664d3a34f89dd1586ad63ffeb2dbeba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LongBridge_domain-set_a137546378c055db.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b41db35e1f288cb2e6bc2dc0788c43cb03d9ac4ced7359e6fca61e0a86df3918",
+        "bytes_sha256": "a3739c3bdf2592fad61f4365ec684ae771e69a017307fd6432d14c0eb917dd8c",
+        "semantic_sha256": "8a4a2989122b78ad7b73b9025b6a2ae9ed7d5b111033d9ad71e423f4b23593a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:39.129781+00:00",
+  "client": "Egern",
+  "rule": "TMTPost",
+  "rule_updated_at": "2026-07-26T10:46:19.820365+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TMTPost_rules_ba58ed0c0c2e578f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71d6b0e8aa0bac50c33eb73c1364605553b9b3f2caa27ce76c5aafdb78964ec2",
+        "bytes_sha256": "7c636102f1af5e47161fc3cb515fae4e6a4afd8400cf017441af776fb9b1e101",
+        "semantic_sha256": "77246bc2d02f4140b0cf074ee2f66300707a5c70087a957f9fd7c43ce90535d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:50:18.853815+00:00",
+  "client": "Mihomo",
+  "rule": "RedotPay",
+  "rule_updated_at": "2026-07-26T10:42:08.653946+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RedotPay_classical_d373e1d6b62a9500.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b18748d4198b663df317cc5ed3dec0411407460fce1bb3a2e9349e86c066b4cf",
+        "bytes_sha256": "8251331ab284def39044a9d85bd29a3e02e4a40e0840f5dcfb4b28ebc3cb9712",
+        "semantic_sha256": "a37611a79a096ea23988d93b87a3fa00bc692da8c71fbe5270f6a3199158de9a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RedotPay_domain_a7a96a66e4e9201b.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25ac9c9920c6ed66567c48f0348ebcb2cfd480f2b7e2d26f990d90255eedf5e4",
+        "bytes_sha256": "c1c15d6663d549701127ddaf0d6bc7dcb87eb904e57c60d8558fb8ec7dde21a0",
+        "semantic_sha256": "93b0805744937b296d20eeee3ed1f6457faa8e57f9aa4b09e9fd626cab6a727c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RedotPay_domain-mrs_907836948537039d.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "50d2c15390d08bc8a99214d7de8171687301b4a5a28449f0f30ba5d954816d60",
+        "bytes_sha256": "3ae33800e18eb66dffdb6850c872330ec5576ce30812a2c43e57fc2dc7deaf1b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:40:47.113544+00:00",
+  "client": "Egern",
+  "rule": "ColorfulClouds",
+  "rule_updated_at": "2026-07-26T10:24:47.987398+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ColorfulClouds_rules_78a0786626359446.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df97e625e0573f0cf6904a9c129a1fe24f55bd8e80f04017a4b938523d4e604c",
+        "bytes_sha256": "d30818004df82ac042712018d22a2460803bfbbf60aab5f10fd6b77e42e977dc",
+        "semantic_sha256": "86abf23db5d55c92dc82a1c7db970f7b799bd04c056cd3676970a9cc793feab4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

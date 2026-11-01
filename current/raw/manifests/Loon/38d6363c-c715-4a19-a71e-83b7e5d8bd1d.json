@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:35.131677+00:00",
+  "client": "Loon",
+  "rule": "Flutter",
+  "rule_updated_at": "2026-07-26T08:35:42.738816+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flutter_rules_8b5c31a92e42eb01.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9a47fb19b47283832d4f6e2713ad148b9727a542d824e95ac05a766582b410bc",
+        "bytes_sha256": "8d3e5dfdf4ca2a0e92c90acde395e9fb71df774142db485fc4384c0b66c518ee",
+        "semantic_sha256": "36af75bf56e3df9611468797b9f5ba5b074219b7a7dbf8d2f70545dd8fbac9a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flutter_domain-set_857c2788a8a16354.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c59baa748c2162a6ccee5b7c04c754d0a34d053e084801d81b7be348f0d5bf4",
+        "bytes_sha256": "9cfa8117e70a8fb7253f999c44a167669f929d392efe1e9979e7ae786e28e90a",
+        "semantic_sha256": "65013a23fb2a529b8c2e1a7f7a2ec4a41d512008fadda20f965c80b5daf23233",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

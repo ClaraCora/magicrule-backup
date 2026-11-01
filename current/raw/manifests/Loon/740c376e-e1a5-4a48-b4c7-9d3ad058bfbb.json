@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:37.894642+00:00",
+  "client": "Loon",
+  "rule": "KhanAcademy",
+  "rule_updated_at": "2026-07-26T10:35:35.576441+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/KhanAcademy_rules_0db71e72718bf12b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b3fa3be4ccbef7159eef3978f155d5824f2c1ada32d37c8596936ccede56306",
+        "bytes_sha256": "57c63a8f58eebebe833675fb926c5db01d093b5483e818cdc8575aebe93b1c20",
+        "semantic_sha256": "9ebff81677fac6df174c3519d7a8cb51033517b86a004c1009a6c4f6b964426e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/KhanAcademy_domain-set_d07886e27927a9ff.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb501dc0e3251b0cc4ed3f5f76b3a42519c7df978b4b21ac55f1c1389533ae09",
+        "bytes_sha256": "102d03fd6d1410f5914053f695b24e36df6bb96c1db83b3a5d5fe8ef793f4db2",
+        "semantic_sha256": "fc0ea3dd3bdf3df5a1af248ce5b3f889ad001c65f4c3d8cd8d6ab603a27bdc04",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:55.665311+00:00",
+  "client": "Egern",
+  "rule": "Bandcamp",
+  "rule_updated_at": "2026-07-26T08:38:24.289446+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bandcamp_rules_efb90ade870e39cb.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1f2d7159a10cff2e2842cfcc9d2b885e893fb8561705d45c49a173f0917471d",
+        "bytes_sha256": "174d25d063880d4fadb9c4e92057fbcdfdd64bd22faf2f06be9afb5f22565276",
+        "semantic_sha256": "484feaac218e958c0902ac0ff9ad7368406d6bcd8836bf2d49c82f86402edce2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

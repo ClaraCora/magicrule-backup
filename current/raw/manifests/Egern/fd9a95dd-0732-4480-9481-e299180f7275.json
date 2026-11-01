@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:29.268597+00:00",
+  "client": "Egern",
+  "rule": "Springer",
+  "rule_updated_at": "2026-07-26T10:44:01.123903+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Springer_rules_3212aab4c7b29f71.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "430f67d7815523c27bb03e0bc67dd4c503759c4a57e7092ea2bcad49d2adde30",
+        "bytes_sha256": "cccab6e95b15d6c362c0b5e84fc28fcd8c64c65bbbf2b49224ddc31cdf2fe9f0",
+        "semantic_sha256": "ac6101c42e02584a12befafed345a9c4adf55c464b6bda2f669d64221020d5b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:45.605282+00:00",
+  "client": "Egern",
+  "rule": "Phoenix",
+  "rule_updated_at": "2026-07-26T10:40:30.066194+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Phoenix_rules_839f388615e96456.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d5bd8d6270ca798095d49b483ddbc54c3edc4b02611cbc313687a9558049640",
+        "bytes_sha256": "5b8ba5fc44c8dfcea72ca81b9f830b2ed468947101f9644ec7fc0a4dd68c1184",
+        "semantic_sha256": "688fefeb6a7d208695729d2de2a3ff269b5fe671929323eb02bb1aa2d857f49e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

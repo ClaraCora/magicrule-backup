@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:55.340405+00:00",
+  "client": "Loon",
+  "rule": "LouisVuitton",
+  "rule_updated_at": "2026-07-26T10:36:55.958021+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LouisVuitton_rules_6275dd256f49abc3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6edcada8ecc8c18a88b523cc26162d6ea65d05f09b629e6b45f1bbf87994fd41",
+        "bytes_sha256": "05e573959417fb3a6766b3c6b6d21427a0cf44d424e896e4254c80078f106632",
+        "semantic_sha256": "b131b6b4e35a3a7bb698394d28d797a9f1c095a3e2b2ffd8b194e7cc10a372d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LouisVuitton_domain-set_60a66e51a597dc79.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "785257475745a58f3bae00057efca4271279d229134cdad3d6d84945d896b7de",
+        "bytes_sha256": "db3455cf82a4a4d180e8c2c91c2a8f0b49bf852a817a38e5e0c3b7992bbd4f31",
+        "semantic_sha256": "05bc272a8a427632e4e41a37e338b9f6df0d558fdb3e1078c2b5391742b761bb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

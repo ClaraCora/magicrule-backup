@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:49.030334+00:00",
+  "client": "Egern",
+  "rule": "FontAwesome",
+  "rule_updated_at": "2026-07-26T10:27:54.906492+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontAwesome_rules_ac900a7b38665a45.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb8ced21e5e0b1032f5a9dca38d8cd76f7e38c134d3dcb634c07ab3ec575fec9",
+        "bytes_sha256": "3b63182cdaf6e45a3298517fbaf651925a6cd61fe34263c1f694f276c0700993",
+        "semantic_sha256": "9f0612ae2034faf7570d8766010a7042d0ccb0ba869e0baf300286eb0610db83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

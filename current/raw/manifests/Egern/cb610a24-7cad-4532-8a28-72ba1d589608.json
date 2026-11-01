@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:51:20.081293+00:00",
+  "client": "Egern",
+  "rule": "Ozon",
+  "rule_updated_at": "2026-08-07T02:23:12.951446+00:00",
+  "type_counts": {
+    "domain_set": 18,
+    "domain_suffix_set": 45
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ozon_rules_4f8cc6480ae1ff58.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "29ed4db4a09ac27cdf1d20a9b0cafc5d35a595ead65cde728d2cd916766a627d",
+        "bytes_sha256": "45d7f6c1341add31c70dcfe00e526ae37abfd52246e76884131fc927722cef5a",
+        "semantic_sha256": "88c08dc54bf6ca4f0527b3fc3a4a11cba38404772c15a0443237dc807311061e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

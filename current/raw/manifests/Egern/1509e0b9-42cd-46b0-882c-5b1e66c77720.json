@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:11.375963+00:00",
+  "client": "Egern",
+  "rule": "SegmentFault",
+  "rule_updated_at": "2026-07-26T08:36:09.712016+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SegmentFault_rules_6bb76b5793bc8988.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0aa59b47623e600b233fc1214ba5a2b850175122b533b7b5fea456a1616785fa",
+        "bytes_sha256": "c8bee31a874955edbc83df024ff00310cd090d994bd6fa0854f16390d4cf0f1b",
+        "semantic_sha256": "efc24aaed2570b17b0145082a131b528bf11d063e2475d34c677ad8e96571a22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

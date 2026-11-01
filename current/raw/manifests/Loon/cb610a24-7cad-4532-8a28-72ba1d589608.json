@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:51:20.427246+00:00",
+  "client": "Loon",
+  "rule": "Ozon",
+  "rule_updated_at": "2026-08-07T02:23:12.804531+00:00",
+  "type_counts": {
+    "DOMAIN": 18,
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 63,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ozon_rules_ded7ae364cd9e73f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eaa2b9503872719770e5248b8051628f495877cc0436115be680f43418c511bc",
+        "bytes_sha256": "21a4298a63cc8e721a9e60754e1168dd9b7235f3c11d1d730077f76b2e8e702e",
+        "semantic_sha256": "e111c2e05c033f7d0e03e826d9de71b09e8c81b540ead1bbbc7613585aab450b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ozon_domain-set_9bcc8b3b7b4073c9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5394592124af4a3cca191a69fb9bed707ba360e7b2adfe535a3ebbc13d49fa1",
+        "bytes_sha256": "ecfaf69859122ff4bd22b5c231e138be450c8a57eb1a4efd886a2738a2e289ee",
+        "semantic_sha256": "bc2701a08b5ec925ee33db5a1d3bb9fe2ae0989dfaad0ff97ce0c69ec2348a0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

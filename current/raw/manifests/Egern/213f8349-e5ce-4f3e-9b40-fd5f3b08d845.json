@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:37.594194+00:00",
+  "client": "Egern",
+  "rule": "Elsevier",
+  "rule_updated_at": "2026-07-26T10:27:06.679904+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Elsevier_rules_e7b80aa9527b65a1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c42c960b30b45054d7c951147138a1534754c8659ed44c12549e6b3c21cef019",
+        "bytes_sha256": "65cc1b3b6c5c6039822d4ac147832443c2177dd9c117ddbcb4d2b458a74d44b9",
+        "semantic_sha256": "0fc7e9aaed1469b024b0aef5ba4ff8a04bd677be930d4432803d86b4ddaa2a44",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

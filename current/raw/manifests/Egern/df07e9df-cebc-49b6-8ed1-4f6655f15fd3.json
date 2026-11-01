@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:49.343587+00:00",
+  "client": "Egern",
+  "rule": "Freenode",
+  "rule_updated_at": "2026-07-26T08:35:43.238142+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Freenode_rules_1ecb97537a001e1e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd18e5826e77a566fca3bc9596bede98468c9218c73b76e4734b4e673e1402f2",
+        "bytes_sha256": "c26ce5f53a74f9e19042f9b9c5e94d28bc8ae3356ba2baf5332ffc44936d102a",
+        "semantic_sha256": "8bcc7f7416964acbcff7f8d88fb0c1f9df7482c087c416a182882617f329f539",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

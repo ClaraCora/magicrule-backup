@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:08.931999+00:00",
+  "client": "Loon",
+  "rule": "Vultr",
+  "rule_updated_at": "2026-07-26T08:35:41.030792+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Vultr_rules_b507cd678a978a36.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f8d3565bca487cf9ac688237d1505f8a02f66f0fe1f21ba90f0ee4d170cf7b9",
+        "bytes_sha256": "7eda613143ed6418be1b391ad7cd14fa9ab951072a1617e92a6a79bd233cc5c6",
+        "semantic_sha256": "6e1e9932dc41094707d36eb00f3887da60a91dbb370937f1acf2f5be52f67f8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Vultr_domain-set_3630dfd4bcbd143e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b31e1f3261392f691cc06384759aca9850de40a464246b9ab605b12b3e1b8e9",
+        "bytes_sha256": "578282ba36a5be10361b65e81a033df9d3bc560cc8f06e59593a3ec8731bfe02",
+        "semantic_sha256": "a3be52631b5551891816b74a4e64df35d565a77bdd7f6fdf288ac954e679c9d5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

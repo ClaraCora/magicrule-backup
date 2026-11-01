@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:25.582027+00:00",
+  "client": "Egern",
+  "rule": "Wistia",
+  "rule_updated_at": "2026-07-26T10:49:22.161913+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wistia_rules_e33434a5eb45c868.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "199da4884e6e8dc79e69f424de51254fa8b19476a4f34022ec7d0a9735998a1d",
+        "bytes_sha256": "4950f9513dc6a30ae45bbef172111689bcb54e317c9fccdc28e6f8c6a8d65869",
+        "semantic_sha256": "0630ad9559c4b68e38fb97b11e5ab4c0758e78fd81f27a37435f397099f235df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

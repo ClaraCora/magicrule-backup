@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:20.395754+00:00",
+  "client": "Egern",
+  "rule": "PostImages",
+  "rule_updated_at": "2026-07-26T10:41:35.599041+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PostImages_rules_dc6acad1127b1278.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a96a8c115e75d9f719dfe3cb1f629b437ab4e7d3aa494d9957f88ad532208685",
+        "bytes_sha256": "ed19e87a742993ca64f777896ab94180e39a269e5f7755015424ae5a6635de54",
+        "semantic_sha256": "3ec6d01374fd8a944d94536c4bc68ab87579aa3bc4d66f602a6dc3239f06982b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:45:13.346932+00:00",
+  "client": "Loon",
+  "rule": "Reuters",
+  "rule_updated_at": "2026-07-26T10:42:11.849923+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Reuters_rules_febc66ed2aba3631.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b767fee53b4ca19ee0969797ea869e5e8067ff02e1ba99087b4d63a919042efb",
+        "bytes_sha256": "f0d2416d55483dbbb82f01333b6d1f139e01d9bc400812d524c544528bb3fcdd",
+        "semantic_sha256": "454648a024590ab978c021769e3019ed3812d0c94c4e2ecf2cbb0537a3686934",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Reuters_domain-set_32d5bd111a890237.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b659a59b55b95b9087bbf3a7e0c93b96a7f4f5aa52b688d50b57febc6dab27d",
+        "bytes_sha256": "f3f568e85a2f7f930e4808873ddfecd408c7e6dd081a7583deccfd7d2ecb1da4",
+        "semantic_sha256": "0cbd85bacd25a5384d6c35b2585adbefe8e5542a25474452edc1da6157fca4eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

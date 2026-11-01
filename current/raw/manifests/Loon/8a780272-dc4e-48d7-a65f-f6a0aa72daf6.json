@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:13.044902+00:00",
+  "client": "Loon",
+  "rule": "DeviantArt",
+  "rule_updated_at": "2026-07-26T10:25:10.037093+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DeviantArt_rules_b79b0f2f3a3fc556.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "26ef3c31ec3cd032e6929049f0c066872c7bff709ab7ff245ac9ef37ee291c0f",
+        "bytes_sha256": "2ca92b316f06a51f399dd9e938e2431f089e10d4be21f10da9e388abc93a61e7",
+        "semantic_sha256": "c672e17b80f0f6e465b83ab587722f575680dffb0b030ec52581a079f3895f2f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DeviantArt_domain-set_d3b3ca07ffd6bcdf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a95820fc6c767bdf10acd97673287a00b7e4de38defa74bc142530bcd9e9132a",
+        "bytes_sha256": "e2cd4581f32e450e7db28b110bf90ddf2b9d95edfbf5ab548a065bd4a75ce3d9",
+        "semantic_sha256": "3858a28901f13ef1b97733b12c96e9b86ff430abf982dd08036d3aa67cb12454",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

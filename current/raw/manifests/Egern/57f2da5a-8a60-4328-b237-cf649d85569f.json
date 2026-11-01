@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:46.943346+00:00",
+  "client": "Egern",
+  "rule": "SwissSign",
+  "rule_updated_at": "2026-07-26T10:44:53.586506+00:00",
+  "type_counts": {
+    "domain_suffix_set": 31
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SwissSign_rules_70339791f6d139b8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d4899972668c6c500159bf815263b88320360ec7d3978b6f83cfd668230fdf9b",
+        "bytes_sha256": "4af0227421b9f72a1ccf7cd598b5c4ecf89bce366779ff75634b1e867b71810a",
+        "semantic_sha256": "e6300ecd81b3424e49b8e5923d6a1a51a6ab0948c4e54a8fe642e0a9064bc10c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

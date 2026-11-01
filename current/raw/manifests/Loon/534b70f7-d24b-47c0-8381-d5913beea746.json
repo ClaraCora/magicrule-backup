@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:32.505269+00:00",
+  "client": "Loon",
+  "rule": "LocalBitcoins",
+  "rule_updated_at": "2026-07-26T10:36:54.586309+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LocalBitcoins_rules_6877c97ab56be887.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a54bbc34ea38a6a017f90f14dbf3aaed7154f2256bf943e54bd4d2c269979dd",
+        "bytes_sha256": "dc974b4b19307e42c56e24059171991a86bf478b2a3103c7599dad60b6e6b282",
+        "semantic_sha256": "04ddc34fe27fdf15cb5e2912d7dea160e4a8ce6eaf4a1aff56b223358bb5e205",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LocalBitcoins_domain-set_008220eb043e68c3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1800f79e1b10746f473d41f0a42cf21c508fa28753d0b615fa17f1f8f5e6735d",
+        "bytes_sha256": "c00a7fc6a7c4f7b853c8fe3c5e781da3be649396a51df06eb084b144b9e94f14",
+        "semantic_sha256": "6f355dc2d6840592ed11dd844df26821a67f215ce571cfa86fdd55789372fc2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

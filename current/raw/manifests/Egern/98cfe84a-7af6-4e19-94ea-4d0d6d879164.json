@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:40.185806+00:00",
+  "client": "Egern",
+  "rule": "Osu",
+  "rule_updated_at": "2026-07-26T08:37:38.263377+00:00",
+  "type_counts": {
+    "domain_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Osu_rules_175a7bd9c67af5a3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1702b20e122797e9fd64e5e1a79aa26b0949fd8e3c436b1abca98c33aca3506",
+        "bytes_sha256": "411a320d89d02bfddff0ea63b8569cc1f7b8a47016a71e92fe8525fb673797c9",
+        "semantic_sha256": "6fd1e8760f99f6f899c8470f32a1a0317609dbfd12e409562d683577c1960657",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

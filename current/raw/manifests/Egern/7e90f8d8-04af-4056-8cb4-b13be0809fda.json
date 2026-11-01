@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:42.548114+00:00",
+  "client": "Egern",
+  "rule": "Metacritic",
+  "rule_updated_at": "2026-07-26T10:37:27.422985+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Metacritic_rules_2c4f046b7c449a2b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "adf6d0d8069648d527b0618e1cb65c90eadcb6c2e79308b21477e65f2b413233",
+        "bytes_sha256": "7e69e180d291737e91197c55d5692bfe8c3354592c0c6051867ebecb53993fcf",
+        "semantic_sha256": "5852de0717e5f64b1dd3b5a08285c934f8be7793de4c19b7cc0433594b2b5e51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

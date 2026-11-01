@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:03.372266+00:00",
+  "client": "Loon",
+  "rule": "GoDaddy",
+  "rule_updated_at": "2026-07-26T08:39:16.038630+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GoDaddy_rules_edd82376882ad905.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "178c202a410f55759956d47e4735df7fbb131673d203df4b71867d16841a499c",
+        "bytes_sha256": "32b907488cfddd3ceac2a682d9cfd0d4219df1eb8b5c9bc9bb5badd96e03bde7",
+        "semantic_sha256": "05556fc01fd576b0deb9db205398dc119cd82c43e3a24d446d90e7783fc17bd9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GoDaddy_domain-set_2f4e4c31c381b852.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b71385467c401eaf518c2ec469c91fc0240e1f968351eb4dc21b24213502ee8",
+        "bytes_sha256": "d940dfc1f54c58ee14b5d3e02c01c1c75663616e5a6133b2a3b6317fb7310a67",
+        "semantic_sha256": "db8e0e7d491d6cbd97e7e7c68dcfe342680ca007027abe4e45491b9dc597715a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

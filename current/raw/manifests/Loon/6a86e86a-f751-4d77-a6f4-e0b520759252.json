@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:45:34.087666+00:00",
+  "client": "Loon",
+  "rule": "SMTiaoJiaoShi",
+  "rule_updated_at": "2026-07-26T10:43:15.105014+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SMTiaoJiaoShi_rules_a29886d08c0eccdb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e629e4425487944cb029961c146cd7c42aee744fa8a062ae22eff9ef6dd65cb1",
+        "bytes_sha256": "c25fe5ced5ae583b2b921d1e565f65bbd28e57c3cbb18d0abc31292ff7cca40a",
+        "semantic_sha256": "12fa2186117ede74c2cae998ce4858cf07c5ff7528c0294e8a77388d7ac722e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SMTiaoJiaoShi_domain-set_ba425d8c846e8068.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de1166a167bf05af16f34ad1daf62b9d02d101938f7e31ed71939435a4dcba44",
+        "bytes_sha256": "3435601bbefa993de7560e2d22431ea1a362f9a17111fdcd09fc13eba73aa49b",
+        "semantic_sha256": "5979c99dcd63d27b1360604c91d0517ac48e75e55138674d71c72f25063515e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

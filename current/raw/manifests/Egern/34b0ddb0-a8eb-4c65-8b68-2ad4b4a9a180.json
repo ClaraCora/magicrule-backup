@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:22.917328+00:00",
+  "client": "Egern",
+  "rule": "Mainichi",
+  "rule_updated_at": "2026-07-26T10:37:17.422564+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mainichi_rules_939a45697f4f89f8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e1978bb98e6f5a62a1c7d78202ce644333501a857ca54b75efd4d7cc54f071df",
+        "bytes_sha256": "6b28711528a508e853d84aeaa23b4b317e4d15e797ad4419910d1c0bb4ea5934",
+        "semantic_sha256": "e7b18baa8232d637301b0ddc1b6bbf2d7258c4a5f2fe5e5926d3c02beaeed266",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

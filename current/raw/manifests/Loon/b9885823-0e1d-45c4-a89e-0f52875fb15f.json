@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:50:15.860423+00:00",
+  "client": "Loon",
+  "rule": "Akiko",
+  "rule_updated_at": "2026-07-26T08:38:24.127172+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Akiko_rules_6eba46ae443d2eec.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "88c11918721c27c59454b31de6e11a56b9266d8aacecace877f6370cedb50125",
+        "bytes_sha256": "5229edb06dfdc3e5d974a5a494db43c63e27dcd714d114011c85117588f3a998",
+        "semantic_sha256": "beebd812bf0253e10dfef46654d018f44d43080b999c936c58603023d1316124",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Akiko_domain-set_84b1a292ff3201f2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31fc6c15de1d63fdd4aeecd8578c1315561c50e3c80cbd221028251c1720f62d",
+        "bytes_sha256": "8895b13db4d38662065e3abd0d689469bb0b54ea6456389a849b6682284397bb",
+        "semantic_sha256": "0df38bcb245ec0f3f58d1a3c0b87200586841bcd3d81a18d94dd21114335f012",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

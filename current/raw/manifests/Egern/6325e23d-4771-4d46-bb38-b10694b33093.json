@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:44:29.990805+00:00",
+  "client": "Egern",
+  "rule": "SafePal",
+  "rule_updated_at": "2026-07-26T10:42:25.400401+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SafePal_rules_83b49d4f84f31a06.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8815d2748742ae091897b7c1b51223d93883549d6c69281412452f409d8417cf",
+        "bytes_sha256": "35a3caf4023ea74ca90630d87416c3e09b73ccea74bd8e13061c300fd883f6cd",
+        "semantic_sha256": "69802b2240f3c6ee0e1df497aff684861ae1753732618d1c706501f29245d0b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

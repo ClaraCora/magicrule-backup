@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:47.091163+00:00",
+  "client": "Egern",
+  "rule": "ScienceDirect",
+  "rule_updated_at": "2026-07-26T07:36:39.845466+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ScienceDirect_rules_e5c0dbaab73c9a6f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed0af93647649a75b3dc4b3fe31335d7e9f110aa4e59197b5ceb4d1d95e19f35",
+        "bytes_sha256": "50cdb09c47a8459113f7c954b008d5c35e312fa5594c4bc6ba5cba21a1d88953",
+        "semantic_sha256": "7cb096bc0c9f5a5a84d7d3205ab563813218280c9b6a4caf73a13c9fe6df3770",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

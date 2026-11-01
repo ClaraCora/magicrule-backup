@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:48:39.003568+00:00",
+  "client": "Egern",
+  "rule": "Asobo",
+  "rule_updated_at": "2026-07-26T08:36:13.724686+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Asobo_rules_b1533274a4ed6834.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d56cc16cb739159418ac5c44c8d6929a5490a58029c5d7f3dd7fa76fef878c7e",
+        "bytes_sha256": "6c1fe8d67582f0fc901b1abd05cb9d7246fc43a7ba1571b081480b081a299788",
+        "semantic_sha256": "6285a439e31e32e8088ade0296623699e5aafbe396d5c8cdc54dcd076546e103",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

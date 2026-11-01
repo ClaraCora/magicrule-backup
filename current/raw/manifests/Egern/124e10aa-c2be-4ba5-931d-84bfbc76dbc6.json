@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:05.790375+00:00",
+  "client": "Egern",
+  "rule": "HuPun",
+  "rule_updated_at": "2026-07-26T10:33:43.314364+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HuPun_rules_cf69f10a05dfed1b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6cff4258daa74d0b5871dc773f3e8250e7dc7f08427dd786c8f23d947fc3efae",
+        "bytes_sha256": "02ed5b7553e0c3aae7219959605807c6a19a149488e725dac019f600333add04",
+        "semantic_sha256": "6420d7fc5c43450654dc8e360458fdf8022fa046f7a20a9fa16685abe5f1cbac",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

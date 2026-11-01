@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:20.450091+00:00",
+  "client": "Loon",
+  "rule": "Launchpad",
+  "rule_updated_at": "2026-07-26T08:35:57.963058+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Launchpad_rules_c7d46b478a6016f8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeba872f086533abcdccef8ece97e6371cfdbc399df813f9944c31cfa02a0620",
+        "bytes_sha256": "dbd080363b321bcb909c47e586a566fcaaad889a08ab7d396ebe12e401c69d40",
+        "semantic_sha256": "84a74ba3ec0e21cc5ca1fa1c4a3661bb46b08470e45658cfa1e4664201577cee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Launchpad_domain-set_e9827f7fa6bc8a00.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6058f8aaaa55fdbc9dfbe2353d3c43b22ea36e4ced0ff2f9561212d0a0444d14",
+        "bytes_sha256": "5ba7dd92c9637f0e7cf45a115603439c2d2cfa963f2ef779a9f3467c82490765",
+        "semantic_sha256": "fef48dbac3b2d63582b818b4a9292065485328fe0f2f4e209ff7d0491d89c973",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

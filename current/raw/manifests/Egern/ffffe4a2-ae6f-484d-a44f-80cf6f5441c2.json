@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:43.972981+00:00",
+  "client": "Egern",
+  "rule": "NetCup",
+  "rule_updated_at": "2026-07-26T08:38:18.858756+00:00",
+  "type_counts": {
+    "domain_suffix_set": 24
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NetCup_rules_0032ca178cf762e0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61ce787f74cd5308ddb4bba297ad9120678af48a59687a052c308f2f0f3515f1",
+        "bytes_sha256": "6b75352f28a97a2ef8f07fbdf6d3f5bc0fd36db0b95130dc1b7dad46543c90c9",
+        "semantic_sha256": "98d09ab8a0f0e9c4fef9c5a0dea49ccb48b5411e98326e9a48b3196ed5287a0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

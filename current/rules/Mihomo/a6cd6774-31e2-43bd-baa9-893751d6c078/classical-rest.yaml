@@ -1,0 +1,39 @@
+# NAME: Apple
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-10-29 10:44:14
+# BEHAVIOR: classical
+# DOMAIN-KEYWORD: 5
+# DOMAIN-WILDCARD: 15
+# PROCESS-NAME: 9
+
+payload:
+- 'DOMAIN-KEYWORD,apple.com.akadns.net'
+- 'DOMAIN-KEYWORD,icloud.com.akadns.net'
+- 'DOMAIN-KEYWORD,icoudo'
+- 'DOMAIN-KEYWORD,icoudos'
+- 'DOMAIN-KEYWORD,testflight'
+- 'DOMAIN-WILDCARD,*-content.icloud.com.cn'
+- 'DOMAIN-WILDCARD,apple.*'
+- 'DOMAIN-WILDCARD,apple.com.*'
+- 'DOMAIN-WILDCARD,appleworldwidedeveloper.*.net'
+- 'DOMAIN-WILDCARD,imac.*'
+- 'DOMAIN-WILDCARD,init*.push-apple.com.akadns.net'
+- 'DOMAIN-WILDCARD,init*.push.apple.com'
+- 'DOMAIN-WILDCARD,ipad.*'
+- 'DOMAIN-WILDCARD,ipadair.*'
+- 'DOMAIN-WILDCARD,ipadmini.*'
+- 'DOMAIN-WILDCARD,iphone.*'
+- 'DOMAIN-WILDCARD,ipod.*'
+- 'DOMAIN-WILDCARD,macbook.*'
+- 'DOMAIN-WILDCARD,macbookair.*'
+- 'DOMAIN-WILDCARD,macbookpro.*'
+- 'PROCESS-NAME,CoreLocationAgent'
+- 'PROCESS-NAME,LookupViewService'
+- 'PROCESS-NAME,WeatherWidget'
+- 'PROCESS-NAME,apsd'
+- 'PROCESS-NAME,com.apple.Maps'
+- 'PROCESS-NAME,com.apple.geod'
+- 'PROCESS-NAME,findmydevice-user-agent'
+- 'PROCESS-NAME,fmfd'
+- 'PROCESS-NAME,mapspushd'

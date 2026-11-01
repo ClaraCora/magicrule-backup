@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:06.759766+00:00",
+  "client": "Loon",
+  "rule": "UOLiv",
+  "rule_updated_at": "2026-07-26T10:46:57.971379+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UOLiv_rules_2f08f5f33e34f2c9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2b56d8b5d774d6de01a206a835201edaa40f3486e98b38ce287203ff455b77d6",
+        "bytes_sha256": "47802d7563c16a92e17db6c89dfb13092071fa365773f495164e7077300a6549",
+        "semantic_sha256": "f83e6b2ed8e9daeeb43f438126c454d62d41b14de8486425d6198baaae1027f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UOLiv_domain-set_4eb45e3c33b8e8ec.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cdf3a01387591d0801f1f94fca12c2c1cd9d6094c62ad492854eb962c4543cc1",
+        "bytes_sha256": "1b26a8d8876357ef128ade7bf272d6084db82926fb3eb7dc0ecb7a9e4df3b0a8",
+        "semantic_sha256": "5784a73e19f952025c21c9d459b600cd562060a3edfcf18db6ad38f71599eedb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

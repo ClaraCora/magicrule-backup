@@ -1,0 +1,17 @@
+# NAME: Microsoft
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-10-29 10:49:37
+# BEHAVIOR: classical
+# DOMAIN-KEYWORD: 4
+# DOMAIN-WILDCARD: 1
+# PROCESS-NAME: 2
+
+payload:
+- 'DOMAIN-KEYWORD,1drv'
+- 'DOMAIN-KEYWORD,microsoft'
+- 'DOMAIN-KEYWORD,onedrive'
+- 'DOMAIN-KEYWORD,skydrive'
+- 'DOMAIN-WILDCARD,onedrive.*'
+- 'PROCESS-NAME,OneDrive'
+- 'PROCESS-NAME,OneDriveUpdater'

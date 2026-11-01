@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:43:08.304340+00:00",
+  "client": "Mihomo",
+  "rule": "HainanAirlines",
+  "rule_updated_at": "2026-07-26T10:30:53.107977+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HainanAirlines_classical_0a3d44ec1172bdfc.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf2dfdd9f56836176cb67ae8d6f90642a0e6f5951a8d2b614c55eeaf59b87b25",
+        "bytes_sha256": "fd0786cf0e517dbca67ed8533317d6660210c66f6ca2cf3b730652fcbd5c1539",
+        "semantic_sha256": "795126fe724fb33cf05b337faaee8576b70fd86b3e25d190357d60869088447d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HainanAirlines_domain_46926823df3c7f6a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7654ea6ecd993616430e96d4800fae13aa6292f24ed7b31c542fc00166e54c17",
+        "bytes_sha256": "5176467066d1b24536e2860eaa6977cf680db74575da94262e947058577d8a5d",
+        "semantic_sha256": "74f35f1eb701657654535c63225b3b5f40f882e81ef792f1612150c58730a8b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HainanAirlines_domain-mrs_2a76f22da09990ae.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "481b121d819587570ff565d9bff28b6a9d1cce39d3bc95cefc611e5bea9ed3ca",
+        "bytes_sha256": "e353247e09fd2999aef12d5d72a59d6f2f7833b577c2af8129a0e411d6f9bf02",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

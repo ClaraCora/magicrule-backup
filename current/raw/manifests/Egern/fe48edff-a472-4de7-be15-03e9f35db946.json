@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:36.578559+00:00",
+  "client": "Egern",
+  "rule": "Codecademy",
+  "rule_updated_at": "2026-07-26T08:35:52.986066+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codecademy_rules_b3065b3e5941a6cc.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f183544f993ff896dc740f737d4b751d2e2577ea876fe14e77f8b470c19935a7",
+        "bytes_sha256": "465712aa5244c2f1d799a22c37e100a649a6cfa1d3fdaf5f8283750e90303f2c",
+        "semantic_sha256": "17d6fdbf3f2a0df25352e6a9598d22fe4105338b7049b1258aac2d92b2774a1c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

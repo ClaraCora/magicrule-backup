@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:19.434232+00:00",
+  "client": "Egern",
+  "rule": "Yokaverse",
+  "rule_updated_at": "2026-07-26T10:50:17.086340+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Yokaverse_rules_5dc78a6b216b7767.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "709f741af21b7cbe73c65011cdaaac2779e65afebb36f2e06b66884ac65d12cc",
+        "bytes_sha256": "b07b6e83b08cbb4922007d63c908b4b43e85ebb8cec653ff992e7d4a9ea20a2f",
+        "semantic_sha256": "2d79cf936a9af10c094b22ed1fef97d8d3415d37be9ccd7b81c9da92512b2b32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

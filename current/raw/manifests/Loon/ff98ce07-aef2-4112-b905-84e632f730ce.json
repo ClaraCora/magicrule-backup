@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:41.895166+00:00",
+  "client": "Loon",
+  "rule": "HCaptcha",
+  "rule_updated_at": "2026-07-26T10:31:08.739658+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HCaptcha_rules_1d4f58c528c77373.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89dc8945c074185e48955577a137f2a98b481cc0e267867b1dda3b3198b5c092",
+        "bytes_sha256": "759c0ef249f5dc9c967e65331aca0e8b248750986f3c5eff689905226304ceab",
+        "semantic_sha256": "5e6f585d3dfed8ab257acfa53cc37c1039f28f99ce0d9ff39bf68c038e685833",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HCaptcha_domain-set_b8a97d455db46819.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "10763399b66fbf163a6a5b06aa0456d9126e77a109c7f7677df91a1873db6373",
+        "bytes_sha256": "b6ba7c100a2c44b541224444f5a342ce8d1c8af69adae32537d79744d12c6b28",
+        "semantic_sha256": "43780173ff5e5200852c1b57078690a0acf7d26cc7ac2363ec7e64a3c90d0285",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

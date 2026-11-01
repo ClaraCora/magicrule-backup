@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:22.480897+00:00",
+  "client": "Egern",
+  "rule": "TheTimes",
+  "rule_updated_at": "2026-07-26T10:45:48.167983+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheTimes_rules_a364f9e91100cef5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4366f05740f0c24b3a27359622a40f7d243d51eaaa0bd744e2750e90c32e1ff9",
+        "bytes_sha256": "88a8b16a8059a980ecab31076a8ee04d2b57fe238e759497d0b8fb2ed120a72d",
+        "semantic_sha256": "48c84b5d2ea516738eea0965bbdac3e1c59cf50a3af16d699f5df483fafb5555",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

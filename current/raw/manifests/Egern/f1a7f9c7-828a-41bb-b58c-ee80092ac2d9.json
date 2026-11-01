@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:21.247430+00:00",
+  "client": "Egern",
+  "rule": "BetterExplained",
+  "rule_updated_at": "2026-07-26T08:35:52.662152+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BetterExplained_rules_0f048d8fcac64131.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e72e1aab4d85274f9bc4c64fe2a410aada4fca47f981d7b39cffd786abdaece0",
+        "bytes_sha256": "f05e89789ff439d98c684f73c8cc355f65b47058b8e0333aeacd24c61987f607",
+        "semantic_sha256": "6e140239450cdbaf6f4cbfd7a07da4b651e47b146dfee7d412a77f4ea514f092",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

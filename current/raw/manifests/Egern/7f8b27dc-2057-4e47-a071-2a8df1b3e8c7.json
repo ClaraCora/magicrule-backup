@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:45.801026+00:00",
+  "client": "Egern",
+  "rule": "ImageCurl",
+  "rule_updated_at": "2026-07-26T10:34:14.978873+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImageCurl_rules_30a5bf5f0ccd3c59.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbdfe0d6a0a41032ca61b275b22c159cd3091e09a2ca3d4ef8fd4e67a481b5fa",
+        "bytes_sha256": "1b64aef23163efc8bb7099b803f1531a41559248d7536a5056103a7a13ee673b",
+        "semantic_sha256": "f97f2f11e71edfdf01e0ff6ec496af433365c336c3197b6cda62bd104f5e39e5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

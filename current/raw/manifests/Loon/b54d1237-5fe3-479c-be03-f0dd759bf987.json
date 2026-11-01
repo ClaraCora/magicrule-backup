@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:54.397344+00:00",
+  "client": "Loon",
+  "rule": "JiyuKobo",
+  "rule_updated_at": "2026-07-26T10:35:17.069766+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/JiyuKobo_rules_e83ea4c5f434f8b0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0f42e71b95e6ca7d3d33b035056242454c2d65338e97366ab10edcd30f8be448",
+        "bytes_sha256": "422e250003aa836ae69e90dc9e7d1ae80538ffeeb591ee05d0d223c4fe390a3e",
+        "semantic_sha256": "c728e823bc1fd628cf1a7e862ed317fcf04527c8354064ef47f59ffca739d82b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/JiyuKobo_domain-set_af06f28c6d90409a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65e2ef0d1eaa45476429347847509f70f564cef51a35f6658e6ab3bc2d88f626",
+        "bytes_sha256": "6c55705536b96a923a9db48b95d7a10b564f18d7f07d3d7e0657f3e55784e189",
+        "semantic_sha256": "517cb3ff0a6f19f80b16b1f52c7a669cb568ec4c5c18697ee574bb1bf37b27dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

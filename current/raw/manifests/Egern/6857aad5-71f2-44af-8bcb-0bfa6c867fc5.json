@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:19.859574+00:00",
+  "client": "Egern",
+  "rule": "CnBlogs",
+  "rule_updated_at": "2026-07-26T08:35:54.368666+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CnBlogs_rules_3e0edb3e912a6651.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2ae9ee7ce8eb8fec997b3bf1c29eb4f29e0f2f6385a31b576674e837156c275d",
+        "bytes_sha256": "f443e9693a07de5f48db2544b6151cc96342875fdea4e4c3df3b87434dd2a35c",
+        "semantic_sha256": "5a7662a72c60c39d6fb15388e94f9e08e718ff78a9f25a559ff7bb1c9e36873a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

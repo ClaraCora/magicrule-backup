@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:19.262100+00:00",
+  "client": "Egern",
+  "rule": "HSBC",
+  "rule_updated_at": "2026-07-26T10:32:06.360437+00:00",
+  "type_counts": {
+    "domain_suffix_set": 48
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HSBC_rules_0b8a0827f76ba526.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "23815d739d84ae0a0678eceab2409ab4ee3d29e9227596e47eb94e798c4c1d6a",
+        "bytes_sha256": "fb128c2ba4c45413a96132d315b217074ed7abd154c283cff9f426b571f8c05f",
+        "semantic_sha256": "a704d35ffdb29de8416082972f28e2bbea949933a5904610edb050cb7a96ef92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:20.833304+00:00",
+  "client": "Loon",
+  "rule": "Veet",
+  "rule_updated_at": "2026-07-26T10:47:44.431015+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Veet_rules_f8943df68f1a7270.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41b23e9b58690aeab933c0004b97976adeac877fe5fd4094205597fdd1a26132",
+        "bytes_sha256": "7aedb1f47f009f38eccc4bb9d242caf9c5df4c78e43197cf78c062f2eb983235",
+        "semantic_sha256": "95012f344b3a6026e1cd540f516e8c978de7d9c38cbd9f6f58d7ec7c3d298c1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Veet_domain-set_1fc4ce13e2c9f215.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3ed13c00a38292c9b0d6dec269d99871bd4499bf69289f0acab2f3dd410978bf",
+        "bytes_sha256": "95b1a40dd26f03c3951348030799c54dfc6c3c9fc86b4413c32372779eabc037",
+        "semantic_sha256": "7abd2e5d71ff564a1305c9ec4cf684a66d3f2aba74e455e60c6920ae48d6cad3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:47:47.256522+00:00",
+  "client": "Loon",
+  "rule": "ChinaPost",
+  "rule_updated_at": "2026-07-26T10:23:28.305245+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ChinaPost_rules_c6a3a5fbecc8abdb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7cabbd00505bb1b3dc5d6f959ac2505c65bfa63d16f817c78fefd1f965a2b795",
+        "bytes_sha256": "24039b05750e5191879b97ee07e9e3575bdba8563707c9b2a1c997269adc7f10",
+        "semantic_sha256": "42db843382f968023042f7d9250a8e376a3e26a0df689bf6584dc9ed556bc770",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ChinaPost_domain-set_5a1f5e13b1c50b6f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "458954ad3704075651ed1a9f9c66211862e74b7236a8892b37657f07e9915d31",
+        "bytes_sha256": "1e5f8d7d12681f299f3d9ee1217d4b2d5242499d8592ac5d891ccfbaaafbd7f9",
+        "semantic_sha256": "78c28e46031d3d6f013addc6b0a42941246095ca48378998b5c1b33b713b78bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

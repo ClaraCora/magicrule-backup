@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:10.630022+00:00",
+  "client": "Egern",
+  "rule": "TheGuardian",
+  "rule_updated_at": "2026-07-26T10:45:50.470739+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheGuardian_rules_ab500cb249f9dcf5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5b09d63b65bbecf8b99b386e9149e12e52c6113f233cbacf54aa7fa28981004a",
+        "bytes_sha256": "5066314b518d6370311fda3db767aa0a3dcbbf2f67c517e49e3941ee685c44d2",
+        "semantic_sha256": "03c7b4828ad4d9e6098715eb089cd006ba461883b563cf0772497d32acc2e813",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:55.887328+00:00",
+  "client": "Egern",
+  "rule": "MeadJohnson",
+  "rule_updated_at": "2026-07-26T10:37:25.588454+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MeadJohnson_rules_e59ed64d4128a5e0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1557eab7aea0f7ad33a51d770b89bdc1efa0cb4bda81881593b8c51d97b6088d",
+        "bytes_sha256": "a9288f1029540cae3ebb484558090dcc155fbb12e04eb670c8cbecac9f73d664",
+        "semantic_sha256": "824915956cdb14d45b8df673b57079194b1a5a5dc911df62140328f16e76da21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

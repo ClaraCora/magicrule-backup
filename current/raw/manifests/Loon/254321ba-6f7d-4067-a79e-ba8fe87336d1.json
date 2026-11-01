@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:50.182678+00:00",
+  "client": "Loon",
+  "rule": "WebEx",
+  "rule_updated_at": "2026-07-26T10:49:05.825205+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WebEx_rules_9887654d013d5ca2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aada2089e2e18466cb377edd1f693e5e9747d2ca08dbb9aa573df035bf68d281",
+        "bytes_sha256": "85c10da71bc443b49685cda2d0df5f9a59cc98d687bd00976a9ced0e667caeb7",
+        "semantic_sha256": "528b8bb6afabadad4b9f06aed6d3fff4c078ec9c1b3cd2707e2f003cc041856e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WebEx_domain-set_78a057c8596a071f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b1c49d6a78f80f1ef5f520509184b2890451601621657d362d61d6cd5ce0d01",
+        "bytes_sha256": "9f67893e46a723841d29dbce2c8344fb48eceb482c1334dcecc8887d23c2e23f",
+        "semantic_sha256": "f6506003bb21afecc39ae1347dd4046f8ec0aab28e80d119f2c0684175b65cbc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

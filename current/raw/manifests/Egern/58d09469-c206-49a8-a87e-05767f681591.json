@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:51.007418+00:00",
+  "client": "Egern",
+  "rule": "Flowwow",
+  "rule_updated_at": "2026-07-26T08:39:32.937069+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Flowwow_rules_74428aed7d93b6b8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2daa04fb340e5c191a91eff29b7c860c0e27cdf15634e8f109e2af68808ae9df",
+        "bytes_sha256": "1d1e9e45e71dd219088f2a088f2af9dc36d88fc5245bc81097fa509121bb6b03",
+        "semantic_sha256": "1ca870dce412e394e972c936ff2d3257f8a0571f83a8fa3bba7d7be70ee002ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

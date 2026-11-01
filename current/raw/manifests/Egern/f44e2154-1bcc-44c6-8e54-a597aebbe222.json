@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:47.049797+00:00",
+  "client": "Egern",
+  "rule": "Economist",
+  "rule_updated_at": "2026-07-26T10:26:54.370984+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Economist_rules_4a2f3dacee972634.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b974e367f50b8030f2b3c7c78f01327f76048946896a2b5bdcd5ebc3b19bf88a",
+        "bytes_sha256": "bab63c8e2fcc2089ecbe0634753286a9a202931828b34710ef3d66d1ef5fcc82",
+        "semantic_sha256": "b2f31a5edc2d8f0c247818131f867173ed469887f276be2155b6e19c362099fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:09.944322+00:00",
+  "client": "Egern",
+  "rule": "Envato",
+  "rule_updated_at": "2026-07-26T10:27:41.024053+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Envato_rules_daaffa04c9d46dd9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d42d71a0cc304b07d292335df58118656b87ec4b07abd355248de32b70e8ce73",
+        "bytes_sha256": "d43309ad55bdca00e6bfc7ba3827c3a898d6f9f8be113dc5783c34f39913bbc8",
+        "semantic_sha256": "9d6522cc4a4db23cf3ac0300fd1f4f3c12ad681d8f493af5a09b42da71cb60db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:14.387822+00:00",
+  "client": "Egern",
+  "rule": "StackPath",
+  "rule_updated_at": "2026-07-26T08:36:11.711090+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StackPath_rules_f77e11b7c2346c0d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f44d6b8a718a7b6d4e681d10622c931641c335b6f936acada0d9babb46fb591",
+        "bytes_sha256": "3b9dfacf107afa85e4cd8c61fe996e52c3aaa098227de1348c6f39ad844fcd85",
+        "semantic_sha256": "57856b091f933e719451c0cf3b3613a7cd0250aa6050418d8d014a8aae06c232",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

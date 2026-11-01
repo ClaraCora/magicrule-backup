@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:26.704910+00:00",
+  "client": "Egern",
+  "rule": "ItchIo",
+  "rule_updated_at": "2026-07-26T08:36:31.980612+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ItchIo_rules_baf79eb6b608fba0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f909dd35a9208e3c8dd7f14dd69476e3fe69138a205b8e8689e9b8d03cc09da",
+        "bytes_sha256": "3018b383a3824779bd91b00176b2f826a0830062d134db1266c6b76d5a25527a",
+        "semantic_sha256": "1d4c580858d87722f15090e7ff1492b38af5dbaf6548d734686a9e919855063c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:53:02.139694+00:00",
+  "client": "Loon",
+  "rule": "FengXing",
+  "rule_updated_at": "2026-07-26T10:27:44.156264+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FengXing_rules_a9f18780f4923bee.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35e636c498bd42a917dc99a5b3f570fe5c21e4725fc0373b2dc7f697108a1d96",
+        "bytes_sha256": "6cbc750380c1b4506e9971846acd4b450342b4907405040ebeae3d444cd435fe",
+        "semantic_sha256": "06e24c378426df093f7f1ce3d078c39511d994de31b580bbab4a7320b77c1768",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FengXing_domain-set_4674b813b83a3825.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eada651a7ebc18a0cf7d7d0faf86cb3baf09c4435d8c42b50b14da127130adec",
+        "bytes_sha256": "82514a466b2dd21dd026f75b2fc906589c80aafcedad413975f98bf6ed406480",
+        "semantic_sha256": "cd51043b69928c67aae9ab4ab271351675781678b92e295e3a737c0fb829999d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

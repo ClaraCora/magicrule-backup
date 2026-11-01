@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:44:50.732107+00:00",
+  "client": "Egern",
+  "rule": "Dribbble",
+  "rule_updated_at": "2026-07-26T10:26:09.988703+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dribbble_rules_d266c96b09c89c8a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "384166d5132510b6b08d8b20efedf7dea6198380950dbf5c22722ccc6991e358",
+        "bytes_sha256": "9ee1abdfa485f128f3b549e6498a6a4514602b88fda37cad0eda14e44d8ed4c8",
+        "semantic_sha256": "df02358d16b1795ae7be1912ae3dab4942da9b400e46ebbd47d6253af874deab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

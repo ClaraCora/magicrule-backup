@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-27T01:42:47.692301+00:00",
+  "client": "Loon",
+  "rule": "GlobalCloud",
+  "rule_updated_at": "2026-07-26T10:31:57.618048+00:00",
+  "type_counts": {
+    "IP-CIDR6": 2770,
+    "DOMAIN-SUFFIX": 19,
+    "IP-CIDR": 5779
+  },
+  "total_line_count": 8568,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_rules_1d66e11b4493a105.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a0f7cf85f1b4b3d65362b8c699b042d4184177f2511bec9e3167de80eb43f32c",
+        "bytes_sha256": "54375d13b7d08b022a34bff84b354f70324076c69a26afc1155c0135b0a8fc74",
+        "semantic_sha256": "572ea147014a68604a7e7edfc696ea6f1b4c35fdf267f0fc909b34af971d38dc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_domain-set_e964e0127650a648.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce40535b1f2444e62bdd8ceec4a026bcd54cf0488e5d2d2669346786a644d839",
+        "bytes_sha256": "fdb194010cc4531d166054737e16c8057317f818bdba26a1c347aa692ad385d9",
+        "semantic_sha256": "b369c642920127a65f1a8bfc3e8cf67326085bbc771632327ac7ceaa71eca2f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_rule-set_ea02c8943b898e81.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b009aefe5459a4be428546c3348485c462671310a223418debbd21d4596efb33",
+        "bytes_sha256": "fc03a53fd51f0b51881cc097faa1723aba791158ffdc1b88824f94872f2ef0a0",
+        "semantic_sha256": "bfe656c934e234e7f1c9f0a2b9f8c6d0c61db8c361cd66417cb6cb3f9c8b6fa4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:41:14.763234+00:00",
+  "client": "Egern",
+  "rule": "LinkedIn",
+  "rule_updated_at": "2026-07-26T10:36:49.661917+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinkedIn_rules_eb8f476766e34551.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a5f7b0a2c5d5f7cf50a0508fe5d73ad71e0c9698e4e3f91ebe9d211499b30144",
+        "bytes_sha256": "da379279da755c820202a75d896f0c53d802771196822f9027b747644463837a",
+        "semantic_sha256": "db005271f6cf7fc3ef3a1e0125968fdd215582213a8148d748f70331813ad603",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

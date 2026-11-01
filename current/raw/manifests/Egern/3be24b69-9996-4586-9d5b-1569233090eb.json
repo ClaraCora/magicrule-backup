@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:42.772458+00:00",
+  "client": "Egern",
+  "rule": "AccuWeather",
+  "rule_updated_at": "2026-07-26T09:55:21.208522+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AccuWeather_rules_5bc6842728c9281d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e223b35ced9805dc3fe9559e9af140b26c489383e14f1b378d0fc19af151ea9a",
+        "bytes_sha256": "b0e349448140ccfa4def19ee2d214de398125e0dbc7cd0fd89685ce84dc56d49",
+        "semantic_sha256": "1a6f141577b75cc976f6bdbff883408cc2dd73eb5e9100227179002a3f579b60",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

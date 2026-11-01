@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:48.188711+00:00",
+  "client": "Egern",
+  "rule": "MailCom",
+  "rule_updated_at": "2026-07-26T10:37:06.492904+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MailCom_rules_46f79ec476f380ef.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3be559682e003871050dcf4e7a24805b5c1fa156a42d637e2d958e4041778014",
+        "bytes_sha256": "3d9cd7357f5abee60e1e31004027a9560c1939630e4bf7683013b4c8ffe441b8",
+        "semantic_sha256": "6cb01dcf1dd0afbf46e5529dc045bd1ea6f83e129dd2f3d80fe5a493711db910",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

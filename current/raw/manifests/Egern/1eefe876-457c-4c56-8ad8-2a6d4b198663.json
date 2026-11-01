@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:35.344906+00:00",
+  "client": "Egern",
+  "rule": "MoveFree",
+  "rule_updated_at": "2026-07-26T10:38:04.257375+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MoveFree_rules_ab5cdeede9e46b13.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "470b63307b74edc596bf79ac97f1ee17aa44968429917c09c3afbd53b0c33bf6",
+        "bytes_sha256": "717ea0eeef1804c6c9a14144ae227b792930df97f9f56a629ab65753a9ba6d8f",
+        "semantic_sha256": "a203a29ceda23a96426ecbf1bd0a60988739017f17db3c1b3d0557c973a0e74c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:50.039356+00:00",
+  "client": "Egern",
+  "rule": "WebEx",
+  "rule_updated_at": "2026-07-26T10:49:05.988372+00:00",
+  "type_counts": {
+    "domain_suffix_set": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WebEx_rules_1068e260a1c18691.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ca212630902a51b85245b38ffec0474206c9dcdd155fdecbe0d62aee1f235bd",
+        "bytes_sha256": "6acba32121874c07622c74790b934c234a6e0daa15807c5d4074427b598c1403",
+        "semantic_sha256": "4585e4682e61469b02ac076a987732a67c434a4dfdd7ad1368be43b4c7b04ff8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

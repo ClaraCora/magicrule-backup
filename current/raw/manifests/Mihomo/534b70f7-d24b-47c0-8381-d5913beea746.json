@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:43:32.993719+00:00",
+  "client": "Mihomo",
+  "rule": "LocalBitcoins",
+  "rule_updated_at": "2026-07-26T10:36:54.754096+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LocalBitcoins_classical_adf6049d9535d277.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57ccf879c5a9c9cd80c8b80fc02f64cfd5b260f166d630d88b4ae25d7a441e59",
+        "bytes_sha256": "cc9dcb40ca756feff422c111ea27985056bdb33a3c48cb5869b09acbd0affd67",
+        "semantic_sha256": "7b9f14bc6806ce26a0ca00888500935a0c7fcbcd8a46e5c4c9953fc37fb7a3f9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LocalBitcoins_domain_898a11f45fe7c94f.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4cff49d37a37d61dd306b4f92b700e28badcd60d996219d67f609d3a70a352e8",
+        "bytes_sha256": "84772f3ed6993f763e4095a4ea5acdd817c53cd2e25469abee4893b486c3ea8f",
+        "semantic_sha256": "a215c8a31995b8747a8d92c1272bf839ed10653bc04d732e331c54b718999c4b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LocalBitcoins_domain-mrs_3cd2cf413acb75e9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "a81064af8aff7202e046bbbdaf8fa1c4388b63d464fc721fd9be12ac9ad060c1",
+        "bytes_sha256": "59a6a2ea1705e9ceb0ecd31d9ee611034fdc686fe3fc7a10fe035035d8a8f46f",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

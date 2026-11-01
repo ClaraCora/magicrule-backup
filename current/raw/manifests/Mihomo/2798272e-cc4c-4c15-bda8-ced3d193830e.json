@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:56.251021+00:00",
+  "client": "Mihomo",
+  "rule": "Bandcamp",
+  "rule_updated_at": "2026-07-26T08:38:24.319092+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bandcamp_classical_1db612defb27b80a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d90f1a7a023537065dfe68fd4c04d71a46d485a17630d6d388a3feb9cbcc4d5b",
+        "bytes_sha256": "080deeadfba78e0fdc3ea2b4bc20d0c310e2253dbd3345899049be7244bbc86e",
+        "semantic_sha256": "b166c0f819c13a4e8dd7a833ff1b6b17beb86532bb81bd2e97475fdb2f1b2251",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bandcamp_domain_eab20c8f447537a7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b305062c149a460373b73c79e87ed3732059b0379db68efacf8edf3ec43eb05e",
+        "bytes_sha256": "dbbdc83eb761a5a6182a1b9199d3ee9d31c97ebab982f82a3aba855dda0bf647",
+        "semantic_sha256": "122228b0cf88f940890fe25e2911fdb620019f1f8cf281714c5e461569f71bc8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bandcamp_domain-mrs_c95e5dc558c25ad8.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "577ac094539edb67c866d648e045561527f45bc72286ad423e22229a7016db7f",
+        "bytes_sha256": "9a81fe193da2c788ac96dfcd52eec35bb715616c6832ba402951e9236973511b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

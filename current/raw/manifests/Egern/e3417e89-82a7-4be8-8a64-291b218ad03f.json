@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:12.424632+00:00",
+  "client": "Egern",
+  "rule": "FastStone",
+  "rule_updated_at": "2026-07-26T10:27:44.790051+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FastStone_rules_c8648c17b266b864.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6340cc3a83ad4c9548f8a88c7f5eb61abf63fab8243802d3804cdbe1af0fdd04",
+        "bytes_sha256": "732b25e3faeb2bd77098cdfffdc2c61b44cee17fa46dba36a3eac92fa9f75fba",
+        "semantic_sha256": "ccbdca9293ba0a0220f49895f889fde30aea660b154a2119d72db09aca5324b5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

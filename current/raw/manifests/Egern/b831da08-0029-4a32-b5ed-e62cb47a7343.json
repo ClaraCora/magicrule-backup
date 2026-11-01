@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:08.595518+00:00",
+  "client": "Egern",
+  "rule": "Vultr",
+  "rule_updated_at": "2026-07-26T08:35:42.174307+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Vultr_rules_c196945e14b587c0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ae29d6e1166d7ae1ac5b6ce4431822e6500dd8e752a9dd21fc83a3275dc3f416",
+        "bytes_sha256": "d429620608fd62e349f405e8f18720cc4284b4ee0e91a41e04d758a39fcd7191",
+        "semantic_sha256": "1f85992ff740717e481b54923adb374de3e90626333a3fa94a7121971294258a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

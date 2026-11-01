@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:52.863562+00:00",
+  "client": "Loon",
+  "rule": "BJYouth",
+  "rule_updated_at": "2026-07-26T10:18:46.062644+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BJYouth_rules_886f6d7a97e96b6f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b7ce342e4d47a9886fa1b074f5ea415d57bc6d10ce95db35e28a0cc0feb4da5",
+        "bytes_sha256": "3299f7460aff9dc065409fc89a37bb09c7e8a6b624eb65be41aeb085468ae5d5",
+        "semantic_sha256": "8819e643de3557ae30ff3c427270e83c60b87f1b59068b359b67655a44397e8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BJYouth_domain-set_d60c7bc228313ab4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65b462a37acef9e2f5cc45494e35a64c6c381d517738866494c5eb0d0af491d8",
+        "bytes_sha256": "29b3e9d42429cdf40f2d24cfb5e022c6b1d18f25caad4cc96534914fd4f5c294",
+        "semantic_sha256": "d651dc17764c92a7418cb846818c2c00d6b0bb2791dd4c62e12b2e9914eda553",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

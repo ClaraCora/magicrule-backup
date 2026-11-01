@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:28.197157+00:00",
+  "client": "Loon",
+  "rule": "DuiTang",
+  "rule_updated_at": "2026-07-26T10:26:16.846418+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DuiTang_rules_79a49aa28e6c8846.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56cab06cea81e3a11ba1cd6651c5bcca590e5e5bbea49a65c550701810a5088f",
+        "bytes_sha256": "c35e9a4644617e1a5c22a37aae57e89c9f6b618a5ebc5334beeb169a841cafda",
+        "semantic_sha256": "49406b2cdf4735987da7283ce642d0c30152a44849fdb3c9eed9606b83311663",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DuiTang_domain-set_008aef6074bdf2fa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5dd66a2cba2cd4cabf53ea4bc359b1d0b70581cb140b51f1b0e301d529d73155",
+        "bytes_sha256": "6f364e022ffa5176954b0a046c9152b744b330e8f8a3dc5c94e7f45fa1c6c9fc",
+        "semantic_sha256": "355d426b7213ae23f6e7f64df026e7c036f4893d68da4f0ac4d6162a5a46079f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

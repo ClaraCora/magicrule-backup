@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-29T02:59:54.272027+00:00",
+  "client": "Egern",
+  "rule": "Timeweb",
+  "rule_updated_at": "2026-10-29T02:37:33.773882+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Timeweb_rules_d7d97fc811b6b4ef.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a6ed01836d93c3c7b57dc438ff56ad9b1f7ab54e0e23f79eecfa4dc7be89b228",
+        "bytes_sha256": "fae1906e892ecae9de5dabd831426e5d2633014f473f3b9ee48c130b6aca631e",
+        "semantic_sha256": "9be715f13c8a6f03377c8826bb75935fcfbc2c03665f9fe6e17a9bc7ed1d8948",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

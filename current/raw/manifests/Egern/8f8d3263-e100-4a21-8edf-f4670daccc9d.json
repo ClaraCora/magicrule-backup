@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:19.631412+00:00",
+  "client": "Egern",
+  "rule": "VGTime",
+  "rule_updated_at": "2026-07-26T08:37:16.402186+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VGTime_rules_35ee0ec22feee033.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "51b67b8a0bcfeef4b8ef5942ca344f13ac7901232ee905c22246fe8ceab80795",
+        "bytes_sha256": "7de5855cb93c609ea452e0bb6fc799c935197a360dc1e7cd62eca8d53af00525",
+        "semantic_sha256": "a4173383047ba5f8400241fff95adb80a4bd9817753b22ab304dda9d54cb1e8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

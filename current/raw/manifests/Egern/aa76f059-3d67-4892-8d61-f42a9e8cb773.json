@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:23.059539+00:00",
+  "client": "Egern",
+  "rule": "HurricaneElectric",
+  "rule_updated_at": "2026-07-26T08:39:17.873943+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HurricaneElectric_rules_a169b9956f3f5124.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cdbb38e44b2f1a817abd5fa20aa22bbf5632d8fb85bc1a13fff3fda25e868e76",
+        "bytes_sha256": "b06d898d4c6711bdc907a9acf0ce685a20339d8e1f4ca7816f059c6824a204f8",
+        "semantic_sha256": "dede8e5de9b21a080bcee840b2564e52df4c35f8cb8548fbb795b54c6d5759a5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

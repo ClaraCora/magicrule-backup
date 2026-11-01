@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:38.837787+00:00",
+  "client": "Loon",
+  "rule": "GamerSky",
+  "rule_updated_at": "2026-07-26T08:36:57.058089+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GamerSky_rules_392aa8fe7cabe2ce.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7982ba124f966e712772173be028bbefa952b0b67517136b28120e9947025576",
+        "bytes_sha256": "ccee1c2ca446e55e28846bd8ee74b70b55e46d19f3f7d03cf1fcf156e92428ad",
+        "semantic_sha256": "1866f59cb3fe302b3d58faa27b0f969ddc3abc2bd1e54b2a4eb657033a4443da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GamerSky_domain-set_eea8e8a4a91d50fa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b2fbdfe8da86060869c965762e103f6b1bb55a0e66d562e875aa64363400e291",
+        "bytes_sha256": "f0887994571aad10c02dd0268042ea9b1e9c98ae962fbfffb0290803ad4f2973",
+        "semantic_sha256": "a7c1ab5d8c0409d17d8cf4948a5b09576409a6f7a1fdd7b7d3934b401d4524ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

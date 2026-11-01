@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:08.976086+00:00",
+  "client": "Egern",
+  "rule": "DingDaTech",
+  "rule_updated_at": "2026-07-26T10:25:23.415975+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DingDaTech_rules_fd9974314d4099fc.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aa25fc451e5660fb22ce79cf361a1546d5653a4731aebc1342c209de0bd5982a",
+        "bytes_sha256": "fd3149b2063e1da970cf48eedcad3ba0752f4609736c67eedd33328033f9e284",
+        "semantic_sha256": "abc53bc4d386c1fd8e729922967470695a5d8814ea938b78c52207784428739e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:57.961268+00:00",
+  "client": "Egern",
+  "rule": "Anaconda",
+  "rule_updated_at": "2026-07-26T06:58:52.775119+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Anaconda_rules_738b2a95ac52f31a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3cc547be6bb4cacb71ba5c789ee80079b8c36f05394a7134d3b55053ed75016a",
+        "bytes_sha256": "c455bbd149339928b014d336a2c6821db2c33967079eea025497f5b6264c09cc",
+        "semantic_sha256": "609a4046b6b17c6f749cf217b26d560a3f1cb832dc8aa207629eb8c0c25bc890",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

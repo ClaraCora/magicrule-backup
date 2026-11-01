@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-29T03:34:11.328998+00:00",
+  "client": "Egern",
+  "rule": "EduHK",
+  "rule_updated_at": "2026-10-29T03:17:52.348580+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EduHK_rules_3fd78300542596d1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c99c51c20613a947e37b6806389002bee92f26065eae1fd392e2883c80d2afe",
+        "bytes_sha256": "c5d9a76268cba0cbc4e1537538a44146d9cd46c40c78d5e4ee7ce3e944d0cd1d",
+        "semantic_sha256": "6c5d20cfcca583f877863914ca7c086cbde527809dafb62c066216a98a42a096",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

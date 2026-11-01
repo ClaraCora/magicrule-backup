@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:23.162872+00:00",
+  "client": "Egern",
+  "rule": "Tonec",
+  "rule_updated_at": "2026-07-26T10:46:22.390031+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Tonec_rules_1c1580e8fe374c43.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da7ebd5dfc3484128a87fae5fa5626907e3d5a50c37f5ea57d7b5cfae7d8fe48",
+        "bytes_sha256": "e693c7c7688ef6d9c9814200878b0f52aaecdacf79898d7def2fd0bff82074e7",
+        "semantic_sha256": "bbd4f3b84679508a83d548eebfa67c8aca9d4ddc170c00b37da480808fcaf756",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

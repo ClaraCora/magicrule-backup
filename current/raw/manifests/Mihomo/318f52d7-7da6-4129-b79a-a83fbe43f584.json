@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:12.784958+00:00",
+  "client": "Mihomo",
+  "rule": "WholeFoods",
+  "rule_updated_at": "2026-07-26T08:39:31.693199+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WholeFoods_classical_420fb270ccbcb906.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da413962ca26d70bcf122603c630d65009ef01e4727dec254dd1322dacf30160",
+        "bytes_sha256": "bee6e76c3aea2bb5072b976b45441a5029088cfd9259ead8e06422a2e328b5f3",
+        "semantic_sha256": "76b386bc186138565309159ffad6e3a8ba20a2aac7f5f22c9a08c56214339157",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WholeFoods_domain_e3d261a45e3cb822.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3da687e1c2eb2db03997893e545177c0e89eeb0c21591155047e8c05a8439e09",
+        "bytes_sha256": "36ca2d507d61bef8eef4e95da7d1f57279c3b29649aa8155d05029d0660e3cbc",
+        "semantic_sha256": "fbaf82d000ecd804cc452b94be186857905b70ac733190c7ddd3605c398ac048",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WholeFoods_domain-mrs_1ff6222a02766077.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9a0cb582eb27b72ef702881605beb35d59bfab1e1ef1a390ed9a25393496ae9e",
+        "bytes_sha256": "cace777b0ae8179c3a56c89b38ba81102936fbf36f977067b2927e1825555583",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

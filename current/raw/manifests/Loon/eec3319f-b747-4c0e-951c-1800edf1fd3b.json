@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:54:11.313289+00:00",
+  "client": "Loon",
+  "rule": "Chegg",
+  "rule_updated_at": "2026-07-26T10:19:49.265732+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Chegg_rules_4494f11623e609dd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0e8b34d09c85fd93d4e57b9b900988510c93135f3318c6859bfaeb70c176e25",
+        "bytes_sha256": "23134c61632fef221b8cb676c13830951d8036bd4af0ef7b7e3b102c1f0479de",
+        "semantic_sha256": "0916f85e550444ef1f3d67522fb109256072645c086eb9d486b7ee357e98aa20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Chegg_domain-set_1d0bd34890059a49.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "deea4f18354402a4f262f8b1421d546d187cafadf7d2b03bfee7fc0f6ad41833",
+        "bytes_sha256": "0201f22a541e3e03e54fda0c2e9de4dd074db28a448fad5fa221890f0d763b87",
+        "semantic_sha256": "650822e14dd40a3de8dc017db9b285e59dcb93ec43159f3cb4f358b61b55b10f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

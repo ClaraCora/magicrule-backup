@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:40.226399+00:00",
+  "client": "Loon",
+  "rule": "Johren",
+  "rule_updated_at": "2026-07-26T08:36:59.945571+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Johren_rules_432b94c2db105c7f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61c91b35fb358d44ee628569214a64e707cf2643d003d6da91998457c82448d6",
+        "bytes_sha256": "e7d59b301ff4dcf83b23ffcb07137908be390f94cfb6f23bac73728138e962e0",
+        "semantic_sha256": "b81d54e7981641c9aa2deb736ad34e594b18a9264c6ca8497ec9670ba3e6690f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Johren_domain-set_46f01212ffd29318.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ff69add114bf6aeeb674ed764ee286140772251c2a7bd6a1cdffe4c1e59985d",
+        "bytes_sha256": "8c95fd68bf2370b6c12336b1c4d872291a4a8273840667bb6d91cbebcf0740a0",
+        "semantic_sha256": "54cb070e2693cbb5f88f638a307833921ad34c0079bed252c9c3e753b01a8e2d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

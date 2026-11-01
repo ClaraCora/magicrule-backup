@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-17T07:56:50.843410+00:00",
+  "client": "Egern",
+  "rule": "NodeSeek",
+  "rule_updated_at": "2026-09-09T05:24:31.703900+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NodeSeek_rules_af0837014c57901d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b9127c9ce66fda0d9e42df826cbfa90851ce185988bd7679f05e5bc7725a050d",
+        "bytes_sha256": "d7e00ad86f3cb9537d4a8af3aec47ad252fd18035a463b4af65dd7da93b284de",
+        "semantic_sha256": "11a308dc6dffcb7e23b665e564e5fb83bd0b9e0f6ae0aeb425a564f57a72f7e2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

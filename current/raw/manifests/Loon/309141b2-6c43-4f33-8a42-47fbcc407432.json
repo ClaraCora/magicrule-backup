@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:11.141241+00:00",
+  "client": "Loon",
+  "rule": "Farfetch",
+  "rule_updated_at": "2026-07-26T08:39:05.611852+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Farfetch_rules_7394a22a426270bd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7b2339a2aec7ef64aa3647a3afd9244427190d5397f64a03e0416e4c30ac406",
+        "bytes_sha256": "3709d37052b063d8d466eb6c56564de7b44122ebba3975fd303672688db63fc7",
+        "semantic_sha256": "c25e4125c153c67e1409562815a4faf58aae6f53435f0543d1ff9a57e6eda3d7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Farfetch_domain-set_2dfbcf469852a2f4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a822c27541407ab3f5759bb1654780710b207b455596ccb154c4158950084824",
+        "bytes_sha256": "667e343f633311bac8721241115ba98e3b0fe664112c6dc24855ec9d5121e3aa",
+        "semantic_sha256": "b7b265daaf01e9bdb7943eb500f3140700399a1f26a98e434ea2f0bdc2aec0ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

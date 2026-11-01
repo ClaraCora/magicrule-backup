@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:50:56.916687+00:00",
+  "client": "Loon",
+  "rule": "Chinaz",
+  "rule_updated_at": "2026-07-26T10:23:27.629513+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Chinaz_rules_63c8c8d5fb5c7384.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5d83c07d4111f9ea632916af864f1188df9cdc756757fd17252ad5125766ce5",
+        "bytes_sha256": "a80ba273345af1eaf0317b12a4e6738a1fdbdd56289c370b7f0bd13158936302",
+        "semantic_sha256": "f905af69508263a25361638dd8182930c236367f42439adabb4e939353db39be",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Chinaz_domain-set_a62738c93998b8f5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b047e29f6e82dc0752523545e31188faf8b4f28b64f32ad465c2c2b9240ad378",
+        "bytes_sha256": "34ac4a7727d724b0334b37e2d5ef71b9e3cdaa4a86a1ced28ab4ed8553113ace",
+        "semantic_sha256": "f796ac6e73add3839c443b89128b6ba98c65263970ba18ffd1888a667597b53d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

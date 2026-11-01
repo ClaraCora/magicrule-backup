@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:40:42.933641+00:00",
+  "client": "Egern",
+  "rule": "OUP",
+  "rule_updated_at": "2026-07-26T10:39:46.858053+00:00",
+  "type_counts": {
+    "domain_suffix_set": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OUP_rules_d4ed98a08f42d710.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a6a99f7dc59a240b95d9ea88f3c968373ef5095a9eccdd6c8536cc3fa2de37e",
+        "bytes_sha256": "8d16348ecf454e648a0453ba59b6acd4ee8f5d5d89a3d67aa6e5533749c71922",
+        "semantic_sha256": "3ec1292d35987d6ac45502c374f43efc0dca5ec88b894fe19506a1eb3840e675",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

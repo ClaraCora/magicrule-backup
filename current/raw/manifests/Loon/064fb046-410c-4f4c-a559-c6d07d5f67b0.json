@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:40:23.685702+00:00",
+  "client": "Loon",
+  "rule": "GGSel",
+  "rule_updated_at": "2026-07-26T08:36:59.569419+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GGSel_rules_29a88a7f8a2c29da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a0f695145acffea35510a3fe8a78cbfea10666527b40998a36ffce592f3d5424",
+        "bytes_sha256": "426300e4e36c7c47500de97b33f2ed55be01709ec8287088ea771742038d99b3",
+        "semantic_sha256": "cccae25332e27f4c3b1c9a080e3414577e6be83d8dc4942245cf03abf98b1510",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GGSel_domain-set_37697e374f3b6931.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4964bb248eb4a71b51e5b13702ee919d806da58a3c5fb420243c4ec2167e00ee",
+        "bytes_sha256": "cae042733d91e075a1682bcc090e9ef0698700768f03641180db90a517a9c6e5",
+        "semantic_sha256": "867482a11b07c3509f67d3320e9e6ded8b34730cdc416665cdebfa36ed6ec293",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:42:18.097636+00:00",
+  "client": "Loon",
+  "rule": "HKU",
+  "rule_updated_at": "2026-07-26T10:31:56.378738+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HKU_rules_43c942ca571b1b54.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b15aaf2e8b3f3fcacf2b63b89020a3cfe790e7b627ce9a6a8775002947bd527e",
+        "bytes_sha256": "5a52315a0363f2bfc53130db5ef79504836af814286a850181193ecc905e4460",
+        "semantic_sha256": "ef139848d224f95f3f92ecd3a1a6629852e014f88255a570028d0da3afb6d24c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HKU_domain-set_145bd97f215bfeb9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9160748b7fd2882d6e300b5366006008857357142bb287d952a8cf3a0e1e0cca",
+        "bytes_sha256": "8f89dd3db6b2d80bbacf08fa9a5855aa1957f1f73254792ddb0c3e6663e55145",
+        "semantic_sha256": "4b71628af0fd9afebbeab64159c96cc6b3b9ac69e04c4d141ce924190397bfa6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

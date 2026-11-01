@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:41:46.634700+00:00",
+  "client": "Egern",
+  "rule": "Costco",
+  "rule_updated_at": "2026-07-26T08:38:51.173238+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Costco_rules_599e54a4e683304f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44e0c801ee9998dbef3344858ae80d7488b20e45508e34f2cc660351d2207cb4",
+        "bytes_sha256": "5d556edd43c157b55a26da5a03908cc88db4191fe2cc941899d75ecee30da86d",
+        "semantic_sha256": "d37106d6d4fc2a8575603203491bd1d6ce648801c26ffea19ce6a95fb7a521ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:03.363056+00:00",
+  "client": "Egern",
+  "rule": "Roku",
+  "rule_updated_at": "2026-07-26T08:35:49.180114+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Roku_rules_fe51656f788cadaf.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "56709a89d9239b487122b9f91d2aaf9f890bd96c170f1fbfaee2380d1176d64f",
+        "bytes_sha256": "df9c30ad51773ce6a41abd3c89eee6fe03b3655cbb994e5c71d73a4021e907ab",
+        "semantic_sha256": "f8b012009957f7eb9ffeb7e50d8d95b194d510bf19d6828786e71a4efdcb9980",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

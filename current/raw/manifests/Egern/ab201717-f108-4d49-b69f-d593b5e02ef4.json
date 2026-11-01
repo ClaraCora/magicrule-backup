@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:25.482766+00:00",
+  "client": "Egern",
+  "rule": "Laracasts",
+  "rule_updated_at": "2026-07-26T08:35:57.706909+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Laracasts_rules_92ed10d3bfc9ec65.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58d249d6488de45c490dbbae5d3958af90ed77c493d018a82d21053a9ca53fc5",
+        "bytes_sha256": "cd3154d262f4c9b7300ed0e6c4ccf4f80401db645c10c76f8ea34b6e9611f62a",
+        "semantic_sha256": "6522937b819b41ebc5b83013ffbe5e9c1f8d42402eea5033292d4f52ff2b5b3c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:57.929446+00:00",
+  "client": "Egern",
+  "rule": "SB",
+  "rule_updated_at": "2026-07-26T10:42:29.715975+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SB_rules_bf65811ac81df48c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "623b493c854756bd58f2b9f4abf19fbc6c197a158b1f70fd2dfc6a85aa3a2a3a",
+        "bytes_sha256": "7894dcde8ce63254a2b7986761d35f87cddb98d8134d8e8cdabc08bef742a199",
+        "semantic_sha256": "5cfc02e5084cd438c6fb93a2a716b659d51b23ab580748ac69aa9a72b61b6ea2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:49.302064+00:00",
+  "client": "Loon",
+  "rule": "FontAwesome",
+  "rule_updated_at": "2026-07-26T10:27:54.794261+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontAwesome_rules_06ce78f8c0198e83.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7742bafee27bd438f4bc9faa076a0696c308e45ba3e3a7933c544aed1d7b8d41",
+        "bytes_sha256": "2ec85a487146e599943287962aefa1654df2edb10fc4ae95458cc3baa7919b09",
+        "semantic_sha256": "8a6f10411e4633f1e73afb95b092226ac653cba6c8f12201b8a596d4617c86f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontAwesome_domain-set_84acb758428084b5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "147d922ca5595e0ffaa314bb5c5b30d14f4f4f90c8d40cb974a98960818066b2",
+        "bytes_sha256": "617a411e8f8544012196683db7ef84726c1f00a36c41bc8ff11b4cd055beb869",
+        "semantic_sha256": "8b82a7fc79c9439bdd40f0e5a981e86b554068d183ef815a7752479b6d971ae5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

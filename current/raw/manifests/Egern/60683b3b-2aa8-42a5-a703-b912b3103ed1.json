@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:44:04.569664+00:00",
+  "client": "Egern",
+  "rule": "NewsCorp",
+  "rule_updated_at": "2026-07-26T10:38:35.898807+00:00",
+  "type_counts": {
+    "domain_suffix_set": 152
+  },
+  "total_line_count": 152,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NewsCorp_rules_ce7a7d71f445c13f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a5e8b37662eae6606acbca3216d597c5fe91c12e6ccb8c9486d12b5d3a5b90e2",
+        "bytes_sha256": "1cf315a82c87459b6401bf39e8599935a67e56b7b12c18a6541446b7b494d2c8",
+        "semantic_sha256": "f76bc43948039817571e61f74eb8740a77b56e29ef7a6c8bf14350b0e6897eb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

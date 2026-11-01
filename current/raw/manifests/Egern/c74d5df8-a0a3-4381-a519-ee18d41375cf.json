@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-07T01:27:31.313481+00:00",
+  "client": "Egern",
+  "rule": "GateIO",
+  "rule_updated_at": "2026-09-02T05:10:52.802416+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GateIO_rules_9325145d9f7c3800.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "212491ee714e92ad6e7b6c84b8a455f0a331e97c2231bc7712d25338c6efc237",
+        "bytes_sha256": "b40eb0b28c351d6a3656aeb740e935eea570d30cbf9ced3603926fcfb5db674d",
+        "semantic_sha256": "bf36aaa6e1d50d7c9b478c2cbccf1995003e6832357b289a7b3abf0e6938ff74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

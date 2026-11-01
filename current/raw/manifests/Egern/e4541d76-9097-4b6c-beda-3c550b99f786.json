@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:17.064112+00:00",
+  "client": "Egern",
+  "rule": "WPS",
+  "rule_updated_at": "2026-07-26T10:49:29.681804+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WPS_rules_c148d42548b41551.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "514649350d8886bb6d735a30bf58d8855530d176f2759b1d28a818919ed646f7",
+        "bytes_sha256": "f87cf95a9e85e7947975309fb2f4faf98879ce68c0a4e6868ff2d5eb65acb4f0",
+        "semantic_sha256": "abd71de8b92d73768fa36854db3a48d9b59b5c47496efce479060bddee31fb95",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

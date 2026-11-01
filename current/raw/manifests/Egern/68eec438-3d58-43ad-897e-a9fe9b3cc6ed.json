@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:21.007413+00:00",
+  "client": "Egern",
+  "rule": "Scala",
+  "rule_updated_at": "2026-07-26T08:36:08.021124+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Scala_rules_6bf83083c344f04d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "980a173fedfdd4d145415df42f94db5026a20da6874428ff28139da125cfb8b8",
+        "bytes_sha256": "3f7813cbed3a9b647e03e730b30e08651de8f7bed52e9fd1f01db62a677f5cb6",
+        "semantic_sha256": "7a6566ce28c87cb427d1393faeae53c7c4a5298744bd1ec96650c30e071f4149",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

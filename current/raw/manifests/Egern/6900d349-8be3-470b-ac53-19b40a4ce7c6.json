@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:22.029712+00:00",
+  "client": "Egern",
+  "rule": "Pugpig",
+  "rule_updated_at": "2026-07-26T10:41:35.211064+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pugpig_rules_36469ed86fa719e7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c8c8e5d1067be895d68e86073a4d3a149f385659c55e00278cd7056d8a2cc1c",
+        "bytes_sha256": "06ae22cecbc6b98c9ef6d388c4416ba6154b55dbba44d895c80e62e2009f15c1",
+        "semantic_sha256": "cc8e148060026cd061443d2b917d215587b98d92a3573f01066cba04df1a7744",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

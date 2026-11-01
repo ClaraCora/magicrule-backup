@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:20.357935+00:00",
+  "client": "Egern",
+  "rule": "Launchpad",
+  "rule_updated_at": "2026-07-26T08:35:58.172997+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Launchpad_rules_00f4f923f7f92efb.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a14a18f37eeb672faac19ebdfcbaed4a2669e8d51a7610e936bebb4482b892db",
+        "bytes_sha256": "3d319d7de8e775476a39ede44f48b7f0608a35ec68726cb64a9e4bd0a8009f6e",
+        "semantic_sha256": "c93348729a7329363a51aba701567b6f0bcce975416c2be6bd24d81de1a1ef46",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

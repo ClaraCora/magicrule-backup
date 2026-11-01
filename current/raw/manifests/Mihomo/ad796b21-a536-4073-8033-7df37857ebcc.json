@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:49:32.351231+00:00",
+  "client": "Mihomo",
+  "rule": "AlJazeera",
+  "rule_updated_at": "2026-07-26T09:57:39.616827+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AlJazeera_classical_0453ae8c36c7b44a.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "70573c4fafc45fb7f99f1d300c24c6ca23b21d66559b45ce706aec39a7cb3a7b",
+        "bytes_sha256": "bdecdc80f1eedf9d9252297a0ec8984936ac4ac17c3b9299d45d97e1de5e577c",
+        "semantic_sha256": "8545b21496c0e8f52560f96a9d553811e6830ec0b2342d6664919a62b59fa28a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AlJazeera_domain_bf382a5bffcbc878.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5b216ca8a61afefa9891c15b51996ed23e75529ee2e898fcd351c48522f3a9ef",
+        "bytes_sha256": "fa81318c41eba5dde9c4cb7e5fa596a41cb2e5fab3041369ce843bb6ff46e19e",
+        "semantic_sha256": "8ac4ab055361dcbbe300839d9b2a4205105d643a68b08732b7392704a86d14b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AlJazeera_domain-mrs_d1ef7ad320b7deb9.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "74af4e034d9789e29b447e8e1f55e04456aab58ba19c4365c8b9edb744772f8f",
+        "bytes_sha256": "335627d1cdc4887cdf6ba4d8105525572bd537cc0fc4bcc9b405f7e2d0f0269d",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

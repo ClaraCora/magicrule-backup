@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:04.021444+00:00",
+  "client": "Egern",
+  "rule": "ApplePKI",
+  "rule_updated_at": "2026-07-26T10:14:01.366175+00:00",
+  "type_counts": {
+    "domain_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ApplePKI_rules_a458ca8ba1d4c7c6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d321f8da29c9cef29bbe523ea2324a57ad4aaa79f1fedc61d266ecd8da018457",
+        "bytes_sha256": "a008b870e111e13fdabefb102f3a08e69943ae2a5db14bc0706402f4c89c1110",
+        "semantic_sha256": "72cd57f35a3a15f5d66fef2f6dec5064d9b59a0dab8cb17a9121a1f37e8ceeb9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

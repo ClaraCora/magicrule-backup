@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:48:25.945429+00:00",
+  "client": "Loon",
+  "rule": "TheLinuxFoundation",
+  "rule_updated_at": "2026-07-26T08:35:30.299969+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheLinuxFoundation_rules_bf8cf6d1960b8636.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77b38414e8fae52fc39461f3241d3eca20d464f680a64d3a1d45a77cd6f036c2",
+        "bytes_sha256": "459e50b0d44adb8de8483d658c6ab4e8eaf1a840fd37c5f17303e9a01290b0d3",
+        "semantic_sha256": "4609f9520e7abccfae00c26d103e0ce50c130c639bd62c865e7855f2557a6811",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheLinuxFoundation_domain-set_918c5880452934cb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5248603ca1470a4aea39e593f79725b75fe7c04559c72ac3a7d8ed36116358b",
+        "bytes_sha256": "b47c37010973d1f865ad2e96fabf52aedc741c4f6f7a2dfdf1c1733ecb6e6f61",
+        "semantic_sha256": "c83af88b0b244fdcb28c61fc90b4f6a8e250f9891086f17958f10da995397a5e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

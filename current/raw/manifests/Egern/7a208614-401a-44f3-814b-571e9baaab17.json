@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:47:14.701603+00:00",
+  "client": "Egern",
+  "rule": "Arphic",
+  "rule_updated_at": "2026-07-26T10:14:50.306884+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Arphic_rules_db4a4e89b1d84ca6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4435236c994a7c4bf07500813e777617708e8bf57121b7e38b97dd6557f6b74",
+        "bytes_sha256": "626f25f125c2d1cbff84cea282c7b36f09391091e6f7200b38e22c920d8e6ebe",
+        "semantic_sha256": "4887105fb593c59bc5efb609ac6c8fe2eb08c2515783764ea4778db0a70aa56f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

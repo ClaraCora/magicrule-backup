@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:53:07.122281+00:00",
+  "client": "Egern",
+  "rule": "Schoopia",
+  "rule_updated_at": "2026-07-26T10:42:57.224467+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Schoopia_rules_888ee4fb43dfb5e8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1df7e8e816090ca81b0ea9bb4f007d3ad6c18be9483af2f68975a056bb9dfa7f",
+        "bytes_sha256": "1ac1e434c30ea0acfeee02e53a824427497c04a3121185249fe6a0871c79874d",
+        "semantic_sha256": "ebfaefa818d337e2c940bb288f1fedff2d9f02622d3a71968c46b9abc8532e87",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

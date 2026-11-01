@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:26.809796+00:00",
+  "client": "Loon",
+  "rule": "ItchIo",
+  "rule_updated_at": "2026-07-26T08:36:31.872912+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ItchIo_rules_edf8d73fdd5268c6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffc94683a48cc9b9e38f139e911291618afe8914d9b6999969c6f5ce75a3e664",
+        "bytes_sha256": "8a34c85afba2aee93a0535631297f9ffcfcba178e60c8f248acf64d8fda6ae65",
+        "semantic_sha256": "5bfddb01ca55a00761fe8443c7b9218e6a87884176ea32146c94ab8edb6c91ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ItchIo_domain-set_bc4511b3185762db.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aca722b568a7a2a211947351d2153db487c8f55e486524bf9b2922aa1c37debe",
+        "bytes_sha256": "6f4074b0c6da37e6779caf6811fdbcd4f7cd6a8cda9943fc8882de05aedf9c0c",
+        "semantic_sha256": "e4fc061f63f5fca0a140e62114dc7ff1db764dbd055a937de47421dff5b6ea5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

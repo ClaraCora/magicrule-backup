@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:29.567354+00:00",
+  "client": "Loon",
+  "rule": "ImageShack",
+  "rule_updated_at": "2026-07-26T10:34:09.192551+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImageShack_rules_f5e07f4feb13bdce.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "314a422dd90ee018eb354c9c4f33c1ed142a8ef5d6644fbdc42e20c1993aebfc",
+        "bytes_sha256": "a8ffbbf4bdae12d49fe17266a1de748804dc82d9c6575826a4ef36ee57b65f19",
+        "semantic_sha256": "740b7479b8499a71d86cf2c737aaa2ca3ff2ca210183c2f48f48b869a0872fcb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImageShack_domain-set_ef1d4c63ad50a837.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bfdd8d658711d3087c5ce1ca771d99a7042c6bb5f79a38acf2296236eda980d2",
+        "bytes_sha256": "3218e89af0371a1ea8686a93d7d62eaac8d2e9f755227d4e1be6ba117a9d19a1",
+        "semantic_sha256": "8f7cbea89791abb2b6564234882659b5f7dcfb583cee719f9147476cae2e1f9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

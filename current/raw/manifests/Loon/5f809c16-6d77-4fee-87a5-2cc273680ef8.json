@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:44:01.566148+00:00",
+  "client": "Loon",
+  "rule": "Clearasil",
+  "rule_updated_at": "2026-07-26T10:23:33.371472+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Clearasil_rules_35c668854616c9c1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed39be60814542a0d88d3b00942ebe8ced77ac1995d77832880debe9520da6a0",
+        "bytes_sha256": "cc4214064c9b15661828b593ac7829c89b3de8b9214832223b3ccf6d0877315a",
+        "semantic_sha256": "c1cb97203d1989bd050327d2d7a66ca96cf62002f1028b076d9d16c870b10fe1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Clearasil_domain-set_4abc6bf718b1570f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "feb631f9c8b1a05e200983c146042d67f98b1a22bf3c69a4ebba68de19dbf928",
+        "bytes_sha256": "e00790b17e0b5c6ca08fa9e9abd5f81d2ea6392334f3abd3e83f0a811b06d22d",
+        "semantic_sha256": "5064905126ca923f0c2267997943c94de9203e5652d6d0b0066278f3f6a61ac8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

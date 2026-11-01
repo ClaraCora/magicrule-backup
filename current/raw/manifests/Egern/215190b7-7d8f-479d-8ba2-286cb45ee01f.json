@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:38.679482+00:00",
+  "client": "Egern",
+  "rule": "GamerSky",
+  "rule_updated_at": "2026-07-26T08:36:57.273517+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GamerSky_rules_799df7f706b5959f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de9ca5327320d15affcb61930003f8888076e38d8ff131759ded584f2602d55b",
+        "bytes_sha256": "e3675a2f683bbef97a6b168f4500d7beb47bdf96ba29ae30d53a652c6e71826e",
+        "semantic_sha256": "13d45e59121ecc601a24198b7084e7448adebd94cb44a70c0dbb7977d819049d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

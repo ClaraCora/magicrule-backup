@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:22.245521+00:00",
+  "client": "Loon",
+  "rule": "Steemit",
+  "rule_updated_at": "2026-07-26T10:44:16.889893+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Steemit_rules_db51ca991beb21da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "da1f6b7864dbd41cf199e4ff73c4a682e2ca0179ca4ffe9ddf422a5bf1c4288b",
+        "bytes_sha256": "eaad67ea328e32d54d9a84e912f95a84643f35d9913c07cba00ec36f3ea58f3c",
+        "semantic_sha256": "820d0681334a340a4fe37c4fe8ac75a39e444ad1e647d771fa40b1eabd93d62d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Steemit_domain-set_fdf3f9b45626cdb4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b38656a4e1b549d063437e1cf179ffbc2b236380146f173a187aae358e049e96",
+        "bytes_sha256": "4549558490c0503c9492bc38c70fe7ce612204cd9efafc93f258fec430c9f745",
+        "semantic_sha256": "f1ba65fa6e82354feb21d650496f7e5aa5b87a81a1b37be92151dc266ffb55ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

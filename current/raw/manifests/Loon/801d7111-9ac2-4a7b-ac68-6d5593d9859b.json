@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:47:48.354583+00:00",
+  "client": "Loon",
+  "rule": "MailCom",
+  "rule_updated_at": "2026-07-26T10:37:06.350796+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MailCom_rules_d32f06aecf212ab3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9340b2a69a5302b020a2f6a1f716e68bd1e52261b05a53b84f0a44d13bfbabb",
+        "bytes_sha256": "d8a0e7a59093e538c5b6a63fd8706ac063017e98c4ee1d2244313635c86be053",
+        "semantic_sha256": "d3a7635d2296bcb1d4f0f8427c3acf749f7416c0c3f8091c67a4fc2a83de084c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MailCom_domain-set_5b97303ab7aaea9f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be54779d398587470d3df9c197c45941a9312dbbd89b532c3dc36803717dd04c",
+        "bytes_sha256": "c1799f2c3645782b8c9f05333dfb1c29895a7171adc60c60a4a834f4cada8b70",
+        "semantic_sha256": "d218679d9b742baf4d305e74594b9888886b1ed41e13bf1ea8a8eef1c24aed22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

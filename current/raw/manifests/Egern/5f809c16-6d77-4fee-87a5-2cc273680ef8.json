@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:44:01.493865+00:00",
+  "client": "Egern",
+  "rule": "Clearasil",
+  "rule_updated_at": "2026-07-26T10:23:33.495450+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Clearasil_rules_6e8007c1a0bcfed4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e04867638b0b1c31d57687168236f119a8d826e11c1004974831eb5830904ddb",
+        "bytes_sha256": "cbc29d5c738bddebbb90a1985254b5afcf53a8fcaa52ad271308897006f48068",
+        "semantic_sha256": "7ea35dc89efa93d22e799cdbe0f06fabf7d2ae79a1941cc6fda9282742f1236e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

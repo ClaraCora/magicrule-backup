@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:46.996678+00:00",
+  "client": "Loon",
+  "rule": "XiaoYuZhou",
+  "rule_updated_at": "2026-07-26T10:49:47.964200+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XiaoYuZhou_rules_1ff06c176f25f04c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18b5053c0d006ae4ef141ed3576fb9dbc2317bdcaba6a1a72c28cfbe566e9df1",
+        "bytes_sha256": "0c04b897ca9d0c21b75fff899a1dbf969f7647e8cdc03f6b8682285bec8ad2db",
+        "semantic_sha256": "0639edaa222635759d5fba5580d969a75082932ecc399f0ab5b627421f6444b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XiaoYuZhou_domain-set_674cf6c261d4e449.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cd96b65eb9550d1f9754734521da9acd323565afa9a1c7c84199eef425828322",
+        "bytes_sha256": "27d581918b6d4a67c87670122ea80a242607bbf105bc93ce1925ef47187aef6a",
+        "semantic_sha256": "4ce03c5997b27ffb3c034138e6461907fe264d3e9835d13b85bef9e867125d48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

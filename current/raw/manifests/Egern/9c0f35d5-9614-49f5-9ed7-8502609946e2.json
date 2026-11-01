@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:51.480837+00:00",
+  "client": "Egern",
+  "rule": "TypeNetwork",
+  "rule_updated_at": "2026-07-26T10:46:43.576688+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TypeNetwork_rules_3d2393d0c778fbf1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f6b70339a452c554302e9829af7a65b38584a1c8dc0ba106d947df454ac54455",
+        "bytes_sha256": "3f98aaaf257762e52e41238ea172c5f339423620cab2752dbfeabea189a6623c",
+        "semantic_sha256": "315e37bbbdc90b6c62e109d042ec72effebcd203fe742a19aab11ae919821da9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:14.378317+00:00",
+  "client": "Egern",
+  "rule": "Bushiroad",
+  "rule_updated_at": "2026-07-26T08:36:32.565429+00:00",
+  "type_counts": {
+    "domain_suffix_set": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bushiroad_rules_d546551577dd1334.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ee389a0eccde47158d9b85ce742b9a0dfa75efadd44a2956b2027111610c791",
+        "bytes_sha256": "7c06a2dde1c1c1baa15c69d131fe2e43e250a2d8e7a04a3d8bdb246dcfa80c4f",
+        "semantic_sha256": "56a3df30a28dc1bfe40e77b063fefa443164e83a0992508d4f2f876cd67d0e2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

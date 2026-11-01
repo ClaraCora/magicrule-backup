@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:32.774735+00:00",
+  "client": "Egern",
+  "rule": "FreeCodeCamp",
+  "rule_updated_at": "2026-07-26T08:35:57.198167+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FreeCodeCamp_rules_c40b6808c91748c2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d105751e09f30a2981a119ce62362466c74f0fba9f3ed656dc583f08ed6d2ac0",
+        "bytes_sha256": "ef3d01410ac59e7f490b9a13fd2343c64bc8cfd16e93178edde540aae0cb77c7",
+        "semantic_sha256": "ebf6622d2699b321b80537ee831d486c45708ae5f4e03baaad3396d0cfb75bda",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

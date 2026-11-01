@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:30.306493+00:00",
+  "client": "Egern",
+  "rule": "FontExplorer",
+  "rule_updated_at": "2026-07-26T10:27:59.694037+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontExplorer_rules_2037c6b3b55e0618.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a000d5f64156100eca2b7252a598357141970389f7245d220de8d3c392b4e3bb",
+        "bytes_sha256": "3c38823eca6fa20edb7724fbc372ab42429f985c28d3472169d1fcd6d459bc17",
+        "semantic_sha256": "274fa3731b575d1a5c3173eee231d8bfab705a9ed1e54af055615a22a5bf54fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:09.206015+00:00",
+  "client": "Egern",
+  "rule": "ZTOExpress",
+  "rule_updated_at": "2026-07-26T10:51:10.839413+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ZTOExpress_rules_56a17d1c9d236308.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b09d11c7153e8336ecfb38e43008806e935b1160640c9b1bbe90076dbfb28785",
+        "bytes_sha256": "0cae82de44a9460d87de3ebba4d29f67584bbff3446ff6d8777cc6fbf7eb4bc9",
+        "semantic_sha256": "f50a5831fdb3c159c2cc51b6554221a1db7889e20a6ae555a84b0deef7d5fca5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

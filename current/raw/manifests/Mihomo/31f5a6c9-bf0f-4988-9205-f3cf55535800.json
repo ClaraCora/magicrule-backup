@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:15.107641+00:00",
+  "client": "Mihomo",
+  "rule": "NowTV",
+  "rule_updated_at": "2026-07-26T10:39:23.231267+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowTV_classical_5e4b8eab5dcda218.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "89d4ee68e1f9869ab3d40405ed8e187ff6483a40d51ed24a486083cb34cab0b2",
+        "bytes_sha256": "fcaf9dba865c42728cc199802a20d29c084f5d7710e9e2ac1b979b71ed7589a5",
+        "semantic_sha256": "632d10aab480abe36bf5780243310606524b1e5bd1bbad0bdd705c542e67ef6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowTV_domain_b2991d75f76fa742.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fe55e87dc0d3e3b999dfa84966b5da094af978ccb5d7b27bc791e928bc346ec3",
+        "bytes_sha256": "59b14f3c323c85aada739e2119776250168a1e3111a967cc492cf01cf8d8eb97",
+        "semantic_sha256": "dfe8a422210b9a7ba65d2658020e2c5d2ec1a95b9d187af875ccfb998e2eedc1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowTV_domain-mrs_a9d59c8d70eb6d54.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "20c8b5b7239fba5b2f20709e8a252a4c012b586f2d737496c2c6dfd408d3f0d5",
+        "bytes_sha256": "7771702956d786360b47d8ba0cdb221d2bf26b8daa9a7bd4604c7253dcf1da3c",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:06.162768+00:00",
+  "client": "Egern",
+  "rule": "UOLiv",
+  "rule_updated_at": "2026-07-26T10:46:58.088875+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UOLiv_rules_130bdc1f4d738dd8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9beff34248c17f5f2c8c439e8f6b6c6e1b3d4fa95dad5bb69c08ce1aef04f201",
+        "bytes_sha256": "57ee428e54c3609092d54aa7d8703c95249fa27cbb149f81d3b9b7c5d984493b",
+        "semantic_sha256": "4b0393e579f2872fa732911cd96e3024d7012be6da66a8f3a57cac958819d8d9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

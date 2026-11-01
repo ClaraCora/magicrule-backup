@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:27.582170+00:00",
+  "client": "Mihomo",
+  "rule": "Goodreads",
+  "rule_updated_at": "2026-07-26T10:29:12.787832+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Goodreads_classical_dd79942954f2e461.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59d037d46e81f64017b5804beb03b982e219f28bc0860911343d221f8a6d760a",
+        "bytes_sha256": "642834f7d1a6e638cad23d6a2c855060407ebe89b892a47cdf666399de71bd3e",
+        "semantic_sha256": "0d2f62abc05bbb42d3c12ec22d0319323f4f0c8262d2b7b29d21e2389c1e23eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Goodreads_domain_b5847c87990e647a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf31569cbb347a857b9fe79d575a110cd15c6ce364f37b8a8df6b9174e3bdc12",
+        "bytes_sha256": "0bc1f4b8deadfe7be14461f45338e1d09e633478d9e54ddff79f37265df0d9b8",
+        "semantic_sha256": "1842eaf18420f50fa444397b91271bc5695764d8a90adaa671b1902a5ce57a4e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Goodreads_domain-mrs_78ed3ab9c795f667.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "196347bfa0f00cff136681462b7fea124813ac68706cdbb8c9cd00cd5f35bd69",
+        "bytes_sha256": "142ea0a5511bc62406d92954bb2f9a6f0ae4fccc85cc0ab9631e8a890197d633",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

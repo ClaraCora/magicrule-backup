@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:55.754920+00:00",
+  "client": "Loon",
+  "rule": "Bandcamp",
+  "rule_updated_at": "2026-07-26T08:38:24.169234+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bandcamp_rules_a745e43b04b3d9cb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a010b2a4c9723872051757aa57955ce61a3a21f54b22e52751d503849bc2d383",
+        "bytes_sha256": "92a0657b64602d9f2b893ef0d88375cca60366bcc34181b90746c0636775ada4",
+        "semantic_sha256": "426cb3431417b382339984776f4997a06ece6259321fc379b16cc07df6f7911a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bandcamp_domain-set_b34edf09b2fa5c65.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef9e32396f2a6e0ceeb341f13153940f6d88c04b12d3da80a4455280c2d35256",
+        "bytes_sha256": "d92d67ae6ddafe67499ea013709379c924332365b07318ba3c7aa5148fd02d01",
+        "semantic_sha256": "bbd2ab084e526ac90e76ba6396c2d6eb6692fec575f51473b3a27ab391141a0c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

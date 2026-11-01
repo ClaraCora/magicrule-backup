@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:48:27.143349+00:00",
+  "client": "Loon",
+  "rule": "Netlify",
+  "rule_updated_at": "2026-07-26T08:35:24.715604+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Netlify_rules_b83df54959b7f1db.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "458464abbd0730f8c1bd7292572175c74533a90ef495021b51522e66efd523b1",
+        "bytes_sha256": "102344799de3c6368fb07f26c84473e187a4eed324faffc6a93600913397e0ae",
+        "semantic_sha256": "872ab8600599b6ac9bec3f3e3e7ccc567d1ed2e9741555e8c816a5b5a47cf8aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Netlify_domain-set_c83cec7a6b0f9213.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad02aca5bb6d3d433fc732262d79cbb07a3356896f2580f4751ff12956c71060",
+        "bytes_sha256": "49c0d9264c025d7a084f0f7812d223345b267588783045d623583f45b08f15fe",
+        "semantic_sha256": "7bd9dff1b0e333c45cf4c18b03f32bac9084e2e5403d481fa3a373cbf736f2b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

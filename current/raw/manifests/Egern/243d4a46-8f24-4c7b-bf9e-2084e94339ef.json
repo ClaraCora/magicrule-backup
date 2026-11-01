@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:45.478988+00:00",
+  "client": "Egern",
+  "rule": "Yomiuri",
+  "rule_updated_at": "2026-07-26T10:50:18.793939+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Yomiuri_rules_ce37d82f1eb171fa.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1fdbe6252e103011b5f25cfcfdf13791f992cc25dde245cb1cf2cced459e6b10",
+        "bytes_sha256": "57dac99f6f760d01ce83eae4c5a4fb72636e422f9410181abaa78ba13039f5b9",
+        "semantic_sha256": "e1522b063c13b5455986a923d6bb0eca9f00b8658588a5ffc388544c0b84ea99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

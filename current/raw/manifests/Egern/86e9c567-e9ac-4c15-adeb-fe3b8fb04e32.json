@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:07.743248+00:00",
+  "client": "Egern",
+  "rule": "Twilio",
+  "rule_updated_at": "2026-07-26T10:46:40.564762+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Twilio_rules_9c2ccbc71ffb7c63.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e023dce4b0149be19945d59cbe90058944302163085e40a9c3d788fdde65f684",
+        "bytes_sha256": "8038e944c14f0db2ffc0d23bd37c49346fbb5dce2e2083135dcfc55b94b4d870",
+        "semantic_sha256": "fe0bb6d0a43c2b0f7578ecd74c17b09eae0696fc825b49fa09c56a5c1dfb2ce4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

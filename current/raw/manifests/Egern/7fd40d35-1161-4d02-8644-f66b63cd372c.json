@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:47.138565+00:00",
+  "client": "Egern",
+  "rule": "ChinaPost",
+  "rule_updated_at": "2026-07-26T10:23:28.435836+00:00",
+  "type_counts": {
+    "domain_suffix_set": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ChinaPost_rules_10a69e48b793eaf2.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "888b4205fa37602000bef1a6126a3f19425c5deacc1e408f26f72a1893209bab",
+        "bytes_sha256": "939f65c35ad6f9844a98b7383d8d8f4c79c1a5391e1c228192da5d8625abb190",
+        "semantic_sha256": "083cb20946c7640e2fdcca0f2aabad55381a94657ba945301def3176a89ce60d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

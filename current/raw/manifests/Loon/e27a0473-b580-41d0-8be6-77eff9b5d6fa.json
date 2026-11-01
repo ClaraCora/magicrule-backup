@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:53:09.980517+00:00",
+  "client": "Loon",
+  "rule": "Radiko",
+  "rule_updated_at": "2026-07-26T08:37:56.932699+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Radiko_rules_0c37ee805b5f174b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8d0504156e5482561f7a169335c38ccccdfd00d07337996aad4f4efb2618d273",
+        "bytes_sha256": "bf73ccc8d3805bffc611f41502b739de178798ae93beea2ec63c223c7d0b9bdb",
+        "semantic_sha256": "3bb287342b3ff480b628cbb093e80450b013464d206d27f85886e6704df94a67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Radiko_domain-set_5ed2f09d5434ecaf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "93b18a911328fddc56430869bb542621b1cf41c05e2b7cc9065bb19dc012d9ff",
+        "bytes_sha256": "d03b9038f0fde54420150d7712beefa17d0ed0c2256c8d56c91ac179b68151f4",
+        "semantic_sha256": "4d3dc793cb38569a8ddb7d3ff925e0f6b81b7b61ac279641bbd7d299838c08b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

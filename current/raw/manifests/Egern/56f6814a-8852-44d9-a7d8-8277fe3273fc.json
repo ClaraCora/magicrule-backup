@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:44.463604+00:00",
+  "client": "Egern",
+  "rule": "AnnasArchive",
+  "rule_updated_at": "2026-07-26T08:35:14.732452+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AnnasArchive_rules_f2e4ca8ac3e84dc7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08cbb9c430bc89fb7948b0778a44e1152b7aabfc65eb40617aa07c60c8d0ff46",
+        "bytes_sha256": "ce3fd50564261d2f82bd935b8f7f92f39a9af60806fdb8b2b454c0e2fce2aada",
+        "semantic_sha256": "ed51ef40f5f65050fbe4279bda048e88309b6227ef09caa4acbbfdfd8f3b4e23",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

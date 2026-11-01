@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:05.961401+00:00",
+  "client": "Egern",
+  "rule": "Ruby",
+  "rule_updated_at": "2026-07-26T08:35:59.855456+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Ruby_rules_87277657f0c0a93a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38ccc3a3ac0aeedb2f7fdef1b94c4b60040aaf81ea04cf50a0634624024c134c",
+        "bytes_sha256": "c53ca28b417c4ca491e10e8dc08ac8f39bb83b8693733af3c6de0a4f93717d7e",
+        "semantic_sha256": "2a4bd82f88c72b845ff1f1258d7a969c039f9487eb84ca90324987b5f01619b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

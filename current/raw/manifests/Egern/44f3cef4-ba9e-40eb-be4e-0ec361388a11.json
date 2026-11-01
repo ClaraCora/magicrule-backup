@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:03.080826+00:00",
+  "client": "Egern",
+  "rule": "OrganicMaps",
+  "rule_updated_at": "2026-07-26T10:39:41.208704+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OrganicMaps_rules_f89159545b78179e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c39c9bc374d7ba5e272fc9daff51795cc619d2c40b789ed9e5538766b1de75b",
+        "bytes_sha256": "98996a57a274b622da480ca1c3883f0164f1bc7e3a44a8881263005d71edc6de",
+        "semantic_sha256": "361b677b678f0d8f70f43c82d6939f0f846b88a1749a39e72908bbbd7b24bbdc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

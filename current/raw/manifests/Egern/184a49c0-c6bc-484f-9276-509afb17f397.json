@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:18.113317+00:00",
+  "client": "Egern",
+  "rule": "ImageTwist",
+  "rule_updated_at": "2026-07-26T10:34:10.266521+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImageTwist_rules_a05b1d6286824f0e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "16b6d5de0d0383db397b14af7b4d30a07680a73bb58f7397235b3fa1c7478e78",
+        "bytes_sha256": "0be15a732430fa261f80fff77a5fac3a605684a8c24660536b50183be8a6eca0",
+        "semantic_sha256": "a6de27e2fb1e5379e3a2d66adde9f77cad3a231ffb9f1fac72ecee499f8e3438",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

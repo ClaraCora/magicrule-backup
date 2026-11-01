@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:15.310026+00:00",
+  "client": "Egern",
+  "rule": "CloudNS",
+  "rule_updated_at": "2026-07-26T08:38:25.490927+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CloudNS_rules_8d145e80a21f6f7e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c86be3c686efc0d30d9bca23004220f94ca869bc8d80deeb57876501cd37a61",
+        "bytes_sha256": "9bb44638697e714816bbfed27f2822ae6ed00ad34057cb8fc20d36c028907063",
+        "semantic_sha256": "c3729ad490252dbe3ec7f799deca4204e362e6df29dd2fd87a3e250fb794bd53",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:43:14.086942+00:00",
+  "client": "Loon",
+  "rule": "ESET",
+  "rule_updated_at": "2026-07-26T08:39:34.641666+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ESET_rules_1293a56084b65e4f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4b841d1aedfc21daefc11280c317f0f25f256b231d3a3fc14002448f17aca5e",
+        "bytes_sha256": "b53aecf558a2adde635b034f5fa5cb7fbb4ab9e68a92029463b8d73615af934f",
+        "semantic_sha256": "cefd0e448f16d75fe20c6c4687660c08d61277c47527c2df263cfa4841dffbf7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ESET_domain-set_b88145fd4d9bff7b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f4c23998132b963016bfaa9b204487bfb02e492678531acebe153714b82a5e2e",
+        "bytes_sha256": "59e7f6895e45c63366db96442c499516f9756c8bc3610eeb3bf3d980713e3b16",
+        "semantic_sha256": "c1ffce9386472dbce50646baf89faa7172817c2bc6454ecef88d150062575035",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

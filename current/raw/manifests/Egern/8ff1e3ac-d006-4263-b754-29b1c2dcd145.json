@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:21.903667+00:00",
+  "client": "Egern",
+  "rule": "Steemit",
+  "rule_updated_at": "2026-07-26T10:44:17.016341+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Steemit_rules_4136301ab1bc24d3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9699f8078ee25f4edf4e3950ce7c7ecf24ed6f3ba7b6d6d330c9dc219ecb1d5d",
+        "bytes_sha256": "c0f0a29b55ab7cdc871197844c9f2e17bad8e6adb24ef8d59a3e4394aad724cf",
+        "semantic_sha256": "f78644f61accb12a0b47969f4e4e46f1ced45ad03a6d287b84b1a54ad55ee3af",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

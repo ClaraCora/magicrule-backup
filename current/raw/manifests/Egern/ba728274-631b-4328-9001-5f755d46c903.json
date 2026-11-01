@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:18.138297+00:00",
+  "client": "Egern",
+  "rule": "RedotPay",
+  "rule_updated_at": "2026-07-26T10:42:08.611817+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RedotPay_rules_53a00896736a4b05.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccf25def3c386eda374baf2446b371c7843a58bb63209766b60dc4ee0ea7081a",
+        "bytes_sha256": "d9c75fe1b356014bc2ad44cd7eab1039794289620a32207e2eb6f203e827d71a",
+        "semantic_sha256": "399c48a094065e753256e29a14579faf31fbe0ce8395c0717a636f2b74c74438",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

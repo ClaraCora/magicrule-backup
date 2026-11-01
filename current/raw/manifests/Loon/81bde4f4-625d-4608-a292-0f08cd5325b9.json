@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:47:50.496466+00:00",
+  "client": "Loon",
+  "rule": "BiliBiliGame",
+  "rule_updated_at": "2026-07-26T08:36:15.028942+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BiliBiliGame_rules_f824142e32768617.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "88e592e6c137144b374dfe24d577974f76dfe3f4e8121d70cea257930b862ee6",
+        "bytes_sha256": "0c51b737756a84b6b22bc060faa7962a83d6dd5869773b4ed3344dd6662eef2f",
+        "semantic_sha256": "158e20b7c9e6fd0bcf41cc127ae7ad6330433215a64a8a46bb00795d963fde5e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BiliBiliGame_domain-set_eba71b22273d2906.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "324bd7effbf6383862f4520371995d459e7004760660c97239ce3e77795d5027",
+        "bytes_sha256": "e7c43c46ccfd5ac51354fda9e98de9bfd5f54ebb0246f3ad1a5219682b942fe7",
+        "semantic_sha256": "970bdef0d10ba40d3524a9e80ccf6318a6747ab42e364e2fa2c45108625833d8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

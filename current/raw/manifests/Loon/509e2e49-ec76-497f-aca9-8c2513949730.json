@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:27.820405+00:00",
+  "client": "Loon",
+  "rule": "YouMind",
+  "rule_updated_at": "2026-07-26T10:50:17.592476+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YouMind_rules_9c53ff139ca7ee78.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "614b249579f79e379bcf9b0a43ee22b7bae8c5bd5b6f9958410782536eabb713",
+        "bytes_sha256": "5d50a129ff787b5b9b963cf40617eea44c27c68305fc95f6bea0f4541ac3863f",
+        "semantic_sha256": "5846a2605f190ed9937d95739edeb7f078b095a706749c5bf1d6e530d8afdd67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YouMind_domain-set_d71bc712ed5ed525.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "851064bf3190ffa81d178a9ebefa009aa4783a48b477f17e9d4346a3c8d9c43d",
+        "bytes_sha256": "707a5efb369a68359bec10616e5ae043b13e7b72bd4bb468e7e2c49ffa632071",
+        "semantic_sha256": "582ac5c5070d1e9bce311536727696efb049c60189ef2d52032c642bdf067c32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

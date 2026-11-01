@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:31.453282+00:00",
+  "client": "Egern",
+  "rule": "NHK",
+  "rule_updated_at": "2026-07-26T10:38:52.265983+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NHK_rules_011c3e1044d89298.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8e22551c07250c49336fffc00ff398fc2a7f55fdd1293afb8044c78b0c3a727",
+        "bytes_sha256": "c5dc197fd0f26136f3ec9defd8706f8a74bd1edd573ea92763fd9e61b97526d5",
+        "semantic_sha256": "42c1c83e683a3803513e1b3bacb0b5c37f66ed6eaa6527530eae312e9d60a8f5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

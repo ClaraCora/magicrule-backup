@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:42:36.209903+00:00",
+  "client": "Loon",
+  "rule": "Barrons",
+  "rule_updated_at": "2026-07-26T10:18:27.875816+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Barrons_rules_00937911af4ffa33.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bcad101069d37177bc7db656883073c9aee2ac6af789844a652c955e46a907a4",
+        "bytes_sha256": "57e032195b411351e4a824a53dac7f979bbcdb386fc30041a334e2f58e0a5419",
+        "semantic_sha256": "878b28b185be1b41aebb1922f851342ac3bc9ef9b54bab3a02d5de1e2ca7c8c5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Barrons_domain-set_8d005672e4200070.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "587c2cccbf953de8d39757eb5b77d67e2a63256588c4e7fe37fa597aa124856b",
+        "bytes_sha256": "7ac1ed84063094a5cc47c5f69deff140e37312cbaf5e6a722ef2d287b55d5c91",
+        "semantic_sha256": "3b8c9a1a062e0d7ae6b501ff9ce65f9f37bfb40297d05017a899d94ab638f6a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

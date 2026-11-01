@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:05.395332+00:00",
+  "client": "Loon",
+  "rule": "Codeberg",
+  "rule_updated_at": "2026-07-26T07:23:42.022892+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codeberg_rules_827b74d4518c874c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e19f96e74cbf778c200b021b8dc06609791e6e33874fda87286459728382a009",
+        "bytes_sha256": "48f7affdca4e483f41bda87170f13e880574769754f6052bf7570b3be73dc752",
+        "semantic_sha256": "7f608b6b602fcdacfe2d97d310d03286017bef79ef951565cabbd35629d114c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codeberg_domain-set_20edada2392ed2ba.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a5e6ed216227239873beb4a994ed96ab92061939f17128ae6003c3700665c10",
+        "bytes_sha256": "e284fef24a283edab20e41a51c5d4eecd7f3766e426fa41c445f4a364528a7e0",
+        "semantic_sha256": "12fb68b67b3cd33c68db98e291196f247e7dd94180f02cd543dd397e6a008009",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

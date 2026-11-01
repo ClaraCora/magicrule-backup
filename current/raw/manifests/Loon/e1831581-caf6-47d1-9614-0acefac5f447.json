@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:53:07.535496+00:00",
+  "client": "Loon",
+  "rule": "Schoopia",
+  "rule_updated_at": "2026-07-26T10:42:57.120405+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Schoopia_rules_c4ae6b78b4598f7e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "039bb77ef2a081238d6b79ad74fc6065ccab67f9423fbfee7fbdaeefc0b0ae58",
+        "bytes_sha256": "9fcada88b0517ffc619d2174f1f6c3298974a6ccb6142adbd8189bb3ad753f1c",
+        "semantic_sha256": "96dfd6c7d5f4229d5a96aad9d63539b126ca9d0233bcf1ee672e09bf8b3e5679",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Schoopia_domain-set_4bc963f2ef883763.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "268dcbefafefd17041bffc1a8f1c6c4e21c54a0f5fb9ddf77add31ce87adfad7",
+        "bytes_sha256": "fa951b113353edd0d5dea26e195c5d1cd1b213e25a127b2ce5b0158104cff69e",
+        "semantic_sha256": "23a2311e27fa2321cb3bd6ad1c354eeb178d194b53c4a4b9aefe37b46b41b684",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

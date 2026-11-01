@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:01.877296+00:00",
+  "client": "Egern",
+  "rule": "PocketCasts",
+  "rule_updated_at": "2026-07-26T08:39:20.347991+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PocketCasts_rules_1b2f456b6970a9e9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b83005a067eba0b83abcda4e3aabc0944a0ce000ffbceabc21343bef2c24324d",
+        "bytes_sha256": "a05bc12d1cffd2e807db356913a29eba78dc462816604d7c911089e51a88bc21",
+        "semantic_sha256": "6d7c1b46cf005208c5a9cda2447afe4c99b1dfe434505e6bc30b548ee38787c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

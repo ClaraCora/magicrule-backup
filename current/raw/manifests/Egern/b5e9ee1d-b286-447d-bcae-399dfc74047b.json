@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:56.693844+00:00",
+  "client": "Egern",
+  "rule": "Bethesda",
+  "rule_updated_at": "2026-07-26T08:36:14.273256+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bethesda_rules_88526fde57db8400.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45b478dca667d6af074f4cbc0755d335ea6b72ff9074bf0cce36ed9c62793056",
+        "bytes_sha256": "6dac57c4a2855ee02bff239e4541a41df3f8050887b7796fb1f38462975de277",
+        "semantic_sha256": "974a0d087b3673afaa76af8d22c53806ee48769827497214edf89fa2c0acd9c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

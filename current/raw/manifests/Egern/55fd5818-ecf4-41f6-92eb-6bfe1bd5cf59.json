@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:43:40.977781+00:00",
+  "client": "Egern",
+  "rule": "2KGames",
+  "rule_updated_at": "2026-07-26T08:36:12.192973+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/2KGames_rules_4f4cf37e1d972369.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5436062acaac345c78940d787be3e1dab47328b9d6c9ee8fbc9b2271252cd3ab",
+        "bytes_sha256": "23dd2ca03bf42f7ed6502b45f5183c0c5a5224aeac6bb3cc2b2887185263c2bf",
+        "semantic_sha256": "e0e29b23785edb89c539279ffe3068c2e943865720f2b88c64e339a14ef80228",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

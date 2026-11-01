@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-29T03:25:33.269648+00:00",
+  "client": "Egern",
+  "rule": "1Password",
+  "rule_updated_at": "2026-10-29T03:05:25.131928+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/1Password_rules_f7c8191a3dd9f17a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ddb9946c9be8a284c8f02a0caec05d73c58b26d31ebd95fd95439d25386ed04e",
+        "bytes_sha256": "44c59a2ac1f7bf66f63082394734b2c8e47dfbbb07e345356f1575bbc9d9093e",
+        "semantic_sha256": "9ddc09cc5be6ee3786bfc27d77b133b579c3a98fb552951e8e001778e9e2eea2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

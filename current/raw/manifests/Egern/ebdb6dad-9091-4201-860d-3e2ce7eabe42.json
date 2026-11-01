@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:00.967813+00:00",
+  "client": "Egern",
+  "rule": "ArtStation",
+  "rule_updated_at": "2026-07-26T10:15:12.993689+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ArtStation_rules_7cc49a444ce7bfd3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1990793509c47e78610d20e12eb5a73aa39fd5a9cb5ee8c7ddc0a889cbd6cbb0",
+        "bytes_sha256": "31e4f3d61b34fb188df55efa7c24dae4759d5b2e97a95aead9e546312b34b83a",
+        "semantic_sha256": "a8726cec2391a082e042df84c37b0d17603335325abc8012c007aa9bc0b37d5d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:40.863525+00:00",
+  "client": "Egern",
+  "rule": "JTExpress",
+  "rule_updated_at": "2026-07-26T10:35:20.798044+00:00",
+  "type_counts": {
+    "domain_suffix_set": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/JTExpress_rules_f554a5830f61619d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66d98dba88558dd460dcbd70511f024bd0547e231b5384f6025a5dd8dcec847b",
+        "bytes_sha256": "3b15b322438c05e9a819f3e9a27fd39062a8b26f6afed9cebfaecfd5069b2904",
+        "semantic_sha256": "c76615568a5800204addd621337d51c1929e0b2c61a2bf90edd4232a43cd1e9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:33.841382+00:00",
+  "client": "Egern",
+  "rule": "BitSquare",
+  "rule_updated_at": "2026-07-26T10:18:38.326564+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BitSquare_rules_a68574710a3e3c68.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69bbd174dac07698a9de9a4659e5e4f96821e722bb966cf0de26fd5e9809502c",
+        "bytes_sha256": "dbc92b5e0e6c45072b69aa3dd337ff1f654d39c514b06221e6b897d3b52ed655",
+        "semantic_sha256": "74a28b3125577c85e6d6fc8943ab149510d7b16cf9a1e42e699cd0a312b6b0ed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

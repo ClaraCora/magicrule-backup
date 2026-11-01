@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:52:25.236985+00:00",
+  "client": "Loon",
+  "rule": "MXRoute",
+  "rule_updated_at": "2026-07-26T10:37:59.847579+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MXRoute_rules_df3287cfa0cd8160.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1f955acae7f154432f0820c702f95bd4901743cccc94f1c2a85df4f7c8a5256c",
+        "bytes_sha256": "88bae4b3cc0ebf6c4afc0edca417ff8f2463ab544de2444586fa452457b2da97",
+        "semantic_sha256": "e4b21eebe477b4d967e7056a9809e97dd83bc6a247b1422e75cb111d91225c85",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MXRoute_domain-set_afb713bc242a5a48.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fe38d492db240d507f5caa0fad25366ed59b9798239febc397b09950477a12a5",
+        "bytes_sha256": "0b27ef07ab0767713d61082c7133cd622592832341cd370c8ede3aaab9b21598",
+        "semantic_sha256": "03a745e45676ab797e0d69ea1facd1ad924312c37201cf59eef0d8069a375a94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

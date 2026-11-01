@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:42:37.199770+00:00",
+  "client": "Egern",
+  "rule": "Deribit",
+  "rule_updated_at": "2026-07-26T10:25:08.787450+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Deribit_rules_50d6ab7b22525157.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac335808a2ab788e78052be46ab8b7eb8337327645809d1d59f3345e98e72ea2",
+        "bytes_sha256": "04a984a0fc1bbcb656bf246972ad4c09c27cb1bada4d1a797e3a1e76c7064d12",
+        "semantic_sha256": "6d4220851cff22a6406660286df5f8fd49d08d8c780a45db28991d52c5fde9b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

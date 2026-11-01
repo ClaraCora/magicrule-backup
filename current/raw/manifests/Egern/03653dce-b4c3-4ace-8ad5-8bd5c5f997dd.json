@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:40:13.026516+00:00",
+  "client": "Egern",
+  "rule": "SitePoint",
+  "rule_updated_at": "2026-07-26T10:43:23.826938+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SitePoint_rules_0a10bb3ea4c5cac7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a688d2d2de920b2b66d39cda8a55c29007c0ea47d9cc418c8866dafc3524f06",
+        "bytes_sha256": "c46a82e9b8490fc6ca354a882f31036dd9824169a6c5843bbd1ac76fccd48b0b",
+        "semantic_sha256": "00ad72fc4cff7b183a5b5cab9b78f4438fd74b217aab699c34f19c8739f311c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

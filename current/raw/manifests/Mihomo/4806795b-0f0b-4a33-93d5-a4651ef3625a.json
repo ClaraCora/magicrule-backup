@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:43:07.126228+00:00",
+  "client": "Mihomo",
+  "rule": "TechTimes",
+  "rule_updated_at": "2026-07-26T10:45:26.861002+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TechTimes_classical_ae84dc73409c4ab7.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77c6cc7ab8ca7f865d892fd9bb6cd54efc70fde853fd4993f5ad187f59ea4883",
+        "bytes_sha256": "578053d14f732a33da8ba22a962983d0d885c299c0e00b53f404356aaf1408c2",
+        "semantic_sha256": "fc7f1a2d75f70242b9eb2833f5866d9f988984301ea6c96f4f010e3b8af92479",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TechTimes_domain_ef1b2d698453fa7c.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bce93fc5850385a7472b88ca2fb231680cc5fce49edee33f9e81a05e7023d1eb",
+        "bytes_sha256": "b642f8abb179a45a9b451e58761c7da7af8a352ee77737b4cfb2b09094f81336",
+        "semantic_sha256": "e9125b6587e339e939ca1a7f82f9653661a6cfc33a84852f7b37dc8e07f09ca7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TechTimes_domain-mrs_ef55691eddf73d04.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "372c01cc73f063f7fb16b73542840e3dc5d05129407ee47c3a20b619ed2ae51c",
+        "bytes_sha256": "34cd46be9406213846a1a4c0d1c68589fd0fffab0b683c1457ad19820f08c880",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

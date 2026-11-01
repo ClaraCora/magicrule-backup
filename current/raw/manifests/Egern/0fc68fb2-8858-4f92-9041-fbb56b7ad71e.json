@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:40:52.207752+00:00",
+  "client": "Egern",
+  "rule": "Musixmatch",
+  "rule_updated_at": "2026-07-26T08:38:24.623447+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Musixmatch_rules_de5a0c9e42b7b893.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fa39521723772284ead5cdf7bca35518aceaad78bc087daa63fad605ec25c1d8",
+        "bytes_sha256": "666f16740f677f90868905b8c579bc3732fb59b7876e3ea47f229af420d0608e",
+        "semantic_sha256": "87572a6874c5e358a00b2dfec3e4f10b9d3e54c003087189f88551608ab1a99e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

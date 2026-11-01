@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:29.039057+00:00",
+  "client": "Loon",
+  "rule": "DongCheDi",
+  "rule_updated_at": "2026-07-26T10:26:06.758448+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DongCheDi_rules_c6087f71512c6da2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b3efc22f2c10214f79a35b14e3b655798e2d43d76a2c726404c41965c2a48fd",
+        "bytes_sha256": "8908b06eed095b678ecd9c3fb7805b0f6a07de8a1de4fc9a4cc010aafdf653db",
+        "semantic_sha256": "974a67b8f84b15cb5e9adb06194cb1f058edde573f4d9842ee35d00f53556cf0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DongCheDi_domain-set_4ba3f99cfb6e7710.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "18c2084ee9050c2cd50bd4f5ded3e7ef703b5fa7ffe73033b53fc42974730b8d",
+        "bytes_sha256": "1a1dfc4ad35379051aed26428ee02cbc18f1c42a16e968edfa5a1bb51a117584",
+        "semantic_sha256": "49fad46f00f192a0939373b5989adbd6fe10cf43b6f2649501d4607d03d91c4e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

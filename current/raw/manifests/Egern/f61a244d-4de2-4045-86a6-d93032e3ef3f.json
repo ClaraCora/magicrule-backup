@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:56.712218+00:00",
+  "client": "Egern",
+  "rule": "Feedly",
+  "rule_updated_at": "2026-07-26T10:27:47.876035+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Feedly_rules_5e5030a012e2068e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c15ee4faf513b094c66e00606b64bac7d564c2f83a4db461fdd51d5d106b8e9",
+        "bytes_sha256": "3c642c7895dd66ceb42a563fffe8e4330c8b60ef52b98de370be4b48c65d56e4",
+        "semantic_sha256": "7303408f2588c424151867d4c8e81e7b629b69e529fab94ca490a428e706fa36",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

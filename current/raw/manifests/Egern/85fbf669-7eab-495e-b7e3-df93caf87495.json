@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:05.427103+00:00",
+  "client": "Egern",
+  "rule": "Moonvy",
+  "rule_updated_at": "2026-07-26T10:37:47.953267+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Moonvy_rules_fabb03f88e083084.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5a302e71618e9eda2f6b24832320d650aa2d38f165b8e58ff41bedfd09f78da",
+        "bytes_sha256": "ccb4016dad95cc5f10530d61d8075087fad3be6210f7d87c4ac6f107e721a842",
+        "semantic_sha256": "f3fb908c3b4a3e378d2d5e7a9ff45942422f4a1be7244607f3a0ac1918653741",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

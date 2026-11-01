@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:19.615729+00:00",
+  "client": "Egern",
+  "rule": "KuroGames",
+  "rule_updated_at": "2026-07-26T08:37:06.617115+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/KuroGames_rules_473bc2d9c99f2c46.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "57c353f1ccae46615cf635f8efbd54d316dcf13e33f948f3c3d930ccd0717ba0",
+        "bytes_sha256": "32610a23c7a109775aa4ecd5da5a605e6688ec9365a6541f0d3f29ab1b376c15",
+        "semantic_sha256": "17ae8ebd699deeb4bf96e0972b40e2c920b9af435466f109f6ab1c3565d964cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

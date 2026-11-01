@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:21.588771+00:00",
+  "client": "Egern",
+  "rule": "Walmart",
+  "rule_updated_at": "2026-07-26T08:39:39.076794+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Walmart_rules_c5d220ad0c0dfdb7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "684726876ef3a32a45ec319fc614d1ea7ea043a59fb7e855443ad79bf2d7e05d",
+        "bytes_sha256": "8e7ea6681215e1f6bc1c98160e784cac50635e5be25460c8963dc06509340d37",
+        "semantic_sha256": "5237fe44d2b504a030d20bd53cdf13ec76c5a724f9ae5a19d4243b69d2afb5b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

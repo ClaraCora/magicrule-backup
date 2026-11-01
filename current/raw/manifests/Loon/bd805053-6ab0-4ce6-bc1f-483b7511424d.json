@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:24.243831+00:00",
+  "client": "Loon",
+  "rule": "QNAP",
+  "rule_updated_at": "2026-07-26T08:37:39.781265+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/QNAP_rules_dd16ce7916b8e458.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a685f2535945095e7dcd178304b21682bfbfc4bc0b49b51290dda684b6b8a14",
+        "bytes_sha256": "ec5f468633befd10b3fdd8731ff2e2f2a81fc722e9087140a1ece8ab5e2b3e3e",
+        "semantic_sha256": "e4ec617ae0e13f72b4422ec6f92ff5ba7c6d1b0d9c5394e5038e8028f61c71ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/QNAP_domain-set_e85072edb0e7de80.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0e2243a53868c66e7b9e9ec5f9a14a7c50606986e2f669391a49c3a5891a183",
+        "bytes_sha256": "beeb7f03cb0b650279ef0d2604c0b68a2d4c958d3b6915c568e4b9e18a5b37c6",
+        "semantic_sha256": "9ba76103b4961c1c202f93bb0b1d0adf0eb462c5e0d90f8a23e2a30e9953f682",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

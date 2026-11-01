@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:43.285814+00:00",
+  "client": "Egern",
+  "rule": "STOExpress",
+  "rule_updated_at": "2026-07-26T10:44:16.790144+00:00",
+  "type_counts": {
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/STOExpress_rules_b343d61d3d4e793f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ded1f0d83e6ab0eb731b87970c7721132b432da5ce965efb919f2837055a2551",
+        "bytes_sha256": "e3995e17998ed7a8571414627eb17d78d97c740a67d590190f34c536f9315301",
+        "semantic_sha256": "9c1b6cab95ac4bd9ca182152d5a71a9d736def9022c34801e1d61ee4d15a284c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:45:01.638770+00:00",
+  "client": "Loon",
+  "rule": "AAMGame",
+  "rule_updated_at": "2026-07-26T08:36:12.717955+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AAMGame_rules_60ba9cc7b0e7b508.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8bac52013726f4f3b6d1df95a1cde5858a280b124e34b7fac569bd1cedef0f0e",
+        "bytes_sha256": "f1148218a4c177be6c106d6c34f9df04a47ead97bf95e38ff19b1387b3430102",
+        "semantic_sha256": "d3fdc334ed58bb4cfa8b3a286c0e32fbcaedf534291d02610bc6914a45d4dba9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AAMGame_domain-set_6483a6849a0afa16.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28ca98d0df7f1bb95cb6426066b2e4321216a922b0b77387c5ebfc2e628e7828",
+        "bytes_sha256": "ca27b6e681cb31a4c2d045d16421d53968cb11f9046782d14a32f4282e47cc74",
+        "semantic_sha256": "1e058771b6a458fc794dfaa2b4b3c7cea1729114c251a52a7bbeab0bebfbf0ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

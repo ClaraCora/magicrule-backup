@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:44:34.632545+00:00",
+  "client": "Loon",
+  "rule": "PlayCover",
+  "rule_updated_at": "2026-07-26T08:36:32.185470+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PlayCover_rules_6f9ea075d49f4b98.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34fdb5d803f17f4c4fc0a2d23ae2087329c4f4a4f8c3da82b493076a5c1f9de9",
+        "bytes_sha256": "7d789c8d33c71412ccc3472dfa2e8b3993ad7bd78ce891305afdf5b759d52220",
+        "semantic_sha256": "4cbb17059978f3f09e55c712c240f861b925025160e958789ab88473a0247d31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PlayCover_domain-set_4ef34ccfe163ca9e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "69fb87348787a6d423f475c1314a8c4a386dcff9ab50e1857a38c0e6618093af",
+        "bytes_sha256": "70a44a183b78231f0e9e9ad052f788eb06bcebdf431c52973e0dd8200d4e3c60",
+        "semantic_sha256": "e3de4e31a9d32f6374e36d4d168ba26298e5d9baac62088a95e117811e79fbd7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

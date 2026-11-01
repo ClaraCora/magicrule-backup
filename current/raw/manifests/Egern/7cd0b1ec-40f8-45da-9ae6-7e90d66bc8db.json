@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:30.728712+00:00",
+  "client": "Egern",
+  "rule": "Technogym",
+  "rule_updated_at": "2026-07-26T10:45:25.363244+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Technogym_rules_4040d1f6dc4ea09a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15a694574bf46ec2c85e84e0447cd596f41ad73240558cd1ec6dfa2e8c09d85e",
+        "bytes_sha256": "6685b92846859e75fa2e7b59379fc6f158c1674f1929f65077a08458fb5523b3",
+        "semantic_sha256": "296dc6bf5912d09ffa37b2393c17d0d2050acad3a011a710b7c14eacff32df90",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

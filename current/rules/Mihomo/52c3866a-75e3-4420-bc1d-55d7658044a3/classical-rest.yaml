@@ -1,0 +1,48 @@
+# NAME: GlobalMedia
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-08-27 10:03:30
+# BEHAVIOR: classical
+# DOMAIN-KEYWORD: 28
+# DOMAIN-WILDCARD: 7
+# PROCESS-NAME: 3
+
+payload:
+- 'DOMAIN-KEYWORD,-spotify-'
+- 'DOMAIN-KEYWORD,-spotify-com'
+- 'DOMAIN-KEYWORD,-tiktokcdn-com'
+- 'DOMAIN-KEYWORD,abematv.akamaized.net'
+- 'DOMAIN-KEYWORD,anthropic'
+- 'DOMAIN-KEYWORD,apiproxy-device-prod-nlb-'
+- 'DOMAIN-KEYWORD,avoddashs'
+- 'DOMAIN-KEYWORD,bbcfmt'
+- 'DOMAIN-KEYWORD,claude'
+- 'DOMAIN-KEYWORD,dualstack.apiproxy-'
+- 'DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-'
+- 'DOMAIN-KEYWORD,dualstack.ichnaea-web-'
+- 'DOMAIN-KEYWORD,hbogoasia'
+- 'DOMAIN-KEYWORD,japonx'
+- 'DOMAIN-KEYWORD,japronx'
+- 'DOMAIN-KEYWORD,jooxweb-api'
+- 'DOMAIN-KEYWORD,netflixdnstest'
+- 'DOMAIN-KEYWORD,nivod'
+- 'DOMAIN-KEYWORD,nowtv100'
+- 'DOMAIN-KEYWORD,olevod'
+- 'DOMAIN-KEYWORD,openai'
+- 'DOMAIN-KEYWORD,rthklive'
+- 'DOMAIN-KEYWORD,spotify.com'
+- 'DOMAIN-KEYWORD,tiktokcdn'
+- 'DOMAIN-KEYWORD,ttvnw'
+- 'DOMAIN-KEYWORD,uk-live'
+- 'DOMAIN-KEYWORD,voddazn'
+- 'DOMAIN-KEYWORD,youtube'
+- 'DOMAIN-WILDCARD,netflixdnstest*.com'
+- 'DOMAIN-WILDCARD,youtube.*'
+- 'DOMAIN-WILDCARD,youtube.co.*'
+- 'DOMAIN-WILDCARD,youtube.com.*'
+- 'DOMAIN-WILDCARD,youtubego.*'
+- 'DOMAIN-WILDCARD,youtubego.co.*'
+- 'DOMAIN-WILDCARD,youtubego.com.*'
+- 'PROCESS-NAME,com.viu.pad'
+- 'PROCESS-NAME,com.viu.phone'
+- 'PROCESS-NAME,com.vuclip.viu'

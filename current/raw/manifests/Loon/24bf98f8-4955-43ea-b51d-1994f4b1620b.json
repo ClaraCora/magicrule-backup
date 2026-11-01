@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:48.977398+00:00",
+  "client": "Loon",
+  "rule": "CowTransfer",
+  "rule_updated_at": "2026-07-26T08:37:42.535098+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CowTransfer_rules_32baa28f383a0915.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7dd62d166d57525f37cd0067144ed4bc19a1ecf96dc1326305038ec51719bc0b",
+        "bytes_sha256": "d8a9da3ed408ab364782782058c10fcbba2697194e76a6bbd36029f8c4590354",
+        "semantic_sha256": "0a2690645e7e00e074717b8019b1fbf23cef46075e6e1064b6b863826f32df60",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CowTransfer_domain-set_a9d245407eb81a0d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8c4a28a79bf489ac8e34d8958f6ac64364236c7f1a68fe6214cb7482b8d5755d",
+        "bytes_sha256": "fdd123ecd9293c133f4dcb09a87158fe4c9d586a88465b2d8a038f10f035259b",
+        "semantic_sha256": "02481433f871e01fda175542b0bbaae96208752940df98f4fd637a5a0fb16315",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

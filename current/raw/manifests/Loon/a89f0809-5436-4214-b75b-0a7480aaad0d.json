@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:17.094711+00:00",
+  "client": "Loon",
+  "rule": "MaFengWo",
+  "rule_updated_at": "2026-07-26T10:37:06.018434+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MaFengWo_rules_0132b00ffb5b75ca.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "daed15c92873cf6a7a77a99ce4397b4dac66c0aa3b04874f0d3d4e3f370cb802",
+        "bytes_sha256": "012a5cd1e499d3a8e4ba702f263860d8ef674598423fb94069b49713ab9689b0",
+        "semantic_sha256": "e3939660a91d7755afa447b149de5b927b489dbc9d1c0d3827696abdee4d7e80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MaFengWo_domain-set_9e9654ce318bc40d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e913af9c224a494717dc2fe83745fc5adce4ba2d318d4c2ee08aef938d0d1683",
+        "bytes_sha256": "984015bf04e59a4151e933d7fb07c10edbc2673daf90f7846a9650afd5bbb155",
+        "semantic_sha256": "dfebed97335845d9b6d5a3f95d804cffbd59af49071b4d71f717b69a8062d8ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

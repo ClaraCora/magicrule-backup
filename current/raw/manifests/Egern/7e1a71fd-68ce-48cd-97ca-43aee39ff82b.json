@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:47:40.270126+00:00",
+  "client": "Egern",
+  "rule": "OpenJSFoundation",
+  "rule_updated_at": "2026-07-26T08:36:06.803529+00:00",
+  "type_counts": {
+    "domain_set": 2,
+    "domain_suffix_set": 11
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenJSFoundation_rules_1c4dcb066397a83f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6eadf9b2d9b94c57730a5393279e13e6cceab4c2203e61b76612b862a7dd49f2",
+        "bytes_sha256": "07578acdee3caa2762696e73858904451b2e7e861718560dcba185c532b4d02c",
+        "semantic_sha256": "ae4ab7a16d84afe6b84221892d8d91f525270f88fa4371146d0d39b0aa1ced0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

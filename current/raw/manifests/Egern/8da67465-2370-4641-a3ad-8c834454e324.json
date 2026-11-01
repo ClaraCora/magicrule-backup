@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:48:18.308073+00:00",
+  "client": "Egern",
+  "rule": "Homebrew",
+  "rule_updated_at": "2026-07-26T08:35:57.358243+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Homebrew_rules_7d98c3782646539d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "41289555727cfb08e93547dccce0a5e42273559ba8211350a6959dc8d73a5d4f",
+        "bytes_sha256": "484b142d8e2c8c6322dbe3fca82f01251a2ebcbe8652b04f95c4313495ffe7d7",
+        "semantic_sha256": "31bc2ff2a2025163383457b6bd0b874cdb8fb670fba09ce3adbf8bd39d3425b6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

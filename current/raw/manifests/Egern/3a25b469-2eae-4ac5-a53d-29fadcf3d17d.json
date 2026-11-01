@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:42:36.093473+00:00",
+  "client": "Egern",
+  "rule": "Barrons",
+  "rule_updated_at": "2026-07-26T10:18:28.069388+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Barrons_rules_70c34d2727a14d13.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d9fff905be5cc823138f6648c311551c81f63147a72825b0fbf6db90bb5d061b",
+        "bytes_sha256": "56ee81e7c0fceb536f553c22f647cdd4054935532807344cb194a2e58913ecc5",
+        "semantic_sha256": "fff7352a14c9b7ead396c6ba883d17d13b565459b2f3274a92427cba41b1f82b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:23.028743+00:00",
+  "client": "Loon",
+  "rule": "IBKR",
+  "rule_updated_at": "2026-07-26T10:33:42.789474+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IBKR_rules_1e5462042bd6ab54.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "252d4feebb774d6e235becf29980a2d5daff78eeb79bcae06a705de628ea3cee",
+        "bytes_sha256": "92cc9a203046e9848a84a1d3a2cc5a34be432fcb527c9bb0bce1ac3cf7fac29c",
+        "semantic_sha256": "29c3289641c0eb04f86235dd0f3d20cc5831ff825b39d1a2bf1ecc3ea181af83",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IBKR_domain-set_fbc23181c5692fdb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01e6d3d14a928bb1267b0bbedc44365c9edf7ed352402c8d20187479287e6a65",
+        "bytes_sha256": "f0c0abb3cf9af6d343d3eebd855cda469cdbf55d5e519c1a580dfbee0d6027b2",
+        "semantic_sha256": "b54178edc2e51bfe6c0fc022d74fd6843598a89e6b4be7f55f893a3a8a66351e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

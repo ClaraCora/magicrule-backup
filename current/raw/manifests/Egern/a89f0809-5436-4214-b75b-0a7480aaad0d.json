@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:16.989370+00:00",
+  "client": "Egern",
+  "rule": "MaFengWo",
+  "rule_updated_at": "2026-07-26T10:37:06.164723+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MaFengWo_rules_d68bd75e369dd22c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd71672fe326afd41a2a6c913623fe6504e4591c3882dc611e076cc1edaa6f93",
+        "bytes_sha256": "55b591ac62289b6558c5a8ec950abcde2bf04821bcc811f02615645f643618d8",
+        "semantic_sha256": "2a94c3af87fc2f73ebfff91928dc2733de05fc3c116b6ec716cd3d640068a4ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

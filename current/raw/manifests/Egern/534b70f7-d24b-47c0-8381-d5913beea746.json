@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:32.395839+00:00",
+  "client": "Egern",
+  "rule": "LocalBitcoins",
+  "rule_updated_at": "2026-07-26T10:36:54.723917+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LocalBitcoins_rules_5eebefaf85132b30.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b4304894e92d226ea82dc4ea2b7ddada89353075dbb9524512ba76c46ecc250a",
+        "bytes_sha256": "1a05f4c1924db809789f767d9b4202e24bbfe5b4f009a08ee3fa8960af20cf6e",
+        "semantic_sha256": "5994ad9a3e7450a01f235a4a902ea17a8d31a08c5e362b6f8fabb0de69beecf3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

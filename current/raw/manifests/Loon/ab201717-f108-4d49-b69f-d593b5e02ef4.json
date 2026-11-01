@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:25.642716+00:00",
+  "client": "Loon",
+  "rule": "Laracasts",
+  "rule_updated_at": "2026-07-26T08:35:57.583814+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Laracasts_rules_9de82b248ada4103.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e99365d3e7f7584529b1e8ee7da5a00176a256141e7698423c09a88da22a97c2",
+        "bytes_sha256": "dd201fcc3e23ab0f57c6495212bd930e803965f9a89f96e7826c8e4c7b833e14",
+        "semantic_sha256": "30e0b6e1667bc39e543b8af21ecb052db4b7c838c3ab7af4a57ea1d326a21898",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Laracasts_domain-set_7f3d7825330df09c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a0e61c5b4275dceb1032f3a8b25cc04c1b75a4e1c528cf4a022970a460c0f706",
+        "bytes_sha256": "c0b70c72b8b6f75e905abe248f9a19d779bc56fd3a1e0674f707786797f80488",
+        "semantic_sha256": "e59dd1777516708c78998bb365761a7d7917340ccd102e09efb582aeeefabf6d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

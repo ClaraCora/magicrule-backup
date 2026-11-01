@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:52.268283+00:00",
+  "client": "Egern",
+  "rule": "FIBank",
+  "rule_updated_at": "2026-07-26T10:27:53.460239+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FIBank_rules_feb764d00c4f1a39.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "03cbfc0dde42ce1f4b182312dbeb08363233e504fa391d0789b45cf8fda00e86",
+        "bytes_sha256": "24fdf62d82f752c3f6d7df1fb0e3886fbac8e35c6deb90e17fb7906d51f94bf6",
+        "semantic_sha256": "41df84e08ff06cb862fafd21210d548aa3c316faf2b6f997bd6cd2efc6129255",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

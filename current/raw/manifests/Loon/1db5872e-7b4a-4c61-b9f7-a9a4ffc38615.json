@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:29.622541+00:00",
+  "client": "Loon",
+  "rule": "Linux",
+  "rule_updated_at": "2026-07-26T10:36:49.487793+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Linux_rules_7a4d0fca5e7b73e3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "88ee75d665c93ff82ba7e32c7b3526e00444b61b1f5f031cbf9b1427adc78e91",
+        "bytes_sha256": "21eb51c6baf585d001d4150a90383be8edd0e0f65d0b138e88a288c8f8a720a6",
+        "semantic_sha256": "fc86979ff6415c908d4cf2bce16ee6fc25048924b35ff414cda294c93ab17953",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Linux_domain-set_7c3ad3efe5578ca7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbc6af2b9f00659ca104eb7247a050162ead698270266f4511cfe7903374991e",
+        "bytes_sha256": "5e04b7b72e825ee5bd833f89409c5be2a9b1bd112d8334f0a282acac2683c7c1",
+        "semantic_sha256": "c0b979e9f837dd11d4d69b00ef42f3bcb0e2132886bf61d9cdb2bb1cc8926f3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:50:26.089726+00:00",
+  "client": "Mihomo",
+  "rule": "Gismeteo",
+  "rule_updated_at": "2026-07-26T10:28:53.001492+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gismeteo_classical_ed9de3eb4757448c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4376c3c7da370f87d64ad7fee997f8f2fbd67c404c9a52ba63210f8cae32f7c6",
+        "bytes_sha256": "72ccccccb0c4053f9316c1cd15f9c863ef66dce906413eaefa02d3b7dce3e2e5",
+        "semantic_sha256": "c7e0bec240f80f771e79b1065db9dffbe6b78ba8861e205d87c5a6a3e54617e2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gismeteo_domain_903ba4aa1ee6f6a0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1623eb39869c73a8a6027faafdf2b0080413fe69f240259797c8b08c4e3669d5",
+        "bytes_sha256": "07734e6c212c403c3e432c2fc17dce6ccbd35458b3fc690d8d72cbcca0bef93e",
+        "semantic_sha256": "5d00c95147f5704b464e2afebbbbae4137616d5f40a8ec8d463bf1d4bda64b64",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gismeteo_domain-mrs_626b8b235f1c05f1.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "0f592890608f7056648388aba5f3de797c9fa77376adfb0333b5e07adee70a1b",
+        "bytes_sha256": "83dfd8b4eac26ec73840ec075ad25fc608aaf1f06904bb2c96c78407a6bba5ce",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

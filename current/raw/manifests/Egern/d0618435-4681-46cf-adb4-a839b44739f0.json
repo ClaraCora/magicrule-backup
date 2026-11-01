@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:33.414530+00:00",
+  "client": "Egern",
+  "rule": "CityUHK",
+  "rule_updated_at": "2026-07-26T10:23:41.146025+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CityUHK_rules_dc97cf744d54a1d6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d668ef89d784ab090b8f78aab8b935c1c2113cbecffb37ca854322c97be1047",
+        "bytes_sha256": "cb59ab6ca4318c10cd1b1cab9d5d406f00ba9e6a5b8813ed46b0c7c80eb13e19",
+        "semantic_sha256": "b6be3c4dc994e4de233ef39d083633d4551367a155c5882c9f39925d42480bcc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

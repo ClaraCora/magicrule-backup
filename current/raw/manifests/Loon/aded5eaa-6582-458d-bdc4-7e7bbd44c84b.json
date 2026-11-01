@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:32.980015+00:00",
+  "client": "Loon",
+  "rule": "WenShuShu",
+  "rule_updated_at": "2026-07-26T08:37:44.204864+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WenShuShu_rules_ec9200041df85da7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9c33152c12d53aa78250f25c5cab5c6b9d8aa45c310a395022a9d16d7cb57d34",
+        "bytes_sha256": "7aca75830143e8dd7f8ff8c9da3181f479818416af4f23282ddeb70a59c1c466",
+        "semantic_sha256": "59a975313230ab69d03c5b295b23c40a5cd2282ccca2d2e9aa9eca9b356d613e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WenShuShu_domain-set_29f8afc56e7d80a0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e757c634388fdd84b1c7d942866f144ea340360edd285e52908b4a8c579fd2e",
+        "bytes_sha256": "d52fff0ebc081cc0407372a47fc13a063e831c5bbccce6ba69e0c19fe4f13781",
+        "semantic_sha256": "8a4db9a53163d40a6faee9d160c67f441dcceb3adf216ad3ddbf608c6390a916",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

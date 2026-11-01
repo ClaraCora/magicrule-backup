@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:43.372019+00:00",
+  "client": "Mihomo",
+  "rule": "AccuWeather",
+  "rule_updated_at": "2026-07-26T09:55:21.248748+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AccuWeather_classical_17d026931dac7e7f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2dd17e035119051552703a9900efed5f05a65b305d971691a9cdd2332092ca54",
+        "bytes_sha256": "8965ff7b5dff9c6244d948692837b3db19ba4bcf2ee0b8a0268ab43b6f01ff57",
+        "semantic_sha256": "03f88512bee42d80102cb08aa15ce252e1a21c8cde15dbdd1f52cd0371271d6e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AccuWeather_domain_59f9292750e12afa.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38f4761d02e17bfd76da01665fb4343c9074ea83ae337f2ffc042f2166f1dd4b",
+        "bytes_sha256": "12b7ffee2623da3e1af2f715af899dd6e8f0ab130cc60c25cd259c6e8cc83d86",
+        "semantic_sha256": "bcc70d5699a3a4919afafcafd89c92c21e38fa4efdb5ff14b1a0cc0df3ca7269",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AccuWeather_domain-mrs_61c2a7086b717f84.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "2da56e04273692af09bc5a0d6a1c197e7d017e046196312cd70ebf49d50c68b5",
+        "bytes_sha256": "26bd4df0db3ef278a8137f6b2cd12ab43903eee51c756b3fd02d1cbbbdf37849",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:09.920022+00:00",
+  "client": "Egern",
+  "rule": "Zynga",
+  "rule_updated_at": "2026-07-26T08:37:15.701902+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zynga_rules_d6f010be5ab50642.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a5d58b88a96fc4997b3b8258dbe62eeaf46374ee8f84a09a649820d0737a0d28",
+        "bytes_sha256": "c7585279f70a8253ede17ea511a656ad564f40e404992e632030b0217923b59f",
+        "semantic_sha256": "8146176098c43b1a72db632c996a2bbe4c5971395c2573fe1503c8338dc1c4a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

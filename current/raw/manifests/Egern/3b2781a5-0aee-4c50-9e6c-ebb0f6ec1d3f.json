@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:41.677091+00:00",
+  "client": "Egern",
+  "rule": "Globo",
+  "rule_updated_at": "2026-07-26T10:29:11.248835+00:00",
+  "type_counts": {
+    "domain_suffix_set": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Globo_rules_ea184cdf03d2de49.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cbe148a872dc36ddfba5e84596b0cc333c4fa1010d709e79cdeff5dbcb0ee05d",
+        "bytes_sha256": "cdba73ca920e65c1975eeef4ce667f1b1509c77eaedf29dbc9d5ab4a8fd268f2",
+        "semantic_sha256": "b991877523a3c02567a28aa0a84707042443b71e92d47045b25384f3614bfd1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

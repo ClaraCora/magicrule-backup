@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:22.825024+00:00",
+  "client": "Egern",
+  "rule": "IBKR",
+  "rule_updated_at": "2026-07-26T10:33:42.934228+00:00",
+  "type_counts": {
+    "domain_suffix_set": 21
+  },
+  "total_line_count": 21,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IBKR_rules_8988867f1512a9eb.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "755967eabe37107959c0cda91d2ffd29e601af62d0b5b48de2e2be20861671d7",
+        "bytes_sha256": "765f746edfbca6be483ebf543c71df7f4e7edf13d8961c80ac2bc44ea3b474bc",
+        "semantic_sha256": "f8d9c2fff54f1f5fcb8833eddc86132dc1e9554e75296ebe1186bc711360e282",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

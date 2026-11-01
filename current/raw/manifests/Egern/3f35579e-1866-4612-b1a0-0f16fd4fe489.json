@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:52.773426+00:00",
+  "client": "Egern",
+  "rule": "BJYouth",
+  "rule_updated_at": "2026-07-26T10:18:46.198699+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BJYouth_rules_d1392afdc593ef3c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4352b91ff7ad1fd78eee6d9afffff8fbbf3ff8cf67596bdbf61abce9615b9c85",
+        "bytes_sha256": "0d2e33386312715bda7974e37cf2984f5b6663898cf29dbf20be9b8ad3695a5e",
+        "semantic_sha256": "2b12282f6f5b49d1d960d89d8636ac2783be9fb39c1a219ab3293932333feb09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

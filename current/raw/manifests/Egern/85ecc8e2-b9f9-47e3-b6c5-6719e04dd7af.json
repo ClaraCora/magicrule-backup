@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:48:04.202622+00:00",
+  "client": "Egern",
+  "rule": "Peppy",
+  "rule_updated_at": "2026-07-26T08:37:33.558377+00:00",
+  "type_counts": {
+    "domain_set": 9,
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Peppy_rules_5797cddff6d8d256.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6283fb928a2218e0603d3904b158150eb2333a499764993a0c24d0377e5e3b7d",
+        "bytes_sha256": "c03786f67f211cc40f57fa816217f742a3ad4cce700f7d1498694ecf017afc18",
+        "semantic_sha256": "98c1ec30b9b85d4ebfa14dd452c6da6650ba5fb54b03f17c8bdf94509d211813",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

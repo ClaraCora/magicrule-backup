@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:56.191261+00:00",
+  "client": "Loon",
+  "rule": "MeadJohnson",
+  "rule_updated_at": "2026-07-26T10:37:25.416607+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MeadJohnson_rules_d3613f8aec1c7c39.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb682c8c5afff326bbd211cc2ba62da11b6cf2f83f0e9763c9e91139933aaf38",
+        "bytes_sha256": "f0b31faf5b76bbb3675eea5aa8155969124cedda3fa72d29a26aa7d0054cfa9b",
+        "semantic_sha256": "c234ab6824079d2ba101301306a2867fffd27faa60616721a36258d70f2d6231",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MeadJohnson_domain-set_cf9ff1a92bbae315.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "14db74c6daac13def7265bb51a49b3456a1a09be9c70e3a0f0b2d265f8863a10",
+        "bytes_sha256": "20c4d06710bebc75de7f121361ccad97b8a6e228f02c7f43084df2a19ffb8b99",
+        "semantic_sha256": "ff46b4ed38d521441700033fd11d5091a4cdc87a2ef641de150a9e1dfc4614c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:53:46.456612+00:00",
+  "client": "Mihomo",
+  "rule": "TokyoSports",
+  "rule_updated_at": "2026-07-26T10:46:28.318340+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TokyoSports_classical_4298783f55836932.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58651b517aadcd1e41d77bfb839a7021ff3d59bf5cb8942063a356f39814b03e",
+        "bytes_sha256": "edd6addfbb4fbb264beaffda6db303b6b246d2472c69c166a3b2ed7cf433af11",
+        "semantic_sha256": "3064c57eb98e1d496bec977bcacb5906cf99073a2f0f17f040081cb56c15caf3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TokyoSports_domain_2eee2cf4001c0e53.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "534ed279901096465e595ac26449e4dc6d7f9ecb4eb7f8e87194f88b2a35f69a",
+        "bytes_sha256": "74b334c4afc378bd8a9146f3c1f6926049e8f9dd77f64cf0595cdc61dec75d56",
+        "semantic_sha256": "4bf842100a16588fa7e693e931e3e9f8bb99d28790430fe9a7d846ee07bc089c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TokyoSports_domain-mrs_2ea7183d0aac90b6.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "49c9399e2415549fb6382822bf520747672f91c65696048afc862f9929eeacd8",
+        "bytes_sha256": "a9f3529dc08a5ad1737b09b41c8d5c4244ad09049ccfc7e7e7f5332cb7300611",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

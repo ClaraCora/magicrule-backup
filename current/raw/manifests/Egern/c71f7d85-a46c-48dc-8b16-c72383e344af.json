@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:50:56.767648+00:00",
+  "client": "Egern",
+  "rule": "Chinaz",
+  "rule_updated_at": "2026-07-26T10:23:27.749845+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Chinaz_rules_f3f9c869876776a3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5fa03b9ed9fcc12526588cdf7dbfc35de0ebcd6a4cd3988e6931e3f68bb0ea8e",
+        "bytes_sha256": "35054c3b56e6672a8a06604117a088ab6232c8cdc5bb56c20cc7aa42a977b31f",
+        "semantic_sha256": "94ce9888ca8f04132d6b370c9d212e6b46cb7cc01221488b3a7c1b033397f3fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

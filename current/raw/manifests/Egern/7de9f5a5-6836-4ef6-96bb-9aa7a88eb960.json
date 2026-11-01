@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:39.044664+00:00",
+  "client": "Egern",
+  "rule": "CloudCone",
+  "rule_updated_at": "2026-07-26T10:23:34.423809+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CloudCone_rules_f9806c51613d38fe.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "acd65422106dd4b50622651b25fd66df995bfe52f621212153cf7c3b06f8f4a3",
+        "bytes_sha256": "cfb9253a51e22ba0812efd2686fe760e76d3f0309f89310ad044c43c6599417a",
+        "semantic_sha256": "b94b84e1abf7f23961552249119821f519b850e1dfb14be66b2493523beaccb7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

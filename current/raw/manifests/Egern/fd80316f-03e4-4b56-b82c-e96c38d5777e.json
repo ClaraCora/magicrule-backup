@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:55:23.700572+00:00",
+  "client": "Egern",
+  "rule": "CapitalOnline",
+  "rule_updated_at": "2026-07-26T10:19:41.907682+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CapitalOnline_rules_044ac4dca7d93463.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f1416bc54415abe1dc594e5a80f87a8d02dcc950b161739ffdafd0c0a77dbfd3",
+        "bytes_sha256": "26571456da860606194ef7fd07982432cd65e048659e5e249ac4db9565098dd3",
+        "semantic_sha256": "a3ad5907d622e0dfe43293316f1e5bfab5a5b0abc92fdf23dcb7638c229c9ff1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

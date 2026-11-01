@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:47:03.639842+00:00",
+  "client": "Egern",
+  "rule": "Zaobao",
+  "rule_updated_at": "2026-07-26T10:50:28.215890+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zaobao_rules_c778aa546a6586c3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63064a496e275e6754ec711ed92fdf0f46d05fe0ccd1d036b988d1aefe8e6e85",
+        "bytes_sha256": "0402e05a1b50d5fe24506e75dd989b0b1c6e526bf62b2b6687de7865a51b560a",
+        "semantic_sha256": "783ada0845ca788e5872d92be889943e3994642bd1f5a02b2f1f045e29da2c00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

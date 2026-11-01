@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:24.401664+00:00",
+  "client": "Egern",
+  "rule": "RaiffeisenBank",
+  "rule_updated_at": "2026-07-26T10:42:07.432013+00:00",
+  "type_counts": {
+    "domain_suffix_set": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RaiffeisenBank_rules_86c21526527c1d88.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c0a4c9ea0a7adeff5f44882a403a7d585e159716f140bb51a71b4e511f5deac",
+        "bytes_sha256": "e20c7ed91e6e12ffedf91292b37fd05c3fad6c94989386f4bb6fa1a274e05354",
+        "semantic_sha256": "1b33d8a200900c5fa1f6df677541571afc909d1e2d95125489ffcdd603710106",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

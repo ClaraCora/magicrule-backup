@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:54:42.795997+00:00",
+  "client": "Mihomo",
+  "rule": "Hikvision",
+  "rule_updated_at": "2026-07-26T10:31:11.331831+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Hikvision_classical_7ec8aedecbe6987f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5c57e425afd2fb43302cecd205ed460dbde5bab85be5fb18ddf11dbc155eb69",
+        "bytes_sha256": "3e802f84eab52f8fcc684fcb3119982777f7c3970d3564e4321c2bc23053ccd1",
+        "semantic_sha256": "7832629f1d3b21a8cfd30849eb2e53e3c539e0230aa3bbbc14c137bf89fa655d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Hikvision_domain_2a8a2c6c388711f3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a54b6ad05213898175dda3bf941f81375f8b6aeb7645bcb83e1564a0c4d89865",
+        "bytes_sha256": "544fe71c1a99332bbf6da3063336f77ffce4dec53b60233f0589f9a630cb3dbe",
+        "semantic_sha256": "67c2cbe0018cafd70ed223deeab9c87b82a3cb72c7c89832fabe2c0de96ce34e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Hikvision_domain-mrs_88ce10ad1b9ad0d0.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "c9e92d499b75f200fb0a79bae121a828af291291ee8e7eade393966e490aa469",
+        "bytes_sha256": "7122a7d783e73628b1390cacee2557301dd6abfa930ce8b1e3f505f2fca3d2eb",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

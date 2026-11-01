@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:44.238088+00:00",
+  "client": "Loon",
+  "rule": "Poe",
+  "rule_updated_at": "2026-07-26T07:36:40.845503+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Poe_rules_3b1073d992c41cbc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e5f6ce6cb5991f6615119efb24610e9ce882ac699691ca93456dbd921568cce",
+        "bytes_sha256": "b62f6d42e2a2105f1afe3f74136f97ef9794ce42918ad66dff96ae8ed0001860",
+        "semantic_sha256": "ee43ffd6c218ed59bd078ee932f0b83275baf3c6c8445b2ff474af3e568532e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Poe_domain-set_da73e82a084bf105.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4d30ddf3a091f3044262e8290faf15b41e588027b72851725d08d1270856228",
+        "bytes_sha256": "860e39f63a900a31fdc34bc78287199fc9b4eb21113a53d9dbd9bf0f1548548a",
+        "semantic_sha256": "6af3e658aabe463a755866193248826d5d0edc3ac92abddbe6c9aad69b966ccc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

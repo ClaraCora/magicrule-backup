@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:19.686752+00:00",
+  "client": "Loon",
+  "rule": "Yokaverse",
+  "rule_updated_at": "2026-07-26T10:50:16.974903+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Yokaverse_rules_c82b2cc078d14bad.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bddc8ea0de37189718972fe60e4e2c70beeb6e74361b8079cac6a2c0756ec326",
+        "bytes_sha256": "04bfc82539d5373141c0d6c46fdc29faddabfe3ec13a425f4e4d6fd3f3cede84",
+        "semantic_sha256": "63d08ea74ef6bad21e23cc038caf8b7effc1b8234ef690695362be6ee49949c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Yokaverse_domain-set_f27c23c1a7011d34.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5275fb786ab4bbd846aac98f99fe621f093536493dbd6d69bda32881e2cc9b2a",
+        "bytes_sha256": "a6557c667de8ebd160b2d60b71a188faf398375a1132a76bf0b45ef0d65c653d",
+        "semantic_sha256": "b83ddd5eae9cadb53f116aec28b17e5e4b8628a4a5e87519c29e4ba837fbef79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

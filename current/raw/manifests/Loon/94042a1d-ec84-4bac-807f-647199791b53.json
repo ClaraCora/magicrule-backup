@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:30.774785+00:00",
+  "client": "Loon",
+  "rule": "EpicBrowser",
+  "rule_updated_at": "2026-07-26T08:35:17.011547+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EpicBrowser_rules_aaf1a3e1d5fb6670.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a4220cec79b613d4227828513705bba719f2658c57472309f3581f6d2d47894",
+        "bytes_sha256": "ac6ac5bb6f527374017c6557585769fd87ddcbb56bd898641aa159b4ad6c4b2a",
+        "semantic_sha256": "435d38b1dcd0b9bb096107e5a6ce41fcafda37368e2d144b92c778b89ee6e553",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EpicBrowser_domain-set_67e433186683167e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6eb253a722ea8f89a9d5699bdab06ceda44796e322fa452ce3f4ea091a0424c8",
+        "bytes_sha256": "b8064ad0cd1738e1bd312e56ebd7c6fd55aa3afbb8191187c55b1cdcc4bfcdf6",
+        "semantic_sha256": "0856949c1bccd786765172f63eebd7d245e7e649c4bc46220fa2ed171c660847",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

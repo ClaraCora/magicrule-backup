@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:33.841586+00:00",
+  "client": "Loon",
+  "rule": "CityUHK",
+  "rule_updated_at": "2026-07-26T10:23:41.021884+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CityUHK_rules_89346a9441c23cb1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ac99ae035c13de1850fe1df8ee2f0bc80af02eefe04564c8f6799c9784f21d7",
+        "bytes_sha256": "515691df4cc77004bc3d5c0d6ac0c5416b94e892ffe5de782eb09e2495c84432",
+        "semantic_sha256": "52d0f50b442d808ed51af9944ade8eecc3d1f819fe1ee222820528a3c79d0b2c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CityUHK_domain-set_8d21a3fe54b07883.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8bded1a4bd030dca6eaaff7fde28840249e9ecfd9858213daa968bda10822d0c",
+        "bytes_sha256": "887fc0ddf06894143ed9d03cd153fa847317581bf1bc656df6f71bba35656d71",
+        "semantic_sha256": "4fad8ffdd6a77cc917130f5d7fab1735eb9d92e5d10a90b996589c87c241cefb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

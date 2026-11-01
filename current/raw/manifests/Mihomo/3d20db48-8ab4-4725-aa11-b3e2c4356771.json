@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-08-27T01:42:48.793570+00:00",
+  "client": "Mihomo",
+  "rule": "GlobalCloud",
+  "rule_updated_at": "2026-07-26T10:32:07.131640+00:00",
+  "type_counts": {
+    "IP-CIDR6": 2770,
+    "DOMAIN-SUFFIX": 19,
+    "IP-CIDR": 5779
+  },
+  "total_line_count": 8568,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_classical_db882148e6b04625.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "150fecc00b67dcc9917c32382b4d82a4a9b75409dce43cb294068de26a318392",
+        "bytes_sha256": "2e420e2bd1fe71a7150cd0ef477d882faece6e59f2b3a5467587862cfa377283",
+        "semantic_sha256": "a3cad18a77aaa6d23ddbff4201bb30d149059e86ec1723e5d150dcd2f7dc25b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_domain_317369f3c291602a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99594bcf2d8c32d8cb787fb551e6cf9336fdd92dff3dd6be7ba44f04184c4b8d",
+        "bytes_sha256": "b00bc4793363d90ad738754d0180cc1450e9f43525c8407137b7bda91365a898",
+        "semantic_sha256": "3d6beb7d97a257dd1b005553e8a526ebb7931eb76ff8cbc3cfaeddaedcfeda49",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_domain-mrs_e3f53503d99c3f10.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "aa85955458c3f4ed85090dd711b2fa0749a15fd2c865eaced81c778d8eae89fd",
+        "bytes_sha256": "c1f3be5fa7ec32a211e6c095f012f640b4d3f7e5409e0131c6330b3cbb0c3601",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_ipcidr_5ba7335c7d22e7f2.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c5352c2b1ae9687ea3d7a208a414d15bb815672655f770fe95c237f5cb41d66",
+        "bytes_sha256": "7bc8408b70297bb329028c885cfcb45869e87e55b8326feac201bfdb260b9f46",
+        "semantic_sha256": "0bbc8e6dc2d7bf3f33ddd221f642c0865f415b0d8bc8b7ffe97695f176613f55",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_ipcidr-mrs_b8044393e7844d9c.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9925678ca6fd1c7c25a8b5f242e7e947fb9cdacac8277719c8e4eb91c5d3e7b1",
+        "bytes_sha256": "a03229ccfd0083b8469dedecfd7a9f718370d628d57481374ec26e808d93e032",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-Global.list"
+  ]
+}

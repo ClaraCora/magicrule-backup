@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:51.752545+00:00",
+  "client": "Mihomo",
+  "rule": "Glyphs",
+  "rule_updated_at": "2026-07-26T10:29:11.059954+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Glyphs_classical_44d4d34c8b414503.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4fbcd85ddf38e195d959f3ec75e41b50f8c24c7588c56726cfb0e3fce03dfec3",
+        "bytes_sha256": "c9998a7f7fa79b830244c41b8d62466861e51ff0c3bab36a244bbc1e0ea9a95b",
+        "semantic_sha256": "f4dad7fd9f6da6932915771bfc90ccbcf458d1fc1304d1f7c5784e790ead4157",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Glyphs_domain_afdd6ce4ff490a2d.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5912bbe707b0909d205f26f304148b9f990ec6de33e74008eb63de089d80b47e",
+        "bytes_sha256": "4eb8243407aaf85516b2feabb44fa08fc8d55cb4d7f0234b24f9867576081e82",
+        "semantic_sha256": "20d67de6c213b9c42b12207f934de2d25f7a962967cef4508c09627e9ca4447e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Glyphs_domain-mrs_630a0b570367cb58.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "5ca16a9189576146a051b9a621bdfa4a863088db5de6b40201fe702ba6f23ee1",
+        "bytes_sha256": "29ae0702e3f7523b78267636bbd88f1c463cbc5d5a6688966cd0444757f8efdf",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

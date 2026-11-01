@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:16.458777+00:00",
+  "client": "Egern",
+  "rule": "VisualArts",
+  "rule_updated_at": "2026-07-26T08:37:17.167037+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VisualArts_rules_fbee7087bc1fc8ad.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ac0db6ba87029b411f7a29888037a116ab718b1bc34f7293da196424b15667a",
+        "bytes_sha256": "b316bd18ddb525038dd9407a6f4a63ad43d950fa2cd271e9c123e8149d74a24f",
+        "semantic_sha256": "18f6e76f0deb985b14646fedafe05a65501b0136fbddd9e39cf84a31e4e58103",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

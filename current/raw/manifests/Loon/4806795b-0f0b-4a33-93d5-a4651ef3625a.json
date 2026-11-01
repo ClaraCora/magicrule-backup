@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:06.712472+00:00",
+  "client": "Loon",
+  "rule": "TechTimes",
+  "rule_updated_at": "2026-07-26T10:45:26.734959+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TechTimes_rules_e654f64e204cb0da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "036acdc48f238acd7f190a0522925cbce9f719d28167be800fa43a216b076735",
+        "bytes_sha256": "a21c28c05d77047c04654487f7aaa87143a8715c2c2d1716eea3a87100c7fabf",
+        "semantic_sha256": "056932a789ad449747e76dea1b84d8c61222b38fca780efd2e2282d2cdd0153a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TechTimes_domain-set_0ed200d478bd4913.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7a59ed92f379e59afb498c71f06ffc47bf28e068473b49f1b146b2b4ed6c4c3",
+        "bytes_sha256": "49043844f6185175a37893bd53cccb7d434fdf9b229d51e0073100c669787d08",
+        "semantic_sha256": "c36eec5af0f05f405ba639c0c47fca27c8a4d4febcb630f43ed2ce7080cd0535",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

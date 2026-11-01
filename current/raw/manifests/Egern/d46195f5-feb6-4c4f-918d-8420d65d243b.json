@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:55.368942+00:00",
+  "client": "Egern",
+  "rule": "FontsInUse",
+  "rule_updated_at": "2026-07-26T10:27:59.836177+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontsInUse_rules_83aa704cd2d969c8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c1b2f0485c04e48f4e428f5b251e10e07eb8d6ecb9fbe0c3694686256cc282ff",
+        "bytes_sha256": "b27e2baabd1f70f30de704094bcb6a0bc609f6854e7890b2bd7b6a40b2731d5b",
+        "semantic_sha256": "46e38801ab9d2bfac89aff048ba35b43440c5dbfb21043705d9302dfb3a55565",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

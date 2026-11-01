@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:49.526947+00:00",
+  "client": "Egern",
+  "rule": "ImgBB",
+  "rule_updated_at": "2026-07-26T10:34:31.653187+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImgBB_rules_8468a6986cc8089b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e645bcee633eb37f78039916bb8a4587bbe316a9acc75f8548dc9275f6fd1871",
+        "bytes_sha256": "32367c4a56290de44dc22f7f9ad2302c1316dead3f1e0bfbb2e5aeeea58d7f8a",
+        "semantic_sha256": "77a38f319d90a1c0976e961d3e1eebc9b9e0aa42ee8156f1497ee609d88938a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

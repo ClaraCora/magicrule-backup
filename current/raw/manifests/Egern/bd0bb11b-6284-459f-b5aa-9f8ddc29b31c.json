@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:21.667752+00:00",
+  "client": "Egern",
+  "rule": "PixHost",
+  "rule_updated_at": "2026-07-26T10:40:58.196248+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PixHost_rules_4d5a34ea34e3b93f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fed991faf3a5d03d77c3a7556de24ad4b4ad07077706893be0fa07c6a3cbbc6d",
+        "bytes_sha256": "e5d8da43905156fb426461e43a632fab7310c207dd791dd39e5ad1f8ea2dbc89",
+        "semantic_sha256": "ba419ddaf131f2d716305cc3b2ef5464732bea68b4c4b094f6a90eff2a1a7836",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

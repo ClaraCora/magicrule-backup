@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:05.849922+00:00",
+  "client": "Loon",
+  "rule": "HuPun",
+  "rule_updated_at": "2026-07-26T10:33:43.180283+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HuPun_rules_f26ae4c4ce71c47e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b18af51a31c62621136096b2b073e88b40bbdb43ab2b8f591d54f47ee286bc70",
+        "bytes_sha256": "fac30a97976422f3899be03ceedf86dec996e01177e52ad9128f76a969b5303c",
+        "semantic_sha256": "a28d55dd1a76f8b10c05e37139503859be4c9991cfa989d2639ecc9c04f11d0d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HuPun_domain-set_5a7919568fe567be.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07242933f257189aca0365f4b11d0dc1be41dc4d7b2a78e2a97e19519cf0d5f9",
+        "bytes_sha256": "eaeb5d5923598953e796f94ae26b64710e7b61de49d92d0a2f5da2a6c8b2d09f",
+        "semantic_sha256": "ee0d45b6e700dd36f958b5fbe55d380a0fe7cfa9476377fe4a195b41677f0ade",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

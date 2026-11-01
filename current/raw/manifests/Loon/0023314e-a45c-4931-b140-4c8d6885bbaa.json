@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:40:03.454137+00:00",
+  "client": "Loon",
+  "rule": "Mojang",
+  "rule_updated_at": "2026-07-26T08:37:14.609867+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mojang_rules_944b9e3b6df2cd8d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "206c30bf8c5c05ca4523d6c27686f5425999707d0beb7cc204c9db057523112d",
+        "bytes_sha256": "30deb45bb9dda15b7d00e7641d19b1e328b7d1f5e98bf1e555a523b4cc6dad52",
+        "semantic_sha256": "785f312eb566e93a8fdca4f8c455c24951331c8d0c6ce44b36896631a69da8de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mojang_domain-set_f74f46792bc8e094.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98e85a020525bf3e7fdf271c8f91a3ce8455fc1f775ca337499de52b11483048",
+        "bytes_sha256": "cbc2b8834f4bdcbf67f31598be34faa484711c10660a399e37eb1569185623b3",
+        "semantic_sha256": "de9dc384cd0707cbe50295f34757c7dfa0434342584b763d9cecb3ef0bba32b8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

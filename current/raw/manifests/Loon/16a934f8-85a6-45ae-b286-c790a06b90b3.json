@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:15.984487+00:00",
+  "client": "Loon",
+  "rule": "Mortein",
+  "rule_updated_at": "2026-07-26T10:37:53.175115+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mortein_rules_53f5e97e4ce158a2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30ed92d19a20b45392d255077b6ef946161f6b9607b5f868f02924b3da46aa86",
+        "bytes_sha256": "7eb5854b39b8adf038561da9d9be4779cb57452dda2a86b03f95d376b328baf8",
+        "semantic_sha256": "92986ff29b84b677fa3e2b7bd56eee0409eebf76e0b9fa09885c68fba40eab31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mortein_domain-set_b4f81797c9e3c9b9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c8b338f0c43203abba73af0f7e4a2af2ae4d5f70c24bb8dad28159688cd86838",
+        "bytes_sha256": "56d6606c136fa370df2328ec307faa0672d870b75e28d742a4e5a807fc3f2962",
+        "semantic_sha256": "c31d8967cdfb29af831cf789204078df877ad9f01b00389e1cc7fbd3ad499e9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

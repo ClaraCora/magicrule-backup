@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:24.132761+00:00",
+  "client": "Egern",
+  "rule": "OTPBank",
+  "rule_updated_at": "2026-07-26T10:39:51.279399+00:00",
+  "type_counts": {
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OTPBank_rules_dc4dde7e42b9b855.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ff0927d61f608c933eb915be2ad31bc14eb2584381c95d8b5a0655b9f5e9d25d",
+        "bytes_sha256": "b6dedcb869c99546b8d2dbaa5f686c82abc16c6f8d8dd48c82927b06e2b9f654",
+        "semantic_sha256": "ce44c3548f7918defefd6155d34fa15f684927982511f0bc22c0d12b13368376",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

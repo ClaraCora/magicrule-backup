@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:50:30.286684+00:00",
+  "client": "Egern",
+  "rule": "Asahi",
+  "rule_updated_at": "2026-07-26T10:15:18.981261+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 6
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Asahi_rules_f6854680c393b371.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7480cca595dcf3dfaf7913abc26481708a138a3278cda473a99393edb7b20649",
+        "bytes_sha256": "9bde95632cdcddfa20b7890c921835b4715bda5fc9dac74fda16d5cdcd21f566",
+        "semantic_sha256": "aa623f87512d03d3c397a5a7ed49ffd9a41fe4566ec284d5328841ca8ec94cbe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

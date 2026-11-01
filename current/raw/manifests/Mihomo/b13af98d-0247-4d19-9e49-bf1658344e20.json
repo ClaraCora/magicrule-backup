@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:49:42.795128+00:00",
+  "client": "Mihomo",
+  "rule": "TeX",
+  "rule_updated_at": "2026-07-26T10:45:44.806256+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeX_classical_13b8de3c32b0f6c8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7c525e6db7222a21c866198beb56da7cd90e66275802152edd9a3ba4ac30ade",
+        "bytes_sha256": "acf25910711a406f7ec9ed6db297ff3d88a17cc9234419b0b2d65603e23479f5",
+        "semantic_sha256": "cfbbedf2db55ddfde7818adf8edb19c1816553768b160bc829ba82b59a7f0d7a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeX_domain_c3f05eb6c5eaebfd.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42fb6f6cdc335523ea9c70930f15a5e16e6dd671616f8930c89108442fa83858",
+        "bytes_sha256": "ab136af11e1a68fb25d8d216e1fc705f2f808b1eb11ebe01a7a4a332255bf033",
+        "semantic_sha256": "3756ba30a113000dde2ff5af9ce600b95aad1fe09e54d65d6f37155e38be4155",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeX_domain-mrs_42e02702b9c5ffa7.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "779f4430c7a436eebed22410bd2ca5881dce24ace5d0943066b031ee70b1314c",
+        "bytes_sha256": "fe35590fff59c35213550e3e415d88d56491bd2d16ade60a6e4f35cf2772480b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

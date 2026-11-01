@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:46:57.962279+00:00",
+  "client": "Egern",
+  "rule": "Wildberries",
+  "rule_updated_at": "2026-07-26T08:39:05.938906+00:00",
+  "type_counts": {
+    "domain_set": 15,
+    "domain_suffix_set": 99
+  },
+  "total_line_count": 114,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wildberries_rules_8126332b79718515.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cece6bab5080078c085934023e91fbf0d86555056e879989749d1a4b6ccae4c7",
+        "bytes_sha256": "e0181ff4186b4c2050b771195f39696917bf8c39cbc65ef93af3f49f95877d57",
+        "semantic_sha256": "36f8a30185bf0be3a9fe784b5fdfe434b94a8d074a903b03de976d653fb9b003",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:42:25.033995+00:00",
+  "client": "Mihomo",
+  "rule": "RaiffeisenBank",
+  "rule_updated_at": "2026-07-26T10:42:07.471961+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RaiffeisenBank_classical_911583919468985c.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "274b4b36bd6b04154b9445529dabcfde818d644913c775ef1f0e294ecb158591",
+        "bytes_sha256": "221627febdbb3e6a4678c98563acf0675ad7cae3bdb6707da3fb1545e5968c78",
+        "semantic_sha256": "812c6728da819ffbf585ba9a66fca90062fe5e8c18fa6f573acdeaf40e117360",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RaiffeisenBank_domain_7140993927c9f607.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4e29887535ee13413b43d7c0dd17f2f1efc35129a7e47b6456c8bcfb5e6a8236",
+        "bytes_sha256": "bc3f2f6513a2ba6bb93c6f842c9ad1ef866056aa4dfcafce111f6901dc6500d2",
+        "semantic_sha256": "05a8bc29936d9176a16c06872e84654267db01f94c2d2d1d06cf1808b87aabfe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RaiffeisenBank_domain-mrs_490371d938d92eda.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1c60a1cb7ed65517b37c0cc69626e9fd271e141f61105a484f355459e665e898",
+        "bytes_sha256": "fc725b99ad2a6e54534455c12577fc90e68e8d64334aed1cf66d74d596b5b019",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

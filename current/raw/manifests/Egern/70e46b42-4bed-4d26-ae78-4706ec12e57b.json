@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:57.889858+00:00",
+  "client": "Egern",
+  "rule": "YoStar",
+  "rule_updated_at": "2026-07-26T08:36:57.644810+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YoStar_rules_f0c1178ed8ef3085.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6383ff688a199d05e3d1f3729e39a0e36753f301944015b7108222a963a035d6",
+        "bytes_sha256": "0f2431b78206c3d82d1c4873a12cab80910fcc52325ae37a1665aa4048e40c7f",
+        "semantic_sha256": "e9fd1df442a93b464869f4891e9eaab3d5c8e3d5922113a51367f413e78f080b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

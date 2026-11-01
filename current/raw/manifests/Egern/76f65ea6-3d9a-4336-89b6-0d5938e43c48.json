@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:56.025712+00:00",
+  "client": "Egern",
+  "rule": "Bangumi",
+  "rule_updated_at": "2026-07-26T10:18:28.092120+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bangumi_rules_b51e21e9ded8bfb1.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92cc89f50fe53b3639419c43cee2b1ae75d9e7c106d9da657572c596a3480d96",
+        "bytes_sha256": "b7082a2b69bddba718a16eee7979b302c47ed47177e84894e2aeaee9a35c7f43",
+        "semantic_sha256": "84d3b131a0cd56d6e8d8e10d1f657ada24d0f8abbce0d55cfa81cdf55457a6cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

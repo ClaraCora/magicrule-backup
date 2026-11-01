@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:25.025385+00:00",
+  "client": "Egern",
+  "rule": "MXRoute",
+  "rule_updated_at": "2026-07-26T10:38:00.005842+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MXRoute_rules_3590ba93abd27128.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fde500d9e7e87357d1bedcbddf6d9eeaeb0a495b528b6a57fe70354016040106",
+        "bytes_sha256": "7afd36f3507d2b3b340ae391a3f1d4057938cea912e4930278f8492c1df03c1b",
+        "semantic_sha256": "20aa158d01ed7a8c91f9958c8f527b270ab2a1d96d8b83e5ba719457fb85a43a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

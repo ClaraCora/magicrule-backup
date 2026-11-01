@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:17.028317+00:00",
+  "client": "Egern",
+  "rule": "Misskey",
+  "rule_updated_at": "2026-07-26T10:37:35.061085+00:00",
+  "type_counts": {
+    "domain_suffix_set": 34
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Misskey_rules_06934298d6cdc88c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "af7e9bc564026c8b02d5cfe5e8a152c626df781b49eb4b02d39e94d8def156c7",
+        "bytes_sha256": "646f00321909dd558eea8c0028cb69938fb233c75e15c12f3e52e3707e818e31",
+        "semantic_sha256": "ec49a2308958f434605a7b7e8ee85ef3c0784706e43ae3a355918ca93b659af6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

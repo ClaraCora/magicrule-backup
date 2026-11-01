@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:43.360964+00:00",
+  "client": "Loon",
+  "rule": "OpenWeather",
+  "rule_updated_at": "2026-07-26T10:39:40.102916+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenWeather_rules_7bed79d3a72e220f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dbc90df62099f55a6dcad1de09af583cce900a70586a69e839799ed94b9f4011",
+        "bytes_sha256": "4c961ae8844f375d5e58e506f52d93e6a55f484509c12bcf3a8ce92df5ac51ae",
+        "semantic_sha256": "8e6e96d17e4877fbc15cbc6d1833e66626adbe83b0af7eec42171cd52cee3be4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenWeather_domain-set_18d8604a46856fa8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b841c6a6d6280660d86aa6e99614dd10d294cb3c56b0997b7b0e6ba9d0c31b67",
+        "bytes_sha256": "4a46d04b806c7c5ff99361882ab3817b6ec69128c70f007e56c7bc2cdf75244c",
+        "semantic_sha256": "e891dcfb107428238bcb701c3339fce3b35a3804e1b5274b940ee1c7fceebf73",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

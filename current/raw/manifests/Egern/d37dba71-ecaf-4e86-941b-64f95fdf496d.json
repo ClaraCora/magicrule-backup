@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:49.801151+00:00",
+  "client": "Egern",
+  "rule": "Woolite",
+  "rule_updated_at": "2026-07-26T10:49:19.077483+00:00",
+  "type_counts": {
+    "domain_suffix_set": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Woolite_rules_a52d0c49046e6425.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b5f5d18971b6ed5192812494fcecbfc2dde767b49e53f6d33b27f6e9555bdaf",
+        "bytes_sha256": "91c62255555ce78d6857e08d688a418688173949027be45e702abb381738084f",
+        "semantic_sha256": "f618b51b3449098d81580f2353f17bcf9d29b9993b6cd3110d6737d11267223b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

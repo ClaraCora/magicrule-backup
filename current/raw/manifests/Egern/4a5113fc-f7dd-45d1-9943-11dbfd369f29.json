@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:12.536401+00:00",
+  "client": "Egern",
+  "rule": "Spaceship",
+  "rule_updated_at": "2026-07-26T10:43:34.047330+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Spaceship_rules_1f9b660543bc1379.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3847e104f51d5cac67a5724665b2809efd6dab82101dee96279f5c3d64442834",
+        "bytes_sha256": "a07ba5e70f16cdb661e93f13e3b127e07750263a4c50bb71794a6f7dc4ecdfad",
+        "semantic_sha256": "ce4f83a61918b06072d314fdf931fe25f03cab0aa695680b26b0d6b6ae6a0ecc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

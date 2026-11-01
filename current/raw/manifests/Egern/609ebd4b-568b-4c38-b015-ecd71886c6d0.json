@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:50:07.423864+00:00",
+  "client": "Egern",
+  "rule": "Marvel",
+  "rule_updated_at": "2026-07-26T10:37:13.760752+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Marvel_rules_64daa8791e0a7223.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ffea0e79a216f893510663fb1cf058b925e7ec16e4d98d1de1596b4daa518c9f",
+        "bytes_sha256": "21e7bc60462affbd82a91a91e7e269ad46bc8d3d8e3489445a47747920dc5858",
+        "semantic_sha256": "d33e3b055925205356f81520d6f498e7f42d4292e7024437677346030917d6b7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

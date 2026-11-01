@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:44:41.432760+00:00",
+  "client": "Egern",
+  "rule": "Lowiro",
+  "rule_updated_at": "2026-07-26T08:37:27.644262+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Lowiro_rules_98000f87a0d24195.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "65e0b578884e5166865b5d10498934f9da09f86acc4eae4c01e85457c7bd9511",
+        "bytes_sha256": "644276cdb2709f2d9a55689df84e1fa65db61d947e41bab00f8f1e949ed45525",
+        "semantic_sha256": "84a213e133b4d34e681707b20d488ba98d42937a69a6d9ac9dcf9e5570b8d6a6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

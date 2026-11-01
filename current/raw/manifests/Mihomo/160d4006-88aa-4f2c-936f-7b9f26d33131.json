@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:13.061773+00:00",
+  "client": "Mihomo",
+  "rule": "TeamSpeak",
+  "rule_updated_at": "2026-07-26T08:35:50.580568+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeamSpeak_classical_e31d21d84fb60df9.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "38e339c4544784e64a2d07d6a52dd34a639b1f659cbc370a5caa2750bc3848f3",
+        "bytes_sha256": "6c0c0a64c18c44301d5bce3d286de629bc3da457628f8e3f8c9235391a9be14d",
+        "semantic_sha256": "d216903f7297e2c6d07fbaa0fd1c2af19ee4274cc9eb6c0a3b1c9ad6ef014b21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeamSpeak_domain_c7fd47fc40a501c1.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e54e32358a555a5f6a62874636df32c111b4b5793c2af3e634da3aec2b000425",
+        "bytes_sha256": "829a18382c087184fa2e5d5de4da56f4656bca235825e30abdb5feaf863f3aa5",
+        "semantic_sha256": "d2d4baaec99db0135741f4a6741cff653d93668bdc86069750d15ff679bcf614",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeamSpeak_domain-mrs_d68711b62d96bded.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "39294bafa04e4ccbd65ec2d34bce29b8f697898f4bc70cb951994e1c0b9c6085",
+        "bytes_sha256": "3bf82ed2b9298e5112d91369574f6a857a28bd8e037b6d75729787b3c9f3b934",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:35.893655+00:00",
+  "client": "Egern",
+  "rule": "IXsystems",
+  "rule_updated_at": "2026-07-26T08:37:41.672412+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IXsystems_rules_8d0795692a0f0ef7.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a06c778e0e19f6e74d3e6077d888c831838ec752a24f4b8aff8565c51aea1c6",
+        "bytes_sha256": "edabec309a82522b99a3b4223ec97801f5c4c4dfb7b897864599ae0513d9aedf",
+        "semantic_sha256": "7c46003db11ea0fec966b9e3680086c4f2873b879672ad5b707f037a2de8be89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:47:49.298570+00:00",
+  "client": "Egern",
+  "rule": "X5",
+  "rule_updated_at": "2026-07-26T08:39:00.167766+00:00",
+  "type_counts": {
+    "domain_set": 3,
+    "domain_suffix_set": 32
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/X5_rules_2c843eb7dd72bbf4.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0894222266b119b0551276a41872ced185bfabb80784846cbace3319872bde56",
+        "bytes_sha256": "5942f5e019fc0eac7b1d6b0b88a926a3444efb4d52c0ac755909fe224e0ae5b4",
+        "semantic_sha256": "3fb740ba3f0fb6c602b4f171510c3f966b2885188efe9aabd490d6dd0bc46fa8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

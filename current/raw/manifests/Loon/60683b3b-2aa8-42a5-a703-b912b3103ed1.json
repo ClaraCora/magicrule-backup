@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:44:04.708222+00:00",
+  "client": "Loon",
+  "rule": "NewsCorp",
+  "rule_updated_at": "2026-07-26T10:38:35.721395+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 152
+  },
+  "total_line_count": 152,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NewsCorp_rules_0ed2a48f7b930812.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9b71926d796a672118045513d01f2420799dddfe18e59ddb2d8e6048f21fb34",
+        "bytes_sha256": "47679f522b953244a5f0926767630d6b789f6283db047e41e8b14e2302f03461",
+        "semantic_sha256": "f7fc1ccdc253bb4d2536f5be04bea1f465580aada03520d6aa9d7ab6f734535f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NewsCorp_domain-set_3732284a3570180c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dc9c362b1493c3c4d5bcf39f11334c5e17d6d0e1fd9bbe02a0a1a1ed1d4d309d",
+        "bytes_sha256": "5af158043332eddb08487285a2437605d7e43a15a49a4ae4ebc886a23c7ba57d",
+        "semantic_sha256": "07103622a4d6b7756c58b97220990ba49e2a40316441ed809d456991a1abdbe3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

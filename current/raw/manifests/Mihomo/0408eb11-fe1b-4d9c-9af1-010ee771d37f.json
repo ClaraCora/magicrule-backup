@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:40:15.962783+00:00",
+  "client": "Mihomo",
+  "rule": "ImperialCollege",
+  "rule_updated_at": "2026-07-26T10:34:35.817279+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImperialCollege_classical_3117e49031e0694f.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59e75eb524f2ed14412f4fd3eda607d2878410eb9ee22d4e225a4bdd29a75edf",
+        "bytes_sha256": "988162f560e85d80e9b401892f1e2a780baf04e2c0f047deff0d60c2496409b3",
+        "semantic_sha256": "bed9815c9cc2168ac9f1b8c90da093d9c3be88fb3db0e6895c8070d722617b6c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImperialCollege_domain_83610dbdd5d55811.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39519b5a1a80115ecbbcdd04288002fe56278a55097fd66dfe0874b236c20c67",
+        "bytes_sha256": "d6f0c2b91aa43c138a74abd989a728eeef55c48dc8393dbb61122c97dfe6f4ec",
+        "semantic_sha256": "32d6f66140f3930d70b311425a090a115dd5817f4b568dece34b495b3072b92a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImperialCollege_domain-mrs_a81bef24c40e6f9a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3244e2d79f25652c91b530e93923e575b3933da5f6fdbd4e4126d1abc95abc7e",
+        "bytes_sha256": "29c3e1c4445f130dd501e9e5677b12d75200cbf89fe5b09e86d93c3ce667c8da",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:45.572965+00:00",
+  "client": "Loon",
+  "rule": "Yomiuri",
+  "rule_updated_at": "2026-07-26T10:50:18.632622+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Yomiuri_rules_f0db21e6fac397f2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "222771cbfec402dea8657856d8ad4a3bbf39ee209767995dad42463ea9f50da3",
+        "bytes_sha256": "f1840441a84552a15ee9ef58ad2e8e4849253832e4e664c19380833c374b0683",
+        "semantic_sha256": "1895a161fe6382ca8321091a6529a3194ddc975901154680084951f5d930d7e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Yomiuri_domain-set_83e3fb84231eaf88.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ef47696600d70e9b621df95619f5fd99670dd4a0788833430b7b34bf908fe45a",
+        "bytes_sha256": "62fd8ae92cf1a0f8fed300604a25362f846df3373b6ea7bfe4c61094a320008f",
+        "semantic_sha256": "17851954b394190a518922619a901117cd4e48b63401bc7b4a6f9ca0b2c02cb5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

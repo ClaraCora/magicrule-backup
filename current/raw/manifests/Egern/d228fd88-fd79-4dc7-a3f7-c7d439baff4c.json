@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:51:43.843725+00:00",
+  "client": "Egern",
+  "rule": "Coinone",
+  "rule_updated_at": "2026-07-26T10:24:12.154736+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Coinone_rules_d548e5084c0663ce.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6e32eac8862f50842be95d6c041c7e87fa6485751116d2ef051aed4443e8ae94",
+        "bytes_sha256": "1efec1b5413484641cbeac47a8b92b5efbee776c0142af2e4565d19d5d753882",
+        "semantic_sha256": "532ef31b54eb3e2c84577fcbf386389058adf647e8ffaa7385718cc5d1159f52",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

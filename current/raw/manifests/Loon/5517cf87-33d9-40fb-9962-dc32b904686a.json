@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:36.552872+00:00",
+  "client": "Loon",
+  "rule": "RubyChina",
+  "rule_updated_at": "2026-07-26T08:36:08.566263+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RubyChina_rules_e9cc7423461b5d46.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9aa4684d3dfde4278dd6fc42d18fbc5b07f0aed19da44f9f864d3957324734bf",
+        "bytes_sha256": "0c28dd5615ab122a68f7edefbee6d825ac9075a5ab92278c76c532b21cdb639b",
+        "semantic_sha256": "e6d862ea550ab95e29a9425e7c2c9eada9d9ebb71e0bf72e1f2257b633ca33da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RubyChina_domain-set_d0c0363386a0d57e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bcb76a589878c7874936c3aa594b35b731810bd1822df3113ad9fa598d2f5ec5",
+        "bytes_sha256": "81e6d8ed92dcb0a8939ed0625dbfd6ed54fc576e29672fdaccd90a16373dc7ea",
+        "semantic_sha256": "80cc17238fc3ff6d08e5b41d467d8ba404b4d03964c255e5ac38532e862c9655",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

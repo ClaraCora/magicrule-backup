@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:50:10.061507+00:00",
+  "client": "Loon",
+  "rule": "Trello",
+  "rule_updated_at": "2026-07-26T07:37:35.540633+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Trello_rules_e5e51d13703d7978.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45b50c5851c8d37ef50dd138b3c23c34580ea868cb3d5db84f5545455e0f746f",
+        "bytes_sha256": "710a22a6efd12f2bef56ca8b8d8a70676b61e8b5d2fdf5506d3da3db3f3ac519",
+        "semantic_sha256": "b5b5f538a1e81f70716c0a7f4d6bde4e229065210bd43626a5db970c7f5d80ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Trello_domain-set_83c92a520fde40aa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "432041b8de4fde446a5afab82c3db55d8763b852e48983d5c51b41c8b94a0a52",
+        "bytes_sha256": "32a61938e2f119f231567ae3ddf8a12a4b1e381e1964f38449f4f6afe6a15785",
+        "semantic_sha256": "363b5d677288ea9bddf6d9f99c8b3591942924ffa0b98626ef8f47f0f57eb780",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

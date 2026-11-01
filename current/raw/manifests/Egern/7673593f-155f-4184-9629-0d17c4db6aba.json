@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:50.195426+00:00",
+  "client": "Egern",
+  "rule": "LibGen",
+  "rule_updated_at": "2026-07-26T10:36:32.992089+00:00",
+  "type_counts": {
+    "domain_suffix_set": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LibGen_rules_00d63c7c5a34cf13.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7ca5fcf818f955c483654a606f6e97855b244bae2bd6d4670e83e3d54530334c",
+        "bytes_sha256": "b8db7179f076b33d209b1404efde8956fdbb569cc9f3f725030b75131f6efd5f",
+        "semantic_sha256": "e38a3cca413dd171a05af31396acc81ff34c47ef93a3f49265fb72d3b2165ff6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

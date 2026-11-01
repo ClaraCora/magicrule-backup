@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:06.417566+00:00",
+  "client": "Egern",
+  "rule": "OpenCollective",
+  "rule_updated_at": "2026-07-26T10:39:39.440708+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenCollective_rules_1e5803438509e86a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "878760db9405dcbc093d9724b1a47fe4bf5f886907ffcd9822710e3df11796fc",
+        "bytes_sha256": "dccad6437c88043f9d8e78e3da864b72cac56e5793914d42cdb7101f38e90c14",
+        "semantic_sha256": "43a86eeddc7f5e84b6db204fa7ab3cc80e3cdc5ac1edd3845b86863a09d22090",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

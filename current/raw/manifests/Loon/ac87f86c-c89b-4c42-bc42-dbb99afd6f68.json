@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:30.631674+00:00",
+  "client": "Loon",
+  "rule": "Qwant",
+  "rule_updated_at": "2026-07-26T10:41:57.296308+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Qwant_rules_17247884492d57f9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d747a1954e1b33a9b773b3b74c39bba12ef7b94b70a898933f51a873f4922d5c",
+        "bytes_sha256": "0774c480bb113b4066beba9fe2896227baeab6598258634b58434ab7eebf515e",
+        "semantic_sha256": "9371d761862a465d316248c7ef0a76b6b1f3e07f707096f09ac45c3659da9dc8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Qwant_domain-set_cb0d696a133347be.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61ff99fdc99ab3a6ebf2b805a99553b31805c8e81f62736a2cf6d554774e8212",
+        "bytes_sha256": "ec6b274d18b1d0f18de1655b0fba8a9d87599b51976d7ec68f17a5b364b6cfae",
+        "semantic_sha256": "54e7d1c6675c057ed257ad56fc68c169fc63bcb85151b1af4051b7073bd00d36",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

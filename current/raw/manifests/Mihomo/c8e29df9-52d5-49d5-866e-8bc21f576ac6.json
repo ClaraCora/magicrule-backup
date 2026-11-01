@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:51:11.069779+00:00",
+  "client": "Mihomo",
+  "rule": "Envato",
+  "rule_updated_at": "2026-07-26T10:27:41.104786+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Envato_classical_152babf5701423d8.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c73b5a5c884c9c89b4eee7c119ca7abd24d2babfa1d22f9034d5fa4acbf83d7",
+        "bytes_sha256": "67b6d58fa5005a104fe2870b8480a255f39b5f696b43865b97c4f17482f608d6",
+        "semantic_sha256": "e522e0a9ae63a758ef54caac221472db782396c0df66e61774bc8f6317f7f967",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Envato_domain_667f927c608a69d3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4780cd992ea0adcaa8377f3201181a39bcf6b6175dd32fb220251290b8bb9f48",
+        "bytes_sha256": "ffc8dbcc750a1ef645a12722a13691e30d0c4a2157c40b660512656d2bc0d5f6",
+        "semantic_sha256": "6ba2c51a82170b2e31d7b0695e7c18971dc48813db78bec04930482b25f583e9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Envato_domain-mrs_c332453f1563008f.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b2ac8110601e023d0b4099a962695e117d407cf8edc59280ff2ddf9d744787ae",
+        "bytes_sha256": "f8bad4881a27c447b94a7887d39f5abac97ab3afb9b4aeab7ff0ed6ad8a17ede",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:47:02.295514+00:00",
+  "client": "Loon",
+  "rule": "TrustAsia",
+  "rule_updated_at": "2026-07-26T08:35:35.493317+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 11,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TrustAsia_rules_6adaf4d8d341a59f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a778abe551ba47aa44c7f949b1b3ce20a8ea6e5408f1778a9589917ef13afefd",
+        "bytes_sha256": "48f50ac89bd8c0790d008259925151493f46ca46a5804724f751d71efc160dc4",
+        "semantic_sha256": "da83fa70181114c00ab2114ed04998c783ba57820161ea532c7f402171ce4ca4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TrustAsia_domain-set_f2b040d21da9651a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8990e9b7a6ba9c1e644b703c40e5fb2c08552501f1c1855c2aac57adb6bdab8d",
+        "bytes_sha256": "d639e4934345b0e408eb92379253a6efea4362ed51a27842c1c405c3b93f53b1",
+        "semantic_sha256": "b93bbefe00760cc78987a19f6a8e504613b90b4a958bb02d28bf130b59a274b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

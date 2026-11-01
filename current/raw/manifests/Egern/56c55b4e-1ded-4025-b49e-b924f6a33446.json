@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:43.243580+00:00",
+  "client": "Egern",
+  "rule": "QWeather",
+  "rule_updated_at": "2026-07-26T10:41:53.713367+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/QWeather_rules_7d73088339f66a22.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0fdf86a51e892998c99b6a35405bf44c60a1334164b58b4a452acd27a2fc351c",
+        "bytes_sha256": "5ec9afe9131dea2c3fcc173c091a2ca877e8d4257d2c3a575d0013aa00d2c430",
+        "semantic_sha256": "3a50b1998c33f1f3a3ea2a79941a8504796842bcd09e332468cabc7538d1777d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

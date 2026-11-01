@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:52.527655+00:00",
+  "client": "Loon",
+  "rule": "Eneba",
+  "rule_updated_at": "2026-07-26T08:36:30.438580+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Eneba_rules_317e66e9255136f7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e813a0e11fe484b4242f4e011713bcebcbc1ba7746c6a4a53fea507c878e2121",
+        "bytes_sha256": "36918783e42a6471c1113e0db241f17991333bfadd59cb7a16bc4e1734733a93",
+        "semantic_sha256": "881c6062c93972956ef29dc1d2bafb0ba0c6a5892b40ecf27d10a558b12f8573",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Eneba_domain-set_46e163e36d6b2088.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "285cda1aebbb71ea2393cc6cf1568e21ebe9e0ed0eaac4595889d71f5f0f202a",
+        "bytes_sha256": "b3058b6d8e0a4b46e2e7a58cf2bd9b623958486ec0a07bbedfc02b0b301931ef",
+        "semantic_sha256": "92d105bedef649300a815de2dbb5f5228f3031d97f60c910c98bb55ce0366903",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:00.767081+00:00",
+  "client": "Egern",
+  "rule": "EscapeFromTarkov",
+  "rule_updated_at": "2026-07-26T08:36:29.848083+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EscapeFromTarkov_rules_281ac23872577c90.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cf894893b23a1597b5939fbef210e603d4989a6591a91acedd83e35aee1e1198",
+        "bytes_sha256": "9d7119f47eea37870c2027524b388cc3ed22f8f17dec7b08d5fcd99985d325ed",
+        "semantic_sha256": "5c13149cae6aaa42788fb5f1e5068a083604f1a044e47a3767e739d6beae87c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

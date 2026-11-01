@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:26.407040+00:00",
+  "client": "Egern",
+  "rule": "OKX",
+  "rule_updated_at": "2026-07-26T10:39:28.732726+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OKX_rules_3038bc5aa0f7e18b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b62d8ffdc34c77ce5c26799c96fef876d108bbf9ecd1b1668619500762d1dcb7",
+        "bytes_sha256": "ffbbf87a8fc9e4407418ac807a3c607d2f823c0cbbea2362369293e5fecebedb",
+        "semantic_sha256": "773ec17d9ddea8a369fc79d091d13965bc13563497328a57e4e4d57284fc5409",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

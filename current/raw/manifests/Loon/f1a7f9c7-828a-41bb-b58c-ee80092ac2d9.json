@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:54:21.369503+00:00",
+  "client": "Loon",
+  "rule": "BetterExplained",
+  "rule_updated_at": "2026-07-26T08:35:52.484712+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BetterExplained_rules_6336113a92b1d5af.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d71f0b5ba604cb37284a7687c1aeab161becedae190f4464ffc09becf5e3bd8e",
+        "bytes_sha256": "e818d060fd3a973eae463a280bb89a597e90990ca3dcdf13eb2077e63fbf9127",
+        "semantic_sha256": "ccb6fc3cdb2c0c86b1ef57c0c2fcd014edfbd3f332038fbece5d677dce36086c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BetterExplained_domain-set_838f5c29072af61e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6653292485ea69790e18deec2ff2086909af7296a897742962d467999f953b4d",
+        "bytes_sha256": "4f6d25215bfab32b5151bd650234bc8cf376e3b32132ba993b477644c8b66448",
+        "semantic_sha256": "1f35420cd3b4ef5f5389dfde93d90eef6df07ce206bf6410a499e98d2f5a01b3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

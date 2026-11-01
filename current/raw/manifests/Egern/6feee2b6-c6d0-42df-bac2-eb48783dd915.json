@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:45:52.792303+00:00",
+  "client": "Egern",
+  "rule": "Linguee",
+  "rule_updated_at": "2026-07-26T10:36:44.336328+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Linguee_rules_d57647431a8eaa53.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6871d8c60d1fac6f92ca05f6675a0b0ce5b722fb64176ae9a3972a707d549d63",
+        "bytes_sha256": "3dd035f812d7ccd3fea8494f270c56f30f2c671b4a81cb0c176174339c582cd9",
+        "semantic_sha256": "cd6e0ab8dae237ebbb82a6568f939a3f1c59610d699160784cd3bd3baac979ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

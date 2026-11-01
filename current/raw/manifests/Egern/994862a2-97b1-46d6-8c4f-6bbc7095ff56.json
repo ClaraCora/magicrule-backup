@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:43.966205+00:00",
+  "client": "Egern",
+  "rule": "Poe",
+  "rule_updated_at": "2026-07-26T07:36:40.973498+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Poe_rules_2523afa1f31496d5.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "19c1f2a5e62dc1e5c494946ffffabd467310750106bae7c72b2c3c52f8cbb54f",
+        "bytes_sha256": "d5a234120d13b5ba594c2f5637f48a21ded5607bf7c8e3fe3f764c4e1fcbcc69",
+        "semantic_sha256": "8dca28d969945de07abc88cb7f18fbd1e2f02f88e1dbd2f7829587e7b391d268",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:46.488903+00:00",
+  "client": "Egern",
+  "rule": "SingTaoNews",
+  "rule_updated_at": "2026-07-26T10:43:09.781420+00:00",
+  "type_counts": {
+    "domain_suffix_set": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SingTaoNews_rules_6cb81353c9216531.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c6a52c6f417a4d61531f973c42eef25b2e4951ecab5c8a34ffa41366f5975fb6",
+        "bytes_sha256": "ea30f4c88a2e7509847431fbcd75c0fd9f5c91c5079cbcd6ec9098ad92e8015d",
+        "semantic_sha256": "4f73aabccbf1f7035fb3c298027e119518e88ac79b64a15712f244682e1de742",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

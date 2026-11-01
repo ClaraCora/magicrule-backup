@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:54:26.332562+00:00",
+  "client": "Egern",
+  "rule": "Anexia",
+  "rule_updated_at": "2026-07-26T09:56:56.664643+00:00",
+  "type_counts": {
+    "domain_suffix_set": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Anexia_rules_d5614e195489c912.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a0473676643fd320fce44831940e7c662f530da968b8ed1a56a167f031e59c3",
+        "bytes_sha256": "cbf988f71518069ab311b446b06ee4c99fa634cc0705fe3b0e20f2f55401e686",
+        "semantic_sha256": "297d23847481f2e413bf16fdb7a083a0879e1241b149c2eddfef5e74383b2bfb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

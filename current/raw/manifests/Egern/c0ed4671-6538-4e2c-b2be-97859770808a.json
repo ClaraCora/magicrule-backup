@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:36.444934+00:00",
+  "client": "Egern",
+  "rule": "StaticFile",
+  "rule_updated_at": "2026-07-26T08:35:59.477134+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StaticFile_rules_f1dffa11d5101900.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b2491cda7aa0e225c5493e267f67e157d33fcad13c79a4cd81e766d322795d21",
+        "bytes_sha256": "98212d8218dbca1308666c46ae78fff567b1398711e4cda5f1a968fd06a82d82",
+        "semantic_sha256": "51e823b83a61ba0767263e905f3db37e07900560bc9e5225422e161e8f94e7c6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

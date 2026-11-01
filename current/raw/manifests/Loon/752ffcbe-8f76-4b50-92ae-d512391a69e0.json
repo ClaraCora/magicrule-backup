@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:41.795335+00:00",
+  "client": "Loon",
+  "rule": "StarWorld",
+  "rule_updated_at": "2026-07-26T08:37:03.409284+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 25
+  },
+  "total_line_count": 25,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarWorld_rules_e2441945a8ca7dac.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2246a9b0b88978b0bd7a89249ae274e2ab8f503499b4001484610fa7e39b81e",
+        "bytes_sha256": "1866afd3b5dd22a64ae13a986f5883e360d394d3760e2c5467acba490d09e48f",
+        "semantic_sha256": "7cab13c8ca3d94850a5d2a0ba29d231873ad5e3a2386d01a137036ae75744570",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarWorld_domain-set_7071d8ab400131f8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e4c948d427a9bc510a88aed57742b5e225c8a89a8713ad41545cbd04ca43cf2f",
+        "bytes_sha256": "d271ae33da1a6a88a3597dc04ec2d466401ba69d1afc56e509ef777b642713d6",
+        "semantic_sha256": "54aa08025a4b6195496d11ac8c2c4316eb759795d81c75ae34fad1121a7877fe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

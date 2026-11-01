@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:27.128399+00:00",
+  "client": "Egern",
+  "rule": "UbuntuKylin",
+  "rule_updated_at": "2026-07-26T08:35:50.210128+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UbuntuKylin_rules_589387af1524a01d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d42d3f9daf095afa28c7970826a5918163777f0af440f8b4ebf487bc0c4cd098",
+        "bytes_sha256": "6b7441ed6430aeee1687211a5ecea25d69cbd49383506689e9353a26b7a792b9",
+        "semantic_sha256": "53b16a286910de1be47f216bad1e3b7b088b7c719576ef253c8cab8d3e89ae4e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

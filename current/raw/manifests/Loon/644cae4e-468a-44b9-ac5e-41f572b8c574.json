@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:44:41.700416+00:00",
+  "client": "Loon",
+  "rule": "Lowiro",
+  "rule_updated_at": "2026-07-26T08:37:27.533718+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Lowiro_rules_92f0389f2cc43385.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5288200d6e9fbc079691d15b5cc8b6860fbe25f9176d2ba5049d9000d237b6f",
+        "bytes_sha256": "130b3967e13e9406a97005f5aac078817fb64c5219644e8eb333c605ce6ba685",
+        "semantic_sha256": "522d17c1809cbd8e5f22124bf9f1d88ecbbfc2acaecb91b2c6564cf682d5c7e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Lowiro_domain-set_eb44b0478d5223ba.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce9169a7e3cba35fd59b784ecd926dec19368ee052f2ad6e128ea43689fe024a",
+        "bytes_sha256": "90c6b1e0c386aef0187290e7cf2c36a9b6fe003ea9d74db6895f2c8c696ea59f",
+        "semantic_sha256": "98ea9859ee55321e656fd57c7f8e99b9a4db3a3ffc58aaedc1d5c108c33c1ef0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

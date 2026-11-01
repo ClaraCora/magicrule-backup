@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:20.652762+00:00",
+  "client": "Loon",
+  "rule": "Fonts",
+  "rule_updated_at": "2026-07-26T10:28:28.202743+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fonts_rules_647f268063a188e5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a03729705980a99014d278251586bc214ef023485882a1d478721bc3476d113",
+        "bytes_sha256": "4471eb23263d9761e231967898bfdeb469a7002c50849c6ea17be0cf8fe2f13f",
+        "semantic_sha256": "a5f65ed07cd93dfbf56a2b89b994af8842abfee684304a0ef00d0337f301562b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fonts_domain-set_b7015f41557e1349.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7fa6ba4b90d8906a55c61d66bc7b1ccb4a79541f1595a77217e86957f5590f52",
+        "bytes_sha256": "214bd8ee746e457e6055010b4720360b796481cfd354831e8918dd3214e47160",
+        "semantic_sha256": "3b420b440407913b7620cbecc81b3890b2c72fa133d9ffd1d8e99de89dcc8936",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

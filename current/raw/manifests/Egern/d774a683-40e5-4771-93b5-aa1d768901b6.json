@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:52:14.258841+00:00",
+  "client": "Egern",
+  "rule": "Likee",
+  "rule_updated_at": "2026-07-26T10:36:44.002310+00:00",
+  "type_counts": {
+    "domain_set": 23,
+    "domain_suffix_set": 12
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Likee_rules_65b999baa38ba272.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ae131fcf529a9a417e5bfcb7e811cc3761e8e4696c1c8232e7f8debd5a4930d2",
+        "bytes_sha256": "9872eac33e7bdc04a393c814ebb55c8b892befa674b19062cc591b5f5be5d1af",
+        "semantic_sha256": "f100248c40085901bfe164fa9633fe91653323111fcafc9752992da0bf2857ca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

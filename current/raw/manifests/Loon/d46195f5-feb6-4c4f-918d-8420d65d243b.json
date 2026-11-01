@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:51:55.505657+00:00",
+  "client": "Loon",
+  "rule": "FontsInUse",
+  "rule_updated_at": "2026-07-26T10:27:59.697342+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontsInUse_rules_2005cb16986d56e5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7272aaa207443b42cf52091615448e19a9734d6fbd36f340a776a6cae4f035aa",
+        "bytes_sha256": "f93e6365ed24d6d18f91d2abb29c04164d043d1a97c81b790305ec671b12f93c",
+        "semantic_sha256": "f2d8d2190836bc98780544c9fe1cf4016c772a274d938a3ddb6c013fa93df4ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontsInUse_domain-set_414250f4df0d43a0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "281077bca53e9eb446d435f0331a45674ed81bef6ee813118db2796e356f100a",
+        "bytes_sha256": "560585d4ecb423e57fb103ef79d52ed5e9ac3dba1a488c8e16efc1d62dd6bfef",
+        "semantic_sha256": "6c95e03699300db0bdc8015f3be40fac5fcd685451a08b02b8ba0ac3068a2aa1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

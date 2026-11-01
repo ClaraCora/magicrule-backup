@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:48:39.130254+00:00",
+  "client": "Loon",
+  "rule": "Asobo",
+  "rule_updated_at": "2026-07-26T08:36:13.579891+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Asobo_rules_9fada12d2d7acde1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7a06bed294b9bd3690ad4adf12dbc50540bceb41e31b14392439c4859ea3977c",
+        "bytes_sha256": "c73d8c851cd0ebde424a9679d2cfaad5498ea056a2c17933c3fefe58044e2a9e",
+        "semantic_sha256": "1abde1f60ed75d655b0b5cb02609974300ada1ad8d5b2cfd4f784848d88f3ac5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Asobo_domain-set_ea15ac09c98d7439.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "05b2163bb737786f9c910ae08a464e07469d0e74fef4d70a9184b027f87716ee",
+        "bytes_sha256": "83270388c3e443babe48c6a0663f41b53aead29487bb9ec381e1eefcb16b04f5",
+        "semantic_sha256": "28ef057a61f20badc5305520d149fc8c9843052fc13b11d4d5c710a4460d3c89",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

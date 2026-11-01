@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:50:22.942220+00:00",
+  "client": "Egern",
+  "rule": "800Best",
+  "rule_updated_at": "2026-07-26T08:37:51.749060+00:00",
+  "type_counts": {
+    "domain_suffix_set": 29
+  },
+  "total_line_count": 29,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/800Best_rules_a1f56122bd74a536.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77d50a8a5f4c533b887584de8a05232e84ab391b43182a81e504b61c5360752c",
+        "bytes_sha256": "e3e9ad4d3c4997446592d3927f5ea371dcd389de94c8ddbe7b77fdf469e7f2f9",
+        "semantic_sha256": "7183995356e07c1ca23e98b54df5256bf8832158cb7839aa7f26331fa212e58f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

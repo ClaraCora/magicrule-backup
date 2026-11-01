@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:44:56.440715+00:00",
+  "client": "Mihomo",
+  "rule": "FontShop",
+  "rule_updated_at": "2026-07-26T10:28:05.676464+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontShop_classical_0c98efd8680631ec.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "588b475411456663c14193a2302407f91f09a9081402657beee6749db05b0615",
+        "bytes_sha256": "3257b4198b487ed1717fdfe80a7bcfdade26607053abb4b62fd92c1b47b470d5",
+        "semantic_sha256": "306dfc8ed131510dda4c6b19de631bb1af53773ab5fd237f5d53fb66641b9d21",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontShop_domain_3886416df8f14e50.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e1f511770a85541bb8af013f0798720ab8a62ca1eb06abffac7dbb882e445526",
+        "bytes_sha256": "19d73c75ec26c6e67b8704fbdca8fa01c3e14d46e4c6738c90fdb43b5163f6a6",
+        "semantic_sha256": "ce1cb209a03482b7084fdc2580c3d633a4edf66c9ed147b24e185672e009e795",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontShop_domain-mrs_8e8245f297f92a29.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "9d2d5cd5506e0d8f3af52e06c403352aa883da2ad4ba666c0f31216c0194c0c2",
+        "bytes_sha256": "cafadc7e4fe6491f96ffd7be31970257bac409010109b6a3af48b9b54510a05b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

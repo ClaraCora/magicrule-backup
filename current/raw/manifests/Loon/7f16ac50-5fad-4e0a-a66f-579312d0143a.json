@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:47:43.778660+00:00",
+  "client": "Loon",
+  "rule": "WanFang",
+  "rule_updated_at": "2026-07-26T10:48:21.504775+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WanFang_rules_c83676b88dc7ca08.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42c8b1e846f0a32548d3e3f2a2da03e3116799677985de6f475a52942dca469c",
+        "bytes_sha256": "5226171970bbb186b8e49d43b92eea79b8d7468b1b3d40d516d79494b2496695",
+        "semantic_sha256": "3dc0edffd8b819734a9e01642d2cc9d76e4ba731f7fcd4f47445889942001e70",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WanFang_domain-set_40bf7fe1fd1e2a6b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47856fa08f409621616201d9f84a3f4fc24211686309e7814d2bc2af4d9acf53",
+        "bytes_sha256": "09495ad80197d6d99e8ffcc789bbdd8e2b17aeed4d8c898cf3030d2c9e9c307c",
+        "semantic_sha256": "5911daef13df25d08b5075c1b6c212a9dfa44d85a9c8b860e5e1b31d46954c8e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

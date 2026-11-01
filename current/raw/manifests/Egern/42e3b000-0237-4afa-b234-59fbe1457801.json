@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:00.772116+00:00",
+  "client": "Egern",
+  "rule": "AnandTech",
+  "rule_updated_at": "2026-07-26T09:56:54.758268+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AnandTech_rules_ae8498b95f863087.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d6f723ea781999cf8b51aeed7cc2c116bd1f74e77c2e8601cf2ce6637e5e0e6",
+        "bytes_sha256": "e1009bc2c4879ed97c080a0b9c2e9b2cdcc36b08c95d3d7c5855652690dbc60b",
+        "semantic_sha256": "30e5cf7ca95e40a0b4f9f5115db04ca7587520a2447787329a3650c38c02cb17",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

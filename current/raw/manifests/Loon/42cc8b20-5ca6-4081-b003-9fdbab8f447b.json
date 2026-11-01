@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:59.838230+00:00",
+  "client": "Loon",
+  "rule": "Lysol",
+  "rule_updated_at": "2026-07-26T10:37:01.226193+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Lysol_rules_3f73dbbf899b04da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d66e618b92c4db05642f1dba790bcb22887ea8e7bf05093b87eba5ed1e16a64d",
+        "bytes_sha256": "f880b8237a81d400a571d7c349005dc9566699188674b5a9f38bd26299592b83",
+        "semantic_sha256": "1288b26325bafa6a169a9aed80653840423ee283b22705c6f7bd7306571fe6b2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Lysol_domain-set_b2f48f2ba8ae1312.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5989bf39dd881f3723be9fe30116b0eb502240827205b4e95e50b8f4a577417",
+        "bytes_sha256": "5c143e08e635ab890eba041aaabfd34a3ec60a8d126135e4aefa3aa5eaf5752b",
+        "semantic_sha256": "cb9d1e25d4d131d55dcc2040394defed1ea9b3cde7f383377f6629e72f4ff758",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

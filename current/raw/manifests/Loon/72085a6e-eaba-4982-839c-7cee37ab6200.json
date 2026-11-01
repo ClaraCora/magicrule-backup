@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:46:15.338530+00:00",
+  "client": "Loon",
+  "rule": "XDA",
+  "rule_updated_at": "2026-07-26T08:36:08.886274+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XDA_rules_c1b9202ffaa19ab3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1fa25dc66272e837158013f3f6d9ae3c403e7375fbc18190d8c142fecfc7315d",
+        "bytes_sha256": "e232b8f43f9132bec45492dbc12db91b87dda2cde31741526b698c1c89316ca2",
+        "semantic_sha256": "708d2037d4357d149ce99e1c07a2777284986d60a9a59dcb626cdba31b24c9cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XDA_domain-set_558445ccde3812ac.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "018add7b146db93561a2984e7c8f5cef7551ac11030cf1bb5507df983c97a050",
+        "bytes_sha256": "817e039ee92fb3afed015027ddaa603331f9e4726d15c311241c3673a8a9765a",
+        "semantic_sha256": "99482faae5342422c508a71fb835d043802acb7ab223dce8ffef7c6d42dccf4c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

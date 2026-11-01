@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:40:07.438390+00:00",
+  "client": "Egern",
+  "rule": "CTYun",
+  "rule_updated_at": "2026-07-26T10:24:47.568276+00:00",
+  "type_counts": {
+    "domain_suffix_set": 67
+  },
+  "total_line_count": 67,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CTYun_rules_22dcec43af87cf26.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "06056fd59c62a82c4122e7e2cc9643e873341ba10a12890760562589226d8a28",
+        "bytes_sha256": "7dca5bd9bae6ff24eed074689cbeb272fa00cb7458130ec0f3e6678ac0f00219",
+        "semantic_sha256": "972e54906e26a8f911f8266b2dcf27c9fdcff59accaa4307e078e80063232949",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

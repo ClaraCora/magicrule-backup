@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:42.095366+00:00",
+  "client": "Egern",
+  "rule": "TeX",
+  "rule_updated_at": "2026-07-26T10:45:44.766067+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeX_rules_636007c59f5f1c6b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f31eed65a4f72ec8ce5cb7b9e1652ce1c2786cfb46b7cdad835e990e72ff640f",
+        "bytes_sha256": "3a04002aaa0dbf4b928955e438df85937fb11aaf3fa987862e05fef3bf2051cb",
+        "semantic_sha256": "3759b91868caaefac9c00cc19a2b462c78038f10dacf7eee4cd208c67f504053",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

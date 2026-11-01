@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:54:57.074125+00:00",
+  "client": "Loon",
+  "rule": "Feedly",
+  "rule_updated_at": "2026-07-26T10:27:47.668124+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Feedly_rules_a105e277e14539da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b4830c162b6a17859d6e52e638532d460ad5d82278b2cc5cb2e0746ce7f6784",
+        "bytes_sha256": "36b43620380e6fb66bf3f8d3afa3a2b66d2485a9dbecfe52cc7c081a9802207a",
+        "semantic_sha256": "8210c73c9d64ec3eed56a23650e22458d10b9bdbcf8b35c6808859c6784e6a45",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Feedly_domain-set_347dfa905d313d13.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ddbe0049a16f4c551689908e48b547a36cd8d0e9d6d41b1fba369fcd1aa8328f",
+        "bytes_sha256": "70382a0f8ce9cb11a8cf0b56e399f52f94db9b4cd7bd706f4d0d8c2e35ad8188",
+        "semantic_sha256": "d1f7f253e1798c7984d50a75798a8a2fe4a182ab7cd44706bd6a476be285940e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

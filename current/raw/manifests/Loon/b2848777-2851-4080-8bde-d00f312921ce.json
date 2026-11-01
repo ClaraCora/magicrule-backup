@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:47.253041+00:00",
+  "client": "Loon",
+  "rule": "ScienceDirect",
+  "rule_updated_at": "2026-07-26T07:36:39.741276+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ScienceDirect_rules_efcb3aea1c924994.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a8b77ed0f4c41fc1aa1aaf7f4478ebfecf34afa9f44e54b1ae92965e19923243",
+        "bytes_sha256": "8f9cb0a044b8e5b64f63f04e9263f2ec315f1d119fcf0c077b385ea1e94dd2b7",
+        "semantic_sha256": "8c01d72108bb84c3a90f7b3dfe3d918e4c5a7b8e0d4bd98f066d5f31146148ad",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ScienceDirect_domain-set_ddbfff762beb8ad8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5beeac59bd816b04425aca114830ecf4dd7dc508145fca4a20d433009752271",
+        "bytes_sha256": "a5c712c09f7d2e480fbe957cc6908550078c8298797aad84164c04e99aaceb34",
+        "semantic_sha256": "b017f77d75964c4677f3369b0b8897057b351bdf1ec5034c4a5c8bbfd48117b4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

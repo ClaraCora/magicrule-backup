@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:53:31.152142+00:00",
+  "client": "Mihomo",
+  "rule": "FontExplorer",
+  "rule_updated_at": "2026-07-26T10:27:59.725041+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontExplorer_classical_c72cafb0096ebf74.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "baf63f0771b9f0da3037f8d36db205e05e7027253a2f20fee867dad4305f04c2",
+        "bytes_sha256": "51239d7653a02d5f077fd338b9718dc2e6b133cd30408625664f916174de581d",
+        "semantic_sha256": "6b28dea19ec42d91e838dcf9c475b7834c4915b38b91bc6e76bcc943d26ec828",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontExplorer_domain_111d8369bff7f4c8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bafe9699ccd77b0c58df21c037953f89d4bbc4cd9e7b8af0011a68a4d14b08e8",
+        "bytes_sha256": "0c7fbc56a41c5baec788f9fd580f96dece7fabbe5b500954119f7b60291c5d4b",
+        "semantic_sha256": "b7ac9f89f9b8b28279c6c4a838820db71a7356ea7812c3af5a43269830dfc4d2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FontExplorer_domain-mrs_f8624472b355defc.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "6eedf3696a622fe66a1aeb799b569ff3a742bada09843d4621fe032a12234e25",
+        "bytes_sha256": "1adab0426c79ef9510f328f04d35a3541a8446cdd482efce7b758ca13a304cec",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:14.746963+00:00",
+  "client": "Egern",
+  "rule": "XDA",
+  "rule_updated_at": "2026-07-26T08:36:09.016324+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/XDA_rules_f58fe12802236fe6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a7dea002426d6db2268fe1463ef9a40b0b0c8b4bafe96d6d884b090a62cff9b",
+        "bytes_sha256": "5556dc0dc31439b95c5cfcbacce4adc14b5b81489e232cea717311bd741e7c65",
+        "semantic_sha256": "bf2d3468102d64a1ea1c1e66024a54112e30989ac50677f986fa077a814a2bf5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

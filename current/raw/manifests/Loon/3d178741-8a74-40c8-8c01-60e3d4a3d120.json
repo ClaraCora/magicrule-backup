@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:46.184241+00:00",
+  "client": "Loon",
+  "rule": "MetaBrainz",
+  "rule_updated_at": "2026-07-26T10:37:30.984725+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MetaBrainz_rules_a92d403d801b18ea.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c847d54ee0a27fffa3abc908f202f2c5cf344c891f32bfc735ad3bd5aefebafd",
+        "bytes_sha256": "47c6072f8641be64751fa49f76ae3de8452badfafe88f91c058fe4fb1bbd86b4",
+        "semantic_sha256": "5359eb733735dff28214ca2ed45e32ebb967a6585498e236dcdc35dd00d01948",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MetaBrainz_domain-set_ef56013539b8b54d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "205213f8086e04ffe461a6552630132134bab08ad51168915d5a40c0a0a2ac85",
+        "bytes_sha256": "68b5f51e4a7a266d7f9c2f2bef25ff463c56fff5692b4197fe3998e24672c44c",
+        "semantic_sha256": "e6ca5e92848f45dc34f4a9d5fd46e86c049e6af11b80c458058fd614ef6a71a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

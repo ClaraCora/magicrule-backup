@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:49:00.496451+00:00",
+  "client": "Egern",
+  "rule": "DowJones",
+  "rule_updated_at": "2026-07-26T10:26:09.628770+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DowJones_rules_3c9bad563191ef3a.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f24c20995268bf8e306af132baa81719cec5da9d74412ceedfcccdc6c1b5e62",
+        "bytes_sha256": "417739cb70afa723ed7d81e6dedc16d254d666f71f5f4c5e52427e58f731267a",
+        "semantic_sha256": "caa45bdea3b7f92fcdb03b6e0638754fe6f91b1e497dc8b06511328b7b59a0ef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

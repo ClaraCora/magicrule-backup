@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:46:43.071407+00:00",
+  "client": "Egern",
+  "rule": "ComssOne",
+  "rule_updated_at": "2026-07-26T10:24:17.288521+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ComssOne_rules_c50b36d2a141d9da.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c633ecb6d721d1361c75ce7a1cf533681982edcdddbb0e14a2cfe77a31e771c",
+        "bytes_sha256": "06bc7f9c394502deb5edd46bf1ccb72bd1bd8f841b17e1c4508b52495a8209a2",
+        "semantic_sha256": "860d4a305b0136453101b1d97fb7396212cd5ab6b5113f4de4dd003efef303db",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

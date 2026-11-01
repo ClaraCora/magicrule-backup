@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:42:07.474407+00:00",
+  "client": "Egern",
+  "rule": "KyodoNews",
+  "rule_updated_at": "2026-07-26T10:36:12.147177+00:00",
+  "type_counts": {
+    "domain_suffix_set": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/KyodoNews_rules_224dd2fcae21f588.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f93e08612f57c91e4de9cdfcd4c743a9b941e938349d9a4a76a33f6b53a2debb",
+        "bytes_sha256": "f031931e028736b08635237ed6e473f90b02bde24e7ccf498c78f31b7f642a2d",
+        "semantic_sha256": "d8c139d876efec108557aa42be70f1d982de69c3a506910fdaf4cc80a23be510",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

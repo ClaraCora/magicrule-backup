@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:02.796571+00:00",
+  "client": "Egern",
+  "rule": "CloudConvert",
+  "rule_updated_at": "2026-07-26T08:37:43.460062+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CloudConvert_rules_0f0aa9e6b15713b0.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fdbdab112b1dbf739691c58fd45d341b908b75f3731d70ed92866e943476b49c",
+        "bytes_sha256": "ddf191c62ac122236b77b181fc017cb03076cbf76cd5a4bd10380772eb9b34d5",
+        "semantic_sha256": "1feb8ece7a5cfa37d0eb974d719d7ed593b2dda270afd488e24f82e7ddf45280",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

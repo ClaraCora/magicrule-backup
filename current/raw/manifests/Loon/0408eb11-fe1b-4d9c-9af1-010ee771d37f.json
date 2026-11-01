@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-27T01:40:14.736737+00:00",
+  "client": "Loon",
+  "rule": "ImperialCollege",
+  "rule_updated_at": "2026-07-26T10:34:35.639220+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImperialCollege_rules_be9a37938f73a824.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fa57134102598cea7f852476fab9f4ecc7acb02b2f1a6662bab7ea459ae6df6d",
+        "bytes_sha256": "6e5c46b372abe8b885d9230206dc2cc511ca50e3f1815ca0ddb1081b88c6d70f",
+        "semantic_sha256": "35c17d7642bd20e2d635e59b2a5da4528636e3faeb4726eda65f6e69bfb7cd0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ImperialCollege_domain-set_169cb7551835931e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "04ec4ba4be2f393175303d96fa9219a798082986b0e8c18727ef2c7534242684",
+        "bytes_sha256": "bdff42b22f8b935256c4056a468a8d3f612becadcffe229b68f56841c93feb39",
+        "semantic_sha256": "692b28219b6996e98b9fc3935982987c24bb9c023eb9aa05ed9374b24aa7af05",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

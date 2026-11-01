@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:36.441179+00:00",
+  "client": "Egern",
+  "rule": "Skillshare",
+  "rule_updated_at": "2026-07-26T10:43:13.775031+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Skillshare_rules_c469f0db9a29bea8.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e873803dc4e1960577e085b5b0e502943719f538afab29e5d4b252ffdb02a9b",
+        "bytes_sha256": "58bb7d00abd04dce15bfb19fd9019b30c43be8f1d79e66bd3de495e378bc7e31",
+        "semantic_sha256": "d4d7c3ba7bd8389e2537bbc1baa46d196127d52cf967040c7ab4c6ae5ae75c84",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

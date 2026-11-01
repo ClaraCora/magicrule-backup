@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:52.942792+00:00",
+  "client": "Mihomo",
+  "rule": "FIBank",
+  "rule_updated_at": "2026-07-26T10:27:53.492212+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FIBank_classical_7ad0426259e1bcef.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "873330da1d67fbf4b23fd43cb5fb381aa42935059dce749c0374a37f2e05598f",
+        "bytes_sha256": "c65a596f31b5ac9420890d1ceac60ce3ef969c98241b2278c95f1e73d9734216",
+        "semantic_sha256": "44e6f438cd79fac5031d6f524d5ce385c4c9c5eebca84479f769b3c49aefbe1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FIBank_domain_50e96b3b5f39b3c8.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "24322d673a112afa43de2c66fba2169e4dbb42e2b82f4c39e1676693a90ba7f7",
+        "bytes_sha256": "42510d04e318821ccfcc54140ace7c5ddc09d523ce61605462fd9656f3a5aba7",
+        "semantic_sha256": "148b72e32a07cf10ec3f583c9b63ec968194eec2cfdd0caec4ee1484840ff627",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FIBank_domain-mrs_444fcc0977a0c111.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "fc847a0cec8cb1b623fad15231960dd7c12d95a65a35d353d6a0fcfca64ec355",
+        "bytes_sha256": "e426d8b7bfe1d221b2809996f24c7a17eee97c879d3533065996e7d612b39773",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

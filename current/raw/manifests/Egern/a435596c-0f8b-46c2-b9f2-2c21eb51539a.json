@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:05.676638+00:00",
+  "client": "Egern",
+  "rule": "CoolAPK",
+  "rule_updated_at": "2026-07-26T10:24:23.433419+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CoolAPK_rules_788af7696ba66219.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c4639cd500a4f1dd1ce4e44e4d32479a523f124322a5da25391baa4403fedc40",
+        "bytes_sha256": "2e4083c8b32e91b922b24e3e06f1ad30c97bc624364322f36ccbd9eff17b2538",
+        "semantic_sha256": "124f8e9d17b964f908bd5ad59b5c59091b3936ac62d8d86ef091f119237b566a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:12.679775+00:00",
+  "client": "Loon",
+  "rule": "TeamSpeak",
+  "rule_updated_at": "2026-07-26T08:35:50.425603+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeamSpeak_rules_441b4193c4c4b852.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e16bc09c5ee150c4e825c981d72a28054df8103910d52cd4ee030c727c36a915",
+        "bytes_sha256": "35f5942389a82e9084a8bafe7481117202b153be7bbd89cf0299042eb9095931",
+        "semantic_sha256": "f5e9c19bb70b545f75756ecc38d60ecc0a892f993ddd7772b2a194b14014ee46",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TeamSpeak_domain-set_222aef704eae6cb9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d73893f5363195b4c93b6f5459cf9ec2834d57194ec999f23d9d9b871481155e",
+        "bytes_sha256": "82bd0babde66e4bbb62ba1b4d03cfa8b1a70f9de91eb445675dfc9a8b68f3529",
+        "semantic_sha256": "c4e573dec59ebbe83d3a8fb876e298fd62e90c2106f47c8d2a1044ec165aac43",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-29T03:25:33.233748+00:00",
+  "client": "Loon",
+  "rule": "1Password",
+  "rule_updated_at": "2026-10-29T03:05:24.981701+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/1Password_rules_f9d7dc62b955a115.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df58193ae5e1b411d961f13bbf861f440e299779f11ea6a66d6a9b0544cbe85f",
+        "bytes_sha256": "8cc8e95fa5afbc3e2a86f1d07ecf11ab309eb87a17af72e51804e99837596322",
+        "semantic_sha256": "7645b13897832376930a2900f4a7361e0fb313bb87d9313beb4fd9102ea85c84",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/1Password_domain-set_425c5ee21fc24296.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3f75cc4968e194b71ea73a2b9e060f5503ca710912e1067267eeab3cec43c2f",
+        "bytes_sha256": "5adedbb036b1083115c863fcd16b26704b2867d8fd1b479e2fc54c99ac56e66c",
+        "semantic_sha256": "808c348cc1b504bea1a15a8a5a5445773f7ac097ee85382c5c288d8316f93af8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

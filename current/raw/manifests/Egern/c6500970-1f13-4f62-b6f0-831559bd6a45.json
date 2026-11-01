@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-29T02:41:08.189795+00:00",
+  "client": "Egern",
+  "rule": "HKBU",
+  "rule_updated_at": "2026-10-29T02:37:22.218754+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HKBU_rules_d0eee2864b8e951d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "feccdfef0335fe58a085853b748888dfbbaf7f6dcd5ca3825093d3b04dd17bdf",
+        "bytes_sha256": "31f6e70a8eaec9e31a2981bb877e80c5ee1f7bd2942428563c9496dccd89e6ea",
+        "semantic_sha256": "3e320603fd65f394f0cea1fe43f963b6598916159c9bf199a4d48fb543e27c79",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

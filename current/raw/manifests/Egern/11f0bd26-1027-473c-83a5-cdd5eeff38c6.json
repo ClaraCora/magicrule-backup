@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:04.554123+00:00",
+  "client": "Egern",
+  "rule": "FunPay",
+  "rule_updated_at": "2026-07-26T08:36:31.661547+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FunPay_rules_8ec8e03ca9b5739e.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8f2edc24e3ce7e26e2630c1d6a18071cfc53fff3a7e25d944d0664f04b7a5b05",
+        "bytes_sha256": "1d5cb0e07f9f9e1536a4318e06cad3845a2095198426037bedd1b594c4d30f8a",
+        "semantic_sha256": "57e16d64db0e9b1abbd0b76f57494164757b34e002ccde8d4f8a2c1405e70d8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

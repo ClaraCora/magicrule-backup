@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:53:58.216576+00:00",
+  "client": "Egern",
+  "rule": "Fandom",
+  "rule_updated_at": "2026-07-26T10:27:31.577868+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 11
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fandom_rules_c5139e19164c3e0d.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f38793779d06f8980b1cf9e757c48d4dc804711f38079edad0d905de858343c0",
+        "bytes_sha256": "bf10b72628a785b9e3ce67ce1a083713f20cb9204eed6596378ffa09b472a24e",
+        "semantic_sha256": "7d86d9795fb324d6badab9c6b44ec2fa82b40c5fd0a7c75ba4634110428cd86f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

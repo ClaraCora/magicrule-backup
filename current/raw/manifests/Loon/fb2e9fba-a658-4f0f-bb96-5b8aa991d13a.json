@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:14.350516+00:00",
+  "client": "Loon",
+  "rule": "StarPlus",
+  "rule_updated_at": "2026-07-26T10:44:05.282960+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarPlus_rules_51a12f7f4ca61ecc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "218c9ef16211a25637c6bd0bac7042692ae1ae764a5555e2bd3223879a1c5bf2",
+        "bytes_sha256": "48dd31efc896fb724d6048711ffe8cb87003cf3b44acda67661484ccf853853b",
+        "semantic_sha256": "a6f57ed65172245eb182affb02332431f7ff161a51eb07914d4d2fe9d5977dba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarPlus_domain-set_75cc57f921b78cbd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1988142a3dc3997aca61ba9ca66ebd602adbd9b3060b1e60fb939e466594bb35",
+        "bytes_sha256": "40d6887fcedc8137ad0b33f8f43cf075591fa072d574353a520d82459b94302f",
+        "semantic_sha256": "70355b48d30d2bc22f3659e7f15d09140c082bd032a0f91d9ace8d206acd41a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

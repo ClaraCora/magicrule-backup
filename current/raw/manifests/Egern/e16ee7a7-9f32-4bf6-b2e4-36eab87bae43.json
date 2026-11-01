@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:53:04.475609+00:00",
+  "client": "Egern",
+  "rule": "DuyaoSS",
+  "rule_updated_at": "2026-07-26T10:26:49.239216+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DuyaoSS_rules_b2247586ce0077c9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42dfb17b4b8020702ae15ea6b103839a40cfc8adef9896d31be7069e2beac672",
+        "bytes_sha256": "9b026b6f76769ee80ca2bce0c8096d8b360757a6df89b2137767652433a42484",
+        "semantic_sha256": "8c2726da433bbb1a5153a209b5ae7f11407bad85029e32f0683ec513188f0af1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:58.310305+00:00",
+  "client": "Egern",
+  "rule": "SteamUnlocked",
+  "rule_updated_at": "2026-07-26T08:35:49.888331+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SteamUnlocked_rules_04090fd50dd94ea9.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b381c0c49509bd6c19f7df5c7e34657dc071a2b498fe97e4b71890a77ed10b96",
+        "bytes_sha256": "7d06ed0957cb36d8646d8fba89730ae3bb06a037944e66ccb16d736e762acb51",
+        "semantic_sha256": "f6e3151a50b721588cd6266680107ef9dbee19fb754c34cb9571adb31266c862",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

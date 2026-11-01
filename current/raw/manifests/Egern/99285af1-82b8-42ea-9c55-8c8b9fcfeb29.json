@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:42.738066+00:00",
+  "client": "Egern",
+  "rule": "SSLCom",
+  "rule_updated_at": "2026-07-26T10:43:44.555364+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SSLCom_rules_d7ccd1dae64f3a2b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "55ecf341fcee1e6996e31de8c02b72ea00a4e2a125b251560071975c7fd3c4fa",
+        "bytes_sha256": "147e8ea20cafe6abb478de034319d0c0e346b7834cb59f06aafdd1e7df6bbbbb",
+        "semantic_sha256": "ba576dac471d69f649007cb47ae50d9347ff0c367fe1f457a8f1740e9274a626",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

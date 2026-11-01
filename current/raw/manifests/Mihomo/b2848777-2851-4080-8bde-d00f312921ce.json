@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:49:47.883391+00:00",
+  "client": "Mihomo",
+  "rule": "ScienceDirect",
+  "rule_updated_at": "2026-07-26T07:36:39.873563+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ScienceDirect_classical_39a18adb8c5fcd30.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "beec508f134916683be28b808ce07bfd08de6aff1a1876e09256cde9f86664ad",
+        "bytes_sha256": "666bcc407de9de40f1a722a2810aa601f12784267539fc0ba3af3b9c6db98890",
+        "semantic_sha256": "63d36123543d2de5107b85a934015390992166e08d1d37dc34174a21db87501a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ScienceDirect_domain_378731313c50a440.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b24e1d16c3555bf7513f2f360df4f4c9817951f312bb0f73a3af990c4167a9b7",
+        "bytes_sha256": "6bd930066fa81c7646cfc1b0a6b00116570bc3fc4dcf9283abcf4ddeda334f1e",
+        "semantic_sha256": "5c96a80b36f9993c7c6a37df4d70c3c42b4122734d5abb0a2f815b19ade0a6bf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ScienceDirect_domain-mrs_89cb9391e7268ced.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "ca38efbe99554456d8bcb3d142ec86d3a7fbb7ba4592fc6affc117540f090d27",
+        "bytes_sha256": "2d8269d01de0315e8228e400a1b784b13694bdb526516d17a75da1eaf65f496b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

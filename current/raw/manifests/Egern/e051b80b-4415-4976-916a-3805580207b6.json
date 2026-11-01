@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:52:59.395373+00:00",
+  "client": "Egern",
+  "rule": "SumKoo",
+  "rule_updated_at": "2026-07-26T10:44:41.206367+00:00",
+  "type_counts": {
+    "domain_suffix_set": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SumKoo_rules_0c18749bf39bd809.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f052eba7e758439e916ee315e99742326310c38253a364f8a25c28d03b22e000",
+        "bytes_sha256": "8def9f088a1a8217a069d0be68759aabbd9d3dcc218beb41e9be01d6a8fb0be8",
+        "semantic_sha256": "f01fa35c06bb82db71e061583b2749b1a7c73f5414cee94c6e67de0f511867fa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

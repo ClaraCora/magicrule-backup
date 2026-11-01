@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:10.043232+00:00",
+  "client": "Loon",
+  "rule": "Zynga",
+  "rule_updated_at": "2026-07-26T08:37:15.526893+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zynga_rules_b4aaf525c01be40b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2960ce5345af7068ffc2ca848cd385ad9c9598368e1e9c831c18d0bcd5aee2ce",
+        "bytes_sha256": "96e5f56b5673d2f66bc62cfbdd4dbf7a2964bcc843b2f7eeae6c24732a8a3b66",
+        "semantic_sha256": "ac50461e65fc839bf67f6b3d58f2e0bc358b500c88031ab2117f6e328490bf44",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zynga_domain-set_316135e38feb5fb1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0cce3859efc9fc64ffa05774f56fb43d5f500bba9b5ca844058bc92ca9abf898",
+        "bytes_sha256": "2a913712796e5499e88a83e5adb260415acef6860a032e8199f2c6623e459a46",
+        "semantic_sha256": "d28976be051eb73609768f91927c2ee12faa5a1aa0c2e6598df962399f374cdd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

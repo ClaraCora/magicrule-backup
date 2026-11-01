@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:40:18.944806+00:00",
+  "client": "Egern",
+  "rule": "Viu",
+  "rule_updated_at": "2026-07-26T10:48:06.638624+00:00",
+  "type_counts": {
+    "domain_set": 4,
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Viu_rules_0242af449439fad3.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f520172e1a8b9d71ade400468db6f7fe9103238e90a774396ad7f4f767368a97",
+        "bytes_sha256": "31da7e4d3beaf61a71bcad2411d0430dfa5934e6f5719813bbff515627283f02",
+        "semantic_sha256": "9af2fcc36d0374da886e13f6a669d6dac96a73146be5c81c9ebae3263774ba3b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

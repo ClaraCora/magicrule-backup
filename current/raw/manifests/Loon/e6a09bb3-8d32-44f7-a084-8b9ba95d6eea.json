@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:53:28.107135+00:00",
+  "client": "Loon",
+  "rule": "Dart",
+  "rule_updated_at": "2026-07-26T08:35:56.398479+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dart_rules_db5151fd4a585b08.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07ba84d057bd1eec6baa9e66e5eea9493fbbf0fe4b514e2be879e293afdaf3b2",
+        "bytes_sha256": "3ff623adfb623385b9e3150fe63a26f78aa2de32a00e6908beeff25a1e633f81",
+        "semantic_sha256": "0ecd4ae6786aefe0b2e8ed81e607a6d4b5572e2ef6e0fc8a1e2a4638f16d7d13",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dart_domain-set_aa29a687f512a271.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91045f2bf83a4f112c2f1a215df9493a0fcc2e99aaf9d03650b1784209a6baba",
+        "bytes_sha256": "b88ca6a5f64c141741f4f010f6a488f4806cf4c8bbbe717d16f3a11c280a7447",
+        "semantic_sha256": "92d97c4be52ae650b5ec06c86f7f084f8936bf349a91f72f9418c3328c961f22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

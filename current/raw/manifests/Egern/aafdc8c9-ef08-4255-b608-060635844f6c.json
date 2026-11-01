@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:49:24.256639+00:00",
+  "client": "Egern",
+  "rule": "Aerogard",
+  "rule_updated_at": "2026-07-26T09:56:11.871496+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Aerogard_rules_3b144f1464701add.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7450555de821817045ec263cd0c4b02b55ccc39fa6bcf758248338790419bd5b",
+        "bytes_sha256": "d4f29c90224787cf91d315856918084c4db5bcf70125a6e8a0e99967a91b5633",
+        "semantic_sha256": "c7c8475eec007bb43f60ef290020e64faad93c8e51dcad368141a1fb42e16392",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:12.672553+00:00",
+  "client": "Loon",
+  "rule": "Spaceship",
+  "rule_updated_at": "2026-07-26T10:43:33.915347+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Spaceship_rules_81892cbed27c5188.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f2dcced279922e544168fd23d85e8007c285cef35b3eac52b7f92cf052ef45de",
+        "bytes_sha256": "396a0e037347327821575606498d38197f225c4c35a6b5eaefc2a550d7ed0f66",
+        "semantic_sha256": "02adbfc58a754689b00e483f160075b9502ea48dac7a51cf50f83218ef5bcb55",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Spaceship_domain-set_b7e48597c526ae17.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "04508f9e0a387ca99e65a5fcd4006f646f7fe241ff8f9c07bfd4cf94e547b239",
+        "bytes_sha256": "9bd4ed88cfbc125eae318b3ed91a0b04a46671a9d8d1bc7de6711eb2fa278f2f",
+        "semantic_sha256": "6d95a406341e85a98e64a5a844a8e9ca96b52a4d5588807d774bb5c9a279a1b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

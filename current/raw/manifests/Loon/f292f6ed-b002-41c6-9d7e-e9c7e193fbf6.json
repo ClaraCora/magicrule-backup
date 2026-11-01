@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:54:26.694082+00:00",
+  "client": "Loon",
+  "rule": "Anexia",
+  "rule_updated_at": "2026-07-26T09:56:55.658675+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 33
+  },
+  "total_line_count": 33,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Anexia_rules_f1468028e6102235.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f1ee7d98550c46d130d722b45ccbf250aae41fb1466803e29ecf0b27ef72876",
+        "bytes_sha256": "33bac3ec29abb3954a6d74ac573bf7a229b7a6c43d14fab697c9f3a0e06b8833",
+        "semantic_sha256": "4f1b47aae176a8ffebc800786fcb04e76f8f0e11df7d005fcea75c2eb30a79e0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Anexia_domain-set_524c105adca56ba7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a3317005d59b0e048f9541938f81519661137613f6323fdd6a7eed7df4630cd2",
+        "bytes_sha256": "7c3584f7c42b355f5379147137b82a5422c023ac7211f181ecf4b2ca36986dde",
+        "semantic_sha256": "45e3ac65d81629c142a9c0843b60306226db85135e5fc68337d8cd8a6b486905",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

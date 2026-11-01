@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:43:10.164530+00:00",
+  "client": "Loon",
+  "rule": "Gaijin",
+  "rule_updated_at": "2026-07-26T08:36:47.304503+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gaijin_rules_21098f291de98c42.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d3aa2c88422ebfd8a2a5d1fa94982320ea97a4c0f6c941b12a31fc822d72860",
+        "bytes_sha256": "b4842a83af59a0b3cf378254f80f9c9b6f1fcbe6e3076fd8aeb9c351b174ca31",
+        "semantic_sha256": "0c42b97fa01d26240ea68fb29dab2077e06831414d5214532fee1ad81423c984",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gaijin_domain-set_2156467e7701b4ef.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6a39ee2f6758f338f2d0e4db6109094fc5302cda4129021db26d042a24070bb0",
+        "bytes_sha256": "7ac2d640386b4855d3e1c743f53a6e5034cdc6244bcedfa63557dde602b5b08e",
+        "semantic_sha256": "a1ce8fa732f47aaf86c4d8bdf17c7dd573b64f4ca9a476d3d888e04685ccd54f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

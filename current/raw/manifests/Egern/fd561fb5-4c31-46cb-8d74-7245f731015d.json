@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-27T01:55:21.326821+00:00",
+  "client": "Egern",
+  "rule": "Hetzner",
+  "rule_updated_at": "2026-07-26T08:39:14.340338+00:00",
+  "type_counts": {
+    "domain_set": 1,
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Hetzner_rules_acf2dd59da1d19db.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f95a6acb405e277bafc62d5eae9fed551e9d92727dc484e67a122202154179c",
+        "bytes_sha256": "b6cd04f07b323b6add36ff98663309a108fdf45ec35561e97cd4685315993659",
+        "semantic_sha256": "3e1cb4cbaccfea2dad106ca0a04698ea0e2f786c48d4794643030b49a7b6caa7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

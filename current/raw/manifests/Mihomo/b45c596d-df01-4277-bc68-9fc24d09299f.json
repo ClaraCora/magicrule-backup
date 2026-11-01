@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-10-29T03:25:33.278381+00:00",
+  "client": "Mihomo",
+  "rule": "1Password",
+  "rule_updated_at": "2026-10-29T03:05:25.177780+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/1Password_classical_03652aeba20ec572.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d9e76ab5003fc847fcc513285238b760dc1dfb10bf9eaa2143a43be8fb3acd20",
+        "bytes_sha256": "5fbd0c14e49de7da8deb0fb7293f7296dd45cdc47d8e1f9f9e8cf6082beab1de",
+        "semantic_sha256": "2d1af69dbb989758c00fce4b6731fcc4a8b6c6581e15903f338ac0195cc3cfab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/1Password_domain_63bd86725f749be3.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1183f96e09f5717a071e564d09e12731884a51cd19d6155470ae2c72bbad1648",
+        "bytes_sha256": "362cb1c585f4e5a63abcb3bc15190fa16d2d5be11365c698057763b705020999",
+        "semantic_sha256": "e262b5274823a932892b3e777399749d023c28dbc26aa5682eb49ab4d9c4cf7e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/1Password_domain-mrs_ee01473ba4e78b6c.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "15ce7193eb4b4207e797e1c3ff17bf6cbac8dcff448f991e02c68b939be07cec",
+        "bytes_sha256": "8a3830d135eda8fac97376ff4f885efe170a60c3f2eb971972df3fddfdb92818",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

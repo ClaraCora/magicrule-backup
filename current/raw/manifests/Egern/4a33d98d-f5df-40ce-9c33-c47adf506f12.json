@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:10.019861+00:00",
+  "client": "Egern",
+  "rule": "Gaijin",
+  "rule_updated_at": "2026-07-26T08:36:52.208929+00:00",
+  "type_counts": {
+    "domain_suffix_set": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gaijin_rules_6c11283a9374522c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de86c109b2749ff2432f923bc9a774100a4c6c510d79e0c25152245a89c1a2e5",
+        "bytes_sha256": "6f6a0ed88462e3e8e633eec58cc2a2bad219eb87b348020bbe819467a224e325",
+        "semantic_sha256": "6337f5c5e528bdb495e073abe5c49c026fdc3cb7d64a3271ad9d8c6bb043d5de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

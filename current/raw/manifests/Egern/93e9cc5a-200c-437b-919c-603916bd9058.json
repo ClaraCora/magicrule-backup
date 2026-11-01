@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:28.062245+00:00",
+  "client": "Egern",
+  "rule": "HomeDepot",
+  "rule_updated_at": "2026-07-26T08:38:25.825369+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HomeDepot_rules_0eba3a31be195d45.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17ffeec1dc37ef746a239256d48d0430de0ab153aaa33b70725661fb1b06360e",
+        "bytes_sha256": "38083cf9045e86836a208e6253eeff54f1d5518b352b7ad19bc863de72777bf4",
+        "semantic_sha256": "6f822ee05bb68e39813d42aadf81584a0b96b59db7c116e1fb0c4b9a33db443a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

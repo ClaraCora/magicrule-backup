@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:55:26.865360+00:00",
+  "client": "Loon",
+  "rule": "ProQuest",
+  "rule_updated_at": "2026-07-26T10:41:22.391096+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ProQuest_rules_c904335b293984d3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e52ac018d1c51e7fe5ab4d28c585a2f1bdf7256bb66058fe84721648b9e4592",
+        "bytes_sha256": "8453a0389abf337345b46213d48fe40dffc5ff1ad2e68b8e02cbd2034c47290b",
+        "semantic_sha256": "d44f027bb50878e6ad23958577df91ce934017c08a1f9f062fe829a3045e52a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ProQuest_domain-set_154bfff93deefb94.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "49a0a554cf739a8b083acb29dc1e8d33f5c5200261a8241f495b6138f4f54c65",
+        "bytes_sha256": "6877c894ce9b683c8142a52e9bc70dda942e1a964c0935e80768363ac2e687b3",
+        "semantic_sha256": "ba35428ade7c62e17d270a156b565b07505102cf089ee6dcc207f17767a0a1eb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

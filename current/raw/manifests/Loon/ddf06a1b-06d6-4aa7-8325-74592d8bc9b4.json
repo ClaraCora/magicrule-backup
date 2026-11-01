@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:52:44.213256+00:00",
+  "client": "Loon",
+  "rule": "FCBox",
+  "rule_updated_at": "2026-07-26T10:27:47.171820+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FCBox_rules_21489f4e4fde0349.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "016a860d629775d459b5d4164ed879e2fb774dd591d83ff6043d8747dd7b07ab",
+        "bytes_sha256": "04efc241346066ea9286ec66885b3e44c8f15f69fd5a177ee4d123140f6a2d33",
+        "semantic_sha256": "7abb067235aa69283683e96885aad492ecfe02639480d490c205712082665dbe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FCBox_domain-set_0a8ee1690337dcc9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ccad89bb4a97e52499aee5b55270898f175b0e8b95529b6a71cacb480f57117",
+        "bytes_sha256": "c9b8e3f3dffd023418d69549dbc5c03100b0d0c9f873309138a036713df3fb00",
+        "semantic_sha256": "cf64311ed21430e4f09da9911c1d838ac1d26e53bcbfa428c27eca6e89c44aab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

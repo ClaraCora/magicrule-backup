@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:20.577308+00:00",
+  "client": "Egern",
+  "rule": "PageCDN",
+  "rule_updated_at": "2026-07-26T08:39:19.268646+00:00",
+  "type_counts": {
+    "domain_suffix_set": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PageCDN_rules_2daea344d1be6484.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "692476207e36f1a35e0be372d92330d81f0d2eb49a89ce4d40b11da4462453d3",
+        "bytes_sha256": "49ef8363ae1c7680c4e801f387876ae7facba0c2e7234aacf4572bea8c65ae7d",
+        "semantic_sha256": "829953ff1bf82f2925f189372432d6d4c36724e14cdacbab636e899794f1491d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:56.729009+00:00",
+  "client": "Loon",
+  "rule": "Morisawa",
+  "rule_updated_at": "2026-07-26T10:37:48.052249+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Morisawa_rules_f7d8472ebb242041.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01075dfa770ad5cd8231641ffdd0bc03b66b491d48d38dfca1b0f6aad5e8921c",
+        "bytes_sha256": "419187bc25d797d77555c85412616ade0bd6fabc4bd815dc09a8500892c6085b",
+        "semantic_sha256": "08b1a6732aef5a633d4f347dfa22fed6c13c20924543a11a5f9b1715aa2bba3d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Morisawa_domain-set_79d8bb5ca6842afa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "098c2739e148e5c2ced2e8fc904f591910ea62a0a4d1a6fbbad8415ae6219aae",
+        "bytes_sha256": "26cec4cfdaee1f98f440b7dfaa31c23d3781cd47daa3ffb4df31503e6e322591",
+        "semantic_sha256": "abc02740489e2cf37e6011763c1b1991694eba6c700aa5399eb3d27c51370409",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

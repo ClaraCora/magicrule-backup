@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:19.398857+00:00",
+  "client": "Egern",
+  "rule": "IFast",
+  "rule_updated_at": "2026-07-26T10:34:09.227445+00:00",
+  "type_counts": {
+    "domain_suffix_set": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IFast_rules_e7527bffb2e16a52.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d7bb7d6f0f3576ec3c8732f82772148cc18e6c2cb9eaf545cd0ab9ad503e972",
+        "bytes_sha256": "47d3786cf4f0419deea4881540cf82baf7bada58f10ebd420d3a444ed492ff66",
+        "semantic_sha256": "88913ca756a1429582c354ed0ec1c7525d6a31a21cfb6a44264be7824a55052d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

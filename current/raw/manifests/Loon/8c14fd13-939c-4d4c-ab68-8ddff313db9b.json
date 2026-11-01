@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:48:17.137502+00:00",
+  "client": "Loon",
+  "rule": "Konami",
+  "rule_updated_at": "2026-07-26T08:37:23.192425+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Konami_rules_3cc25b3953071a5c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b6d5a25bbe878829683e5e59dfa2247bdd15f12d5fd0d663e7b0d8f7842cd7f0",
+        "bytes_sha256": "5c21655cf3261c64ea7fd18631cad60171180147261ab80ab14f8f92d7968bde",
+        "semantic_sha256": "b4c07b30b5269374708b0449e592bffff3aea4cc8a1756fcadfa6416a2aca261",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Konami_domain-set_54af20c869e35884.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91f41594256831b0ed9733dba4db2099f5c9b894c0e15a3cf3b051ece9818356",
+        "bytes_sha256": "9be749dd72f4eade31c4220beb35db359c97256ff0495cbfb6135c0fe57c028c",
+        "semantic_sha256": "f362644f934ed44ab6c9faa30ee806f9e0356f7ee572b7f4b6b1fbddc82dad22",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

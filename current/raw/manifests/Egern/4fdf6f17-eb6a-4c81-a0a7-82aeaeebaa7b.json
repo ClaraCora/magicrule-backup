@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:43:23.979523+00:00",
+  "client": "Egern",
+  "rule": "Pgyer",
+  "rule_updated_at": "2026-07-26T10:40:28.795893+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pgyer_rules_49f8176611afc89c.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3adeb09dba10d87fe9226d912b3992c7b02146fd3ebcc15d187445e55f2dd2bc",
+        "bytes_sha256": "f1f47c7da589950eca5033ab0bef2e8d278c5b2141b3a6a88c75e680fa6481b4",
+        "semantic_sha256": "a8239253f1b81c899dd74ae6683fe3d952c3851fea7adb86aba014026cfc3299",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:37.746867+00:00",
+  "client": "Egern",
+  "rule": "Tubi",
+  "rule_updated_at": "2026-07-26T10:46:45.452649+00:00",
+  "type_counts": {
+    "domain_suffix_set": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Tubi_rules_880a2d217e4f8ef6.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9cc333ab2ab674bcaee7c872a5518a220754dcaeddb8758e4db5e0658988a7a7",
+        "bytes_sha256": "8c05909e0841cf9e6ef0e58cba11a1b2ed8a68138df7450ea817f9853e0970a6",
+        "semantic_sha256": "97fdf27c1c19c43c9aaee26b14d40698bf6d26801ae82f3e7187be8ce35ffb1a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

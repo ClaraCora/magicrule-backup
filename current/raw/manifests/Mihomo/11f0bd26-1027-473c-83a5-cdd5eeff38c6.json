@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-27T01:41:05.160524+00:00",
+  "client": "Mihomo",
+  "rule": "FunPay",
+  "rule_updated_at": "2026-07-26T08:36:31.689865+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FunPay_classical_a1927e52772ae283.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d8044020237a52f0fff4a345291bc80ba2dbc3cea0d30e429550165add81588",
+        "bytes_sha256": "c308c92e2e567c187f66ab0767e8ea85ce270f5b2b97092372a0aa0c0827bb98",
+        "semantic_sha256": "a9d6f18b6352a2f8def90521ba21e9ed4549f3b9254fb13a02ef016081d21b0d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FunPay_domain_e2e4bc4027b16d6a.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44da6651c6d56e13f85363f3a055981c521cd708a7df6e6cf6cebfd5f816d4e4",
+        "bytes_sha256": "3d59f61bafdcae5f8390744c56327176f682100751099bc8a08aa57dc8fc9ff7",
+        "semantic_sha256": "4434f7ed059452baf5f4aa4e1eadf96c2933d4060c4fd194b993cea3e860cadc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FunPay_domain-mrs_86250b9db1b462c4.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "b93488a73dcce38b387810a471cf3101e9a031766b8de8f501ae8ae2c15faec7",
+        "bytes_sha256": "b4a470322303330ae954ab9af794e93acd0a5b964590240bb3cccf8a32d9d275",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

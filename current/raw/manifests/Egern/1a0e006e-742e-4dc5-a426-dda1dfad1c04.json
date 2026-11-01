@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:41:22.716627+00:00",
+  "client": "Egern",
+  "rule": "PolyU",
+  "rule_updated_at": "2026-07-26T10:41:13.838837+00:00",
+  "type_counts": {
+    "domain_suffix_set": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PolyU_rules_c64ff22eb892c31f.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fbdd46c8e92b47e49f7e4eefc3cc799a7bc3528f0e7d55e06a49d7ab0121df2f",
+        "bytes_sha256": "fe96568daa1f5568d159f9e4819d65da276f8c77a5ca3a207fd397d3812af96e",
+        "semantic_sha256": "64062d99a44bee63fed44a68d4fa4c172cab89c5495cb5d53b8222b35e63cc4a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

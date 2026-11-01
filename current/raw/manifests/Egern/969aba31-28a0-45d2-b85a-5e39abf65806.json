@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:48:35.383797+00:00",
+  "client": "Egern",
+  "rule": "Certum",
+  "rule_updated_at": "2026-07-26T10:19:49.231546+00:00",
+  "type_counts": {
+    "domain_suffix_set": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Certum_rules_fd0f304ffa94156b.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b6095c49e7fe44fe372a346887071ee33b4dd41960dc0554cc0e206eee03e61",
+        "bytes_sha256": "f1d0c71b91d931f5fe8571a6aadd51d07cb933469688a349eeb4987f28594eec",
+        "semantic_sha256": "2fe5f86eb5738218a70f6d248d6f876a752cf955ca880fa6f0ba92161a753386",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

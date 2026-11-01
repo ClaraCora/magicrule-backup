@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:08.289148+00:00",
+  "client": "Loon",
+  "rule": "TaylorFrancis",
+  "rule_updated_at": "2026-07-26T10:45:18.719457+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TaylorFrancis_rules_bfeaa351b99fe267.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4520f6b5afa97c229ab266fccf952b1a5a8438279c0d74c5caf05565759958c5",
+        "bytes_sha256": "b5a1c1eedc1e4efb089010988d7cf16ffd171ae14151f817e5dacb25b4bb390b",
+        "semantic_sha256": "af79eea2985f7f0f37613473de236982e10aa94b9abb41628943a21a7b3abe7f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TaylorFrancis_domain-set_cb5f67cdccc23496.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "419ecf2fed2604799c57ff6be53bfe38e38b4030ee25d72d50849d01aaa1f9fd",
+        "bytes_sha256": "da2c09273e23052064be75e72fffeee9a7fc2ae31edc011917c4047bdb72d387",
+        "semantic_sha256": "0b9c050a689bcf6bb358209ac684b8a96e0e0c12e434202a01f1bc82a73c4e48",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

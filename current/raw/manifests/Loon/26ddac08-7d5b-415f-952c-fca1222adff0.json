@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:41:54.684797+00:00",
+  "client": "Loon",
+  "rule": "Fastlane",
+  "rule_updated_at": "2026-07-26T08:35:56.748415+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fastlane_rules_7446a58822c94290.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "37ab009e6ee4b0e2650999a54ce9a33f11fd7b0242a3e759b4549e614cbaa10e",
+        "bytes_sha256": "539fe15a5e59e32dc5c4588bda8ee4c20b2e374f2cd928f6c7b1f95d37c08acb",
+        "semantic_sha256": "d53ff6d8b934008d715ed790e6252ace1434f7d5e0599ddd5b121c88e3b5076b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fastlane_domain-set_f246b758e86a9408.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9aaefa53c344852b818c8e94d484fd2208b567c42d818e2171c62ea458b6ddc1",
+        "bytes_sha256": "f8b1ac9dc868f2c4deea2a92c083c7599739ac1a72760e2839ffd469566c4a65",
+        "semantic_sha256": "8c76726678033d2ec5e890b3c7d89ec044f71ee943a04b5c76567950c8438abc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

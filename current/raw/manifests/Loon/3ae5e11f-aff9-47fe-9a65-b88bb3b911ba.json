@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:40.683809+00:00",
+  "client": "Loon",
+  "rule": "WikiHow",
+  "rule_updated_at": "2026-07-26T10:49:16.267868+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiHow_rules_277b3a85025d9fd8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3efbc8c8d8f37082637ff937cf14f60c6e04489c593e33f4c33446dc3fd484c0",
+        "bytes_sha256": "c334db7f4944ea5b115bbb6285d8e2f2f316402796b07c29c72043623b0d5ad9",
+        "semantic_sha256": "eba253d231231ddc2f197f5038bd49b42e68f7327706bcd99205ae992c6cc2e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WikiHow_domain-set_17f5009714556852.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "761685c3248ef9311e9b9c50ff5552d5a5062ca3d57e7463c309d60ecd2c297f",
+        "bytes_sha256": "6bbf3266cfcdbc5d1efe5d22c12977cf7d16608ff70dfbe0287517f9a9d5e3d0",
+        "semantic_sha256": "e54c2cd63299eeeadf4be17444fbf311793441339510b20798e43cff8982dbcb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

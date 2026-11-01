@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:42:28.185560+00:00",
+  "client": "Loon",
+  "rule": "ProjectSekai",
+  "rule_updated_at": "2026-07-26T08:37:15.924074+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ProjectSekai_rules_73b306cda6cc52f5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8832c078cc13d673bf2050c4386429b213636af8df9e654030cc52654c24148a",
+        "bytes_sha256": "ef07245de7eb15d8fb1af25557876aafcf1579679d00f972459301c0efbec86d",
+        "semantic_sha256": "2978e6474fed6b5c627307766c3f957d77a062f1509f71fcf31c4664bc91e382",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ProjectSekai_domain-set_5f6833dbb5133d88.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01a52ebe1a21fe9318a7c198835a3fadc0d77be4cf1132643ce92228931d295b",
+        "bytes_sha256": "bbabb44a2c5e04d3d77203b18e02020c67a93adeef5b39e92ce4a2367343c063",
+        "semantic_sha256": "d2b223f19b1ca0b91ca66fd20c916dac27163d772dbafc1b3c61d7039241b0ae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

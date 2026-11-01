@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-27T01:49:55.407925+00:00",
+  "client": "Egern",
+  "rule": "SpaceMail",
+  "rule_updated_at": "2026-07-26T10:43:33.869038+00:00",
+  "type_counts": {
+    "domain_suffix_set": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "RULE-SET",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SpaceMail_rules_0b2f7f5e8ba9da12.yaml",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fdd1769acd03f9d6118bbc00aab22f96d09360abcda9fccf6d581be7bf1d2133",
+        "bytes_sha256": "48abf465a5b4b1e49158ccd38f8919d9538a99bbcc482b7349a4ed6d695e6c58",
+        "semantic_sha256": "8059f9a5bdb5b663bcc88a40519acd7b18008c8551e553d38c38ac6ce493793e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

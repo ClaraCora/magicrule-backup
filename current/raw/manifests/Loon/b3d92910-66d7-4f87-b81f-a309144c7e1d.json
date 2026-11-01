@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-08-27T01:49:50.829240+00:00",
+  "client": "Loon",
+  "rule": "IntSig",
+  "rule_updated_at": "2026-07-26T10:34:37.253501+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IntSig_rules_9fadb9fb66a70b06.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b4c7d8b6eccb155046b46f99c8279106507945b8922510c92c4a6bf0edae2ff8",
+        "bytes_sha256": "db52f9c85478e09dcdc8511f4eff118e8ba13a59ebf958fb3d5708ca5d56fb99",
+        "semantic_sha256": "c2f9c7b26de51d1c88da71d34d4c1e66244cef4127f76e352bc66129c4abbe1b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/IntSig_domain-set_7bd374bd2e0e2312.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0b2bfcd455942dec727c1942eefc17d823641974c3a0baae44f447d28050a93",
+        "bytes_sha256": "9bf93661bd5890efe8499e5362477e6097289ad1c1e5046be3878fde49f29e0e",
+        "semantic_sha256": "df1b1fbfa2681919ca0674bcf7d85b6139eff3d7b7f09e3a96bad33b047213c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

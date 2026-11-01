@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:43:41.570972+00:00",
+  "client": "Mihomo",
+  "rule": "2KGames",
+  "rule_updated_at": "2026-07-26T08:36:12.253325+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/2KGames_classical_126a9646d1d6ef09.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1b177d328aa9b8f85e2c806e7cf873243ef22e9b449e7173cc5893f38b660ec3",
+        "bytes_sha256": "c6361619d3c0d57e18c2be38d75f744fcabb3b2d936fb45ccd57e9eeb8b7a520",
+        "semantic_sha256": "d9f80ac424bb6bf7d776dbf119c5a03be3e9c60f3e52056aeefe00ff560ae517",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/2KGames_domain_068b206f61725cf0.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6580992d54b6f31ead90883482addc02e31ba43dd84a643a5f0aeb6d28f0d14f",
+        "bytes_sha256": "6540ac7602e03cbd65556277b55e72013773516fda8fe149bcad62bf6012fa16",
+        "semantic_sha256": "de24c3bf581b7311918fa1db83d728968e1c324e9161ea7367764764136a0463",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/2KGames_domain-mrs_1847eb195406410a.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "64a5df313ec85f58f8cca90313e30a7cfd8fe978e3696a3eb8ea13a1e82ccb3a",
+        "bytes_sha256": "2020378ecb2222fd95f43c4f327ee5ead4063e0df0747cca583073e2f5f24cf8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

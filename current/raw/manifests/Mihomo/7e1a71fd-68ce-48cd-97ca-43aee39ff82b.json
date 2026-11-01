@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-08-27T01:47:40.883018+00:00",
+  "client": "Mihomo",
+  "rule": "OpenJSFoundation",
+  "rule_updated_at": "2026-07-26T08:36:07.969459+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "classical",
+      "label": "classical",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenJSFoundation_classical_762c9f45d33c84b2.yaml",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45f99f86b9693ca902fde92ac171e1171725dad3e6f867ef221cb761325e3856",
+        "bytes_sha256": "5c97c4e1462b9e40e52a3dc9969bad3497d0376ab6d993b3c564453cd6663109",
+        "semantic_sha256": "d5a30bba8abf84b92f5497b1d4eac07dfd13b8216ca2e65c90cf44ec628f54ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain",
+      "label": "domain",
+      "ext": "yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenJSFoundation_domain_f723329179f9a0e7.yaml",
+      "binary": false,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f7b8486c41848fd277107c4a06afcb621a1ff978f4f5e1bb4b7b88862e8e203",
+        "bytes_sha256": "49e7b74f88e092ee284219d5fc75449efd4fad264cc3f523890ef69d28afe18f",
+        "semantic_sha256": "309495693516811308c3b458788f5e0fb0b13d411e5c0129f6581d86daac74c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-mrs",
+      "label": "domain(mrs)",
+      "ext": "mrs",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenJSFoundation_domain-mrs_5957b3073b3b8147.mrs",
+      "binary": true,
+      "role": "domain",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "18fc2543a69362d1dfcbe4c3a4504a5bb36427b7466b4e4af842ed5cb42bd386",
+        "bytes_sha256": "949e46280be06261f5207b2e2bd07a56de35cf6a264c130cf92b9bc7cc7aaaa1",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}
