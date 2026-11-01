@@ -1,0 +1,78 @@
+name: Sync and publish
+
+on:
+  schedule:
+    - cron: '17 20 * * *' # 04:17 Asia/Shanghai (UTC+8)
+  workflow_dispatch:
+    inputs:
+      sync:
+        description: 'Fetch upstream rules (disable to rebuild the website from the existing data branch)'
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: magicrule-production
+  cancel-in-progress: false
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check && npm test
+      - name: Prepare data worktree
+        run: npm run prepare:data
+      - name: Restore verified download cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/backup/.downloads
+          key: rule-downloads-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: rule-downloads-${{ runner.os }}-
+      - name: Sync and validate complete snapshot
+        if: github.event_name != 'workflow_dispatch' || inputs.sync
+        run: npm run sync
+      - name: Build website from backup
+        run: npm run verify && npm run build
+      - name: Commit validated backup
+        if: github.event_name != 'workflow_dispatch' || inputs.sync
+        run: |
+          git -C .cache/backup config user.name 'github-actions[bot]'
+          git -C .cache/backup config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C .cache/backup add --all
+          if ! git -C .cache/backup diff --cached --quiet; then
+            git -C .cache/backup commit -m "backup: successful sync $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git -C .cache/backup push origin HEAD:data
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: sync-and-build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

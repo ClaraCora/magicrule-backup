@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T15:57:26.516377+00:00",
+  "title": "Design System: MagicRule Backup",
+  "extensions": {
+    "colorMeta": {
+      "forest": {
+        "role": "primary",
+        "displayName": "Forest",
+        "canonical": "#173d34",
+        "tonalRamp": [
+          "oklch(15% 0.04639 175.45)",
+          "oklch(26% 0.04639 175.45)",
+          "oklch(37% 0.04639 175.45)",
+          "oklch(48% 0.04639 175.45)",
+          "oklch(59% 0.04639 175.45)",
+          "oklch(70% 0.04639 175.45)",
+          "oklch(83% 0.04639 175.45)",
+          "oklch(95% 0.04639 175.45)"
+        ]
+      },
+      "forest-deep": {
+        "role": "primary",
+        "displayName": "Deep Forest",
+        "canonical": "#123127",
+        "tonalRamp": [
+          "oklch(15% 0.04157 169.63)",
+          "oklch(26% 0.04157 169.63)",
+          "oklch(37% 0.04157 169.63)",
+          "oklch(48% 0.04157 169.63)",
+          "oklch(59% 0.04157 169.63)",
+          "oklch(70% 0.04157 169.63)",
+          "oklch(83% 0.04157 169.63)",
+          "oklch(95% 0.04157 169.63)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Forest Ink",
+        "canonical": "#203c32",
+        "tonalRamp": [
+          "oklch(15% 0.03877 169.02)",
+          "oklch(26% 0.03877 169.02)",
+          "oklch(37% 0.03877 169.02)",
+          "oklch(48% 0.03877 169.02)",
+          "oklch(59% 0.03877 169.02)",
+          "oklch(70% 0.03877 169.02)",
+          "oklch(83% 0.03877 169.02)",
+          "oklch(95% 0.03877 169.02)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Sage",
+        "canonical": "#5e7065",
+        "tonalRamp": [
+          "oklch(15% 0.02749 158.49)",
+          "oklch(26% 0.02749 158.49)",
+          "oklch(37% 0.02749 158.49)",
+          "oklch(48% 0.02749 158.49)",
+          "oklch(59% 0.02749 158.49)",
+          "oklch(70% 0.02749 158.49)",
+          "oklch(83% 0.02749 158.49)",
+          "oklch(95% 0.02749 158.49)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cream Paper",
+        "canonical": "#f7f8f2",
+        "tonalRamp": [
+          "oklch(15% 0.00798 114.22)",
+          "oklch(26% 0.00798 114.22)",
+          "oklch(37% 0.00798 114.22)",
+          "oklch(48% 0.00798 114.22)",
+          "oklch(59% 0.00798 114.22)",
+          "oklch(70% 0.00798 114.22)",
+          "oklch(83% 0.00798 114.22)",
+          "oklch(95% 0.00798 114.22)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26% 0.00000 0.00)",
+          "oklch(37% 0.00000 0.00)",
+          "oklch(48% 0.00000 0.00)",
+          "oklch(59% 0.00000 0.00)",
+          "oklch(70% 0.00000 0.00)",
+          "oklch(83% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Sage Line",
+        "canonical": "#dce3d8",
+        "tonalRamp": [
+          "oklch(15% 0.01654 133.83)",
+          "oklch(26% 0.01654 133.83)",
+          "oklch(37% 0.01654 133.83)",
+          "oklch(48% 0.01654 133.83)",
+          "oklch(59% 0.01654 133.83)",
+          "oklch(70% 0.01654 133.83)",
+          "oklch(83% 0.01654 133.83)",
+          "oklch(95% 0.01654 133.83)"
+        ]
+      },
+      "mint": {
+        "role": "primary",
+        "displayName": "Mint",
+        "canonical": "#e6eed0",
+        "tonalRamp": [
+          "oklch(15% 0.04052 119.33)",
+          "oklch(26% 0.04052 119.33)",
+          "oklch(37% 0.04052 119.33)",
+          "oklch(48% 0.04052 119.33)",
+          "oklch(59% 0.04052 119.33)",
+          "oklch(70% 0.04052 119.33)",
+          "oklch(83% 0.04052 119.33)",
+          "oklch(95% 0.04052 119.33)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Terracotta",
+        "canonical": "#b64c30",
+        "tonalRamp": [
+          "oklch(15% 0.14431 35.78)",
+          "oklch(26% 0.14431 35.78)",
+          "oklch(37% 0.14431 35.78)",
+          "oklch(48% 0.14431 35.78)",
+          "oklch(59% 0.14431 35.78)",
+          "oklch(70% 0.14431 35.78)",
+          "oklch(83% 0.14431 35.78)",
+          "oklch(95% 0.14431 35.78)"
+        ]
+      },
+      "accent-wash": {
+        "role": "secondary",
+        "displayName": "Terracotta Wash",
+        "canonical": "#f8e9e0",
+        "tonalRamp": [
+          "oklch(15% 0.02036 53.25)",
+          "oklch(26% 0.02036 53.25)",
+          "oklch(37% 0.02036 53.25)",
+          "oklch(48% 0.02036 53.25)",
+          "oklch(59% 0.02036 53.25)",
+          "oklch(70% 0.02036 53.25)",
+          "oklch(83% 0.02036 53.25)",
+          "oklch(95% 0.02036 53.25)"
+        ]
+      },
+      "success": {
+        "role": "secondary",
+        "displayName": "Success Green",
+        "canonical": "#286647",
+        "tonalRamp": [
+          "oklch(15% 0.08216 158.80)",
+          "oklch(26% 0.08216 158.80)",
+          "oklch(37% 0.08216 158.80)",
+          "oklch(48% 0.08216 158.80)",
+          "oklch(59% 0.08216 158.80)",
+          "oklch(70% 0.08216 158.80)",
+          "oklch(83% 0.08216 158.80)",
+          "oklch(95% 0.08216 158.80)"
+        ]
+      },
+      "warning": {
+        "role": "secondary",
+        "displayName": "Warning Ochre",
+        "canonical": "#92561c",
+        "tonalRamp": [
+          "oklch(15% 0.10580 59.94)",
+          "oklch(26% 0.10580 59.94)",
+          "oklch(37% 0.10580 59.94)",
+          "oklch(48% 0.10580 59.94)",
+          "oklch(59% 0.10580 59.94)",
+          "oklch(70% 0.10580 59.94)",
+          "oklch(83% 0.10580 59.94)",
+          "oklch(95% 0.10580 59.94)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Main page headings; smaller responsive and detail variants are documented in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section hierarchy."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Catalog rule names."
+      },
+      "body": {
+        "displayName": "Interface Body",
+        "purpose": "General interface reading."
+      },
+      "body-read": {
+        "displayName": "Read Body",
+        "purpose": "Narrow documentation prose."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Copy, download, search, and related action buttons."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Dates, counts, and supporting facts; tabular numerals where appropriate."
+      },
+      "mono": {
+        "displayName": "File Metadata",
+        "purpose": "Raw addresses and SHA-256 values."
+      }
+    },
+    "shadows": [
+      {
+        "name": "status-notice",
+        "value": "0 6px 22px #12312725",
+        "purpose": "The transient accessible status notice; working surfaces remain flat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Shared background, color, and border state transitions."
+      },
+      {
+        "name": "state-duration",
+        "value": ".18s",
+        "purpose": "Button, link, select, and rule-row state changes."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}",
+        "purpose": "Preserve the implemented reduced-motion behavior."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px",
+        "purpose": "Minimum width: increase top spacing."
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1190px",
+        "purpose": "Maximum width: narrow sidebar and catalog spacing."
+      },
+      {
+        "name": "small-desktop",
+        "value": "1000px",
+        "purpose": "Maximum width: narrow sidebar again and hide rule-count column."
+      },
+      {
+        "name": "mobile",
+        "value": "760px",
+        "purpose": "Maximum width: top navigation and stacked rule list."
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "370px",
+        "purpose": "Maximum width: smaller page gutters and reduced secondary chrome."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A forest action with a clear verb, used for search and download.",
+      "html": "<button class=\"ds-button ds-button-primary\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>下载</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dce3d8);border-radius:6px;text-decoration:none;background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .18s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-button:hover{background:var(--color-paper,#f7f8f2);border-color:#9aaa9a}.ds-button:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.42}.ds-button svg{flex:none}.ds-button-primary{background:var(--color-forest,#173d34);border-color:var(--color-forest,#173d34);color:#f6f8ef}.ds-button-primary:hover{background:var(--color-forest-deep,#123127);border-color:var(--color-forest,#173d34)}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet bordered copy and pagination actions.",
+      "html": "<button class=\"ds-button\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg>复制地址</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dce3d8);border-radius:6px;text-decoration:none;background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .18s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-button:hover{background:var(--color-paper,#f7f8f2);border-color:#9aaa9a}.ds-button:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.42}.ds-button svg{flex:none}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "A labeled borderless field in the catalog search band.",
+      "html": "<div class=\"ds-search\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m21 21-4.5-4.5 M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0\"/></svg><label class=\"ds-search-label\" for=\"ds-query\">搜索规则名称、说明或来源</label><input class=\"ds-input\" id=\"ds-query\" type=\"search\" placeholder=\"搜索规则名称、中文名、说明或来源…\"/><kbd class=\"ds-key\" aria-hidden=\"true\">/</kbd></div>",
+      "css": ".ds-search{display:flex;align-items:center;gap:14px;padding:18px 22px;border-bottom:1px solid var(--color-line,#dce3d8);background:var(--color-surface,#ffffff);color:var(--color-muted,#5e7065);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-search svg{flex:none}.ds-search-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.ds-input{background:none;border:0;min-width:0;flex:1;font:400 16px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);height:44px;color:var(--color-ink,#203c32);caret-color:var(--color-accent,#b64c30)}.ds-input::placeholder{color:var(--color-muted,#5e7065)}.ds-input:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-key{font:400 12px/22px var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);border:1px solid var(--color-line,#dce3d8);border-radius:4px;padding:0 7px;background:var(--color-paper,#f7f8f2)}@media(max-width:760px){.ds-search{padding:13px;gap:10px}.ds-input{font-size:13px;height:40px}.ds-key{display:none}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    },
+    {
+      "name": "Current Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "Forest sidebar navigation with mint current-page state and authored icons.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主要导航\"><a class=\"ds-nav-link\" href=\"#catalog\" aria-current=\"page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 7h18v13H3zM3 7V4h6l3 3\"/></svg>规则目录<span class=\"ds-nav-arrow\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></span></a><a class=\"ds-nav-link\" href=\"#updates\">同步记录</a></nav>",
+      "css": ".ds-nav{display:grid;gap:6px;padding:20px;background:var(--color-forest,#173d34);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-nav-link{display:flex;align-items:center;gap:12px;min-height:48px;padding:12px 15px;border-radius:6px;text-decoration:none;color:#c2d4c5;font-size:14px;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-nav-link:hover{background:#224b3e;color:#fff}.ds-nav-link[aria-current=page]{background:var(--color-mint,#e6eed0);color:var(--color-forest,#173d34);font-weight:600}.ds-nav-link:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-nav-arrow{margin-left:auto}.ds-nav svg{flex:none}@media(max-width:760px){.ds-nav{display:flex;gap:2px;padding:18px 20px 0}.ds-nav-link{flex:1;justify-content:center;min-height:45px;padding:12px 14px;border-radius:6px 6px 0 0;font-size:12px}.ds-nav-link[aria-current=page]{background:var(--color-paper,#f7f8f2)}.ds-nav-arrow{display:none}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    },
+    {
+      "name": "Selected Client Filter",
+      "kind": "chip",
+      "refersTo": "filter-selected",
+      "description": "Action chips expose selected state through aria-pressed and a mint fill.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"客户端\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">全部客户端 <span class=\"ds-filter-count\">1,185</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\"><span class=\"ds-client-dot\"></span>Mihomo</button></div>",
+      "css": ".ds-filters{display:flex;gap:4px;flex-wrap:wrap;font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-filter{display:flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:9px 13px;border:0;border-radius:5px;font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);background:transparent;color:var(--color-muted,#5e7065);cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-filter[aria-pressed=true]{background:var(--color-mint,#e6eed0);color:var(--color-forest,#173d34);font-weight:600}.ds-filter:hover{background:#edf1e6}.ds-filter:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-filter-count{font-size:10px;margin-left:2px}.ds-client-dot{width:7px;height:7px;border-radius:50%;background:#659a89}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    },
+    {
+      "name": "Client Badge",
+      "kind": "chip",
+      "refersTo": "client-badge-mihomo",
+      "description": "A passive compact badge pairs a readable client name with its client tint.",
+      "html": "<span class=\"ds-client-badge\">Mihomo</span>",
+      "css": ".ds-client-badge{display:inline-block;font:400 10px/22px var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);padding:0 6px;border-radius:4px;background:#e7f0e9;color:#38634c;white-space:nowrap}"
+    },
+    {
+      "name": "Catalog Surface",
+      "kind": "card",
+      "refersTo": "catalog-surface",
+      "description": "A flat white catalog panel with a clipped outline and distinct content bands.",
+      "html": "<section class=\"ds-catalog\" aria-label=\"规则目录\"><div class=\"ds-catalog-search\">搜索和筛选规则</div><div class=\"ds-catalog-filters\">全部客户端 · 规则类型</div><div class=\"ds-catalog-body\">规则目录</div></section>",
+      "css": ".ds-catalog{background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);border:1px solid var(--color-line,#dce3d8);border-radius:12px;overflow:hidden;font:400 14px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-catalog-search{padding:18px 22px;border-bottom:1px solid var(--color-line,#dce3d8)}.ds-catalog-filters{padding:16px 22px;background:#fcfdf9;color:var(--color-muted,#5e7065);border-bottom:1px solid var(--color-line,#dce3d8);font-size:12px}.ds-catalog-body{padding:20px 22px}"
+    },
+    {
+      "name": "Rule List Row",
+      "kind": "custom",
+      "refersTo": "rule-row",
+      "description": "Identity, client badges, labeled update date, and a detail action adapt from a table row into a mobile list item.",
+      "html": "<article class=\"ds-rule-row\"><div class=\"ds-rule-name-cell\"><span class=\"ds-monogram\" aria-hidden=\"true\">RE</span><div class=\"ds-rule-names\"><a class=\"ds-rule-link\" href=\"#rule\">reject</a><span class=\"ds-rule-chinese\">广告拦截规则</span></div></div><div class=\"ds-rule-clients\"><span class=\"ds-client-badge\">Mihomo</span></div><span class=\"ds-rule-lines\">12,340</span><div class=\"ds-rule-date\"><time datetime=\"2026-11-01\">2026-11-01</time><span class=\"ds-date-note\">源站规则更新</span></div><a class=\"ds-rule-detail\" href=\"#rule\">查看详情 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></article>",
+      "css": ".ds-rule-row{display:grid;grid-template-columns:minmax(190px,2.2fr) minmax(145px,1.5fr) minmax(90px,.8fr) minmax(110px,1fr) 90px;gap:14px;align-items:center;padding:12px 24px;min-height:84px;border-bottom:1px solid #e9ede5;background:var(--color-surface,#fff);color:var(--color-ink,#203c32);font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);transition:background-color .18s}.ds-rule-row:hover{background:#f7f9f1}.ds-rule-name-cell{display:flex;gap:13px;align-items:center;min-width:0}.ds-monogram{display:grid;place-items:center;flex:none;width:36px;height:36px;border-radius:8px;border:1px solid #dce3d5;background:#f2f5eb;color:#52684a;font-size:12px;font-weight:650;letter-spacing:-.035em}.ds-rule-names{display:flex;flex-direction:column;gap:3px;min-width:0}.ds-rule-link{font-size:14px;font-weight:600;line-height:1.5;text-decoration:none;color:inherit;overflow-wrap:anywhere}.ds-rule-link:hover{color:var(--color-accent,#b64c30);text-decoration:underline}.ds-rule-link:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-rule-chinese{font-size:11px;color:var(--color-muted,#5e7065);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-client-badge{display:inline-block;font-size:10px;line-height:22px;padding:0 6px;border-radius:4px;background:#e7f0e9;color:#38634c}.ds-rule-lines{color:#4f6256}.ds-rule-date{color:#526458;font-variant-numeric:tabular-nums}.ds-date-note{display:none}.ds-rule-detail{display:flex;align-items:center;justify-content:end;gap:7px;min-height:40px;white-space:nowrap;color:#375a45;text-decoration:none}.ds-rule-detail:hover{color:var(--color-accent,#b64c30)}.ds-rule-detail:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}@media(max-width:760px){.ds-rule-row{grid-template-columns:minmax(0,1fr) 95px;gap:9px 12px;padding:16px 15px;min-height:110px}.ds-rule-name-cell{grid-column:1;grid-row:1;gap:10px}.ds-monogram{width:34px;height:36px;font-size:11px}.ds-rule-link{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal}.ds-rule-chinese{font-size:10px}.ds-rule-clients{grid-column:1;grid-row:2;padding-left:44px}.ds-rule-lines{display:none}.ds-rule-date{grid-column:2;grid-row:1;text-align:right;font-size:11px}.ds-date-note{display:block;font-size:10px;color:var(--color-muted,#5e7065);margin-top:4px}.ds-rule-detail{grid-column:2;grid-row:2;font-size:10px;min-height:28px;gap:4px}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    },
+    {
+      "name": "Artifact Row",
+      "kind": "custom",
+      "refersTo": "artifact-row",
+      "description": "File identity, independent copy/download affordances, and on-demand URL/hash details.",
+      "html": "<article class=\"ds-artifact-row\"><div class=\"ds-artifact-info\"><span class=\"ds-extension\">YAML</span><div><h3 class=\"ds-artifact-title\">规则集 <span class=\"ds-recommended\">推荐</span></h3><p class=\"ds-artifact-meta\">24 KB · 文本格式</p></div></div><div class=\"ds-artifact-actions\"><button class=\"ds-button\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg>复制地址</button><a class=\"ds-button ds-button-primary\" href=\"#download\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>下载</a></div><details class=\"ds-file-details\"><summary>文件地址与 SHA-256</summary><code class=\"ds-hash\">SHA-256: 5d214e…</code></details></article>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dce3d8);border-radius:6px;text-decoration:none;background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .18s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-button:hover{background:var(--color-paper,#f7f8f2);border-color:#9aaa9a}.ds-button:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.42}.ds-button svg{flex:none}.ds-button-primary{background:var(--color-forest,#173d34);border-color:var(--color-forest,#173d34);color:#f6f8ef}.ds-button-primary:hover{background:var(--color-forest-deep,#123127);border-color:var(--color-forest,#173d34)}.ds-artifact-row{display:flex;align-items:center;flex-wrap:wrap;gap:18px;padding:20px 0;border-top:1px solid var(--color-line,#dce3d8);color:var(--color-ink,#203c32);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-artifact-info{display:flex;align-items:center;gap:13px;min-width:0;flex:1}.ds-extension{display:grid;place-items:center;min-width:50px;height:40px;padding:0 6px;border-radius:6px;background:#f2f5ec;font-size:10px;color:#526543;font-weight:600}.ds-artifact-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0;font-size:16px;font-weight:600}.ds-recommended{font-size:10px;font-weight:500;padding:1px 6px;background:var(--color-mint,#e6eed0);color:#4d6334;border-radius:3px}.ds-artifact-meta{font-size:11px;color:var(--color-muted,#5e7065);margin:3px 0 0}.ds-artifact-actions{display:flex;gap:8px}.ds-file-details{width:100%;margin-top:-7px;font-size:11px;color:var(--color-muted,#5e7065)}.ds-file-details summary{width:fit-content;line-height:2;min-height:32px;cursor:pointer}.ds-file-details summary:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-hash{display:block;overflow-wrap:anywhere;margin-top:7px;font:400 11px/1.6 ui-monospace,Consolas,monospace}@media(max-width:760px){.ds-artifact-row{gap:15px;padding:17px 0}.ds-artifact-info{flex-basis:100%}.ds-artifact-title{font-size:14px}.ds-artifact-actions{margin-left:auto}.ds-artifact-actions .ds-button{font-size:11px;min-height:40px;padding:9px 12px}.ds-file-details{margin-top:0;line-height:1.8}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Forest Archive",
+    "overview": "A quiet forest-colored frame holds a cream workspace and white working surfaces. Mint marks the current location and selected filters; terracotta supplies a small point of emphasis and a clear keyboard focus signal. The character is practical, steady, and compact.\n\nThe catalog and detail pages use an Operate mode: search, dates, client identity, and copy/download actions stay easy to scan. Documentation uses a Read mode with a narrower text measure and more leading. Both modes share the same shell, type family, authored SVG icons, and restrained native transitions.",
+    "keyCharacteristics": [
+      "Forest navigation, cream workspace, white catalog surfaces.",
+      "Compact rows and metadata with a visible search and date hierarchy.",
+      "Mint selections and sparse terracotta punctuation.",
+      "Authored line SVG icons, explicit copy/download labels, and visible keyboard focus.",
+      "A desktop table that becomes a stacked mobile list."
+    ],
+    "rules": [
+      {
+        "name": "The Selection Rule",
+        "body": "Use mint for current navigation, chosen filters, recommendations, and summary emphasis. Keep terracotta for punctuation, links in prose, and interaction focus.",
+        "section": "colors"
+      },
+      {
+        "name": "The Date Clarity Rule",
+        "body": "Keep source rule updates, backup file changes, and successful synchronization visually labeled as distinct facts. Use tabular numerals for dates and counts.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Surface Rule",
+        "body": "Separate working regions with tone and fine borders. Reserve the implemented shadow for transient status feedback.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep search and synchronization status visible near the start of the page.",
+      "Do preserve clear labels beside copy, download, and navigation icons.",
+      "Do use mint to communicate selection and forest to anchor primary actions.",
+      "Do retain visible keyboard focus, semantic labels, and reduced-motion behavior.",
+      "Do keep mobile dates and actions readable when the table becomes a list."
+    ],
+    "donts": [
+      "Don't use shadows to lift every row or panel.",
+      "Don't rely on a client dot or a status color without readable text.",
+      "Don't style a synchronization check as a newly updated rule.",
+      "Don't add decorative imagery where the implemented system uses text, monograms, and authored SVG icons.",
+      "Don't animate layout or add continuous motion to routine catalog work."
+    ]
+  }
+}

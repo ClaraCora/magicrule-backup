@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { loadHistory, loadStatus } from '../lib/data';
+import { base, formatBytes, formatDate, formatNumber } from '../lib/format';
+const status = await loadStatus();
+const history = await loadHistory();
+const labels = { added: '新增', modified: '变更', removed: '下架' };
+---
+<Layout title="同步记录" active="updates">
+  <div class="page-heading"><div><h1>同步记录<span class="heading-dot">.</span></h1><p>每天检查一次，把每一次成功备份留下来。</p></div><a class="text-link" href="https://github.com/ClaraCora/magicrule-backup/actions" target="_blank" rel="noopener noreferrer">查看工作流 <Icon name="external" size={16}/></a></div>
+  <div class="sync-summary"><div><span class="health-dot"></span><strong>最近一次完整备份</strong><p>{formatDate(status.lastSuccessfulSyncAt, true)}</p></div><dl><div><dt>规则记录</dt><dd>{formatNumber(status.clientRuleCount)}</dd></div><div><dt>备份文件</dt><dd>{formatNumber(status.artifactCount)}</dd></div><div><dt>文件总量</dt><dd>{formatBytes(status.totalBytes)}</dd></div></dl></div>
+  <p class="inline-note">计划每天 04:17 自动运行，GitHub 调度可能延迟。这里仅记录完整校验成功的同步；失败详情见工作流。文件变更与目录信息变更均会记录，检查本身不会刷新规则更新时间。</p>
+  <div class="history-list">{history.map((run, index) => <section class="history-entry"><div class="history-date"><span class="history-node"></span><h2>{formatDate(run.syncedAt)}</h2><time datetime={run.syncedAt}>{formatDate(run.syncedAt, true).slice(11)}</time>{index === 0 && <span class="recommended">最近一次</span>}</div><div class="history-content"><p><span>新增 <strong>{formatNumber(run.added)}</strong></span><span>变更 <strong>{formatNumber(run.modified)}</strong></span><span>下架 <strong>{formatNumber(run.removed)}</strong></span></p>{run.changes.length > 0 ? <details><summary>查看规则变动（{formatNumber(run.changes.length)} 条）</summary><ul class="change-list">{run.changes.map(change => <li><span class={`change-kind ${change.kind}`}>{labels[change.kind]}</span><a href={`${base}/rules/${change.id}/`}>{change.name}</a><span>{change.client}</span></li>)}</ul></details> : <span class="muted">规则与上次一致，已重新核对所有清单。</span>}</div></section>)}</div>
+  <p class="inline-note">页面保留最近 90 次成功同步。更早的文件版本可在 <a href="https://github.com/ClaraCora/magicrule-backup/commits/data/" target="_blank" rel="noopener noreferrer">data 分支提交历史</a>中查找。</p>
+</Layout>

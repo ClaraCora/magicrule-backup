@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import { loadCatalog } from '../../lib/data';
+import { base, externalUrl, formatBytes, formatDate, formatNumber } from '../../lib/format';
+import type { Rule } from '../../lib/types';
+export async function getStaticPaths() {
+  const catalog = await loadCatalog();
+  return catalog.rules.map(rule => ({ params: { id: rule.id }, props: { rule } }));
+}
+interface Props { rule: Rule }
+const { rule } = Astro.props;
+---
+<Layout title={`${rule.chineseName || rule.name} · 规则详情`}>
+  <a class="back-link" href={`${base}/`}><Icon name="back" size={18}/>返回规则目录</a>
+  <div class="detail-heading"><span class="rule-monogram large" aria-hidden="true">{rule.name.slice(0, 2).toUpperCase()}</span><div><h1>{rule.name}</h1>{rule.chineseName && rule.chineseName !== rule.name && <p>{rule.chineseName}</p>}</div><span class="detail-badge">{rule.variants.filter(v => !v.archived).length} 个客户端可用</span></div>
+  <nav class="detail-client-tabs" aria-label="跳转至客户端规则">{rule.variants.map(variant => <a href={`#${variant.client}`}><span class={`client-dot ${variant.client.toLowerCase()}`}></span>{variant.client}{variant.archived && <span>已下架</span>}</a>)}</nav>
+  {rule.variants.map(variant => <section id={variant.client} class="variant-section" aria-labelledby={`heading-${variant.client}`}>
+    <div class="section-heading"><h2 id={`heading-${variant.client}`}><span class={`client-dot ${variant.client.toLowerCase()}`}></span>{variant.client}</h2><span class:list={['availability', { archived: variant.archived }]}>{variant.archived ? '源站已下架 · 保留最后备份' : '已完整备份'}</span></div>
+    {variant.description && <p class="variant-description">{variant.description}</p>}
+    <dl class="rule-facts"><div><dt>规则条数</dt><dd>{formatNumber(variant.totalLineCount)}</dd></div><div><dt>源站规则更新时间</dt><dd><time datetime={variant.sourceUpdatedAt || undefined}>{formatDate(variant.sourceUpdatedAt, true)}</time></dd></div><div><dt>备份文件变更时间</dt><dd><time datetime={variant.fileChangedAt || undefined}>{formatDate(variant.fileChangedAt, true)}</time></dd></div></dl>
+    <div class="type-tags">{Object.entries(variant.typeCounts).map(([type, count]) => <span>{type}<b>{formatNumber(count)}</b></span>)}</div>
+    <div class="artifact-list">{variant.artifacts.map(artifact => <article class="artifact-row"><div class="artifact-info"><span class="extension">{artifact.extension.toUpperCase()}</span><div><h3>{artifact.label}{artifact.recommended && <span class="recommended">推荐</span>}{artifact.empty && <span class="recommended neutral">空规则</span>}</h3><p>{formatBytes(artifact.bytes)} · {artifact.binary ? '二进制格式' : '文本格式'}</p></div></div><div class="artifact-actions"><button class="button" type="button" data-copy={artifact.url} aria-label={`复制 ${variant.client} ${artifact.label} 订阅地址`}><Icon name="copy" size={16}/>复制地址</button><a class="button primary" href={artifact.url} data-download={`${variant.client}_${rule.name}_${artifact.key}.${artifact.extension}`} target="_blank" rel="noopener noreferrer"><Icon name="download" size={16}/>下载</a></div><details class="file-details"><summary>文件地址与 SHA-256</summary><a href={artifact.url} target="_blank" rel="noopener noreferrer">{artifact.url}</a><code>SHA-256: {artifact.sha256}</code><span>文件变更：{formatDate(artifact.changedAt, true)}</span></details></article>)}</div>
+    {variant.artifacts.some(a => a.verification === 'normalized-header') && <p class="inline-note">此规则的部分共享文件与清单存在文件头差异，已按原站声明的正文 SHA-256 校验；备份保留实际下载字节和独立文件哈希。</p>}
+    {!variant.artifacts.length && <p class="inline-note">原站未为此规则提供下载文件。</p>}
+    <details class="sources"><summary>查看规则来源与原始清单</summary><ul>{variant.providers.filter(url => externalUrl(url)).map(provider => <li><a href={externalUrl(provider)} target="_blank" rel="noopener noreferrer">{provider}<Icon name="external" size={13}/></a></li>)}<li><a href={variant.sourceManifestUrl} target="_blank" rel="noopener noreferrer">原站文件清单<Icon name="external" size={13}/></a></li></ul></details>
+  </section>)}
+  <p class="inline-note">复制地址后，按对应客户端的规则集订阅方式使用。Mihomo 请根据配置选择 YAML 或 MRS；附属模块需按客户端说明安装。规则文件保留原作者信息。</p>
+</Layout>
