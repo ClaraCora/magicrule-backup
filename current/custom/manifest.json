@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "policySha256": "ab50244f6dcb31d7c41f2a6736a0e2de5660a2d61311d1b47a3e1b35ab099a01",
+  "sources": {
+    "Mihomo/GlobalAI": {
+      "path": "current/rules/Mihomo/classical/GlobalAI.yaml",
+      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/GlobalAI.yaml",
+      "sha256": "ef5bc5400cd2402ed7318a8fc3180d1dbd920e5633e9de4fd98e58f93370ca04"
+    },
+    "Egern/GlobalAI": {
+      "path": "current/rules/Egern/rules/GlobalAI.yaml",
+      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/GlobalAI.yaml",
+      "sha256": "3572ee1427d19fcc5f7ca0908035008b614778a6eb43f9e544f11e057a3cd73b"
+    },
+    "Egern/NetEaseMusic": {
+      "path": "current/rules/Egern/rules/NetEaseMusic.yaml",
+      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/NetEaseMusic.yaml",
+      "sha256": "068551cbfe0f3a4d0196267d2accb6edb2b216db67b56851fc04e758fbbcaac4"
+    }
+  },
+  "files": [
+    {
+      "file": "Mihomo/ForeignAI.yaml",
+      "sha256": "1f1ad3c1115c94f4fd897f736122a63f7b06b9015399e9cba40c13f783d83ffe",
+      "bytes": 10995
+    },
+    {
+      "file": "Mihomo/DomesticAI.yaml",
+      "sha256": "d0ee8b1ddb6445592b12127fb7cb0bb7b904ccb8bb5d55c0a7bd182588495712",
+      "bytes": 2165
+    },
+    {
+      "file": "Egern/ForeignAI.yaml",
+      "sha256": "1f6efe1fb9e7a167877a1b2431f102c9c67152cd0623484336a928f605515add",
+      "bytes": 7004
+    },
+    {
+      "file": "Egern/DomesticAI.yaml",
+      "sha256": "fa1dbf0872376c75b7e9de1ef08709326993af5889fb6a90997b425f4c5beaab",
+      "bytes": 1485
+    },
+    {
+      "file": "Egern/NetEaseMusic.yaml",
+      "sha256": "de6109b67438d2f8d5314486f07db61cd7bbac9b86c7b462a5fbbfef7c12c1a1",
+      "bytes": 1573
+    },
+    {
+      "file": "Mihomo/WebRTC.list",
+      "sha256": "51878b75e3f138e84731753e077981cf7d708ca9731c48e16d65eb9422de005d",
+      "bytes": 876
+    }
+  ]
+}
