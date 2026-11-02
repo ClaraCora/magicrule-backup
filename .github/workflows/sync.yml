@@ -38,6 +38,8 @@ jobs:
       - run: npm run check && npm test
       - name: Prepare data worktree
         run: npm run prepare:data
+      - name: Migrate and verify named rule files offline
+        run: npm run migrate:names
       - name: Restore verified download cache
         uses: actions/cache@v4
         with:
@@ -50,7 +52,6 @@ jobs:
       - name: Build website from backup
         run: npm run verify && npm run build
       - name: Commit validated backup
-        if: github.event_name != 'workflow_dispatch' || inputs.sync
         run: |
           git -C .cache/backup config user.name 'github-actions[bot]'
           git -C .cache/backup config user.email '41898282+github-actions[bot]@users.noreply.github.com'

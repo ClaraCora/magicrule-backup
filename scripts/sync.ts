@@ -1,8 +1,9 @@
 import { createHash, randomUUID } from 'node:crypto';
-import { cp, mkdir, readFile, writeFile, rename, rm, access } from 'node:fs/promises';
+import { cp, mkdir, readFile, writeFile, rm, access } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { Artifact, Catalog, Change, Rule, SyncRun, SyncStatus, Variant } from '../src/lib/types.ts';
+import { artifactLocation, pathRegistry, publishSnapshot, ruleFile, storedBytes } from './artifact-layout.ts';
 
 export interface SyncOptions {
   source: string;
@@ -83,7 +84,6 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   const root = path.resolve(options.dataDirectory);
   const current = path.join(root, 'current');
   const staging = path.join(root, `.staging-${randomUUID()}`);
-  const previousPath = path.join(root, `.previous-${randomUUID()}`);
   const now = (options.now?.() || new Date()).toISOString();
   if (!options.clients.length || options.concurrency < 1 || options.attempts < 1) throw new Error('Invalid sync configuration');
   if (!/^[\w.-]+\/[\w.-]+$/.test(options.repository)) throw new Error('Invalid repository');
@@ -92,6 +92,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   const oldCatalog = await jsonRead<Catalog>(path.join(current, 'catalog.json'), { schemaVersion: 1, clients: [], rules: [] });
   const oldVariants = new Map<string, Variant>(oldCatalog.rules.flatMap(rule => rule.variants.map(variant => [`${variant.client}/${rule.id}`, variant] as const)));
   let downloadedFiles = 0, reusedFiles = 0, completed = 0;
+  const claimPath = pathRegistry();
   const allowed = new Set(options.allowedOrigins);
   const urlFor = (value: string, manifest = false) => {
     const base = manifest && !value.startsWith('/') && !/^https?:/i.test(value) && !value.startsWith('data/') ? `${options.source}/data/` : `${options.source}/`;
@@ -133,6 +134,8 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   };
   try {
     if (await present(current)) await cp(current, staging, { recursive: true });
+    await rm(path.join(staging, 'rules'), { recursive: true, force: true });
+    await mkdir(path.join(staging, 'rules'), { recursive: true });
     await mkdir(path.join(staging, 'raw', 'meta'), { recursive: true });
     await mkdir(path.join(staging, 'raw', 'index'), { recursive: true });
     const metadata = await pool(['clients', 'capabilities', 'config'], options.concurrency, async name => {
@@ -170,18 +173,20 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
       const artifacts: Artifact[] = [];
       for (const artifact of manifest.artifacts) {
         segment(artifact.key); segment(artifact.ext);
-        const fileName = `${artifact.key}.${artifact.ext}`;
-        if (keys.has(fileName)) throw new Error(`Duplicate artifact: ${client}/${rule.id}/${fileName}`);
-        keys.add(fileName);
-        const relative = `current/rules/${client}/${rule.id}/${fileName}`;
+        const location = artifactLocation(client, rule.name, artifact.key, artifact.ext, options.repository);
+        const identity = `${artifact.key}.${artifact.ext}`;
+        if (keys.has(identity)) throw new Error(`Duplicate artifact: ${client}/${rule.id}/${identity}`);
+        keys.add(identity);
+        claimPath(location.path, `${client}/${rule.id}/${identity}`);
+        const relative = location.path;
         const file = path.join(staging, ...relative.split('/').slice(1));
         const sourceUrl = urlFor(artifact.url);
         const expectedHash = artifact.dedupe?.bytes_sha256;
         if (expectedHash && !/^[a-f0-9]{64}$/i.test(expectedHash)) throw new Error(`Invalid artifact hash: ${sourceUrl}`);
         const old = prior?.artifacts.find(item => item.key === artifact.key && item.extension === artifact.ext);
         let bytes: Buffer | undefined;
-        if (expectedHash && (old?.sha256 === expectedHash || old?.expectedSha256 === expectedHash) && await present(file)) {
-          const cached = await readFile(file);
+        if (expectedHash && old && (old.sha256 === expectedHash || old.expectedSha256 === expectedHash) && await present(ruleFile(root, old.path))) {
+          const cached = await readFile(ruleFile(root, old.path));
           if (digest(cached) === old?.sha256) {
             try { verifyArtifact(cached, artifact); bytes = cached; reusedFiles++; } catch { /* Re-download corrupt or outdated cache. */ }
           }
@@ -202,14 +207,14 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
             }
           }
           if (!bytes.length && !artifact.empty) throw new Error(`Unexpected empty artifact: ${sourceUrl}`);
-          await mkdir(path.dirname(file), { recursive: true });
-          await writeFile(file, bytes);
         }
+        await mkdir(path.dirname(file), { recursive: true });
+        await writeFile(file, bytes);
         const sha256 = digest(bytes);
         artifacts.push({
           key: artifact.key, label: artifact.label || artifact.key, extension: artifact.ext,
           binary: Boolean(artifact.binary), empty: Boolean(artifact.empty), recommended: Boolean(artifact.recommended),
-          path: relative, url: `https://raw.githubusercontent.com/${options.repository}/refs/heads/data/${relative}`,
+          ...location,
           sourceUrl, sha256, expectedSha256: expectedHash || null, verification: verifyArtifact(bytes, artifact),
           bytes: bytes.length, changedAt: old?.sha256 === sha256 ? old.changedAt : now,
         });
@@ -251,6 +256,18 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
     for (const rule of oldCatalog.rules) for (const variant of rule.variants) {
       if (options.clients.includes(variant.client) && !variant.archived && !seen.has(`${variant.client}/${rule.id}`)) changes.push({ id: rule.id, name: rule.name, client: variant.client, kind: 'removed' });
     }
+    // Rebuild archived files too; never leave obsolete or legacy paths in the output tree.
+    for (const rule of grouped.values()) for (const variant of rule.variants.filter(v => v.archived)) {
+      for (const artifact of variant.artifacts) {
+        const location = artifactLocation(variant.client, variant.name, artifact.key, artifact.extension, options.repository);
+        claimPath(location.path, `${variant.client}/${rule.id}/${artifact.key}.${artifact.extension} (archived)`);
+        const bytes = await storedBytes(root, artifact);
+        const file = path.join(staging, ...location.path.split('/').slice(1));
+        await mkdir(path.dirname(file), { recursive: true });
+        await writeFile(file, bytes);
+        Object.assign(artifact, location);
+      }
+    }
     const catalog: Catalog = { schemaVersion: 1, clients: options.clients, rules: [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name, 'en')) };
     const successfulAt = (options.now?.() || new Date()).toISOString();
     const status: SyncStatus = {
@@ -266,11 +283,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
     await jsonWrite(path.join(staging, 'catalog.json'), catalog);
     await jsonWrite(path.join(staging, 'status.json'), status);
     await jsonWrite(path.join(staging, 'history.json'), [run, ...history].slice(0, 90));
-    const hadPrevious = await present(current);
-    if (hadPrevious) await rename(current, previousPath);
-    try { await rename(staging, current); }
-    catch (error) { if (hadPrevious) await rename(previousPath, current); throw error; }
-    if (hadPrevious) await rm(previousPath, { recursive: true, force: true });
+    await publishSnapshot(root, staging);
     await writeFile(path.join(root, '.gitignore'), '.staging-*\n.previous-*\n.downloads/\n');
     await writeFile(path.join(root, '.gitattributes'), '* -text\n');
     await writeFile(path.join(root, 'README.md'), '# MagicRule backup data\n\nGenerated by the main branch sync workflow. Do not edit manually.\n\n`current/raw/` preserves upstream indexes and manifests; `current/rules/` preserves artifact bytes; `current/catalog.json`, `status.json`, and `history.json` describe the snapshot. Original author and license statements remain in upstream files.\n');

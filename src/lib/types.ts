@@ -1,5 +1,6 @@
 export interface Artifact {
   key: string;
+  fileName: string;
   label: string;
   extension: string;
   binary: boolean;

@@ -8,6 +8,7 @@
     "dev": "astro dev --host 127.0.0.1",
     "prepare:data": "node scripts/prepare-data.ts",
     "sync": "node scripts/sync.ts",
+    "migrate:names": "node scripts/migrate-names.ts",
     "verify": "node scripts/verify.ts",
     "check": "astro check",
     "test": "node --test tests/*.test.ts",

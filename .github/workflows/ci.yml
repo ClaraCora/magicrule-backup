@@ -17,4 +17,5 @@ jobs:
       - run: npm run check && npm test
       - name: Load published backup for a build check
         run: npm run prepare:data
+      - run: npm run migrate:names && npm run verify
       - run: npm run build
