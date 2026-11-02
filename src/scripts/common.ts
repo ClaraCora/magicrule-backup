@@ -1,5 +1,6 @@
 const notice = document.querySelector<HTMLElement>('#notice');
 let noticeTimeout: ReturnType<typeof setTimeout>;
+const copyFeedback = new WeakMap<HTMLButtonElement, { label: string; timer?: ReturnType<typeof setTimeout> }>();
 function announce(message: string) {
   if (!notice) return;
   clearTimeout(noticeTimeout);
@@ -24,13 +25,18 @@ document.addEventListener('click', async event => {
   const target = event.target as Element;
   const copy = target.closest<HTMLButtonElement>('[data-copy]');
   if (copy && !copy.disabled) {
-    const label = copy.innerHTML;
+    let feedback = copyFeedback.get(copy);
+    if (!feedback) { feedback = { label: copy.innerHTML }; copyFeedback.set(copy, feedback); }
+    const copiedUrl = copy.dataset.copy || '';
+    const copiedLabel = copy.dataset.copyLabel;
     try {
-      await navigator.clipboard.writeText(copy.dataset.copy || '');
+      await navigator.clipboard.writeText(copiedUrl);
+      if (copy.dataset.copy !== copiedUrl) return;
+      clearTimeout(feedback.timer);
       copy.textContent = '已复制';
-      announce('订阅地址已复制，可以粘贴到对应客户端。');
-      setTimeout(() => { copy.innerHTML = label; }, 1800);
-    } catch { announce('复制失败，请展开“文件地址与 SHA-256”手动复制地址。'); }
+      announce(copiedLabel ? `${copiedLabel} 订阅地址已复制。` : '订阅地址已复制，可以粘贴到对应客户端。');
+      feedback.timer = setTimeout(() => { if (copy.dataset.copy === copiedUrl) copy.innerHTML = feedback.label; }, 1800);
+    } catch { announce('复制失败，请打开规则详情中的“文件地址与 SHA-256”手动复制地址。'); }
   }
   const download = target.closest<HTMLAnchorElement>('[data-download]');
   if (download) {

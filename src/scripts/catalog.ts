@@ -1,10 +1,11 @@
 import { formatDate, formatNumber } from '../lib/format';
-import { latestDate, matchingVariants, searchRules } from '../lib/search';
+import { artifactChoices, defaultArtifact, searchRules } from '../lib/search';
 import type { Filters, SearchRule } from '../lib/search';
 
 const container = document.querySelector<HTMLElement>('.catalog')!;
 const input = document.querySelector<HTMLInputElement>('#query')!;
 const type = document.querySelector<HTMLSelectElement>('#rule-type')!;
+const format = document.querySelector<HTMLSelectElement>('#file-format')!;
 const sort = document.querySelector<HTMLSelectElement>('#sort')!;
 const archived = document.querySelector<HTMLInputElement>('#include-archived')!;
 const results = document.querySelector<HTMLElement>('#results')!;
@@ -27,18 +28,20 @@ function readParams() {
   input.value = params.get('q') || '';
   selectedClient = clientButtons.some(b => b.dataset.client === params.get('client')) ? params.get('client') || '' : '';
   type.value = params.get('type') || '';
+  format.value = params.get('format') || '';
   sort.value = params.get('sort') || 'updated';
   if (!sort.value) sort.value = 'updated';
   archived.checked = params.get('archived') === '1';
   page = Math.max(1, Number.parseInt(params.get('page') || '1', 10) || 1);
 }
-const filters = (): Filters => ({ query: input.value, client: selectedClient, type: type.value, sort: sort.value, archived: archived.checked });
+const filters = (): Filters => ({ query: input.value, client: selectedClient, type: type.value, format: format.value, sort: sort.value, archived: archived.checked });
 function updateUrl(push = false) {
   const url = new URL(location.href);
   url.search = '';
   if (input.value.trim()) url.searchParams.set('q', input.value.trim());
   if (selectedClient) url.searchParams.set('client', selectedClient);
   if (type.value) url.searchParams.set('type', type.value);
+  if (format.value) url.searchParams.set('format', format.value);
   if (sort.value !== 'updated') url.searchParams.set('sort', sort.value);
   if (archived.checked) url.searchParams.set('archived', '1');
   if (page > 1) url.searchParams.set('page', String(page));
@@ -48,6 +51,13 @@ function element<K extends keyof HTMLElementTagNameMap>(tag: K, className: strin
   const node = document.createElement(tag); node.className = className;
   if (text != null) node.textContent = text;
   return node;
+}
+function icon(name: 'book' | 'copy' | 'arrow') {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  for (const [key, value] of Object.entries({ viewBox: '0 0 24 24', width: '17', height: '17', fill: 'none', stroke: 'currentColor', 'stroke-width': '1.7', 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'aria-hidden': 'true' })) svg.setAttribute(key, value);
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', { book: 'M4 3h7a2 2 0 0 1 2 2v16a3 3 0 0 0-3-2H4zM13 5a2 2 0 0 1 2-2h6v16h-5a3 3 0 0 0-3 2', copy: 'M9 9h12v12H9zM5 15H3V3h12v2', arrow: 'm9 5 7 7-7 7' }[name]);
+  svg.append(path); return svg;
 }
 function render() {
   if (!loaded) return;
@@ -59,37 +69,45 @@ function render() {
   results.replaceChildren();
   const fragment = document.createDocumentFragment();
   for (const rule of matches.slice((page - 1) * pageSize, page * pageSize)) {
-    const variants = matchingVariants(rule, selection);
+    const choices = artifactChoices(rule, selection);
+    const initial = defaultArtifact(choices);
     const row = element('div', 'rule-row'); row.setAttribute('role', 'row');
     const nameCell = element('div', 'rule-name-cell'); nameCell.setAttribute('role', 'cell');
-    const monogram = element('span', 'rule-monogram', rule.name.slice(0, 2).toUpperCase()); monogram.setAttribute('aria-hidden', 'true');
+    const monogram = element('span', 'rule-file-icon'); monogram.append(icon('book')); monogram.setAttribute('aria-hidden', 'true');
     const names = element('div', 'rule-names');
     const href = `${container.dataset.base}/rules/${encodeURIComponent(rule.id)}/${selectedClient ? '#' + selectedClient : ''}`;
     const title = element('a', 'rule-name', rule.name); title.href = href; title.title = rule.name;
-    names.append(title, element('span', 'rule-chinese', rule.chineseName && rule.chineseName !== rule.name ? rule.chineseName : variants[0]?.description.slice(0, 65) || '分流规则集'));
+    names.append(title, element('span', 'rule-chinese', rule.chineseName && rule.chineseName !== rule.name ? rule.chineseName : initial?.variant.description.slice(0, 65) || '分流规则集'));
     nameCell.append(monogram, names);
-    const clients = element('div', 'client-badges'); clients.setAttribute('role', 'cell');
-    for (const variant of variants) {
-      const badge = element('span', `client-badge ${variant.client.toLowerCase()}${variant.archived ? ' archived' : ''}`, variant.client);
-      if (variant.archived) badge.title = '源站已下架，保留最后备份';
-      clients.append(badge);
-    }
-    const counts = variants.map(v => v.totalLineCount).filter((v): v is number => v != null);
-    const minimum = counts.length ? Math.min(...counts) : null;
-    const maximum = counts.length ? Math.max(...counts) : null;
-    const lines = element('div', 'rule-lines', minimum !== maximum ? `${formatNumber(minimum)}–${formatNumber(maximum)}` : formatNumber(maximum));
-    lines.setAttribute('role', 'cell'); lines.title = variants.map(v => `${v.client}: ${formatNumber(v.totalLineCount)} 条`).join('\n');
+    const fileCell = element('div', 'rule-file'); fileCell.setAttribute('role', 'cell');
+    const fileName = element('strong', 'file-name');
+    const fileSelect = element('select', 'file-choice'); fileSelect.setAttribute('aria-label', `${rule.name} 的客户端与订阅格式`);
+    choices.forEach((choice, index) => { const option = element('option', '', `${choice.variant.client} · ${choice.artifact.key}${choice.variant.archived ? ' · 已下架' : ''}`); option.value = String(index); fileSelect.append(option); });
+    const lines = element('div', 'rule-lines'); lines.setAttribute('role', 'cell');
     const updated = element('div', 'rule-date'); updated.setAttribute('role', 'cell');
-    const sourceAt = latestDate(variants.map(v => v.sourceUpdatedAt));
-    const time = element('time', '', formatDate(sourceAt));
-    if (sourceAt) time.dateTime = sourceAt;
+    const time = element('time', '');
     updated.append(time, element('span', 'date-note', '源站规则更新'));
     const action = element('div', 'rule-action'); action.setAttribute('role', 'cell');
-    const detail = element('a', 'detail-link', '查看规则'); detail.href = href; detail.setAttribute('aria-label', `查看 ${rule.chineseName || rule.name} 规则详情`);
-    const arrow = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    arrow.setAttribute('viewBox', '0 0 24 24'); arrow.setAttribute('width', '16'); arrow.setAttribute('height', '16'); arrow.setAttribute('fill', 'none'); arrow.setAttribute('stroke', 'currentColor'); arrow.setAttribute('stroke-width', '1.7'); arrow.setAttribute('aria-hidden', 'true');
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path'); path.setAttribute('d', 'M5 12h14m-6-6 6 6-6 6'); arrow.append(path); detail.append(arrow); action.append(detail);
-    row.append(nameCell, clients, lines, updated, action); fragment.append(row);
+    const copy = element('button', 'copy-address'); copy.type = 'button';
+    const resetCopy = () => copy.replaceChildren(icon('copy'), element('span', '', '复制地址'));
+    const detail = element('a', 'detail-link'); detail.href = href; detail.setAttribute('aria-label', `查看 ${rule.chineseName || rule.name} 规则详情`); detail.title = '查看规则详情'; detail.append(icon('arrow'));
+    function selectFile(index: number) {
+      const chosen = choices[index];
+      if (!chosen) return;
+      const { artifact, variant } = chosen;
+      fileSelect.value = String(index); fileName.textContent = artifact.fileName; fileName.title = artifact.fileName;
+      lines.textContent = formatNumber(variant.totalLineCount); lines.title = `${variant.client}: ${formatNumber(variant.totalLineCount)} 条`;
+      time.textContent = formatDate(variant.sourceUpdatedAt); if (variant.sourceUpdatedAt) time.dateTime = variant.sourceUpdatedAt; else time.removeAttribute('datetime');
+      detail.href = `${container.dataset.base}/rules/${encodeURIComponent(rule.id)}/#${variant.client}`; title.href = detail.href;
+      copy.dataset.copy = artifact.url; copy.dataset.copyLabel = `${artifact.fileName} · ${variant.client} · ${artifact.key}`;
+      copy.setAttribute('aria-label', `复制 ${artifact.fileName} ${variant.client} ${artifact.key} 订阅地址`); resetCopy();
+      row.classList.toggle('archived-row', variant.archived);
+    }
+    fileSelect.addEventListener('change', () => selectFile(Number(fileSelect.value)));
+    if (initial) { selectFile(choices.indexOf(initial)); fileCell.append(fileName, fileSelect); action.append(copy); }
+    else fileCell.append(element('span', 'muted', '请在详情中选择文件'));
+    action.append(detail);
+    row.append(nameCell, fileCell, lines, updated, action); fragment.append(row);
   }
   results.append(fragment); results.setAttribute('aria-busy', 'false');
   const from = matches.length ? (page - 1) * pageSize + 1 : 0;
@@ -123,8 +141,8 @@ clientButtons.forEach(button => {
 });
 input.addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => change(), 180); });
 document.querySelector('#search-form')!.addEventListener('submit', event => { event.preventDefault(); clearTimeout(debounce); change(true); });
-for (const control of [type, sort, archived]) control.addEventListener('change', () => change(true));
-document.querySelector('#reset')!.addEventListener('click', () => { input.value = ''; type.value = ''; sort.value = 'updated'; selectedClient = ''; archived.checked = false; change(true); input.focus(); });
+for (const control of [type, format, sort, archived]) control.addEventListener('change', () => change(true));
+document.querySelector('#reset')!.addEventListener('click', () => { input.value = ''; type.value = ''; format.value = ''; sort.value = 'updated'; selectedClient = ''; archived.checked = false; change(true); input.focus(); });
 previous.addEventListener('click', () => { page--; render(); updateUrl(true); document.querySelector('.results-toolbar')?.scrollIntoView({ block: 'start' }); });
 next.addEventListener('click', () => { page++; render(); updateUrl(true); document.querySelector('.results-toolbar')?.scrollIntoView({ block: 'start' }); });
 document.querySelector('#retry')!.addEventListener('click', () => { void load(); });

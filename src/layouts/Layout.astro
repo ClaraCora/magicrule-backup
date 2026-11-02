@@ -3,7 +3,7 @@ import '@fontsource-variable/inter';
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
 import { loadStatus } from '../lib/data';
-import { base, formatDate, formatNumber } from '../lib/format';
+import { base, formatDate } from '../lib/format';
 interface Props { title: string; active?: string; description?: string }
 const { title, active = 'catalog', description = 'Egern、Mihomo、Loon 分流规则每日备份。搜索规则，查看更新时间，复制备份订阅地址。' } = Astro.props;
 const status = await loadStatus();
@@ -14,27 +14,26 @@ const status = await loadStatus();
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#173d34" />
+    <meta name="theme-color" content="#285dd8" />
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     <title>{title} · MagicRule Backup</title>
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
-    <aside class="sidebar">
-      <a class="brand" href={`${base}/`} aria-label="MagicRule Backup 首页"><span class="brand-mark"><svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M4 22V6l10 10L24 6v16M4 14l10 10 10-10" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg></span><span>MagicRule<small>BACKUP</small></span></a>
+    <header class="topbar">
+      <a class="brand" href={`${base}/`} aria-label="MagicRule Backup 首页"><span class="brand-mark"><svg viewBox="0 0 30 30" fill="none" aria-hidden="true"><path d="M3 22V7l12 10L27 7v15L15 12 3 22Z" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/></svg></span><span>MagicRule <small>BACKUP</small></span></a>
       <nav class="primary-nav" aria-label="主要导航">
-        <a href={`${base}/`} aria-current={active === 'catalog' ? 'page' : undefined}><Icon name="folder" />规则目录<Icon name="arrow" size={16} class="nav-arrow" /></a>
+        <a href={`${base}/`} aria-current={active === 'catalog' ? 'page' : undefined}><Icon name="grid" />规则目录</a>
         <a href={`${base}/updates/`} aria-current={active === 'updates' ? 'page' : undefined}><Icon name="history" />同步记录</a>
         <a href={`${base}/about/`} aria-current={active === 'about' ? 'page' : undefined}><Icon name="book" />使用说明</a>
       </nav>
-      <div class="sidebar-clients"><p>备份的客户端</p>{status.clients.map(client => <a href={`${base}/?client=${client.name}`}><span class={`client-dot ${client.name.toLowerCase()}`}></span><span>{client.name}</span><span class="client-count">{formatNumber(client.count)}</span></a>)}</div>
-      <div class="sidebar-foot"><span class="archive-symbol" aria-hidden="true"><Icon name="check" size={17} /></span><strong>规则有备份，使用有底。</strong><p>每日 04:17 自动同步<br />北京时间 · 保留文件历史</p><a href="https://github.com/ClaraCora/magicrule-backup" target="_blank" rel="noopener noreferrer">查看 GitHub 仓库<Icon name="external" size={14} /></a></div>
-    </aside>
+      <a class="repository-link" aria-label="GitHub 仓库" href="https://github.com/ClaraCora/magicrule-backup" target="_blank" rel="noopener noreferrer"><Icon name="github" size={18}/><span>GitHub</span></a>
+    </header>
     <div class="app-body">
-      <header class="status-bar"><div class="sync-health" data-sync-at={status.lastSuccessfulSyncAt}><span class="health-dot"></span><span data-health-label>最近同步成功</span><time datetime={status.lastSuccessfulSyncAt}>{formatDate(status.lastSuccessfulSyncAt, true)}</time><span class="timezone">北京时间</span></div><a href={`${base}/updates/`}>同步详情 <Icon name="arrow" size={15}/></a></header>
+      <div class="status-bar"><div class="sync-health" data-sync-at={status.lastSuccessfulSyncAt}><span class="health-dot"></span><span data-health-label>最近同步成功</span><time datetime={status.lastSuccessfulSyncAt}>{formatDate(status.lastSuccessfulSyncAt, true)}</time><span class="timezone">北京时间</span></div><a href={`${base}/updates/`}>查看同步记录 <Icon name="arrow" size={15}/></a></div>
       <main id="main" class="main"><slot /></main>
-      <footer class="page-footer"><span>源自 <a href="https://magicrule.pages.dev/" target="_blank" rel="noopener noreferrer">MagicRule</a> · 独立备份与检索站</span><span>规则版权及许可归原作者 · 所有日期为北京时间</span></footer>
+      <footer class="page-footer"><span>源自 <a href="https://magicrule.pages.dev/" target="_blank" rel="noopener noreferrer">MagicRule</a> · 规则版权及许可归原作者</span><span>每日 04:17 自动同步 · 保留文件历史 · 北京时间</span></footer>
     </div>
     <div id="notice" role="status" aria-live="polite" class="notice" hidden></div>
     <script>

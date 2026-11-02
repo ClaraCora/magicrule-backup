@@ -1,36 +1,36 @@
 ---
 name: MagicRule Backup
-description: A calm, searchable archive for Egern, Mihomo, and Loon rule backups.
+description: 清透工具台 — a compact directory for finding rules and copying explicit backup subscription URLs.
 colors:
-  forest: "#173d34"
-  forest-deep: "#123127"
-  ink: "#203c32"
-  muted: "#5e7065"
-  paper: "#f7f8f2"
-  surface: "#ffffff"
-  line: "#dce3d8"
-  mint: "#e6eed0"
-  accent: "#b64c30"
-  accent-wash: "#f8e9e0"
-  success: "#286647"
+  forest: "#285dd8"
+  forest-deep: "#204cad"
+  ink: "#1d2b43"
+  muted: "#607089"
+  paper: "#f6f8fc"
+  surface: "#fff"
+  line: "#dfe5ee"
+  mint: "#eaf0ff"
+  accent: "#285dd8"
+  accent-wash: "#eaf0ff"
+  success: "#2c7254"
   warning: "#92561c"
 typography:
   display:
     fontFamily: "'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif"
-    fontSize: "40px"
-    fontWeight: 680
+    fontSize: "30px"
+    fontWeight: 700
     lineHeight: 1.25
-    letterSpacing: "-.035em"
+    letterSpacing: "-.025em"
   headline:
     fontFamily: "'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif"
-    fontSize: "21px"
-    fontWeight: 650
+    fontSize: "22px"
+    fontWeight: 700
     lineHeight: 1.45
     letterSpacing: "-.02em"
   title:
     fontFamily: "'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif"
     fontSize: "14px"
-    fontWeight: 600
+    fontWeight: 650
     lineHeight: 1.5
   body:
     fontFamily: "'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif"
@@ -58,20 +58,24 @@ typography:
     fontWeight: 400
     lineHeight: 1.6
 rounded:
+  tag: "3px"
   badge: "4px"
-  selection: "5px"
+  select: "5px"
   control: "6px"
   base: "8px"
+  search: "10px"
   panel: "12px"
 spacing:
   sm: "8px"
+  control: "12px"
   md: "16px"
+  gutter: "20px"
   lg: "24px"
-  xl: "40px"
+  panel: "28px"
 components:
   button-primary:
     backgroundColor: "{colors.forest}"
-    textColor: "#f6f8ef"
+    textColor: "{colors.surface}"
     typography: "{typography.label}"
     rounded: "{rounded.control}"
     padding: "9px 16px"
@@ -85,26 +89,23 @@ components:
     padding: "9px 16px"
   button-secondary-hover:
     backgroundColor: "{colors.paper}"
+  button-copy:
+    backgroundColor: "{colors.mint}"
+    textColor: "{colors.accent}"
+    rounded: "{rounded.control}"
+    padding: "8px 11px"
   search-input:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
-    typography: "{typography.body}"
-    height: "44px"
+    height: "42px"
   navigation-current:
-    backgroundColor: "{colors.mint}"
-    textColor: "{colors.forest}"
-    rounded: "{rounded.control}"
-    padding: "12px 15px"
+    textColor: "{colors.accent}"
+    padding: "1px 2px 0"
   filter-selected:
     backgroundColor: "{colors.mint}"
-    textColor: "{colors.forest}"
-    rounded: "{rounded.selection}"
-    padding: "9px 13px"
-  client-badge-mihomo:
-    backgroundColor: "#e7f0e9"
-    textColor: "#38634c"
-    rounded: "{rounded.badge}"
-    padding: "0 6px"
+    textColor: "{colors.accent}"
+    rounded: "{rounded.control}"
+    padding: "10px 12px"
   catalog-surface:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
@@ -112,7 +113,7 @@ components:
   rule-row:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
-    padding: "12px 24px"
+    padding: "14px 24px"
   artifact-row:
     textColor: "{colors.ink}"
     padding: "20px 0"
@@ -122,136 +123,138 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Forest Archive"**
+**Creative North Star: "清透工具台"**
 
-A quiet forest-colored frame holds a cream workspace and white working surfaces. Mint marks the current location and selected filters; terracotta supplies a small point of emphasis and a clear keyboard focus signal. The character is practical, steady, and compact.
+A clear, compact workspace puts rule identity, usable filenames, dates, and actions in a calm reading order. White surfaces sit on cool blue paper; navy text carries the information, while restrained cobalt marks the current location, selections, focus, and primary actions. The character is practical, crisp, and quiet.
 
-The catalog and detail pages use an Operate mode: search, dates, client identity, and copy/download actions stay easy to scan. Documentation uses a Read mode with a narrower text measure and more leading. Both modes share the same shell, type family, authored SVG icons, and restrained native transitions.
+The shared shell uses a horizontal top navigation and a slim synchronization strip. Repeated rows keep comparison efficient; detail panels and narrower reading pages use the same family, palette, and line icons. The catalog-specific search/copy strategy is recorded in `.impeccable/surfaces/catalog.md`.
 
 **Key Characteristics:**
 
-- Forest navigation, cream workspace, white catalog surfaces.
-- Compact rows and metadata with a visible search and date hierarchy.
-- Mint selections and sparse terracotta punctuation.
-- Authored line SVG icons, explicit copy/download labels, and visible keyboard focus.
+- White working surfaces, cool blue paper, navy text, and cobalt emphasis.
+- Compact bilingual typography, fine separators, and tabular dates and counts.
+- Explicit client/format identity beside quick-copy actions.
+- Flat panels, small control corners, and visible keyboard focus.
 - A desktop table that becomes a stacked mobile list.
 
-The frontmatter is the normative token layer. It is extracted from `src/styles/global.css`; layout and icon behavior also follow `src/layouts/Layout.astro`, `src/components/Icon.astro`, and the implemented catalog, detail, and documentation pages. The sidecar extends these tokens with behavior and renderable examples.
+The frontmatter is the normative token layer, extracted from `src/styles/global.css`. Layout and behavior also follow `src/layouts/Layout.astro`, `src/pages/index.astro`, `src/pages/rules/[id].astro`, `src/pages/about.astro`, `src/scripts/catalog.ts`, and `src/scripts/common.ts`. `.impeccable/design.json` extends these tokens with source-backed states and self-contained visual examples.
 
 ## Colors
 
-The palette combines deep botanical greens, pale warm neutrals, and restrained terracotta.
+The palette pairs cool white and blue neutrals with one cobalt interaction accent.
 
 ### Primary
 
-- **Forest** (`forest`) anchors the sidebar and primary actions; **Deep Forest** (`forest-deep`) is the primary-action hover state.
-- **Mint** (`mint`) marks current navigation, selected filters, recommendations, text selection, and the synchronization summary.
+- **Cobalt Action** (`forest`) supplies primary buttons and history nodes; **Cobalt Deep** (`forest-deep`) supplies primary-button hover.
+- **Cobalt Accent** (`accent`) supplies active navigation, links on hover, search icon/caret, and keyboard focus. It deliberately has the same value as `forest`.
+- **Blue Selection Wash** (`mint`) supplies selected client filters, quick-copy buttons, recommendations, text selection, and synchronization summaries. The declared `accent-wash` aliases the same value; it has no separate component treatment.
 
-### Secondary
-
-- **Terracotta** (`accent`) supplies the heading dot, prose links, caret, link hover emphasis, and keyboard focus. **Terracotta Wash** (`accent-wash`) remains an available declared token; do not infer an additional component from it.
-- **Success Green** (`success`) marks healthy synchronization and complete availability. **Warning Ochre** (`warning`) identifies overdue synchronization and retained, delisted variants.
+The token keys `forest`, `forest-deep`, and `mint` preserve the actual CSS names `--color-forest`, `--color-forest-deep`, and `--color-mint`. They describe cobalt and pale blue in this approved system; they do not imply botanical colors.
 
 ### Neutral
 
-- **Cream Paper** (`paper`) is the workspace and quiet hover surface. **White Surface** (`surface`) holds the catalog and detail panels.
-- **Forest Ink** (`ink`) carries primary reading text. **Muted Sage** (`muted`) carries supporting metadata.
-- **Sage Line** (`line`) separates sections, rows, and controls without heavy contrast.
+- **Navy Ink** (`ink`) carries primary text. **Slate Metadata** (`muted`) carries descriptions, dates, and supporting labels.
+- **Cool Paper** (`paper`) is the page and row-hover surface. **White Surface** (`surface`) holds the topbar, search, list, and client panels.
+- **Blue-Gray Line** (`line`) divides rows, panels, and controls. The status strip and type tags use the implemented supplemental wash `#edf2fa`; table headings use `#f1f5fb`.
 
-**The Selection Rule.** Use mint for current navigation, chosen filters, recommendations, and summary emphasis. Keep terracotta for punctuation, links in prose, and interaction focus.
+Success green and warning ochre are semantic status colors. Client dots use the existing Egern (`#8a804e`), Mihomo (`#4674c5`), and Loon (`#a9744a`) tints beside readable client names. These hues identify clients or status rather than another interaction hierarchy.
 
-Client dots and badges retain their source-specific Egern, Mihomo, and Loon tints. They always accompany client names; they do not introduce a second selection language.
+**The Explicit State Rule.** Pair color with an underline, readable label, selected control state, or status wording. Keep client identity and selected state distinguishable.
 
 ## Typography
 
-**Display and Body Font:** Inter Variable, followed by Segoe UI, Microsoft YaHei, and sans-serif. The locally bundled variable face provides the intermediate weights used in headings.
+**Display and Body Font:** Inter Variable, followed by Segoe UI, Microsoft YaHei, and sans-serif. The variable face is bundled locally through `@fontsource-variable/inter`.
 
-**Label/Mono Font:** Interface labels use the same sans-serif family. Addresses and SHA-256 values use the system monospace stack.
+**Label/Mono Font:** Interface labels retain the same sans-serif family. SHA-256 values use `ui-monospace,Consolas,monospace`.
 
-**Character:** Compact, clear, and bilingual. Weight and spacing establish hierarchy without switching to a decorative display face.
+**Character:** Clear and compact, with intermediate weights for rule names and filenames. Hierarchy comes from scale, weight, and spacing within one bilingual family. The root uses tabular numerals.
 
 ### Hierarchy
 
-- **Display:** Page titles use the frontmatter display role. The main page title reduces to (35px) at the intermediate breakpoint and (31px) on mobile; detail titles use (36px), then (28px) on mobile.
-- **Headline:** Section titles use the headline role; client section headings use a nearby (22px) size.
-- **Title:** Catalog names use the title role; file titles use (16px) with a semibold weight.
-- **Body:** General interface text follows the body role. Catalog metadata uses the smaller metadata role without weakening primary rule names.
-- **Read body:** Documentation uses the body-read role within (76ch); it becomes (14px) on mobile.
-- **Label and metadata:** Buttons use the label role. Dates and supporting facts use metadata; compact badges retain their implemented smaller type.
-- **Mono:** Hashes and raw addresses wrap inside the available width instead of forcing page overflow.
+- **Display:** Main page headings use (30px/1.25, 700, −.025em), reducing to (27px) at (760px). Detail titles use (36px), reducing to (28px).
+- **Headline:** Client section headings use (22px/1.45, bold), reducing to (19px) on mobile. Generic `h2` is (21px); documentation `h2` is (23px), then (21px) on mobile.
+- **Title:** Rule names use (14px/1.5, 650). Filenames in the list use (12px, 550); detail artifact titles use (16px), then (14px) on mobile.
+- **Body:** The root is (16px/1.6). Search input is (15px), then (13px) on mobile. Dense interface content uses its implemented smaller sizes.
+- **Read body:** Documentation uses (15px/1.95) within (76ch), reducing to (14px) on mobile.
+- **Label and metadata:** Standard buttons use (13px, 500); quick-copy uses (12px). Dates and supporting facts use (12px); filenames' client/format selectors and table headers use (11px). Small tags use (10px).
+- **Mono:** File hashes use (11px). Addresses and hashes wrap within the detail panel.
 
-**The Date Clarity Rule.** Keep source rule updates, backup file changes, and successful synchronization visually labeled as distinct facts. Use tabular numerals for dates and counts.
+**The Date Clarity Rule.** Preserve the distinct labels for source rule updates, backup file changes, and successful synchronization. A successful check must not look like a changed rule.
 
 ## Layout
 
-The desktop shell has a fixed forest sidebar (232px) and an offset main workspace. The workspace is capped at (1536px), with primary desktop padding of (48px 44px 56px). A thin status strip precedes the page heading, then the white search/catalog surface. Interior catalog groups use fine separators and compact padding; repeated spacing primitives are recorded in the frontmatter.
+The desktop shell begins with a (76px) white topbar and a slim status strip with a minimum height of (47px). Topbar/status gutters use `max(5%, calc((100vw - 1296px)/2))`. The main workspace is centered at a maximum width of (1440px), with (34px 5% 24px) padding. The footer is (90%) wide, capped at (1296px).
 
-At a maximum width of (1190px), the sidebar narrows to (205px); at (1000px), it narrows to (180px) and the rule-count column disappears. At (760px), the sidebar becomes a full-width top navigation, the table header disappears, and each rule becomes a two-column list item: identity and client labels on the left, labeled date and detail action on the right. Page margins reduce to (20px). At (370px), page margins reduce to (14px) and secondary chrome is further reduced. At a minimum width of (1600px), top spacing increases.
+The heading leads into a separate full-width search field, client/type/format controls, a results toolbar, and a bordered list panel. At wide sizes, rows use five columns: identity, actual subscription file/format, count, source-update date, and actions. The grid is `minmax(190px,1.7fr) minmax(165px,1.2fr) minmax(70px,.65fr) minmax(110px,.95fr) 144px`, with (20px) gaps and (14px 24px) padding. Minimum row height is (78px).
 
-Detail pages preserve one white panel per client, with labeled facts, artifact rows, and adjacent copy/download actions. Mobile facts become paired label/value rows and artifact actions wrap below file identity. Read mode keeps prose narrow rather than stretching it across the full workspace.
+At a maximum width of (1100px), the count column disappears and horizontal row padding becomes (18px). At (900px), spacing and grid columns tighten; detail facts use two columns and client panels use (24px) padding. At (760px), the topbar wraps to a minimum height of (112px), with navigation on its own (42px) row. Main gutters become (20px); the search hint and secondary status links disappear. Client filters occupy their own row and type/format selects share the next.
+
+On mobile, the table header is hidden. A minimum-height (131px) rule item uses two columns: identity/date above filename-and-format/copy-and-detail. Its grid is `minmax(0,1fr) 108px`, with (12px 8px) gaps and (17px 14px) padding; filenames align to the row's left edge. Source dates gain a visible explanatory label. At (370px), main/status gutters become (14px), the action column becomes (100px), and file icons disappear.
+
+Detail pages use one flat panel per client with (28px) desktop padding, then (19px 16px) on mobile. Facts become paired label/value rows; artifact actions wrap below file identity. Long rule titles, filenames, addresses, and hashes can wrap. Reading pages retain their (76ch) measure.
 
 ## Elevation & Depth
 
-The interface is flat at rest. Cream, white, pale mint, and hairline borders establish the surface hierarchy. The only implemented box shadow belongs to the transient status notice; focus remains a visible terracotta outline, not an elevation effect.
+White and pale blue tones, thin borders, and spacing establish depth. Search, list, and detail panels remain flat; the only implemented box shadow belongs to the transient status notice. Keyboard focus uses a cobalt outline rather than a shadow.
 
 ### Shadow Vocabulary
 
-- **Status notice:** The sidecar records the exact `0 6px 22px #12312725` shadow. It supports brief copy/download feedback above the page.
+- **Status notice:** `0 8px 25px #14233328`, supporting brief copy/download feedback above the page.
 
-**The Quiet Surface Rule.** Separate working regions with tone and fine borders. Reserve the implemented shadow for transient status feedback.
+**The Quiet Surface Rule.** Use tone and fine borders to separate working regions. Reserve the implemented shadow for transient status feedback.
 
 ## Shapes
 
-Working surfaces have gently rounded panel corners; controls use tighter corners, badges tighter still. The frontmatter records the observed reusable radius steps. Monograms are small rounded squares, while client/status dots are circular. Catalog panels clip their interior separators to the outer contour. Borders are thin and quiet; selected navigation and filters use a filled mint surface.
+Panels use (12px) corners, the desktop search field uses (10px), and mobile search/notice surfaces use (8px). Buttons, client filters, file icons, and detail tabs use (6px); selects use (5px), type tags/key hints (4px), and recommendation tags (3px). Status/client dots are circular. The list panel clips row and header separators to its outer contour. The current top-navigation link is marked by a (2px) bottom border.
 
 ## Components
 
 ### Buttons
 
-Compact, explicit actions. Primary buttons use forest with pale text; secondary copy and pagination buttons use white, ink, and a sage border. The normal minimum height is (42px), with (44px) search actions and the documented mobile/compact variants. Primary hover deepens the forest; secondary hover moves to paper and strengthens the border. Disabled controls use (0.42) opacity. A shared terracotta outline (3px), offset by (4px), identifies keyboard focus.
+Explicit verbs in compact controls. Standard primary and secondary buttons use a minimum height of (42px), (9px 16px) padding, and (6px) corners. Primary is cobalt with white text; hover deepens the fill. Secondary is white with navy text and a line border; hover uses cool paper and `#9cafd0` border. Catalog copy is a distinct pale-blue action, (38px) minimum height with (8px 11px) padding, and `#dce6ff` hover; mobile minimum height is (40px). Disabled buttons use (0.4) opacity. Keyboard focus is a (3px) cobalt outline offset by (4px).
 
 ### Inputs / Fields
 
-The search field sits directly in a white search row with an authored search icon, a desktop slash-key hint, and a labeled primary search button. It has no independent filled box or border. Selects use white surfaces, sage strokes, compact corners, and readable labels. Search placeholder text uses muted sage. On mobile the shortcut hint disappears and the controls compact without hiding search.
+The bordered white search container has (10px) corners, a (62px) minimum height, a line icon, a borderless expanding input, a desktop slash-key hint, and a labeled search button. Mobile reduces the container to (54px) and (8px) corners. The search input uses a focus outline offset of (1px); other focusable controls use the shared (4px) offset. Native selects retain their recognizable disclosure affordance and accessible labels. Row-level file selectors are borderless, muted, and show both client and artifact key.
 
 ### Navigation
 
-The desktop sidebar uses a vertical icon-and-label list. Current navigation is a mint rounded rectangle with forest text; ordinary links use pale sage text, with a darker green hover surface. Mobile navigation becomes a horizontal set of tabs attached to the cream workspace. Current state remains explicit through `aria-current`.
+Horizontal icon-and-label links sit in the white topbar. Inactive links use slate; hover uses cobalt. Current navigation uses cobalt, (600) weight, a (2px) underline, and `aria-current="page"`. Mobile places these links on a separate full-width row. Detail client tabs are outlined (6px) controls that jump to the matching panel; a hash target receives the implemented `#89a7ec` border.
 
-### Chips / Client Badges
+### Chips / Tags
 
-Client filters are action chips with `aria-pressed`; selected chips use mint and semibold forest text. Passive client badges use distinct pale client tints and short names. Archived badges also use a strike-through, while availability states retain readable wording. Recommendation tags are small, quiet mint labels rather than calls to action.
+Client filters are (6px) action chips with `aria-pressed`; selection uses pale blue, cobalt, and (650) weight. Desktop shows the selected client's count; mobile hides counts. Small client dots accompany names. Detail type tags use `#edf2fa`, slate text, and (4px) corners; recommendation tags use the selection wash and (3px) corners. Archived state always has readable wording.
 
 ### Cards / Containers
 
-The white catalog and per-client detail panels share sage borders and the panel radius. The catalog has contiguous search, filter, result, row, and pagination bands. Detail panels use (28px) desktop padding, then (22px) and (19px 16px) at smaller widths. They remain flat at rest.
+The white list panel uses a fine line border, (12px) corners, and a tinted table heading; search and filter controls sit above it. Per-client detail panels use the same border and radius. Empty, loading, and error states keep readable text and a clear reset/retry action inside the result region.
 
 ### Rule List Row
 
-The signature row combines a two-letter monogram, rule identity, client badges, rule count, source-update date, and a detail link. The desktop row has a minimum height of (84px), quiet separators, and a pale paper-green hover. On mobile it becomes a minimum-height (110px) stacked item with an explicit date note. Long mobile rule names truncate, while their full detail page can wrap the name.
+A line-book icon supports identity, followed by an actual filename, explicit client/format selection, count, source date, a visible “复制地址” action, and a labeled detail link. Hover uses cool paper. Changing the file choice updates the filename, count, source date, detail anchor, and copied URL together. With all clients selected, initial selection prefers active Mihomo `classical`, then active `rules`, then another active artifact. Archived filenames gain a warning-colored “已下架” label. Mobile retains date meaning and direct copy.
 
 ### Artifact Row
 
-File identity and format sit opposite separate “复制地址” and “下载” actions, with authored line icons. File URL and SHA-256 details are disclosed on demand. The format block, recommendation tag, and subdued byte/type metadata support scanning. Copy feedback uses an accessible status notice.
+A format block and filename sit beside separate “复制地址” and “下载” controls. File URL, SHA-256, and artifact change date are disclosed through native details; source links have their own disclosure. Copy briefly changes the button to “已复制” and announces the selected filename/client/format for catalog copies through a polite status notice. Download shows a busy label while fetching and reports success or failure.
 
 ### Motion and Icons
 
-Buttons, links, and selects transition only color, background color, and border color over (180ms) using the shared easing. Rule-row background hover uses its implemented (180ms) transition. Reduced-motion preference disables animation/transitions and smooth scrolling. Icons are inline SVG with a (24 × 24) view box, rounded line endings, and a normal stroke width of (1.7); sizes adapt to context. Icon-only meaning is supplemented with visible text or an accessible label.
+Buttons, links, and selects transition color, background color, and border color over (180ms), using CSS's default `ease`. Row background hover also uses (180ms). Reduced-motion preference disables transitions, animations, and smooth scrolling. Inline SVG icons use a (24 × 24) view box, rounded line caps/joins, and a normal (1.7) stroke. Icon-only links have accessible labels; action meaning uses visible text.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** keep search and synchronization status visible near the start of the page.
-- **Do** preserve clear labels beside copy, download, and navigation icons.
-- **Do** use mint to communicate selection and forest to anchor primary actions.
-- **Do** retain visible keyboard focus, semantic labels, and reduced-motion behavior.
-- **Do** keep mobile dates and actions readable when the table becomes a list.
+- **Do** use the white/cool-blue palette and restrained cobalt for actions, current navigation, and selection.
+- **Do** keep search, synchronization status, and precise timestamp labels easy to scan.
+- **Do** show the client and format for the exact file a copy action will use.
+- **Do** retain visible keyboard focus, accessible labels, polite feedback, and reduced-motion behavior.
+- **Do** preserve mobile dates, filenames, and direct-copy actions when the table becomes a list.
 
 ### Don't:
 
-- **Don't** use shadows to lift every row or panel.
-- **Don't** rely on a client dot or a status color without readable text.
-- **Don't** style a synchronization check as a newly updated rule.
-- **Don't** add decorative imagery where the implemented system uses text, monograms, and authored SVG icons.
-- **Don't** animate layout or add continuous motion to routine catalog work.
+- **Don't** interpret the legacy `forest` and `mint` token names as green colors or restore the previous sidebar shell.
+- **Don't** lift every row or panel with a shadow.
+- **Don't** rely on dots or color alone to identify a client, selected control, or availability state.
+- **Don't** style successful synchronization as a newly updated rule.
+- **Don't** introduce continuous motion or decorative imagery into routine catalog work.

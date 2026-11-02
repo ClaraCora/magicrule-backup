@@ -1,273 +1,148 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-01T15:57:26.516377+00:00",
+  "generatedAt": "2026-11-02T08:26:01.044232+00:00",
   "title": "Design System: MagicRule Backup",
   "extensions": {
     "colorMeta": {
       "forest": {
         "role": "primary",
-        "displayName": "Forest",
-        "canonical": "#173d34",
-        "tonalRamp": [
-          "oklch(15% 0.04639 175.45)",
-          "oklch(26% 0.04639 175.45)",
-          "oklch(37% 0.04639 175.45)",
-          "oklch(48% 0.04639 175.45)",
-          "oklch(59% 0.04639 175.45)",
-          "oklch(70% 0.04639 175.45)",
-          "oklch(83% 0.04639 175.45)",
-          "oklch(95% 0.04639 175.45)"
-        ]
+        "displayName": "Cobalt Action",
+        "canonical": "#285dd8"
       },
       "forest-deep": {
         "role": "primary",
-        "displayName": "Deep Forest",
-        "canonical": "#123127",
-        "tonalRamp": [
-          "oklch(15% 0.04157 169.63)",
-          "oklch(26% 0.04157 169.63)",
-          "oklch(37% 0.04157 169.63)",
-          "oklch(48% 0.04157 169.63)",
-          "oklch(59% 0.04157 169.63)",
-          "oklch(70% 0.04157 169.63)",
-          "oklch(83% 0.04157 169.63)",
-          "oklch(95% 0.04157 169.63)"
-        ]
+        "displayName": "Cobalt Deep",
+        "canonical": "#204cad"
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Forest Ink",
-        "canonical": "#203c32",
-        "tonalRamp": [
-          "oklch(15% 0.03877 169.02)",
-          "oklch(26% 0.03877 169.02)",
-          "oklch(37% 0.03877 169.02)",
-          "oklch(48% 0.03877 169.02)",
-          "oklch(59% 0.03877 169.02)",
-          "oklch(70% 0.03877 169.02)",
-          "oklch(83% 0.03877 169.02)",
-          "oklch(95% 0.03877 169.02)"
-        ]
+        "displayName": "Navy Ink",
+        "canonical": "#1d2b43"
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Muted Sage",
-        "canonical": "#5e7065",
-        "tonalRamp": [
-          "oklch(15% 0.02749 158.49)",
-          "oklch(26% 0.02749 158.49)",
-          "oklch(37% 0.02749 158.49)",
-          "oklch(48% 0.02749 158.49)",
-          "oklch(59% 0.02749 158.49)",
-          "oklch(70% 0.02749 158.49)",
-          "oklch(83% 0.02749 158.49)",
-          "oklch(95% 0.02749 158.49)"
-        ]
+        "displayName": "Slate Metadata",
+        "canonical": "#607089"
       },
       "paper": {
         "role": "neutral",
-        "displayName": "Cream Paper",
-        "canonical": "#f7f8f2",
-        "tonalRamp": [
-          "oklch(15% 0.00798 114.22)",
-          "oklch(26% 0.00798 114.22)",
-          "oklch(37% 0.00798 114.22)",
-          "oklch(48% 0.00798 114.22)",
-          "oklch(59% 0.00798 114.22)",
-          "oklch(70% 0.00798 114.22)",
-          "oklch(83% 0.00798 114.22)",
-          "oklch(95% 0.00798 114.22)"
-        ]
+        "displayName": "Cool Paper",
+        "canonical": "#f6f8fc"
       },
       "surface": {
         "role": "neutral",
         "displayName": "White Surface",
-        "canonical": "#ffffff",
-        "tonalRamp": [
-          "oklch(15% 0.00000 0.00)",
-          "oklch(26% 0.00000 0.00)",
-          "oklch(37% 0.00000 0.00)",
-          "oklch(48% 0.00000 0.00)",
-          "oklch(59% 0.00000 0.00)",
-          "oklch(70% 0.00000 0.00)",
-          "oklch(83% 0.00000 0.00)",
-          "oklch(95% 0.00000 0.00)"
-        ]
+        "canonical": "#fff"
       },
       "line": {
         "role": "neutral",
-        "displayName": "Sage Line",
-        "canonical": "#dce3d8",
-        "tonalRamp": [
-          "oklch(15% 0.01654 133.83)",
-          "oklch(26% 0.01654 133.83)",
-          "oklch(37% 0.01654 133.83)",
-          "oklch(48% 0.01654 133.83)",
-          "oklch(59% 0.01654 133.83)",
-          "oklch(70% 0.01654 133.83)",
-          "oklch(83% 0.01654 133.83)",
-          "oklch(95% 0.01654 133.83)"
-        ]
+        "displayName": "Blue-Gray Line",
+        "canonical": "#dfe5ee"
       },
       "mint": {
         "role": "primary",
-        "displayName": "Mint",
-        "canonical": "#e6eed0",
-        "tonalRamp": [
-          "oklch(15% 0.04052 119.33)",
-          "oklch(26% 0.04052 119.33)",
-          "oklch(37% 0.04052 119.33)",
-          "oklch(48% 0.04052 119.33)",
-          "oklch(59% 0.04052 119.33)",
-          "oklch(70% 0.04052 119.33)",
-          "oklch(83% 0.04052 119.33)",
-          "oklch(95% 0.04052 119.33)"
-        ]
+        "displayName": "Blue Selection Wash",
+        "canonical": "#eaf0ff"
       },
       "accent": {
-        "role": "secondary",
-        "displayName": "Terracotta",
-        "canonical": "#b64c30",
-        "tonalRamp": [
-          "oklch(15% 0.14431 35.78)",
-          "oklch(26% 0.14431 35.78)",
-          "oklch(37% 0.14431 35.78)",
-          "oklch(48% 0.14431 35.78)",
-          "oklch(59% 0.14431 35.78)",
-          "oklch(70% 0.14431 35.78)",
-          "oklch(83% 0.14431 35.78)",
-          "oklch(95% 0.14431 35.78)"
-        ]
+        "role": "primary",
+        "displayName": "Cobalt Accent",
+        "canonical": "#285dd8"
       },
       "accent-wash": {
-        "role": "secondary",
-        "displayName": "Terracotta Wash",
-        "canonical": "#f8e9e0",
-        "tonalRamp": [
-          "oklch(15% 0.02036 53.25)",
-          "oklch(26% 0.02036 53.25)",
-          "oklch(37% 0.02036 53.25)",
-          "oklch(48% 0.02036 53.25)",
-          "oklch(59% 0.02036 53.25)",
-          "oklch(70% 0.02036 53.25)",
-          "oklch(83% 0.02036 53.25)",
-          "oklch(95% 0.02036 53.25)"
-        ]
+        "role": "primary",
+        "displayName": "Blue Accent Wash",
+        "canonical": "#eaf0ff"
       },
       "success": {
         "role": "secondary",
         "displayName": "Success Green",
-        "canonical": "#286647",
-        "tonalRamp": [
-          "oklch(15% 0.08216 158.80)",
-          "oklch(26% 0.08216 158.80)",
-          "oklch(37% 0.08216 158.80)",
-          "oklch(48% 0.08216 158.80)",
-          "oklch(59% 0.08216 158.80)",
-          "oklch(70% 0.08216 158.80)",
-          "oklch(83% 0.08216 158.80)",
-          "oklch(95% 0.08216 158.80)"
-        ]
+        "canonical": "#2c7254"
       },
       "warning": {
         "role": "secondary",
         "displayName": "Warning Ochre",
-        "canonical": "#92561c",
-        "tonalRamp": [
-          "oklch(15% 0.10580 59.94)",
-          "oklch(26% 0.10580 59.94)",
-          "oklch(37% 0.10580 59.94)",
-          "oklch(48% 0.10580 59.94)",
-          "oklch(59% 0.10580 59.94)",
-          "oklch(70% 0.10580 59.94)",
-          "oklch(83% 0.10580 59.94)",
-          "oklch(95% 0.10580 59.94)"
-        ]
+        "canonical": "#92561c"
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Display",
-        "purpose": "Main page headings; smaller responsive and detail variants are documented in DESIGN.md."
+        "displayName": "Page Heading",
+        "purpose": "Main directory/reading-page headings; detail and mobile variants are in DESIGN.md."
       },
       "headline": {
-        "displayName": "Headline",
-        "purpose": "Section hierarchy."
+        "displayName": "Client Section Heading",
+        "purpose": "Detail client headings, with generic and documentation h2 variants."
       },
       "title": {
-        "displayName": "Title",
-        "purpose": "Catalog rule names."
+        "displayName": "Rule Name",
+        "purpose": "Readable rule identities in the catalog."
       },
       "body": {
         "displayName": "Interface Body",
-        "purpose": "General interface reading."
+        "purpose": "Root interface text; dense content uses smaller observed sizes."
       },
       "body-read": {
-        "displayName": "Read Body",
-        "purpose": "Narrow documentation prose."
+        "displayName": "Reading Body",
+        "purpose": "Narrow documentation prose with 1.95 leading."
       },
       "label": {
         "displayName": "Action Label",
-        "purpose": "Copy, download, search, and related action buttons."
+        "purpose": "Standard primary and secondary action buttons."
       },
       "metadata": {
         "displayName": "Metadata",
-        "purpose": "Dates, counts, and supporting facts; tabular numerals where appropriate."
+        "purpose": "Dates, counts, supporting facts, and tabular numerals."
       },
       "mono": {
-        "displayName": "File Metadata",
-        "purpose": "Raw addresses and SHA-256 values."
+        "displayName": "File Hash",
+        "purpose": "SHA-256 values in artifact disclosures."
       }
     },
     "shadows": [
       {
         "name": "status-notice",
-        "value": "0 6px 22px #12312725",
-        "purpose": "The transient accessible status notice; working surfaces remain flat."
+        "value": "0 8px 25px #14233328",
+        "purpose": "Transient polite copy/download feedback; working panels remain flat."
       }
     ],
     "motion": [
       {
-        "name": "ease",
-        "value": "cubic-bezier(.16,1,.3,1)",
-        "purpose": "Shared background, color, and border state transitions."
-      },
-      {
         "name": "state-duration",
         "value": ".18s",
-        "purpose": "Button, link, select, and rule-row state changes."
+        "purpose": "Color, background-color, and border-color changes on buttons, links, and selects; row background hover."
+      },
+      {
+        "name": "state-easing",
+        "value": "ease",
+        "purpose": "The implicit CSS timing function used by the implemented transitions; no custom easing variable is declared."
       },
       {
         "name": "reduced-motion",
         "value": "@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}",
-        "purpose": "Preserve the implemented reduced-motion behavior."
+        "purpose": "Exact reduced-motion rule from src/styles/global.css."
       }
     ],
     "breakpoints": [
       {
-        "name": "wide",
-        "value": "1600px",
-        "purpose": "Minimum width: increase top spacing."
-      },
-      {
         "name": "compact-desktop",
-        "value": "1190px",
-        "purpose": "Maximum width: narrow sidebar and catalog spacing."
+        "value": "1100px",
+        "purpose": "Maximum width: hide the rule-count column and tighten navigation and table spacing."
       },
       {
         "name": "small-desktop",
-        "value": "1000px",
-        "purpose": "Maximum width: narrow sidebar again and hide rule-count column."
+        "value": "900px",
+        "purpose": "Maximum width: tighter row grid, smaller chrome, and two-column detail facts."
       },
       {
         "name": "mobile",
         "value": "760px",
-        "purpose": "Maximum width: top navigation and stacked rule list."
+        "purpose": "Maximum width: wrapped topbar, stacked list rows, full-width filter groups, and one-column facts."
       },
       {
         "name": "narrow-mobile",
         "value": "370px",
-        "purpose": "Maximum width: smaller page gutters and reduced secondary chrome."
+        "purpose": "Maximum width: 14px main/status gutters, 100px action column, and hidden file icons."
       }
     ]
   },
@@ -276,115 +151,115 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "A forest action with a clear verb, used for search and download.",
-      "html": "<button class=\"ds-button ds-button-primary\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>下载</button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dce3d8);border-radius:6px;text-decoration:none;background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .18s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-button:hover{background:var(--color-paper,#f7f8f2);border-color:#9aaa9a}.ds-button:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.42}.ds-button svg{flex:none}.ds-button-primary{background:var(--color-forest,#173d34);border-color:var(--color-forest,#173d34);color:#f6f8ef}.ds-button-primary:hover{background:var(--color-forest-deep,#123127);border-color:var(--color-forest,#173d34)}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Cobalt search/download action with a deeper hover fill.",
+      "html": "<button class=\"ds-btn ds-primary\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>下载</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dfe5ee);border-radius:6px;background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-btn:hover{background:var(--color-paper,#f6f8fc);border-color:#9cafd0}.ds-btn:disabled{opacity:.4;cursor:default}.ds-btn svg{flex:none}.ds-btn:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none;animation:none}}.ds-primary{background:var(--color-forest,#285dd8);border-color:var(--color-forest,#285dd8);color:var(--color-surface,#fff)}.ds-primary:hover{background:var(--color-forest-deep,#204cad)}"
     },
     {
       "name": "Secondary Button",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Quiet bordered copy and pagination actions.",
-      "html": "<button class=\"ds-button\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg>复制地址</button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dce3d8);border-radius:6px;text-decoration:none;background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .18s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-button:hover{background:var(--color-paper,#f7f8f2);border-color:#9aaa9a}.ds-button:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.42}.ds-button svg{flex:none}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Bordered copy and pagination action used in detail and navigation controls.",
+      "html": "<button class=\"ds-btn\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg>复制地址</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dfe5ee);border-radius:6px;background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-btn:hover{background:var(--color-paper,#f6f8fc);border-color:#9cafd0}.ds-btn:disabled{opacity:.4;cursor:default}.ds-btn svg{flex:none}.ds-btn:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none;animation:none}}"
     },
     {
-      "name": "Search Input",
+      "name": "Catalog Copy Action",
+      "kind": "button",
+      "refersTo": "button-copy",
+      "description": "Pale-blue quick-copy control; the application binds it to the explicitly selected artifact.",
+      "html": "<button class=\"ds-copy\" type=\"button\" aria-label=\"复制 Google.yaml Mihomo classical 订阅地址\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg><span>复制地址</span></button>",
+      "css": ".ds-copy{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;padding:8px 11px;border:0;border-radius:6px;background:var(--color-mint,#eaf0ff);color:var(--color-accent,#285dd8);font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-copy:hover{background:#dce6ff}.ds-copy:disabled{opacity:.4;cursor:default}.ds-copy svg{flex:none}.ds-copy:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(max-width:900px){.ds-copy{font-size:11px;padding:8px}}@media(max-width:760px){.ds-copy{min-height:40px;gap:5px}.ds-copy svg{width:14px;height:14px}}@media(prefers-reduced-motion:reduce){.ds-copy{transition:none;animation:none}}"
+    },
+    {
+      "name": "Search Field",
       "kind": "input",
       "refersTo": "search-input",
-      "description": "A labeled borderless field in the catalog search band.",
-      "html": "<div class=\"ds-search\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m21 21-4.5-4.5 M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0\"/></svg><label class=\"ds-search-label\" for=\"ds-query\">搜索规则名称、说明或来源</label><input class=\"ds-input\" id=\"ds-query\" type=\"search\" placeholder=\"搜索规则名称、中文名、说明或来源…\"/><kbd class=\"ds-key\" aria-hidden=\"true\">/</kbd></div>",
-      "css": ".ds-search{display:flex;align-items:center;gap:14px;padding:18px 22px;border-bottom:1px solid var(--color-line,#dce3d8);background:var(--color-surface,#ffffff);color:var(--color-muted,#5e7065);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-search svg{flex:none}.ds-search-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.ds-input{background:none;border:0;min-width:0;flex:1;font:400 16px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);height:44px;color:var(--color-ink,#203c32);caret-color:var(--color-accent,#b64c30)}.ds-input::placeholder{color:var(--color-muted,#5e7065)}.ds-input:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-key{font:400 12px/22px var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);border:1px solid var(--color-line,#dce3d8);border-radius:4px;padding:0 7px;background:var(--color-paper,#f7f8f2)}@media(max-width:760px){.ds-search{padding:13px;gap:10px}.ds-input{font-size:13px;height:40px}.ds-key{display:none}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Full-width framed search with an inline labeled field, slash hint, and primary action.",
+      "html": "<form class=\"ds-search\" role=\"search\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m21 21-4.5-4.5 M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0\"/></svg><label class=\"ds-search-label\" for=\"ds-query\">搜索规则名称、说明或来源</label><input class=\"ds-search-input\" id=\"ds-query\" name=\"q\" type=\"search\" autocomplete=\"off\" placeholder=\"搜索规则名称、中文名、说明或来源…\"/><kbd class=\"ds-key\" aria-hidden=\"true\">/</kbd><button class=\"ds-btn ds-primary ds-search-button\" type=\"submit\">搜索规则</button></form>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dfe5ee);border-radius:6px;background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-btn:hover{background:var(--color-paper,#f6f8fc);border-color:#9cafd0}.ds-btn:disabled{opacity:.4;cursor:default}.ds-btn svg{flex:none}.ds-btn:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none;animation:none}}.ds-primary{background:var(--color-forest,#285dd8);border-color:var(--color-forest,#285dd8);color:var(--color-surface,#fff)}.ds-primary:hover{background:var(--color-forest-deep,#204cad)}.ds-search{display:flex;align-items:center;gap:14px;padding:8px 10px 8px 18px;min-height:62px;background:var(--color-surface,#fff);border:1px solid var(--color-line,#dfe5ee);border-radius:10px;color:var(--color-accent,#285dd8);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-search>svg{flex:none}.ds-search-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.ds-search-input{min-width:0;flex:1;height:42px;border:0;background:transparent;color:var(--color-ink,#1d2b43);font:400 15px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);caret-color:var(--color-accent,#285dd8)}.ds-search-input::placeholder{color:var(--color-muted,#607089)}.ds-search-input:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:1px}.ds-key{font:400 12px/22px var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);border:1px solid var(--color-line,#dfe5ee);border-radius:4px;padding:0 7px;color:var(--color-muted,#607089);background:var(--color-paper,#f6f8fc)}.ds-search-button{padding:10px 23px}@media(max-width:760px){.ds-search{padding:6px 6px 6px 12px;gap:9px;min-height:54px;border-radius:8px}.ds-search>svg{width:19px;height:19px}.ds-search-input{font-size:13px;height:38px}.ds-key{display:none}.ds-search-button{font-size:12px;padding:8px 14px;min-height:38px}}@media(max-width:370px){.ds-search-button{padding:8px 10px}}"
     },
     {
-      "name": "Current Navigation",
+      "name": "Top Navigation",
       "kind": "nav",
       "refersTo": "navigation-current",
-      "description": "Forest sidebar navigation with mint current-page state and authored icons.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"主要导航\"><a class=\"ds-nav-link\" href=\"#catalog\" aria-current=\"page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 7h18v13H3zM3 7V4h6l3 3\"/></svg>规则目录<span class=\"ds-nav-arrow\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></span></a><a class=\"ds-nav-link\" href=\"#updates\">同步记录</a></nav>",
-      "css": ".ds-nav{display:grid;gap:6px;padding:20px;background:var(--color-forest,#173d34);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-nav-link{display:flex;align-items:center;gap:12px;min-height:48px;padding:12px 15px;border-radius:6px;text-decoration:none;color:#c2d4c5;font-size:14px;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-nav-link:hover{background:#224b3e;color:#fff}.ds-nav-link[aria-current=page]{background:var(--color-mint,#e6eed0);color:var(--color-forest,#173d34);font-weight:600}.ds-nav-link:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-nav-arrow{margin-left:auto}.ds-nav svg{flex:none}@media(max-width:760px){.ds-nav{display:flex;gap:2px;padding:18px 20px 0}.ds-nav-link{flex:1;justify-content:center;min-height:45px;padding:12px 14px;border-radius:6px 6px 0 0;font-size:12px}.ds-nav-link[aria-current=page]{background:var(--color-paper,#f7f8f2)}.ds-nav-arrow{display:none}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Horizontal slate links; current page has cobalt text and a 2px underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"主要导航\"><a class=\"ds-nav-link\" href=\"#catalog\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z\"/></svg>规则目录</a><a class=\"ds-nav-link\" href=\"#updates\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 11a9 9 0 1 1 2 7M3 4v7h7m2-4v5l3 2\"/></svg>同步记录</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:stretch;gap:28px;height:76px;background:var(--color-surface,#fff);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-nav-link{display:flex;align-items:center;gap:8px;padding:1px 2px 0;border-bottom:2px solid transparent;color:var(--color-muted,#607089);font-size:13px;line-height:1.6;text-decoration:none;white-space:nowrap;transition:color .18s,background-color .18s,border-color .18s}.ds-nav-link svg{flex:none;width:18px;height:18px}.ds-nav-link[aria-current=page]{color:var(--color-accent,#285dd8);border-bottom-color:var(--color-accent,#285dd8);font-weight:600}.ds-nav-link:hover{color:var(--color-accent,#285dd8)}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:900px){.ds-nav{gap:17px}.ds-nav-link{font-size:12px}}@media(max-width:760px){.ds-nav{height:42px;gap:25px}.ds-nav-link{gap:6px;min-height:42px}.ds-nav-link svg{width:16px;height:16px}}.ds-nav-link:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav-link{transition:none;animation:none}}"
     },
     {
-      "name": "Selected Client Filter",
+      "name": "Client Filter",
       "kind": "chip",
       "refersTo": "filter-selected",
-      "description": "Action chips expose selected state through aria-pressed and a mint fill.",
-      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"客户端\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">全部客户端 <span class=\"ds-filter-count\">1,185</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\"><span class=\"ds-client-dot\"></span>Mihomo</button></div>",
-      "css": ".ds-filters{display:flex;gap:4px;flex-wrap:wrap;font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-filter{display:flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:9px 13px;border:0;border-radius:5px;font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);background:transparent;color:var(--color-muted,#5e7065);cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-filter[aria-pressed=true]{background:var(--color-mint,#e6eed0);color:var(--color-forest,#173d34);font-weight:600}.ds-filter:hover{background:#edf1e6}.ds-filter:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-filter-count{font-size:10px;margin-left:2px}.ds-client-dot{width:7px;height:7px;border-radius:50%;background:#659a89}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Selected clients use a blue wash and readable name; counts recede on mobile.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"客户端\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">全部</button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\"><span class=\"ds-client-dot\"></span>Mihomo<span class=\"ds-client-count\">1,185</span></button></div>",
+      "css": ".ds-filters{display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-filter{display:flex;align-items:center;justify-content:center;gap:7px;min-height:40px;padding:10px 12px;border:0;border-radius:6px;background:transparent;color:var(--color-muted,#607089);font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-filter[aria-pressed=true]{background:var(--color-mint,#eaf0ff);color:var(--color-accent,#285dd8);font-weight:650}.ds-filter:hover{background:#edf2fa}.ds-client-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#4674c5;flex:none}.ds-client-count{display:none;font-size:10px}.ds-filter[aria-pressed=true] .ds-client-count{display:inline}@media(max-width:760px){.ds-filters{gap:3px;justify-content:space-between;width:100%}.ds-filter{min-height:38px;padding:8px 10px;font-size:11px;gap:6px}.ds-filter .ds-client-count{display:none!important}}@media(max-width:370px){.ds-filter{padding:7px}.ds-client-dot{display:none}}.ds-filter:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-filter{transition:none;animation:none}}"
     },
     {
-      "name": "Client Badge",
-      "kind": "chip",
-      "refersTo": "client-badge-mihomo",
-      "description": "A passive compact badge pairs a readable client name with its client tint.",
-      "html": "<span class=\"ds-client-badge\">Mihomo</span>",
-      "css": ".ds-client-badge{display:inline-block;font:400 10px/22px var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);padding:0 6px;border-radius:4px;background:#e7f0e9;color:#38634c;white-space:nowrap}"
-    },
-    {
-      "name": "Catalog Surface",
+      "name": "List Panel",
       "kind": "card",
       "refersTo": "catalog-surface",
-      "description": "A flat white catalog panel with a clipped outline and distinct content bands.",
-      "html": "<section class=\"ds-catalog\" aria-label=\"规则目录\"><div class=\"ds-catalog-search\">搜索和筛选规则</div><div class=\"ds-catalog-filters\">全部客户端 · 规则类型</div><div class=\"ds-catalog-body\">规则目录</div></section>",
-      "css": ".ds-catalog{background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);border:1px solid var(--color-line,#dce3d8);border-radius:12px;overflow:hidden;font:400 14px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-catalog-search{padding:18px 22px;border-bottom:1px solid var(--color-line,#dce3d8)}.ds-catalog-filters{padding:16px 22px;background:#fcfdf9;color:var(--color-muted,#5e7065);border-bottom:1px solid var(--color-line,#dce3d8);font-size:12px}.ds-catalog-body{padding:20px 22px}"
+      "description": "Flat white list container with clipped separators, a tinted header, and bordered pagination.",
+      "html": "<section class=\"ds-panel\" aria-label=\"规则搜索结果\"><div class=\"ds-panel-head\">订阅文件 / 格式</div><div class=\"ds-panel-body\"><strong class=\"ds-panel-name\">Google.yaml</strong><span class=\"ds-panel-meta\">Mihomo · classical</span></div><div class=\"ds-panel-foot\"><button class=\"ds-btn ds-panel-page\" type=\"button\" disabled>上一页</button><button class=\"ds-btn ds-panel-page\" type=\"button\">下一页</button></div></section>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dfe5ee);border-radius:6px;background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-btn:hover{background:var(--color-paper,#f6f8fc);border-color:#9cafd0}.ds-btn:disabled{opacity:.4;cursor:default}.ds-btn svg{flex:none}.ds-btn:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none;animation:none}}.ds-panel{background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);border:1px solid var(--color-line,#dfe5ee);border-radius:12px;overflow:hidden;font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-panel-head{padding:14px 24px;min-height:44px;background:#f1f5fb;border-bottom:1px solid var(--color-line,#dfe5ee);font-size:11px;color:var(--color-muted,#607089)}.ds-panel-body{padding:14px 24px;min-height:78px}.ds-panel-name{display:block;font-size:12px;font-weight:550;overflow-wrap:anywhere}.ds-panel-meta{display:block;font-size:11px;color:var(--color-muted,#607089)}.ds-panel-foot{display:flex;justify-content:flex-end;gap:8px;padding:17px 24px;border-top:1px solid var(--color-line,#dfe5ee)}.ds-panel-page{min-height:36px;padding:6px 11px;font-size:11px}@media(max-width:760px){.ds-panel-head{display:none}.ds-panel-body{padding:17px 14px}.ds-panel-foot{padding:16px 14px}}"
     },
     {
-      "name": "Rule List Row",
+      "name": "Quick-Copy Rule Row",
       "kind": "custom",
       "refersTo": "rule-row",
-      "description": "Identity, client badges, labeled update date, and a detail action adapt from a table row into a mobile list item.",
-      "html": "<article class=\"ds-rule-row\"><div class=\"ds-rule-name-cell\"><span class=\"ds-monogram\" aria-hidden=\"true\">RE</span><div class=\"ds-rule-names\"><a class=\"ds-rule-link\" href=\"#rule\">reject</a><span class=\"ds-rule-chinese\">广告拦截规则</span></div></div><div class=\"ds-rule-clients\"><span class=\"ds-client-badge\">Mihomo</span></div><span class=\"ds-rule-lines\">12,340</span><div class=\"ds-rule-date\"><time datetime=\"2026-11-01\">2026-11-01</time><span class=\"ds-date-note\">源站规则更新</span></div><a class=\"ds-rule-detail\" href=\"#rule\">查看详情 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></article>",
-      "css": ".ds-rule-row{display:grid;grid-template-columns:minmax(190px,2.2fr) minmax(145px,1.5fr) minmax(90px,.8fr) minmax(110px,1fr) 90px;gap:14px;align-items:center;padding:12px 24px;min-height:84px;border-bottom:1px solid #e9ede5;background:var(--color-surface,#fff);color:var(--color-ink,#203c32);font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);transition:background-color .18s}.ds-rule-row:hover{background:#f7f9f1}.ds-rule-name-cell{display:flex;gap:13px;align-items:center;min-width:0}.ds-monogram{display:grid;place-items:center;flex:none;width:36px;height:36px;border-radius:8px;border:1px solid #dce3d5;background:#f2f5eb;color:#52684a;font-size:12px;font-weight:650;letter-spacing:-.035em}.ds-rule-names{display:flex;flex-direction:column;gap:3px;min-width:0}.ds-rule-link{font-size:14px;font-weight:600;line-height:1.5;text-decoration:none;color:inherit;overflow-wrap:anywhere}.ds-rule-link:hover{color:var(--color-accent,#b64c30);text-decoration:underline}.ds-rule-link:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-rule-chinese{font-size:11px;color:var(--color-muted,#5e7065);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-client-badge{display:inline-block;font-size:10px;line-height:22px;padding:0 6px;border-radius:4px;background:#e7f0e9;color:#38634c}.ds-rule-lines{color:#4f6256}.ds-rule-date{color:#526458;font-variant-numeric:tabular-nums}.ds-date-note{display:none}.ds-rule-detail{display:flex;align-items:center;justify-content:end;gap:7px;min-height:40px;white-space:nowrap;color:#375a45;text-decoration:none}.ds-rule-detail:hover{color:var(--color-accent,#b64c30)}.ds-rule-detail:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}@media(max-width:760px){.ds-rule-row{grid-template-columns:minmax(0,1fr) 95px;gap:9px 12px;padding:16px 15px;min-height:110px}.ds-rule-name-cell{grid-column:1;grid-row:1;gap:10px}.ds-monogram{width:34px;height:36px;font-size:11px}.ds-rule-link{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal}.ds-rule-chinese{font-size:10px}.ds-rule-clients{grid-column:1;grid-row:2;padding-left:44px}.ds-rule-lines{display:none}.ds-rule-date{grid-column:2;grid-row:1;text-align:right;font-size:11px}.ds-date-note{display:block;font-size:10px;color:var(--color-muted,#5e7065);margin-top:4px}.ds-rule-detail{grid-column:2;grid-row:2;font-size:10px;min-height:28px;gap:4px}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Five-column desktop identity/file/count/date/action row; two-column mobile list item. Native choices demonstrate the selector visually; application synchronization is documented in DESIGN.md.",
+      "html": "<div class=\"ds-rule-row\" role=\"row\"><div class=\"ds-name-cell\" role=\"cell\"><span class=\"ds-file-icon\" aria-hidden=\"true\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 3h7a2 2 0 0 1 2 2v16a3 3 0 0 0-3-2H4zM13 5a2 2 0 0 1 2-2h6v16h-5a3 3 0 0 0-3 2\"/></svg></span><div class=\"ds-names\"><a class=\"ds-rule-name\" href=\"#rule\">Google</a><span class=\"ds-description\">不含有Youtube分流规则</span></div></div><div class=\"ds-file\" role=\"cell\"><strong class=\"ds-filename\">Google.yaml</strong><select class=\"ds-file-choice\" aria-label=\"Google 的客户端与订阅格式\"><option>Mihomo · classical</option><option>Mihomo · domain-mrs</option></select></div><div class=\"ds-lines\" role=\"cell\">1,188</div><div class=\"ds-date\" role=\"cell\"><time datetime=\"2026-10-29\">2026-10-29</time><span class=\"ds-date-note\">源站规则更新</span></div><div class=\"ds-actions\" role=\"cell\"><button class=\"ds-copy\" type=\"button\" aria-label=\"复制 Google.yaml Mihomo classical 订阅地址\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg><span>复制地址</span></button><a class=\"ds-detail\" href=\"#rule\" aria-label=\"查看 Google 规则详情\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 5 7 7-7 7\"/></svg></a></div></div>",
+      "css": ".ds-copy{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;padding:8px 11px;border:0;border-radius:6px;background:var(--color-mint,#eaf0ff);color:var(--color-accent,#285dd8);font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-copy:hover{background:#dce6ff}.ds-copy:disabled{opacity:.4;cursor:default}.ds-copy svg{flex:none}.ds-copy:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(max-width:900px){.ds-copy{font-size:11px;padding:8px}}@media(max-width:760px){.ds-copy{min-height:40px;gap:5px}.ds-copy svg{width:14px;height:14px}}@media(prefers-reduced-motion:reduce){.ds-copy{transition:none;animation:none}}.ds-rule-row{display:grid;grid-template-columns:minmax(190px,1.7fr) minmax(165px,1.2fr) minmax(70px,.65fr) minmax(110px,.95fr) 144px;align-items:center;gap:20px;padding:14px 24px;min-height:78px;background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);border-bottom:1px solid var(--color-line,#dfe5ee);font:400 12px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);transition:background-color .18s}.ds-rule-row:hover{background:var(--color-paper,#f6f8fc)}.ds-name-cell{display:flex;align-items:center;gap:14px;min-width:0}.ds-file-icon{display:grid;place-items:center;flex:none;width:36px;height:40px;border:1px solid var(--color-line,#dfe5ee);border-radius:6px;background:var(--color-paper,#f6f8fc);color:var(--color-muted,#607089)}.ds-names{display:flex;flex-direction:column;min-width:0;gap:3px}.ds-rule-name{color:var(--color-ink,#1d2b43);font-size:14px;font-weight:650;line-height:1.5;text-decoration:none;overflow-wrap:anywhere;transition:color .18s}.ds-rule-name:hover{color:var(--color-accent,#285dd8);text-decoration:underline}.ds-description{display:block;font-size:11px;color:var(--color-muted,#607089);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px}.ds-file{min-width:0}.ds-filename{display:block;font-size:12px;font-weight:550;overflow-wrap:anywhere}.ds-file-choice{display:block;width:100%;max-width:100%;border:0;padding:3px 18px 3px 0;min-height:28px;background:transparent;color:var(--color-muted,#607089);font:400 11px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);text-overflow:ellipsis;transition:color .18s}.ds-file-choice:hover{color:var(--color-accent,#285dd8)}.ds-lines,.ds-date{color:var(--color-muted,#607089);white-space:nowrap;font-variant-numeric:tabular-nums}.ds-date-note{display:none}.ds-actions{display:flex;align-items:center;justify-content:end;gap:8px}.ds-detail{display:flex;align-items:center;justify-content:center;flex:none;width:28px;min-height:38px;color:var(--color-muted,#607089);text-decoration:none;transition:color .18s}.ds-detail:hover{color:var(--color-accent,#285dd8)}@media(max-width:1100px){.ds-rule-row{grid-template-columns:minmax(150px,1.4fr) minmax(140px,1fr) 110px 132px;gap:14px;padding-left:18px;padding-right:18px}.ds-lines{display:none}.ds-description{max-width:210px}}@media(max-width:900px){.ds-rule-row{grid-template-columns:minmax(130px,1fr) minmax(135px,1fr) 105px 120px;gap:10px}.ds-name-cell{gap:9px}.ds-file-icon{width:29px;height:34px}}@media(max-width:760px){.ds-rule-row{grid-template-columns:minmax(0,1fr) 108px;gap:12px 8px;padding:17px 14px;min-height:131px}.ds-name-cell{grid-column:1;grid-row:1;gap:10px}.ds-file-icon{width:31px;height:34px}.ds-description{max-width:100%}.ds-file{grid-column:1;grid-row:2;padding-left:0}.ds-file-choice{min-height:30px;padding-top:4px;padding-bottom:4px}.ds-date{grid-column:2;grid-row:1;text-align:right;font-size:11px}.ds-date-note{display:block;font-size:10px;margin-top:4px}.ds-actions{grid-column:2;grid-row:2;gap:3px}.ds-detail{width:21px;min-height:40px}.ds-detail svg{width:16px;height:16px}}@media(max-width:370px){.ds-rule-row{grid-template-columns:minmax(0,1fr) 100px;padding-left:12px;padding-right:12px}.ds-file-icon{display:none}.ds-name-cell{gap:0}}.ds-rule-name:focus-visible,.ds-file-choice:focus-visible,.ds-detail:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-rule-row,.ds-rule-name,.ds-file-choice,.ds-detail{transition:none;animation:none}}"
     },
     {
       "name": "Artifact Row",
       "kind": "custom",
       "refersTo": "artifact-row",
-      "description": "File identity, independent copy/download affordances, and on-demand URL/hash details.",
-      "html": "<article class=\"ds-artifact-row\"><div class=\"ds-artifact-info\"><span class=\"ds-extension\">YAML</span><div><h3 class=\"ds-artifact-title\">规则集 <span class=\"ds-recommended\">推荐</span></h3><p class=\"ds-artifact-meta\">24 KB · 文本格式</p></div></div><div class=\"ds-artifact-actions\"><button class=\"ds-button\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg>复制地址</button><a class=\"ds-button ds-button-primary\" href=\"#download\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>下载</a></div><details class=\"ds-file-details\"><summary>文件地址与 SHA-256</summary><code class=\"ds-hash\">SHA-256: 5d214e…</code></details></article>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dce3d8);border-radius:6px;text-decoration:none;background:var(--color-surface,#ffffff);color:var(--color-ink,#203c32);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .18s var(--ease,cubic-bezier(.16,1,.3,1)),color .18s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .18s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-button:hover{background:var(--color-paper,#f7f8f2);border-color:#9aaa9a}.ds-button:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.42}.ds-button svg{flex:none}.ds-button-primary{background:var(--color-forest,#173d34);border-color:var(--color-forest,#173d34);color:#f6f8ef}.ds-button-primary:hover{background:var(--color-forest-deep,#123127);border-color:var(--color-forest,#173d34)}.ds-artifact-row{display:flex;align-items:center;flex-wrap:wrap;gap:18px;padding:20px 0;border-top:1px solid var(--color-line,#dce3d8);color:var(--color-ink,#203c32);font-family:var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-artifact-info{display:flex;align-items:center;gap:13px;min-width:0;flex:1}.ds-extension{display:grid;place-items:center;min-width:50px;height:40px;padding:0 6px;border-radius:6px;background:#f2f5ec;font-size:10px;color:#526543;font-weight:600}.ds-artifact-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0;font-size:16px;font-weight:600}.ds-recommended{font-size:10px;font-weight:500;padding:1px 6px;background:var(--color-mint,#e6eed0);color:#4d6334;border-radius:3px}.ds-artifact-meta{font-size:11px;color:var(--color-muted,#5e7065);margin:3px 0 0}.ds-artifact-actions{display:flex;gap:8px}.ds-file-details{width:100%;margin-top:-7px;font-size:11px;color:var(--color-muted,#5e7065)}.ds-file-details summary{width:fit-content;line-height:2;min-height:32px;cursor:pointer}.ds-file-details summary:focus-visible{outline:3px solid var(--color-accent,#b64c30);outline-offset:4px}.ds-hash{display:block;overflow-wrap:anywhere;margin-top:7px;font:400 11px/1.6 ui-monospace,Consolas,monospace}@media(max-width:760px){.ds-artifact-row{gap:15px;padding:17px 0}.ds-artifact-info{flex-basis:100%}.ds-artifact-title{font-size:14px}.ds-artifact-actions{margin-left:auto}.ds-artifact-actions .ds-button{font-size:11px;min-height:40px;padding:9px 12px}.ds-file-details{margin-top:0;line-height:1.8}}@media(prefers-reduced-motion:reduce){.ds-button,.ds-input,.ds-nav-link,.ds-filter,.ds-rule-row,.ds-rule-link{transition:none}}"
+      "description": "Detail-file identity, recommendation, separate copy/download controls, and native metadata disclosure.",
+      "html": "<article class=\"ds-artifact\"><div class=\"ds-artifact-info\"><span class=\"ds-extension\">YAML</span><div><h3 class=\"ds-artifact-title\">Google.yaml <span class=\"ds-recommended\">推荐</span></h3><p class=\"ds-artifact-meta\">classical · 文本格式</p></div></div><div class=\"ds-artifact-actions\"><button class=\"ds-btn\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 9h12v12H9zM5 15H3V3h12v2\"/></svg>复制地址</button><button class=\"ds-btn ds-primary\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5\"/></svg>下载</button></div><details class=\"ds-file-details\"><summary class=\"ds-file-summary\">文件地址与 SHA-256</summary><span class=\"ds-file-note\">所选文件地址与完整哈希在实际详情页展示。</span></details></article>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border:1px solid var(--color-line,#dfe5ee);border-radius:6px;background:var(--color-surface,#fff);color:var(--color-ink,#1d2b43);font:500 13px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif);text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .18s,background-color .18s,border-color .18s}.ds-btn:hover{background:var(--color-paper,#f6f8fc);border-color:#9cafd0}.ds-btn:disabled{opacity:.4;cursor:default}.ds-btn svg{flex:none}.ds-btn:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none;animation:none}}.ds-primary{background:var(--color-forest,#285dd8);border-color:var(--color-forest,#285dd8);color:var(--color-surface,#fff)}.ds-primary:hover{background:var(--color-forest-deep,#204cad)}.ds-artifact{display:flex;align-items:center;flex-wrap:wrap;gap:18px;padding:20px 0;border-top:1px solid var(--color-line,#dfe5ee);color:var(--color-ink,#1d2b43);font:400 16px/1.6 var(--font-body,'Inter Variable','Segoe UI','Microsoft YaHei',sans-serif)}.ds-artifact-info{display:flex;align-items:center;gap:13px;min-width:0;flex:1}.ds-extension{display:grid;place-items:center;min-width:50px;height:40px;padding:0 6px;border-radius:6px;background:#f2f5ec;color:#52647c;font-size:10px;font-weight:600}.ds-artifact-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0;font-size:16px;line-height:1.5;font-weight:700;overflow-wrap:anywhere}.ds-recommended{display:inline-block;padding:1px 6px;background:var(--color-mint,#eaf0ff);color:#285dd8;border-radius:3px;font-size:10px;font-weight:500;white-space:nowrap}.ds-artifact-meta{margin:3px 0 0;color:var(--color-muted,#607089);font-size:11px}.ds-artifact-actions{display:flex;gap:8px}.ds-file-details{width:100%;margin-top:-7px;font-size:11px;color:var(--color-muted,#607089)}.ds-file-summary{width:fit-content;line-height:2;min-height:32px;cursor:pointer}.ds-file-note{display:block;margin-top:7px;overflow-wrap:anywhere}@media(max-width:760px){.ds-artifact{gap:15px;padding:17px 0}.ds-artifact-info{flex-basis:100%}.ds-artifact-title{font-size:14px}.ds-artifact-actions{margin-left:auto}.ds-artifact-actions .ds-btn{font-size:12px;min-height:40px}.ds-file-details{margin-top:0;line-height:1.8}}.ds-file-summary:focus-visible{outline:3px solid var(--color-accent,#285dd8);outline-offset:4px}"
     }
   ],
   "narrative": {
-    "northStar": "The Forest Archive",
-    "overview": "A quiet forest-colored frame holds a cream workspace and white working surfaces. Mint marks the current location and selected filters; terracotta supplies a small point of emphasis and a clear keyboard focus signal. The character is practical, steady, and compact.\n\nThe catalog and detail pages use an Operate mode: search, dates, client identity, and copy/download actions stay easy to scan. Documentation uses a Read mode with a narrower text measure and more leading. Both modes share the same shell, type family, authored SVG icons, and restrained native transitions.",
+    "northStar": "清透工具台",
+    "overview": "A clear, compact workspace puts rule identity, usable filenames, dates, and actions in a calm reading order. White surfaces sit on cool blue paper; navy text carries the information, while restrained cobalt marks the current location, selections, focus, and primary actions. The character is practical, crisp, and quiet.\n\nThe shared shell uses a horizontal top navigation and a slim synchronization strip. Repeated rows keep comparison efficient; detail panels and narrower reading pages use the same family, palette, and line icons. The catalog-specific search/copy strategy is recorded in `.impeccable/surfaces/catalog.md`.",
     "keyCharacteristics": [
-      "Forest navigation, cream workspace, white catalog surfaces.",
-      "Compact rows and metadata with a visible search and date hierarchy.",
-      "Mint selections and sparse terracotta punctuation.",
-      "Authored line SVG icons, explicit copy/download labels, and visible keyboard focus.",
+      "White working surfaces, cool blue paper, navy text, and cobalt emphasis.",
+      "Compact bilingual typography, fine separators, and tabular dates and counts.",
+      "Explicit client/format identity beside quick-copy actions.",
+      "Flat panels, small control corners, and visible keyboard focus.",
       "A desktop table that becomes a stacked mobile list."
     ],
     "rules": [
       {
-        "name": "The Selection Rule",
-        "body": "Use mint for current navigation, chosen filters, recommendations, and summary emphasis. Keep terracotta for punctuation, links in prose, and interaction focus.",
+        "name": "The Explicit State Rule",
+        "body": "Pair color with an underline, readable label, selected control state, or status wording. Keep client identity and selected state distinguishable.",
         "section": "colors"
       },
       {
         "name": "The Date Clarity Rule",
-        "body": "Keep source rule updates, backup file changes, and successful synchronization visually labeled as distinct facts. Use tabular numerals for dates and counts.",
+        "body": "Preserve the distinct labels for source rule updates, backup file changes, and successful synchronization. A successful check must not look like a changed rule.",
         "section": "typography"
       },
       {
         "name": "The Quiet Surface Rule",
-        "body": "Separate working regions with tone and fine borders. Reserve the implemented shadow for transient status feedback.",
+        "body": "Use tone and fine borders to separate working regions. Reserve the implemented shadow for transient status feedback.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do keep search and synchronization status visible near the start of the page.",
-      "Do preserve clear labels beside copy, download, and navigation icons.",
-      "Do use mint to communicate selection and forest to anchor primary actions.",
-      "Do retain visible keyboard focus, semantic labels, and reduced-motion behavior.",
-      "Do keep mobile dates and actions readable when the table becomes a list."
+      "Do use the white/cool-blue palette and restrained cobalt for actions, current navigation, and selection.",
+      "Do keep search, synchronization status, and precise timestamp labels easy to scan.",
+      "Do show the client and format for the exact file a copy action will use.",
+      "Do retain visible keyboard focus, accessible labels, polite feedback, and reduced-motion behavior.",
+      "Do preserve mobile dates, filenames, and direct-copy actions when the table becomes a list."
     ],
     "donts": [
-      "Don't use shadows to lift every row or panel.",
-      "Don't rely on a client dot or a status color without readable text.",
-      "Don't style a synchronization check as a newly updated rule.",
-      "Don't add decorative imagery where the implemented system uses text, monograms, and authored SVG icons.",
-      "Don't animate layout or add continuous motion to routine catalog work."
+      "Don't interpret the legacy `forest` and `mint` token names as green colors or restore the previous sidebar shell.",
+      "Don't lift every row or panel with a shadow.",
+      "Don't rely on dots or color alone to identify a client, selected control, or availability state.",
+      "Don't style successful synchronization as a newly updated rule.",
+      "Don't introduce continuous motion or decorative imagery into routine catalog work."
     ]
   }
 }
