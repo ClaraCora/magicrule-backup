@@ -50,7 +50,7 @@ jobs:
         if: github.event_name != 'workflow_dispatch' || inputs.sync
         run: npm run sync
       - name: Build website from backup
-        run: npm run verify && npm run build
+        run: npm run verify && npm run config:rules && npm run build
       - name: Commit validated backup
         run: |
           git -C .cache/backup config user.name 'github-actions[bot]'

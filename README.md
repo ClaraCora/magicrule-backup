@@ -22,6 +22,15 @@
 
 ## 页面与数据接口
 
+`current/custom/` 保存配置修正版，与 `current/rules/` 中逐字节保留的原始备份分开。每日工作流校验原始快照后运行 `npm run config:rules`，整批生成并验证以下文件，再与数据提交一起发布：
+
+- `Mihomo/ForeignAI.yaml`、`Egern/ForeignAI.yaml`：从 GlobalAI 提取经 `config-rules/policy.json` 审核的专用 AI 域名。保留常见海外 AI 服务和精准 Copilot 地址，排除通用云域名、国内 AI、共享 IP/ASN、进程及关键词规则；新增顶级服务域名需更新白名单，已有服务下的源站新增域名继续同步。
+- `Mihomo/DomesticAI.yaml`、`Egern/DomesticAI.yaml`：国内 AI 专用域名，供配置单独直连及使用国内 DNS。白名单中的精确地址也可作为专用认证端点补充，不扩大到整个共享平台。
+- `Egern/NetEaseMusic.yaml`：仅为以 `%` 开头的未引用 YAML 列表值补引号，保留规则值和署名。源站以后修正时继续正常生成。
+- `Mihomo/WebRTC.list`：明确的 STUN/TURN 主机清单，无全局端口规则；配置可再限定 UDP。此规则不承诺完整阻止 WebRTC 泄漏。
+
+修正版保留来源及源文件哈希，`current/custom/manifest.json` 记录策略和输出哈希；任一来源不匹配或生成失败时，工作流不提交新快照。下载地址前缀为 `https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/custom/`。页面目录及原始备份统计继续描述原始文件。
+
 - 首页：顶部导航与紧凑规则表格，中英文名称、说明、来源搜索，客户端、规则类型、文件格式和下架状态筛选；同 ID 的规则合并展示，筛选需在同一客户端记录上同时满足。文件名下方可选择客户端和格式，直接复制对应地址，条数和日期随所选客户端更新。“全部”客户端的默认复制优先选未下架的 Mihomo classical 文件，再选其他完整规则。
 - `/rules/<id>/`：各客户端的条数、日期、全部格式、来源、实际 SHA-256、复制订阅地址与下载。
 - `/updates/`：成功同步记录与变动列表。`/about/`：使用与恢复说明。
