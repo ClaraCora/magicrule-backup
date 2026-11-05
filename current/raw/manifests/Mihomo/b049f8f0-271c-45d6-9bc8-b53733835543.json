@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T02:42:18.337626+00:00",
+  "generated_at": "2026-11-04T15:51:07.144423+00:00",
   "client": "Mihomo",
   "rule": "Scholar",
-  "rule_updated_at": "2026-10-29T02:37:23.615083+00:00",
+  "rule_updated_at": "2026-11-04T15:50:59.544329+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 226,
-    "DOMAIN": 76
+    "DOMAIN": 76,
+    "DOMAIN-SUFFIX": 245
   },
-  "total_line_count": 302,
+  "total_line_count": 321,
   "artifacts": [
     {
       "key": "classical",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ca3af6b04fe5a7fee47ac2dd8c36676d4b8eb51ed54172e0c41c597b05b56cb1",
-        "bytes_sha256": "cfbf59ad407499facea395a0a01c898f719dbd49f09c8698914eefbcfbb2954d",
-        "semantic_sha256": "164d7e03d96e3ce3ac34d6fbf0c9ec3f4754394c8203af8201660b44989b0638",
+        "fingerprint": "85193bef20203a76c25444d642e653fb2bf5cde6310c5a23e94ae926b41ded7a",
+        "bytes_sha256": "59e0215071e096ea197e209d47cce7b55dc5c4b0afde344ceed6a6d0a0b60367",
+        "semantic_sha256": "952b3d71a4cd46a410a82ea3be6d32a68fce6383a0664417292b99174258c835",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "76f2f393d7d982250f4cb9b64fd6f6e024999e87b180455ac059fecf657617c8",
-        "bytes_sha256": "6378b08175a4a2a9e0c2bdccd08ed2e77e6cf0e8beda0360fff119632485c642",
-        "semantic_sha256": "47d8611b43d8974431d3b88f1b6267a4ea98a38ca7c481a30d41a2a3e0a39516",
+        "fingerprint": "be0250d7c858d8c79fefcfefe1ee7940a4c0c333017864dae240302e520d8f8a",
+        "bytes_sha256": "7ed13afa8236afa747eb8e51b90dcda65e8ce1d1f3f53612c94bb7a94eef73ac",
+        "semantic_sha256": "c45cc310ddd4fb5d598b82ddb26c98c92b38cbf95a1b0eb83794937aa7dca74f",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -56,8 +56,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "c3cd7cf0ae29196d12da54eb22c0558fee7ff1fed4cdbda75b8123cddc7164d3",
-        "bytes_sha256": "e7be93055bbd4aaae8a4fb1f76ca97ffb814989e6670d32bd77884ebc18eec80",
+        "fingerprint": "e4fdbb003dfc238ac5a271f6e20082cd7e4f92a7f7b191817e9959f7f0932087",
+        "bytes_sha256": "44f2541eefdd37e358f1ffcc7ca0a07c83d652bd10c1d583f721a9bc0e429cf9",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

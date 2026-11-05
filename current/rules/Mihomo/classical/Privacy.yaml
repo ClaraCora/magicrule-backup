@@ -1,16 +1,18 @@
 # NAME: Privacy
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-08-27 09:56:38
+# UPDATED: 2026-11-05 00:01:11
 # BEHAVIOR: classical
-# DOMAIN: 11
-# DOMAIN-SUFFIX: 39863
+# DOMAIN: 13
+# DOMAIN-SUFFIX: 39865
 # DOMAIN-KEYWORD: 2
-# DOMAIN-WILDCARD: 7
+# DOMAIN-WILDCARD: 8
 # IP-CIDR: 9
 
 payload:
 - 'DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe'
+- 'DOMAIN,api.segment.io'
+- 'DOMAIN,data.bilibili.com'
 - 'DOMAIN,dataflow.biliapi.com'
 - 'DOMAIN,livewebbs2pcdn.msstatic.com'
 - 'DOMAIN,nom.telemetrydeck.com'
@@ -4955,6 +4957,7 @@ payload:
 - 'DOMAIN-SUFFIX,amo.myoyster.mx'
 - 'DOMAIN-SUFFIX,amp-error-reporting.appspot.com'
 - 'DOMAIN-SUFFIX,amplitude.chess.com'
+- 'DOMAIN-SUFFIX,amplitude.com'
 - 'DOMAIN-SUFFIX,ampltd.medal.tv'
 - 'DOMAIN-SUFFIX,ampltd.top.gg'
 - 'DOMAIN-SUFFIX,ampltd2.medal.tv'
@@ -13298,6 +13301,7 @@ payload:
 - 'DOMAIN-SUFFIX,gmufag.woman.ru'
 - 'DOMAIN-SUFFIX,gmxcdm.vestel.com.tr'
 - 'DOMAIN-SUFFIX,gn.informaengage.com'
+- 'DOMAIN-SUFFIX,gnar.grammarly.com'
 - 'DOMAIN-SUFFIX,gnfjvt.radpowerbikes.com'
 - 'DOMAIN-SUFFIX,gnfqtz.smartphoto.se'
 - 'DOMAIN-SUFFIX,gnh2.destinia.lv'
@@ -39893,6 +39897,7 @@ payload:
 - 'DOMAIN-WILDCARD,p2pchunk-*.douyucdn.cn'
 - 'DOMAIN-WILDCARD,p2plive-*.douyucdn.cn'
 - 'DOMAIN-WILDCARD,stun*.douyucdn.cn'
+- 'DOMAIN-WILDCARD,upos-sz-302*.bilivideo.com'
 - 'IP-CIDR,0.0.0.1/32,no-resolve'
 - 'IP-CIDR,109.123.233.251/32,no-resolve'
 - 'IP-CIDR,185.193.38.148/32,no-resolve'

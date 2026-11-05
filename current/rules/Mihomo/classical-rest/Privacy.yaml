@@ -1,10 +1,10 @@
 # NAME: Privacy
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-08-27 09:56:38
+# UPDATED: 2026-11-05 00:01:13
 # BEHAVIOR: classical
 # DOMAIN-KEYWORD: 2
-# DOMAIN-WILDCARD: 7
+# DOMAIN-WILDCARD: 8
 
 payload:
 - 'DOMAIN-KEYWORD,-p2p-v2.pull.yximgs.com'
@@ -16,3 +16,4 @@ payload:
 - 'DOMAIN-WILDCARD,p2pchunk-*.douyucdn.cn'
 - 'DOMAIN-WILDCARD,p2plive-*.douyucdn.cn'
 - 'DOMAIN-WILDCARD,stun*.douyucdn.cn'
+- 'DOMAIN-WILDCARD,upos-sz-302*.bilivideo.com'

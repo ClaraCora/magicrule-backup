@@ -1,6 +1,6 @@
 {
   "client": "Loon",
-  "generated_at": "2026-10-30T08:09:39.052128+00:00",
+  "generated_at": "2026-11-04T16:22:04.852774+00:00",
   "rules": [
     {
       "id": "80294b1d-d7b7-48c1-a745-7eedcfbb22f4",
@@ -602,13 +602,13 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-10-30T08:08:21.105455+00:00",
+      "rule_updated_at": "2026-11-04T15:55:26.537929+00:00",
       "type_counts": {
-        "DOMAIN": 184606,
+        "DOMAIN": 187629,
         "DOMAIN-SUFFIX": 4,
         "IP-CIDR": 72
       },
-      "total_line_count": 184682,
+      "total_line_count": 187705,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/dea34b5f247a0f24ef119222/manifest.json",
       "providers": [
         "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -697,18 +697,18 @@
         "URL-REGEX",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-30T01:40:34.640821+00:00",
+      "rule_updated_at": "2026-11-04T15:58:52.711478+00:00",
       "type_counts": {
-        "DOMAIN": 17423,
+        "DOMAIN": 17424,
         "DOMAIN-KEYWORD": 210,
-        "DOMAIN-SUFFIX": 242164,
+        "DOMAIN-SUFFIX": 245471,
         "IP-ASN": 15,
         "IP-CIDR": 1024,
         "IP-CIDR6": 6,
         "URL-REGEX": 15,
         "USER-AGENT": 1
       },
-      "total_line_count": 260858,
+      "total_line_count": 264166,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/b9a4fe8ac56b4522b5fccd70/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
@@ -744,16 +744,16 @@
         "IP-CIDR6",
         "URL-REGEX"
       ],
-      "rule_updated_at": "2026-10-30T01:40:32.976676+00:00",
+      "rule_updated_at": "2026-11-04T15:53:40.712330+00:00",
       "type_counts": {
-        "DOMAIN": 26892,
+        "DOMAIN": 26893,
         "DOMAIN-KEYWORD": 164,
-        "DOMAIN-SUFFIX": 158888,
+        "DOMAIN-SUFFIX": 161188,
         "IP-CIDR": 230,
         "IP-CIDR6": 4,
         "URL-REGEX": 5
       },
-      "total_line_count": 186183,
+      "total_line_count": 188484,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/7a268d8817b2e6af7754274a/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
@@ -1008,14 +1008,14 @@
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-08-10T09:19:13.034977+00:00",
+      "rule_updated_at": "2026-11-04T15:55:14.220233+00:00",
       "type_counts": {
         "DOMAIN": 5,
-        "DOMAIN-SUFFIX": 1471,
+        "DOMAIN-SUFFIX": 1473,
         "IP-CIDR": 139,
         "IP-CIDR6": 9
       },
-      "total_line_count": 1624,
+      "total_line_count": 1626,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/4662c5f1f34827eab0ed3539/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -2576,11 +2576,11 @@
       "types": [
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-10-29T02:37:34.094373+00:00",
+      "rule_updated_at": "2026-11-04T15:55:14.201869+00:00",
       "type_counts": {
-        "DOMAIN-SUFFIX": 13
+        "DOMAIN-SUFFIX": 14
       },
-      "total_line_count": 13,
+      "total_line_count": 14,
       "manifest": "https://rule-26r.pages.dev/data/rules/Loon/8fbb8872586760dbea4ee1e1/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community"
@@ -3390,13 +3390,13 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-10-20T05:42:32.687830+00:00",
+      "rule_updated_at": "2026-11-04T15:55:20.084099+00:00",
       "type_counts": {
         "DOMAIN": 29,
-        "DOMAIN-SUFFIX": 1034,
+        "DOMAIN-SUFFIX": 1037,
         "IP-CIDR": 1
       },
-      "total_line_count": 1064,
+      "total_line_count": 1067,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/c0771d8d0ec5bc8a300b50e8/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -3870,17 +3870,17 @@
         "IP-CIDR6",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-30T01:42:25.149801+00:00",
+      "rule_updated_at": "2026-11-04T15:51:37.737953+00:00",
       "type_counts": {
         "DOMAIN": 25,
         "DOMAIN-KEYWORD": 10,
-        "DOMAIN-SUFFIX": 6302,
+        "DOMAIN-SUFFIX": 6328,
         "GEOIP": 1,
-        "IP-CIDR": 3892,
+        "IP-CIDR": 3885,
         "IP-CIDR6": 4,
         "USER-AGENT": 30
       },
-      "total_line_count": 10264,
+      "total_line_count": 10283,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/2dbafa593f402cb036403693/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -3963,13 +3963,13 @@
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-10-30T07:51:50.381169+00:00",
+      "rule_updated_at": "2026-11-04T15:51:07.823079+00:00",
       "type_counts": {
         "IP-ASN": 5076,
-        "IP-CIDR": 12949,
-        "IP-CIDR6": 5499
+        "IP-CIDR": 12622,
+        "IP-CIDR6": 5483
       },
-      "total_line_count": 23524,
+      "total_line_count": 23181,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/664328e8c5a0bfad5ebda5cd/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
@@ -4116,11 +4116,11 @@
       "types": [
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-10-09T15:58:53.101714+00:00",
+      "rule_updated_at": "2026-11-04T15:55:14.570165+00:00",
       "type_counts": {
-        "DOMAIN-SUFFIX": 91
+        "DOMAIN-SUFFIX": 92
       },
-      "total_line_count": 91,
+      "total_line_count": 92,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/b64617e7ceac7221585bea83/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -5713,12 +5713,12 @@
         "DOMAIN",
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-10-29T02:37:34.071185+00:00",
+      "rule_updated_at": "2026-11-04T15:55:14.204229+00:00",
       "type_counts": {
         "DOMAIN": 91,
-        "DOMAIN-SUFFIX": 630
+        "DOMAIN-SUFFIX": 645
       },
-      "total_line_count": 721,
+      "total_line_count": 736,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/4e19f9693246d658ac9d3a61/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -8166,13 +8166,13 @@
         "DOMAIN-KEYWORD",
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-10-29T02:37:32.317183+00:00",
+      "rule_updated_at": "2026-11-04T15:55:17.551820+00:00",
       "type_counts": {
         "DOMAIN": 126,
         "DOMAIN-KEYWORD": 4,
-        "DOMAIN-SUFFIX": 1139
+        "DOMAIN-SUFFIX": 1146
       },
-      "total_line_count": 1269,
+      "total_line_count": 1276,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/0cfbaa01845158edc5932961/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -8607,16 +8607,16 @@
         "IP-CIDR6",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-29T01:54:11.312741+00:00",
+      "rule_updated_at": "2026-11-04T15:43:14.073265+00:00",
       "type_counts": {
-        "DOMAIN": 1914,
+        "DOMAIN": 1915,
         "DOMAIN-KEYWORD": 53,
-        "DOMAIN-SUFFIX": 22360,
+        "DOMAIN-SUFFIX": 22380,
         "IP-CIDR": 80,
         "IP-CIDR6": 4,
         "USER-AGENT": 9
       },
-      "total_line_count": 24420,
+      "total_line_count": 24441,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/d5c6c6c242e8022e45d165f8/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
@@ -8714,12 +8714,12 @@
         "DOMAIN",
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-10-29T03:05:25.659874+00:00",
+      "rule_updated_at": "2026-11-04T15:55:14.605988+00:00",
       "type_counts": {
         "DOMAIN": 97,
-        "DOMAIN-SUFFIX": 778
+        "DOMAIN-SUFFIX": 785
       },
-      "total_line_count": 875,
+      "total_line_count": 882,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/4d6264899773e9cc50e11d5a/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community"
@@ -8808,12 +8808,12 @@
         "DOMAIN",
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-07-26T07:23:02.458447+00:00",
+      "rule_updated_at": "2026-11-04T15:55:19.164431+00:00",
       "type_counts": {
         "DOMAIN": 76,
-        "DOMAIN-SUFFIX": 226
+        "DOMAIN-SUFFIX": 245
       },
-      "total_line_count": 302,
+      "total_line_count": 321,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/f54aaff66a4522888287cdfa/manifest.json",
       "providers": []
     },
@@ -13436,14 +13436,14 @@
         "DOMAIN-SUFFIX",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-29T02:37:29.704967+00:00",
+      "rule_updated_at": "2026-11-04T15:50:59.367833+00:00",
       "type_counts": {
         "DOMAIN": 114,
         "DOMAIN-KEYWORD": 4,
-        "DOMAIN-SUFFIX": 788,
+        "DOMAIN-SUFFIX": 790,
         "USER-AGENT": 3
       },
-      "total_line_count": 909,
+      "total_line_count": 911,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/57f9bf6bd9f68d97a2df2f39/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -16391,14 +16391,14 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-09-03T05:29:20.152770+00:00",
+      "rule_updated_at": "2026-11-04T15:52:32.753717+00:00",
       "type_counts": {
-        "DOMAIN": 12,
+        "DOMAIN": 13,
         "DOMAIN-KEYWORD": 2,
-        "DOMAIN-SUFFIX": 39863,
+        "DOMAIN-SUFFIX": 39865,
         "IP-CIDR": 9
       },
-      "total_line_count": 39886,
+      "total_line_count": 39889,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/5289b87bf94ea1c62a062617/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
@@ -17645,12 +17645,12 @@
         "DOMAIN",
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-10-29T02:37:23.451102+00:00",
+      "rule_updated_at": "2026-11-04T15:50:59.366205+00:00",
       "type_counts": {
         "DOMAIN": 76,
-        "DOMAIN-SUFFIX": 226
+        "DOMAIN-SUFFIX": 245
       },
-      "total_line_count": 302,
+      "total_line_count": 321,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/5cf3119842d5ee24c122acaf/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -18704,14 +18704,14 @@
         "DOMAIN-SUFFIX",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-30T01:40:30.069321+00:00",
+      "rule_updated_at": "2026-11-04T15:50:59.360972+00:00",
       "type_counts": {
-        "DOMAIN": 3345,
+        "DOMAIN": 3351,
         "DOMAIN-KEYWORD": 1,
         "DOMAIN-SUFFIX": 130,
         "USER-AGENT": 1
       },
-      "total_line_count": 3477,
+      "total_line_count": 3483,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/abe5a09dab1aa7b03ac5f498/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -19827,14 +19827,14 @@
         "IP-CIDR",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-09T15:58:46.224771+00:00",
+      "rule_updated_at": "2026-11-04T15:55:14.179611+00:00",
       "type_counts": {
         "DOMAIN": 1,
-        "DOMAIN-SUFFIX": 2745,
+        "DOMAIN-SUFFIX": 2748,
         "IP-CIDR": 24,
         "USER-AGENT": 5
       },
-      "total_line_count": 2775,
+      "total_line_count": 2778,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/d2c03395c4b9751ccf0c9491/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -20365,14 +20365,14 @@
         "DOMAIN-SUFFIX",
         "USER-AGENT"
       ],
-      "rule_updated_at": "2026-10-29T02:37:35.536481+00:00",
+      "rule_updated_at": "2026-11-04T15:55:13.889648+00:00",
       "type_counts": {
         "DOMAIN": 9,
         "DOMAIN-KEYWORD": 4,
-        "DOMAIN-SUFFIX": 49,
+        "DOMAIN-SUFFIX": 52,
         "USER-AGENT": 1
       },
-      "total_line_count": 63,
+      "total_line_count": 66,
       "manifest": "https://magicrule.pages.dev/data/rules/Loon/29a28735f426e0eba8bb5a00/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",

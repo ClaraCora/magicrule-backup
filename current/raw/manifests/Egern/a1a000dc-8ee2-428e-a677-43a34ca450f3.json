@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-27T02:11:09.809327+00:00",
+  "generated_at": "2026-11-04T16:10:02.674361+00:00",
   "client": "Egern",
   "rule": "Alibaba",
-  "rule_updated_at": "2026-08-10T09:19:13.198817+00:00",
+  "rule_updated_at": "2026-11-04T15:55:14.355545+00:00",
   "type_counts": {
     "domain_set": 5,
     "ip_cidr6_set": 9,
-    "domain_suffix_set": 1471,
+    "domain_suffix_set": 1473,
     "ip_cidr_set": 139
   },
-  "total_line_count": 1624,
+  "total_line_count": 1626,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "8077f50bb614063a2d01271eacbeae58fdb7bd36859be87ce1266c9c41deac94",
-        "bytes_sha256": "24a20d83bb4f0288386aa698e456908a7a4bf20d9430fceb2b79bac5f31696f2",
-        "semantic_sha256": "cde2c8d693942c5fbbb9c8bacded3e21634b329b784338f48f2bc23bdf12f778",
+        "fingerprint": "b60407baf0c8fb23eabd04eb5d6d2b0a218a1fac5e980ef6d98bf8408718f3a3",
+        "bytes_sha256": "b20b8d38c6c8f71e48385ada0ab832c896429ec2670214c6cfd4c0fca15c3bf2",
+        "semantic_sha256": "f2df1f62e34afe17f801d0219f1b25229bcf2564bf9796b84f7978bacd24c348",
         "normalized_header_lines": 4,
         "shared": true
       }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-27T01:56:36.140141+00:00",
+  "generated_at": "2026-11-04T16:01:24.420186+00:00",
   "client": "Loon",
   "rule": "Privacy",
-  "rule_updated_at": "2026-08-07T02:23:29.773670+00:00",
+  "rule_updated_at": "2026-11-04T15:52:32.753717+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 39863,
+    "DOMAIN-SUFFIX": 39865,
     "DOMAIN-KEYWORD": 2,
     "IP-CIDR": 9,
-    "DOMAIN": 11
+    "DOMAIN": 13
   },
-  "total_line_count": 39885,
+  "total_line_count": 39889,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "02be8439012a86a4feb9bb9223ccf58ae7b1c85ba809171f7c161b3ad0b2a23f",
-        "bytes_sha256": "30e4125f995e35033451e7a7ec3705fd2fb1d74436aa1fb4d910b9169a98ab1b",
-        "semantic_sha256": "d985e3a5c337042c25d7ebbd88eb3a8320c0b6556957d842a818959fcbb3ea06",
+        "fingerprint": "8a68563833da4d60b18ba16e75b0e0191a6b4c6a556d6acd99391945619f4698",
+        "bytes_sha256": "10bec5a89b6ff157d1429dd55bf1c1b7f8aadda033754232512411ab55f39537",
+        "semantic_sha256": "1212872090f1ff6ba3638fb339ffc4f0b004ed041d677b11258adacd54301845",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,9 +40,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "afe05eb71f49c1af252de9435bb12f9522e25beb91ba9c0cc153ce74a44a4c8e",
-        "bytes_sha256": "ed61ae9c36f1ae8dc64a852bb99b09907b585ccf88a6440d94190f4fa8229c6e",
-        "semantic_sha256": "2be24e8f045973799b00039df18650b754eb9eb4b1679df87ff0c22088c7d9ff",
+        "fingerprint": "fc219cd655ed4daacaf0c89584dbe1fa2b87c8a00ca94fd78f29cd006e7bac5e",
+        "bytes_sha256": "57877a3082f4af45cf331c2faf0a8917c139d03c34c2af824bab4d7c0950b92a",
+        "semantic_sha256": "dac5c0cbf4abda6c4dc92828d89ea3aacaa03daa76aae7c61c6ecd09b669c3c1",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -59,7 +59,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "65ca0fd845a92f29cac0ac9bd827e850b4b456dc312e9e6305d7c36a86ee2b96",
-        "bytes_sha256": "b7ca5b1af13fcb2319d19a5b109bcc9ac6532066b4e36982a377c79e67c9e68e",
+        "bytes_sha256": "a1a04099c65c6af41c09e827a0c184777c92ce759092e8c958a37eeaa2e3281d",
         "semantic_sha256": "bb1be0cbc6ab7cdf5c17e3bf5fed592dc0b0f035243638ff1199b4932a8224c0",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-29T03:09:38.741294+00:00",
+  "generated_at": "2026-11-04T16:04:52.726968+00:00",
   "client": "Egern",
   "rule": "TikTok",
-  "rule_updated_at": "2026-10-29T02:37:35.822602+00:00",
+  "rule_updated_at": "2026-11-04T15:55:13.985611+00:00",
   "type_counts": {
-    "domain_keyword_set": 4,
     "domain_set": 9,
-    "domain_suffix_set": 49,
-    "user_agent_set": 1
+    "domain_suffix_set": 52,
+    "user_agent_set": 1,
+    "domain_keyword_set": 4
   },
-  "total_line_count": 63,
+  "total_line_count": 66,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1d3c0ddea690de32249de69dd9ef253df5956e89186261c0cbf3c980217c40a3",
-        "bytes_sha256": "9e4c17310a40fb4d8244657a5d8f8c12197ff85b1918b9adea6928a633db7783",
-        "semantic_sha256": "32544853443583aeb639ebf66414e922b85491678a5bef4c0ec28f01cd303b5a",
+        "fingerprint": "1c1f512085892d6185bb675dc66a669613ecb342b254d52d8194459876ef150c",
+        "bytes_sha256": "4e5150a9ddec78bef23a255ded4b88019623bc576c90734a10280920c95261d6",
+        "semantic_sha256": "032e226de046ff6e8936026cad3e9db389ed4fab8eb95aa2b58ba1abf4093fbc",
         "normalized_header_lines": 4,
         "shared": true
       }
