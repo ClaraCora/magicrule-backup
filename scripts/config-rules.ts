@@ -8,6 +8,7 @@ import type { Artifact, Catalog } from '../src/lib/types.ts';
 export interface DomainScope { domains: string[]; suffixes: string[] }
 export interface ConfigPolicy { foreignAI: DomainScope; domesticAI: DomainScope; webRTC: string[] }
 type DomainEntry = { type: 'DOMAIN' | 'DOMAIN-SUFFIX'; value: string };
+type AIClient = 'Mihomo' | 'Egern' | 'Loon';
 const sha256 = (bytes: Uint8Array | string) => createHash('sha256').update(bytes).digest('hex');
 const beneath = (domain: string, root: string) => domain === root || domain.endsWith('.' + root);
 const validDomain = (s: string) => s === s.toLowerCase() && s.includes('.') && !s.startsWith('.') && !/^\d+(\.\d+)+$/.test(s) && /^[a-z0-9_-]+(?:\.[a-z0-9_-]+)+$/.test(s);
@@ -29,16 +30,28 @@ export function validatePolicy(policy: ConfigPolicy) {
   }
 }
 
-export function domainEntries(text: string, client: 'Mihomo' | 'Egern'): DomainEntry[] {
-  const value = YAML.parse(text);
+export function domainEntries(text: string, client: AIClient): DomainEntry[] {
   const entries: DomainEntry[] = [];
-  if (client === 'Mihomo') {
+  if (client === 'Loon') {
+    for (const raw of text.split(/\r?\n/)) {
+      const line = raw.trim();
+      if (!line || line.startsWith('#')) continue;
+      const [type, domain, ...extra] = line.split(',');
+      if (type === 'DOMAIN' || type === 'DOMAIN-SUFFIX') {
+        if (extra.length || !domain) throw new Error('Invalid Loon domain rule');
+        entries.push({ type, value: domain });
+      }
+    }
+    if (!entries.length) throw new Error('Invalid or empty Loon source rules');
+  } else if (client === 'Mihomo') {
+    const value = YAML.parse(text);
     if (!Array.isArray(value?.payload) || value.payload.some((v: unknown) => typeof v !== 'string')) throw new Error('Invalid Mihomo source payload');
     for (const line of value.payload as string[]) {
       const [type, domain] = line.split(',');
       if (type === 'DOMAIN' || type === 'DOMAIN-SUFFIX') entries.push({ type, value: domain });
     }
   } else {
+    const value = YAML.parse(text);
     if (!value || typeof value !== 'object' || 'payload' in value || !Array.isArray(value.domain_suffix_set)) throw new Error('Invalid Egern source rules');
     for (const [key, type] of [['domain_set', 'DOMAIN'], ['domain_suffix_set', 'DOMAIN-SUFFIX']] as const) {
       if (value[key] != null && (!Array.isArray(value[key]) || value[key].some((v: unknown) => typeof v !== 'string'))) throw new Error('Invalid Egern domain list');
@@ -63,8 +76,9 @@ export function repairMusicYaml(text: string) {
   return fixed;
 }
 
-function render(entries: DomainEntry[], client: 'Mihomo' | 'Egern') {
+function render(entries: DomainEntry[], client: AIClient) {
   if (!entries.length) throw new Error('Refusing to publish an empty AI ruleset');
+  if (client === 'Loon') return entries.map(e => e.type + ',' + e.value).join('\n') + '\n';
   if (client === 'Mihomo') return YAML.stringify({ payload: entries.map(e => e.type + ',' + e.value) });
   return YAML.stringify({ no_resolve: true, domain_set: entries.filter(e => e.type === 'DOMAIN').map(e => e.value), domain_suffix_set: entries.filter(e => e.type === 'DOMAIN-SUFFIX').map(e => e.value) });
 }
@@ -76,8 +90,8 @@ export async function generateConfigRules(root: string, output = path.join(root,
   validatePolicy(policy);
   const catalog: Catalog = JSON.parse(await readFile(path.join(root, 'current', 'catalog.json'), 'utf8'));
   const sources: Record<string, { path: string; url: string; sha256: string }> = {};
-  async function source(client: string, name: string, key: string) {
-    const matches = catalog.rules.flatMap(r => r.variants.filter(v => v.client === client && v.name === name && !v.archived).flatMap(v => v.artifacts.filter(a => a.key === key && a.extension === 'yaml')));
+  async function source(client: string, name: string, key: string, extension = 'yaml') {
+    const matches = catalog.rules.flatMap(r => r.variants.filter(v => v.client === client && v.name === name && !v.archived).flatMap(v => v.artifacts.filter(a => a.key === key && a.extension === extension)));
     if (matches.length !== 1) throw new Error('Missing or ambiguous source: ' + client + '/' + name);
     const artifact: Artifact = matches[0];
     const file = path.resolve(root, artifact.path);
@@ -88,13 +102,14 @@ export async function generateConfigRules(root: string, output = path.join(root,
     return bytes.toString('utf8');
   }
   const files: Record<string, string> = {};
-  for (const client of ['Mihomo', 'Egern'] as const) {
-    const original = await source(client, 'GlobalAI', client === 'Mihomo' ? 'classical' : 'rules');
+  for (const client of ['Mihomo', 'Egern', 'Loon'] as const) {
+    const extension = client === 'Loon' ? 'list' : 'yaml';
+    const original = await source(client, 'GlobalAI', client === 'Mihomo' ? 'classical' : 'rules', extension);
     const entries = domainEntries(original, client);
     const attribution = original.split(/\r?\n/).filter(line => /^# (AUTHOR|REPO|UPDATED):/.test(line)).join('\n');
     for (const [name, scope] of [['ForeignAI', policy.foreignAI], ['DomesticAI', policy.domesticAI]] as const) {
       const selected = scopedEntries(entries, scope);
-      files[`${client}/${name}.yaml`] = `# NAME: ${name}\n${attribution}\n# DERIVED: scoped domains only; no shared cloud IP/ASN, process or keyword rules.\n# SOURCE: ${sources[client + '/GlobalAI'].url}\n# SOURCE-SHA256: ${sources[client + '/GlobalAI'].sha256}\n\n` + render(selected, client);
+      files[`${client}/${name}.${extension}`] = `# NAME: ${name}\n${attribution}\n# DERIVED: scoped domains only; no shared cloud IP/ASN, process or keyword rules.\n# SOURCE: ${sources[client + '/GlobalAI'].url}\n# SOURCE-SHA256: ${sources[client + '/GlobalAI'].sha256}\n\n` + render(selected, client);
     }
   }
   const music = await source('Egern', 'NetEaseMusic', 'rules');
@@ -102,6 +117,7 @@ export async function generateConfigRules(root: string, output = path.join(root,
   files['Mihomo/WebRTC.list'] = '# NAME: WebRTC\n# SOURCE: https://raw.githubusercontent.com/ClaraCora/ege/main/mihomo/WebRTC.list\n# DERIVED: explicit STUN/TURN hosts only; no global destination-port rules.\n' + policy.webRTC.map(domain => 'DOMAIN,' + domain).join('\n') + '\n';
   for (const [name, text] of Object.entries(files)) {
     if (name.endsWith('.yaml')) YAML.parse(text);
+    if (name.startsWith('Loon/')) domainEntries(text, 'Loon');
   }
   const manifest = { schemaVersion: 1, policySha256: sha256(policyText), sources, files: Object.entries(files).map(([file, text]) => ({ file, sha256: sha256(text), bytes: Buffer.byteLength(text) })) };
   // Everything is prepared and validated before writing. The workflow commits
