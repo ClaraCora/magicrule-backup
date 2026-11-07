@@ -15,7 +15,19 @@ export interface SyncOptions {
   timeoutMs: number;
   attempts: number;
   now?: () => Date;
-  retryDelayMs?: number;
+  retryDelayMs?: number;if (labels.every((label, index) => lines[index]?.startsWith(`# ${label}: `))) {
+      const body = lines.slice(4);
+      // Upstream counts DESC as a fifth normalized metadata line, even when
+      // rule-count comments occur between UPDATED and DESC. Never skip rules.
+      if (dedupe.normalized_header_lines === 5) {
+        const end = body.findIndex(line => !line.startsWith('#'));
+        const header = body.slice(0, end < 0 ? body.length : end);
+        const descriptions = header.flatMap((line, index) => line.startsWith('# DESC: ') ? [index] : []);
+        if (descriptions.length === 1) body.splice(descriptions[0], 1);
+        else throw new Error(`Invalid five-line normalized header: ${artifact.url}`);
+      }
+      if (digest(Buffer.from(body.join('\n'))) === dedupe.semantic_sha256) return 'normalized-header';
+    }
 }
 
 interface SourceArtifact {
@@ -55,7 +67,7 @@ export function verifyArtifact(bytes: Buffer, artifact: SourceArtifact): Artifac
   if (!expected) return 'recorded';
   if (digest(bytes) === expected) return 'bytes';
   const dedupe = artifact.dedupe;
-  if (!artifact.binary && dedupe?.mode === 'standard_header_normalized' && dedupe.normalized_header_lines === 4 && /^[a-f0-9]{64}$/.test(dedupe.semantic_sha256 || '')) {
+  if (!artifact.binary && dedupe?.mode === 'standard_header_normalized' && [4, 5].includes(dedupe.normalized_header_lines ?? 0) && /^[a-f0-9]{64}$/.test(dedupe.semantic_sha256 || '')) {
     const lines = bytes.toString('utf8').split('\n');
     const labels = ['NAME', 'AUTHOR', 'REPO', 'UPDATED'];
     if (labels.every((label, index) => lines[index]?.startsWith(`# ${label}: `)) && digest(Buffer.from(lines.slice(4).join('\n'))) === dedupe.semantic_sha256) return 'normalized-header';
