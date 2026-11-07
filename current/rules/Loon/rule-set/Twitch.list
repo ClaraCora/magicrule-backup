@@ -1,10 +1,11 @@
 # NAME: Twitch
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-29 11:05:23
+# UPDATED: 2026-11-07 03:16:01
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 15
 # IP-CIDR6: 6
+# PROCESS-NAME: 1
 
 DOMAIN-KEYWORD,ttvnw
 IP-CIDR,103.53.48.0/23,no-resolve
@@ -28,3 +29,4 @@ IP-CIDR6,2402:2a80:3000::/36,no-resolve
 IP-CIDR6,2402:2a80:4000::/36,no-resolve
 IP-CIDR6,2402:2a80:4200::/40,no-resolve
 IP-CIDR6,2402:2a80::/32,no-resolve
+PROCESS-NAME,tv.twitch.android.app

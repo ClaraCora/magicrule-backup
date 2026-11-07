@@ -1,7 +1,7 @@
 # NAME: Copilot
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-10-29 11:15:40
+# UPDATED: 2026-11-07 03:23:05
 # BEHAVIOR: classical
 # DOMAIN: 70
 # DOMAIN-SUFFIX: 304
@@ -397,9 +397,9 @@ payload:
 - 'IP-CIDR,64.23.132.171/32,no-resolve'
 - 'IP-CIDR6,2604:f20::/32,no-resolve'
 - 'IP-CIDR6,2607:6bc0::/32,no-resolve'
-- 'IP-ASN,14061'
-- 'IP-ASN,399358'
-- 'IP-ASN,401518'
+- 'IP-ASN,14061,no-resolve'
+- 'IP-ASN,399358,no-resolve'
+- 'IP-ASN,401518,no-resolve'
 - 'PROCESS-NAME,Antigravity'
 - 'PROCESS-NAME,Antigravity.exe'
 - 'PROCESS-NAME,Augment'

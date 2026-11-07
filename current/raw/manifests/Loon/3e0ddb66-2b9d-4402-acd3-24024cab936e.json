@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-11-04T15:44:34.303624+00:00",
+  "generated_at": "2026-11-06T19:18:15.783796+00:00",
   "client": "Loon",
   "rule": "Global",
-  "rule_updated_at": "2026-11-04T15:43:14.073265+00:00",
+  "rule_updated_at": "2026-11-06T14:13:16.530038+00:00",
   "type_counts": {
     "IP-CIDR6": 4,
-    "DOMAIN-SUFFIX": 22380,
+    "DOMAIN-SUFFIX": 22379,
     "DOMAIN-KEYWORD": 53,
     "IP-CIDR": 80,
-    "DOMAIN": 1915,
+    "PROCESS-NAME": 8,
+    "DOMAIN": 1914,
     "USER-AGENT": 9
   },
-  "total_line_count": 24441,
+  "total_line_count": 24447,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Global_rules_a5444ff2eb3168d2.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Global_rules_b5f3bb33d8a4698a.list",
       "binary": false,
       "role": "full",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ffde84179fb4ba9aba14a1236d090c6d96fdda1fd7685a0fd2445307319d2fb7",
-        "bytes_sha256": "16c7fe4f14a7f118aaf8d0f4a2cf122f4034ddbf4fc1ae8edb09a837ff38041a",
-        "semantic_sha256": "d63be715d0e1f3070c169780ecb1202484bab192ea6ce694ab5b2fb681f0bfaa",
+        "fingerprint": "410872dad46cb9a5b9e9b08ae91b50b86390ab0e43971ed4cbd400e25cc52871",
+        "bytes_sha256": "c0d6d75f1f298e3e9d55c4c58aad91c9016be0c4dc243596539a7e10a3fee5fa",
+        "semantic_sha256": "8bbac3827416c1974b4783e13883323f27cd112bf64c9ac68291cd62b2f22f81",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -42,9 +43,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "04ce852b9c632822bd7a27dbeb01ad966f175da84ca5870c49bbd3fc3fc97d8d",
-        "bytes_sha256": "1638ac460db76bbbfe41d1ba3910e401a4c38618f5a05a4020bafbe0cf531267",
-        "semantic_sha256": "ba2cc53bef5fdcb2d0ea1e109fb307472d59ce8b67930678fd73b013546d83be",
+        "fingerprint": "c11cb54c8aa166d2737c6945aae811791f5876f186fdf49b9521e69589f0d8a4",
+        "bytes_sha256": "7f8a48074d63eb38d7bbc0af75d37938c183a48e90f1ef983ad840921c4456da",
+        "semantic_sha256": "4c9bbf31877c41fbab6360e5bb4fcf07971306416734043e0cc48785c510005d",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -53,16 +54,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Global_rule-set_15dbe6828b9e58e4.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Global_rule-set_69177369a8b6311b.list",
       "binary": false,
       "role": "rule-set",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "43891055de599c3275df3c20cfd2f406c827053c5b0eec44db65de35633adba4",
-        "bytes_sha256": "c5a0ef726697212c463a6da74b82ec0cc5386fc609086ba3e0218c5f4147b1e8",
-        "semantic_sha256": "dcbd211596ba428933e0ec5124448086c6a963bc43d71dad3bcfc3bc6d0516b7",
+        "fingerprint": "be6138ef3174d72df6543e24fcb2129b1b9711dae97850278383dc6df113add8",
+        "bytes_sha256": "d6e890f87f1f797f677d0e1061e3e738f4a62bedb4162e480d4c97ddbf2fe5c2",
+        "semantic_sha256": "2c60b6c40356f019edf38adb5801b8acf5571b8b28ef9c003b7447cffd47b354",
         "normalized_header_lines": 4,
         "shared": true
       }

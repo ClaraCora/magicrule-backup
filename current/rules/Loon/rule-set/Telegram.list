@@ -1,11 +1,12 @@
 # NAME: Telegram
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-10 00:21:51
+# UPDATED: 2026-11-07 03:19:28
 # DOMAIN-KEYWORD: 1
 # IP-CIDR: 25
 # IP-CIDR6: 7
 # IP-ASN: 5
+# PROCESS-NAME: 5
 
 DOMAIN-KEYWORD,telegram
 IP-CIDR,109.239.140.0/24,no-resolve
@@ -45,3 +46,8 @@ IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
 IP-ASN,62014,no-resolve
 IP-ASN,62041,no-resolve
+PROCESS-NAME,nekox.messenger
+PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,telegram-desktop
+PROCESS-NAME,tw.nekomimi.nekogram
+PROCESS-NAME,xyz.nextalone.nagram

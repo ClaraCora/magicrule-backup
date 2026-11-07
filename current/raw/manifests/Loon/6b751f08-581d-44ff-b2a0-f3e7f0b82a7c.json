@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-04T16:06:19.248170+00:00",
+  "generated_at": "2026-11-06T19:19:45.261839+00:00",
   "client": "Loon",
   "rule": "Tencent",
-  "rule_updated_at": "2026-11-04T15:55:14.179611+00:00",
+  "rule_updated_at": "2026-11-06T14:29:01.166357+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 2748,
+    "DOMAIN-SUFFIX": 2751,
     "IP-CIDR": 24,
     "DOMAIN": 1,
     "USER-AGENT": 5
   },
-  "total_line_count": 2778,
+  "total_line_count": 2781,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "d6ef9fac62d2b8a3fa4699b70948bf30cace56178dc5736d17b0d7ae7b75a38c",
-        "bytes_sha256": "293dbff5b5f0842ad9341eb9d76758c8aec07f2c85367f78b96371033d3764f1",
-        "semantic_sha256": "6a8d7e130d5f5ff85e090957b55a2e37aa801fe7a5778023243f9451ea48a50f",
+        "fingerprint": "a6b93c6a7ee7a08e2232798a95dabe929b64c068e98ddc39ecef600c2435f1ad",
+        "bytes_sha256": "62829c708d139b601bf302c05724b1e400634de36c09374fbad7ad2ae5b850bd",
+        "semantic_sha256": "842168334f5ac9be83d4cf91619594da6bb0404514197d0846539fd64c6d01ab",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,9 +40,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "b48205eb32fc815e0cfe86b9abc4c433bf0fde3c3037a5a9314fea8d08859fc9",
-        "bytes_sha256": "6dba54b934904201aca2c36f852460cc1e0f88c999cdd3b78cefe8f08fb0aefd",
-        "semantic_sha256": "bb616ad4f3650f042dbc8723fed6d0dc4ee83a714451394c16bb89207e4b156f",
+        "fingerprint": "aa8e669a296b4b0d695dfe5a894bfc56138452c881e81f214d57712a4d73d8fb",
+        "bytes_sha256": "10b0762eff2e478470a416ce2f173c22ed0c79b719b815d72f2f0ab1ef42bbd7",
+        "semantic_sha256": "9556fa7f544eaebf3e2e54b30c3c9ec3f84411efdef9651f400ee4678e0f5699",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -59,7 +59,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "828b1ce9e65ed41b42ebd885c6838f482795bcf5a71268d480a45a5071da588b",
-        "bytes_sha256": "f34d907c78105ea767fdb6864b96ff799224a6f5cdee04181e6430619530cd5a",
+        "bytes_sha256": "ab67893100801b2a50907c5ede56e183bcaabcd42d970a1d8d88b8da16be9916",
         "semantic_sha256": "e5c4d4ab5362e81d0fa7cef6ead2ff5696dde5d1b51b31a8e24bf539742cc7af",
         "normalized_header_lines": 4,
         "shared": true

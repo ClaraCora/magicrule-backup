@@ -1,7 +1,7 @@
 # NAME: OpenAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-29 09:52:48
+# UPDATED: 2026-11-07 03:23:35
 # BEHAVIOR: classical
 # DOMAIN: 12
 # DOMAIN-SUFFIX: 32
@@ -64,7 +64,7 @@ payload:
 - 'IP-CIDR,24.199.123.28/32,no-resolve'
 - 'IP-CIDR,64.23.132.171/32,no-resolve'
 - 'IP-CIDR6,2604:f20::/32,no-resolve'
-- 'IP-ASN,401518'
+- 'IP-ASN,401518,no-resolve'
 - 'PROCESS-NAME,ChatGPT'
 - 'PROCESS-NAME,ChatGPT.exe'
 - 'PROCESS-NAME,Codex'

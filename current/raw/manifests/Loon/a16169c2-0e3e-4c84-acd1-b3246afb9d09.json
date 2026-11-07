@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-08-27T02:11:07.851337+00:00",
+  "generated_at": "2026-11-06T19:21:55.133524+00:00",
   "client": "Loon",
   "rule": "ViuTV",
-  "rule_updated_at": "2026-07-26T06:22:58.519753+00:00",
+  "rule_updated_at": "2026-11-06T14:27:41.967039+00:00",
   "type_counts": {
     "DOMAIN": 4,
-    "DOMAIN-SUFFIX": 8
+    "DOMAIN-SUFFIX": 8,
+    "PROCESS-NAME": 3
   },
-  "total_line_count": 12,
+  "total_line_count": 15,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ViuTV_rules_448ac53b52ff075d.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ViuTV_rules_01a39cb2026fa93e.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "8d9ef943a183ccab0ea4f3bb7a9383b8dfa50d204cca3b944d00fce575042895",
-        "bytes_sha256": "3528fe0612b0ce3bcd74d5a359952d940fdaa7cfc3146dcbc902790fe55213e1",
-        "semantic_sha256": "cddd64e453e8b4ef17fc107dadae964735f6535252b2802b92e45f95890cdc82",
+        "fingerprint": "6f2c4831ba3b4327358de5f3819144f8105e5784e8c2fbb9d5befe058315ddb3",
+        "bytes_sha256": "1e744cf7d31cca4181c9b96ec83b72221c258b91ebf8a605af4d32a8d706496d",
+        "semantic_sha256": "d8f05eae04022c96b2f6d28bf1ab90040eab6a67340c3b318793f6ff24fb4659",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,8 +40,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6baf27d5381f57dc591753a41e946a0693d7f78af8a31cb47a02f94becc7bb72",
-        "bytes_sha256": "51d378312ada959fca38b9a9cbdfbfb3a06734c52baec809499044c9acbf239a",
+        "bytes_sha256": "73b398040d028d0e37047e35466d00e0e6f5a1eae35759f524bd6d5c55e4f012",
         "semantic_sha256": "eb9c45a5576db024b3322c010c09538ae3593a7d02ca36e57735ff65c99b63cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ViuTV_rule-set_e320862cd1deeac5.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0e6c0a4381fa9d56317054eab9407ff2051f208203811ca65a80a2397825aad",
+        "bytes_sha256": "9692cd29513b4af965b4f0b80c06e4e2823d00e8d6c26b3b176ae15425a6d6e4",
+        "semantic_sha256": "3729fef950c14ee98c5ece7e7b8618a931b2fec2684b556ad6d92e8ec143970a",
         "normalized_header_lines": 4,
         "shared": true
       }

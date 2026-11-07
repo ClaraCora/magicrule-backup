@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-27T02:00:30.757258+00:00",
+  "generated_at": "2026-11-06T19:17:44.338642+00:00",
   "client": "Mihomo",
   "rule": "EncoreTVB",
   "rule_updated_at": "2026-07-26T06:21:43.521197+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 1,
-    "DOMAIN": 4
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 1
   },
   "total_line_count": 5,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "89a4e5f912e586b8675808fad81daca2055bb705f7d227165417c0f5703ad36a",
-        "bytes_sha256": "c739b18b2adb5f0e8bfc95b92f2b0f94a1a3007e06578dd01403b4375c4a3087",
+        "bytes_sha256": "d84a2b8a0825943eea22306ee9656d9e2068a6b24036a18bc826c7d9495b3103",
         "semantic_sha256": "b2b7877f9283570ec480b70a2e12cb1bc6ed4823a67f91255ccd7915b14818ad",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "40725f74f8e39dccafd20b1477bac1084aa7fff4dff2a0c1f5b60d9fdfb40fd9",
-        "bytes_sha256": "f7a02c2a865db07d876c2bee77749c4c612642a2b67dd28e40235db0705b2e24",
+        "bytes_sha256": "5563cadc42c32d90fa4423b29a9b628cc228da23a12cae42267e5063b69fb0e5",
         "semantic_sha256": "d9fae1a37428e3e7b73b399cd6c22e7ad91230bb236754ae8846f7a6fb754919",
         "normalized_header_lines": 4,
         "shared": true

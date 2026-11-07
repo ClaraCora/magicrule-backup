@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-08-27T02:13:11.847563+00:00",
+  "generated_at": "2026-11-06T19:22:46.196371+00:00",
   "client": "Loon",
   "rule": "ChinaMedia",
-  "rule_updated_at": "2026-07-31T04:26:17.263543+00:00",
+  "rule_updated_at": "2026-11-06T13:59:20.466993+00:00",
   "type_counts": {
     "DOMAIN": 65,
     "DOMAIN-KEYWORD": 1,
     "DOMAIN-SUFFIX": 209,
     "IP-CIDR": 39,
     "IP-CIDR6": 29,
+    "PROCESS-NAME": 2,
     "USER-AGENT": 13
   },
-  "total_line_count": 356,
+  "total_line_count": 358,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaMedia_rules_80a6e1536f0b2453.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaMedia_rules_ea2d0c525bf1fe29.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "4eaf7c402c161915b3ab49099406870386f750bfd9179d24cb1a23a9c6338469",
-        "bytes_sha256": "f47336faffe5aa538af6219855de3de0b31da3b261b812eec0cec7bb47ace3b6",
-        "semantic_sha256": "c32bb17d9f67814e74c4c603b3b920665b50b71f84cc04ec40872b46081ac7b9",
+        "fingerprint": "db92cd0d5b8c5cbd0c6bfebba4cbc217df4181993107abb8aefc7ec35cac5d9d",
+        "bytes_sha256": "a2364fce2253cc02dff6a7f0b671babc22f614493bd1a0b895fa0790cc24b04f",
+        "semantic_sha256": "fa0b13fd734b942eb4530e24d8faa0867893e5091bec3d37f9c9db1110bc0451",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,7 +44,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a45687b8af654adae742e64f96d83a934caad5d7546a2ad9d9f79c939387d3f5",
-        "bytes_sha256": "04561453de52dba2beb69244e807c60269facdff332706ce5f44ea333e027e0a",
+        "bytes_sha256": "4c79013475dfcd9b210097842e3ff29fe0c0ad506f77f6f0d45b2a25c4f3c066",
         "semantic_sha256": "284bf94b82e990ec132319d27e77cd4b217aee6f279a16c51d8050d856356b9f",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,16 +54,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaMedia_rule-set_b1e806dc579e633c.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaMedia_rule-set_d8c743a5989180f2.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "fd9577b0d1e10eec921dbb83fb02e3b9fd91ffe2c3dd08a09f5616a16ae13457",
-        "bytes_sha256": "ba816f2c9e03b060f0334cb11295461ce07de242b6f10fd5e51649d3eae7674e",
-        "semantic_sha256": "4e357a66895f8fa182df987da592288734c16e3415a92632bdd4c48592b1e6ee",
+        "fingerprint": "64bdc5745601baa39f408d606ab4d93d37a9f58f7219fc82ebaed12d358d731b",
+        "bytes_sha256": "32dd525e061464fa3e489bc76f4f80d1920c12b7f4da6ca0702693337b055f7f",
+        "semantic_sha256": "1e60883993fc38f984c85da90ce95811dd966edcdcd98a969d388ac7ee0ce181",
         "normalized_header_lines": 4,
         "shared": true
       }

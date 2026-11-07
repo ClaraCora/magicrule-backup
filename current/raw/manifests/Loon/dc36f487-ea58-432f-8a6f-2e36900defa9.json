@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-08-27T02:15:37.666942+00:00",
+  "generated_at": "2026-11-06T19:23:49.863296+00:00",
   "client": "Loon",
   "rule": "Disney",
-  "rule_updated_at": "2026-08-07T02:23:05.172413+00:00",
+  "rule_updated_at": "2026-11-06T14:02:27.072350+00:00",
   "type_counts": {
     "DOMAIN": 6,
-    "DOMAIN-SUFFIX": 242
+    "DOMAIN-SUFFIX": 242,
+    "PROCESS-NAME": 2
   },
-  "total_line_count": 248,
+  "total_line_count": 250,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Disney_rules_2299e55ecd61818f.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Disney_rules_2b565301c4989fb0.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "0222059fc22c131e4a4c41139c9192264e3734e5f0c71e7f143f68b15e068173",
-        "bytes_sha256": "80d8fc895c7cadff5090e68f15f0b3f616d66a9ea29a79d86f71e81958a32d31",
-        "semantic_sha256": "65ba5bba3e3c4a4c39219b055a7b5f95038bebf5036de2c18ef6ff63b2ca479b",
+        "fingerprint": "99385b008e4e7c285bba73f015fbab7abf20a266c740e8e0b9e43504f6404f6c",
+        "bytes_sha256": "4b21f749e15e152f21e9d0d559bc8c8eabe9572af7275cf03dd59a9679fcb791",
+        "semantic_sha256": "3fc5398b498d47ced39243e88f462d1b96f22add43a56daa98a83810adba8223",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,8 +40,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bf9aceaada0ed1e1441b62c709b1e3c030f36c2141ea9acae101745e52b587ad",
-        "bytes_sha256": "cafd7ceeeaf59ac08073d921aae9598e4a40743f4b1678678a073ec7b4c964b4",
+        "bytes_sha256": "489660782b77a7531ac8b25e26ab88564de7db35b5a61ef51d48eb7b43ffb0d4",
         "semantic_sha256": "048f9c5e25fc055d5c83ae3c67079c9ec242e9a94c1d14643f3fecd2a4b4a5ec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Disney_rule-set_37ea2d471692bcb5.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "794e18399860426e8ed7351f36624b556b9e741391db01d5857fe4e3d12cbf57",
+        "bytes_sha256": "8e3f9dba7e2a41f3e10f3d48d274615f8e556a15ff240c76dbabd7143b704daa",
+        "semantic_sha256": "aff494032c8c18749d9eed4ac61b21eefe496dd49f090c4a42d8e11d6680916d",
         "normalized_header_lines": 4,
         "shared": true
       }

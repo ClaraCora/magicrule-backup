@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-04T16:06:19.282988+00:00",
+  "generated_at": "2026-11-06T19:19:44.764805+00:00",
   "client": "Egern",
   "rule": "Tencent",
-  "rule_updated_at": "2026-11-04T15:55:14.303544+00:00",
+  "rule_updated_at": "2026-11-06T14:29:01.332213+00:00",
   "type_counts": {
     "domain_set": 1,
-    "domain_suffix_set": 2748,
+    "domain_suffix_set": 2751,
     "user_agent_set": 5,
     "ip_cidr_set": 24
   },
-  "total_line_count": 2778,
+  "total_line_count": 2781,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "c9e256259d942aa7e30dde4efcb84f8260e852fbd74820faef8b0c94c02f8909",
-        "bytes_sha256": "6d11a8b913753cedbbdb9c275a0482acff51dc0417882b1abb0aa410ec20b10f",
-        "semantic_sha256": "3636c2b6ff1a5360b831c06e4786e278bf6c66cdc505bb421c582f4933edf3c2",
+        "fingerprint": "2a256dee0b130ee4149ede439603cdcc83dbfe9d125c2cfb217f15ee85ab4dbc",
+        "bytes_sha256": "839a29402c2014bd5b882fd459b1740747240f7305024b0e95bf640c96880f18",
+        "semantic_sha256": "fcaa45ac98c787ee2ae5ed35fb7ef8cd19be801b24d99141a34fbcb8bdbde9a7",
         "normalized_header_lines": 4,
         "shared": true
       }

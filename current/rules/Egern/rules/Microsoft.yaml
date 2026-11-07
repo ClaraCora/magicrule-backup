@@ -1,9 +1,11 @@
 # NAME: Microsoft
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-04 23:53:53
+# UPDATED: 2026-11-07 03:18:37
 domain_set:
   - az764295.vo.msecnd.net
+  - azure.microsoft.com
+  - azuremarketplace.microsoft.com
   - azuremigrate.download.prss.microsoft.com
   - azuremigratetest.download.prss.microsoft.com
   - azurestackhub.download.prss.microsoft.com
@@ -25,13 +27,14 @@ domain_set:
   - dc.applicationinsights.azure.com
   - dc.services.visualstudio.com
   - default.exp-tas.com
+  - developer.microsoft.com
   - download.microsoft.com
   - download.visualstudio.microsoft.com
   - dreamspark.download.prss.microsoft.com
   - dreamsparkuat.download.prss.microsoft.com
+  - dtlgalleryint.cloudapp.net
   - edge.activity.windows.com
   - edge.microsoft.com
-  - emoi-cncdn.bing.com
   - f.c2r.ts.cdn.office.net
   - github-api.arkoselabs.com
   - github-cloud.s3.amazonaws.com
@@ -70,6 +73,7 @@ domain_set:
   - oneocsp.microsoft.com
   - osrelease.download.prss.microsoft.com
   - packages.microsoft.com
+  - poshtestgallery.cloudapp.net
   - prodforza.blob.core.windows.net
   - productionresultssa0.blob.core.windows.net
   - productionresultssa1.blob.core.windows.net
@@ -91,6 +95,8 @@ domain_set:
   - productionresultssa7.blob.core.windows.net
   - productionresultssa8.blob.core.windows.net
   - productionresultssa9.blob.core.windows.net
+  - psg-int-centralus.cloudapp.net
+  - psg-int-eastus.cloudapp.net
   - rink.hockeyapp.net
   - rsm.download.prss.microsoft.com
   - rt.services.visualstudio.com

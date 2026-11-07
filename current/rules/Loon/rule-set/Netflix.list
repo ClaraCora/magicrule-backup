@@ -1,11 +1,12 @@
 # NAME: Netflix
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-29 10:53:31
+# UPDATED: 2026-11-07 03:21:58
 # DOMAIN-KEYWORD: 4
 # USER-AGENT: 1
 # IP-CIDR: 1386
 # IP-CIDR6: 199
+# PROCESS-NAME: 1
 
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
@@ -1597,3 +1598,4 @@ IP-CIDR6,2a00:86c0:99::/48,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a00:86c0:ff0a::/48,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
+PROCESS-NAME,com.netflix.mediaclient

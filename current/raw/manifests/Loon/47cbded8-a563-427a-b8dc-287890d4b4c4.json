@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-27T02:02:40.939782+00:00",
+  "generated_at": "2026-11-06T19:18:36.422724+00:00",
   "client": "Loon",
   "rule": "iCloudPrivateRelay",
-  "rule_updated_at": "2026-08-07T02:23:28.221102+00:00",
+  "rule_updated_at": "2026-07-26T07:44:44.176683+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3,
-    "DOMAIN": 7
+    "DOMAIN": 6,
+    "DOMAIN-SUFFIX": 3
   },
-  "total_line_count": 10,
+  "total_line_count": 9,
   "artifacts": [
     {
       "key": "rules",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "3e6ccd3791fc8904667eb68bf2fe9c81c2265949debe4ae868c281167119f627",
-        "bytes_sha256": "412f712f14430c7153e5cbe9e4b7a75e3c48ca6c8cba90be4cf2dd1b3abd106a",
-        "semantic_sha256": "05a544ae5f9734bbdfd04b9a9df019fc5d363a52ee5e4bc914d7c2d5ede989be",
+        "fingerprint": "a3c79d2beab93aae3911bb9b0cfb15b7103d3c762f79d2a1ffa46f6ce8b3b4b1",
+        "bytes_sha256": "34028caac7c21eb89382148338c693d97c22bdf31365ac9045b5f7bc486d3fb2",
+        "semantic_sha256": "c88b1c4203fe9db7beee2740249c1d23dc7ef0a08fffda4e1108789ebe175134",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "562bb5e03a38a2428b5b6edbb4904d833051f8500e40544f5714306d1b8c533d",
-        "bytes_sha256": "b8aec3de0287061c7d0734a8a7ff39b1c89b30d8c0ed4935e76259e28d235e68",
-        "semantic_sha256": "39ad175512dac831ca8b8105c0c457ce37f96e1d0c29a2d079639d7db3f04bb3",
+        "fingerprint": "fd8156606417bb5e1510ee260870ccaa57923389ed4d2d7b7aa6c8e4f87ee43b",
+        "bytes_sha256": "adbddcc0e822f92bff09fa4b1758535942652e9a02a6d46d12f7b7b2a838a185",
+        "semantic_sha256": "5f24aa5c9f4a5c1af246e73b96bc67d897ba81b392db63ceffebd6a7d0d0e2ed",
         "normalized_header_lines": 4,
         "shared": true
       }

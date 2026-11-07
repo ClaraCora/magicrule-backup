@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-27T01:56:25.483846+00:00",
+  "generated_at": "2026-11-06T19:16:02.581051+00:00",
   "client": "Loon",
   "rule": "HuluJP",
-  "rule_updated_at": "2026-07-26T06:30:23.298507+00:00",
+  "rule_updated_at": "2026-11-06T14:12:11.420875+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 57
+    "DOMAIN-SUFFIX": 57,
+    "PROCESS-NAME": 1
   },
-  "total_line_count": 57,
+  "total_line_count": 58,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HuluJP_rules_0d9926bc0a5958c4.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HuluJP_rules_5c6e6dc9f9fd36cf.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "e3636198f93be397ca3df3240da6d69eeaa92e8232d18504609a29b006210cfa",
-        "bytes_sha256": "df94d978c21cbfd9a23c9cd5985954f1cb6a399207d41b04990732b01d7b25a8",
-        "semantic_sha256": "6d411d38afb2a6df3d1268900a13fe8aea641c6ffffa567d81895e5578664af0",
+        "fingerprint": "0e62f35cb001c868d8fa0d243c232ec1d02775cd1b5cf391cad4e96c53a6ce65",
+        "bytes_sha256": "e87659518922dff4df80a9335b0aa2736dc50ab1c38f8037793f90cfb4519c86",
+        "semantic_sha256": "7bd70c609398e6b88d974fdb804530caecaaea320b72dbfb0e63fa1f71c397d6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,8 +39,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "de1fbd9c869261dcd1b32e9306ca62602e60543aa73f6167cce38c1832d09067",
-        "bytes_sha256": "281f6796f55ccd4dc9a32d5cbb9f37af18ac28ea47a6df86b9e935d37145dc67",
+        "bytes_sha256": "64e13f4c1a0a7daf048c832c9dfdf84e05d90c3ed6b995dfeb9755df9a0c9c3f",
         "semantic_sha256": "ddcd428bfac4245a869d89dcdc95160459cf59fbc51dfddb6ee7591709842d3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HuluJP_rule-set_e154bec53b748ae8.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "559ba9857d379eb0d083a0b0b2a631745b9d2d28120250304de51ade69bd5d45",
+        "bytes_sha256": "f41f71b53affc250e8be886079590a4f5f79eae9ab15a30fe5e427d86c0d3fb8",
+        "semantic_sha256": "84358e678ababcc82bf89dd04cbaf1d9035dfc3cacca64aeb8d4888508a0182c",
         "normalized_header_lines": 4,
         "shared": true
       }

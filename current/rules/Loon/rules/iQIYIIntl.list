@@ -1,10 +1,11 @@
 # NAME: iQIYIIntl
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-08-27 10:13:13
+# UPDATED: 2026-11-07 03:22:47
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 5
 # IP-CIDR: 14
+# PROCESS-NAME: 2
 
 DOMAIN,cache.video.iqiyi.com
 DOMAIN-SUFFIX,inter.iqiyi.com
@@ -26,3 +27,5 @@ IP-CIDR,23.211.15.0/24,no-resolve
 IP-CIDR,23.219.172.0/24,no-resolve
 IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.59.252.0/24,no-resolve
+PROCESS-NAME,com.iqiyi.i18n
+PROCESS-NAME,com.iqiyi.i18n.tv

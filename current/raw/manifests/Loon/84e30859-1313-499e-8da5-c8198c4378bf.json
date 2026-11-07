@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-27T02:08:06.531131+00:00",
+  "generated_at": "2026-11-06T19:20:46.658400+00:00",
   "client": "Loon",
   "rule": "AppleFirmware",
-  "rule_updated_at": "2026-07-26T07:01:34.115860+00:00",
+  "rule_updated_at": "2026-11-06T13:57:15.437231+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 177
+    "DOMAIN-SUFFIX": 177,
+    "PROCESS-NAME": 1
   },
-  "total_line_count": 177,
+  "total_line_count": 178,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleFirmware_rules_940f564a0ce10481.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleFirmware_rules_36c336812d9825d4.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "aaa9df3cc9c7d92eff82d547bd6e392f4316226319248b2bc4fa081186446439",
-        "bytes_sha256": "b5a19209f5215edd393aa4b6c8ddc116f5783a8b425aa93f29e9ce867bbb8fe5",
-        "semantic_sha256": "627cc5ebcd1b2c5b77039d9df40fe6c370561581d417b0ca9f88cd62b66fcc08",
+        "fingerprint": "a12f40b9d6cf50b12be76e4729ffe6bd8d7d1098388fa5c0858b7f0b590d01fe",
+        "bytes_sha256": "723db606e305636bfac0c4fdd8a4cccaf7a67ed05bcf68222ef36992d0336999",
+        "semantic_sha256": "f21ba5c961676bbd2022e8ad454f354b08d2d37c446624c9620817764009b4dc",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,8 +39,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "50e6ec0e66bc270e27d62cec5b03a0f24db0561ca0c09db6f86bd4ced529f6a0",
-        "bytes_sha256": "203376cb8cb4dd80fa8c085129587a845e22782750f1ab25187b3b8a8ca7c521",
+        "bytes_sha256": "faed55e94496f17278cecd91f4f2123a38808b8f9786c689a5a72cc0cab45b5f",
         "semantic_sha256": "94b70f12138af5356f1901793db6a29305b173c928625cabe97b2853ca33851e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleFirmware_rule-set_e14ba8aaf714ddf0.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a4af2434afc1fd362ae43629e113b850ed6e7d6687cae011e60366d5e00f3a9",
+        "bytes_sha256": "c7e96997735aa38c179851e1a515c9304fa7fb596beca5c037d596074750becc",
+        "semantic_sha256": "64a1120ec6a8f785f1affb4175b61ded3bf1085f53552806e822d838e0728e97",
         "normalized_header_lines": 4,
         "shared": true
       }

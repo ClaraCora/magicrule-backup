@@ -1,11 +1,12 @@
 # NAME: ChinaMedia
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-08-27 10:13:11
+# UPDATED: 2026-11-07 03:22:46
 # DOMAIN-KEYWORD: 1
 # USER-AGENT: 13
 # IP-CIDR: 39
 # IP-CIDR6: 29
+# PROCESS-NAME: 2
 
 DOMAIN-KEYWORD,qiyi
 USER-AGENT,%E4%BC%98%E9%85%B7*
@@ -89,3 +90,5 @@ IP-CIDR6,::ffff:58.58.0.90/128,no-resolve
 IP-CIDR6,::ffff:60.171.183.161/128,no-resolve
 IP-CIDR6,::ffff:60.171.183.186/128,no-resolve
 IP-CIDR6,::ffff:60.171.183.98/128,no-resolve
+PROCESS-NAME,com.bilibili.app.in
+PROCESS-NAME,tv.danmaku.bili

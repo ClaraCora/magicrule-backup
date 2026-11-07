@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-27T02:16:39.480824+00:00",
+  "generated_at": "2026-11-06T19:24:15.256114+00:00",
   "client": "Loon",
   "rule": "JinJiangWenXue",
-  "rule_updated_at": "2026-07-26T06:25:42.177784+00:00",
+  "rule_updated_at": "2026-11-06T14:13:41.215847+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 7
+    "DOMAIN-SUFFIX": 7,
+    "PROCESS-NAME": 1
   },
-  "total_line_count": 7,
+  "total_line_count": 8,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/JinJiangWenXue_rules_fa1143f26b66973d.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/JinJiangWenXue_rules_3b27acb0d2058666.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "5c7240a810460976d65c1e511b65ef0f36e2b5de5fbdbf462adebbbbb160cf27",
-        "bytes_sha256": "2f535386f7ee89719d67d139043489689a69e6d6f6b1fe6492bbe7b3c43c4ddb",
-        "semantic_sha256": "54cd0f886bf68e9a24a2db565bbebac1b6502f2d318f6b97897052fdbe6ff4af",
+        "fingerprint": "4608be76002ecb43c086cf546b773c25c5e488d3cac79fb03d25cba3edc01ee1",
+        "bytes_sha256": "feb5a6ec98141a166f63e238a89821f34d6b2bbb504ab4298d7e6d18d8ac4b6d",
+        "semantic_sha256": "e8d16999279971af658476c7a24b5b19e7ae142923a49ecd6c2f5abcb34a124b",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,8 +39,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "70c61b86d347209b7dd8a43aaa9680ff3cd0a044d3b781436422a7db46322d3f",
-        "bytes_sha256": "2739a7af2dfeccdf1486dfa11f78efc02cafc1e0c903cd1fb618bbf25525cf11",
+        "bytes_sha256": "24f7dec3a5a8a8803b9493ba8aa46b38f102fc2622e981893afbdfc9ad027f97",
         "semantic_sha256": "899be6c97e04e8e140a219373c94ec831107c09ee6c2967d16d2642062094d32",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/JinJiangWenXue_rule-set_d4908d568234c9a3.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ffc3976663eb5f962fb75d56da4ecf3f5c76fef7f7cbbfed7404713210bd24f",
+        "bytes_sha256": "41c9086709b520dde0f5c4b050e153656410838531ecb9def63af33a9b364e12",
+        "semantic_sha256": "baf8d030225724b80973ddb204a6e1c521e07e1ba46612d211d64bbe034f5cba",
         "normalized_header_lines": 4,
         "shared": true
       }

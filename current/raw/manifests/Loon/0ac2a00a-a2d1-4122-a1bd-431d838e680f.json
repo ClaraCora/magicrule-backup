@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-10-16T14:34:02.045734+00:00",
+  "generated_at": "2026-11-06T19:16:21.167025+00:00",
   "client": "Loon",
   "rule": "XiaoMi",
-  "rule_updated_at": "2026-10-09T15:59:09.851591+00:00",
+  "rule_updated_at": "2026-11-06T14:29:04.031061+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 181,
-    "IP-CIDR": 15
+    "IP-CIDR": 15,
+    "PROCESS-NAME": 1
   },
-  "total_line_count": 196,
+  "total_line_count": 197,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/XiaoMi_rules_b679fd85d7e2d5d2.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/XiaoMi_rules_31bc8263af45400b.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "eb8bd240da67946df32ca78760d735e01c667dba7afb93291c60977947960a63",
-        "bytes_sha256": "2d80307296e265ee1721003c802f4f00ac33d99d6b2c3b9f1179f9bb1c05eb02",
-        "semantic_sha256": "d034a7094edace51464dd970bf9b383f4211ceffb7db9f9c08f5ec531b1f9b4f",
+        "fingerprint": "a5b4f62b62d7bd15bf726bccaee52fa4d3910af11bb23ab0755e4bc1e3952502",
+        "bytes_sha256": "5efbc3784b82658ac7e7f13b3064c4aa5107fa8eb8e1178114b128f0a930e0e3",
+        "semantic_sha256": "adce93707a997a03db4bd6f511592070a65a3641c3103d19dc437f0473824afa",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "55ced64f384581ea1ff9b3f8d6daa9adf5ff3a37bf8dfc0a832691b2d280a0ad",
-        "bytes_sha256": "b1165c02589cad0f9749c399fa8ef85c7b12bb72ff38e5f31966bc81d1f93c6a",
+        "bytes_sha256": "d8400f2e67a10488009bc6ba4614749ebad0b58085a9cbd2a35d7a624b39da1d",
         "semantic_sha256": "1a6e8c931d07393803e1837c2f6b5ce18ac41f265d52763bdd3055aae53f45f6",
         "normalized_header_lines": 4,
         "shared": true
@@ -49,16 +50,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/XiaoMi_rule-set_d95fd09e53e7ae50.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/XiaoMi_rule-set_b806be42974b74c4.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "59efc624d4f5224a6f384c21d28cbbed373dc3ca09aabf3a11a5d57cc4b914be",
-        "bytes_sha256": "0c4bc64d163c65c824f30fba004152dbdee9d9144ee9d8ea4503284e0545193a",
-        "semantic_sha256": "0ab6841d03dbdeef01a8205c26ac24eabbf19fe3c635433b48a602f212a48a6c",
+        "fingerprint": "1787a24b571e2da995350596b65e2bbbb50c8d3f8e79b4c38b2e20c32bffbf56",
+        "bytes_sha256": "ba5f8a3fb0d3c417b25d9566e8b54d1998b09a6011d1c5a3a4140c4869ccb408",
+        "semantic_sha256": "14ecfe18494f86afbd95a4237352218223c66d7189f113c9fb2beb3be34b050c",
         "normalized_header_lines": 4,
         "shared": true
       }

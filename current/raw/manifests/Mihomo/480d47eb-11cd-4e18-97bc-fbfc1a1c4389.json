@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:53:54.482142+00:00",
+  "generated_at": "2026-11-06T19:18:37.651546+00:00",
   "client": "Mihomo",
   "rule": "Microsoft",
   "rule_updated_at": "2026-11-04T15:50:59.547980+00:00",
@@ -8,9 +8,9 @@
     "DOMAIN-KEYWORD": 4,
     "DOMAIN-WILDCARD": 1,
     "PROCESS-NAME": 2,
-    "DOMAIN": 114
+    "DOMAIN": 120
   },
-  "total_line_count": 911,
+  "total_line_count": 917,
   "artifacts": [
     {
       "key": "classical",
@@ -23,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "34032b5a1d50d75458fef67347ee7e058d62dd739e47dc8105c4619bd85af68b",
-        "bytes_sha256": "daa509a605e71b6e9b2de9186e9d36309e2c88d11d584ada8ec9220a0b02f991",
-        "semantic_sha256": "4af1b2984c9564d8be15ce81e357f60b9242ff25af56580e131f8a3cc9e9f205",
+        "fingerprint": "d2526865041fa01e2e09ea792d2d3f82a290c9599e5dc8de724c61aa4ec4793e",
+        "bytes_sha256": "dca65d797bc0fbc37918e82ce8c8989f6a41ab7091801a12aeed65adea0bc800",
+        "semantic_sha256": "9ef58ab5a9597349fd9477fa0a3ac84ce0986c1d0fd23eba992190268df080c5",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -34,16 +34,16 @@
       "key": "domain",
       "label": "domain",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Microsoft_domain_58ec314c41477617.yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Microsoft_domain_84be2433c281b655.yaml",
       "binary": false,
       "role": "domain",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "40d0341992991233a71a5d7789ac7e774d8bb7f1c332c22b09da540092aaf3ee",
-        "bytes_sha256": "c752295de45577f3d3b238057be1717c66704755275eafb300cb6460fb7ceabb",
-        "semantic_sha256": "aa030fe24274a8088b0385d8a73c38f693227d1ac3dfcb51a3f8a999e287569f",
+        "fingerprint": "24e744309fa4233fdbf94f33bd84a082815f640d524f5813b2739f843045baff",
+        "bytes_sha256": "b3f372d8b9ae56bf9798d01cf3907445a63b8889685928097e750adea31fe4d9",
+        "semantic_sha256": "a589e688df2fe9428fc993aa1b0ce0509e878eddc19714f6df4dff33235ec768",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -59,8 +59,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "757dc15cbddfe3c6e638c04b4ebdee002ecd2f20130573b1f88e706a657a37c5",
-        "bytes_sha256": "17aa35a952aa52e0f0804dcfdf07bf33a3ec68fba79f165a424929628e3bbc73",
+        "fingerprint": "1a5d2cb251cd8c19607fd84713d684de487754117c1373b40de6204c8bf6d9a0",
+        "bytes_sha256": "ad8abfec8b5ee04a1bf05486fbdbe19c03f528efe5e9cde763d5db64ae6533c0",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -78,7 +78,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e38763e3d689bfbc43789d71c246ec84d700705353378c23d014e08d7b72f30f",
-        "bytes_sha256": "e938201375a876c62665cae75a65c647d094da02d93ea5cddd5e3673ab42bb32",
+        "bytes_sha256": "58709a76abafb7ae9b0cdc3550df166ed35eee5169977872dd598cb89738d058",
         "semantic_sha256": "d09d42323210aa59aa4f86229a2d834c8ff7c60a86208c7c8ea9edfbd564da9b",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-08-27T02:18:30.752524+00:00",
+  "generated_at": "2026-11-06T19:25:07.018500+00:00",
   "client": "Loon",
   "rule": "HBO",
-  "rule_updated_at": "2026-07-26T06:21:51.026469+00:00",
+  "rule_updated_at": "2026-11-06T14:11:58.169022+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 91,
+    "DOMAIN-SUFFIX": 92,
+    "PROCESS-NAME": 1,
     "USER-AGENT": 2
   },
-  "total_line_count": 93,
+  "total_line_count": 95,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HBO_rules_775047e13ab7727d.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HBO_rules_969e49342837689c.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "722fca50ec55d8105ea2b16d4308116354d79618cceccbe11117f58639e2fb61",
-        "bytes_sha256": "a7523cf46d75d9046275d81cbef48084d4bfa0d41f698a971bdd1f2193ffe60b",
-        "semantic_sha256": "85e64cb246b4db1dbe685cdcdca41ab56796260e6b83b4c0bf29a860d6722e10",
+        "fingerprint": "38081948ae2f128e2896bd83d144755c3e056c57ec6ec5aaef40173f5649cced",
+        "bytes_sha256": "dda9c4736134df9d0294be613c18e5baeb6e4aa57ef60ddb4747ee2990baf475",
+        "semantic_sha256": "171dfa72dd042f3a05057b1b7733c83a836f923dddaec77ed57d462a68bdef2e",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +39,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f0a8e4fe34169f01c3cc264d0c6b1a132d00842845538f07a9c829be4c2502fd",
-        "bytes_sha256": "16e3ad309d8f389acc32a14ff51da2f19c844efeaeff98069e45b136b52c31d4",
-        "semantic_sha256": "f2437ea922fef2f34297c946c6592173aca32139c1d985bc6e1dc683c3de7d05",
+        "fingerprint": "046d2f6a114e3e402599031f0f6e12296e1870e91d7124373344c85d945e7952",
+        "bytes_sha256": "b509754ec66218db0bb79c3d71b74144f5b07808c7f5cf38e3f2b039ccbd177f",
+        "semantic_sha256": "bbc4b8f9fdaa2315a1a6aa2be0a713337908d5f8534c0e502927e9580da1c5e2",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -49,16 +50,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HBO_rule-set_4e73bc555c6da43d.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HBO_rule-set_b27dfbae157d4fc6.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "8b913a191a2b797ea3560fc47a9e27e61a276905d1ea51c8843857f80717d525",
-        "bytes_sha256": "65df9aa9125a1012c32b407c71e4e7631d2cfeaf0e06bc6e691a1193cab00b15",
-        "semantic_sha256": "43f99d742a793d72bc32d7b1371718b750de3ca3387dca96ca0bf15d19553d31",
+        "fingerprint": "ed1b4e43c7cee52f4470aa01ca241c4f41f4a904f428baf9418adad409194996",
+        "bytes_sha256": "74775d07d7f12682700d7e031ee443cdabcea9c56e772db812bd83d6e633e3dc",
+        "semantic_sha256": "423ba4be0674838f51125fd5bbc70d4bdaf3afc388b185927b8b9e29d206b4a5",
         "normalized_header_lines": 4,
         "shared": true
       }

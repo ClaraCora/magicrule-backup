@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-10-09T16:21:53.248014+00:00",
+  "generated_at": "2026-11-06T19:19:27.703776+00:00",
   "client": "Egern",
   "rule": "Telegram",
   "rule_updated_at": "2026-10-09T15:59:00.446060+00:00",
   "type_counts": {
-    "asn_set": 5,
-    "domain_keyword_set": 1,
-    "domain_set": 1,
-    "domain_suffix_set": 24,
     "ip_cidr6_set": 7,
+    "domain_suffix_set": 24,
+    "domain_keyword_set": 1,
+    "asn_set": 5,
     "ip_cidr_set": 25
   },
-  "total_line_count": 63,
+  "total_line_count": 62,
   "artifacts": [
     {
       "key": "rules",
@@ -24,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "376ba5d309a8ce6834acee93c5749754ee60319c2cf9bb7b60ae55dab7164d52",
-        "bytes_sha256": "0b1a27ff81fff89b178071d8658309ddde4e0c1f5480335c9ec519bfa28ab8bc",
-        "semantic_sha256": "7e0f1916c017db99fb659f1fcc6048acaed49971af76be859d9d7ae9094b5c0d",
+        "fingerprint": "7af5ff3214fec3d4d7a185f0ddc163234714340d7ececf26cf4f9775c9b593f4",
+        "bytes_sha256": "fa7ccf9f11f9a196c71c37240275db8b8ee5bf67e5e190b0a9596f973ccd927c",
+        "semantic_sha256": "2831d9708b474dcfba994138d0ccd411042eb76e92dc9393eeb54fdd1a1be2d9",
         "normalized_header_lines": 4,
         "shared": true
       }

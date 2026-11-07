@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-27T02:15:49.372726+00:00",
+  "generated_at": "2026-11-06T19:23:54.303650+00:00",
   "client": "Loon",
   "rule": "myTVSUPER",
   "rule_updated_at": "2026-07-26T06:57:33.658679+00:00",
   "type_counts": {
-    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 2,
     "DOMAIN-KEYWORD": 2,
-    "DOMAIN-SUFFIX": 2
+    "DOMAIN": 2
   },
   "total_line_count": 6,
   "artifacts": [
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5da6d1fca9274a1366cc17a49546c8b8a48032ace42efc059f4f817f1c1d15ce",
-        "bytes_sha256": "5c92f4693b6430c00e29df041e612a7425801246e90c7feb78a1c5566cc83290",
+        "bytes_sha256": "947b02a39e4ecb120c887512a8cefbebe410a05bf6e00ba3e5a717f09f98dac5",
         "semantic_sha256": "5004f57eaea9f67c03e4076d2b5c474c67b6c59462f26b7a027be562a8aaf8f9",
         "normalized_header_lines": 4,
         "shared": true
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7dd58c807650f4f7e74a6bae5671bf75233e614be2189faa2783a44271a11b14",
-        "bytes_sha256": "1a3394472fb4577e19cdbdf8b5bf955265cd987622f36274bb9e25b596fc1fbd",
+        "bytes_sha256": "f7645a1883cef05500f7601b9e0f88e892d3ee36ddf9bf9e15b265c6307bddec",
         "semantic_sha256": "c4cf10cc6fa7825a524b6dab684ed5777a65445d12bec8592da290d03a68a12d",
         "normalized_header_lines": 4,
         "shared": true
@@ -58,7 +58,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6747f60d8656cae5d4c4849f87fdfd3739e2253504b61faf319ba3511b7223f9",
-        "bytes_sha256": "2218e8ed0c5d26807c2c3f45e87d92c01b6771764faeccf83b50ef0f93e5e314",
+        "bytes_sha256": "6f79f5f0f2761d2de5b758949d7862273438450d8cd080f6557428360920bd05",
         "semantic_sha256": "8ce8f92debeeefa432c4f142e8a877302d6d65186a10113b2a0ed3d47a7c6c70",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T16:12:20.218889+00:00",
+  "generated_at": "2026-11-06T19:18:32.851535+00:00",
   "client": "Mihomo",
   "rule": "GlobalGame",
   "rule_updated_at": "2026-11-04T15:55:14.860364+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 785,
+    "DOMAIN-SUFFIX": 787,
     "DOMAIN": 97
   },
-  "total_line_count": 882,
+  "total_line_count": 884,
   "artifacts": [
     {
       "key": "classical",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "26e01833dcc104d1d9d5ca0674f0195f490a859b78a949988cbd35b4a45e0f15",
-        "bytes_sha256": "d40616526c0012a50d4136305320fc4f2d52f6f5df8eb933469cdf9b5d9a590e",
-        "semantic_sha256": "d5ba08362c2c13a4bb32a3414e1d784695ac058e8ac67c35fbee1e122df1fb95",
+        "fingerprint": "03d63fb1d159143fddb06acf4c74a1aaae43b0958376cfe06217f28f27d11772",
+        "bytes_sha256": "7a53ab816ca532c86dbc54f5ccbefc5f22d7939fda49d6d6d2690700c996e484",
+        "semantic_sha256": "b387bb24434edcdaf1214760a358454493e53be9bfe8d0ce404926e969d05ef8",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -31,16 +31,16 @@
       "key": "domain",
       "label": "domain",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalGame_domain_7814896b669bf633.yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalGame_domain_3352256aa6b5b936.yaml",
       "binary": false,
       "role": "domain",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ededb393bdc903abef22b13e56abb9758e1211aeeb71d3668060e14b53346336",
-        "bytes_sha256": "9c930ccb8cef3ec213bb14b80de50bb12b65e1f443c57f61310b822cdaaae106",
-        "semantic_sha256": "b61b479097b57986e8f3e9328324619df089ba5f3d0bfd730ddf634f92332141",
+        "fingerprint": "0a594502faed74a3155f5a2a5f9c22c978ce8d37fbcbbccaad4ece1a0b035c83",
+        "bytes_sha256": "5b83bf4e8d0a9baf7449f53d57ebfa48ce24768e2d3c8c8c0e28020e0573bae2",
+        "semantic_sha256": "d975182f8af6de11abd10f153fc686ac73e2526876e367ebad5dac6ee8cc074a",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -56,8 +56,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "a57b1b51216c17ce524ad18f3d18031e9f3a333a9cb7549bc6f9b4262f8b4cdf",
-        "bytes_sha256": "f7f979ca1662b79a22217116024e5c01acf015bce6109393e911cbe5e9b3d113",
+        "fingerprint": "2535328bc613e409294a4e21a3764af843b0300edae72a7f010fe8aa14a27eac",
+        "bytes_sha256": "62939b46730286a296c1b721cead45bca3609a8b1d35faed9f44a37de6b5ed85",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T01:59:33.246455+00:00",
+  "generated_at": "2026-11-06T19:17:20.335879+00:00",
   "client": "Mihomo",
   "rule": "NetEaseMusic",
-  "rule_updated_at": "2026-08-10T09:41:21.267661+00:00",
+  "rule_updated_at": "2026-07-26T07:37:16.570281+00:00",
   "type_counts": {
-    "DOMAIN": 2,
     "DOMAIN-SUFFIX": 13,
-    "IP-CIDR": 35
+    "IP-CIDR": 35,
+    "DOMAIN": 1
   },
-  "total_line_count": 50,
+  "total_line_count": 49,
   "artifacts": [
     {
       "key": "classical",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a47237bd73ca70be60dfc36d4bfdac3a473c5bc37e1980a250abb5190651010a",
-        "bytes_sha256": "fd4ef9074b2ca86f5ba980505e1d872d1f09225a77c92e30b0e2e65911f69cdd",
-        "semantic_sha256": "450af1a4bfcf417a14e1b180b88bf279f8a063e5c235c888357c047131a6a36b",
+        "fingerprint": "cb2aff46d738290a944c9b453d253af49088b4d74ad6312268f8894608d2e3b4",
+        "bytes_sha256": "4f5f913504d0ba8808f7fa9d06850301150c1de479a6e14c1f00b57366f18313",
+        "semantic_sha256": "2668e04cae8e5f719903bfaff6d81898d550dc0a7bf9b196c41f270c1281bebd",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -32,16 +32,16 @@
       "key": "domain",
       "label": "domain",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain_6df873ceb761d177.yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain_c243f30524a47eb4.yaml",
       "binary": false,
       "role": "domain",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "46b7dc7f93448b3e80c0245b3fc1827ae698e845a680321d5ea04515bac7e3a5",
-        "bytes_sha256": "94bb705b0c27ef1684ba6697aeaefaa6594025670c99b4860ab94ff7890ccf46",
-        "semantic_sha256": "a1be1fc4f57a04f58f542da471fa7939411c49ebc13080f834fff895e7f6855d",
+        "fingerprint": "066f2b5bf7495c3f9e72bea3ba563fa0b1c560a5e8a4cb0c0ad6b5a1038f788b",
+        "bytes_sha256": "3f4b8681f84207be0fa5f5c4300d2e3217ca4c4a3c2b182f93a15cc4a01d1e42",
+        "semantic_sha256": "c28b8972a564956ef392b048cc229b6dce2e9a72e92e0f6751ffdd3e47105832",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,8 +57,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "2f1c36b99169fbffca2098c15ca16a085e01abd42f1311506f05d1a13e2dd7c4",
-        "bytes_sha256": "72a9a33314ee3ee49e6f9bb708e35960a34a2339bbde9c97c5bdae7e38855f9e",
+        "fingerprint": "395716a933aff6fee672845ac0ae70a421d3e2e393f80b7ee4207a074925ea1f",
+        "bytes_sha256": "396f6fe520cec0bb563312bb5fd858969063440ecb886c2df6d6b3b46238a0d9",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -76,7 +76,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f5edf2c7f94b8ca2e20dc22d53bf7de64680506ec9fdfad81718e04786f45f04",
-        "bytes_sha256": "babb436d04a9e11594edb6c9a206b205364f16f2426e8ad39444380f851b5dda",
+        "bytes_sha256": "5124358bddbf32a901755813c3ffd542bf56d7cc3e469ba992e9bac547d10374",
         "semantic_sha256": "e7d34bcd47eb06cd81c3b21ec46284ea297c1b755ac7b59ea889663fe418475c",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,7 +1,7 @@
 # NAME: OpenAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-29 09:52:49
+# UPDATED: 2026-11-07 03:23:35
 # BEHAVIOR: classical
 # DOMAIN-KEYWORD: 4
 # IP-ASN: 1
@@ -12,7 +12,7 @@ payload:
 - 'DOMAIN-KEYWORD,chatgpt-async-webps-prod'
 - 'DOMAIN-KEYWORD,codex'
 - 'DOMAIN-KEYWORD,openai'
-- 'IP-ASN,401518'
+- 'IP-ASN,401518,no-resolve'
 - 'PROCESS-NAME,ChatGPT'
 - 'PROCESS-NAME,ChatGPT.exe'
 - 'PROCESS-NAME,Codex'

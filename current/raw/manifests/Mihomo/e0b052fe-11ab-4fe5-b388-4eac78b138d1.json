@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-04T16:15:16.869316+00:00",
+  "generated_at": "2026-11-06T19:24:00.195563+00:00",
   "client": "Mihomo",
   "rule": "Game",
-  "rule_updated_at": "2026-11-04T15:55:17.694036+00:00",
+  "rule_updated_at": "2026-11-06T07:25:31.393087+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 1146,
+    "DOMAIN-SUFFIX": 1144,
     "DOMAIN-KEYWORD": 4,
-    "DOMAIN": 126
+    "IP-CIDR": 12,
+    "DOMAIN": 125
   },
-  "total_line_count": 1276,
+  "total_line_count": 1285,
   "artifacts": [
     {
       "key": "classical",
@@ -21,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "887425b5be68a2801cf8772c7622e9c3485b8fc1bdf366b03d88c06a89efc0dc",
-        "bytes_sha256": "9175fad0e6f3af596796d9df6a7b8d2b4b735c4430348a0f4ca2421aca747fbb",
-        "semantic_sha256": "6cb7f68db5eaf6a9fdd8d443a74bfc742aad4425786e2b2cc5e861b8f6168f96",
+        "fingerprint": "bb540da1997bcecbee9cecceeb62e9f2f99f34bec8bbc14dd51af9163fb991c2",
+        "bytes_sha256": "56d889d3945939c660a300726e689850e9af17e645384a788731ce80a19e7540",
+        "semantic_sha256": "70ea5f839d6dfd56631683ab2ab0c1b3c598d60136ff35ad5368dcc32522d142",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,9 +40,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2892926c346af3da4424520ab1bf5638160b284eb6d79d20f699aa3ac1190cef",
-        "bytes_sha256": "48b3353c0f457ac6d92eae9dc562227455cd78aaddf9f855baa31b682514259b",
-        "semantic_sha256": "442b18753c85e61870b7bf6719a79639d8f8df5e54c5c296411c6d759bb3c5d4",
+        "fingerprint": "70e19d8f3a185b16d6a2d223c49e971647b52f2e5fc5c496a0b2bd8ff8521630",
+        "bytes_sha256": "1e548ada121e5c34b089a26904b9a152cd385c12698cad08c5bb86693225934b",
+        "semantic_sha256": "da0a2fcf7a4a4cbf5bf6695a0e50e889c1ad1761b6dbe469d8008e7dece0a519",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,8 +58,44 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "83449a5db52638878e67974eb948d94e90766a8d499f444dbf3e3c02fd608c26",
-        "bytes_sha256": "b2dd3a5b98d94e5e1d0534c190b72c54257c07135663a77b66d8f208f7d7d1e1",
+        "fingerprint": "0681c434a3d85ed236b539ed4e07e863597339ab2c05a434380f6e5c1cff0617",
+        "bytes_sha256": "6e6a007295a1003cf4dc35f4d376b7e47b1607954c01290f027bb19b4c449b8b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr",
+      "label": "ipcidr",
+      "ext": "yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Game_ipcidr_de68f78fc6299729.yaml",
+      "binary": false,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df316a51ed9b867e545aae55c90c80d0e6cabf34d7eabe49740bb8befe9f59af",
+        "bytes_sha256": "3c4ee8b3ffe142d3749fc869d858c29ab722995163057f18f21b8798620e18c2",
+        "semantic_sha256": "4b24a8633dc87173062685e95905caa39f978965e0803bae41848e6d90722c6c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "ipcidr-mrs",
+      "label": "ipcidr(mrs)",
+      "ext": "mrs",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Game_ipcidr-mrs_a99083cb3ffc4e42.mrs",
+      "binary": true,
+      "role": "ipcidr",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "1b2a0d45acd2f9854db1b61688ac195fd76dd485a70e417adfe41691e34846ad",
+        "bytes_sha256": "62cb1cf9b4304bc890a3e9b4ead674ab905f6ee53ec128f51854665eca64d696",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -76,7 +113,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5010f5809d87742c0bfb847c22624d8e8bf4da577d67fe888f1e6298f2136ffd",
-        "bytes_sha256": "219e0717bca025843d0e3a4c550c5426ec141c1d001d42dbd336dab6f93d8c9e",
+        "bytes_sha256": "57af296454d1f43ec40ea1b33ade4639feb427062c805aaeec8cda3892dcf6a2",
         "semantic_sha256": "833b31ade3afd8a2f3bbe8cf3a446dc289540cdd70954b1383b9b03e63461a81",
         "normalized_header_lines": 4,
         "shared": true

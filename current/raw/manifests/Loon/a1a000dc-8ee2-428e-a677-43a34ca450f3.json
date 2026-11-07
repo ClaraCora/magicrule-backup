@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-11-04T16:10:02.648397+00:00",
+  "generated_at": "2026-11-06T19:21:56.259022+00:00",
   "client": "Loon",
   "rule": "Alibaba",
-  "rule_updated_at": "2026-11-04T15:55:14.220233+00:00",
+  "rule_updated_at": "2026-11-06T13:56:49.285076+00:00",
   "type_counts": {
     "IP-CIDR6": 9,
     "DOMAIN-SUFFIX": 1473,
     "IP-CIDR": 139,
+    "PROCESS-NAME": 1,
     "DOMAIN": 5
   },
-  "total_line_count": 1626,
+  "total_line_count": 1627,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Alibaba_rules_09e55f999785fe5d.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Alibaba_rules_822688cdc38112cb.list",
       "binary": false,
       "role": "full",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "587320c3d712e6e5dea080af33ec9e85f2d7064ddc48678921b670ab131e7280",
-        "bytes_sha256": "e5453465ea4ec313f2deeb6bd0e81f74ce09d14ff475585bdec49fc6ff1a4412",
-        "semantic_sha256": "60bd8fa52c7c82835b10b25eb557d9a3b3ccfabcf669fdbab8b98e5ad31977de",
+        "fingerprint": "385368f38b3723f5474a65e8ab6319fd341941e0d09310f6261e443e0bdec559",
+        "bytes_sha256": "a56f5ead8321c95fbf34b42f4caee0a836f62606a4d95625b2d07d1a705ee801",
+        "semantic_sha256": "9c9e9747835a23a587d8b5a5076a600ba810a5435b25e6d4de4f664edabbe9e8",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -41,7 +42,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "46fb66a1e4f323734bc957bef039d1f04179f9500b9de8260db874c0318899f3",
-        "bytes_sha256": "ef898cc3279b4d726687adfad66352f3f4118b2c3db6104301ede69a672e9e0a",
+        "bytes_sha256": "ca27532ca7c453447b40d6e6b5248b0d6617f7c9deb57851267d7a003993720b",
         "semantic_sha256": "6492fc76b70c260a770291e08c1e755387e77ee84a9b770f1492f363ab56df58",
         "normalized_header_lines": 4,
         "shared": true
@@ -51,16 +52,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Alibaba_rule-set_16bb5f26aeead787.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Alibaba_rule-set_e41cae6b9d0edf21.list",
       "binary": false,
       "role": "rule-set",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "903553f9f903d43f345b9f51eb8b8c0a4a2bd961458b3bba2b4fa1df39ecea58",
-        "bytes_sha256": "4a936cf73ea4aa4df9e4a241a1f1ff28cfed821aa24cb246f7c206c74008a917",
-        "semantic_sha256": "0d89bd359d45566ba6510221694a0437e140daa8715b2a7e2b131d2a8b6a8792",
+        "fingerprint": "87fb4e326be9bcb9ab67620a85bd8dd105373217641ccd4636f8e00228e0733a",
+        "bytes_sha256": "db6124f5f0e1db414ba6e9a0289154c36c61ca2c2f4a77182ba7c407c2a3d137",
+        "semantic_sha256": "cf0aff693dc27eb652889f18229bfafa6bfebea1a9e55aacb2bb2b74869553ca",
         "normalized_header_lines": 4,
         "shared": true
       }

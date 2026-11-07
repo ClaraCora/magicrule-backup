@@ -1,10 +1,11 @@
 # NAME: Naver
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-08-27 10:17:28
+# UPDATED: 2026-11-07 03:24:35
 # USER-AGENT: 1
 # IP-CIDR: 144
 # IP-CIDR6: 50
+# PROCESS-NAME: 1
 
 USER-AGENT,LINE%20TV*
 IP-CIDR,101.101.160.0/20,no-resolve
@@ -201,3 +202,4 @@ IP-CIDR6,2400:dcc0:af01::/48,no-resolve
 IP-CIDR6,2400:dcc0:af02::/48,no-resolve
 IP-CIDR6,2400:dcc0:af03::/48,no-resolve
 IP-CIDR6,2400:dcc0:d001::/48,no-resolve
+PROCESS-NAME,com.linecorp.linetv

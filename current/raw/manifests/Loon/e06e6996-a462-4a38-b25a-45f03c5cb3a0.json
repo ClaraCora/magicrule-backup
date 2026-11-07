@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-08-27T02:15:58.477655+00:00",
+  "generated_at": "2026-11-06T19:23:58.339968+00:00",
   "client": "Loon",
   "rule": "CWSeed",
-  "rule_updated_at": "2026-07-26T06:58:16.386907+00:00",
+  "rule_updated_at": "2026-11-06T14:01:01.847681+00:00",
   "type_counts": {
     "DOMAIN": 2,
-    "DOMAIN-SUFFIX": 3
+    "DOMAIN-SUFFIX": 3,
+    "PROCESS-NAME": 2
   },
-  "total_line_count": 5,
+  "total_line_count": 7,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CWSeed_rules_add58cb5f366f479.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CWSeed_rules_e01b874c3d668142.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "cb092142a311fd26cfde4f6b06c1c28fd3c0717672a1a239be3b9e042ae7072b",
-        "bytes_sha256": "91a1e2ebffe9f630187865af822f86ac6f62f9eff90559728560e8f4b83be9bc",
-        "semantic_sha256": "b87b8f8fa822938fc3383c046b2307924dffd2edab4e19538f5f348eb5eec0c8",
+        "fingerprint": "3e8ec615dfe610af4c5ad4e3e74061464e9ae24ac4a501bdea28b873b19f2bcf",
+        "bytes_sha256": "de55420834d475a477c41a9d36873cd51b61a816a30c4dd9d729a476efce3c43",
+        "semantic_sha256": "c06bd7c4c21037a6a7bdf26d3d085f9a39ca6b22316228763e0c86ee64ea8584",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,8 +40,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "00b52d0d16bbfb4ab7c40eca86ee9d34b3f25aa307caa6f3c8f6d66b8d08d4f5",
-        "bytes_sha256": "7e363ed43eac4fb4b2d5522fcb5334b77f0edd7b17329fa657c43a67256b1636",
+        "bytes_sha256": "74fec5d2b68bebc95bce47914d9d1dcc50ab97adfe1a671b0b3d1661808a0880",
         "semantic_sha256": "72a7d03175ef106c06781604f1e16d33a3915a71c6e50626028e52c5dcb02d0c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CWSeed_rule-set_a65ac03ad2ea4b45.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d94bb69db5919a993bdbfb9fe1c6b9e4ab3a9a502b2a7cdb2f741be7ecfe392",
+        "bytes_sha256": "73cac4821faa9b4782d3fd3021df6d990ff57915b89ae10e146969b963390c37",
+        "semantic_sha256": "18b2b34dff5e79ed26daaefbb12470663396fc20bfd6cfee736c1610b3a766aa",
         "normalized_header_lines": 4,
         "shared": true
       }

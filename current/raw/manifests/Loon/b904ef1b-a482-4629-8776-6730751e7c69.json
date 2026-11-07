@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T14:29:33.511797+00:00",
+  "generated_at": "2026-11-06T19:22:29.346476+00:00",
   "client": "Loon",
   "rule": "Facebook",
   "rule_updated_at": "2026-10-09T15:59:07.557335+00:00",
   "type_counts": {
-    "DOMAIN": 1,
-    "DOMAIN-KEYWORD": 2,
     "DOMAIN-SUFFIX": 552,
+    "DOMAIN-KEYWORD": 2,
+    "IP-CIDR": 36,
     "IP-ASN": 1,
-    "IP-CIDR": 36
+    "DOMAIN": 1
   },
   "total_line_count": 592,
   "artifacts": [
@@ -24,7 +24,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c589640995569166c554ae0ee712368bc814f5f620110a1c5c5eaaf69b02635d",
-        "bytes_sha256": "c6d74e1dac7755b8506fb89152f1f2d5efa00aaae4e51eaad21f36770ea2342b",
+        "bytes_sha256": "3edfa648696c45026395001a1c518a9a336c233d66d11ecbf5a21e44a0e4bc64",
         "semantic_sha256": "b27f70dcbff672bbb24ae4e2e4b85d88adcd316d4d07cbefc015ffe27a32e2bd",
         "normalized_header_lines": 4,
         "shared": true
@@ -42,7 +42,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9e5c2248b396ac7270917e1a9d802f6f83a8602ad97405a284e58bc6d17764b9",
-        "bytes_sha256": "706b82daf8bbbde3af9555bc2c91614e2cacd38b27eaf2a72a17f3a4d311e84e",
+        "bytes_sha256": "e4c9606f6f02e542a91e363d9aa2cc8164291d22569f7fbeda2421fbaa7845c5",
         "semantic_sha256": "cd46cfea3769f4bb4a37a37ecc8a712d0189f5d0cf458c5072b7ab01ba00e54f",
         "normalized_header_lines": 4,
         "shared": true
@@ -60,7 +60,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2c75e2ff4ab2a59a2b2e738960aec820ebfe4f919895d846431683a28bcf682a",
-        "bytes_sha256": "7b2e5c328a7e9178f63681b031b8f7a290903f001ea18e6911cb2223c7b24b74",
+        "bytes_sha256": "a0ae24fa80f2970d8314bf6535fce3b4a505ab4c59fd54a72448c34f57754612",
         "semantic_sha256": "6deed1b14df877cfd563baf113ed8dd21df4697d63ce08b5f75bef1e580a2089",
         "normalized_header_lines": 4,
         "shared": true

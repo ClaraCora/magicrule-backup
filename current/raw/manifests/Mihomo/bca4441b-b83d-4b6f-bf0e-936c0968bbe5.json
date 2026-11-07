@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-04T15:55:18.113744+00:00",
+  "generated_at": "2026-11-06T21:15:55.784047+00:00",
   "client": "Mihomo",
   "rule": "ChinaIPs",
-  "rule_updated_at": "2026-11-04T15:51:23.695324+00:00",
+  "rule_updated_at": "2026-11-06T21:15:44.804400+00:00",
   "type_counts": {
-    "IP-CIDR6": 5483,
-    "IP-CIDR": 12622,
+    "IP-CIDR6": 5459,
+    "IP-CIDR": 12627,
     "IP-ASN": 5076
   },
-  "total_line_count": 23181,
+  "total_line_count": 23162,
   "artifacts": [
     {
       "key": "classical",
       "label": "classical",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_classical_b357d7a3f17737f1.yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_classical_ef098f9be13f0809.yaml",
       "binary": false,
       "role": "full",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "c45b7abb17c1b6daa8f70797719d79cabe6e63e1b276974ad54dd15da82e47c1",
-        "bytes_sha256": "f5bdc7f310a9ecbe8c784682845d3d23201b38977926f9275aa6135fcd6b39fe",
-        "semantic_sha256": "2d6d0c469dc6aee1cf62445abff562a26c6283d7bb33afe5ae4e18af02699322",
+        "fingerprint": "5e90448d29172e0d6976cae4f84121da97d8009f0d072a35f1af1da9cedf785b",
+        "bytes_sha256": "ff798addff2b5bd6be6f445e671711cad6e7b930154c6421a2a1c0e1209718bd",
+        "semantic_sha256": "73f18215b24fd349bed34e71dd8b7a7cc095b34c436220be49ef76f7f56e40f2",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,9 +39,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "7a46e116eee753d2d3a36b7b51fd9b9245da6bd1f0e6081cf0c807261240b93b",
-        "bytes_sha256": "447a089968e6724b24ee9eab33ab6130d37f8ec9820c4e3fa07bcec52abf887f",
-        "semantic_sha256": "59e2847731ff8e9654499d98bfe4e5819e801e80e7b43a500763b164aef527ff",
+        "fingerprint": "248be6d2b79082516c5749bfe71eb0b23b0cb6ebe43501236a3f32f1932ad970",
+        "bytes_sha256": "2956f832b3fcc31bc1cf1519a25486842b72cd91d590d6611b3fb2546f344425",
+        "semantic_sha256": "0360d831b36ba618ba6a036d8f0d629558c181e4bc28cb084b09644a71c05f48",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,8 +57,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "cd8afcb293995169b0ccb71a2197321acb7d49a2321f900cb2e18e8f5a94147b",
-        "bytes_sha256": "7f0130669f081742b7f562072be9cc7df3abf30dcb9ad8bf8c9db6e74366b0ca",
+        "fingerprint": "3f58fc3e68ccbbe6558bf8e5f931aaa46bc24624a5452fc8c4d4aa732e33fc7b",
+        "bytes_sha256": "db22692761f43f5c8f8aa92f7fb10dfa9f53e24bb17d1c6cb8b6d8155bd5408a",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -68,16 +68,16 @@
       "key": "classical-rest",
       "label": "classical-rest",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_classical-rest_e447f39df310ba5d.yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_classical-rest_5a00c2a99fb023a0.yaml",
       "binary": false,
       "role": "rule-set",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "c618a35d7ef74301b0fd8699afafad694cf94ac6812226d257f8d42faa404648",
-        "bytes_sha256": "5673f0219694b29b3e49271b3aac93963d7a0cc56ed94220e300b0700d62a933",
-        "semantic_sha256": "97607518db21f3bc769dc88d955ea6df5f1826db8c6916bb97e8c849b0644e0b",
+        "fingerprint": "76f2bd676f5e28268f2ea86d1771ea001e72a1caaf0c8e2bae44ad2223981e4d",
+        "bytes_sha256": "58929fd3b181d57625887aac4f04d4ddb57800a19e11e847c6c1c7d8c1345e56",
+        "semantic_sha256": "3858957e71bd8cfbc172ec36388614645d73e70ee321809ada6ca4aa8d59a6ca",
         "normalized_header_lines": 4,
         "shared": true
       }

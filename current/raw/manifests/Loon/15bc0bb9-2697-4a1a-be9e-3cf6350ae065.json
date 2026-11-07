@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-08-27T01:57:49.695600+00:00",
+  "generated_at": "2026-11-06T19:16:37.567024+00:00",
   "client": "Loon",
   "rule": "AMD",
-  "rule_updated_at": "2026-07-26T08:30:14.313063+00:00",
+  "rule_updated_at": "2026-10-09T15:59:04.418061+00:00",
   "type_counts": {
+    "DOMAIN": 1,
     "DOMAIN-SUFFIX": 5
   },
-  "total_line_count": 5,
+  "total_line_count": 6,
   "artifacts": [
     {
       "key": "rules",
@@ -19,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "9daf426408220e0fcbe8a28d52b1e35da0e723cb5804cb8f8202547f9e650f6b",
-        "bytes_sha256": "ec432df514186053d65f8aa45300c03695a2e8a35bf21a72dd6abff433bbfec7",
-        "semantic_sha256": "b7753176478f3386c71f2885a2295123aa8542a7b7b22128ce7d40ef4737925c",
+        "fingerprint": "bc16c8eaf2da88925b7ce9aeeabe8d2224aff7f5d7414cde1b50c3b13d2bad4f",
+        "bytes_sha256": "40daf1284ed47820f6378c1621680f642e47d45c9e2af8823374b3f968f2f16b",
+        "semantic_sha256": "b808f04c64be7133231923610e54def4d4b1e663436a2dc500882c098b443799",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -37,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f6a6b25aadf504234a4cb3010941d9f9e43e950505a65b198ee4b82a90e17085",
-        "bytes_sha256": "63809fc78578ae4fa94d23c97483552284cbcf81840df33dd341ab5bfb2d79c3",
-        "semantic_sha256": "e11ebee6c0167152d11baba4c397b34006a5ce0d376ce9df9416fed1f4139758",
+        "fingerprint": "2c3b6a537413e3666a7227336d6e65532fe7b2b084654841e9598134fabea318",
+        "bytes_sha256": "ea0c8181174531d6ff43648bec444e3f1a8f1eebe99a27eff08cb95b84d866d0",
+        "semantic_sha256": "5005f0ec5a0e776c452eff13ebf9c1adc52e2620723cc123ddd52ab71a9bc67f",
         "normalized_header_lines": 4,
         "shared": true
       }

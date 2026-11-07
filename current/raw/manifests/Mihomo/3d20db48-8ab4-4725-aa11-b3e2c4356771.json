@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-27T01:42:48.793570+00:00",
+  "generated_at": "2026-11-06T19:10:08.222471+00:00",
   "client": "Mihomo",
   "rule": "GlobalCloud",
   "rule_updated_at": "2026-07-26T10:32:07.131640+00:00",
   "type_counts": {
-    "IP-CIDR6": 2770,
+    "IP-CIDR6": 829,
     "DOMAIN-SUFFIX": 19,
-    "IP-CIDR": 5779
+    "IP-CIDR": 1926
   },
-  "total_line_count": 8568,
+  "total_line_count": 2774,
   "artifacts": [
     {
       "key": "classical",
       "label": "classical",
       "ext": "yaml",
-      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_classical_db882148e6b04625.yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_classical_da3af5d0c5699f73.yaml",
       "binary": false,
       "role": "full",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "150fecc00b67dcc9917c32382b4d82a4a9b75409dce43cb294068de26a318392",
-        "bytes_sha256": "2e420e2bd1fe71a7150cd0ef477d882faece6e59f2b3a5467587862cfa377283",
-        "semantic_sha256": "a3cad18a77aaa6d23ddbff4201bb30d149059e86ec1723e5d150dcd2f7dc25b9",
+        "fingerprint": "0e2cd8b78ccc3050855304b0bedf91ae3f2b7a67ff35d7653c569e1b78e40b39",
+        "bytes_sha256": "739b66150feb1c35e4cf360fb85b0ec3623b5440cdda6e0bcd919764614447b8",
+        "semantic_sha256": "be39ead503245aaa33e1c8f69a2d7f8ac33793057a463250b9b7b844b8545479",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "99594bcf2d8c32d8cb787fb551e6cf9336fdd92dff3dd6be7ba44f04184c4b8d",
-        "bytes_sha256": "b00bc4793363d90ad738754d0180cc1450e9f43525c8407137b7bda91365a898",
+        "bytes_sha256": "98cf7d5d87068fb188db84fd4ea5a04eecc4927b33c1970de03fbe9114993435",
         "semantic_sha256": "3d6beb7d97a257dd1b005553e8a526ebb7931eb76ff8cbc3cfaeddaedcfeda49",
         "normalized_header_lines": 4,
         "shared": true
@@ -68,16 +68,16 @@
       "key": "ipcidr",
       "label": "ipcidr",
       "ext": "yaml",
-      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_ipcidr_5ba7335c7d22e7f2.yaml",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GlobalCloud_ipcidr_9a5d7e5f7f0c28d9.yaml",
       "binary": false,
       "role": "ipcidr",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1c5352c2b1ae9687ea3d7a208a414d15bb815672655f770fe95c237f5cb41d66",
-        "bytes_sha256": "7bc8408b70297bb329028c885cfcb45869e87e55b8326feac201bfdb260b9f46",
-        "semantic_sha256": "0bbc8e6dc2d7bf3f33ddd221f642c0865f415b0d8bc8b7ffe97695f176613f55",
+        "fingerprint": "aa46ea9c1afd3a49317cd92def6f4360644e9a24e051ea7c4bab3afc82f7bb2a",
+        "bytes_sha256": "117a161043bd5dbade0fb6ac3eff4275040a6d54dbd1438a5d887007a397b218",
+        "semantic_sha256": "6c57cd90b06577c2da3bb82aab6f08cf7808360d8063c047ff986f7203051094",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -93,8 +93,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "9925678ca6fd1c7c25a8b5f242e7e947fb9cdacac8277719c8e4eb91c5d3e7b1",
-        "bytes_sha256": "a03229ccfd0083b8469dedecfd7a9f718370d628d57481374ec26e808d93e032",
+        "fingerprint": "1182e8e2ca7c11b9808e07762f69c2a77633794974f3c4a550841cda1db559cb",
+        "bytes_sha256": "24e793772f71afb3a641ce69b1fd4a010a71820b1d4dcb46b683c1d75a667629",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

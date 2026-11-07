@@ -1,9 +1,9 @@
 # NAME: AppleDirect
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-08-27 10:04:34
+# UPDATED: 2026-11-07 03:19:20
 # BEHAVIOR: ipcidr
-# IP-CIDR: 10
+# IP-CIDR: 12
 
 payload:
 - '139.178.128.0/18'
@@ -13,6 +13,8 @@ payload:
 - '17.0.0.0/8'
 - '192.35.50.0/24'
 - '198.183.17.0/24'
+- '203.205.64.0/19'
 - '205.180.175.0/24'
+- '43.240.60.0/22'
 - '63.92.224.0/19'
 - '65.199.22.0/23'

@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-10-29T03:15:41.696054+00:00",
+  "generated_at": "2026-11-06T19:23:06.205286+00:00",
   "client": "Loon",
   "rule": "Copilot",
-  "rule_updated_at": "2026-10-29T02:37:38.671516+00:00",
+  "rule_updated_at": "2026-11-06T14:01:08.244159+00:00",
   "type_counts": {
     "DOMAIN": 70,
     "DOMAIN-KEYWORD": 5,
     "DOMAIN-SUFFIX": 304,
     "IP-ASN": 3,
     "IP-CIDR": 4,
-    "IP-CIDR6": 2
+    "IP-CIDR6": 2,
+    "PROCESS-NAME": 14
   },
-  "total_line_count": 388,
+  "total_line_count": 402,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Copilot_rules_ad8bc1acf9eab954.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Copilot_rules_a253cdc8a666e0cb.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "9380af2d44e2a0231bd42e6f339704821967de926c93ba53e34ab6918817e5ed",
-        "bytes_sha256": "12580068fd20dee592034e19bc0cc16a9fed82c7afb67e186319c1444f7b418b",
-        "semantic_sha256": "64033fe6be37174be3e03c9422628d6b5fbbbe9071c09c5467bb1dea261b970c",
+        "fingerprint": "a4e985ded4ce6c1322120093146ae992cda4c215af2f21488c19679d6540b9dc",
+        "bytes_sha256": "fe484b7e2a7c5e10ed371eee61c624b43b86733f0a751957e8884167e9424d11",
+        "semantic_sha256": "1b4f3831c5252087ba42929b4fa80b7decfdcd5b21a88546c899dab6cbdbc3c5",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,7 +44,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e88f3e00e6d9d5d7692d33bf9e1a9465364fe3a812114c0a48f894b24ef4c7c2",
-        "bytes_sha256": "99b748fe670348b4116ae7738df1e1f733a583f4b1cfdc5119986ddd7962daca",
+        "bytes_sha256": "c4f763d06bf033aabf0a15e8cc33c21ac1086bcd848e92ef951174d527635355",
         "semantic_sha256": "e276c83b170409c30677922ad22e030f0e75f6225996caccd890f9b2ce25a1a8",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,16 +54,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Copilot_rule-set_c50cffc6246748f1.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Copilot_rule-set_11bcc4175fa2c777.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "9c68d4f48779eb87933c882b0d2f8c617ebafb0687303f01405f371b14d2ae2b",
-        "bytes_sha256": "75cbe16ff226cf186f6f0fd67ac7771d48605503bb17d0a6df199802c57bc0bd",
-        "semantic_sha256": "c5fa9134637005d38d99d9413604a3728c9693f3f254d904597b2602d9a820d0",
+        "fingerprint": "79ff099db4297d404e06d23fb4c3c350ceec5bde7f66118c217e44d3d7695b7d",
+        "bytes_sha256": "ab78db9d240a30948153ade3438db0dc3b224bcd10d365d64514677d4e0cc542",
+        "semantic_sha256": "137ec280ee7e42e2f3e7d838709599edee0fcd49cf2a6d89226b22ee8bbed1df",
         "normalized_header_lines": 4,
         "shared": true
       }

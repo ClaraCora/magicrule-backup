@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-04T16:15:16.839189+00:00",
+  "generated_at": "2026-11-06T19:23:59.110175+00:00",
   "client": "Loon",
   "rule": "Game",
-  "rule_updated_at": "2026-11-04T15:55:17.551820+00:00",
+  "rule_updated_at": "2026-11-06T14:07:20.001281+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 1146,
+    "DOMAIN-SUFFIX": 1144,
     "DOMAIN-KEYWORD": 4,
-    "DOMAIN": 126
+    "IP-CIDR": 12,
+    "DOMAIN": 125
   },
-  "total_line_count": 1276,
+  "total_line_count": 1285,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "fae8a07fc66de38672a90ce33d096bd63e6e0bc1d8f46ee26cd487b02b7fc151",
-        "bytes_sha256": "46f028845ca092533941fd0758145cb5f151a8b1228b177fc96665ea8a538be2",
-        "semantic_sha256": "9dd071f25ae994012d6ea825a08ab73385763cdb147f187657f3692e1a7bb661",
+        "fingerprint": "83792c9e5a534ac18200251832a19d89a20da5bf0b5f5d2fa225dccaf662d87d",
+        "bytes_sha256": "9865d440bee57acd6e77a88e8ad87295b4110f8dd516a43b0d8b1dd50dee79cc",
+        "semantic_sha256": "e87360da8100004922339be83bb5b3cb726c0cc7a4e03ffd613c58f6cc363dfa",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,9 +40,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "86972079ffdab7e8ed99541a2abd21aa298538941c6f31ea17c014dd9721d8e5",
-        "bytes_sha256": "3640c2436aa1bbaeeddd103921f8dafe5889dc07a305def1847a0db22c6cbce9",
-        "semantic_sha256": "0b0320984883a76fc2f27e1bcc496f933848742753f3f56f7026a2f2b5441243",
+        "fingerprint": "a739660466a5789ba799085e00d6960608f69866d8a65fb6f1cc165c3914317d",
+        "bytes_sha256": "d97dfc71caf3843a7535a60986f3436c78259659a0c1660f778121b1dadc0b3f",
+        "semantic_sha256": "593a1a1d8a1977ea0dfec1122a8344d4f78cbe08c3c27225f6969f15741fa3ef",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,9 +58,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a274935e16fd5bd13a7c8d87a0c077f87ab470385135ce6200192eeb0fde7874",
-        "bytes_sha256": "0d7c61c42b08e9102024076487749af16ab7efd2a3aabf48f9fa9e4cb12dee5e",
-        "semantic_sha256": "190b410f44cd34cfc7ef2eaa5257d02512927462a67e3930b2460660c44a128d",
+        "fingerprint": "fbfd860a6bfc6c6f3ead21f9628c7480831f09b71ef54b712c6f9777e4a8feb2",
+        "bytes_sha256": "cb41921adc85cf3c5d047058902283b876dbe8da9119eecd04aa48fe46cf666e",
+        "semantic_sha256": "d38a15afbf2edefcf269a7d060345d34dc221fc1d64877dbffb826b509e6fa99",
         "normalized_header_lines": 4,
         "shared": true
       }

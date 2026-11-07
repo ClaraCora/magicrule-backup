@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T02:39:38.066328+00:00",
+  "generated_at": "2026-11-06T19:09:38.460962+00:00",
   "client": "Loon",
   "rule": "GlobalNetDisk",
   "rule_updated_at": "2026-10-29T02:37:21.517199+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 56,
-    "DOMAIN": 3
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 56
   },
   "total_line_count": 59,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ef3c9ff24a04eedd1a74e04e9d7967c07b7c616c61f4c3454b08816411fd1dda",
-        "bytes_sha256": "8ac1d19ba9338c41a192b5d69ef91424231f53658fb4721904410b6d2b9c768a",
+        "bytes_sha256": "38cc5550a173617b5c30420b9f83499ecca995d1de3a64797de576461c0fc213",
         "semantic_sha256": "bc09ae87c2bc9645d441028b8bfd81b1d210b3b657a7e757f50cba6225909f3c",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "882799a83c9b3c4606ff87ed9b5f353a3ecbe87f2105d0e35f8c7b40c7fe35ff",
-        "bytes_sha256": "bad4c730d2de7ab506dfa4044e469403e2e42b3c76fc1ca9e339960177be5cbb",
+        "bytes_sha256": "323c108b72b34f1191b72a150d476eb8ce96eaa84c4f009835d2283fb7544ad7",
         "semantic_sha256": "ae91322eeb4856f14bc9f9efc91214d6465da7eca6fd8f6d0ac012adac8c22d9",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,7 +1,7 @@
 # NAME: Anthropic
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-29 11:30:54
+# UPDATED: 2026-11-07 03:18:50
 # BEHAVIOR: classical
 # DOMAIN: 8
 # DOMAIN-SUFFIX: 33
@@ -58,7 +58,7 @@ payload:
 - 'DOMAIN-KEYWORD,sift'
 - 'IP-CIDR,160.79.104.0/21,no-resolve'
 - 'IP-CIDR6,2607:6bc0::/32,no-resolve'
-- 'IP-ASN,399358'
+- 'IP-ASN,399358,no-resolve'
 - 'PROCESS-NAME,Claude'
 - 'PROCESS-NAME,Claude.exe'
 - 'PROCESS-NAME,claude'

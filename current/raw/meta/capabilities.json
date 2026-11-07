@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:37:59.652051+00:00",
+  "generated_at": "2026-11-06T19:47:11.916950+00:00",
   "capabilities": {
     "AdGuard": {
       "line_type_options": [
@@ -9,6 +9,20 @@
       "render_options": {},
       "rule_file_extensions": {
         "list": "ADGUARD DNS FILTER"
+      },
+      "icon": false,
+      "rewrite": false
+    },
+    "Anywhere": {
+      "line_type_options": [
+        "IP-CIDR",
+        "IP-CIDR6",
+        "DOMAIN-SUFFIX",
+        "DOMAIN-KEYWORD"
+      ],
+      "render_options": {},
+      "rule_file_extensions": {
+        "arrs": "Anywhere 规则集"
       },
       "icon": false,
       "rewrite": false
@@ -132,6 +146,7 @@
         "SRC-PORT",
         "DEST-PORT",
         "PROTOCOL",
+        "PROCESS-NAME",
         "AND",
         "OR",
         "NOT"
@@ -172,7 +187,8 @@
           "PROTOCOL": 2048,
           "AND": 4096,
           "OR": 8192,
-          "NOT": 16384
+          "NOT": 16384,
+          "PROCESS-NAME": 32768
         },
         "options": [
           {
@@ -226,6 +242,7 @@
               "SRC-PORT",
               "DEST-PORT",
               "PROTOCOL",
+              "PROCESS-NAME",
               "AND",
               "OR",
               "NOT"
@@ -278,7 +295,7 @@
         "NOT"
       ],
       "render_options": {
-        "skip-no-resolve": "IP-CIDR/IP-CIDR6 不附加 no-resolve"
+        "skip-no-resolve": "IP-CIDR(6)/IP-ASN 不附加 no-resolve"
       },
       "rule_file_extensions": {
         "txt": "TEXT PROVIDER",

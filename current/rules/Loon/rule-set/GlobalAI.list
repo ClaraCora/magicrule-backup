@@ -1,12 +1,13 @@
 # NAME: GlobalAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-10-29 11:23:33
+# UPDATED: 2026-11-07 03:17:24
 # DOMAIN-KEYWORD: 11
 # URL-REGEX: 1
 # IP-CIDR: 4
 # IP-CIDR6: 2
-# IP-ASN: 4
+# IP-ASN: 3
+# PROCESS-NAME: 14
 # DESC: 包含URL-REGEX规则，建议搭配MITM模块使用
 
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
@@ -28,6 +29,19 @@ IP-CIDR,64.23.132.171/32,no-resolve
 IP-CIDR6,2604:f20::/32,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,14061,no-resolve
-IP-ASN,20473,no-resolve
 IP-ASN,399358,no-resolve
 IP-ASN,401518,no-resolve
+PROCESS-NAME,Antigravity
+PROCESS-NAME,Augment
+PROCESS-NAME,ChatGPT
+PROCESS-NAME,Claude
+PROCESS-NAME,Codex
+PROCESS-NAME,Cursor
+PROCESS-NAME,Windsurf
+PROCESS-NAME,antigravity
+PROCESS-NAME,augment
+PROCESS-NAME,chatgpt
+PROCESS-NAME,claude
+PROCESS-NAME,codex
+PROCESS-NAME,cursor
+PROCESS-NAME,windsurf

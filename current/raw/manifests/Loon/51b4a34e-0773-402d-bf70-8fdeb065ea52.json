@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-10-29T03:30:55.186472+00:00",
+  "generated_at": "2026-11-06T19:18:51.084777+00:00",
   "client": "Loon",
   "rule": "Anthropic",
-  "rule_updated_at": "2026-10-29T03:05:28.375645+00:00",
+  "rule_updated_at": "2026-11-06T13:57:11.145702+00:00",
   "type_counts": {
     "DOMAIN": 8,
     "DOMAIN-KEYWORD": 3,
     "DOMAIN-SUFFIX": 33,
     "IP-ASN": 1,
     "IP-CIDR": 1,
-    "IP-CIDR6": 1
+    "IP-CIDR6": 1,
+    "PROCESS-NAME": 2
   },
-  "total_line_count": 47,
+  "total_line_count": 49,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rules_59cda8d0136baac6.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rules_f9e0decc2657fdcd.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "edc86ca2b33dad178037bd1719d940b72e0e05fb2b5a601d319140e9e562f795",
-        "bytes_sha256": "cd986c85d443347a678951d64152065309579201a0824038ca0bd45f19f6cd88",
-        "semantic_sha256": "1b9d7d0698c043d53dd31388735cf2e3447c73ec1fe53c521677d2d0864f6b18",
+        "fingerprint": "b634cb62eeb55eef2b70151984f6ed8a3f02a62920c106ff8736ba0374689451",
+        "bytes_sha256": "aa98f5c220d6210fc7579fd3ecb4b23f29594ce61906d1443f708ad78efe324a",
+        "semantic_sha256": "2ab17389a1223998512f424bdafe8819110b9913f696f09bfd8aa397a95b91fd",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,7 +44,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e412562117c60449e64f68e37b764ba775e3362182e2d96ec5bcb49cebb636bf",
-        "bytes_sha256": "68cabf054ad3302785e4b8d4cb28a12e45eeb285ce092b4749e1a6a00fecf1d6",
+        "bytes_sha256": "8bf38bf176e76711d0155dd7b3562bf449632e9f6acc85cb5b619107d0d04440",
         "semantic_sha256": "2eecc00291de15e0077a71290e31ed5698ee783a3cf7d93aa047581c42e3091b",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,16 +54,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rule-set_01cc7761759102c4.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rule-set_81815445afd28861.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "b1fa719d76190e852d3c061a5cd36eb13eda8c4b95c0a19166d71e8ce124b619",
-        "bytes_sha256": "97a0a498bb5a91f995803cf47d29ce64bdcddad513fef27f4157d48af837551d",
-        "semantic_sha256": "fc95a93e459dd952f4432a647d9c6861e4f4e919946a13c4518d207bb5ab8c37",
+        "fingerprint": "54583352f4a99d77622915e63e3bfb0eccee2e82b98335d258c2510d1b1efe4d",
+        "bytes_sha256": "9de98f769b6447628c565a354ada5c9f268beaad7cfa18807c32bb195dec590c",
+        "semantic_sha256": "aa5dad21bc3691564fad712efe4791fb51f49d139f67effc6f0973db20e1bded",
         "normalized_header_lines": 4,
         "shared": true
       }

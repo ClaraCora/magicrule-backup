@@ -1,7 +1,7 @@
 # NAME: Copilot
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-10-29 11:15:41
+# UPDATED: 2026-11-07 03:23:06
 # BEHAVIOR: classical
 # DOMAIN-KEYWORD: 5
 # IP-ASN: 3
@@ -13,9 +13,9 @@ payload:
 - 'DOMAIN-KEYWORD,openai'
 - 'DOMAIN-KEYWORD,sentry'
 - 'DOMAIN-KEYWORD,sift'
-- 'IP-ASN,14061'
-- 'IP-ASN,399358'
-- 'IP-ASN,401518'
+- 'IP-ASN,14061,no-resolve'
+- 'IP-ASN,399358,no-resolve'
+- 'IP-ASN,401518,no-resolve'
 - 'PROCESS-NAME,Antigravity'
 - 'PROCESS-NAME,Antigravity.exe'
 - 'PROCESS-NAME,Augment'

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-27T01:59:32.884144+00:00",
+  "generated_at": "2026-11-06T19:17:19.722800+00:00",
   "client": "Loon",
   "rule": "NetEaseMusic",
-  "rule_updated_at": "2026-08-10T09:41:21.135471+00:00",
+  "rule_updated_at": "2026-07-26T07:37:07.272007+00:00",
   "type_counts": {
-    "DOMAIN": 2,
     "DOMAIN-SUFFIX": 13,
     "IP-CIDR": 35,
+    "DOMAIN": 1,
     "USER-AGENT": 3
   },
-  "total_line_count": 53,
+  "total_line_count": 52,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a9bfd8c0c5bb3ca9cfad560bda58b0422044202200f8274e2742521bd00feaf5",
-        "bytes_sha256": "fff96359a538e1120dc3e7c529c031462b2fe45f9b4350dcb6053f9f57c1fa6a",
-        "semantic_sha256": "a2adba72f9308752dd07c63671d6313a08d07fb4189ee10c4c14ab197d360dfe",
+        "fingerprint": "c0e2c9d87ff47a7d25d134c76fd237215b47042ebc9e2e0fb8a5465b5174761c",
+        "bytes_sha256": "ca405b103e43328820978044359a33749bfb02c7261ea97d45ade98272ad6119",
+        "semantic_sha256": "50fa0ec07dea8e019cb0490a094d316110d42525d2af880a59f147eb29dbfced",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,9 +40,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "4d86b2e1b207b0ab5c2ee2743299d37c6070f5684bf3074f6ad5d939fab21a97",
-        "bytes_sha256": "abc77ba15b1852dc6d35f06d754b923bb4b24d7e2e61e909fdf23c4ce6396731",
-        "semantic_sha256": "359d32521b871862c7ce81f7c55759668af3bc738032ba7665d58ae97398f751",
+        "fingerprint": "ba690deeae2f0a1c3ad3945dfbb1db9a036b540954a60e5a8f57bac193680b7b",
+        "bytes_sha256": "f9f1a34faaae5eb9ae9592942301083624e2cec78bb212d5e26b833b5701954c",
+        "semantic_sha256": "cc31cfd31037db10a3ef4d87db15805e10f490ea5f89f5d1255c06f727f3ae8f",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -59,7 +59,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4f0ea97e4effe5d630bc3142701f3ed791339534f2f89c9b9af2b7b4544be182",
-        "bytes_sha256": "0e51740ea35c2f3cb84976bac93650449fa27b3f76537e74b3a34798229d7e4a",
+        "bytes_sha256": "314f5101cb3c7bb46229c1222a031878b6e6a9f3f07c77a5b05a2c5451e7e0a0",
         "semantic_sha256": "fea69eca325c09282f383b786c984f6325185a2cf4deedb452816bca14d62afd",
         "normalized_header_lines": 4,
         "shared": true

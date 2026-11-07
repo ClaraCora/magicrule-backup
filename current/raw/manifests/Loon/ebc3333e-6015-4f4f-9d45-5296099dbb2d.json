@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-08-27T02:17:06.533193+00:00",
+  "generated_at": "2026-11-06T19:24:25.688636+00:00",
   "client": "Loon",
   "rule": "Download",
-  "rule_updated_at": "2026-07-26T06:23:13.220124+00:00",
+  "rule_updated_at": "2026-11-06T14:05:29.685458+00:00",
   "type_counts": {
     "DOMAIN-KEYWORD": 5,
     "DOMAIN-SUFFIX": 1,
+    "PROCESS-NAME": 11,
     "URL-REGEX": 8
   },
-  "total_line_count": 14,
+  "total_line_count": 25,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Download_rules_e6377f3bf6e80888.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Download_rules_45c9b3c4889075b6.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "fd253209654ec9cb963f6dddf5d002d97ccac922d6e768b6d814607175bd21bb",
-        "bytes_sha256": "837d888b6c5d121c81b3b649affa74fe21417c11272f8c3ac1e299379a95e525",
-        "semantic_sha256": "82123cc32c4f7322ec786a27217164b57d08baa12e08726a03987944154a222f",
+        "fingerprint": "c6ebcd594f331ecffe2e676875df449c3f187d8bdcc822a8b273dabb31c91bbe",
+        "bytes_sha256": "c81136a0bb4fb292c99c458f0f4f7306502d674e0f2f0639473c92256f76aaf4",
+        "semantic_sha256": "ef71cd48708ac08d5c1f4857d092f2bd1c6f8e9d7ee5cd85f4daa2d7a619e845",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -40,7 +41,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "abdb49702cce1018d032a176301577ff691c6e35f4d8053e047f70a9bbc84537",
-        "bytes_sha256": "4b4710859861c25e2e11c8e9cce7099c3cad7ecd4c6ad9665a8dcda9d160bf1b",
+        "bytes_sha256": "246ac0ff5f4b3cf67a847d65b3a20273a734366bb26522665d2e7c9403f79cb6",
         "semantic_sha256": "f77f52bcbdd0fd58d18469f859ab341896663351c5caddc6eeedbc183368a16d",
         "normalized_header_lines": 4,
         "shared": true
@@ -50,16 +51,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Download_rule-set_5c7645e520736b5d.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Download_rule-set_5a0e6c4b67f36cd7.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f55207bc8cf3d2e79f36a171fb62d8547a0c08f2231b6503c7d4db50b9d1e04c",
-        "bytes_sha256": "2020e58b50c036aa6d187efca222adcde6dcc95ec03307e9fba74fbd8fdad737",
-        "semantic_sha256": "eca20caa7d5b5f656451531add914e23720f255d449c2d88d23217a78d799ddd",
+        "fingerprint": "f7b957e2e8530fb56efd873206023a4984b6020437c2064dce09a47a862cf939",
+        "bytes_sha256": "a112b2c5d32cfcee2658210e9619b103991512352369333b640834eed517b39e",
+        "semantic_sha256": "4c0572e6f566f918091812f86a391e18c311c37285a17ad8446b5a4d29de742e",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -75,8 +76,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "225ee10dd32804bc4522ff1b1872644fe3f54b89299d5e7b34e3c884de6fc041",
-        "bytes_sha256": "011d76cde1e1ce73fb9dfe9a8d2484cee3d1dbfa7bede6898cbde2697aca5003",
+        "fingerprint": "a1ed2970f10c3e0c53a333cfdceb980f5cbebcb15219c89a56eff0e842f1f410",
+        "bytes_sha256": "3f78e08e366c72c0e63910bc3115b975a8fdf7d27a2ca80bb73ae41c2b6a2263",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

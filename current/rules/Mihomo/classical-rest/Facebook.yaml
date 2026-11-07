@@ -1,7 +1,7 @@
 # NAME: Facebook
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-10-16 22:29:32
+# UPDATED: 2026-11-07 03:22:29
 # BEHAVIOR: classical
 # DOMAIN-KEYWORD: 2
 # IP-ASN: 1
@@ -9,4 +9,4 @@
 payload:
 - 'DOMAIN-KEYWORD,facebook'
 - 'DOMAIN-KEYWORD,fbcdn'
-- 'IP-ASN,32934'
+- 'IP-ASN,32934,no-resolve'

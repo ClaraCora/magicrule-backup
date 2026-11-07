@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-10-29T02:44:15.168383+00:00",
+  "generated_at": "2026-11-06T19:22:02.059307+00:00",
   "client": "Loon",
   "rule": "Apple",
-  "rule_updated_at": "2026-10-29T02:37:25.957215+00:00",
+  "rule_updated_at": "2026-11-06T14:06:43.565008+00:00",
   "type_counts": {
     "IP-CIDR6": 3,
-    "DOMAIN-SUFFIX": 1769,
+    "DOMAIN-SUFFIX": 2006,
     "DOMAIN-KEYWORD": 5,
-    "IP-CIDR": 10,
+    "IP-CIDR": 12,
+    "PROCESS-NAME": 9,
     "DOMAIN": 280,
     "USER-AGENT": 5
   },
-  "total_line_count": 2072,
+  "total_line_count": 2320,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_a498ae373471a17f.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_50be57f093bd1fff.list",
       "binary": false,
       "role": "full",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "990a665fada2664fcca2e3d8bb62fd1a3247e5885e963af571ac7f3d058d38cf",
-        "bytes_sha256": "5e30073023bd2e2e4ce6d1869564639b9e11956d564c8bb5e88b2aa274c97940",
-        "semantic_sha256": "330bc75ff7d981d078eabcbe40e90cb24300140be78d8eec5a53a8e985b13799",
+        "fingerprint": "6a11be3dcf26632555851cbbaacab1bcb6035b1a517dc56cb258e5a1016dac4e",
+        "bytes_sha256": "e544a8d26ad88a6233e3f4887d3fa24a9aef7f428e78dfb4ab272ad5b031076d",
+        "semantic_sha256": "a9680c856fcb1d0201f0837c2d1509887407ff21956dd6bb0b137fd8205f8aa7",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -42,9 +43,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "86b590183625ddcd0f5fc50588b5fc6ff22e188a1b11f163cae34ff019bd04c5",
-        "bytes_sha256": "546e61f624d0e55bfb88a4d6b9f4724258500883c4681d734a3124dfe5d1e7ce",
-        "semantic_sha256": "eaa88244fef5c0aa02d1d61df0d60c03649e8ab2389aeeb6d919eab57c72c377",
+        "fingerprint": "2b0601678b922cb61363f14733bd95177f2ebc1ffe94f82b54db7a9dc7dc54b2",
+        "bytes_sha256": "2bcba3d48b78ca10c2c0ade0b6e7b9f428e8dfebcb71587092c1b03b529b1e74",
+        "semantic_sha256": "9e264b46c5b1a335159dedb8fbe1c9a25d4073356f171bacbe4f7c6c333ebcae",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -53,16 +54,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rule-set_b466974bf66f189c.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rule-set_6cba9e196243edea.list",
       "binary": false,
       "role": "rule-set",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "50f8edcd0d59e7d68374d228290b455d7601ca5ed70f1f93f74c959e6a255034",
-        "bytes_sha256": "0debca01b4c96f12430aab4eeddd389f770a71f2f51c9a32b9a526ba3dc91b7c",
-        "semantic_sha256": "26827d7a86f7abe880f479987cad65f3ad71a8c65d1050d9b51ad798144f1cb8",
+        "fingerprint": "3b2fc38a23480228d84f423a5205a1598f29c722c08544dba77c5f860010d872",
+        "bytes_sha256": "0fa965afcb4de011e776fcad5bd2fdc2254b85cb4280d7cb113a767c1db7c867",
+        "semantic_sha256": "c431ce06cb52b84b5cc2b4d8a155a345df0bb39b3a53ee84a83f0d6e9afe40ad",
         "normalized_header_lines": 4,
         "shared": true
       }

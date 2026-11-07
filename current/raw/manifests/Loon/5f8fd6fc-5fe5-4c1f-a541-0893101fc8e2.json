@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-08-27T02:04:37.848564+00:00",
+  "generated_at": "2026-11-06T19:19:22.546055+00:00",
   "client": "Loon",
   "rule": "CBS",
-  "rule_updated_at": "2026-07-26T06:21:31.680317+00:00",
+  "rule_updated_at": "2026-11-06T13:58:55.470162+00:00",
   "type_counts": {
     "DOMAIN": 4,
     "DOMAIN-SUFFIX": 34,
+    "PROCESS-NAME": 2,
     "USER-AGENT": 1
   },
-  "total_line_count": 39,
+  "total_line_count": 41,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CBS_rules_91a91467627f8afa.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CBS_rules_8512fdc0ebd1107f.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "89ceedac3e262ec9902f59c535a95cc035d855849ea54594e7297b7137cfc7c0",
-        "bytes_sha256": "b1d1f73bdc8b99a78a55c06bce8ff0d8b5cdd23455d946f09b4efe102fec087b",
-        "semantic_sha256": "332ffdc61493816b9a0022d6c1245e42243697746ceaa70112aef9d9394bb5b8",
+        "fingerprint": "80bebb2939904db9e1caf2f3c73997638d8ce3361f9f6a29e3f077a7cf39884c",
+        "bytes_sha256": "1578df66ca2e00e9d5daa1fb16a5105ea317e9c1d2820c4924dfaf1295742fc4",
+        "semantic_sha256": "d6d7d642ea5e6a96a0c9eef7dff59094b3f866eff916de8932903e4f97965ecf",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,7 +41,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0409e95fba9eaffd14cb39204f3426b5d309a6f61e7db8fdd015fdd7b300d90b",
-        "bytes_sha256": "42e65702ec0f354737b492d08eabcc3e031b39fcce4f7081610b3db5cf7a558a",
+        "bytes_sha256": "88cd3fc008518238254ed30432744320cb50d0756c304e2d42b5f3191891a1c7",
         "semantic_sha256": "f47a1f9ff63c7ebbb5dcfd9114cb85b21a49810f5bd96193e2bc03bde422f97f",
         "normalized_header_lines": 4,
         "shared": true
@@ -50,16 +51,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CBS_rule-set_5702ac6b589afff3.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CBS_rule-set_9a624c2a5882eb24.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1e6d9eff663da2985ceee219fc413d3ea944a119998beebe2c2a87f8f69250fe",
-        "bytes_sha256": "eb1d029fcbb228d55eb0ef80df7c0908933ae8609efaf326fe3564aea48f7d0e",
-        "semantic_sha256": "da009f069bea54a980264551c390b0c71af428f8712398eaf0393568efc4a4b5",
+        "fingerprint": "0982c728941768b70219e961a243d061b665ac1ff864d14002133ad1a53ce506",
+        "bytes_sha256": "297f3a52d1f9c2aebab05fe15cf803cb94f60aea883d558b1dcae2f9d818e734",
+        "semantic_sha256": "afc53f6b89ff971ce0644f8ab00b18816a099d68280a33c7730f9ae714af0189",
         "normalized_header_lines": 4,
         "shared": true
       }

@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-10-29T02:53:34.011643+00:00",
+  "generated_at": "2026-11-06T19:21:58.334047+00:00",
   "client": "Loon",
   "rule": "Netflix",
-  "rule_updated_at": "2026-10-29T02:37:32.293293+00:00",
+  "rule_updated_at": "2026-11-06T14:16:46.519531+00:00",
   "type_counts": {
     "IP-CIDR6": 199,
     "DOMAIN-SUFFIX": 28,
     "DOMAIN-KEYWORD": 4,
     "IP-CIDR": 1386,
+    "PROCESS-NAME": 1,
     "DOMAIN": 1,
     "USER-AGENT": 1
   },
-  "total_line_count": 1619,
+  "total_line_count": 1620,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Netflix_rules_f3bd3eb7f4910286.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Netflix_rules_56d52a775e1c2240.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "6d09be6ad372a8db7e5eaa4dd75f91f49ad31355cd22ea5e0472fd9b1e074e3e",
-        "bytes_sha256": "e353a0f5b0ea2cd4a05a65eb27eb36be07f56b8afab4d3d1460b5448aa28bd63",
-        "semantic_sha256": "467c51bf40c95fddc3d9a47648f81aa4aa3a55c01fcf3ceb1f5460a49c8f549b",
+        "fingerprint": "19e8a11b80088fa20faaf2cf0b88b9a9b0e3eb597cc4204042c34db135c64d41",
+        "bytes_sha256": "9e795d7840e57fc586315a38fec34d576beeb17561396584b7902f7f7386ad19",
+        "semantic_sha256": "9b761f9555de471d36d1e3664445d07c3cc01c6463efc75680c1debb93f7c518",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,7 +44,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9b3d8f59c2f72c74ee9b1c7e54f08e79bc24796d3e85fbf6a90793e981306b48",
-        "bytes_sha256": "dd053994d8967eba4be130e95e63f9b6a361c31bd1825850aebd9662ec0cbaa4",
+        "bytes_sha256": "67fb872711f70fb98ab7f752dded9c81b7ec4e736b770550e7afb9455b0fa7c1",
         "semantic_sha256": "7ad3c68601ab24fe923709e32c85e97372b4b2c3dc72faea952969da5b61a0ee",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,16 +54,16 @@
       "key": "rule-set",
       "label": "RULE-SET",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Netflix_rule-set_8e9c600439766901.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Netflix_rule-set_587b3f75896b109d.list",
       "binary": false,
       "role": "rule-set",
       "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "bef0cc03dd9d91b7f840e5e20c99e2c9a1fda55f4cb87baf7fd6ef013a3c1be2",
-        "bytes_sha256": "1d3e52ef4bc187e5c8ef5d82d78b226abde3b8fea9329c2972055c7cef76f659",
-        "semantic_sha256": "fde6b2018ef070828bb8a17b72cfbf4e65440fc74c77422e45937cdf10b22025",
+        "fingerprint": "f244d2c966aeb502e67738ab1d5ba5665b3d51c402348a31009a24b764f4e7cd",
+        "bytes_sha256": "d94f4e8c601479e77f735c987c8bf578b3001a040708bf5a45ce277d7cf09012",
+        "semantic_sha256": "d573e09d2209a95bc556ea3f15771c38de8e4b5df6c65ca4e6584fafc02c01ca",
         "normalized_header_lines": 4,
         "shared": true
       }

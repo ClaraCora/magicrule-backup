@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-27T01:56:58.523519+00:00",
+  "generated_at": "2026-11-06T19:16:16.938884+00:00",
   "client": "Loon",
   "rule": "Xunlei",
-  "rule_updated_at": "2026-07-26T06:40:19.956174+00:00",
+  "rule_updated_at": "2026-11-06T14:29:09.717697+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 35
+    "DOMAIN-SUFFIX": 35,
+    "PROCESS-NAME": 1
   },
-  "total_line_count": 35,
+  "total_line_count": 36,
   "artifacts": [
     {
       "key": "rules",
       "label": "完整规则",
       "ext": "list",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Xunlei_rules_ce05f567ea7046a1.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Xunlei_rules_b421dfe1c12b9d24.list",
       "binary": false,
       "role": "full",
       "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "9601e7828b47b5a0441993af339abeab6079482d59a427179b49e33dcf7ac23d",
-        "bytes_sha256": "b1520db5611ea939e932d769667944dc2db1f7367789917fd2bbb572012d6603",
-        "semantic_sha256": "d91049d15dd551541c50fd397fe4a4cd6e0bb98107686034509204ea8da3e2c0",
+        "fingerprint": "a7fc848a47fd16a172d83c2e3af57dd220b85b4293e91e17ce9a64fc54a11d43",
+        "bytes_sha256": "c74500121caa954bc665965db656cb5b938d227d32ecfd729e7ac6537ed9142b",
+        "semantic_sha256": "3b5f44400e0c5f8fec2e512cb4657ddf749d9fc3d52da5f09ce63c89e8eea08d",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,8 +39,26 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d38fd2fb947c17ea8b91e078d167d1b277e0e674d7c045249bca94fcf8785225",
-        "bytes_sha256": "cb71fdf9ff7e8137b28e52e798e55d2c9131acb87637c3144007679c0094232e",
+        "bytes_sha256": "7da14cf4b4554f1d19cc75830c8d640c665d022b1fa3295a372665a084f46651",
         "semantic_sha256": "321d9a0c34332d7bcbc0cd55782a02adbce106987bfc913939959a777da3552e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Xunlei_rule-set_d086fda56d61f5ed.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25ab237b3ddbaa1fe3abf7bbf0e8393476a3f3d1f8e85d3563ac066dc733387c",
+        "bytes_sha256": "71e139845d730be07888979c12c52ce9abb71e631a695884c9bbd016549483d7",
+        "semantic_sha256": "748ad42ceae5b0a9e841567cdf9c78435865bbb85014d950ae031ca2ebb54e80",
         "normalized_header_lines": 4,
         "shared": true
       }

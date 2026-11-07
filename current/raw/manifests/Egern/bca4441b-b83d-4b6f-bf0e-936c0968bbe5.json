@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T15:55:18.108009+00:00",
+  "generated_at": "2026-11-06T21:15:55.777389+00:00",
   "client": "Egern",
   "rule": "ChinaIPs",
-  "rule_updated_at": "2026-11-04T15:51:18.404220+00:00",
+  "rule_updated_at": "2026-11-06T21:15:44.746458+00:00",
   "type_counts": {
-    "ip_cidr6_set": 5483,
+    "ip_cidr6_set": 5459,
     "asn_set": 5076,
-    "ip_cidr_set": 12622
+    "ip_cidr_set": 12627
   },
-  "total_line_count": 23181,
+  "total_line_count": 23162,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "aad13ccebd92fa8e290edaba8c2c090c2bdaa49b07b3de85e9c4f3b38611ba28",
-        "bytes_sha256": "76646839d085e885316fa61cbafa6e2adb47df216a5d63af49a9cb76014d2a5f",
-        "semantic_sha256": "0610ef04409f0f43b5db6c07944c3419a4d37bd48a0f5396df8718e98938ee36",
+        "fingerprint": "816eb37a69273326f8207fc6373cde2552a7a8051f8276fe354a5996443febee",
+        "bytes_sha256": "1006c2894f0c016863fdef5d6a02b39768c12f842b961c4b43b874580f638263",
+        "semantic_sha256": "15e717707eba0666a8cbc03f7ca5ce973fc6d1b11000e2e51497fff676544c3c",
         "normalized_header_lines": 4,
         "shared": true
       }

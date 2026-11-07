@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-08-27T01:57:49.457605+00:00",
+  "generated_at": "2026-11-06T19:16:37.449038+00:00",
   "client": "Egern",
   "rule": "AMD",
-  "rule_updated_at": "2026-07-26T08:30:14.501168+00:00",
+  "rule_updated_at": "2026-10-09T15:59:05.295493+00:00",
   "type_counts": {
+    "domain_set": 1,
     "domain_suffix_set": 5
   },
-  "total_line_count": 5,
+  "total_line_count": 6,
   "artifacts": [
     {
       "key": "rules",
@@ -19,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "e2d5df3499470a2a8567ede6ac7c5bbb993020d785831fc9f02462d65a0105e9",
-        "bytes_sha256": "d85a36c11143624d624fd691ac30eb23eaf7adf552d211f28d850b456f20377c",
-        "semantic_sha256": "dac2c8241f231d4c9a6e8a1406897989f06a3e764181b1208a6d059c066dc5d6",
+        "fingerprint": "66dfb37738e9113b79f46c0082d9e9906f942db8bbfa9541eddf1e8208c85a7c",
+        "bytes_sha256": "bb29fa1200f75fcda1949f240d3728c055e76e09d455da612dee3be510d5ac35",
+        "semantic_sha256": "aa7f5c0ed083ba76aec36a996ec930b0a5803488daf3237e59f3880751b5dc7e",
         "normalized_header_lines": 4,
         "shared": true
       }

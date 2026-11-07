@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-27T02:02:41.212068+00:00",
+  "generated_at": "2026-11-06T19:18:36.919932+00:00",
   "client": "Mihomo",
   "rule": "iCloudPrivateRelay",
-  "rule_updated_at": "2026-08-07T02:23:28.370096+00:00",
+  "rule_updated_at": "2026-07-26T07:44:49.410029+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3,
-    "DOMAIN": 7
+    "DOMAIN": 6,
+    "DOMAIN-SUFFIX": 3
   },
-  "total_line_count": 10,
+  "total_line_count": 9,
   "artifacts": [
     {
       "key": "classical",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "b03eed1bfc9a5953d0c51a84e7999e18d753a086340136265190f7037cb6e0bd",
-        "bytes_sha256": "dac684d72dbf07a9e485a456dd4f7dcbf780fa0c49f8c16969fca90caafa0fe7",
-        "semantic_sha256": "7a92941817742d16c9ca0a51d7ff8dbb037995e4805413ab8e0c9271d1afc926",
+        "fingerprint": "5ce69a8192f0e73e7b3ec316d51949cfa1615938e085e56dcb5c03a5c9a84af3",
+        "bytes_sha256": "6dba48e9e36d74d0dcacdf8332aaed5465495f5cc29f7ebd2304e82bcab8d92b",
+        "semantic_sha256": "5968b1e9035c2140face1bdf5250f3f6a4219a9703a2fa05404d8c6ed7a4300c",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "54eddd482781c8088687e563f8f213f85027991f7ec65bd7dc42971d9186d0a8",
-        "bytes_sha256": "0ed604e621c3a8db40db984d86bcd99776e9914a256a1f846f808377478cd3fa",
-        "semantic_sha256": "407acf7cdb4b56939b7dfbeea25ed344ab721cb6a37d6069e37e0ebb1dec5ecc",
+        "fingerprint": "0bc54a619fb20d49c8e2df0fdf1d924e9da13f1ac4001abe86f1c33d7b58d814",
+        "bytes_sha256": "e31b4865aeadf016340ca20c7e5ff4724eb8f82b8f3bf64b7ea5dc253f4e941e",
+        "semantic_sha256": "f4347f1cf263679d300c0ed42174deab8f2def7940ccb178b7e18948649eb2a5",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -56,8 +56,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "4304494cd69dca6c613ed42c44557954d0fe7bf54e0d1415d06cca9fbdc54187",
-        "bytes_sha256": "08854b0b9ae4ae31909292e49e58a72be951216c5fb1e03211a86a0cc1184da8",
+        "fingerprint": "c83a4f0995a13b462ab42018baefd04e1e8f32d3687b66c3a9c612885900e8ae",
+        "bytes_sha256": "28fd10916e40a3341227243d022eaea2f9bce48326ea19aa6c305fdd7d1f139a",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

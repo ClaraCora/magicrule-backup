@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T02:12:58.301768+00:00",
+  "generated_at": "2026-11-06T19:22:40.514652+00:00",
   "client": "Egern",
   "rule": "iQIYI",
   "rule_updated_at": "2026-07-26T06:46:07.629068+00:00",
   "type_counts": {
+    "domain_keyword_set": 1,
     "domain_set": 4,
     "domain_suffix_set": 47,
-    "user_agent_set": 6,
-    "domain_keyword_set": 1,
-    "ip_cidr_set": 23
+    "ip_cidr_set": 23,
+    "user_agent_set": 6
   },
   "total_line_count": 81,
   "artifacts": [
@@ -24,7 +24,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f29264c89277aef6b4bba12ef6ddcb50e4c930a09c7d81989b3314ca196930e3",
-        "bytes_sha256": "70852ebc98ffd825cde99af778a6b0484564ca2b8491ffcec46eae90874888a2",
+        "bytes_sha256": "25a21e12e07db097e06907e03a498a1b4c286d1243d5fb8f8fff1f2ae5168d0f",
         "semantic_sha256": "eb88365484b5aa999931be135aadd343d372b357f0887845f2e3b2fe02ebf78f",
         "normalized_header_lines": 4,
         "shared": true
