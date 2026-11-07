@@ -16,7 +16,7 @@
 
 ### 源站共享文件的校验
 
-源站部分清单的 `bytes_sha256` 与共享文件头中的生成时间等注释存在差异。校验优先使用完整字节 SHA-256；只有源站明确声明 `standard_header_normalized`、`normalized_header_lines = 4`，且文件前四行为标准 `NAME / AUTHOR / REPO / UPDATED` 注释时，才允许以其声明的 `semantic_sha256` 验证其余正文。正文哈希不符仍会失败；二进制文件必须逐字节匹配。
+源站部分清单的 `bytes_sha256` 与共享文件头中的生成时间等注释存在差异。校验优先使用完整字节 SHA-256；只有源站明确声明 `standard_header_normalized`、`normalized_header_lines = 4` 或 `5`，且文件前四行为标准 `NAME / AUTHOR / REPO / UPDATED` 注释时，才允许以其声明的 `semantic_sha256` 验证正文。四行模式仅排除前四行；五行模式再排除正文开始前唯一的 `# DESC:` 元数据行，不按位置跳过第五行。规则数量注释和全部规则仍参与哈希；缺失、重复或出现在正文之后的 `DESC` 不予排除。正文哈希不符仍会失败；二进制文件必须逐字节匹配。
 
 所有文件都保留实际下载字节。目录同时记录实际 `sha256`、清单的 `expectedSha256` 及 `verification` 方法，不会重写文件来迎合源站校验值。无上游哈希的文件记录本地哈希，标记为 `recorded`，不宣称已完成上游哈希比对。
 
