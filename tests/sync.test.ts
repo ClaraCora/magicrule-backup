@@ -144,3 +144,23 @@ test('normalized shared headers require the declared body hash; binary files req
   assert.throws(() => verifyArtifact(Buffer.from(header.replace('old', 'new') + body), { ...artifact, binary: true }), /SHA-256 mismatch/);
   assert.throws(() => verifyArtifact(Buffer.from('arbitrary\nheader\nlines\nhere\n' + body), artifact), /SHA-256 mismatch/);
 });
+
+test('five-line normalization removes only DESC metadata before the rule body', () => {
+  const header = '# NAME: AdvertisingLite\n# AUTHOR: MagicRule\n# REPO: https://magicrule.pages.dev\n# UPDATED: old\n';
+  const counts = '# DOMAIN: 1\n# DOMAIN-SUFFIX: 1\n';
+  const description = '# DESC: Contains URL-REGEX rules\n';
+  const rules = '\nDOMAIN,example.com\nDOMAIN-SUFFIX,ads.example.com\n';
+  const original = header + counts + description + rules;
+  const artifact = { key: 'rules', ext: 'list', url: 'https://example.com/AdvertisingLite.list', dedupe: { mode: 'standard_header_normalized', normalized_header_lines: 5, bytes_sha256: sha(original), semantic_sha256: sha(counts + rules) } };
+  const changed = original.replace('# UPDATED: old', '# UPDATED: new').replace('Contains URL-REGEX rules', 'Updated description');
+  assert.equal(verifyArtifact(Buffer.from(changed), artifact), 'normalized-header');
+  assert.equal(verifyArtifact(Buffer.from(original), artifact), 'bytes');
+  for (const modified of [changed.replace('ads.example.com', 'tampered.example.com'), changed.replace('# DOMAIN: 1', '# DOMAIN: 999')]) {
+    assert.throws(() => verifyArtifact(Buffer.from(modified), artifact), /SHA-256 mismatch/);
+  }
+  for (const modified of [header + counts + rules, header + counts + description + description + rules, header + counts + rules + description]) {
+    assert.throws(() => verifyArtifact(Buffer.from(modified), artifact), /Invalid five-line normalized header/);
+  }
+  assert.throws(() => verifyArtifact(Buffer.from(changed), { ...artifact, binary: true }), /SHA-256 mismatch/);
+  assert.throws(() => verifyArtifact(Buffer.from(changed), { ...artifact, dedupe: { ...artifact.dedupe, normalized_header_lines: 6 } }), /SHA-256 mismatch/);
+});
