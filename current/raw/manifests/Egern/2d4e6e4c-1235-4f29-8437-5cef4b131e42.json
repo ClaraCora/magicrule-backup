@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-06T19:17:41.453912+00:00",
+  "generated_at": "2026-11-07T01:37:54.474235+00:00",
   "client": "Egern",
   "rule": "Direct",
-  "rule_updated_at": "2026-11-06T14:06:45.126626+00:00",
+  "rule_updated_at": "2026-11-07T01:24:00.095656+00:00",
   "type_counts": {
     "url_regex_set": 4,
     "domain_set": 30,
-    "domain_suffix_set": 456,
+    "domain_suffix_set": 580,
     "user_agent_set": 1,
     "domain_keyword_set": 10,
-    "ip_cidr_set": 2
+    "ip_cidr_set": 5
   },
-  "total_line_count": 503,
+  "total_line_count": 630,
   "artifacts": [
     {
       "key": "rules",
@@ -24,9 +24,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "861b147aa9f41184c5e48474ffe84b4e9748cf77dd1a6c1bfe446bc8ae165792",
-        "bytes_sha256": "72aa9753828bd537931aa26c504309e11b83303af282570584baacbafcf4a048",
-        "semantic_sha256": "8500291aca3cc7b76c4f7cff7574b3bd7ea8431b95adfe94930ffadc72831b72",
+        "fingerprint": "62ed78c486677f28b45407aaebaddee959874ec079617b7d9885afca0a4cbea2",
+        "bytes_sha256": "b98b91421306d97c9f804cfbdae03ad1d23bb44ceddfdd12af4a9bcd8ff101c5",
+        "semantic_sha256": "207e237711c36d01bfeb56086d0936207ecab13a635ac1e7bce7ad1ff9e1a088",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -42,8 +42,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "94b42e6f0bc0a70683c4df75287204f814c9cc99d0ebf932ef9426766bae653c",
-        "bytes_sha256": "e894b8b04f71fc2c18116429a13f7f7ad62f19deff9a4aa6049552eac5c8f06a",
+        "fingerprint": "c82e48e91747a97b3956dd901e49a406a854b107246f4dca4c3a328e6b7c9051",
+        "bytes_sha256": "119221e9da4c3d29ef99721a5bbb99910a49cad7abf6a0162d95a9b762eb4815",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

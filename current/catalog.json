@@ -5328,14 +5328,14 @@
             "ip_cidr_set"
           ],
           "typeCounts": {
-            "domain_set": 189232,
+            "domain_set": 189305,
             "domain_suffix_set": 4,
             "ip_cidr_set": 74
           },
-          "totalLineCount": 189310,
-          "sourceUpdatedAt": "2026-11-06T20:25:36.276Z",
-          "generatedAt": "2026-11-06T20:26:24.179Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 189383,
+          "sourceUpdatedAt": "2026-11-07T02:54:57.130Z",
+          "generatedAt": "2026-11-07T02:55:55.716Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
           ],
@@ -5353,11 +5353,11 @@
               "path": "current/rules/Egern/rules/AdGuardSDNSFilterDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/AdGuardSDNSFilterDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_rules_53e75d18f929a13c.yaml",
-              "sha256": "2f146ffee468d7e452e2dfeb2eabe5a8471a15673f07f5cff54e1abfe6321511",
-              "expectedSha256": "2f146ffee468d7e452e2dfeb2eabe5a8471a15673f07f5cff54e1abfe6321511",
+              "sha256": "fb4690b6b00b76a14a224ccad1616074f92a3bfe26ce60306236374b4a6f9283",
+              "expectedSha256": "fb4690b6b00b76a14a224ccad1616074f92a3bfe26ce60306236374b4a6f9283",
               "verification": "bytes",
-              "bytes": 4756521,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4758267,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -5374,12 +5374,12 @@
           "typeCounts": {
             "DOMAIN-SUFFIX": 4,
             "IP-CIDR": 74,
-            "DOMAIN": 189232
+            "DOMAIN": 189305
           },
-          "totalLineCount": 189310,
-          "sourceUpdatedAt": "2026-11-06T20:25:36.961Z",
-          "generatedAt": "2026-11-06T20:26:24.185Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 189383,
+          "sourceUpdatedAt": "2026-11-07T02:54:57.633Z",
+          "generatedAt": "2026-11-07T02:55:55.728Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
           ],
@@ -5397,11 +5397,11 @@
               "path": "current/rules/Mihomo/classical/AdGuardSDNSFilterDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/AdGuardSDNSFilterDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_classical_76ddea0f45cf0c9d.yaml",
-              "sha256": "3f3314d1bfc6f731050c1028d4697e20fbc7af22019651ca0fe637c3127402c3",
-              "expectedSha256": "3f3314d1bfc6f731050c1028d4697e20fbc7af22019651ca0fe637c3127402c3",
+              "sha256": "c5586f9c601b94f3d02f314ea048ff783ad15b30a3143d01ca2fcd236e5cf919",
+              "expectedSha256": "c5586f9c601b94f3d02f314ea048ff783ad15b30a3143d01ca2fcd236e5cf919",
               "verification": "bytes",
-              "bytes": 6082628,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 6084885,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -5414,11 +5414,11 @@
               "path": "current/rules/Mihomo/domain/AdGuardSDNSFilterDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/AdGuardSDNSFilterDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_domain_8b73bd8cb2c744bb.yaml",
-              "sha256": "cecec1d445cdcb43517d423207bbdcd5e604202550c3008df356d83f4c7cac30",
-              "expectedSha256": "cecec1d445cdcb43517d423207bbdcd5e604202550c3008df356d83f4c7cac30",
+              "sha256": "f02e74cd4b2713ec9cb0f03d3f110492af2f30585371997f289e3b0dd0b30702",
+              "expectedSha256": "f02e74cd4b2713ec9cb0f03d3f110492af2f30585371997f289e3b0dd0b30702",
               "verification": "bytes",
-              "bytes": 4754940,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4756686,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -5431,11 +5431,11 @@
               "path": "current/rules/Mihomo/domain-mrs/AdGuardSDNSFilterDirect.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/AdGuardSDNSFilterDirect.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_domain-mrs_d71f6547a384aa9b.mrs",
-              "sha256": "8663022aa3aa06746dec4a808bb45d8edf345b96a5063173f08a30521cc2425e",
-              "expectedSha256": "8663022aa3aa06746dec4a808bb45d8edf345b96a5063173f08a30521cc2425e",
+              "sha256": "c58457eb128906b080ef7873fc05b8c75f2b5d3c919d05205b520b6c9bc745fc",
+              "expectedSha256": "c58457eb128906b080ef7873fc05b8c75f2b5d3c919d05205b520b6c9bc745fc",
               "verification": "bytes",
-              "bytes": 1580119,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1580305,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -5448,11 +5448,11 @@
               "path": "current/rules/Mihomo/ipcidr/AdGuardSDNSFilterDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/AdGuardSDNSFilterDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_ipcidr_ca008df352c211bc.yaml",
-              "sha256": "af2bf1d6a4afe6b77b3a567836f422c4d15ffcde751f5e9203ac096276624546",
-              "expectedSha256": "af2bf1d6a4afe6b77b3a567836f422c4d15ffcde751f5e9203ac096276624546",
+              "sha256": "8c2a7f8ed3bf966e53cedf44f54eed494b87ff386f8a2f0537360bf7e5c99a9b",
+              "expectedSha256": "8c2a7f8ed3bf966e53cedf44f54eed494b87ff386f8a2f0537360bf7e5c99a9b",
               "verification": "bytes",
               "bytes": 1751,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -5484,14 +5484,14 @@
             "IP-CIDR"
           ],
           "typeCounts": {
-            "DOMAIN": 189232,
+            "DOMAIN": 189305,
             "DOMAIN-SUFFIX": 4,
             "IP-CIDR": 74
           },
-          "totalLineCount": 189310,
-          "sourceUpdatedAt": "2026-11-06T20:25:34.862Z",
-          "generatedAt": "2026-11-06T20:26:24.155Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 189383,
+          "sourceUpdatedAt": "2026-11-07T02:54:56.035Z",
+          "generatedAt": "2026-11-07T02:55:55.679Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
           ],
@@ -5509,11 +5509,11 @@
               "path": "current/rules/Loon/rules/AdGuardSDNSFilterDirect.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/AdGuardSDNSFilterDirect.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_rules_89fac053d0eae3b5.list",
-              "sha256": "11f90694bd4615070eee09307d3273a3877773bf331069778b5d0fe1502aaef3",
-              "expectedSha256": "11f90694bd4615070eee09307d3273a3877773bf331069778b5d0fe1502aaef3",
+              "sha256": "f3438a7150a70202d55af894e6c2b4ccf18e122bc9dfc6864a38feceda6cfdad",
+              "expectedSha256": "f3438a7150a70202d55af894e6c2b4ccf18e122bc9dfc6864a38feceda6cfdad",
               "verification": "bytes",
-              "bytes": 5325357,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 5327322,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -5526,11 +5526,11 @@
               "path": "current/rules/Loon/domain-set/AdGuardSDNSFilterDirect.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/AdGuardSDNSFilterDirect.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_domain-set_8bc6c8c72ccd8ea8.list",
-              "sha256": "c8cb0709ab71812af59337cba20691929251a02a04de5b4cde35375835190f48",
-              "expectedSha256": "c8cb0709ab71812af59337cba20691929251a02a04de5b4cde35375835190f48",
+              "sha256": "8cea567a488a4b198a4a4aa9bcc7700ca15d4831e0a5f7250a2c2e36a6e78124",
+              "expectedSha256": "8cea567a488a4b198a4a4aa9bcc7700ca15d4831e0a5f7250a2c2e36a6e78124",
               "verification": "bytes",
-              "bytes": 3997968,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 3999422,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -5543,11 +5543,11 @@
               "path": "current/rules/Loon/rule-set/AdGuardSDNSFilterDirect.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/AdGuardSDNSFilterDirect.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilterDirect_rule-set_8e79c75d4720f893.list",
-              "sha256": "1500b0fef363834b34a776ee8a2154b1dc93784eaa5001a6a9511411409c646d",
-              "expectedSha256": "1500b0fef363834b34a776ee8a2154b1dc93784eaa5001a6a9511411409c646d",
+              "sha256": "b5d6a3858ff5e0fc8fbea3469d6bfe4d6ed53e37beed5a8e660881b59f4c1d19",
+              "expectedSha256": "b5d6a3858ff5e0fc8fbea3469d6bfe4d6ed53e37beed5a8e660881b59f4c1d19",
               "verification": "bytes",
               "bytes": 2833,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -6173,20 +6173,20 @@
             "user_agent_set"
           ],
           "typeCounts": {
-            "asn_set": 15,
-            "domain_keyword_set": 208,
-            "domain_set": 17422,
-            "domain_suffix_set": 251901,
             "domain_wildcard_set": 22,
-            "ip_cidr6_set": 6,
-            "ip_cidr_set": 1018,
             "url_regex_set": 15,
-            "user_agent_set": 1
+            "domain_set": 17479,
+            "ip_cidr6_set": 6,
+            "domain_suffix_set": 271708,
+            "user_agent_set": 1,
+            "domain_keyword_set": 210,
+            "asn_set": 15,
+            "ip_cidr_set": 1041
           },
-          "totalLineCount": 270608,
-          "sourceUpdatedAt": "2026-11-06T14:08:26.506Z",
-          "generatedAt": "2026-11-06T19:24:53.774Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 290497,
+          "sourceUpdatedAt": "2026-11-07T02:41:51.352Z",
+          "generatedAt": "2026-11-07T02:45:49.399Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
@@ -6220,11 +6220,11 @@
               "path": "current/rules/Egern/rules/Advertising.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/Advertising.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_rules_8953ff95a8384813.yaml",
-              "sha256": "9bc41caf6937b56365cff7129d4f71ed3d90dc466a174ac64c8ddec4c865c730",
-              "expectedSha256": "9bc41caf6937b56365cff7129d4f71ed3d90dc466a174ac64c8ddec4c865c730",
+              "sha256": "76f8e9a3e6751d90b4cc471e18d6eedd64f34690d10dad3d87887e2ec7574236",
+              "expectedSha256": "76f8e9a3e6751d90b4cc471e18d6eedd64f34690d10dad3d87887e2ec7574236",
               "verification": "bytes",
-              "bytes": 6474318,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 6980297,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -6237,11 +6237,11 @@
               "path": "current/rules/Egern/mitm/Advertising.module",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/mitm/Advertising.module",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_mitm_296fa9fbf91ef37c.module",
-              "sha256": "de7756a2e80bbdc1ad743a355b7ebdbd5ff5280c5266b35b5277df928bc6f13c",
-              "expectedSha256": "de7756a2e80bbdc1ad743a355b7ebdbd5ff5280c5266b35b5277df928bc6f13c",
+              "sha256": "1e20a3ee980aae475e5607540a1f0788ca95007dada60b68b70141965e538fa2",
+              "expectedSha256": "1e20a3ee980aae475e5607540a1f0788ca95007dada60b68b70141965e538fa2",
               "verification": "bytes",
               "bytes": 336,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -6261,17 +6261,17 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 6,
-            "DOMAIN-SUFFIX": 251901,
-            "DOMAIN-KEYWORD": 208,
-            "IP-CIDR": 1018,
+            "DOMAIN-SUFFIX": 271708,
+            "DOMAIN-KEYWORD": 210,
+            "IP-CIDR": 1041,
             "DOMAIN-WILDCARD": 22,
             "IP-ASN": 15,
-            "DOMAIN": 17422
+            "DOMAIN": 17479
           },
-          "totalLineCount": 270592,
-          "sourceUpdatedAt": "2026-11-06T14:08:29.797Z",
-          "generatedAt": "2026-11-06T19:25:01.714Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 290481,
+          "sourceUpdatedAt": "2026-11-07T02:41:53.092Z",
+          "generatedAt": "2026-11-07T02:45:49.410Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
@@ -6305,11 +6305,11 @@
               "path": "current/rules/Mihomo/classical/Advertising.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/Advertising.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_classical_76b5ebb82520f2e5.yaml",
-              "sha256": "2248a90dd1cfc01476ff7984149b87c61bd7cdebd8c68608dff77c6345f3770c",
-              "expectedSha256": "2248a90dd1cfc01476ff7984149b87c61bd7cdebd8c68608dff77c6345f3770c",
+              "sha256": "47217daa2585cdf9700d8141ce0e0793a0ebc3f8ab55d2e016d605845da7963f",
+              "expectedSha256": "47217daa2585cdf9700d8141ce0e0793a0ebc3f8ab55d2e016d605845da7963f",
               "verification": "bytes",
-              "bytes": 10145427,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 10929570,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -6322,11 +6322,11 @@
               "path": "current/rules/Mihomo/domain/Advertising.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/Advertising.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_domain_70a0c74c0a76cd88.yaml",
-              "sha256": "ae0aa41f07121b659e6354a9f967eff513036cc752fd855639ef299d4ea9768d",
-              "expectedSha256": "06a9e35897e3d370d524221705f90edd462459cb64e3318dbcecd0f6680dd305",
-              "verification": "normalized-header",
-              "bytes": 6699395,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "eb7e73ae5411e519069fbcddc7e0af341c1b09561cb2487e208303fe2c1e85bd",
+              "expectedSha256": "eb7e73ae5411e519069fbcddc7e0af341c1b09561cb2487e208303fe2c1e85bd",
+              "verification": "bytes",
+              "bytes": 7224675,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -6339,11 +6339,11 @@
               "path": "current/rules/Mihomo/domain-mrs/Advertising.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/Advertising.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_domain-mrs_8ac20dd3ffdba08d.mrs",
-              "sha256": "9c8a84fea296f26c7e9d31169dbe2e3a725ee17bb5c301478ef31529db3b7e6d",
-              "expectedSha256": "9c8a84fea296f26c7e9d31169dbe2e3a725ee17bb5c301478ef31529db3b7e6d",
+              "sha256": "53973953f5f9d8d036eed07cdda0d910bf9225ee4b5fec5f7b8b12d7d15e3421",
+              "expectedSha256": "53973953f5f9d8d036eed07cdda0d910bf9225ee4b5fec5f7b8b12d7d15e3421",
               "verification": "bytes",
-              "bytes": 2335023,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 2507857,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -6356,11 +6356,11 @@
               "path": "current/rules/Mihomo/ipcidr/Advertising.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/Advertising.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_ipcidr_b41ba72ed630b88b.yaml",
-              "sha256": "71e765e95f1534a22da430337e12700ab74ac6c826117ba79d0c1af9a05c87fb",
-              "expectedSha256": "36f586ce7dd9aead8286cb07878c53abb020fda4ed26223d6deb04d7fa0def50",
-              "verification": "normalized-header",
-              "bytes": 22085,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "787780dcedf046ce8b42021cfeade757685878ad5ba9f7544c4fcc65b75d473c",
+              "expectedSha256": "787780dcedf046ce8b42021cfeade757685878ad5ba9f7544c4fcc65b75d473c",
+              "verification": "bytes",
+              "bytes": 22565,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -6373,11 +6373,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/Advertising.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/Advertising.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_ipcidr-mrs_987068ba16404730.mrs",
-              "sha256": "3f0d2b27df8fe0bed50a561a4107d3000000ab0f08195b641c205d99592fe7cb",
-              "expectedSha256": "3f0d2b27df8fe0bed50a561a4107d3000000ab0f08195b641c205d99592fe7cb",
+              "sha256": "da6800dc81b81a991ba4d25d508473c041b361d4c8ea1f9f2d01d5974c671030",
+              "expectedSha256": "da6800dc81b81a991ba4d25d508473c041b361d4c8ea1f9f2d01d5974c671030",
               "verification": "bytes",
-              "bytes": 3392,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 3485,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -6390,11 +6390,11 @@
               "path": "current/rules/Mihomo/classical-rest/Advertising.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/Advertising.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_classical-rest_4cbe8ce66543d1b4.yaml",
-              "sha256": "ad919b1e1f1cdf61a8536f2e433c695a1234eddf82c90f13515dfea2568ba30f",
-              "expectedSha256": "ad919b1e1f1cdf61a8536f2e433c695a1234eddf82c90f13515dfea2568ba30f",
+              "sha256": "e744448dfde229cc0effcc23ccb3c2cccc49f71465b7d9d07a76500f61db71b4",
+              "expectedSha256": "e744448dfde229cc0effcc23ccb3c2cccc49f71465b7d9d07a76500f61db71b4",
               "verification": "bytes",
-              "bytes": 8090,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 8146,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -6414,19 +6414,19 @@
             "USER-AGENT"
           ],
           "typeCounts": {
-            "DOMAIN": 17422,
-            "DOMAIN-KEYWORD": 208,
-            "DOMAIN-SUFFIX": 251901,
+            "DOMAIN": 17479,
+            "DOMAIN-KEYWORD": 210,
+            "DOMAIN-SUFFIX": 271708,
             "IP-ASN": 15,
-            "IP-CIDR": 1018,
+            "IP-CIDR": 1041,
             "IP-CIDR6": 6,
             "URL-REGEX": 15,
             "USER-AGENT": 1
           },
-          "totalLineCount": 270586,
-          "sourceUpdatedAt": "2026-11-06T14:08:15.515Z",
-          "generatedAt": "2026-11-06T19:25:02.027Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 290475,
+          "sourceUpdatedAt": "2026-11-07T02:41:44.587Z",
+          "generatedAt": "2026-11-07T02:45:49.372Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
@@ -6460,11 +6460,11 @@
               "path": "current/rules/Loon/rules/Advertising.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/Advertising.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_rules_1b4972ff6ce10d00.list",
-              "sha256": "68137058d94e9ec36f285d40166a3ae73e9a2177de2739693697e10b70640492",
-              "expectedSha256": "b56b170880acb29a32be4bedfcfdb1aca1a1d93c872918e031d6e3f102567a4e",
-              "verification": "normalized-header",
-              "bytes": 9062916,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "a59074ee85a607a34ec96b872dee60cac4d9ec12be8059eac4f7e63e21914b4f",
+              "expectedSha256": "a59074ee85a607a34ec96b872dee60cac4d9ec12be8059eac4f7e63e21914b4f",
+              "verification": "bytes",
+              "bytes": 9767503,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -6477,11 +6477,11 @@
               "path": "current/rules/Loon/domain-set/Advertising.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/Advertising.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_domain-set_5be15e1faf9dc335.list",
-              "sha256": "4009f8649c63ebc744ba278bcc1dbbc787304d2bb496455dd2e5cf744641dba6",
-              "expectedSha256": "7226db001afff573378d1f6cd148cb25d5bd357b10eaa44a28e52227dd5b7a07",
-              "verification": "normalized-header",
-              "bytes": 5622075,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "8ac0e2975d80f6ef5af6f2b6d6c0028a3a79f5de56fd26ff606174cffc847beb",
+              "expectedSha256": "8ac0e2975d80f6ef5af6f2b6d6c0028a3a79f5de56fd26ff606174cffc847beb",
+              "verification": "bytes",
+              "bytes": 6067899,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -6494,11 +6494,11 @@
               "path": "current/rules/Loon/rule-set/Advertising.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/Advertising.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_rule-set_7ffedd76c04f341e.list",
-              "sha256": "62b3be80a3fedb88ac24c7922849eed0a9f7233388c1a9720fbe4d4572029de7",
-              "expectedSha256": "2217baa71dc0efb29fef71fd72a15d92741362a6fc4684e964b9db193764cf8f",
-              "verification": "normalized-header",
-              "bytes": 44282,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "0d0a6625cfc5719d2f6a211587e67f7955a13c519b0c576ea8bd5c4f8178a626",
+              "expectedSha256": "0d0a6625cfc5719d2f6a211587e67f7955a13c519b0c576ea8bd5c4f8178a626",
+              "verification": "bytes",
+              "bytes": 45155,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -6511,11 +6511,11 @@
               "path": "current/rules/Loon/mitm/Advertising.plugin",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/mitm/Advertising.plugin",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_mitm_c14dc5f46b172968.plugin",
-              "sha256": "faf5f871b01f6cdd209f150dee1fa655bf088fd5f04252f3544cdf296d7715f2",
-              "expectedSha256": "faf5f871b01f6cdd209f150dee1fa655bf088fd5f04252f3544cdf296d7715f2",
+              "sha256": "3da38fc9eb1c265351a4ab6fc0bbe7b0412f046d62620881e6e0bcb703abd654",
+              "expectedSha256": "3da38fc9eb1c265351a4ab6fc0bbe7b0412f046d62620881e6e0bcb703abd654",
               "verification": "bytes",
               "bytes": 335,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -6541,18 +6541,18 @@
             "url_regex_set"
           ],
           "typeCounts": {
-            "domain_keyword_set": 164,
-            "domain_set": 26892,
-            "domain_suffix_set": 162420,
             "domain_wildcard_set": 15,
+            "url_regex_set": 5,
+            "domain_set": 26892,
             "ip_cidr6_set": 4,
-            "ip_cidr_set": 230,
-            "url_regex_set": 5
+            "domain_suffix_set": 162543,
+            "domain_keyword_set": 164,
+            "ip_cidr_set": 234
           },
-          "totalLineCount": 189730,
-          "sourceUpdatedAt": "2026-11-06T14:06:05.953Z",
-          "generatedAt": "2026-11-06T19:21:23.905Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 189857,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.691Z",
+          "generatedAt": "2026-11-07T01:53:20.223Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
             "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
@@ -6575,11 +6575,11 @@
               "path": "current/rules/Egern/rules/AdvertisingLite.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/AdvertisingLite.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_rules_5f80ad77bcd0c1b5.yaml",
-              "sha256": "6ba6818369928a0f413e66c649a65147daef0533cf5f1b3fc3b75defe1ca5f66",
-              "expectedSha256": "6ba6818369928a0f413e66c649a65147daef0533cf5f1b3fc3b75defe1ca5f66",
+              "sha256": "e2bcf74c03cddbf8d4fab1e1df500092ef081587170c033441cbb45231ea73c3",
+              "expectedSha256": "e2bcf74c03cddbf8d4fab1e1df500092ef081587170c033441cbb45231ea73c3",
               "verification": "bytes",
-              "bytes": 4585748,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4588681,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -6592,11 +6592,11 @@
               "path": "current/rules/Egern/mitm/AdvertisingLite.module",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/mitm/AdvertisingLite.module",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_mitm_cbd720f3f287f4ca.module",
-              "sha256": "ed3e69bd3b02743d7eb6fa6683bd32e23b7548bbf1f478427dd55dc72f85d835",
-              "expectedSha256": "ed3e69bd3b02743d7eb6fa6683bd32e23b7548bbf1f478427dd55dc72f85d835",
+              "sha256": "1478b89c95ab16e3cf348cba598436f94ccde547fd2d7c6a9da35c6352e17164",
+              "expectedSha256": "1478b89c95ab16e3cf348cba598436f94ccde547fd2d7c6a9da35c6352e17164",
               "verification": "bytes",
               "bytes": 200,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -6614,17 +6614,17 @@
             "IP-CIDR6"
           ],
           "typeCounts": {
-            "DOMAIN": 26892,
+            "IP-CIDR6": 4,
+            "DOMAIN-SUFFIX": 162543,
             "DOMAIN-KEYWORD": 164,
-            "DOMAIN-SUFFIX": 162420,
+            "IP-CIDR": 234,
             "DOMAIN-WILDCARD": 15,
-            "IP-CIDR": 230,
-            "IP-CIDR6": 4
+            "DOMAIN": 26892
           },
-          "totalLineCount": 189725,
-          "sourceUpdatedAt": "2026-11-06T14:06:08.681Z",
-          "generatedAt": "2026-11-06T19:21:31.793Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 189852,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.809Z",
+          "generatedAt": "2026-11-07T01:53:20.231Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
             "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
@@ -6647,11 +6647,11 @@
               "path": "current/rules/Mihomo/classical/AdvertisingLite.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/AdvertisingLite.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_classical_7adc2a701cd62797.yaml",
-              "sha256": "daa32410dc611155a30a1fab57adbe348cd4e5c33057d85f6afdaae91537c8e2",
-              "expectedSha256": "daa32410dc611155a30a1fab57adbe348cd4e5c33057d85f6afdaae91537c8e2",
+              "sha256": "6c26cf2041ee78d1c82e3a06c7d438543054c4dbd7369a000947b036030f90e4",
+              "expectedSha256": "6c26cf2041ee78d1c82e3a06c7d438543054c4dbd7369a000947b036030f90e4",
               "verification": "bytes",
-              "bytes": 7054818,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 7059549,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -6664,11 +6664,11 @@
               "path": "current/rules/Mihomo/domain/AdvertisingLite.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/AdvertisingLite.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_domain_dd62030bbb3fe024.yaml",
-              "sha256": "03d9df9f602b5feecba2d830b397d1f1ef1765604ede7e970b924aeee0bc4882",
-              "expectedSha256": "128b8d65451d84e423611a8ee8d67e4480f7b572f766e459f0bcc5da74d798b8",
-              "verification": "normalized-header",
-              "bytes": 4739488,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "c937196726c1b81189a51ba7d141bcf7cd32f96d8254164210fecc887fef1c29",
+              "expectedSha256": "c937196726c1b81189a51ba7d141bcf7cd32f96d8254164210fecc887fef1c29",
+              "verification": "bytes",
+              "bytes": 4742467,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -6681,11 +6681,11 @@
               "path": "current/rules/Mihomo/domain-mrs/AdvertisingLite.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/AdvertisingLite.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_domain-mrs_031c041beecdb751.mrs",
-              "sha256": "6638ba52c9e2f496974a273d2f67d0164e0845e77cf04e8561c8ce8cbd2de1c2",
-              "expectedSha256": "6638ba52c9e2f496974a273d2f67d0164e0845e77cf04e8561c8ce8cbd2de1c2",
+              "sha256": "7761dca1560c1dc3e1ecf19bdf6fbdf33578332bb3b23ba9efa2a82a04169a68",
+              "expectedSha256": "7761dca1560c1dc3e1ecf19bdf6fbdf33578332bb3b23ba9efa2a82a04169a68",
               "verification": "bytes",
-              "bytes": 1682567,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1683728,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -6698,11 +6698,11 @@
               "path": "current/rules/Mihomo/ipcidr/AdvertisingLite.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/AdvertisingLite.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_ipcidr_5989338e60c862d8.yaml",
-              "sha256": "98336658b9aa52fa817ee80da8df15da694cde6878f58a8da8d59faa6a2830ba",
-              "expectedSha256": "b2c7b2954047ddd91ddda31af009540a43cee3f6b3f12965b90ff53d3c086010",
-              "verification": "normalized-header",
-              "bytes": 5236,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "982a793ad88f1f7392cb6b9c5b2144ea562226717aaa34c7c3902e91ffcfe6af",
+              "expectedSha256": "982a793ad88f1f7392cb6b9c5b2144ea562226717aaa34c7c3902e91ffcfe6af",
+              "verification": "bytes",
+              "bytes": 5313,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -6715,11 +6715,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/AdvertisingLite.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/AdvertisingLite.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_ipcidr-mrs_7c4341c5ef69ce38.mrs",
-              "sha256": "8f94d05087220b69e0effcf3063f5fc8a0ac64b621007afafe1b980fcdcf28ca",
-              "expectedSha256": "8f94d05087220b69e0effcf3063f5fc8a0ac64b621007afafe1b980fcdcf28ca",
+              "sha256": "78233a5f50d97b09c4d2a63e5c110a6d251e9bbc845c5cff5d20beaf5ea5e290",
+              "expectedSha256": "78233a5f50d97b09c4d2a63e5c110a6d251e9bbc845c5cff5d20beaf5ea5e290",
               "verification": "bytes",
-              "bytes": 948,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 985,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -6732,11 +6732,11 @@
               "path": "current/rules/Mihomo/classical-rest/AdvertisingLite.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/AdvertisingLite.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_classical-rest_baba1ca44b0104db.yaml",
-              "sha256": "8cc9a7d30269cd28b4bf90ec846a14fd19ff147141a5529d07112cc412cb092a",
-              "expectedSha256": "8cc9a7d30269cd28b4bf90ec846a14fd19ff147141a5529d07112cc412cb092a",
+              "sha256": "422ca6491465f4337e3b48f07ac66df05c0f986849cd165c19667f1765b348ce",
+              "expectedSha256": "422ca6491465f4337e3b48f07ac66df05c0f986849cd165c19667f1765b348ce",
               "verification": "bytes",
               "bytes": 6220,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -6754,17 +6754,17 @@
             "URL-REGEX"
           ],
           "typeCounts": {
-            "DOMAIN": 26892,
-            "DOMAIN-KEYWORD": 164,
-            "DOMAIN-SUFFIX": 162420,
-            "IP-CIDR": 230,
             "IP-CIDR6": 4,
-            "URL-REGEX": 5
+            "DOMAIN-SUFFIX": 162543,
+            "DOMAIN-KEYWORD": 164,
+            "IP-CIDR": 234,
+            "URL-REGEX": 5,
+            "DOMAIN": 26892
           },
-          "totalLineCount": 189715,
-          "sourceUpdatedAt": "2026-11-06T14:05:56.666Z",
-          "generatedAt": "2026-11-06T19:21:26.709Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 189842,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.309Z",
+          "generatedAt": "2026-11-07T01:53:20.191Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
             "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
@@ -6787,11 +6787,11 @@
               "path": "current/rules/Loon/rules/AdvertisingLite.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/AdvertisingLite.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_rules_d6bbadfd97bae903.list",
-              "sha256": "9fc91f74eed8a24cb2a8a1d41f2e7f1bea615d9537ae7f4d816f565be6120356",
-              "expectedSha256": "c3485c3b663baa356aebb43ebaf9024a28d993c8cd67527bf6618a8a17408a1b",
-              "verification": "normalized-header",
-              "bytes": 6295564,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "75aba14100d0bdb7230d5a361ba220dd9a1a8868ea17bc0b34a0361667c1172a",
+              "expectedSha256": "75aba14100d0bdb7230d5a361ba220dd9a1a8868ea17bc0b34a0361667c1172a",
+              "verification": "bytes",
+              "bytes": 6299787,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -6804,11 +6804,11 @@
               "path": "current/rules/Loon/domain-set/AdvertisingLite.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/AdvertisingLite.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_domain-set_d4a1ddbe9c01b657.list",
-              "sha256": "d3214f9c320469ff1118e702aba3eeac547fe91353d108411da85ae7f8ec90b7",
-              "expectedSha256": "10a1e0bd1869430f9cfa0effd349f280b8329869affaa66ab0f1e5c814d73604",
-              "verification": "normalized-header",
-              "bytes": 3982212,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "01bbeeb4feb53cad56a560eacae050369a51c1fa286914dcec9f5cdb1eec0c94",
+              "expectedSha256": "01bbeeb4feb53cad56a560eacae050369a51c1fa286914dcec9f5cdb1eec0c94",
+              "verification": "bytes",
+              "bytes": 3984699,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -6821,11 +6821,11 @@
               "path": "current/rules/Loon/rule-set/AdvertisingLite.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/AdvertisingLite.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_rule-set_a4dd18045f3a12c0.list",
-              "sha256": "936d8aceddad3459a7fc5ca9793333aed888bb94a6dfe9019f5dbde5655f1086",
-              "expectedSha256": "af6cce611421b9d0e1e6c4fa6a27e57e132a8ae52964892ca2352a33b8472767",
-              "verification": "normalized-header",
-              "bytes": 13760,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "6a34791fe1e17276540e4ac89a5eecac62fcbb228308a713998a4dc6a10fc598",
+              "expectedSha256": "6a34791fe1e17276540e4ac89a5eecac62fcbb228308a713998a4dc6a10fc598",
+              "verification": "bytes",
+              "bytes": 13897,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -6838,11 +6838,11 @@
               "path": "current/rules/Loon/mitm/AdvertisingLite.plugin",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/mitm/AdvertisingLite.plugin",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_mitm_541041767ef1ee20.plugin",
-              "sha256": "4f2e9dabc2ee2b57a231e234551f8aba2000544c623049cdf1133c996e386638",
-              "expectedSha256": "4f2e9dabc2ee2b57a231e234551f8aba2000544c623049cdf1133c996e386638",
+              "sha256": "721ecb03551b865aa68c33a7fe1146de23ef35c6ee3d29cc1b4a1dd03013e7ac",
+              "expectedSha256": "721ecb03551b865aa68c33a7fe1146de23ef35c6ee3d29cc1b4a1dd03013e7ac",
               "verification": "bytes",
               "bytes": 199,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -14815,15 +14815,15 @@
             "domain_wildcard_set": 15,
             "domain_set": 280,
             "ip_cidr6_set": 3,
-            "domain_suffix_set": 2006,
+            "domain_suffix_set": 2130,
             "user_agent_set": 5,
             "domain_keyword_set": 5,
-            "ip_cidr_set": 12
+            "ip_cidr_set": 15
           },
-          "totalLineCount": 2326,
-          "sourceUpdatedAt": "2026-11-06T14:06:43.720Z",
-          "generatedAt": "2026-11-06T19:22:01.891Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 2453,
+          "sourceUpdatedAt": "2026-11-07T01:24:00.982Z",
+          "generatedAt": "2026-11-07T01:49:14.506Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
@@ -14849,11 +14849,11 @@
               "path": "current/rules/Egern/rules/Apple.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/Apple.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_3ae0440ce99a7de0.yaml",
-              "sha256": "f4ac5c1b96a6dbeede4a5313a78c9d2a787cd3fa794a87a9d24611e2d768cfda",
-              "expectedSha256": "f4ac5c1b96a6dbeede4a5313a78c9d2a787cd3fa794a87a9d24611e2d768cfda",
+              "sha256": "a6d3b42dc13009cdcd31e8a3e67837862eb8ecde5812bb833d6666f88a168648",
+              "expectedSha256": "a6d3b42dc13009cdcd31e8a3e67837862eb8ecde5812bb833d6666f88a168648",
               "verification": "bytes",
-              "bytes": 54657,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 57613,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -14873,17 +14873,17 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 3,
-            "DOMAIN-SUFFIX": 2006,
+            "DOMAIN-SUFFIX": 2130,
             "DOMAIN-KEYWORD": 5,
-            "IP-CIDR": 12,
+            "IP-CIDR": 15,
             "DOMAIN-WILDCARD": 15,
             "PROCESS-NAME": 9,
             "DOMAIN": 280
           },
-          "totalLineCount": 2330,
-          "sourceUpdatedAt": "2026-11-06T14:06:43.764Z",
-          "generatedAt": "2026-11-06T19:22:02.867Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 2457,
+          "sourceUpdatedAt": "2026-11-07T01:24:01.027Z",
+          "generatedAt": "2026-11-07T01:49:14.514Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
@@ -14909,11 +14909,11 @@
               "path": "current/rules/Mihomo/classical/Apple.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/Apple.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_classical_0fa29647e779e764.yaml",
-              "sha256": "ef99076c78b69e74c2e01fa121563730c781af7b62a69713a5bfd811e2d04174",
-              "expectedSha256": "ef99076c78b69e74c2e01fa121563730c781af7b62a69713a5bfd811e2d04174",
+              "sha256": "9dce8b8463cc4f22b148c0c26c312c45f3e9f53b891da7cb6a002f6d3a6f33b2",
+              "expectedSha256": "9dce8b8463cc4f22b148c0c26c312c45f3e9f53b891da7cb6a002f6d3a6f33b2",
               "verification": "bytes",
-              "bytes": 85471,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 90220,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -14926,11 +14926,11 @@
               "path": "current/rules/Mihomo/domain/Apple.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/Apple.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_domain_26730f39b26ef029.yaml",
-              "sha256": "31a36cabcb76c00b7cf8c3438dc8f40fb70f0c2cc401acc6f3911ce8006a9a88",
-              "expectedSha256": "31a36cabcb76c00b7cf8c3438dc8f40fb70f0c2cc401acc6f3911ce8006a9a88",
+              "sha256": "edfa7241ab4cbdabdc13d3945e2e5a27d6d481b51fcd418814286a99be9181d1",
+              "expectedSha256": "edfa7241ab4cbdabdc13d3945e2e5a27d6d481b51fcd418814286a99be9181d1",
               "verification": "bytes",
-              "bytes": 55812,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 58834,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -14943,11 +14943,11 @@
               "path": "current/rules/Mihomo/domain-mrs/Apple.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/Apple.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_domain-mrs_7e2479ae82882b86.mrs",
-              "sha256": "82f9fe60f9d668642345c1498ca3e07e9b07daeed15c880d162a268ac2144385",
-              "expectedSha256": "82f9fe60f9d668642345c1498ca3e07e9b07daeed15c880d162a268ac2144385",
+              "sha256": "fd2e4d6119a962bb6858265625e5c05ed0c4cbdf8370af59f8a85ac656d97eae",
+              "expectedSha256": "fd2e4d6119a962bb6858265625e5c05ed0c4cbdf8370af59f8a85ac656d97eae",
               "verification": "bytes",
-              "bytes": 20863,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 22208,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -14960,11 +14960,11 @@
               "path": "current/rules/Mihomo/ipcidr/Apple.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/Apple.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_ipcidr_f1cc99be8aaf0919.yaml",
-              "sha256": "c3f3483e205faed37179fa49f5338ee3bbd7cbf88de464fed312a4712be06d2f",
-              "expectedSha256": "c3f3483e205faed37179fa49f5338ee3bbd7cbf88de464fed312a4712be06d2f",
+              "sha256": "6f54effa627755d4eeaa5c8f795705ab0cef548f07638bec07c66bb249e80e94",
+              "expectedSha256": "6f54effa627755d4eeaa5c8f795705ab0cef548f07638bec07c66bb249e80e94",
               "verification": "bytes",
-              "bytes": 445,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 503,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -14977,11 +14977,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/Apple.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/Apple.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_ipcidr-mrs_848fc07c2d4b89e2.mrs",
-              "sha256": "48a6d308469558b1964a8e6e82024a36926c83174712dd52449090b742b3409a",
-              "expectedSha256": "48a6d308469558b1964a8e6e82024a36926c83174712dd52449090b742b3409a",
+              "sha256": "3dbf8b3571030bebf3e6fabbe90a0813f146e4a9765d1d26d12473d01d7ac6f1",
+              "expectedSha256": "3dbf8b3571030bebf3e6fabbe90a0813f146e4a9765d1d26d12473d01d7ac6f1",
               "verification": "bytes",
-              "bytes": 183,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 199,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -14994,11 +14994,11 @@
               "path": "current/rules/Mihomo/classical-rest/Apple.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/Apple.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_classical-rest_b2adb0dcf08c81dc.yaml",
-              "sha256": "e43a21432fa95a82b29353f244cb2ec53721d7b9022e738d76729931d2faa7c0",
-              "expectedSha256": "e43a21432fa95a82b29353f244cb2ec53721d7b9022e738d76729931d2faa7c0",
+              "sha256": "43a26bc35e19b77506a9939a453025cfa4588b487f5dc5e3ed66c7c2fbe76808",
+              "expectedSha256": "43a26bc35e19b77506a9939a453025cfa4588b487f5dc5e3ed66c7c2fbe76808",
               "verification": "bytes",
               "bytes": 1148,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -15018,17 +15018,17 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 3,
-            "DOMAIN-SUFFIX": 2006,
+            "DOMAIN-SUFFIX": 2130,
             "DOMAIN-KEYWORD": 5,
-            "IP-CIDR": 12,
+            "IP-CIDR": 15,
             "PROCESS-NAME": 9,
             "DOMAIN": 280,
             "USER-AGENT": 5
           },
-          "totalLineCount": 2320,
-          "sourceUpdatedAt": "2026-11-06T14:06:43.565Z",
-          "generatedAt": "2026-11-06T19:22:02.059Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 2447,
+          "sourceUpdatedAt": "2026-11-07T01:23:58.201Z",
+          "generatedAt": "2026-11-07T01:49:14.467Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
@@ -15054,11 +15054,11 @@
               "path": "current/rules/Loon/rules/Apple.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/Apple.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_50be57f093bd1fff.list",
-              "sha256": "0dbf8c949f95e47c5146ac0a51ec60b089931b4915e48c0f3bb834865bbf5829",
-              "expectedSha256": "e544a8d26ad88a6233e3f4887d3fa24a9aef7f428e78dfb4ab272ad5b031076d",
-              "verification": "normalized-header",
-              "bytes": 75783,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "227c271f7bebe4dedaba2f875ca7cc5c369762a888ec4578ebec609704025929",
+              "expectedSha256": "227c271f7bebe4dedaba2f875ca7cc5c369762a888ec4578ebec609704025929",
+              "verification": "bytes",
+              "bytes": 80024,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -15071,11 +15071,11 @@
               "path": "current/rules/Loon/domain-set/Apple.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/Apple.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_domain-set_b1f9f490f641d157.list",
-              "sha256": "1490dbbb1a6e452304f7562841dadf8075afe020a0c8fecf7cbf251fb5c05774",
-              "expectedSha256": "2bcba3d48b78ca10c2c0ade0b6e7b9f428e8dfebcb71587092c1b03b529b1e74",
-              "verification": "normalized-header",
-              "bytes": 46640,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "be609e2c15efb3bf8dbcc0429f237a953fed6d4bd009d4aa5068c4a7a7246a46",
+              "expectedSha256": "be609e2c15efb3bf8dbcc0429f237a953fed6d4bd009d4aa5068c4a7a7246a46",
+              "verification": "bytes",
+              "bytes": 49166,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -15088,11 +15088,11 @@
               "path": "current/rules/Loon/rule-set/Apple.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/Apple.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rule-set_6cba9e196243edea.list",
-              "sha256": "9e139af7ceafce283e6663cca120d9a5f725f7e3d9708db5b37322480a61beb2",
-              "expectedSha256": "0fa965afcb4de011e776fcad5bd2fdc2254b85cb4280d7cb113a767c1db7c867",
-              "verification": "normalized-header",
-              "bytes": 1207,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "3ac4f48d13fe0b3a1b393b285fc052bb7787b62a30948c219ea970f8bf195e13",
+              "expectedSha256": "3ac4f48d13fe0b3a1b393b285fc052bb7787b62a30948c219ea970f8bf195e13",
+              "verification": "bytes",
+              "bytes": 1310,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -15507,13 +15507,13 @@
           ],
           "typeCounts": {
             "domain_set": 4,
-            "domain_suffix_set": 260,
-            "ip_cidr_set": 12
+            "domain_suffix_set": 384,
+            "ip_cidr_set": 15
           },
-          "totalLineCount": 276,
-          "sourceUpdatedAt": "2026-11-06T14:06:47.168Z",
-          "generatedAt": "2026-11-06T19:19:20.825Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 403,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.171Z",
+          "generatedAt": "2026-11-07T01:47:36.259Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
             "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
@@ -15532,11 +15532,11 @@
               "path": "current/rules/Egern/rules/AppleDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/AppleDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_rules_34bad818fbfbf0e7.yaml",
-              "sha256": "642d91b3c043601f9782185be2034b80d81801067e8798a94085fd4159740cff",
-              "expectedSha256": "642d91b3c043601f9782185be2034b80d81801067e8798a94085fd4159740cff",
+              "sha256": "2d3727b2bcd90598fd0503e73e5a7a0da9351dbcc9cd606cd7fdfa7ffe17b298",
+              "expectedSha256": "2d3727b2bcd90598fd0503e73e5a7a0da9351dbcc9cd606cd7fdfa7ffe17b298",
               "verification": "bytes",
-              "bytes": 6477,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 9433,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -15551,14 +15551,14 @@
             "IP-CIDR"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 260,
-            "IP-CIDR": 12,
+            "DOMAIN-SUFFIX": 384,
+            "IP-CIDR": 15,
             "DOMAIN": 4
           },
-          "totalLineCount": 276,
-          "sourceUpdatedAt": "2026-11-06T14:06:47.220Z",
-          "generatedAt": "2026-11-06T19:19:21.525Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 403,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.211Z",
+          "generatedAt": "2026-11-07T01:47:36.269Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
             "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
@@ -15577,11 +15577,11 @@
               "path": "current/rules/Mihomo/classical/AppleDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/AppleDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_classical_7b599bf8fa6e635a.yaml",
-              "sha256": "227916235ced773a8078795e7023e94a8ba46f786b636cf6e8543153e3af0c4e",
-              "expectedSha256": "227916235ced773a8078795e7023e94a8ba46f786b636cf6e8543153e3af0c4e",
+              "sha256": "c847d56911a9f836698a0264e9b2e6d51c02f764fbd022252e2aa63495a4b6ed",
+              "expectedSha256": "c847d56911a9f836698a0264e9b2e6d51c02f764fbd022252e2aa63495a4b6ed",
               "verification": "bytes",
-              "bytes": 10391,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 15140,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -15594,11 +15594,11 @@
               "path": "current/rules/Mihomo/domain/AppleDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/AppleDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_domain_d765755e35267376.yaml",
-              "sha256": "73b7fa5a9e68cd027fefffe43e17ba187e3a539e9d49c5e98f19fca4d7bc89e3",
-              "expectedSha256": "73b7fa5a9e68cd027fefffe43e17ba187e3a539e9d49c5e98f19fca4d7bc89e3",
+              "sha256": "250253c4bdcc70fadb19bfd89faf4d1f62c8db05f2e6423f0cc251bbead50868",
+              "expectedSha256": "250253c4bdcc70fadb19bfd89faf4d1f62c8db05f2e6423f0cc251bbead50868",
               "verification": "bytes",
-              "bytes": 6506,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 9528,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -15611,11 +15611,11 @@
               "path": "current/rules/Mihomo/domain-mrs/AppleDirect.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/AppleDirect.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_domain-mrs_b2a1d93a14fb39e7.mrs",
-              "sha256": "ae21dd481d5e4936a73307ad8eb0ce809dcf2358d3a5f5bee606d2a8a9f92996",
-              "expectedSha256": "ae21dd481d5e4936a73307ad8eb0ce809dcf2358d3a5f5bee606d2a8a9f92996",
+              "sha256": "30c876bb8146890a0eb7541423113144b7ca567a036adf999f7e4819c20d59fd",
+              "expectedSha256": "30c876bb8146890a0eb7541423113144b7ca567a036adf999f7e4819c20d59fd",
               "verification": "bytes",
-              "bytes": 3138,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4410,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -15628,11 +15628,11 @@
               "path": "current/rules/Mihomo/ipcidr/AppleDirect.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/AppleDirect.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_ipcidr_dcd74cec7589834f.yaml",
-              "sha256": "12030697aac69eddf1d498ed88257d64b63be74d3959e87f59c9412ce81d98ff",
-              "expectedSha256": "12030697aac69eddf1d498ed88257d64b63be74d3959e87f59c9412ce81d98ff",
+              "sha256": "f394240079c5ea2429bbf68bd1daf940ae899484e00a71630502bf3667e9da5c",
+              "expectedSha256": "f394240079c5ea2429bbf68bd1daf940ae899484e00a71630502bf3667e9da5c",
               "verification": "bytes",
-              "bytes": 383,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 441,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -15645,11 +15645,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/AppleDirect.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/AppleDirect.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_ipcidr-mrs_6db0c1cb16da42bf.mrs",
-              "sha256": "7517886594ca49dab75364f3ff6c853418edfc82125cb369a78a08fe53d99500",
-              "expectedSha256": "7517886594ca49dab75364f3ff6c853418edfc82125cb369a78a08fe53d99500",
+              "sha256": "87b3ebff17c5146f7f7a9edac3ac867232aa35b92f1464b2aaa76baff9f28751",
+              "expectedSha256": "87b3ebff17c5146f7f7a9edac3ac867232aa35b92f1464b2aaa76baff9f28751",
               "verification": "bytes",
-              "bytes": 145,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 160,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -15664,14 +15664,14 @@
             "IP-CIDR"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 260,
-            "IP-CIDR": 12,
+            "DOMAIN-SUFFIX": 384,
+            "IP-CIDR": 15,
             "DOMAIN": 4
           },
-          "totalLineCount": 276,
-          "sourceUpdatedAt": "2026-11-06T14:06:47.008Z",
-          "generatedAt": "2026-11-06T19:19:20.990Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 403,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.028Z",
+          "generatedAt": "2026-11-07T01:47:36.224Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
             "https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
@@ -15690,11 +15690,11 @@
               "path": "current/rules/Loon/rules/AppleDirect.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/AppleDirect.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_rules_f5e4fe91ff60b5d6.list",
-              "sha256": "a745621793d6188e2291ef8607a8edd8e8765e23905b8e8acc1e49f3b4704731",
-              "expectedSha256": "9c4292e8a735797eed36645d59a6cff349426661c80685c5adff5ee0891e6f0e",
-              "verification": "normalized-header",
-              "bytes": 9256,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "47a453f610c0bb85dd4f3b092953baac6400b20ffc845bf68b3345cb2f96c193",
+              "expectedSha256": "47a453f610c0bb85dd4f3b092953baac6400b20ffc845bf68b3345cb2f96c193",
+              "verification": "bytes",
+              "bytes": 13497,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -15707,11 +15707,11 @@
               "path": "current/rules/Loon/domain-set/AppleDirect.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/AppleDirect.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_domain-set_2aa55f07ab383dae.list",
-              "sha256": "8285456a11ebd0cfedc753f809cfb968ae6cee44df8d7d21332fa84bdf632e99",
-              "expectedSha256": "2b84c8847f09860eda239683a884a4ab2486cc8d9024ad7a794b7da3128aaaf8",
-              "verification": "normalized-header",
-              "bytes": 5422,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "28c5502199352cbbb662d3ea2cf29624b6e5a1b2523c26d5ce88f0eab62297f5",
+              "expectedSha256": "28c5502199352cbbb662d3ea2cf29624b6e5a1b2523c26d5ce88f0eab62297f5",
+              "verification": "bytes",
+              "bytes": 7948,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -15724,11 +15724,11 @@
               "path": "current/rules/Loon/rule-set/AppleDirect.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/AppleDirect.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_rule-set_2f9413e0b04c3311.list",
-              "sha256": "7821fd53daa0fecb1e47b9c5444f75e265b6ac46d91167096add4100b5cc9617",
-              "expectedSha256": "7842cfe66846f5ca33e555454713d17b08b58ff492fa4bd478186619b35f83f0",
-              "verification": "normalized-header",
-              "bytes": 535,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "703f46db0aa6a9666ebda23b41d7425ec3a94747fd91e66ad444c090eb323135",
+              "expectedSha256": "703f46db0aa6a9666ebda23b41d7425ec3a94747fd91e66ad444c090eb323135",
+              "verification": "bytes",
+              "bytes": 638,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -17232,14 +17232,14 @@
           ],
           "typeCounts": {
             "domain_set": 33,
-            "domain_suffix_set": 263,
+            "domain_suffix_set": 387,
             "user_agent_set": 5,
-            "ip_cidr_set": 3
+            "ip_cidr_set": 6
           },
-          "totalLineCount": 304,
-          "sourceUpdatedAt": "2026-11-06T14:06:47.818Z",
-          "generatedAt": "2026-11-06T19:18:21.282Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 431,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.159Z",
+          "generatedAt": "2026-11-07T01:42:29.463Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
             "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
@@ -17259,11 +17259,11 @@
               "path": "current/rules/Egern/rules/AppleProxy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/AppleProxy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_rules_bd27e22bc51e3948.yaml",
-              "sha256": "e533d500bcace4d62fa4b3dba1265b799d843bb2fe7f6a29a29e40db9fbd93ad",
-              "expectedSha256": "e533d500bcace4d62fa4b3dba1265b799d843bb2fe7f6a29a29e40db9fbd93ad",
+              "sha256": "61ddb5336884c9dc76e72abad3a5557c6d642e109428f10a8d041e8b034dbbf1",
+              "expectedSha256": "61ddb5336884c9dc76e72abad3a5557c6d642e109428f10a8d041e8b034dbbf1",
               "verification": "bytes",
-              "bytes": 7271,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 10227,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -17279,15 +17279,15 @@
             "PROCESS-NAME"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 263,
-            "IP-CIDR": 3,
+            "DOMAIN-SUFFIX": 387,
+            "IP-CIDR": 6,
             "PROCESS-NAME": 9,
             "DOMAIN": 33
           },
-          "totalLineCount": 308,
-          "sourceUpdatedAt": "2026-11-06T14:06:47.876Z",
-          "generatedAt": "2026-11-06T19:18:22.115Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 435,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.191Z",
+          "generatedAt": "2026-11-07T01:42:29.468Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
             "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
@@ -17307,11 +17307,11 @@
               "path": "current/rules/Mihomo/classical/AppleProxy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/AppleProxy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_classical_5426fdc73399c31b.yaml",
-              "sha256": "b12dbd54c03daf8d5b7b0c62dd79bb12d2bc5ff6a08932e437155f3f49ce0642",
-              "expectedSha256": "b12dbd54c03daf8d5b7b0c62dd79bb12d2bc5ff6a08932e437155f3f49ce0642",
+              "sha256": "3253c44cae51488dcbeaafe2e20cd89c11f21679d5bdaa1773478d0e937cd153",
+              "expectedSha256": "3253c44cae51488dcbeaafe2e20cd89c11f21679d5bdaa1773478d0e937cd153",
               "verification": "bytes",
-              "bytes": 11440,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 16189,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -17324,11 +17324,11 @@
               "path": "current/rules/Mihomo/domain/AppleProxy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/AppleProxy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_domain_c1bd46b616d97962.yaml",
-              "sha256": "adbdd6f6850db2fcbb0776b9bdec6c2b262d42c2211af50e5edb432b30b1b52c",
-              "expectedSha256": "adbdd6f6850db2fcbb0776b9bdec6c2b262d42c2211af50e5edb432b30b1b52c",
+              "sha256": "99c838dd08b1f641e89c07252d89c4d8018210e4bd4a10b89914adc57ac139a4",
+              "expectedSha256": "99c838dd08b1f641e89c07252d89c4d8018210e4bd4a10b89914adc57ac139a4",
               "verification": "bytes",
-              "bytes": 7368,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 10390,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -17341,11 +17341,11 @@
               "path": "current/rules/Mihomo/domain-mrs/AppleProxy.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/AppleProxy.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_domain-mrs_0a3c621e51781212.mrs",
-              "sha256": "bb7cb6eb2271db8f1f3bc5a0a252e2fa4df793eb92a462c6866178a198254847",
-              "expectedSha256": "bb7cb6eb2271db8f1f3bc5a0a252e2fa4df793eb92a462c6866178a198254847",
+              "sha256": "e0b853631781ef9c3093a54a80fe23a83c103ae7fb43ba58344a7ceb8d93c26f",
+              "expectedSha256": "e0b853631781ef9c3093a54a80fe23a83c103ae7fb43ba58344a7ceb8d93c26f",
               "verification": "bytes",
-              "bytes": 3396,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4672,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -17358,11 +17358,11 @@
               "path": "current/rules/Mihomo/ipcidr/AppleProxy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/AppleProxy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_ipcidr_52500f4a3aeaaa66.yaml",
-              "sha256": "031a3a0e84eb022d3ed450746943c259a86b57a835f36638e7dae69c8daab724",
-              "expectedSha256": "031a3a0e84eb022d3ed450746943c259a86b57a835f36638e7dae69c8daab724",
+              "sha256": "133d48f0a083b99ff3a9f6a440f1602c830b5f14254b84f94576091dc8a0c060",
+              "expectedSha256": "133d48f0a083b99ff3a9f6a440f1602c830b5f14254b84f94576091dc8a0c060",
               "verification": "bytes",
-              "bytes": 202,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 260,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -17375,11 +17375,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/AppleProxy.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/AppleProxy.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_ipcidr-mrs_8fc6433c841d489b.mrs",
-              "sha256": "a0fcd5472482516b08382c1a9ba59509c64d40f833bd1864db6d03b9aca28e6e",
-              "expectedSha256": "a0fcd5472482516b08382c1a9ba59509c64d40f833bd1864db6d03b9aca28e6e",
+              "sha256": "dbd796fbe6c4d9add5f6a47ae4b54cfaa436edef1a4cb7cdfc84a9458d30d8d9",
+              "expectedSha256": "dbd796fbe6c4d9add5f6a47ae4b54cfaa436edef1a4cb7cdfc84a9458d30d8d9",
               "verification": "bytes",
-              "bytes": 73,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 105,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -17392,11 +17392,11 @@
               "path": "current/rules/Mihomo/classical-rest/AppleProxy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/AppleProxy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_classical-rest_68033aab1214cb0c.yaml",
-              "sha256": "eabcd0487191d91d78a1ce013f6445eb0a7da508f7e1a23f08a9e56dad7a5a91",
-              "expectedSha256": "eabcd0487191d91d78a1ce013f6445eb0a7da508f7e1a23f08a9e56dad7a5a91",
+              "sha256": "b04d03dd7d9819b5d621cb157bd39c32c2ebc931383fea079f994e14020fe5c9",
+              "expectedSha256": "b04d03dd7d9819b5d621cb157bd39c32c2ebc931383fea079f994e14020fe5c9",
               "verification": "bytes",
               "bytes": 433,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -17413,16 +17413,16 @@
             "USER-AGENT"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 263,
-            "IP-CIDR": 3,
+            "DOMAIN-SUFFIX": 387,
+            "IP-CIDR": 6,
             "PROCESS-NAME": 9,
             "DOMAIN": 33,
             "USER-AGENT": 5
           },
-          "totalLineCount": 313,
-          "sourceUpdatedAt": "2026-11-06T14:06:47.552Z",
-          "generatedAt": "2026-11-06T19:18:21.473Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 440,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.007Z",
+          "generatedAt": "2026-11-07T01:42:29.433Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
             "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-proxy.list",
@@ -17442,11 +17442,11 @@
               "path": "current/rules/Loon/rules/AppleProxy.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/AppleProxy.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_rules_ab569b9a69eb13f5.list",
-              "sha256": "c647b4fee1cd5282e555898d7b0e33c90202514aaaf1bb808bbac6e717ae0e17",
-              "expectedSha256": "c647b4fee1cd5282e555898d7b0e33c90202514aaaf1bb808bbac6e717ae0e17",
+              "sha256": "ee08f9e73ea2a53a672b121045a00ba1728cd41a868db438df65abe09c0c5422",
+              "expectedSha256": "ee08f9e73ea2a53a672b121045a00ba1728cd41a868db438df65abe09c0c5422",
               "verification": "bytes",
-              "bytes": 10316,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 14557,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -17459,11 +17459,11 @@
               "path": "current/rules/Loon/domain-set/AppleProxy.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/AppleProxy.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_domain-set_1b1b5506dc311642.list",
-              "sha256": "5f6313097a0c41ea36f18651eb92c375f69b4179d70455db8d7f64ee7e112778",
-              "expectedSha256": "5f6313097a0c41ea36f18651eb92c375f69b4179d70455db8d7f64ee7e112778",
+              "sha256": "83ad46cb4e41f325f830da969053f0533356c795092f4868d690bfbfe9af2006",
+              "expectedSha256": "83ad46cb4e41f325f830da969053f0533356c795092f4868d690bfbfe9af2006",
               "verification": "bytes",
-              "bytes": 6156,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 8682,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -17476,11 +17476,11 @@
               "path": "current/rules/Loon/rule-set/AppleProxy.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/AppleProxy.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_rule-set_a16e2f6b461c2f99.list",
-              "sha256": "b75a5744f9fb4304f2404ffc81bd1dd3ad113a3f36ee0809c10c42f759301b22",
-              "expectedSha256": "b75a5744f9fb4304f2404ffc81bd1dd3ad113a3f36ee0809c10c42f759301b22",
+              "sha256": "f86b0cb5000b0433531237ca7b4df054938f70f8d28b9b4e81dddc7fead98c68",
+              "expectedSha256": "f86b0cb5000b0433531237ca7b4df054938f70f8d28b9b4e81dddc7fead98c68",
               "verification": "bytes",
-              "bytes": 617,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 720,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -35262,12 +35262,12 @@
             "geoip_set": 1,
             "user_agent_set": 30,
             "domain_keyword_set": 10,
-            "ip_cidr_set": 3885
+            "ip_cidr_set": 3888
           },
-          "totalLineCount": 10335,
+          "totalLineCount": 10338,
           "sourceUpdatedAt": "2026-11-06T14:10:32.132Z",
-          "generatedAt": "2026-11-06T19:21:17.136Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "generatedAt": "2026-11-07T02:47:40.429Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
@@ -35292,11 +35292,11 @@
               "path": "current/rules/Egern/rules/China.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/China.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_rules_af44e64325d1842a.yaml",
-              "sha256": "f561718e0b557c38249c30e2e86cc1b56d227b54b658812a704fb8452fdef5e1",
-              "expectedSha256": "f561718e0b557c38249c30e2e86cc1b56d227b54b658812a704fb8452fdef5e1",
+              "sha256": "e797ca77a4fd2da398f99f806c6007f02ec548ea825b7640fe30a9029f82d490",
+              "expectedSha256": "e797ca77a4fd2da398f99f806c6007f02ec548ea825b7640fe30a9029f82d490",
               "verification": "bytes",
-              "bytes": 184691,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 184749,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -35319,14 +35319,14 @@
             "DOMAIN-SUFFIX": 6379,
             "GEOIP": 1,
             "DOMAIN-KEYWORD": 10,
-            "IP-CIDR": 3885,
+            "IP-CIDR": 3888,
             "DOMAIN-WILDCARD": 2,
             "DOMAIN": 24
           },
-          "totalLineCount": 10305,
+          "totalLineCount": 10308,
           "sourceUpdatedAt": "2026-11-06T14:10:35.830Z",
-          "generatedAt": "2026-11-06T19:21:18.493Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "generatedAt": "2026-11-07T02:47:40.435Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
@@ -35351,11 +35351,11 @@
               "path": "current/rules/Mihomo/classical/China.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/China.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_classical_488d107c687bae96.yaml",
-              "sha256": "73c41307a1f40471d5574046945331bf93920810241c1750ed85d2c85c2a5c12",
-              "expectedSha256": "73c41307a1f40471d5574046945331bf93920810241c1750ed85d2c85c2a5c12",
+              "sha256": "2da2a51cefbb1a0a5a964bbab12249722c865b0c354daa172cf002c08db8446d",
+              "expectedSha256": "2da2a51cefbb1a0a5a964bbab12249722c865b0c354daa172cf002c08db8446d",
               "verification": "bytes",
-              "bytes": 347584,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 347699,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -35368,11 +35368,11 @@
               "path": "current/rules/Mihomo/domain/China.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/China.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_domain_1ec82b4822ed91d2.yaml",
-              "sha256": "0e957de428101bcf9cf3c66d8a1160361e2fe45d26c3a2e75a8f3143165b2135",
-              "expectedSha256": "0e957de428101bcf9cf3c66d8a1160361e2fe45d26c3a2e75a8f3143165b2135",
+              "sha256": "57b462e57460ea68520260ba8f47ae02153b4f6343f22eabaf52be5ddd415094",
+              "expectedSha256": "57b462e57460ea68520260ba8f47ae02153b4f6343f22eabaf52be5ddd415094",
               "verification": "bytes",
               "bytes": 114164,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -35402,11 +35402,11 @@
               "path": "current/rules/Mihomo/ipcidr/China.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/China.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_ipcidr_aa12dd9375fafd7f.yaml",
-              "sha256": "796831aa13879cf484ae2fb63fb118e505739259e4429ba89537f9a99b49d455",
-              "expectedSha256": "796831aa13879cf484ae2fb63fb118e505739259e4429ba89537f9a99b49d455",
+              "sha256": "ce46f9c23ab8fcfb256a7fe9593cc84a6d7de9a1c51673feb3b499a25fbb6c6d",
+              "expectedSha256": "ce46f9c23ab8fcfb256a7fe9593cc84a6d7de9a1c51673feb3b499a25fbb6c6d",
               "verification": "bytes",
-              "bytes": 76159,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 76217,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -35419,11 +35419,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/China.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/China.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_ipcidr-mrs_d17806eb84626c69.mrs",
-              "sha256": "4c2443ef37f30582771216a363dc74a77a27224f53ce4ba503f850d993f8eda6",
-              "expectedSha256": "4c2443ef37f30582771216a363dc74a77a27224f53ce4ba503f850d993f8eda6",
+              "sha256": "4ff2a31c4895bed85998c6afbd4cfe295f0be3a682ddb130a6a505d56a78e261",
+              "expectedSha256": "4ff2a31c4895bed85998c6afbd4cfe295f0be3a682ddb130a6a505d56a78e261",
               "verification": "bytes",
-              "bytes": 16844,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 16865,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -35436,11 +35436,11 @@
               "path": "current/rules/Mihomo/classical-rest/China.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/China.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_classical-rest_92992f8fa661a871.yaml",
-              "sha256": "a96c1e7d23efc3ed7b2d326cf2dddf546e9c8e0821f10cd52f7a27b2ca935d7a",
-              "expectedSha256": "a96c1e7d23efc3ed7b2d326cf2dddf546e9c8e0821f10cd52f7a27b2ca935d7a",
+              "sha256": "45f0e67ad22eb0d49171c4f49038ad348876efa92c8e3d08893e8d141b9105cf",
+              "expectedSha256": "45f0e67ad22eb0d49171c4f49038ad348876efa92c8e3d08893e8d141b9105cf",
               "verification": "bytes",
               "bytes": 531,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -35463,14 +35463,14 @@
             "DOMAIN-SUFFIX": 6379,
             "GEOIP": 1,
             "DOMAIN-KEYWORD": 10,
-            "IP-CIDR": 3885,
+            "IP-CIDR": 3888,
             "DOMAIN": 24,
             "USER-AGENT": 30
           },
-          "totalLineCount": 10333,
+          "totalLineCount": 10336,
           "sourceUpdatedAt": "2026-11-06T14:10:17.651Z",
-          "generatedAt": "2026-11-06T19:21:17.288Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "generatedAt": "2026-11-07T02:47:40.404Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list",
@@ -35495,11 +35495,11 @@
               "path": "current/rules/Loon/rules/China.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/China.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_rules_25adbc0394103807.list",
-              "sha256": "3d79b7e2ff6bf3c6b8df1a6efdff9386fb95ff6638d14329185ce068453040fd",
-              "expectedSha256": "f85d2d0362c55c3c689217fbe195142b49b13ca6345182e500603a51807cbb11",
-              "verification": "normalized-header",
-              "bytes": 307090,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "5d15c004fd9f79def2eb199da14b4cb410ea5a653f8bc9bb72d603c654cd93a6",
+              "expectedSha256": "5d15c004fd9f79def2eb199da14b4cb410ea5a653f8bc9bb72d603c654cd93a6",
+              "verification": "bytes",
+              "bytes": 307193,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -35512,11 +35512,11 @@
               "path": "current/rules/Loon/domain-set/China.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/China.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_domain-set_beb3d5e7a3bf4d87.list",
-              "sha256": "a90ffb2c8e32a748d05a40ce4d492bbbe02440046fba08368370da99090f703a",
-              "expectedSha256": "d19542b543371ce5634eaac3fae86af482ef17c78291cd125c88864132665df8",
-              "verification": "normalized-header",
+              "sha256": "ece67f04a974055aca5aa47a58ef3f5d69a7ae7830a1fbbfddd4096a6f072314",
+              "expectedSha256": "ece67f04a974055aca5aa47a58ef3f5d69a7ae7830a1fbbfddd4096a6f072314",
+              "verification": "bytes",
               "bytes": 88524,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -35529,11 +35529,11 @@
               "path": "current/rules/Loon/rule-set/China.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/China.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/China_rule-set_3c04c07feca599c6.list",
-              "sha256": "be51204ee5482269d28f31376c81e96fd77c10a7b5fbff0d298a6ceaf2070e76",
-              "expectedSha256": "c9235b20791cd2e92daf60ed99a70a14aad21dc8835611407530e456099148e6",
-              "verification": "normalized-header",
-              "bytes": 135573,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "4a34eb88ac4813b14314b0d57073ba31114119dfe5f70f2ef936a72e4c02edc1",
+              "expectedSha256": "4a34eb88ac4813b14314b0d57073ba31114119dfe5f70f2ef936a72e4c02edc1",
+              "verification": "bytes",
+              "bytes": 135676,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -54477,15 +54477,15 @@
           "typeCounts": {
             "url_regex_set": 4,
             "domain_set": 30,
-            "domain_suffix_set": 456,
+            "domain_suffix_set": 580,
             "user_agent_set": 1,
             "domain_keyword_set": 10,
-            "ip_cidr_set": 2
+            "ip_cidr_set": 5
           },
-          "totalLineCount": 503,
-          "sourceUpdatedAt": "2026-11-06T14:06:45.126Z",
-          "generatedAt": "2026-11-06T19:17:41.453Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 630,
+          "sourceUpdatedAt": "2026-11-07T01:24:00.095Z",
+          "generatedAt": "2026-11-07T01:37:54.474Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
@@ -54507,11 +54507,11 @@
               "path": "current/rules/Egern/rules/Direct.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/Direct.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_rules_b5366edba520b4b0.yaml",
-              "sha256": "72aa9753828bd537931aa26c504309e11b83303af282570584baacbafcf4a048",
-              "expectedSha256": "72aa9753828bd537931aa26c504309e11b83303af282570584baacbafcf4a048",
+              "sha256": "b98b91421306d97c9f804cfbdae03ad1d23bb44ceddfdd12af4a9bcd8ff101c5",
+              "expectedSha256": "b98b91421306d97c9f804cfbdae03ad1d23bb44ceddfdd12af4a9bcd8ff101c5",
               "verification": "bytes",
-              "bytes": 11794,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 14750,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -54524,11 +54524,11 @@
               "path": "current/rules/Egern/mitm/Direct.module",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/mitm/Direct.module",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_mitm_9254b53ffe295f7c.module",
-              "sha256": "e894b8b04f71fc2c18116429a13f7f7ad62f19deff9a4aa6049552eac5c8f06a",
-              "expectedSha256": "e894b8b04f71fc2c18116429a13f7f7ad62f19deff9a4aa6049552eac5c8f06a",
+              "sha256": "119221e9da4c3d29ef99721a5bbb99910a49cad7abf6a0162d95a9b762eb4815",
+              "expectedSha256": "119221e9da4c3d29ef99721a5bbb99910a49cad7abf6a0162d95a9b762eb4815",
               "verification": "bytes",
               "bytes": 207,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -54545,16 +54545,16 @@
             "PROCESS-NAME"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 456,
+            "DOMAIN-SUFFIX": 580,
             "DOMAIN-KEYWORD": 10,
-            "IP-CIDR": 2,
+            "IP-CIDR": 5,
             "PROCESS-NAME": 36,
             "DOMAIN": 30
           },
-          "totalLineCount": 534,
-          "sourceUpdatedAt": "2026-11-06T14:06:45.167Z",
-          "generatedAt": "2026-11-06T19:17:42.171Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 661,
+          "sourceUpdatedAt": "2026-11-07T01:24:00.128Z",
+          "generatedAt": "2026-11-07T01:37:54.484Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
@@ -54576,11 +54576,11 @@
               "path": "current/rules/Mihomo/classical/Direct.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/Direct.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_classical_055a900ccd414d6a.yaml",
-              "sha256": "76f14b49417a4b39fcef1b3863176b8d4701c09dc41b5616cf82f07d4524a199",
-              "expectedSha256": "76f14b49417a4b39fcef1b3863176b8d4701c09dc41b5616cf82f07d4524a199",
+              "sha256": "0f57d8493e25f30d4445b49fa72d05e5090882e4d9b36355643e7bf46e83c76a",
+              "expectedSha256": "0f57d8493e25f30d4445b49fa72d05e5090882e4d9b36355643e7bf46e83c76a",
               "verification": "bytes",
-              "bytes": 19333,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 24082,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -54593,11 +54593,11 @@
               "path": "current/rules/Mihomo/domain/Direct.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/Direct.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_domain_c5de40dc00467ccc.yaml",
-              "sha256": "9fed96b842f58abda85a5f054eca160f39e380c33e2624f6882fe20ba653cfac",
-              "expectedSha256": "9fed96b842f58abda85a5f054eca160f39e380c33e2624f6882fe20ba653cfac",
+              "sha256": "a70124b82363f8265632581f564b31db2e2cf10cc553f9c567f0c586f4b06954",
+              "expectedSha256": "a70124b82363f8265632581f564b31db2e2cf10cc553f9c567f0c586f4b06954",
               "verification": "bytes",
-              "bytes": 11756,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 14778,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -54610,11 +54610,11 @@
               "path": "current/rules/Mihomo/domain-mrs/Direct.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/Direct.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_domain-mrs_d32dc7585282de33.mrs",
-              "sha256": "e529b234fa6ad6c9d5d9a6a21b61f8b0e0121e85b179a9b29fc394f00063631a",
-              "expectedSha256": "e529b234fa6ad6c9d5d9a6a21b61f8b0e0121e85b179a9b29fc394f00063631a",
+              "sha256": "08eedb25ee9328d450d1e1a2699f35fe7f3c37c30a7ed949cd5bee88df8b1540",
+              "expectedSha256": "08eedb25ee9328d450d1e1a2699f35fe7f3c37c30a7ed949cd5bee88df8b1540",
               "verification": "bytes",
-              "bytes": 5214,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 6451,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -54627,11 +54627,11 @@
               "path": "current/rules/Mihomo/ipcidr/Direct.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/Direct.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_ipcidr_ab4ffadd3f4af167.yaml",
-              "sha256": "f132fa1c55fb6d004a03fc561f50e82bb93e0bf43e7df9b31edcdcb820a8531d",
-              "expectedSha256": "f132fa1c55fb6d004a03fc561f50e82bb93e0bf43e7df9b31edcdcb820a8531d",
+              "sha256": "d16df904378028c807c4260a35f30a1235905361886037719c3ec928600b5144",
+              "expectedSha256": "d16df904378028c807c4260a35f30a1235905361886037719c3ec928600b5144",
               "verification": "bytes",
-              "bytes": 183,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 241,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -54644,11 +54644,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/Direct.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/Direct.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_ipcidr-mrs_faf57333b166353f.mrs",
-              "sha256": "d7eebff616cb9baf58b3f3342330d6d4546bd4c13193ff89738597f0609edda3",
-              "expectedSha256": "d7eebff616cb9baf58b3f3342330d6d4546bd4c13193ff89738597f0609edda3",
+              "sha256": "9a94906251eba7a223d059e508033f8d356ca2fa63d09e3bf407b1f66865211d",
+              "expectedSha256": "9a94906251eba7a223d059e508033f8d356ca2fa63d09e3bf407b1f66865211d",
               "verification": "bytes",
-              "bytes": 57,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 86,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -54661,11 +54661,11 @@
               "path": "current/rules/Mihomo/classical-rest/Direct.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/Direct.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_classical-rest_5ccb1981211b5450.yaml",
-              "sha256": "d24c4eb56b1201ed65070ee4d012421ef22c33f7a7820346157a902218fe2f17",
-              "expectedSha256": "d24c4eb56b1201ed65070ee4d012421ef22c33f7a7820346157a902218fe2f17",
+              "sha256": "6b6f62ff94cbf9d04242b1c05d533afa92d78ca56fe75577586ce00eec243060",
+              "expectedSha256": "6b6f62ff94cbf9d04242b1c05d533afa92d78ca56fe75577586ce00eec243060",
               "verification": "bytes",
               "bytes": 1480,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -54683,17 +54683,17 @@
             "USER-AGENT"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 456,
+            "DOMAIN-SUFFIX": 580,
             "DOMAIN-KEYWORD": 10,
-            "IP-CIDR": 2,
+            "IP-CIDR": 5,
             "URL-REGEX": 4,
             "DOMAIN": 30,
             "USER-AGENT": 1
           },
-          "totalLineCount": 503,
-          "sourceUpdatedAt": "2026-11-06T14:06:44.996Z",
-          "generatedAt": "2026-11-06T19:17:41.566Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 630,
+          "sourceUpdatedAt": "2026-11-07T01:23:59.976Z",
+          "generatedAt": "2026-11-07T01:37:54.430Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
@@ -54715,11 +54715,11 @@
               "path": "current/rules/Loon/rules/Direct.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/Direct.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_rules_df20482affa1ff05.list",
-              "sha256": "e2b99ba7710a072f2d2c359b47798bfc8368be8add9bb38b21d4e9ad7d078162",
-              "expectedSha256": "e2b99ba7710a072f2d2c359b47798bfc8368be8add9bb38b21d4e9ad7d078162",
+              "sha256": "02aceb9607033554d4c32d837d7f779492407a0da2cae292e424f80e16d8bf46",
+              "expectedSha256": "02aceb9607033554d4c32d837d7f779492407a0da2cae292e424f80e16d8bf46",
               "verification": "bytes",
-              "bytes": 16637,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 20878,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -54732,11 +54732,11 @@
               "path": "current/rules/Loon/domain-set/Direct.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/Direct.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_domain-set_d8ce53ad61acdd9d.list",
-              "sha256": "6d0b19644822236872b1340ee2527bfbafd5cb9a1b3dc70f60ef916bbbe09b66",
-              "expectedSha256": "6d0b19644822236872b1340ee2527bfbafd5cb9a1b3dc70f60ef916bbbe09b66",
+              "sha256": "b7e1c5c437ca446ca4d560e040a70c0c5fed661e536359c5d01ad24293ba48a2",
+              "expectedSha256": "b7e1c5c437ca446ca4d560e040a70c0c5fed661e536359c5d01ad24293ba48a2",
               "verification": "bytes",
-              "bytes": 9784,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 12310,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -54749,11 +54749,11 @@
               "path": "current/rules/Loon/rule-set/Direct.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/Direct.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_rule-set_ecc0feec903d4f58.list",
-              "sha256": "c5d9a52f1de87ba85ad0ff260981c604ee643c65300592ddc1144c8f953e7e27",
-              "expectedSha256": "c5d9a52f1de87ba85ad0ff260981c604ee643c65300592ddc1144c8f953e7e27",
+              "sha256": "94a44a0e4efa2e87082b6e78135bd51c49bfbda7a106532b86a957c0a49c74d1",
+              "expectedSha256": "94a44a0e4efa2e87082b6e78135bd51c49bfbda7a106532b86a957c0a49c74d1",
               "verification": "bytes",
-              "bytes": 818,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 921,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -54766,11 +54766,11 @@
               "path": "current/rules/Loon/mitm/Direct.plugin",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/mitm/Direct.plugin",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_mitm_cfc8dfb3f1dec60f.plugin",
-              "sha256": "c0474fc2e5aee2795809e7596abe2499b12e8820e842a62432ef8065c590872a",
-              "expectedSha256": "c0474fc2e5aee2795809e7596abe2499b12e8820e842a62432ef8065c590872a",
+              "sha256": "a8c61d3be1560e573680adc32c2f58d64d47ba67b6e01303f0eedadca3957a6b",
+              "expectedSha256": "a8c61d3be1560e573680adc32c2f58d64d47ba67b6e01303f0eedadca3957a6b",
               "verification": "bytes",
               "bytes": 206,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -79125,18 +79125,18 @@
             "url_regex_set"
           ],
           "typeCounts": {
-            "url_regex_set": 1,
-            "domain_set": 70,
-            "ip_cidr6_set": 2,
-            "domain_suffix_set": 348,
+            "asn_set": 4,
             "domain_keyword_set": 11,
-            "ip_cidr_set": 4,
-            "asn_set": 3
+            "domain_set": 120,
+            "domain_suffix_set": 1274,
+            "ip_cidr6_set": 2,
+            "ip_cidr_set": 9,
+            "url_regex_set": 1
           },
-          "totalLineCount": 439,
-          "sourceUpdatedAt": "2026-11-06T14:07:28.804Z",
-          "generatedAt": "2026-11-06T19:17:24.154Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 1421,
+          "sourceUpdatedAt": "2026-11-07T01:24:48.056Z",
+          "generatedAt": "2026-11-07T01:54:57.827Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
@@ -79156,11 +79156,11 @@
               "path": "current/rules/Egern/rules/GlobalAI.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/GlobalAI.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_4e62672b09dfce2a.yaml",
-              "sha256": "e17da094021b4d273131062975f6e14068e83af5fe21d16e028ef69cefc22d60",
-              "expectedSha256": "e17da094021b4d273131062975f6e14068e83af5fe21d16e028ef69cefc22d60",
+              "sha256": "bf8938ffd5bb2b8ead0e25dc4009b4f01382949cad3e11a84281703e0adfda9f",
+              "expectedSha256": "bf8938ffd5bb2b8ead0e25dc4009b4f01382949cad3e11a84281703e0adfda9f",
               "verification": "bytes",
-              "bytes": 9418,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 29371,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -79173,11 +79173,11 @@
               "path": "current/rules/Egern/mitm/GlobalAI.module",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/mitm/GlobalAI.module",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_mitm_38bcb70a8ab3447c.module",
-              "sha256": "9e533efaca3967075131da89a24637c909485936edfec32e6dcb36cae0cb965e",
-              "expectedSha256": "9e533efaca3967075131da89a24637c909485936edfec32e6dcb36cae0cb965e",
+              "sha256": "ec4d47863cf167c1de3efb200bad4fbef46df32ae4c4eda5734a30e84cbd548e",
+              "expectedSha256": "ec4d47863cf167c1de3efb200bad4fbef46df32ae4c4eda5734a30e84cbd548e",
               "verification": "bytes",
               "bytes": 169,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -79196,18 +79196,18 @@
             "PROCESS-NAME"
           ],
           "typeCounts": {
-            "IP-CIDR6": 2,
-            "DOMAIN-SUFFIX": 348,
+            "DOMAIN": 120,
             "DOMAIN-KEYWORD": 11,
-            "IP-CIDR": 4,
-            "PROCESS-NAME": 24,
-            "IP-ASN": 3,
-            "DOMAIN": 70
+            "DOMAIN-SUFFIX": 1274,
+            "IP-ASN": 4,
+            "IP-CIDR": 9,
+            "IP-CIDR6": 2,
+            "PROCESS-NAME": 24
           },
-          "totalLineCount": 462,
-          "sourceUpdatedAt": "2026-11-06T14:07:28.851Z",
-          "generatedAt": "2026-11-06T19:17:24.788Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 1444,
+          "sourceUpdatedAt": "2026-11-07T01:24:48.094Z",
+          "generatedAt": "2026-11-07T01:54:57.833Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
@@ -79222,16 +79222,16 @@
               "extension": "yaml",
               "binary": false,
               "empty": false,
-              "recommended": true,
+              "recommended": false,
               "fileName": "GlobalAI.yaml",
               "path": "current/rules/Mihomo/classical/GlobalAI.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/GlobalAI.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_classical_53616f647b807ae2.yaml",
-              "sha256": "81a6ce35e540b1afb5aba7bb2abcbf0e1dd7209318442c38618a8c7d8ce8aa50",
-              "expectedSha256": "81a6ce35e540b1afb5aba7bb2abcbf0e1dd7209318442c38618a8c7d8ce8aa50",
+              "sha256": "2afddfae970b0b6826fd25b5188777dd6096a73452c7a2168f20c96bb03f8e8e",
+              "expectedSha256": "2afddfae970b0b6826fd25b5188777dd6096a73452c7a2168f20c96bb03f8e8e",
               "verification": "bytes",
-              "bytes": 15704,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 49086,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -79239,16 +79239,16 @@
               "extension": "yaml",
               "binary": false,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.yaml",
               "path": "current/rules/Mihomo/domain/GlobalAI.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/GlobalAI.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_domain_b41f90290c5253ba.yaml",
-              "sha256": "9e3c785f7a7431f53bb8cb7739d663b422cc617b0124272e82fbacefd25694eb",
-              "expectedSha256": "9e3c785f7a7431f53bb8cb7739d663b422cc617b0124272e82fbacefd25694eb",
+              "sha256": "0637170e68be76137d2fd78b9cfd2f63dedaff5888ce35471b4ae63d86f1ad99",
+              "expectedSha256": "0637170e68be76137d2fd78b9cfd2f63dedaff5888ce35471b4ae63d86f1ad99",
               "verification": "bytes",
-              "bytes": 9286,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 30060,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -79256,16 +79256,16 @@
               "extension": "mrs",
               "binary": true,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.mrs",
               "path": "current/rules/Mihomo/domain-mrs/GlobalAI.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/GlobalAI.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_domain-mrs_6088143b7923e8b9.mrs",
-              "sha256": "46554c62d1d6cf91e3124e83ae302645b829febd9289f54847b08df06aa99a8f",
-              "expectedSha256": "46554c62d1d6cf91e3124e83ae302645b829febd9289f54847b08df06aa99a8f",
+              "sha256": "041046cd640a0661f39ceb37f377969ceca7e40593f31f150f849cffb33d1159",
+              "expectedSha256": "041046cd640a0661f39ceb37f377969ceca7e40593f31f150f849cffb33d1159",
               "verification": "bytes",
-              "bytes": 4081,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 13457,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -79273,16 +79273,16 @@
               "extension": "yaml",
               "binary": false,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.yaml",
               "path": "current/rules/Mihomo/ipcidr/GlobalAI.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/GlobalAI.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_ipcidr_cb1b2d369866b4bf.yaml",
-              "sha256": "75ef3f489d1b919033d0016dba71f5e1937ff50f4245edeb76a1c83f0ec9d209",
-              "expectedSha256": "75ef3f489d1b919033d0016dba71f5e1937ff50f4245edeb76a1c83f0ec9d209",
+              "sha256": "d9eddca3b348c23833c36c78c783ef6fe7e2baa8611a9e8955c13709e4378a0e",
+              "expectedSha256": "d9eddca3b348c23833c36c78c783ef6fe7e2baa8611a9e8955c13709e4378a0e",
               "verification": "bytes",
-              "bytes": 280,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 377,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -79290,16 +79290,16 @@
               "extension": "mrs",
               "binary": true,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.mrs",
               "path": "current/rules/Mihomo/ipcidr-mrs/GlobalAI.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/GlobalAI.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_ipcidr-mrs_3b75ae019c47972a.mrs",
-              "sha256": "839c4a6d89910572f193135af201ef7ca9b6eebfcd8f2af1061066c65710d39c",
-              "expectedSha256": "839c4a6d89910572f193135af201ef7ca9b6eebfcd8f2af1061066c65710d39c",
+              "sha256": "84fde81ff24966cfbd6a94c706c8a06dea1dadfbd6a3070ab88b4d955aa210fb",
+              "expectedSha256": "84fde81ff24966cfbd6a94c706c8a06dea1dadfbd6a3070ab88b4d955aa210fb",
               "verification": "bytes",
-              "bytes": 97,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 141,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -79307,16 +79307,16 @@
               "extension": "yaml",
               "binary": false,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.yaml",
               "path": "current/rules/Mihomo/classical-rest/GlobalAI.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/GlobalAI.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_classical-rest_47516b6ae4d9917d.yaml",
-              "sha256": "df22fec46284d0b4de3b388ea455adce69091d38107296f8b4cb8f4841ba7e3a",
-              "expectedSha256": "df22fec46284d0b4de3b388ea455adce69091d38107296f8b4cb8f4841ba7e3a",
+              "sha256": "c373382afa3be944b8ed8d602e62d40343523a3d8eb868cbb9aadbd2a3421eb3",
+              "expectedSha256": "c373382afa3be944b8ed8d602e62d40343523a3d8eb868cbb9aadbd2a3421eb3",
               "verification": "bytes",
-              "bytes": 1276,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1304,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -79336,19 +79336,19 @@
             "URL-REGEX"
           ],
           "typeCounts": {
-            "IP-CIDR6": 2,
-            "DOMAIN-SUFFIX": 348,
+            "DOMAIN": 120,
             "DOMAIN-KEYWORD": 11,
-            "IP-CIDR": 4,
-            "URL-REGEX": 1,
+            "DOMAIN-SUFFIX": 1274,
+            "IP-ASN": 4,
+            "IP-CIDR": 9,
+            "IP-CIDR6": 2,
             "PROCESS-NAME": 14,
-            "IP-ASN": 3,
-            "DOMAIN": 70
+            "URL-REGEX": 1
           },
-          "totalLineCount": 453,
-          "sourceUpdatedAt": "2026-11-06T14:11:27.110Z",
-          "generatedAt": "2026-11-06T19:17:24.355Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 1435,
+          "sourceUpdatedAt": "2026-11-07T01:24:47.893Z",
+          "generatedAt": "2026-11-07T01:54:57.795Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://github.com/v2fly/domain-list-community",
             "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
@@ -79363,16 +79363,16 @@
               "extension": "list",
               "binary": false,
               "empty": false,
-              "recommended": true,
+              "recommended": false,
               "fileName": "GlobalAI.list",
               "path": "current/rules/Loon/rules/GlobalAI.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/GlobalAI.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
-              "sha256": "83a64ae79b6f79492326408488c976985321b4e2842f585c0a310782af4eb4e5",
-              "expectedSha256": "83a64ae79b6f79492326408488c976985321b4e2842f585c0a310782af4eb4e5",
+              "sha256": "337d21c6fcc09bbda6d04cf485fb0fa8bf4c226ea5b6f5a33fb533193534054e",
+              "expectedSha256": "337d21c6fcc09bbda6d04cf485fb0fa8bf4c226ea5b6f5a33fb533193534054e",
               "verification": "bytes",
-              "bytes": 13726,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 43180,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -79380,16 +79380,16 @@
               "extension": "list",
               "binary": false,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.list",
               "path": "current/rules/Loon/domain-set/GlobalAI.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/GlobalAI.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_domain-set_1fe683b884fc10e9.list",
-              "sha256": "d1570b638a623fa805581254f9af270395b78ce3bfe1824301cc99b517cadb66",
-              "expectedSha256": "d1570b638a623fa805581254f9af270395b78ce3bfe1824301cc99b517cadb66",
+              "sha256": "0f7df236e080e36a6d1c27c8b73c4d9fea2bf99d0706eb52e4f845526c91e869",
+              "expectedSha256": "0f7df236e080e36a6d1c27c8b73c4d9fea2bf99d0706eb52e4f845526c91e869",
               "verification": "bytes",
-              "bytes": 7586,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 24456,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -79397,16 +79397,16 @@
               "extension": "list",
               "binary": false,
               "empty": false,
-              "recommended": false,
+              "recommended": true,
               "fileName": "GlobalAI.list",
               "path": "current/rules/Loon/rule-set/GlobalAI.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/GlobalAI.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rule-set_bac4d01b39412c60.list",
-              "sha256": "93b88936f2a6687dbe9c3557577a28d01a730af1f611784bafbc886d2c6f3bd7",
-              "expectedSha256": "93b88936f2a6687dbe9c3557577a28d01a730af1f611784bafbc886d2c6f3bd7",
+              "sha256": "de1e9cb4e7ec96cbaee7f8777d69c57a0d9de6bc37b15824fd8a0465832e4364",
+              "expectedSha256": "de1e9cb4e7ec96cbaee7f8777d69c57a0d9de6bc37b15824fd8a0465832e4364",
               "verification": "bytes",
-              "bytes": 1232,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1428,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -79419,11 +79419,11 @@
               "path": "current/rules/Loon/mitm/GlobalAI.plugin",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/mitm/GlobalAI.plugin",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_mitm_fb6c89116b8e35ba.plugin",
-              "sha256": "3ab7e1cfc7dd7252bda7e43f7755e4f61ff9d7007c31dbdcbfe5b6dd917d8062",
-              "expectedSha256": "3ab7e1cfc7dd7252bda7e43f7755e4f61ff9d7007c31dbdcbfe5b6dd917d8062",
+              "sha256": "afdd4394448dfd709291f70b3f03bcc32a43b41ff72794f52f34b22fdf62bcb5",
+              "expectedSha256": "afdd4394448dfd709291f70b3f03bcc32a43b41ff72794f52f34b22fdf62bcb5",
               "verification": "bytes",
               "bytes": 168,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -80286,15 +80286,15 @@
             "url_regex_set": 1,
             "domain_set": 88,
             "ip_cidr6_set": 200,
-            "domain_suffix_set": 1117,
+            "domain_suffix_set": 1241,
             "user_agent_set": 19,
             "domain_keyword_set": 28,
-            "ip_cidr_set": 266
+            "ip_cidr_set": 270
           },
-          "totalLineCount": 1726,
-          "sourceUpdatedAt": "2026-11-06T07:11:23.095Z",
-          "generatedAt": "2026-11-06T19:18:55.584Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 1854,
+          "sourceUpdatedAt": "2026-11-07T01:24:00.655Z",
+          "generatedAt": "2026-11-07T01:46:10.634Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
             "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
@@ -80314,11 +80314,11 @@
               "path": "current/rules/Egern/rules/GlobalMedia.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/GlobalMedia.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rules_872637ff8943435d.yaml",
-              "sha256": "54df866c26def067174d40153ff8e84ad427ab4aacd8ef371485317918784b3d",
-              "expectedSha256": "54df866c26def067174d40153ff8e84ad427ab4aacd8ef371485317918784b3d",
+              "sha256": "66cfb0d7058933180f42961b9ddddce7ed053e3172cb3cb213fd10b9635ecd90",
+              "expectedSha256": "66cfb0d7058933180f42961b9ddddce7ed053e3172cb3cb213fd10b9635ecd90",
               "verification": "bytes",
-              "bytes": 35866,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 38841,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -80331,11 +80331,11 @@
               "path": "current/rules/Egern/mitm/GlobalMedia.module",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/mitm/GlobalMedia.module",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_mitm_19187e56f52bb25f.module",
-              "sha256": "1ebaf5ebb723f5adeba53c40171ca7e13ce41b2baeb0d2814683e2ff90dc05bd",
-              "expectedSha256": "1ebaf5ebb723f5adeba53c40171ca7e13ce41b2baeb0d2814683e2ff90dc05bd",
+              "sha256": "0b65764bb9a7d464d4ef40b0990842ed239e933bdbcfc0e9a364cb226acebbbf",
+              "expectedSha256": "0b65764bb9a7d464d4ef40b0990842ed239e933bdbcfc0e9a364cb226acebbbf",
               "verification": "bytes",
               "bytes": 171,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -80355,17 +80355,17 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 200,
-            "DOMAIN-SUFFIX": 1117,
+            "DOMAIN-SUFFIX": 1241,
             "DOMAIN-KEYWORD": 28,
-            "IP-CIDR": 266,
+            "IP-CIDR": 270,
             "DOMAIN-WILDCARD": 7,
             "PROCESS-NAME": 3,
             "DOMAIN": 88
           },
-          "totalLineCount": 1709,
-          "sourceUpdatedAt": "2026-11-06T07:11:23.561Z",
-          "generatedAt": "2026-11-06T19:18:56.221Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 1837,
+          "sourceUpdatedAt": "2026-11-07T01:24:00.702Z",
+          "generatedAt": "2026-11-07T01:46:10.640Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
             "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
@@ -80385,11 +80385,11 @@
               "path": "current/rules/Mihomo/classical/GlobalMedia.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/GlobalMedia.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_classical_f0880cec2c24ebd6.yaml",
-              "sha256": "d64763a7ddbe38594da980e45e7cd0651745d02350e7bc9bb10330a342aefc94",
-              "expectedSha256": "d64763a7ddbe38594da980e45e7cd0651745d02350e7bc9bb10330a342aefc94",
+              "sha256": "73b88c0eca15ac6623d7b39816536b1ef0e6ebc2b559883086a536e0e4095fca",
+              "expectedSha256": "73b88c0eca15ac6623d7b39816536b1ef0e6ebc2b559883086a536e0e4095fca",
               "verification": "bytes",
-              "bytes": 61024,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 65811,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -80402,11 +80402,11 @@
               "path": "current/rules/Mihomo/domain/GlobalMedia.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/GlobalMedia.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_domain_7e8ef901d3f847b9.yaml",
-              "sha256": "1536e89777faddb52d4c1d4d7dee4b12bd1b1342e33368ef21b6c01cfacdaaa9",
-              "expectedSha256": "1536e89777faddb52d4c1d4d7dee4b12bd1b1342e33368ef21b6c01cfacdaaa9",
+              "sha256": "a98cff493e7df20c718cc434f2f17457de7ae0551a96fbe1062c4eeaccbffdd3",
+              "expectedSha256": "a98cff493e7df20c718cc434f2f17457de7ae0551a96fbe1062c4eeaccbffdd3",
               "verification": "bytes",
-              "bytes": 25795,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 28817,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -80419,11 +80419,11 @@
               "path": "current/rules/Mihomo/domain-mrs/GlobalMedia.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/GlobalMedia.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_domain-mrs_2fd88f988b56e515.mrs",
-              "sha256": "613ed0f1c195fd43342edd475a0741921aa81cab78d8e671e3c08a107482de5d",
-              "expectedSha256": "613ed0f1c195fd43342edd475a0741921aa81cab78d8e671e3c08a107482de5d",
+              "sha256": "f70feca90f13b08f5f92beeeb171632410a6496c5f6a914268bdfedf99c104c2",
+              "expectedSha256": "f70feca90f13b08f5f92beeeb171632410a6496c5f6a914268bdfedf99c104c2",
               "verification": "bytes",
-              "bytes": 10702,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 12228,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -80436,11 +80436,11 @@
               "path": "current/rules/Mihomo/ipcidr/GlobalMedia.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/GlobalMedia.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_ipcidr_69139bd20156c557.yaml",
-              "sha256": "c596bc634700dafdff00ad991a05f970db96389c0c114577e4ff5a5594db9fe6",
-              "expectedSha256": "c596bc634700dafdff00ad991a05f970db96389c0c114577e4ff5a5594db9fe6",
+              "sha256": "f939d5920b75f7007e2a6719399b331eed6a1075593e939bd1a23c4d758af39e",
+              "expectedSha256": "f939d5920b75f7007e2a6719399b331eed6a1075593e939bd1a23c4d758af39e",
               "verification": "bytes",
-              "bytes": 9906,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 9983,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -80453,11 +80453,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/GlobalMedia.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/GlobalMedia.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_ipcidr-mrs_c48575703b0450c7.mrs",
-              "sha256": "3baeba7d553b3e465975fd92c37b28a1531a2d0b4291d762fc0bf10bd44b9ee8",
-              "expectedSha256": "3baeba7d553b3e465975fd92c37b28a1531a2d0b4291d762fc0bf10bd44b9ee8",
+              "sha256": "c351836b8d7b8a57ebb2f8192d68e6a1b281bf1a1f91c36ceb51b28c9920cc69",
+              "expectedSha256": "c351836b8d7b8a57ebb2f8192d68e6a1b281bf1a1f91c36ceb51b28c9920cc69",
               "verification": "bytes",
-              "bytes": 608,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 646,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -80470,11 +80470,11 @@
               "path": "current/rules/Mihomo/classical-rest/GlobalMedia.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/GlobalMedia.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_classical-rest_4a756ba0f355977d.yaml",
-              "sha256": "00142eea4dcfc9f247e3bc39453a68584654dab455e0c8348ac02783aff90d2a",
-              "expectedSha256": "00142eea4dcfc9f247e3bc39453a68584654dab455e0c8348ac02783aff90d2a",
+              "sha256": "d8e5605404756e5be514c426392f58d09674b4b2d7965306f8139c7d4274ef13",
+              "expectedSha256": "d8e5605404756e5be514c426392f58d09674b4b2d7965306f8139c7d4274ef13",
               "verification": "bytes",
               "bytes": 1404,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -80495,18 +80495,18 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 200,
-            "DOMAIN-SUFFIX": 1117,
+            "DOMAIN-SUFFIX": 1241,
             "DOMAIN-KEYWORD": 28,
-            "IP-CIDR": 266,
+            "IP-CIDR": 270,
             "URL-REGEX": 1,
             "PROCESS-NAME": 3,
             "DOMAIN": 88,
             "USER-AGENT": 19
           },
-          "totalLineCount": 1722,
-          "sourceUpdatedAt": "2026-11-06T14:11:24.136Z",
-          "generatedAt": "2026-11-06T19:18:55.772Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 1850,
+          "sourceUpdatedAt": "2026-11-07T01:24:00.517Z",
+          "generatedAt": "2026-11-07T01:46:10.612Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
             "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
@@ -80526,11 +80526,11 @@
               "path": "current/rules/Loon/rules/GlobalMedia.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/GlobalMedia.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rules_cbbbcb6dca56af83.list",
-              "sha256": "774c0fc308da527970076b8034e040f8913b291f0f9c8a2becad848ef98929f0",
-              "expectedSha256": "af78b98ff9ff31292bcad922dbf4cc2981b3aa8a0012a00dc5a05f4d20857a97",
-              "verification": "normalized-header",
-              "bytes": 54480,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "dfee44d39adb4daec30576844c886c2379e3522d8c5c2edfe54a3013a15cc387",
+              "expectedSha256": "dfee44d39adb4daec30576844c886c2379e3522d8c5c2edfe54a3013a15cc387",
+              "verification": "bytes",
+              "bytes": 58755,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -80543,11 +80543,11 @@
               "path": "current/rules/Loon/domain-set/GlobalMedia.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/GlobalMedia.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_domain-set_55cdeb67ae4bf01d.list",
-              "sha256": "8715f5337706189b01649817e320ba1108861c89db36cffff04976a3515c13ff",
-              "expectedSha256": "ea9eca78a3ea258af8be2bbce1b7a3d640c954c7bc946541598aa3060854f069",
-              "verification": "normalized-header",
-              "bytes": 20947,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "cd815ead1b9dd7383835df3940e5d078dc6aa7e8d52e9807cbc0de492833bb9d",
+              "expectedSha256": "cd815ead1b9dd7383835df3940e5d078dc6aa7e8d52e9807cbc0de492833bb9d",
+              "verification": "bytes",
+              "bytes": 23473,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -80560,11 +80560,11 @@
               "path": "current/rules/Loon/rule-set/GlobalMedia.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/GlobalMedia.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rule-set_bcb7dff870c40ff2.list",
-              "sha256": "689b415638300d137f7f52029260e92bfeea8c5422ecc0d735878d8f315fbf80",
-              "expectedSha256": "fade25bdd18f64a2ec86232312b2a50fabe1389cffd95e8da2f8ea5e51e558bc",
-              "verification": "normalized-header",
-              "bytes": 18504,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "74b4e7d9b2734b79184648377a201bed7b64e9410566f97f5d6b0a0fa4a253f2",
+              "expectedSha256": "74b4e7d9b2734b79184648377a201bed7b64e9410566f97f5d6b0a0fa4a253f2",
+              "verification": "bytes",
+              "bytes": 18641,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "mitm",
@@ -80577,11 +80577,11 @@
               "path": "current/rules/Loon/mitm/GlobalMedia.plugin",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/mitm/GlobalMedia.plugin",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_mitm_1c889267959fc3e2.plugin",
-              "sha256": "b1543ee38a462ec960447b9c7d53b2e8e33e1af53223f3a1a431c8a702604c33",
-              "expectedSha256": "b1543ee38a462ec960447b9c7d53b2e8e33e1af53223f3a1a431c8a702604c33",
+              "sha256": "915dacaaa8103e52186cc47de4354303fb169cb24a1036c8ca9bcc1017ee0425",
+              "expectedSha256": "915dacaaa8103e52186cc47de4354303fb169cb24a1036c8ca9bcc1017ee0425",
               "verification": "bytes",
               "bytes": 170,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -95480,14 +95480,15 @@
           "description": "",
           "types": [
             "domain_set",
-            "domain_suffix_set"
+            "domain_suffix_set",
+            "ip_cidr_set"
           ],
           "typeCounts": {
             "domain_set": 6,
             "domain_suffix_set": 3
           },
           "totalLineCount": 9,
-          "sourceUpdatedAt": "2026-07-26T07:44:48.377Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:03.271Z",
           "generatedAt": "2026-11-06T19:18:36.346Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -95523,14 +95524,15 @@
           "description": "",
           "types": [
             "DOMAIN",
-            "DOMAIN-SUFFIX"
+            "DOMAIN-SUFFIX",
+            "IP-CIDR"
           ],
           "typeCounts": {
             "DOMAIN": 6,
             "DOMAIN-SUFFIX": 3
           },
           "totalLineCount": 9,
-          "sourceUpdatedAt": "2026-07-26T07:44:49.410Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:03.301Z",
           "generatedAt": "2026-11-06T19:18:36.919Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -95600,14 +95602,15 @@
           "description": "",
           "types": [
             "DOMAIN",
-            "DOMAIN-SUFFIX"
+            "DOMAIN-SUFFIX",
+            "IP-CIDR"
           ],
           "typeCounts": {
             "DOMAIN": 6,
             "DOMAIN-SUFFIX": 3
           },
           "totalLineCount": 9,
-          "sourceUpdatedAt": "2026-07-26T07:44:44.176Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:03.119Z",
           "generatedAt": "2026-11-06T19:18:36.422Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -111545,13 +111548,13 @@
           "typeCounts": {
             "domain_set": 17,
             "ip_cidr6_set": 14,
-            "domain_suffix_set": 124,
-            "ip_cidr_set": 18
+            "domain_suffix_set": 248,
+            "ip_cidr_set": 22
           },
-          "totalLineCount": 173,
-          "sourceUpdatedAt": "2026-10-29T02:37:39.171Z",
-          "generatedAt": "2026-11-06T19:21:45.551Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 301,
+          "sourceUpdatedAt": "2026-11-07T01:24:02.945Z",
+          "generatedAt": "2026-11-07T01:43:59.014Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
             "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
@@ -111576,11 +111579,11 @@
               "path": "current/rules/Egern/rules/Lan.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/Lan.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rules_53dad82c5f61c57a.yaml",
-              "sha256": "4e772f084001271de044b9333dcdd662390555015b50a6bd6a1bc54ac13c5371",
-              "expectedSha256": "4e772f084001271de044b9333dcdd662390555015b50a6bd6a1bc54ac13c5371",
+              "sha256": "a46aad4b9f42f6076bcf4b5be15ae326e1c550f5247eae2ad6cd2fa509453e21",
+              "expectedSha256": "a46aad4b9f42f6076bcf4b5be15ae326e1c550f5247eae2ad6cd2fa509453e21",
               "verification": "bytes",
-              "bytes": 3974,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 6949,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -111597,14 +111600,14 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 14,
-            "DOMAIN-SUFFIX": 124,
-            "IP-CIDR": 18,
+            "DOMAIN-SUFFIX": 248,
+            "IP-CIDR": 22,
             "DOMAIN": 17
           },
-          "totalLineCount": 173,
-          "sourceUpdatedAt": "2026-10-29T02:37:39.200Z",
-          "generatedAt": "2026-11-06T19:21:46.278Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 301,
+          "sourceUpdatedAt": "2026-11-07T01:24:02.975Z",
+          "generatedAt": "2026-11-07T01:43:59.020Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
             "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
@@ -111629,11 +111632,11 @@
               "path": "current/rules/Mihomo/classical/Lan.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/Lan.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_classical_24817c9e646b9514.yaml",
-              "sha256": "b4b69d721e94cd64d2e8a7fcf0122171f1fba76ea6dda45d92836b886cb9d977",
-              "expectedSha256": "b4b69d721e94cd64d2e8a7fcf0122171f1fba76ea6dda45d92836b886cb9d977",
+              "sha256": "6a7845e91fe7e3109b7769f4678537618c1044b9a5fdb139aec603a4b1001616",
+              "expectedSha256": "6a7845e91fe7e3109b7769f4678537618c1044b9a5fdb139aec603a4b1001616",
               "verification": "bytes",
-              "bytes": 6443,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 11230,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -111646,11 +111649,11 @@
               "path": "current/rules/Mihomo/domain/Lan.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/Lan.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_domain_bd9178c1b73a1544.yaml",
-              "sha256": "b89bee70a8c82ab3d8d5c838c51c108e6342bc2e931137bbbf05a2627b2b270d",
-              "expectedSha256": "b89bee70a8c82ab3d8d5c838c51c108e6342bc2e931137bbbf05a2627b2b270d",
+              "sha256": "6efebbb4c5b5ba5d2a9afc4e3c51021f6c306ca43b006a65b96cda0b81915db5",
+              "expectedSha256": "6efebbb4c5b5ba5d2a9afc4e3c51021f6c306ca43b006a65b96cda0b81915db5",
               "verification": "bytes",
-              "bytes": 3532,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 6554,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -111663,11 +111666,11 @@
               "path": "current/rules/Mihomo/domain-mrs/Lan.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/Lan.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_domain-mrs_1e7f3014460f64eb.mrs",
-              "sha256": "2efdddb9fdfbed1edef62cb20118d694a4403add0d683bdf8989b2675f83ba31",
-              "expectedSha256": "2efdddb9fdfbed1edef62cb20118d694a4403add0d683bdf8989b2675f83ba31",
+              "sha256": "a695c4e9545362ea8705ff8a152ff709bfebe7a4cce5566a47e4e97263bf0ec8",
+              "expectedSha256": "a695c4e9545362ea8705ff8a152ff709bfebe7a4cce5566a47e4e97263bf0ec8",
               "verification": "bytes",
-              "bytes": 809,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 2423,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -111680,11 +111683,11 @@
               "path": "current/rules/Mihomo/ipcidr/Lan.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/Lan.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_ipcidr_e4bd3a9250ac9524.yaml",
-              "sha256": "dc420f7428363a184002815a3a7842d019b53eb038b087c51595984c82da7535",
-              "expectedSha256": "dc420f7428363a184002815a3a7842d019b53eb038b087c51595984c82da7535",
+              "sha256": "8e5be16825bb652691efc789e3afc534003301e3a562e86a6935b65f40dfdf5a",
+              "expectedSha256": "8e5be16825bb652691efc789e3afc534003301e3a562e86a6935b65f40dfdf5a",
               "verification": "bytes",
-              "bytes": 683,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 760,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -111697,11 +111700,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/Lan.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/Lan.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_ipcidr-mrs_6d0ea10e6866d187.mrs",
-              "sha256": "f313cfd33803c4d868690f0576028493aea23040b9b9717f07da2a7d3b44245e",
-              "expectedSha256": "f313cfd33803c4d868690f0576028493aea23040b9b9717f07da2a7d3b44245e",
+              "sha256": "043b0753aa110dd0721a8d9b80afde5a685ebced12ea4f8bd28c957015f0c196",
+              "expectedSha256": "043b0753aa110dd0721a8d9b80afde5a685ebced12ea4f8bd28c957015f0c196",
               "verification": "bytes",
-              "bytes": 238,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 286,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -111718,14 +111721,14 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 14,
-            "DOMAIN-SUFFIX": 124,
-            "IP-CIDR": 18,
+            "DOMAIN-SUFFIX": 248,
+            "IP-CIDR": 22,
             "DOMAIN": 17
           },
-          "totalLineCount": 173,
-          "sourceUpdatedAt": "2026-10-29T02:37:39.021Z",
-          "generatedAt": "2026-11-06T19:21:45.693Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 301,
+          "sourceUpdatedAt": "2026-11-07T01:24:02.815Z",
+          "generatedAt": "2026-11-07T01:43:58.989Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
             "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
@@ -111750,11 +111753,11 @@
               "path": "current/rules/Loon/rules/Lan.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/Lan.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rules_a7096f98ad43c9dc.list",
-              "sha256": "1d8ac194a03e4a72a645ec13978974fde4dd8edb9104742f3f7ba132e6e9f3dc",
-              "expectedSha256": "23fdb98072ec01570e66ff1ddc08ba1477ffd0e822bb538ed2efdfe7f06f2141",
-              "verification": "normalized-header",
-              "bytes": 5720,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "bd50bb7349f829c8f2416bc9f7a5197c1639c143fdfdac8fa623257d8e7a3546",
+              "expectedSha256": "bd50bb7349f829c8f2416bc9f7a5197c1639c143fdfdac8fa623257d8e7a3546",
+              "verification": "bytes",
+              "bytes": 9995,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -111767,11 +111770,11 @@
               "path": "current/rules/Loon/domain-set/Lan.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/Lan.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_domain-set_c2f9919a12faad5a.list",
-              "sha256": "7aaa71f00b21bee7a29b23c2ff6a9bc5abe72b1ccaad129fffe41d18a4f03627",
-              "expectedSha256": "533cddfb2b06e8518397420384e3bdf40ced8afe15d325a62dbf3392c90381c9",
-              "verification": "normalized-header",
-              "bytes": 2940,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "7ad84eddd9a2cecd03bba5154ee0756d4bc656da42771334c60da1f22fa257d8",
+              "expectedSha256": "7ad84eddd9a2cecd03bba5154ee0756d4bc656da42771334c60da1f22fa257d8",
+              "verification": "bytes",
+              "bytes": 5466,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -111784,11 +111787,11 @@
               "path": "current/rules/Loon/rule-set/Lan.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/Lan.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rule-set_c947f916763f9e26.list",
-              "sha256": "2695397aaca225d5089539f9e72209a1d83ca0a4b9e25d1a2d1bac4d52dd5b47",
-              "expectedSha256": "99b66cb721e8357d30a50b3675082aac20e18ba70ebafc4202ba163b95f567dd",
-              "verification": "normalized-header",
-              "bytes": 1149,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "697862e44e06615c9b6152c4d535fcbe07ff5987f378a34f9b0023f9ff5af80e",
+              "expectedSha256": "697862e44e06615c9b6152c4d535fcbe07ff5987f378a34f9b0023f9ff5af80e",
+              "verification": "bytes",
+              "bytes": 1286,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -124421,14 +124424,15 @@
           "description": "",
           "types": [
             "domain_keyword_set",
-            "domain_suffix_set"
+            "domain_suffix_set",
+            "ip_cidr_set"
           ],
           "typeCounts": {
             "domain_suffix_set": 80,
             "domain_keyword_set": 3
           },
           "totalLineCount": 83,
-          "sourceUpdatedAt": "2026-08-05T03:59:11.321Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:01.483Z",
           "generatedAt": "2026-11-06T19:18:10.296Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -124463,14 +124467,15 @@
           "description": "",
           "types": [
             "DOMAIN-KEYWORD",
-            "DOMAIN-SUFFIX"
+            "DOMAIN-SUFFIX",
+            "IP-CIDR"
           ],
           "typeCounts": {
             "DOMAIN-SUFFIX": 80,
             "DOMAIN-KEYWORD": 3
           },
           "totalLineCount": 83,
-          "sourceUpdatedAt": "2026-08-05T03:59:13.721Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:01.520Z",
           "generatedAt": "2026-11-06T19:18:10.725Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -124556,14 +124561,15 @@
           "description": "",
           "types": [
             "DOMAIN-KEYWORD",
-            "DOMAIN-SUFFIX"
+            "DOMAIN-SUFFIX",
+            "IP-CIDR"
           ],
           "typeCounts": {
             "DOMAIN-SUFFIX": 80,
             "DOMAIN-KEYWORD": 3
           },
           "totalLineCount": 83,
-          "sourceUpdatedAt": "2026-08-05T03:59:03.439Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:01.349Z",
           "generatedAt": "2026-11-06T19:18:10.447Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -132867,14 +132873,14 @@
           ],
           "typeCounts": {
             "domain_set": 1,
-            "domain_suffix_set": 13,
+            "domain_suffix_set": 137,
             "user_agent_set": 3,
-            "ip_cidr_set": 35
+            "ip_cidr_set": 39
           },
-          "totalLineCount": 52,
-          "sourceUpdatedAt": "2026-07-26T07:37:12.270Z",
-          "generatedAt": "2026-11-06T19:17:19.587Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 180,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.376Z",
+          "generatedAt": "2026-11-07T01:41:07.643Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
@@ -132896,11 +132902,11 @@
               "path": "current/rules/Egern/rules/NetEaseMusic.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/NetEaseMusic.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_rules_aa10a8e27c834825.yaml",
-              "sha256": "6dc366d93be00eb9ec7b3ca8e3718979de9845245dfd6cb2ae5909207d0566bd",
-              "expectedSha256": "6dc366d93be00eb9ec7b3ca8e3718979de9845245dfd6cb2ae5909207d0566bd",
+              "sha256": "7802d1ff7c08bca32c3bbf5c20f8ef24810379794d2c20dc96585acb70e819b9",
+              "expectedSha256": "7802d1ff7c08bca32c3bbf5c20f8ef24810379794d2c20dc96585acb70e819b9",
               "verification": "bytes",
-              "bytes": 1366,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4341,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -132915,14 +132921,14 @@
             "IP-CIDR"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 13,
-            "IP-CIDR": 35,
+            "DOMAIN-SUFFIX": 137,
+            "IP-CIDR": 39,
             "DOMAIN": 1
           },
-          "totalLineCount": 49,
-          "sourceUpdatedAt": "2026-07-26T07:37:16.570Z",
-          "generatedAt": "2026-11-06T19:17:20.335Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 177,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.422Z",
+          "generatedAt": "2026-11-07T01:41:07.649Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
@@ -132944,11 +132950,11 @@
               "path": "current/rules/Mihomo/classical/NetEaseMusic.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/NetEaseMusic.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_classical_3936a4112b52e5e8.yaml",
-              "sha256": "4f5f913504d0ba8808f7fa9d06850301150c1de479a6e14c1f00b57366f18313",
-              "expectedSha256": "4f5f913504d0ba8808f7fa9d06850301150c1de479a6e14c1f00b57366f18313",
+              "sha256": "759726eea693d099500e006b69b957ea6c7137c39070c3b345d488f38d359145",
+              "expectedSha256": "759726eea693d099500e006b69b957ea6c7137c39070c3b345d488f38d359145",
               "verification": "bytes",
-              "bytes": 2098,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 6886,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -132961,11 +132967,11 @@
               "path": "current/rules/Mihomo/domain/NetEaseMusic.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/NetEaseMusic.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain_c243f30524a47eb4.yaml",
-              "sha256": "3f4b8681f84207be0fa5f5c4300d2e3217ca4c4a3c2b182f93a15cc4a01d1e42",
-              "expectedSha256": "3f4b8681f84207be0fa5f5c4300d2e3217ca4c4a3c2b182f93a15cc4a01d1e42",
+              "sha256": "e842d92f2550bf96c0a76f2512d72f62eaa962234594261e82e0d96896f5d582",
+              "expectedSha256": "e842d92f2550bf96c0a76f2512d72f62eaa962234594261e82e0d96896f5d582",
               "verification": "bytes",
-              "bytes": 495,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 3518,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -132978,11 +132984,11 @@
               "path": "current/rules/Mihomo/domain-mrs/NetEaseMusic.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/NetEaseMusic.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain-mrs_a3c5cd4062ae316b.mrs",
-              "sha256": "396f6fe520cec0bb563312bb5fd858969063440ecb886c2df6d6b3b46238a0d9",
-              "expectedSha256": "396f6fe520cec0bb563312bb5fd858969063440ecb886c2df6d6b3b46238a0d9",
+              "sha256": "3486844915fdcaa40b5d04a9a0180bb5ce7de00ba9e25d7a3c2f5f9101ed5480",
+              "expectedSha256": "3486844915fdcaa40b5d04a9a0180bb5ce7de00ba9e25d7a3c2f5f9101ed5480",
               "verification": "bytes",
-              "bytes": 232,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1703,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -132995,11 +133001,11 @@
               "path": "current/rules/Mihomo/ipcidr/NetEaseMusic.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/NetEaseMusic.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_ipcidr_a7c2736710608cde.yaml",
-              "sha256": "5124358bddbf32a901755813c3ffd542bf56d7cc3e469ba992e9bac547d10374",
-              "expectedSha256": "5124358bddbf32a901755813c3ffd542bf56d7cc3e469ba992e9bac547d10374",
+              "sha256": "4773bf94b3a219111fd5a03878d36b538b54cd1877839016e7951eee583fe34c",
+              "expectedSha256": "4773bf94b3a219111fd5a03878d36b538b54cd1877839016e7951eee583fe34c",
               "verification": "bytes",
-              "bytes": 896,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 973,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -133012,11 +133018,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/NetEaseMusic.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/NetEaseMusic.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_ipcidr-mrs_a8837bd22e84f206.mrs",
-              "sha256": "e68816da66641b0571d94c401cfc2391a3ac00f7a4622e2752edac81d2a43250",
-              "expectedSha256": "e68816da66641b0571d94c401cfc2391a3ac00f7a4622e2752edac81d2a43250",
+              "sha256": "8657739611a8544c9ca5c507de970086ad29931e2de4d11b8a6786aae87475bd",
+              "expectedSha256": "8657739611a8544c9ca5c507de970086ad29931e2de4d11b8a6786aae87475bd",
               "verification": "bytes",
-              "bytes": 146,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 179,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -133032,15 +133038,15 @@
             "USER-AGENT"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 13,
-            "IP-CIDR": 35,
+            "DOMAIN-SUFFIX": 137,
+            "IP-CIDR": 39,
             "DOMAIN": 1,
             "USER-AGENT": 3
           },
-          "totalLineCount": 52,
-          "sourceUpdatedAt": "2026-07-26T07:37:07.272Z",
-          "generatedAt": "2026-11-06T19:17:19.722Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 180,
+          "sourceUpdatedAt": "2026-11-07T01:24:03.235Z",
+          "generatedAt": "2026-11-07T01:41:07.611Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
@@ -133062,11 +133068,11 @@
               "path": "current/rules/Loon/rules/NetEaseMusic.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/NetEaseMusic.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_rules_4f571247a2bee4d7.list",
-              "sha256": "f4355c5f07cbfef37237573d16405e2bf36c0b1aba120d7c2c237b2722519268",
-              "expectedSha256": "ca405b103e43328820978044359a33749bfb02c7261ea97d45ade98272ad6119",
-              "verification": "normalized-header",
-              "bytes": 2027,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "892865b3f7bb2660cfff3c12224e66be779058eb6b254451269d25407f8cdf13",
+              "expectedSha256": "892865b3f7bb2660cfff3c12224e66be779058eb6b254451269d25407f8cdf13",
+              "verification": "bytes",
+              "bytes": 6303,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -133079,11 +133085,11 @@
               "path": "current/rules/Loon/domain-set/NetEaseMusic.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/NetEaseMusic.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain-set_5e28d0389585d243.list",
-              "sha256": "bda900015dd743e4ae636738675a4eb599781d46ec35668c30a67950a44095dd",
-              "expectedSha256": "f9f1a34faaae5eb9ae9592942301083624e2cec78bb212d5e26b833b5701954c",
-              "verification": "normalized-header",
-              "bytes": 411,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "bfc294eac86c1b884afd4bc7fc04bd3448ef96277be041c4d61ae5a7ea6b573d",
+              "expectedSha256": "bfc294eac86c1b884afd4bc7fc04bd3448ef96277be041c4d61ae5a7ea6b573d",
+              "verification": "bytes",
+              "bytes": 2938,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -133096,11 +133102,11 @@
               "path": "current/rules/Loon/rule-set/NetEaseMusic.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/NetEaseMusic.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_rule-set_38f14fb1ad012627.list",
-              "sha256": "3d0512318d519647ebb2fb4157d4243f6059876a248e9cab790d0d48f99897b1",
-              "expectedSha256": "314f5101cb3c7bb46229c1222a031878b6e6a9f3f07c77a5b05a2c5451e7e0a0",
-              "verification": "normalized-header",
-              "bytes": 1549,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "c776d0c54e8871a5e757b1046adce23ce509fd72d41964db6ee51ad785559f0f",
+              "expectedSha256": "c776d0c54e8871a5e757b1046adce23ce509fd72d41964db6ee51ad785559f0f",
+              "verification": "bytes",
+              "bytes": 1686,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -150586,14 +150592,14 @@
           "typeCounts": {
             "domain_wildcard_set": 8,
             "domain_set": 12,
-            "domain_suffix_set": 39864,
+            "domain_suffix_set": 39988,
             "domain_keyword_set": 2,
-            "ip_cidr_set": 9
+            "ip_cidr_set": 13
           },
-          "totalLineCount": 39895,
-          "sourceUpdatedAt": "2026-11-06T07:11:30.723Z",
-          "generatedAt": "2026-11-06T19:16:06.808Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 40023,
+          "sourceUpdatedAt": "2026-11-07T01:24:10.167Z",
+          "generatedAt": "2026-11-07T01:51:04.305Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
             "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
@@ -150613,11 +150619,11 @@
               "path": "current/rules/Egern/rules/Privacy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/Privacy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_rules_739b30461c619f6f.yaml",
-              "sha256": "338c7471783e6af5590114854073559d34c52ecd043c1aaa05d31bc10e79ff3a",
-              "expectedSha256": "338c7471783e6af5590114854073559d34c52ecd043c1aaa05d31bc10e79ff3a",
+              "sha256": "b1777e1dac2f9b5683b26c2eedb63aa997f798f953395707349afbf25a8e7546",
+              "expectedSha256": "b1777e1dac2f9b5683b26c2eedb63aa997f798f953395707349afbf25a8e7546",
               "verification": "bytes",
-              "bytes": 1045413,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1048388,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -150634,16 +150640,16 @@
             "IP-CIDR"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 39864,
+            "DOMAIN-SUFFIX": 39988,
             "DOMAIN-KEYWORD": 2,
-            "IP-CIDR": 9,
+            "IP-CIDR": 13,
             "DOMAIN-WILDCARD": 8,
             "DOMAIN": 12
           },
-          "totalLineCount": 39895,
-          "sourceUpdatedAt": "2026-11-06T07:11:33.258Z",
-          "generatedAt": "2026-11-06T19:16:09.574Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 40023,
+          "sourceUpdatedAt": "2026-11-07T01:24:10.219Z",
+          "generatedAt": "2026-11-07T01:51:04.313Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
             "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
@@ -150663,11 +150669,11 @@
               "path": "current/rules/Mihomo/classical/Privacy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/Privacy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_classical_9f1f2f25eb233756.yaml",
-              "sha256": "e4599c79cd1200ad34f55aaee848018d41815d793d4001edda4b09def5f47959",
-              "expectedSha256": "e4599c79cd1200ad34f55aaee848018d41815d793d4001edda4b09def5f47959",
+              "sha256": "f4aca737e48a6c8848b6fb2b178d85913e05595b514843e55d53103b8031225a",
+              "expectedSha256": "f4aca737e48a6c8848b6fb2b178d85913e05595b514843e55d53103b8031225a",
               "verification": "bytes",
-              "bytes": 1603926,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1608714,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -150680,11 +150686,11 @@
               "path": "current/rules/Mihomo/domain/Privacy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/Privacy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_domain_ab0398564876b1eb.yaml",
-              "sha256": "ed3fc5ea69e360324ca81ccdef898a6de6c1a67b77404e4952a215566a44b253",
-              "expectedSha256": "ed3fc5ea69e360324ca81ccdef898a6de6c1a67b77404e4952a215566a44b253",
+              "sha256": "f11b665705a088c95125c32c3c489bd97448a989daa88a7e662a6807e863573e",
+              "expectedSha256": "f11b665705a088c95125c32c3c489bd97448a989daa88a7e662a6807e863573e",
               "verification": "bytes",
-              "bytes": 1084793,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1087815,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -150697,11 +150703,11 @@
               "path": "current/rules/Mihomo/domain-mrs/Privacy.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/Privacy.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_domain-mrs_4cba62738a6a6290.mrs",
-              "sha256": "35dc87ca033cbcce22ae8dbae47f0e9a523b7f5623585da837510318a54abef7",
-              "expectedSha256": "35dc87ca033cbcce22ae8dbae47f0e9a523b7f5623585da837510318a54abef7",
+              "sha256": "f7ee2b7369369af45229a3bf191b61edf8dd6177fd5b7d2312b3b3a80ea2bf3d",
+              "expectedSha256": "f7ee2b7369369af45229a3bf191b61edf8dd6177fd5b7d2312b3b3a80ea2bf3d",
               "verification": "bytes",
-              "bytes": 381196,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 382377,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -150714,11 +150720,11 @@
               "path": "current/rules/Mihomo/ipcidr/Privacy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/Privacy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_ipcidr_cca6233a8a1d5096.yaml",
-              "sha256": "c9ca0894884a57e06e06b139cc616367c737764c186adacfe829bd36d145feca",
-              "expectedSha256": "c9ca0894884a57e06e06b139cc616367c737764c186adacfe829bd36d145feca",
+              "sha256": "27b2f6520f34d2afa89b20333a7cc9af19495bea7cfab8a02646354af363e600",
+              "expectedSha256": "27b2f6520f34d2afa89b20333a7cc9af19495bea7cfab8a02646354af363e600",
               "verification": "bytes",
-              "bytes": 331,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 409,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -150731,11 +150737,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/Privacy.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/Privacy.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_ipcidr-mrs_58d172d75d69beab.mrs",
-              "sha256": "acf98b05b9185a25c5ce1ded15695f517483858eec2c5037e54aef5c94a25b3f",
-              "expectedSha256": "acf98b05b9185a25c5ce1ded15695f517483858eec2c5037e54aef5c94a25b3f",
+              "sha256": "0f5ccbd786da24417974fdef9857cd9c07cb28c75e59c35aa25d139b292cf994",
+              "expectedSha256": "0f5ccbd786da24417974fdef9857cd9c07cb28c75e59c35aa25d139b292cf994",
               "verification": "bytes",
-              "bytes": 90,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 121,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -150748,11 +150754,11 @@
               "path": "current/rules/Mihomo/classical-rest/Privacy.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/Privacy.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_classical-rest_2064734c9d6f64ff.yaml",
-              "sha256": "74c96528f6e90887ddbdb9205f82fe25bf52237331de9a1ad26e1aa23692ce75",
-              "expectedSha256": "74c96528f6e90887ddbdb9205f82fe25bf52237331de9a1ad26e1aa23692ce75",
+              "sha256": "a6024cd268cfe8e5fb2b7bbbe989c29794b9d28d7d1ef52b073799fbb4b95165",
+              "expectedSha256": "a6024cd268cfe8e5fb2b7bbbe989c29794b9d28d7d1ef52b073799fbb4b95165",
               "verification": "bytes",
               "bytes": 579,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -150768,15 +150774,15 @@
             "IP-CIDR"
           ],
           "typeCounts": {
-            "DOMAIN-SUFFIX": 39864,
+            "DOMAIN-SUFFIX": 39988,
             "DOMAIN-KEYWORD": 2,
-            "IP-CIDR": 9,
+            "IP-CIDR": 13,
             "DOMAIN": 12
           },
-          "totalLineCount": 39887,
-          "sourceUpdatedAt": "2026-11-06T07:11:22.943Z",
-          "generatedAt": "2026-11-06T19:16:07.124Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 40015,
+          "sourceUpdatedAt": "2026-11-07T01:24:04.881Z",
+          "generatedAt": "2026-11-07T01:51:04.273Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
             "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
@@ -150796,11 +150802,11 @@
               "path": "current/rules/Loon/rules/Privacy.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/Privacy.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_rules_d4203291780c2be4.list",
-              "sha256": "e6acdacbca84b071bdb1689435d99719d07d197f95d2bf8374dde0b5e5fe26b9",
-              "expectedSha256": "c3d13b33393e85a37c1842be25a14c03dba97afd59b7c6cf2ab6ee8299d0ddd7",
-              "verification": "normalized-header",
-              "bytes": 1444006,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "1cab818f3ad5842b18ca538a72f991a47f03d9affba3b2c828cbb5be496a19aa",
+              "expectedSha256": "1cab818f3ad5842b18ca538a72f991a47f03d9affba3b2c828cbb5be496a19aa",
+              "verification": "bytes",
+              "bytes": 1448282,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -150813,11 +150819,11 @@
               "path": "current/rules/Loon/domain-set/Privacy.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/Privacy.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_domain-set_5202003127749bef.list",
-              "sha256": "a8bdc254b92f82568ece95283a63407c03af88c19a5ac779576070540f941690",
-              "expectedSha256": "630d20d77505854e3252db11852da5aa5a83cc7b5bf4517a5385d8f8fc343b5c",
-              "verification": "normalized-header",
-              "bytes": 925261,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "0b904f4450668790a465b034962bb05ca0256b7668d1ef5883e1ba2788fbbad1",
+              "expectedSha256": "0b904f4450668790a465b034962bb05ca0256b7668d1ef5883e1ba2788fbbad1",
+              "verification": "bytes",
+              "bytes": 927787,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -150830,11 +150836,11 @@
               "path": "current/rules/Loon/rule-set/Privacy.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/Privacy.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Privacy_rule-set_ae3fad2dacd8f3d5.list",
-              "sha256": "6f4715a99c68e05b97666b971207be278e1c3966dc14a003fc6f21f882361b18",
-              "expectedSha256": "ab7c1ddadef96c710e380f950fb57969510b80eaac78a895491216911c20eeec",
-              "verification": "normalized-header",
-              "bytes": 533,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "12cce1b9cd327bf1baacfcf8c78c0572f638940102dc1a8bda63ff6d8504459e",
+              "expectedSha256": "12cce1b9cd327bf1baacfcf8c78c0572f638940102dc1a8bda63ff6d8504459e",
+              "verification": "bytes",
+              "bytes": 671,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }
@@ -171842,6 +171848,7 @@
             "domain_keyword_set",
             "domain_set",
             "domain_suffix_set",
+            "ip_cidr_set",
             "user_agent_set"
           ],
           "typeCounts": {
@@ -171851,7 +171858,7 @@
             "domain_keyword_set": 1
           },
           "totalLineCount": 3486,
-          "sourceUpdatedAt": "2026-11-06T06:36:15.155Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:02.186Z",
           "generatedAt": "2026-11-06T19:23:19.994Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -171890,7 +171897,8 @@
           "types": [
             "DOMAIN",
             "DOMAIN-KEYWORD",
-            "DOMAIN-SUFFIX"
+            "DOMAIN-SUFFIX",
+            "IP-CIDR"
           ],
           "typeCounts": {
             "DOMAIN-SUFFIX": 130,
@@ -171898,7 +171906,7 @@
             "DOMAIN": 3354
           },
           "totalLineCount": 3485,
-          "sourceUpdatedAt": "2026-11-06T06:36:15.189Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:02.222Z",
           "generatedAt": "2026-11-06T19:23:20.593Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -171989,6 +171997,7 @@
             "DOMAIN",
             "DOMAIN-KEYWORD",
             "DOMAIN-SUFFIX",
+            "IP-CIDR",
             "USER-AGENT"
           ],
           "typeCounts": {
@@ -171998,7 +172007,7 @@
             "USER-AGENT": 1
           },
           "totalLineCount": 3486,
-          "sourceUpdatedAt": "2026-11-06T06:36:15.017Z",
+          "sourceUpdatedAt": "2026-11-07T01:24:00.923Z",
           "generatedAt": "2026-11-06T19:23:20.198Z",
           "fileChangedAt": "2026-11-07T01:03:22.245Z",
           "providers": [
@@ -181607,15 +181616,15 @@
           ],
           "typeCounts": {
             "ip_cidr6_set": 7,
-            "domain_suffix_set": 24,
+            "domain_suffix_set": 148,
             "domain_keyword_set": 1,
             "asn_set": 5,
-            "ip_cidr_set": 25
+            "ip_cidr_set": 29
           },
-          "totalLineCount": 62,
-          "sourceUpdatedAt": "2026-10-09T15:59:00.446Z",
-          "generatedAt": "2026-11-06T19:19:27.703Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 190,
+          "sourceUpdatedAt": "2026-11-07T01:24:01.631Z",
+          "generatedAt": "2026-11-07T01:36:21.237Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://core.telegram.org/resources/cidr.txt",
             "https://github.com/v2fly/domain-list-community",
@@ -181647,11 +181656,11 @@
               "path": "current/rules/Egern/rules/Telegram.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/Telegram.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rules_6952e3155030ca49.yaml",
-              "sha256": "fa7ccf9f11f9a196c71c37240275db8b8ee5bf67e5e190b0a9596f973ccd927c",
-              "expectedSha256": "fa7ccf9f11f9a196c71c37240275db8b8ee5bf67e5e190b0a9596f973ccd927c",
+              "sha256": "7a38e47449b193401ee4237c4dd479d93eb3a79cccfbd8c39c3505d4c86d7ebe",
+              "expectedSha256": "7a38e47449b193401ee4237c4dd479d93eb3a79cccfbd8c39c3505d4c86d7ebe",
               "verification": "bytes",
-              "bytes": 1308,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 4283,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -181670,16 +181679,16 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 7,
-            "DOMAIN-SUFFIX": 24,
+            "DOMAIN-SUFFIX": 148,
             "DOMAIN-KEYWORD": 1,
-            "IP-CIDR": 25,
+            "IP-CIDR": 29,
             "PROCESS-NAME": 6,
             "IP-ASN": 5
           },
-          "totalLineCount": 68,
-          "sourceUpdatedAt": "2026-10-09T15:59:00.501Z",
-          "generatedAt": "2026-11-06T19:19:28.557Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 196,
+          "sourceUpdatedAt": "2026-11-07T01:24:01.667Z",
+          "generatedAt": "2026-11-07T01:36:21.243Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://core.telegram.org/resources/cidr.txt",
             "https://github.com/v2fly/domain-list-community",
@@ -181711,11 +181720,11 @@
               "path": "current/rules/Mihomo/classical/Telegram.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/Telegram.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_classical_ec67e1f0a43104a8.yaml",
-              "sha256": "b305931bf2ac2a9e7636670f482831f4d396b73eee9daadf439d9e5cb14cb1ed",
-              "expectedSha256": "b305931bf2ac2a9e7636670f482831f4d396b73eee9daadf439d9e5cb14cb1ed",
+              "sha256": "c079978eeeedd197c58e1384155a14e490cc14bf5783ebefa87af71ee8f5542c",
+              "expectedSha256": "c079978eeeedd197c58e1384155a14e490cc14bf5783ebefa87af71ee8f5542c",
               "verification": "bytes",
-              "bytes": 2601,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 7389,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain",
@@ -181728,11 +181737,11 @@
               "path": "current/rules/Mihomo/domain/Telegram.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain/Telegram.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_domain_264a9fa2c66e2e5d.yaml",
-              "sha256": "a5bc010400a1ce4254656d83cf174fa005ff8e6b4fbdaabd9572e42088c0040d",
-              "expectedSha256": "a5bc010400a1ce4254656d83cf174fa005ff8e6b4fbdaabd9572e42088c0040d",
+              "sha256": "615e920e0f60052a7a5f1e27cfc77b1864939b649ecd56a036597820b20b75ff",
+              "expectedSha256": "615e920e0f60052a7a5f1e27cfc77b1864939b649ecd56a036597820b20b75ff",
               "verification": "bytes",
-              "bytes": 564,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 3587,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-mrs",
@@ -181745,11 +181754,11 @@
               "path": "current/rules/Mihomo/domain-mrs/Telegram.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/domain-mrs/Telegram.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_domain-mrs_da57f262d121afe2.mrs",
-              "sha256": "3b4c79ec45eafc8c9eb81e2b45bd21500ea9de7f290868de1179f4f6528160dc",
-              "expectedSha256": "3b4c79ec45eafc8c9eb81e2b45bd21500ea9de7f290868de1179f4f6528160dc",
+              "sha256": "f95887f2119fc1a7a5b6c91460b1bf2a1246b6bd11411d0a4f28419671478a80",
+              "expectedSha256": "f95887f2119fc1a7a5b6c91460b1bf2a1246b6bd11411d0a4f28419671478a80",
               "verification": "bytes",
-              "bytes": 297,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 1788,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr",
@@ -181762,11 +181771,11 @@
               "path": "current/rules/Mihomo/ipcidr/Telegram.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/Telegram.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_ipcidr_42510262d39e532e.yaml",
-              "sha256": "be9038a29de57d527914302800f315b8a9b5c369d244a2bc788f1480ff43d0fb",
-              "expectedSha256": "be9038a29de57d527914302800f315b8a9b5c369d244a2bc788f1480ff43d0fb",
+              "sha256": "6e261582a95a2ec10cb001ab0b9e5bbc5143855c46d87c7aaeeaebf3790b8b62",
+              "expectedSha256": "6e261582a95a2ec10cb001ab0b9e5bbc5143855c46d87c7aaeeaebf3790b8b62",
               "verification": "bytes",
-              "bytes": 808,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "bytes": 885,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -181779,11 +181788,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/Telegram.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/Telegram.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_ipcidr-mrs_9f9c7386571fe662.mrs",
-              "sha256": "96fbc34eaea8d1c8b1595b763372b6fc86ac5bd8946c455c8259a0b7b1bb17f4",
-              "expectedSha256": "96fbc34eaea8d1c8b1595b763372b6fc86ac5bd8946c455c8259a0b7b1bb17f4",
+              "sha256": "86e035ca2256c76b45e007ed0017af92a655e725876340ced2f3f9d0cd34653b",
+              "expectedSha256": "86e035ca2256c76b45e007ed0017af92a655e725876340ced2f3f9d0cd34653b",
               "verification": "bytes",
-              "bytes": 171,
-              "changedAt": "2026-11-01T15:35:39.722Z"
+              "bytes": 197,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "classical-rest",
@@ -181796,11 +181805,11 @@
               "path": "current/rules/Mihomo/classical-rest/Telegram.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/Telegram.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_classical-rest_a10ac54bdba75cfe.yaml",
-              "sha256": "cfa6c95953a44027cbcd9f1009fcfb38a9c81cab9cfffeb4d9c2cabb38a19987",
-              "expectedSha256": "cfa6c95953a44027cbcd9f1009fcfb38a9c81cab9cfffeb4d9c2cabb38a19987",
+              "sha256": "6a142792a7ebdccccfcd0fd4cf04c7eb538ef637a96a4ed22092ccd001e9db40",
+              "expectedSha256": "6a142792a7ebdccccfcd0fd4cf04c7eb538ef637a96a4ed22092ccd001e9db40",
               "verification": "bytes",
               "bytes": 568,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         },
@@ -181819,16 +181828,16 @@
           ],
           "typeCounts": {
             "IP-CIDR6": 7,
-            "DOMAIN-SUFFIX": 24,
+            "DOMAIN-SUFFIX": 148,
             "DOMAIN-KEYWORD": 1,
-            "IP-CIDR": 25,
+            "IP-CIDR": 29,
             "PROCESS-NAME": 5,
             "IP-ASN": 5
           },
-          "totalLineCount": 67,
-          "sourceUpdatedAt": "2026-11-06T14:24:14.158Z",
-          "generatedAt": "2026-11-06T19:19:27.858Z",
-          "fileChangedAt": "2026-11-07T01:03:22.245Z",
+          "totalLineCount": 195,
+          "sourceUpdatedAt": "2026-11-07T01:24:01.520Z",
+          "generatedAt": "2026-11-07T01:36:21.213Z",
+          "fileChangedAt": "2026-11-07T23:41:00.027Z",
           "providers": [
             "https://core.telegram.org/resources/cidr.txt",
             "https://github.com/v2fly/domain-list-community",
@@ -181860,11 +181869,11 @@
               "path": "current/rules/Loon/rules/Telegram.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/Telegram.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rules_4acef626d1aec7ca.list",
-              "sha256": "eaa05ac74e05d1dfe1a486f3f7f2a02227a9cf2f92fa453815baacc40fc5a191",
-              "expectedSha256": "f39aeeae7d08bc16ea3544c4bb002705ea04ba340b41847416c0fc8164c03d9b",
-              "verification": "normalized-header",
-              "bytes": 2272,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "0822757cab5d5b3727cef52ab3a76d10665a508180edaedb6f1ddc650d1a1f0e",
+              "expectedSha256": "0822757cab5d5b3727cef52ab3a76d10665a508180edaedb6f1ddc650d1a1f0e",
+              "verification": "bytes",
+              "bytes": 6548,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "domain-set",
@@ -181877,11 +181886,11 @@
               "path": "current/rules/Loon/domain-set/Telegram.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/domain-set/Telegram.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_domain-set_f8d8ea64104ddfa1.list",
-              "sha256": "816add37b796f3224ad005bf1b3329b032ec59d95864f164816cbd8c9903bc36",
-              "expectedSha256": "06678334c143bb3bd1e5a8f3b89fa2cbef3822b91f37870d3555878d59da360a",
-              "verification": "normalized-header",
-              "bytes": 440,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "9b779433429609dace8491a8da12430d842961f20abc0800e90393ee4bb9faea",
+              "expectedSha256": "9b779433429609dace8491a8da12430d842961f20abc0800e90393ee4bb9faea",
+              "verification": "bytes",
+              "bytes": 2967,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             },
             {
               "key": "rule-set",
@@ -181894,11 +181903,11 @@
               "path": "current/rules/Loon/rule-set/Telegram.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rule-set/Telegram.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rule-set_b65c1737e9db5f77.list",
-              "sha256": "b41149d60d91dbdfc5614cee537f9f38c3b29f6dcd05713bc04703a5cf69c78f",
-              "expectedSha256": "e40d1be6183787ccca95ceb0b5b746f9d633b5ea8012231fd1d035d37b34e7cb",
-              "verification": "normalized-header",
-              "bytes": 1625,
-              "changedAt": "2026-11-07T01:03:22.245Z"
+              "sha256": "fe14dbf017e8f75e8f2b088216cb9a34fdff5ed11540ea068d8d354e35c97c18",
+              "expectedSha256": "fe14dbf017e8f75e8f2b088216cb9a34fdff5ed11540ea068d8d354e35c97c18",
+              "verification": "bytes",
+              "bytes": 1762,
+              "changedAt": "2026-11-07T23:41:00.027Z"
             }
           ]
         }

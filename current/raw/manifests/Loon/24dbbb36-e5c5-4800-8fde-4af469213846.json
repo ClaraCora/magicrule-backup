@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-06T19:17:24.355964+00:00",
+  "generated_at": "2026-11-07T01:54:57.795027+00:00",
   "client": "Loon",
   "rule": "GlobalAI",
-  "rule_updated_at": "2026-11-06T14:11:27.110158+00:00",
+  "rule_updated_at": "2026-11-07T01:24:47.893101+00:00",
   "type_counts": {
-    "IP-CIDR6": 2,
-    "DOMAIN-SUFFIX": 348,
+    "DOMAIN": 120,
     "DOMAIN-KEYWORD": 11,
-    "IP-CIDR": 4,
-    "URL-REGEX": 1,
+    "DOMAIN-SUFFIX": 1274,
+    "IP-ASN": 4,
+    "IP-CIDR": 9,
+    "IP-CIDR6": 2,
     "PROCESS-NAME": 14,
-    "IP-ASN": 3,
-    "DOMAIN": 70
+    "URL-REGEX": 1
   },
-  "total_line_count": 453,
+  "total_line_count": 1435,
   "artifacts": [
     {
       "key": "rules",
@@ -22,13 +22,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
       "binary": false,
       "role": "full",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a04e5f03e90ede532c28722bb3e181e2c7e4d4f06f1ce76109477dcf6d2caec6",
-        "bytes_sha256": "83a64ae79b6f79492326408488c976985321b4e2842f585c0a310782af4eb4e5",
-        "semantic_sha256": "3d9c1f5d922b1b215a88a5dbae0be82bd0016f6adb550edc583382e1663ecdff",
+        "fingerprint": "8245d22c5d492cf0e82da1eaf3cc5702dfddd47b6a6facfa6f1d4574a33538e2",
+        "bytes_sha256": "337d21c6fcc09bbda6d04cf485fb0fa8bf4c226ea5b6f5a33fb533193534054e",
+        "semantic_sha256": "ee309fa49dd96021ddcab3f93b9f137c3e7bf06357fe9d7616453d896f63270e",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -40,13 +40,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_domain-set_1fe683b884fc10e9.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "62d25857598c45a2d736a7e76b8199e0c6a90c7e19a25f5b0fc7e744d8c71fb9",
-        "bytes_sha256": "d1570b638a623fa805581254f9af270395b78ce3bfe1824301cc99b517cadb66",
-        "semantic_sha256": "118910d08e1d82fb45cf569bf1ebcb5fc4395160f46bc7b7f346dd15d5557440",
+        "fingerprint": "0a85e3d46f50ec5b40e7f35b0e891972945c46250e7fff7b93c3924d34f6e358",
+        "bytes_sha256": "0f7df236e080e36a6d1c27c8b73c4d9fea2bf99d0706eb52e4f845526c91e869",
+        "semantic_sha256": "e8e9bd68cf984636fb7e3f929a6d989ce0815c71ade6859b75e30b4ad9d42d0a",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -58,13 +58,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rule-set_bac4d01b39412c60.list",
       "binary": false,
       "role": "rule-set",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "cb08219b7378e9da2feaf7ca174770825b71124d31b232ab0c1b686d6b11e603",
-        "bytes_sha256": "93b88936f2a6687dbe9c3557577a28d01a730af1f611784bafbc886d2c6f3bd7",
-        "semantic_sha256": "fbb965694150c9cb83a3b705fd97529cf43a8d317db0bf1aa4bd56f59865c584",
+        "fingerprint": "6ac50a12a73297b9d531dc8d1606a311b39a13fe4f35ac827cd6e980b38feeca",
+        "bytes_sha256": "de1e9cb4e7ec96cbaee7f8777d69c57a0d9de6bc37b15824fd8a0465832e4364",
+        "semantic_sha256": "145bd8af81ba6db650a1ff3d2d33de140702ca284c36e80fd53639eddda21a38",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -80,8 +80,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "7c6827750eeeb414c5c6886964299dde2ac92667d72578e1cb89f8ece7b6f7d3",
-        "bytes_sha256": "3ab7e1cfc7dd7252bda7e43f7755e4f61ff9d7007c31dbdcbfe5b6dd917d8062",
+        "fingerprint": "42a34611b1a1d46f14b18d54512c76d6f18c158cded4c49bf63f1748f0d40bae",
+        "bytes_sha256": "afdd4394448dfd709291f70b3f03bcc32a43b41ff72794f52f34b22fdf62bcb5",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

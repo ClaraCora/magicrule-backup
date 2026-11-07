@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T19:18:21.473499+00:00",
+  "generated_at": "2026-11-07T01:42:29.433034+00:00",
   "client": "Loon",
   "rule": "AppleProxy",
-  "rule_updated_at": "2026-11-06T14:06:47.552482+00:00",
+  "rule_updated_at": "2026-11-07T01:24:03.007543+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 263,
-    "IP-CIDR": 3,
+    "DOMAIN-SUFFIX": 387,
+    "IP-CIDR": 6,
     "PROCESS-NAME": 9,
     "DOMAIN": 33,
     "USER-AGENT": 5
   },
-  "total_line_count": 313,
+  "total_line_count": 440,
   "artifacts": [
     {
       "key": "rules",
@@ -23,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "7b99ce2e9dd7e906bc0e23e59e12ffce2a0570c4b5b93ed4f0cb9d851e213175",
-        "bytes_sha256": "c647b4fee1cd5282e555898d7b0e33c90202514aaaf1bb808bbac6e717ae0e17",
-        "semantic_sha256": "72a92c989fb404f97f083df07654b8b630be9de4b460c44b7d09c72299d0d1db",
+        "fingerprint": "d5b6c7ba29796be9043059cf740558a34919af1cfc5ea1fa431546f69261a02c",
+        "bytes_sha256": "ee08f9e73ea2a53a672b121045a00ba1728cd41a868db438df65abe09c0c5422",
+        "semantic_sha256": "3e2281fc46a471bec37c157d6757c66a0d60214faccf43709b203789e7e29175",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -41,9 +41,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "c03738b84ce91975db9c1211bb7757eb16364638ea766dd451b803fdd98a3175",
-        "bytes_sha256": "5f6313097a0c41ea36f18651eb92c375f69b4179d70455db8d7f64ee7e112778",
-        "semantic_sha256": "f92dfde430e1a40cbc683798a38a2cda270bf9d1e41b7bc8f7653c157fe61b71",
+        "fingerprint": "bfeea2a7f63888d2fc2d7a31eca993f8473155f0b1d6e170c2f8f7af16f7ae47",
+        "bytes_sha256": "83ad46cb4e41f325f830da969053f0533356c795092f4868d690bfbfe9af2006",
+        "semantic_sha256": "bc514fc6758f2ce47025f3d905cfdaa8739d7fa9b4f0e459fac321d6eb5f5774",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -59,9 +59,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "0acc18765eb39ad762933481720c4b05b17a6470b95ad79db42292e34561ec6a",
-        "bytes_sha256": "b75a5744f9fb4304f2404ffc81bd1dd3ad113a3f36ee0809c10c42f759301b22",
-        "semantic_sha256": "3a9a9e6fcc5316ad9b63e4a9cbd64720facd5323c110ddf3ddfa4fdac32e67bb",
+        "fingerprint": "c8ed0147c07696b00c7ffc82ca1056fdadda5b53812178847c36bdf62570525d",
+        "bytes_sha256": "f86b0cb5000b0433531237ca7b4df054938f70f8d28b9b4e81dddc7fead98c68",
+        "semantic_sha256": "b1f1cfacbfa45395a834fd208479122b2989cd7c2c3d15d972a039498276025e",
         "normalized_header_lines": 4,
         "shared": true
       }

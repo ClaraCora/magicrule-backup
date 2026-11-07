@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-06T19:21:23.905878+00:00",
+  "generated_at": "2026-11-07T01:53:20.223469+00:00",
   "client": "Egern",
   "rule": "AdvertisingLite",
-  "rule_updated_at": "2026-11-06T14:06:05.953486+00:00",
+  "rule_updated_at": "2026-11-07T01:24:03.691732+00:00",
   "type_counts": {
-    "domain_keyword_set": 164,
-    "domain_set": 26892,
-    "domain_suffix_set": 162420,
     "domain_wildcard_set": 15,
+    "url_regex_set": 5,
+    "domain_set": 26892,
     "ip_cidr6_set": 4,
-    "ip_cidr_set": 230,
-    "url_regex_set": 5
+    "domain_suffix_set": 162543,
+    "domain_keyword_set": 164,
+    "ip_cidr_set": 234
   },
-  "total_line_count": 189730,
+  "total_line_count": 189857,
   "artifacts": [
     {
       "key": "rules",
@@ -25,9 +25,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "3e63ef0f85c81b898f996269c5b6eb06c8fc89c310f9692af7446e2063e08928",
-        "bytes_sha256": "6ba6818369928a0f413e66c649a65147daef0533cf5f1b3fc3b75defe1ca5f66",
-        "semantic_sha256": "4f20a0e8700a781615423a168a420c94a31524dc1fa10647ece1e29d5dafa72c",
+        "fingerprint": "0fd7aedb4e942d1277802d6873dde43ecdb8c534185fd3af8b7e64b24056a273",
+        "bytes_sha256": "e2bcf74c03cddbf8d4fab1e1df500092ef081587170c033441cbb45231ea73c3",
+        "semantic_sha256": "1728a3e9cecf92cd33b43b5ca01b87946d62826a64773926c7509b494675dd8e",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,8 +43,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "a6ffec8cef1ead4c1fe84ba15a699fbc0746a0866ad8e701f8fb3e9f6a98adcb",
-        "bytes_sha256": "ed3e69bd3b02743d7eb6fa6683bd32e23b7548bbf1f478427dd55dc72f85d835",
+        "fingerprint": "4ef4d41b159893c524ce218d6b2322b5df1ecd17d7ef4494183e907669486381",
+        "bytes_sha256": "1478b89c95ab16e3cf348cba598436f94ccde547fd2d7c6a9da35c6352e17164",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
