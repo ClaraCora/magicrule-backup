@@ -1,6 +1,6 @@
 {
   "client": "Egern",
-  "generated_at": "2026-11-07T02:56:29.688224+00:00",
+  "generated_at": "2026-11-10T01:06:25.846210+00:00",
   "rules": [
     {
       "id": "80294b1d-d7b7-48c1-a745-7eedcfbb22f4",
@@ -580,12 +580,12 @@
         "domain_set",
         "domain_suffix_set"
       ],
-      "rule_updated_at": "2026-11-06T06:45:07.578039+00:00",
+      "rule_updated_at": "2026-11-09T03:01:51.444426+00:00",
       "type_counts": {
-        "domain_set": 182,
+        "domain_set": 183,
         "domain_suffix_set": 4
       },
-      "total_line_count": 186,
+      "total_line_count": 187,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/2d8df25f10ee4f1ec205d3c3/manifest.json",
       "providers": [
         "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -602,13 +602,13 @@
         "domain_suffix_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T02:54:57.130673+00:00",
+      "rule_updated_at": "2026-11-09T22:57:21.565153+00:00",
       "type_counts": {
-        "domain_set": 189305,
+        "domain_set": 187272,
         "domain_suffix_set": 4,
         "ip_cidr_set": 74
       },
-      "total_line_count": 189383,
+      "total_line_count": 187350,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/8bd49407791c0438c5c37c7e/manifest.json",
       "providers": [
         "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -698,19 +698,19 @@
         "url_regex_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T02:41:51.352333+00:00",
+      "rule_updated_at": "2026-11-10T00:45:30.173675+00:00",
       "type_counts": {
         "asn_set": 15,
         "domain_keyword_set": 210,
-        "domain_set": 17479,
-        "domain_suffix_set": 271708,
+        "domain_set": 17492,
+        "domain_suffix_set": 272764,
         "domain_wildcard_set": 22,
         "ip_cidr6_set": 6,
-        "ip_cidr_set": 1041,
+        "ip_cidr_set": 1043,
         "url_regex_set": 15,
         "user_agent_set": 1
       },
-      "total_line_count": 290497,
+      "total_line_count": 291568,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/2501045aaef0e141fcaa496d/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
@@ -747,17 +747,17 @@
         "ip_cidr_set",
         "url_regex_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:03.691732+00:00",
+      "rule_updated_at": "2026-11-10T00:44:47.047777+00:00",
       "type_counts": {
         "domain_keyword_set": 164,
-        "domain_set": 26892,
-        "domain_suffix_set": 162543,
+        "domain_set": 26923,
+        "domain_suffix_set": 160852,
         "domain_wildcard_set": 15,
         "ip_cidr6_set": 4,
-        "ip_cidr_set": 234,
+        "ip_cidr_set": 235,
         "url_regex_set": 5
       },
-      "total_line_count": 189857,
+      "total_line_count": 188198,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/6ee3d4d197b0ee19042d39f0/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
@@ -1650,17 +1650,17 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:00.982270+00:00",
+      "rule_updated_at": "2026-11-10T00:43:02.587565+00:00",
       "type_counts": {
         "domain_keyword_set": 5,
-        "domain_set": 280,
-        "domain_suffix_set": 2130,
+        "domain_set": 312,
+        "domain_suffix_set": 3359,
         "domain_wildcard_set": 15,
         "ip_cidr6_set": 3,
-        "ip_cidr_set": 15,
+        "ip_cidr_set": 17,
         "user_agent_set": 5
       },
-      "total_line_count": 2453,
+      "total_line_count": 3716,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/c363eb48f3c9f1482d5d9bbb/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -1730,13 +1730,13 @@
         "domain_suffix_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:03.171948+00:00",
+      "rule_updated_at": "2026-11-10T00:43:02.572505+00:00",
       "type_counts": {
-        "domain_set": 4,
-        "domain_suffix_set": 384,
-        "ip_cidr_set": 15
+        "domain_set": 36,
+        "domain_suffix_set": 1613,
+        "ip_cidr_set": 16
       },
-      "total_line_count": 403,
+      "total_line_count": 1665,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/7e3cbaa0e406c98ea0c38b27/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
@@ -1913,14 +1913,14 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:03.159494+00:00",
+      "rule_updated_at": "2026-11-10T00:44:32.075693+00:00",
       "type_counts": {
-        "domain_set": 33,
-        "domain_suffix_set": 387,
-        "ip_cidr_set": 6,
+        "domain_set": 65,
+        "domain_suffix_set": 1616,
+        "ip_cidr_set": 7,
         "user_agent_set": 5
       },
-      "total_line_count": 431,
+      "total_line_count": 1693,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/68c63696698de5f208af7faf/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
@@ -3871,6 +3871,7 @@
       "description": "",
       "types": [
         "domain_keyword_set",
+        "domain_regex_set",
         "domain_set",
         "domain_suffix_set",
         "domain_wildcard_set",
@@ -3879,18 +3880,19 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-06T14:10:32.132587+00:00",
+      "rule_updated_at": "2026-11-09T09:24:02.015619+00:00",
       "type_counts": {
         "domain_keyword_set": 10,
+        "domain_regex_set": 4,
         "domain_set": 24,
         "domain_suffix_set": 6379,
         "domain_wildcard_set": 2,
         "geoip_set": 1,
         "ip_cidr6_set": 4,
-        "ip_cidr_set": 3888,
+        "ip_cidr_set": 3889,
         "user_agent_set": 30
       },
-      "total_line_count": 10338,
+      "total_line_count": 10343,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/6cd7dcaeb321852740aad395/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -3973,13 +3975,13 @@
         "ip_cidr6_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-06T21:15:44.746458+00:00",
+      "rule_updated_at": "2026-11-09T22:58:13.272456+00:00",
       "type_counts": {
         "asn_set": 5076,
         "ip_cidr6_set": 5459,
-        "ip_cidr_set": 12627
+        "ip_cidr_set": 12629
       },
-      "total_line_count": 23162,
+      "total_line_count": 23164,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/2c2ff00715e04e4653d572bc/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
@@ -5001,16 +5003,16 @@
         "ip_cidr6_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-10-29T02:37:38.947225+00:00",
+      "rule_updated_at": "2026-11-09T02:49:10.127400+00:00",
       "type_counts": {
         "asn_set": 3,
         "domain_keyword_set": 5,
-        "domain_set": 70,
-        "domain_suffix_set": 304,
+        "domain_set": 71,
+        "domain_suffix_set": 305,
         "ip_cidr6_set": 2,
         "ip_cidr_set": 4
       },
-      "total_line_count": 388,
+      "total_line_count": 390,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/0ce88cc77a3d5de0b00850bf/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -5723,12 +5725,12 @@
         "domain_set",
         "domain_suffix_set"
       ],
-      "rule_updated_at": "2026-11-04T15:55:14.334577+00:00",
+      "rule_updated_at": "2026-11-09T02:53:03.003244+00:00",
       "type_counts": {
-        "domain_set": 91,
+        "domain_set": 92,
         "domain_suffix_set": 645
       },
-      "total_line_count": 736,
+      "total_line_count": 737,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/ee7a267d0b5e415386a4480d/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -5965,16 +5967,16 @@
         "url_regex_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:00.095656+00:00",
+      "rule_updated_at": "2026-11-10T00:43:04.031580+00:00",
       "type_counts": {
         "domain_keyword_set": 10,
-        "domain_set": 30,
-        "domain_suffix_set": 580,
-        "ip_cidr_set": 5,
+        "domain_set": 34,
+        "domain_suffix_set": 1052,
+        "ip_cidr_set": 3,
         "url_regex_set": 4,
         "user_agent_set": 1
       },
-      "total_line_count": 630,
+      "total_line_count": 1104,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/0eb4138ec0bb84579cdac840/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
@@ -8622,17 +8624,17 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-06T06:38:58.746442+00:00",
+      "rule_updated_at": "2026-11-09T02:47:12.476039+00:00",
       "type_counts": {
         "domain_keyword_set": 53,
-        "domain_set": 1914,
-        "domain_suffix_set": 22379,
+        "domain_set": 1915,
+        "domain_suffix_set": 22382,
         "domain_wildcard_set": 61,
         "ip_cidr6_set": 4,
         "ip_cidr_set": 80,
         "user_agent_set": 9
       },
-      "total_line_count": 24500,
+      "total_line_count": 24504,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/26de484fdba1ad6c21b20c45/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
@@ -8660,17 +8662,17 @@
         "ip_cidr_set",
         "url_regex_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:48.056646+00:00",
+      "rule_updated_at": "2026-11-10T00:44:35.183892+00:00",
       "type_counts": {
         "asn_set": 4,
         "domain_keyword_set": 11,
-        "domain_set": 120,
-        "domain_suffix_set": 1274,
+        "domain_set": 135,
+        "domain_suffix_set": 2503,
         "ip_cidr6_set": 2,
-        "ip_cidr_set": 9,
+        "ip_cidr_set": 7,
         "url_regex_set": 1
       },
-      "total_line_count": 1421,
+      "total_line_count": 2663,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/e0735bb2712d5e45cbd09936/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -8776,18 +8778,18 @@
         "url_regex_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:00.655590+00:00",
+      "rule_updated_at": "2026-11-10T00:44:52.141732+00:00",
       "type_counts": {
         "domain_keyword_set": 28,
-        "domain_set": 88,
-        "domain_suffix_set": 1241,
+        "domain_set": 120,
+        "domain_suffix_set": 2480,
         "domain_wildcard_set": 7,
         "ip_cidr6_set": 200,
-        "ip_cidr_set": 270,
+        "ip_cidr_set": 271,
         "url_regex_set": 1,
         "user_agent_set": 19
       },
-      "total_line_count": 1854,
+      "total_line_count": 3126,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/8b2a1747238f58a3009bffa7/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
@@ -10411,13 +10413,13 @@
         "domain_suffix_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:03.271701+00:00",
+      "rule_updated_at": "2026-11-10T00:44:31.442598+00:00",
       "type_counts": {
-        "domain_set": 6,
-        "domain_suffix_set": 127,
-        "ip_cidr_set": 4
+        "domain_set": 38,
+        "domain_suffix_set": 1366,
+        "ip_cidr_set": 5
       },
-      "total_line_count": 137,
+      "total_line_count": 1409,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/1c762182256d508fdbc6fd4f/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -12146,14 +12148,14 @@
         "ip_cidr6_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:02.945773+00:00",
+      "rule_updated_at": "2026-11-10T00:44:33.688062+00:00",
       "type_counts": {
-        "domain_set": 17,
-        "domain_suffix_set": 248,
+        "domain_set": 49,
+        "domain_suffix_set": 1487,
         "ip_cidr6_set": 14,
-        "ip_cidr_set": 22
+        "ip_cidr_set": 23
       },
-      "total_line_count": 301,
+      "total_line_count": 1573,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/b886793330113073014d86b3/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
@@ -13457,15 +13459,15 @@
         "domain_wildcard_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-04T15:50:59.518382+00:00",
+      "rule_updated_at": "2026-11-09T02:53:05.354292+00:00",
       "type_counts": {
         "domain_keyword_set": 4,
-        "domain_set": 120,
+        "domain_set": 121,
         "domain_suffix_set": 790,
         "domain_wildcard_set": 1,
         "user_agent_set": 3
       },
-      "total_line_count": 918,
+      "total_line_count": 919,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/cebd4bcf1b45761a7bb90518/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -13543,16 +13545,18 @@
       "description": "",
       "types": [
         "domain_keyword_set",
+        "domain_set",
         "domain_suffix_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:01.483536+00:00",
+      "rule_updated_at": "2026-11-10T00:44:31.529442+00:00",
       "type_counts": {
         "domain_keyword_set": 3,
-        "domain_suffix_set": 204,
-        "ip_cidr_set": 4
+        "domain_set": 4,
+        "domain_suffix_set": 686,
+        "ip_cidr_set": 2
       },
-      "total_line_count": 211,
+      "total_line_count": 695,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/3ebfc22784ef3397415d9c54/manifest.json",
       "providers": [
         "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
@@ -14465,14 +14469,14 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:03.376071+00:00",
+      "rule_updated_at": "2026-11-10T00:43:03.656690+00:00",
       "type_counts": {
-        "domain_set": 1,
-        "domain_suffix_set": 137,
-        "ip_cidr_set": 39,
+        "domain_set": 33,
+        "domain_suffix_set": 1376,
+        "ip_cidr_set": 40,
         "user_agent_set": 3
       },
-      "total_line_count": 180,
+      "total_line_count": 1452,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/1951aa92a13523c44528623c/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
@@ -16416,15 +16420,15 @@
         "domain_wildcard_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:10.167899+00:00",
+      "rule_updated_at": "2026-11-10T00:43:04.380914+00:00",
       "type_counts": {
         "domain_keyword_set": 2,
-        "domain_set": 12,
-        "domain_suffix_set": 39988,
+        "domain_set": 44,
+        "domain_suffix_set": 41227,
         "domain_wildcard_set": 8,
-        "ip_cidr_set": 13
+        "ip_cidr_set": 14
       },
-      "total_line_count": 40023,
+      "total_line_count": 41295,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/fcb451c7dad3eec57b69931c/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
@@ -18731,15 +18735,15 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:02.186775+00:00",
+      "rule_updated_at": "2026-11-10T00:44:52.120208+00:00",
       "type_counts": {
         "domain_keyword_set": 1,
-        "domain_set": 3354,
-        "domain_suffix_set": 254,
-        "ip_cidr_set": 4,
+        "domain_set": 3386,
+        "domain_suffix_set": 1493,
+        "ip_cidr_set": 5,
         "user_agent_set": 1
       },
-      "total_line_count": 3614,
+      "total_line_count": 4886,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/ca6b7ea9cad55914e8070749/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -19790,19 +19794,21 @@
       "types": [
         "asn_set",
         "domain_keyword_set",
+        "domain_set",
         "domain_suffix_set",
         "ip_cidr6_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-07T01:24:01.631994+00:00",
+      "rule_updated_at": "2026-11-10T00:43:03.765172+00:00",
       "type_counts": {
         "asn_set": 5,
         "domain_keyword_set": 1,
-        "domain_suffix_set": 148,
+        "domain_set": 32,
+        "domain_suffix_set": 1387,
         "ip_cidr6_set": 7,
-        "ip_cidr_set": 29
+        "ip_cidr_set": 30
       },
-      "total_line_count": 190,
+      "total_line_count": 1462,
       "manifest": "https://magicrule.pages.dev/data/rules/Egern/d076530a3cb5d602afe04a73/manifest.json",
       "providers": [
         "https://core.telegram.org/resources/cidr.txt",

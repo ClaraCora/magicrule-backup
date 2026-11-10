@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T19:18:37.381969+00:00",
+  "generated_at": "2026-11-09T03:15:30.120915+00:00",
   "client": "Loon",
   "rule": "Microsoft",
-  "rule_updated_at": "2026-11-06T14:15:48.696331+00:00",
+  "rule_updated_at": "2026-11-09T02:53:04.736246+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 790,
     "DOMAIN-KEYWORD": 4,
     "PROCESS-NAME": 2,
-    "DOMAIN": 120,
+    "DOMAIN": 121,
     "USER-AGENT": 3
   },
-  "total_line_count": 919,
+  "total_line_count": 920,
   "artifacts": [
     {
       "key": "rules",
@@ -23,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2918324f5a802e26fbd8bb1779d1be09d72d4e50a76d440311cd224dae7aadce",
-        "bytes_sha256": "4757eeedcbf33719999a26d458b1e8c9e6f75d6ad1ed4fcffc5b60fea17de233",
-        "semantic_sha256": "124279ac91f2762d752b9409fb5861d1a75dd5c68af0d86a79f25fb78c6e6c0c",
+        "fingerprint": "453b6a25fd32239d3b718ebb88fd22974999ba5a69e15b7d352f74844ba2b7f9",
+        "bytes_sha256": "6cc7863547236ee99206f33059928f206e6602609c3fbe2d629d5d3f42120768",
+        "semantic_sha256": "748dbc80a37145ceab3e4590493b13de12b9d55c88874f594e0a129d8e58c6b8",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -41,9 +41,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "6ee2ca82908062284099cd3a3ef4ad805678ea0f2bf2b8e1ee1d63da66f40733",
-        "bytes_sha256": "2c5d6b80d081a552de9b42f18be67ff11cb093dae28bebc642eb4f86ee9b0d63",
-        "semantic_sha256": "7e1a92b6d633d5f7a40ba6a0fe4fc4b0493f5522d8aa30156dd301f18f9e6fbc",
+        "fingerprint": "d789a2e9db38278afb1e09b56b0da79e80c93b0fa075219c8a3c651272e560a8",
+        "bytes_sha256": "df735a20e56b94de9a5115ead62f6792f153ef920aac19c7b5642c8e65dd6b75",
+        "semantic_sha256": "f6243c625b7091e9f36cea0a6b1ec817d13b862abcb1f9a2c3bfbcda46649fe4",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -60,7 +60,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b232cbcce45312adbacce5bee2b48ea3f5f008a4437e9f3eed3645ddd6f89187",
-        "bytes_sha256": "8654ce51c00328f4c306195b7e92a03a49f39f2092b07e32c25f2b4c08d3d1d1",
+        "bytes_sha256": "59879933674859557cfbc6c2360add015abd9846558cae227fb95127af2d4f29",
         "semantic_sha256": "7e14b9dea9a00ce46e67bd1d22806fd8da421b71e7c80a3fb868a300cbc0c826",
         "normalized_header_lines": 4,
         "shared": true

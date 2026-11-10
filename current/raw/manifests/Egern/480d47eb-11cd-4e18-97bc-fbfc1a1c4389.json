@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-06T19:18:37.258079+00:00",
+  "generated_at": "2026-11-09T03:15:30.322127+00:00",
   "client": "Egern",
   "rule": "Microsoft",
-  "rule_updated_at": "2026-11-04T15:50:59.518382+00:00",
+  "rule_updated_at": "2026-11-09T02:53:05.354292+00:00",
   "type_counts": {
     "domain_wildcard_set": 1,
-    "domain_set": 120,
+    "domain_set": 121,
     "domain_suffix_set": 790,
     "user_agent_set": 3,
     "domain_keyword_set": 4
   },
-  "total_line_count": 918,
+  "total_line_count": 919,
   "artifacts": [
     {
       "key": "rules",
@@ -23,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1aa7031addf8afa6b39d34f588c122e1e29cd28174ff1e5e4b1ae4e3348b2970",
-        "bytes_sha256": "561f1266af999cf85320bfe9d8f4c6710ff58f4a44bc9b25c424a977a8d09d0f",
-        "semantic_sha256": "02542e22e5fa0d45dba8567c95886e7b82dbdd91262997e97ebdb03e82a8e301",
+        "fingerprint": "5551069dcc11e1bb5a0074b52e1825b2f2152d85fb7a11061d02ef3eabe28899",
+        "bytes_sha256": "2b2d4f9abfc3020f071f82f9f1a844d4011d0f07dc6d3d3a8318be0f8c809581",
+        "semantic_sha256": "86d079cc5355040705fae2ff9ac94ae3f96ec9b930a748465562d615558c9ac4",
         "normalized_header_lines": 4,
         "shared": true
       }

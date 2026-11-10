@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-11-07T01:36:21.243468+00:00",
+  "generated_at": "2026-11-10T00:49:36.718645+00:00",
   "client": "Mihomo",
   "rule": "Telegram",
-  "rule_updated_at": "2026-11-07T01:24:01.667575+00:00",
+  "rule_updated_at": "2026-11-10T00:43:03.882744+00:00",
   "type_counts": {
     "IP-CIDR6": 7,
-    "DOMAIN-SUFFIX": 148,
+    "DOMAIN-SUFFIX": 1387,
     "DOMAIN-KEYWORD": 1,
-    "IP-CIDR": 29,
+    "IP-CIDR": 30,
     "PROCESS-NAME": 6,
-    "IP-ASN": 5
+    "IP-ASN": 5,
+    "DOMAIN": 32
   },
-  "total_line_count": 196,
+  "total_line_count": 1468,
   "artifacts": [
     {
       "key": "classical",
@@ -20,13 +21,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_classical_ec67e1f0a43104a8.yaml",
       "binary": false,
       "role": "full",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f5ec7611c905e6ee110ca297344ce45568041adcb0a8bc7a671af895586a2c3a",
-        "bytes_sha256": "c079978eeeedd197c58e1384155a14e490cc14bf5783ebefa87af71ee8f5542c",
-        "semantic_sha256": "f6e72d4e6e1a84e3315722682006f8bd36213439ec074ed46a890d4905b9496e",
+        "fingerprint": "5f9fc2e7eba59fc20225c2f71038dbee845a1effd54f91ee1d7f1378e8bf970c",
+        "bytes_sha256": "903046699d43bf8645a15ade087d40f9f0ae3492686ddb13898733e267cb0e34",
+        "semantic_sha256": "7d49573cdc80fe7c60a035135ac99ba6a894f27a06ffcb34fb473a78bbad0ffc",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,13 +39,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_domain_264a9fa2c66e2e5d.yaml",
       "binary": false,
       "role": "domain",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "8fb2a114f304b3550b519cff17e25a8729991fe164d7188507720b4fd968242f",
-        "bytes_sha256": "615e920e0f60052a7a5f1e27cfc77b1864939b649ecd56a036597820b20b75ff",
-        "semantic_sha256": "95a0073339639de6c9bc74ead8cb705eade826c609cda0391939c4cd9b719023",
+        "fingerprint": "6ef67a40ace6f0da736885e6e17b2bffbfd68d92f56f9900547d4d7b982bf4ef",
+        "bytes_sha256": "87a2edb91ba4e85a28ba8a79cfb087d0e77c002eb22b9be4b9c5e8634948b42b",
+        "semantic_sha256": "74aac2cebd799e0f63208ee1ff2d8c9e617c871743cf18eaa6aedaaa56448c49",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -56,12 +57,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_domain-mrs_da57f262d121afe2.mrs",
       "binary": true,
       "role": "domain",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "deb4ab3823acbe1219fcbf2292d4c6cd27255369653b83348043c7dce8704a84",
-        "bytes_sha256": "f95887f2119fc1a7a5b6c91460b1bf2a1246b6bd11411d0a4f28419671478a80",
+        "fingerprint": "72467b233afc6ad155a73cfde98e1f0e62e5fb620ac8414dfcc01b12993c06d0",
+        "bytes_sha256": "19dc13581656bf13950d256ea31d36525bc1634a510cd43055d533797eabce7f",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -74,13 +75,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_ipcidr_42510262d39e532e.yaml",
       "binary": false,
       "role": "ipcidr",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2264ff7464a5c17d19f623cb8b087cdabe3bc1d00a154c234dbe41bb803fc400",
-        "bytes_sha256": "6e261582a95a2ec10cb001ab0b9e5bbc5143855c46d87c7aaeeaebf3790b8b62",
-        "semantic_sha256": "60b15dff8ed579c76560a2240b713f1e32a6d034acfea5d0095f8990d13d2ced",
+        "fingerprint": "5994907c4f64d1886a295c6aa50a2a4c66e2329fee54bf9d48e3fc662bd918f8",
+        "bytes_sha256": "7e10d3645e0a198dd9482357781ceeeb9fc4c7143ad8ca40182a3082b1693351",
+        "semantic_sha256": "440ac035d0f50001cf59f4f545e60d23c056219692bd9923782aee0825ce85a5",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -92,12 +93,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_ipcidr-mrs_9f9c7386571fe662.mrs",
       "binary": true,
       "role": "ipcidr",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "214b78b43f35a85b4236f260a4474957d51a37363e35d52cd3fd9a1ad3aea047",
-        "bytes_sha256": "86e035ca2256c76b45e007ed0017af92a655e725876340ced2f3f9d0cd34653b",
+        "fingerprint": "7634a35549cfd9e39b81102a9c83652188e8e800764e0382df01a9f9b82f556a",
+        "bytes_sha256": "02086bbb8da3de126fdc14506608dc1398669b6e08e2e5f0e92ffdfb557e3986",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -110,12 +111,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_classical-rest_a10ac54bdba75cfe.yaml",
       "binary": false,
       "role": "rule-set",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3c097937d32581db0e076a01a9d73a07dc5301d82958151bab4848245f30105c",
-        "bytes_sha256": "6a142792a7ebdccccfcd0fd4cf04c7eb538ef637a96a4ed22092ccd001e9db40",
+        "bytes_sha256": "8d2900cab1dbf8b90b490113d4c4ee625acbf5ffa628d983f1f9ad4684d1b64e",
         "semantic_sha256": "6970c83e9d105a59da7453873d4cb1169ccfd73f7363dc8917674a50e0bc8566",
         "normalized_header_lines": 4,
         "shared": true

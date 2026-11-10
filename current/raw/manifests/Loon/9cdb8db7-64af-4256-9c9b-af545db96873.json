@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-07T01:43:58.989127+00:00",
+  "generated_at": "2026-11-10T00:56:04.590323+00:00",
   "client": "Loon",
   "rule": "Lan",
-  "rule_updated_at": "2026-11-07T01:24:02.815601+00:00",
+  "rule_updated_at": "2026-11-10T00:44:33.304349+00:00",
   "type_counts": {
     "IP-CIDR6": 14,
-    "DOMAIN-SUFFIX": 248,
-    "IP-CIDR": 22,
-    "DOMAIN": 17
+    "DOMAIN-SUFFIX": 1487,
+    "IP-CIDR": 23,
+    "DOMAIN": 49
   },
-  "total_line_count": 301,
+  "total_line_count": 1573,
   "artifacts": [
     {
       "key": "rules",
@@ -18,13 +18,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rules_a7096f98ad43c9dc.list",
       "binary": false,
       "role": "full",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "cae70f03991c4b5a9395838f65c12fd12d9be159c79ec78c8c1dbd7cd967f1e2",
-        "bytes_sha256": "bd50bb7349f829c8f2416bc9f7a5197c1639c143fdfdac8fa623257d8e7a3546",
-        "semantic_sha256": "240b25ed2a62406ffe146fc063d805bb713e05f3579d488f969f1e086982d832",
+        "fingerprint": "dcc54f1a4439f5bd49f5472f23c9bcc468ef065ab5c0f262e3c604606f7bb6e0",
+        "bytes_sha256": "50196485264edf8cecdd107bfea583cfa1b32f8818126e77dbc01cedd03dd344",
+        "semantic_sha256": "fc105acb63632871718bea31f89c23b25a87e8ac060741457a100162a2ec074f",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -36,13 +36,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_domain-set_c2f9919a12faad5a.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "dfd74c392c1ff37416a23e5d87d28de57d1cb840ababe424edb9973374c0e5a5",
-        "bytes_sha256": "7ad84eddd9a2cecd03bba5154ee0756d4bc656da42771334c60da1f22fa257d8",
-        "semantic_sha256": "d59c3e7b8c1d20489f1016adb9221855cc4e2d260be2655478ff04ee452982d9",
+        "fingerprint": "6157a651e1a122e59d2cc3936824a4c623adc6a99254367121339c7ae3e33916",
+        "bytes_sha256": "681c66a308db9e2c752d79628463b2051950b5be45515bb2e6c373d0675c1af9",
+        "semantic_sha256": "3bd235152570d591ec0de8148623512722f30815c198ea54d933825dd722e78d",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -54,13 +54,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rule-set_c947f916763f9e26.list",
       "binary": false,
       "role": "rule-set",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f15d25753d0050681f1c3b99d207646d5ab199796bc171e7df7b92fbc7349b81",
-        "bytes_sha256": "697862e44e06615c9b6152c4d535fcbe07ff5987f378a34f9b0023f9ff5af80e",
-        "semantic_sha256": "10ae1f2e36b6209143d07e9f884f83426a4b4f163d0673384713a42a22603c08",
+        "fingerprint": "857813cbe6e7504b140b6c4c0a5c55c046651273701ae650e63de6ed9b924c08",
+        "bytes_sha256": "a233e2b3f2ee651a8293cfa7419aba12db25bcf26148f838edddd295bc051681",
+        "semantic_sha256": "efc559218cadaebe7e0c5c1dc2509bd74444c0e688cc2facf64b77768a336670",
         "normalized_header_lines": 4,
         "shared": true
       }

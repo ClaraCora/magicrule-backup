@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-07T01:41:07.649362+00:00",
+  "generated_at": "2026-11-10T00:46:47.000621+00:00",
   "client": "Mihomo",
   "rule": "NetEaseMusic",
-  "rule_updated_at": "2026-11-07T01:24:03.422476+00:00",
+  "rule_updated_at": "2026-11-10T00:43:03.708966+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 137,
-    "IP-CIDR": 39,
-    "DOMAIN": 1
+    "DOMAIN-SUFFIX": 1376,
+    "IP-CIDR": 40,
+    "DOMAIN": 33
   },
-  "total_line_count": 177,
+  "total_line_count": 1449,
   "artifacts": [
     {
       "key": "classical",
@@ -17,13 +17,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_classical_3936a4112b52e5e8.yaml",
       "binary": false,
       "role": "full",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "e2c5ec128b38759f358b0cb2c7edac0b4e248959c186bebac751f1ac0decd67c",
-        "bytes_sha256": "759726eea693d099500e006b69b957ea6c7137c39070c3b345d488f38d359145",
-        "semantic_sha256": "4dc370960c40407409412d651d8bfc21b4c4fb67dfcdf1e8f3c86248bfd64c6c",
+        "fingerprint": "7b9d9cb4d94b65687fa83556478be844b89950716fbfa2a02b7f0357ee57404e",
+        "bytes_sha256": "7f535fc2fe1e5a40e35ef838da2e4c6dd1ea3177ad709ff8116bc7f23ca7462b",
+        "semantic_sha256": "78169f641eec887d814f99f05df7cd84b0d51cfd8c1185509c33131d45e2b37b",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -35,13 +35,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain_c243f30524a47eb4.yaml",
       "binary": false,
       "role": "domain",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f0e1a37401f5a79a1a6a9779b6f089e2112ca1da55519fd02bcf31da07a5ed8a",
-        "bytes_sha256": "e842d92f2550bf96c0a76f2512d72f62eaa962234594261e82e0d96896f5d582",
-        "semantic_sha256": "a55aaa813d49010cf95de3ba98df860d7907935ee28af5ab726825b4ea9e6bed",
+        "fingerprint": "5b94ba1b9a728c55abe1b73b7ef444edc23ed9c1557db445d45a3ef9449b4649",
+        "bytes_sha256": "f58bbe45e953fe4886220ef4b283f9feedba1fd26266f8b6c1e68d5f33cb0832",
+        "semantic_sha256": "e66d9b80c5198a1c446d89ea1b31924ec6a3245cb26e9ce8f6e7ae16b748c052",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -53,12 +53,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_domain-mrs_a3c5cd4062ae316b.mrs",
       "binary": true,
       "role": "domain",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "1aa0aab281074824819420681cd878657cce90ec2f0f11ae5b28762329c8e986",
-        "bytes_sha256": "3486844915fdcaa40b5d04a9a0180bb5ce7de00ba9e25d7a3c2f5f9101ed5480",
+        "fingerprint": "0da345295e97a12fb7e40b66a2fde06da558412fdf403ca6b730f5330497b227",
+        "bytes_sha256": "a2de910d072927572951686d7572865b508f0e0a215f9ecbef1f1f9b21120414",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -71,13 +71,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_ipcidr_a7c2736710608cde.yaml",
       "binary": false,
       "role": "ipcidr",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a43691615201e49f4b366906199afd2ea99c16c24f853596e3aa544be0bf820c",
-        "bytes_sha256": "4773bf94b3a219111fd5a03878d36b538b54cd1877839016e7951eee583fe34c",
-        "semantic_sha256": "540690ae49f2145044525919f7a06dc9247bfa9e7ffb0deaf72eedce7906c2b1",
+        "fingerprint": "d677fe396142405a8590a920c6ba67daa35f0775cd887d814b8320be0eb85ccf",
+        "bytes_sha256": "bace2d6d9deeb0d4e3da3c4b15afb4fb6efaf24ee3985e38bd210983d913cfe6",
+        "semantic_sha256": "817a8a274ae5aae1ec15dd610999f1fca968041bf0f96075b34bb4931f2ed954",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -89,12 +89,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_ipcidr-mrs_a8837bd22e84f206.mrs",
       "binary": true,
       "role": "ipcidr",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "3013565a40203dc8fbeca833c631f93853cfb55c90302f72086437812a3f9db3",
-        "bytes_sha256": "8657739611a8544c9ca5c507de970086ad29931e2de4d11b8a6786aae87475bd",
+        "fingerprint": "e12230812d330f1907b0a2aac62c96e0118a120b116f5f47d92ef33d080a9c44",
+        "bytes_sha256": "dbc45523d4e51c036c33090022c40f5724527f3aeb280722ef2a98bebd908128",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

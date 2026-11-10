@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-07T01:51:04.273334+00:00",
+  "generated_at": "2026-11-10T00:51:27.323666+00:00",
   "client": "Loon",
   "rule": "Privacy",
-  "rule_updated_at": "2026-11-07T01:24:04.881808+00:00",
+  "rule_updated_at": "2026-11-10T00:43:03.555974+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 39988,
+    "DOMAIN-SUFFIX": 41227,
     "DOMAIN-KEYWORD": 2,
-    "IP-CIDR": 13,
-    "DOMAIN": 12
+    "IP-CIDR": 14,
+    "DOMAIN": 44
   },
-  "total_line_count": 40015,
+  "total_line_count": 41287,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2ac987a706f5a8aafd54fd6015a02af5cc539c0177b2a028308250f0ce7369f1",
-        "bytes_sha256": "1cab818f3ad5842b18ca538a72f991a47f03d9affba3b2c828cbb5be496a19aa",
-        "semantic_sha256": "37060cb3159309dd80e2766c4007818e6abb031203c67ef58e723a977bf95b57",
+        "fingerprint": "98d80f8caf6a9375afcfb9601c0a909a7596eb1c7bdc87aa368a1ed371e52302",
+        "bytes_sha256": "5b6d4a8b96ed9167206be0958478e4c8422f3d0b8eb0be4f226395b398d939f0",
+        "semantic_sha256": "923671f830c0037e2d2aa7d75368783735e41ce5ebd6492b2ba0c5d5928268f6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,9 +40,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "626f8e6a9b3319ef258852da1701e5fb4059babaa887e37bb12c31af8f0e57ff",
-        "bytes_sha256": "0b904f4450668790a465b034962bb05ca0256b7668d1ef5883e1ba2788fbbad1",
-        "semantic_sha256": "1e9e196f1ad17b7bfd50e787fb3d9823f7787168fdfe53d7ee99ae663bfba3fa",
+        "fingerprint": "9c80e93a94788166bda56cba39150eabb6fd2efcaf356768f2d2a8f8f9e9fcdb",
+        "bytes_sha256": "cd310bdb9f57ff730c0d371fdf2d31d252777198629e83d381839083b7517351",
+        "semantic_sha256": "ea6b04dd61298be84af54bd22c084bb7677ef3d455248375d0f8a7aa33ddcf2d",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -58,9 +58,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "44a48f23920874ddea32c3e83df28b5f6b8960c0f4f3971374967a8b18899957",
-        "bytes_sha256": "12cce1b9cd327bf1baacfcf8c78c0572f638940102dc1a8bda63ff6d8504459e",
-        "semantic_sha256": "b85ba2c1b0f0be970b25c0cc8fb66dad94586ea33c9b93e0cdc593d5512cd171",
+        "fingerprint": "609f38ffa955f0ecbe297d49c36d595c50ee458a03a8acabd04a03b6ae129da6",
+        "bytes_sha256": "c41e799b7e6ff83ce392c01be32f7c7c9029259f6be4338970810f1a695237db",
+        "semantic_sha256": "e0d757145ee1ecd2c70cda5a57df587e1b764cccee67e500fd23bbf56055aba0",
         "normalized_header_lines": 4,
         "shared": true
       }
