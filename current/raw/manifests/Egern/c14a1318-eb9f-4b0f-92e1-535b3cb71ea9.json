@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-06T19:22:46.043339+00:00",
+  "generated_at": "2026-11-10T02:01:15.952198+00:00",
   "client": "Egern",
   "rule": "ChinaMedia",
   "rule_updated_at": "2026-07-31T04:26:21.908088+00:00",
   "type_counts": {
-    "domain_keyword_set": 1,
     "domain_set": 65,
-    "domain_suffix_set": 209,
     "ip_cidr6_set": 29,
-    "ip_cidr_set": 39,
-    "user_agent_set": 13
+    "domain_suffix_set": 209,
+    "user_agent_set": 13,
+    "domain_keyword_set": 1,
+    "ip_cidr_set": 39
   },
   "total_line_count": 356,
   "artifacts": [
@@ -25,7 +25,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "062ff5e4fba660b4cb7d32edeb1d18f12ebd09c45e96dac62bee5107fc3e71c1",
-        "bytes_sha256": "ac6f30ae12df33c8e07a9e237d5a3d41429ce4e2f44bccbd8b289d0a4173226c",
+        "bytes_sha256": "37f8f242fbc0627c7e59a11efd0f07d93f0f04514c89021f8b84afee3700eee8",
         "semantic_sha256": "ab2cc5b5583d79c258f01ba3c70aa52bb1179db95539743f04795f70000acc69",
         "normalized_header_lines": 4,
         "shared": true

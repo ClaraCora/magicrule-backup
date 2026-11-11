@@ -1,15 +1,11 @@
 # NAME: AppleProxy
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-10 08:54:41
+# UPDATED: 2026-11-11 08:18:19
 # BEHAVIOR: ipcidr
-# IP-CIDR: 7
+# IP-CIDR: 3
 
 payload:
-- '136.143.186.0/23'
-- '136.143.188.0/22'
-- '165.173.179.0/24'
 - '17.0.0.0/8'
 - '203.205.64.0/19'
-- '204.141.42.0/23'
 - '43.240.60.0/22'

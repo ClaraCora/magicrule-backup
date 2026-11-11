@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T19:25:21.789364+00:00",
+  "generated_at": "2026-11-10T02:06:10.911027+00:00",
   "client": "Mihomo",
   "rule": "AppleIntelligence",
   "rule_updated_at": "2026-08-03T15:32:18.100803+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 1,
-    "DOMAIN": 5
+    "DOMAIN": 5,
+    "DOMAIN-SUFFIX": 1
   },
   "total_line_count": 6,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "63cddd72f863ee117ecc599416253fdc1b4ce38eb4698aec7102f6804a820f0a",
-        "bytes_sha256": "ce6ecd958cb658f5ea90103438d6a8b9fbadd7d05d16cdef0508d0cb1b8702e5",
+        "bytes_sha256": "99310344655bc119dc21e0409d001e399355ccccc89e9c7620e02d889ece5f05",
         "semantic_sha256": "f0854d1b499c6c779df3621747c7fb68db868533748c0c9fff3da8edbf2a16ec",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7ff7f87ae612194c383ce8cbf570bc313b17d3e23187b748a1b602210ed01a67",
-        "bytes_sha256": "7c35b53034264ff0d0c5ed61dd6e3ad81c5dde221782f553253773166b875591",
+        "bytes_sha256": "ed01918286faa43c9c3103050723dc5d60b8429b1852f3ef28afcfbf4a3c6099",
         "semantic_sha256": "d15cfa54181d5e028ade33d3d37db9e0c0ab9b7599ce13aad66df9eeca5a4f50",
         "normalized_header_lines": 4,
         "shared": true

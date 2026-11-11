@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T19:22:45.788676+00:00",
+  "generated_at": "2026-11-10T02:01:15.075307+00:00",
   "client": "Mihomo",
   "rule": "HamiVideo",
   "rule_updated_at": "2026-07-26T07:00:26.424205+00:00",
   "type_counts": {
-    "DOMAIN": 19,
-    "DOMAIN-SUFFIX": 6
+    "DOMAIN-SUFFIX": 6,
+    "DOMAIN": 19
   },
   "total_line_count": 25,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e683292a8fa258d485df75070e814b1d9400209cf2fd5b4a203e9cf074e2e672",
-        "bytes_sha256": "29922544d5db5d91fea22f26b417b73260e4cfe5ca581ab6df8fdff37f82ac24",
+        "bytes_sha256": "8d617595940d10969c122b9979d2d3a16a7bf7336fd52e717a3f0aa25af67e84",
         "semantic_sha256": "e97ea79da5645883171bdcdbd25a88f10297fa5aeb953517ece23aee7a383da5",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2028da3fabec68ca592a11133d78bd4904cfca2c4d75a62b4edb08b370c13bca",
-        "bytes_sha256": "4f9d70fb72074600defba813c797de28cfc0a85e78eac577d63488c208911a17",
+        "bytes_sha256": "e85c284129256bbf975169954c444755e5676aa8a6e4d2f146704f8f63fe2724",
         "semantic_sha256": "1ce23ee75a8cf8c5a1fdc8b9a0b5489c531d8a00304fb7ce4d4686af0c79b5c7",
         "normalized_header_lines": 4,
         "shared": true

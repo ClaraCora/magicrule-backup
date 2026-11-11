@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-06T19:18:36.422724+00:00",
+  "generated_at": "2026-11-10T23:57:23.096853+00:00",
   "client": "Loon",
   "rule": "iCloudPrivateRelay",
-  "rule_updated_at": "2026-07-26T07:44:44.176683+00:00",
+  "rule_updated_at": "2026-11-10T23:47:53.924251+00:00",
   "type_counts": {
-    "DOMAIN": 6,
-    "DOMAIN-SUFFIX": 3
+    "DOMAIN-SUFFIX": 1792,
+    "IP-CIDR": 1,
+    "DOMAIN": 44
   },
-  "total_line_count": 9,
+  "total_line_count": 1837,
   "artifacts": [
     {
       "key": "rules",
@@ -16,13 +17,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloudPrivateRelay_rules_9ab74868377e6923.list",
       "binary": false,
       "role": "full",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a3c79d2beab93aae3911bb9b0cfb15b7103d3c762f79d2a1ffa46f6ce8b3b4b1",
-        "bytes_sha256": "34028caac7c21eb89382148338c693d97c22bdf31365ac9045b5f7bc486d3fb2",
-        "semantic_sha256": "c88b1c4203fe9db7beee2740249c1d23dc7ef0a08fffda4e1108789ebe175134",
+        "fingerprint": "bc6b993410ea5ff55a7a5b9ddc13421bbbefdbb69ffbcf5fff71b141a67f3fa8",
+        "bytes_sha256": "6d49920656d6241fceedcb7ea44ba3f90f0278c368c5dbfbadb5cc2f831f6b64",
+        "semantic_sha256": "9b611f4c70a36a3edd9261f6e9a65b5aaeeacfb53b887e80d954de6ac4afe2be",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -34,13 +35,31 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloudPrivateRelay_domain-set_ac2b876c63423661.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "fd8156606417bb5e1510ee260870ccaa57923389ed4d2d7b7aa6c8e4f87ee43b",
-        "bytes_sha256": "adbddcc0e822f92bff09fa4b1758535942652e9a02a6d46d12f7b7b2a838a185",
-        "semantic_sha256": "5f24aa5c9f4a5c1af246e73b96bc67d897ba81b392db63ceffebd6a7d0d0e2ed",
+        "fingerprint": "fb80571a85115b12bd200ca641a1ca1f4699bf271d030dab5726f1fc14553bb1",
+        "bytes_sha256": "7af58ba0dcbafce3d73aed359449f9e23852ac56bf8f79215a0d233af26272b0",
+        "semantic_sha256": "1ea9684775e2bdfc64b4ecef7fa208a453582c95cc07ab1e37234a3d8fef45ed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloudPrivateRelay_rule-set_acb7f9f12965d1f9.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "724ece03587ee3d3c95d87e973e7c21c3289791b6db8e6708a72f39733a63de7",
+        "bytes_sha256": "a347bd7c4e84db4a9b5da46d74c7a0df331815fae14e4e60a97a24ea05debd4c",
+        "semantic_sha256": "71639d117ee57ba3836f76cb8f2674ca0e556a43931d69abe4f2c1940fbaf8c4",
         "normalized_header_lines": 4,
         "shared": true
       }

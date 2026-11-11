@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-09T03:07:55.294386+00:00",
+  "generated_at": "2026-11-10T02:01:52.144175+00:00",
   "client": "Mihomo",
   "rule": "Copilot",
   "rule_updated_at": "2026-11-09T02:49:10.285432+00:00",
   "type_counts": {
-    "DOMAIN": 71,
-    "DOMAIN-KEYWORD": 5,
-    "DOMAIN-SUFFIX": 305,
-    "IP-ASN": 3,
-    "IP-CIDR": 4,
     "IP-CIDR6": 2,
-    "PROCESS-NAME": 23
+    "DOMAIN-SUFFIX": 305,
+    "DOMAIN-KEYWORD": 5,
+    "IP-CIDR": 4,
+    "PROCESS-NAME": 23,
+    "IP-ASN": 3,
+    "DOMAIN": 71
   },
   "total_line_count": 413,
   "artifacts": [
@@ -26,7 +26,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3c5f3fd59f900d7b711fdd363263976d1d07020e89c6972a0d07da0803f5c0aa",
-        "bytes_sha256": "e448751ba99ef6974f5e9c9fc84007c03365105aa7624ef475fb6309304e53a4",
+        "bytes_sha256": "9485a3ea00c38a337e7f2201cc21b1c9d0009caf05d9c451d7566cabc8836b37",
         "semantic_sha256": "01563aa437c1af1da4d04c70e7f78d498fb2edce0049d4edb115a048b437fd25",
         "normalized_header_lines": 4,
         "shared": true
@@ -44,7 +44,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "170cae4c3d6f7cdfa90123bf84fc0ee580e8412b76ae7d4ef9a19d3519b535b1",
-        "bytes_sha256": "10f5a7f83fd9b5d1aba0ea3cb060c1cc8e3df4e09958b0d61bb12c94495aa7d5",
+        "bytes_sha256": "2437ef7588830e1c8712cbe5a380f5360923610cf8d59f2568116cbb64581291",
         "semantic_sha256": "5eae151b06582ff2219064b9935d572529fda5e41a4917704aff628d4675a39e",
         "normalized_header_lines": 4,
         "shared": true
@@ -80,7 +80,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c925296d0f0182a06bd6a022cc8441f660ff259d6b259488f65f268a3fc6176a",
-        "bytes_sha256": "b63a93be11f54be45a9af46055a52d34cc3c1c96ce551811bf45743a4b9e43a1",
+        "bytes_sha256": "92aadf986c6d0058b391502f4dc85feb7e4590351871de71117ce5d7f29bfd7f",
         "semantic_sha256": "ea0dbe9c841fe05cfad217af1b1025a77175e39e933e116ba6cd61a1555d1847",
         "normalized_header_lines": 4,
         "shared": true
@@ -116,7 +116,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0b205368cc75171e740e4fb6395b26b2bf8c1aea201822e4c9593c545586d7fb",
-        "bytes_sha256": "1cd07526bc4be825745aa01c40e9e1940e07e79ea1fea0dc1466b86321e3fe67",
+        "bytes_sha256": "a06a846120f002fd2ef608637ed659b746fc61d5270d4996fddcc7e64459f5a9",
         "semantic_sha256": "0678a02c4671112e1da8b3c7906cce67da4855fa43dc99bfa6e0079bee6f6f3b",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,11 +1,10 @@
 # NAME: China
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-10 01:56:44
+# UPDATED: 2026-11-11 08:38:01
 # BEHAVIOR: classical
 # DOMAIN-KEYWORD: 10
 # DOMAIN-WILDCARD: 2
-# GEOIP: 1
 
 payload:
 - 'DOMAIN-KEYWORD,-cn'
@@ -20,4 +19,3 @@ payload:
 - 'DOMAIN-KEYWORD,taobao'
 - 'DOMAIN-WILDCARD,qhimgs?.com'
 - 'DOMAIN-WILDCARD,windows-*.net'
-- 'GEOIP,CN'

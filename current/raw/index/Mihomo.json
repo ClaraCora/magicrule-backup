@@ -1,6 +1,6 @@
 {
   "client": "Mihomo",
-  "generated_at": "2026-11-10T01:06:26.763747+00:00",
+  "generated_at": "2026-11-11T00:39:19.000685+00:00",
   "rules": [
     {
       "id": "80294b1d-d7b7-48c1-a745-7eedcfbb22f4",
@@ -598,13 +598,13 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-09T22:57:21.643701+00:00",
+      "rule_updated_at": "2026-11-10T23:54:51.259786+00:00",
       "type_counts": {
-        "DOMAIN": 187272,
+        "DOMAIN": 187727,
         "DOMAIN-SUFFIX": 4,
         "IP-CIDR": 74
       },
-      "total_line_count": 187350,
+      "total_line_count": 187805,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/d142d1c5083b8454c2c6dd9e/manifest.json",
       "providers": [
         "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -692,17 +692,17 @@
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-11-10T00:45:33.519442+00:00",
+      "rule_updated_at": "2026-11-10T23:57:28.353861+00:00",
       "type_counts": {
-        "DOMAIN": 17492,
+        "DOMAIN": 17498,
         "DOMAIN-KEYWORD": 210,
-        "DOMAIN-SUFFIX": 272764,
+        "DOMAIN-SUFFIX": 270912,
         "DOMAIN-WILDCARD": 22,
         "IP-ASN": 15,
-        "IP-CIDR": 1043,
+        "IP-CIDR": 1039,
         "IP-CIDR6": 6
       },
-      "total_line_count": 291552,
+      "total_line_count": 289702,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/35098a3c2eae1a4dcf2703b0/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
@@ -738,16 +738,16 @@
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-11-10T00:44:51.823220+00:00",
+      "rule_updated_at": "2026-11-10T23:52:06.508547+00:00",
       "type_counts": {
-        "DOMAIN": 26923,
+        "DOMAIN": 26929,
         "DOMAIN-KEYWORD": 164,
-        "DOMAIN-SUFFIX": 160852,
+        "DOMAIN-SUFFIX": 161121,
         "DOMAIN-WILDCARD": 15,
-        "IP-CIDR": 235,
+        "IP-CIDR": 231,
         "IP-CIDR6": 4
       },
-      "total_line_count": 188193,
+      "total_line_count": 188464,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/849be67e37ea50def0ae9ee7/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
@@ -1469,9 +1469,9 @@
         "IP-CIDR6",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-10-29T03:05:34.979803+00:00",
+      "rule_updated_at": "2026-11-10T23:47:02.666712+00:00",
       "type_counts": {
-        "DOMAIN": 8,
+        "DOMAIN": 10,
         "DOMAIN-KEYWORD": 3,
         "DOMAIN-SUFFIX": 33,
         "IP-ASN": 1,
@@ -1479,7 +1479,7 @@
         "IP-CIDR6": 1,
         "PROCESS-NAME": 5
       },
-      "total_line_count": 52,
+      "total_line_count": 54,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/3ff599b48d821c429a504e28/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -1640,17 +1640,17 @@
         "IP-CIDR6",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-10T00:43:02.647309+00:00",
+      "rule_updated_at": "2026-11-10T23:47:16.987359+00:00",
       "type_counts": {
-        "DOMAIN": 312,
+        "DOMAIN": 318,
         "DOMAIN-KEYWORD": 5,
-        "DOMAIN-SUFFIX": 3359,
+        "DOMAIN-SUFFIX": 3784,
         "DOMAIN-WILDCARD": 15,
-        "IP-CIDR": 17,
+        "IP-CIDR": 13,
         "IP-CIDR6": 3,
         "PROCESS-NAME": 9
       },
-      "total_line_count": 3720,
+      "total_line_count": 4147,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/b2261511504559990e0aa6c2/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -1718,13 +1718,13 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-10T00:43:02.658930+00:00",
+      "rule_updated_at": "2026-11-10T23:51:27.941793+00:00",
       "type_counts": {
-        "DOMAIN": 36,
-        "DOMAIN-SUFFIX": 1613,
-        "IP-CIDR": 16
+        "DOMAIN": 42,
+        "DOMAIN-SUFFIX": 2038,
+        "IP-CIDR": 12
       },
-      "total_line_count": 1665,
+      "total_line_count": 2092,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/5e976a2983d7934d25a416bc/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
@@ -1903,14 +1903,14 @@
         "IP-CIDR",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-10T00:44:32.394139+00:00",
+      "rule_updated_at": "2026-11-10T23:52:03.750573+00:00",
       "type_counts": {
-        "DOMAIN": 65,
-        "DOMAIN-SUFFIX": 1616,
-        "IP-CIDR": 7,
+        "DOMAIN": 71,
+        "DOMAIN-SUFFIX": 2041,
+        "IP-CIDR": 3,
         "PROCESS-NAME": 9
       },
-      "total_line_count": 1697,
+      "total_line_count": 2124,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/a5a9b05ef8cd3f9b750de234/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list",
@@ -3862,21 +3862,19 @@
         "DOMAIN-KEYWORD",
         "DOMAIN-SUFFIX",
         "DOMAIN-WILDCARD",
-        "GEOIP",
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-11-09T02:42:54.975466+00:00",
+      "rule_updated_at": "2026-11-11T00:03:53.762892+00:00",
       "type_counts": {
-        "DOMAIN": 24,
+        "DOMAIN": 20,
         "DOMAIN-KEYWORD": 10,
-        "DOMAIN-SUFFIX": 6379,
+        "DOMAIN-SUFFIX": 6362,
         "DOMAIN-WILDCARD": 2,
-        "GEOIP": 1,
-        "IP-CIDR": 3889,
+        "IP-CIDR": 3854,
         "IP-CIDR6": 4
       },
-      "total_line_count": 10309,
+      "total_line_count": 10252,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/3cf8a9f4c33c2ff30d0b23ea/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -3959,13 +3957,13 @@
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-11-09T22:58:14.278459+00:00",
+      "rule_updated_at": "2026-11-10T23:47:29.970605+00:00",
       "type_counts": {
         "IP-ASN": 5076,
-        "IP-CIDR": 12629,
+        "IP-CIDR": 12626,
         "IP-CIDR6": 5459
       },
-      "total_line_count": 23164,
+      "total_line_count": 23161,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/4e8dcd6d531c24d4393105fc/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
@@ -5709,12 +5707,12 @@
         "DOMAIN",
         "DOMAIN-SUFFIX"
       ],
-      "rule_updated_at": "2026-11-09T02:53:03.392544+00:00",
+      "rule_updated_at": "2026-11-10T04:54:06.386537+00:00",
       "type_counts": {
         "DOMAIN": 92,
-        "DOMAIN-SUFFIX": 645
+        "DOMAIN-SUFFIX": 647
       },
-      "total_line_count": 737,
+      "total_line_count": 739,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/e88c098af02ca72148ff6eb3/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -5950,15 +5948,15 @@
         "IP-CIDR",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-10T00:43:04.124373+00:00",
+      "rule_updated_at": "2026-11-10T23:50:35.479683+00:00",
       "type_counts": {
-        "DOMAIN": 34,
+        "DOMAIN": 40,
         "DOMAIN-KEYWORD": 10,
-        "DOMAIN-SUFFIX": 1052,
+        "DOMAIN-SUFFIX": 1479,
         "IP-CIDR": 3,
         "PROCESS-NAME": 36
       },
-      "total_line_count": 1135,
+      "total_line_count": 1568,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/28d7e954e540500404fb0596/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list",
@@ -8604,17 +8602,17 @@
         "IP-CIDR6",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-09T02:47:30.199491+00:00",
+      "rule_updated_at": "2026-11-11T00:18:29.139682+00:00",
       "type_counts": {
-        "DOMAIN": 1915,
+        "DOMAIN": 1912,
         "DOMAIN-KEYWORD": 53,
-        "DOMAIN-SUFFIX": 22382,
+        "DOMAIN-SUFFIX": 22364,
         "DOMAIN-WILDCARD": 61,
         "IP-CIDR": 80,
         "IP-CIDR6": 4,
         "PROCESS-NAME": 8
       },
-      "total_line_count": 24503,
+      "total_line_count": 24482,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/f6c8a9c748a80dab3cb3f114/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
@@ -8642,17 +8640,17 @@
         "IP-CIDR6",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-10T00:44:35.283752+00:00",
+      "rule_updated_at": "2026-11-10T23:48:59.088252+00:00",
       "type_counts": {
-        "DOMAIN": 135,
+        "DOMAIN": 142,
         "DOMAIN-KEYWORD": 11,
-        "DOMAIN-SUFFIX": 2503,
+        "DOMAIN-SUFFIX": 2928,
         "IP-ASN": 4,
-        "IP-CIDR": 7,
+        "IP-CIDR": 3,
         "IP-CIDR6": 2,
         "PROCESS-NAME": 24
       },
-      "total_line_count": 2686,
+      "total_line_count": 3114,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/751f401cb91ca739d9cc2d19/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -8757,17 +8755,17 @@
         "IP-CIDR6",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-10T00:44:56.083235+00:00",
+      "rule_updated_at": "2026-11-10T23:53:03.536421+00:00",
       "type_counts": {
-        "DOMAIN": 120,
+        "DOMAIN": 126,
         "DOMAIN-KEYWORD": 28,
-        "DOMAIN-SUFFIX": 2480,
+        "DOMAIN-SUFFIX": 2906,
         "DOMAIN-WILDCARD": 7,
-        "IP-CIDR": 271,
+        "IP-CIDR": 267,
         "IP-CIDR6": 200,
         "PROCESS-NAME": 3
       },
-      "total_line_count": 3109,
+      "total_line_count": 3537,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/c65052025f410efdebf1ad6e/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
@@ -10393,13 +10391,13 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-10T00:44:31.545340+00:00",
+      "rule_updated_at": "2026-11-10T23:48:13.256785+00:00",
       "type_counts": {
-        "DOMAIN": 38,
-        "DOMAIN-SUFFIX": 1366,
-        "IP-CIDR": 5
+        "DOMAIN": 44,
+        "DOMAIN-SUFFIX": 1792,
+        "IP-CIDR": 1
       },
-      "total_line_count": 1409,
+      "total_line_count": 1837,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/a91abf6a7ed43cccf3f0c6e3/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -12132,14 +12130,14 @@
         "IP-CIDR",
         "IP-CIDR6"
       ],
-      "rule_updated_at": "2026-11-10T00:44:34.113040+00:00",
+      "rule_updated_at": "2026-11-10T23:48:22.621488+00:00",
       "type_counts": {
-        "DOMAIN": 49,
-        "DOMAIN-SUFFIX": 1487,
-        "IP-CIDR": 23,
+        "DOMAIN": 55,
+        "DOMAIN-SUFFIX": 1913,
+        "IP-CIDR": 19,
         "IP-CIDR6": 14
       },
-      "total_line_count": 1573,
+      "total_line_count": 2001,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/440ebd7d61af1bd1f0ad6060/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
@@ -13535,14 +13533,14 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-10T00:44:31.916201+00:00",
+      "rule_updated_at": "2026-11-10T23:49:43.577290+00:00",
       "type_counts": {
-        "DOMAIN": 4,
+        "DOMAIN": 10,
         "DOMAIN-KEYWORD": 3,
-        "DOMAIN-SUFFIX": 686,
+        "DOMAIN-SUFFIX": 1114,
         "IP-CIDR": 2
       },
-      "total_line_count": 695,
+      "total_line_count": 1129,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/0ce38f0ac8747281a7914971/manifest.json",
       "providers": [
         "https://ruleset.skk.moe/List/non_ip/microsoft.conf"
@@ -14429,13 +14427,13 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-10T00:43:03.708966+00:00",
+      "rule_updated_at": "2026-11-10T23:48:18.041474+00:00",
       "type_counts": {
-        "DOMAIN": 33,
-        "DOMAIN-SUFFIX": 1376,
-        "IP-CIDR": 40
+        "DOMAIN": 39,
+        "DOMAIN-SUFFIX": 1802,
+        "IP-CIDR": 36
       },
-      "total_line_count": 1449,
+      "total_line_count": 1877,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/bd628b4642b56b8b5c20235a/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml",
@@ -16375,15 +16373,15 @@
         "DOMAIN-WILDCARD",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-10T00:43:04.515561+00:00",
+      "rule_updated_at": "2026-11-10T23:48:35.380650+00:00",
       "type_counts": {
-        "DOMAIN": 44,
+        "DOMAIN": 50,
         "DOMAIN-KEYWORD": 2,
-        "DOMAIN-SUFFIX": 41227,
+        "DOMAIN-SUFFIX": 41653,
         "DOMAIN-WILDCARD": 8,
-        "IP-CIDR": 14
+        "IP-CIDR": 10
       },
-      "total_line_count": 41295,
+      "total_line_count": 41723,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/1f0e35b20e52614695e628ea/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
@@ -18706,14 +18704,14 @@
         "DOMAIN-SUFFIX",
         "IP-CIDR"
       ],
-      "rule_updated_at": "2026-11-10T00:44:56.074935+00:00",
+      "rule_updated_at": "2026-11-10T23:48:50.549132+00:00",
       "type_counts": {
-        "DOMAIN": 3386,
+        "DOMAIN": 3392,
         "DOMAIN-KEYWORD": 1,
-        "DOMAIN-SUFFIX": 1493,
-        "IP-CIDR": 5
+        "DOMAIN-SUFFIX": 1919,
+        "IP-CIDR": 1
       },
-      "total_line_count": 4885,
+      "total_line_count": 5313,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/ec2a45608da552f69417a938/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",
@@ -19766,17 +19764,17 @@
         "IP-CIDR6",
         "PROCESS-NAME"
       ],
-      "rule_updated_at": "2026-11-10T00:43:03.882744+00:00",
+      "rule_updated_at": "2026-11-10T23:49:59.702141+00:00",
       "type_counts": {
-        "DOMAIN": 32,
+        "DOMAIN": 38,
         "DOMAIN-KEYWORD": 1,
-        "DOMAIN-SUFFIX": 1387,
+        "DOMAIN-SUFFIX": 1813,
         "IP-ASN": 5,
-        "IP-CIDR": 30,
+        "IP-CIDR": 26,
         "IP-CIDR6": 7,
         "PROCESS-NAME": 6
       },
-      "total_line_count": 1468,
+      "total_line_count": 1896,
       "manifest": "https://magicrule.pages.dev/data/rules/Mihomo/032dffc4064edc7b7007bfd1/manifest.json",
       "providers": [
         "https://core.telegram.org/resources/cidr.txt",

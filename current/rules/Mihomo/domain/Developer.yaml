@@ -1,10 +1,10 @@
 # NAME: Developer
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-07 03:21:11
+# UPDATED: 2026-11-10 12:54:10
 # BEHAVIOR: domain
-# DOMAIN: 91
-# DOMAIN-SUFFIX: 645
+# DOMAIN: 92
+# DOMAIN-SUFFIX: 647
 
 payload:
 - 'amp.akamaized.net'
@@ -68,6 +68,7 @@ payload:
 - 'p-events-delivery.akamaized.net'
 - 'packages.microsoft.com'
 - 'poshtestgallery.cloudapp.net'
+- 'production-copilot-host-westus.webpubsub.azure.com'
 - 'productionresultssa0.blob.core.windows.net'
 - 'productionresultssa1.blob.core.windows.net'
 - 'productionresultssa10.blob.core.windows.net'
@@ -337,6 +338,8 @@ payload:
 - '.golang.com'
 - '.golang.net'
 - '.golang.org'
+- '.grafana.com'
+- '.grafana.net'
 - '.graphengine.io'
 - '.grazie.ai'
 - '.grazie.aws.intellij.net'

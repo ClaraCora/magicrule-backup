@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T19:25:33.203174+00:00",
+  "generated_at": "2026-11-10T02:06:33.587345+00:00",
   "client": "Egern",
   "rule": "Youku",
   "rule_updated_at": "2026-08-01T04:38:22.137423+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 58,
-    "user_agent_set": 2,
-    "ip_cidr_set": 1
+    "ip_cidr_set": 1,
+    "user_agent_set": 2
   },
   "total_line_count": 62,
   "artifacts": [
@@ -23,7 +23,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4bfe47eba30d99bdeb7f9386fe533bbffccdf8334005a0ca3758b38da1c3de0c",
-        "bytes_sha256": "6706fc11591fa0185b0d0bf190a2aa318c4301a51f2328824ef4ae7b924ace84",
+        "bytes_sha256": "b18dd45eacf41e9ae86c160339818ca16838cae3f97fbc6183a1533020e8b580",
         "semantic_sha256": "7dd77194768dfc133e689006ee7f01b9d1a2f3f96a1c9be25be3a25c38902971",
         "normalized_header_lines": 4,
         "shared": true
