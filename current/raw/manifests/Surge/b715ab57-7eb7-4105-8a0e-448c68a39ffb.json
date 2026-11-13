@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:25.967193+00:00",
+  "client": "Surge",
+  "rule": "BuyMeACoffee",
+  "rule_updated_at": "2026-07-26T08:38:26.095412+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BuyMeACoffee_rules_cadbed744656a864.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8310acc152f7d160f852ac38df5652a83ce3392600d041ed3905a9b921c322c7",
+        "bytes_sha256": "8c175d4c2710a003c1073385ea7dc3edd09221cc006385cecfa98f8bf0a83986",
+        "semantic_sha256": "d5f688ff40c51339f99cd6193bc97caebc4e36f0df75b30c5343f50f10c64c29",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/BuyMeACoffee_domain-set_a1b3c9ef0b9ed12b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c0c24a6ba0df515ba9ffafed45dd24c8dc0ff251d4d861569fb24141a24a5e0a",
+        "bytes_sha256": "c60d909618af29f847c3c06e9f8b4a15d3b8deeedf5930c425475fdb390a5c72",
+        "semantic_sha256": "a03f4ffd1a58f6e3ba980d18cf654aaff5f0f560c1f7c78f00e9c4ad5b90d244",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

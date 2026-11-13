@@ -1,0 +1,27 @@
+# NAME: AppleProxy
+# AUTHOR: MagicRule
+# REPO: https://magicrule.pages.dev
+# UPDATED: 2026-11-12 19:42:39
+# USER-AGENT: 5
+# IP-CIDR: 5
+# PROCESS-NAME: 9
+
+USER-AGENT,AppleNews*
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.news*
+USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.tv*
+IP-CIDR,104.251.176.0/22,no-resolve
+IP-CIDR,165.173.176.0/24,no-resolve
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,203.205.64.0/19,no-resolve
+IP-CIDR,43.240.60.0/22,no-resolve
+PROCESS-NAME,CoreLocationAgent
+PROCESS-NAME,LookupViewService
+PROCESS-NAME,WeatherWidget
+PROCESS-NAME,apsd
+PROCESS-NAME,com.apple.Maps
+PROCESS-NAME,com.apple.geod
+PROCESS-NAME,findmydevice-user-agent
+PROCESS-NAME,fmfd
+PROCESS-NAME,mapspushd

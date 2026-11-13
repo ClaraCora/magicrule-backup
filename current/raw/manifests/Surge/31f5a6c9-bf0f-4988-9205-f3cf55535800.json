@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:45.013496+00:00",
+  "client": "Surge",
+  "rule": "NowTV",
+  "rule_updated_at": "2026-07-26T10:39:23.115389+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowTV_rules_5ac1861177fd5b94.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "14191c87c3af3a0b50676873ab751676f4d46bd149131f9f0f2af51e5bee28b8",
+        "bytes_sha256": "7b63794c13421cf79e5772d0b1f4379f75a2923f4091a55f73a78f888726858d",
+        "semantic_sha256": "886a0b28110cbaf840d93ae16338aedd813ffd897c24647bc740e7d5e3663be9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowTV_domain-set_a69e5cdd707c3f46.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b90d0547c6d4d34ebb90223c12217a5a82e306a4629ce197eff1b28509391adc",
+        "bytes_sha256": "84e1cf677888b249a010445cb54e2984323e849699eafe80babf7aff73bf5758",
+        "semantic_sha256": "072bb0029171234ef1d6078cc0eafeaaa341e91486d94950a0a70e5a463eced2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

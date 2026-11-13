@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:12.192525+00:00",
+  "client": "Surge",
+  "rule": "Cloudinary",
+  "rule_updated_at": "2026-07-26T08:37:42.449970+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Cloudinary_rules_c2b7b7eb485f7d7f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "25505d550366ec96af43a233cca3b07abe25bb84562a6385f65ecadc2c493553",
+        "bytes_sha256": "327a7315becf960d576660b18d4723f4699b003c1d8e101ed268ce02bf0d1acf",
+        "semantic_sha256": "75fef05c7ef8caa9ba4b8b5348e73b7cac2420335c71c71b011d29c6fe0451ef",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Cloudinary_domain-set_36897666400caa72.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3627893140a06af6044014b3a92f0642f691a532e68ab05979960dde96f0fd9",
+        "bytes_sha256": "8259968a12a59ad2c1ac4372224bfdd74188d8c95cac9360de14016fd27d5a8a",
+        "semantic_sha256": "97e54c8624249e0167e6348f244d0395297b120ea50b86d66ee9cad10e8d9573",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

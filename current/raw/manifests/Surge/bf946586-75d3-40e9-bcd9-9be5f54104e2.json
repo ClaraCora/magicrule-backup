@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:47.231121+00:00",
+  "client": "Surge",
+  "rule": "Corel",
+  "rule_updated_at": "2026-07-26T10:24:28.930730+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Corel_rules_e33829d131f1874c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "39bbcc850ac692a5bfd24cce25e8522c99ae430b4080639546d71a7eef8f6ad9",
+        "bytes_sha256": "352ba62f5c8f51953c586f517c233c028d664b8ae2b3ca9ee4fd31c7732f905d",
+        "semantic_sha256": "bf23db495be538c216610eb22d9e3d9bcf17048b976e6797d369411c6e947450",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Corel_domain-set_393f9b939234082b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4a86d252bacd2b2635a2f8d9400e12ef6b133152b9d51aacbd9e98efeb4b6dcf",
+        "bytes_sha256": "72304ff9cb9aefae3aa7ab1fb0d8e9094eca1db011cded86aa9c6dba822c7601",
+        "semantic_sha256": "a2a738ff2b45c2f8e38c0fa5b9b0d8ae9723ad7aca15ccbfe36757bbf3843385",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

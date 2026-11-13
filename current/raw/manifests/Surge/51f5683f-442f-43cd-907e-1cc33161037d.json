@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:43:13.654980+00:00",
+  "client": "Surge",
+  "rule": "Binance",
+  "rule_updated_at": "2026-07-26T07:14:52.761440+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 46
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Binance_rules_50609329ecf8b551.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d55f60e4f787401928e930ecbe98280afd79cf776120dbd81444f7d31fede26",
+        "bytes_sha256": "68cd1d0a4d5c6287efc3407c34da36037aca151cc8359af219d87a7e825fe240",
+        "semantic_sha256": "2b6004de193179293fc65aa370e1fba5d6e7388443bff1368f3c9f951b374eba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Binance_domain-set_be132356e0132267.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7826fe98bb821c405f8ba9b7afeb29465c7116618769c97728b392b1914e5a96",
+        "bytes_sha256": "93df0b002bfa2871e77bd7e636ad75c7931d088255f02056524fa63d9173c9f8",
+        "semantic_sha256": "01c1c509116ffeb7bdfedccc2d35065872c114448a66d696987efca296c3dd0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list"
+  ]
+}

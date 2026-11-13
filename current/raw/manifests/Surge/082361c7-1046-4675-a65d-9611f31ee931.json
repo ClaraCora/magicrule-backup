@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:31:32.867099+00:00",
+  "client": "Surge",
+  "rule": "CyberTrust",
+  "rule_updated_at": "2026-07-26T08:35:16.053890+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CyberTrust_rules_2610dfe4769c5d93.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e7e804749f3bf4da99dbc847a7453a0283bcaf21e561343b0a9656974297c01a",
+        "bytes_sha256": "61ce552b0ec7275c806793b52601b4ab7806c45867407a539444704d5bd91953",
+        "semantic_sha256": "c16f4d753397a13d4d27901027891893b7584072bb3b938bac23ed12fcae55f9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CyberTrust_domain-set_477bbbfe98cc2120.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3fdbeed1d87619c8a1230d048f4f76800be2cfcabbf420640f9eb4885dea379a",
+        "bytes_sha256": "56dd3ee896577a7d7887808f642f2ea21fd9378895715dacf2de8b030097d093",
+        "semantic_sha256": "63c17930b34cfd6961e2eae268542c0ba04bdbbb574916e66f4c40610f3978c0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

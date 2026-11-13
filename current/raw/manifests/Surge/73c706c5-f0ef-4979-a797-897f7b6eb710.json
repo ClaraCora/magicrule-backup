@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:02.019206+00:00",
+  "client": "Surge",
+  "rule": "Haskell",
+  "rule_updated_at": "2026-07-26T08:35:56.968221+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Haskell_rules_542affa6b20b452f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "adaabfadad3ee199b13c904cfb32562f2140bcd8eff5b4fc7c373ca6e07a8d47",
+        "bytes_sha256": "e0f632f3b6b2fd12a31088ec4f14e9ae063837c74ab603b2fe93a94dab51b2b6",
+        "semantic_sha256": "0fcb4177785bc194929dd2bd0dcb5f2ea88b1a28cccf57fe95d8ef2e079b5551",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Haskell_domain-set_d4586f69e33c43a8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "df364feefe18018da2cdb7a6fff3798ed5efebfb6e78e675ef74fb47aa6a5836",
+        "bytes_sha256": "9e3a3a241d6dd06ab36be2490711d55292afdbb5bfefdb90291fe5b540ef1703",
+        "semantic_sha256": "adb30fc2ae6e700956357152de7cf514b18596e30e63a3ed51d7ee63d4e9b3cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

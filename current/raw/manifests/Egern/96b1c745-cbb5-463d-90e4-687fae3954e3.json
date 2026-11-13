@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-11T00:27:30.047613+00:00",
+  "generated_at": "2026-11-12T15:34:31.848624+00:00",
   "client": "Egern",
   "rule": "AdvertisingLite",
-  "rule_updated_at": "2026-11-10T23:51:47.027228+00:00",
+  "rule_updated_at": "2026-11-12T15:25:57.437426+00:00",
   "type_counts": {
     "domain_wildcard_set": 15,
     "url_regex_set": 5,
-    "domain_set": 26929,
+    "domain_set": 26932,
     "ip_cidr6_set": 4,
-    "domain_suffix_set": 161121,
+    "domain_suffix_set": 162623,
     "domain_keyword_set": 164,
-    "ip_cidr_set": 231
+    "ip_cidr_set": 233
   },
-  "total_line_count": 188469,
+  "total_line_count": 189976,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_rules_5f80ad77bcd0c1b5.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/AdvertisingLite_rules_9124330bac3304f3.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "0c22c78b164cb0e4b7ca5ea07eb3c3b50a55b2f94dbf67b494b26efc8a321955",
-        "bytes_sha256": "10630d4fc0ce45d91840e9ea4566aba2a2bd42e74b5b4c77d98d913d7218699d",
-        "semantic_sha256": "5a6bf61377692426375887494781e16cffe4e850f6e29fdbd1af0be2e0f9f615",
+        "fingerprint": "e5a3fcdb32955166c89f2f66b332ee299bd0ef6ccc9fa2a905a7a051d819ab8f",
+        "bytes_sha256": "d6bea9a6fa746555ca573ca879e3ff09bda00d8a4103d9c9f20c8614af89b24b",
+        "semantic_sha256": "baa1bedece63d75cfe16c5ca51c787df131261e1ac3aecf197d4b9c3b1f5f47b",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -36,15 +36,15 @@
       "key": "mitm",
       "label": "MITM",
       "ext": "module",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_mitm_cbd720f3f287f4ca.module",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/AdvertisingLite_mitm_d38424160937618e.module",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "ac1f37c293b4a53715d4ee8a7aecee9fbf27993cdbfde78cf1c673e3ed646a01",
-        "bytes_sha256": "d1c0d8154dc22dbbe9bf3b50193c372fce037996d7d18ad414c4af1feff99176",
+        "fingerprint": "67bd26a13a24c2538159384650fa9802ab7abc330f546fc7d5ae97015d05c138",
+        "bytes_sha256": "b07f7e498f9edb2ab49289664893dd39a92df786a81fef41dcd0e249851305a7",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

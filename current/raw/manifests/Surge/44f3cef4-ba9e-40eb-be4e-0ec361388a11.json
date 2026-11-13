@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:26.641729+00:00",
+  "client": "Surge",
+  "rule": "OrganicMaps",
+  "rule_updated_at": "2026-07-26T10:39:41.134875+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OrganicMaps_rules_601707b71d70bc91.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "717487627f11e7341e0179563737ec563e967e1c811d6438fb4742abbbc1a12f",
+        "bytes_sha256": "e5886f62d16b57a0f75ba9a7466ee5b4260f60669162f9e177b10e5cbb1803e3",
+        "semantic_sha256": "79c45ca3b59156dcdacdda049593945cfd53dd3b25c970ed8591a1661c0c1895",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OrganicMaps_domain-set_b03d85262ae276b3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "92bc87fd70fbb293738652f79339bbf97c98439b1382f0c87f335e4f9c957aef",
+        "bytes_sha256": "5200d73fe75f671d0fdbb22630dc6414a0c1117e03a57e9403105de92625570a",
+        "semantic_sha256": "6cc79aacdd08a0ba25a89ebee45cbb94d15b244d1f7a041b693e79f64c20225d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

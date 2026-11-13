@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:53.135453+00:00",
+  "client": "Surge",
+  "rule": "SingTaoNews",
+  "rule_updated_at": "2026-07-26T10:43:09.701195+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 18
+  },
+  "total_line_count": 18,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SingTaoNews_rules_daa53ade3e836ba5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab86c01e7b8e1154ea073f1ab301d0420d9f9895cfec1d56744ad4268fa0f6da",
+        "bytes_sha256": "f521c2f825199d1fd352738f5cf30e0c65bb89b29a14eaee1f36ae09f213cdf0",
+        "semantic_sha256": "40e2af7ea0654287a1cb30daba19546a39ec4f5f31a016a2b036feb0e2ecbd3d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SingTaoNews_domain-set_2cec28855477436b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "21457f92ee14d5843be7cc4a3773f7bd120a6a2286d0e789eebd1336e0354beb",
+        "bytes_sha256": "5c9ae4d24b3582125d091bd06f8f3b36a54c407534c232b5ad06cae7e8431fb0",
+        "semantic_sha256": "84caf5d2f49bfb45b7d0d4669b98cc5fd488c2f4aebd63d99d12d7aa7737d53c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

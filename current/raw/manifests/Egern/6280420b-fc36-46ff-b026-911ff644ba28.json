@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-11T00:12:06.790027+00:00",
+  "generated_at": "2026-11-12T11:50:35.254832+00:00",
   "client": "Egern",
   "rule": "Telegram",
-  "rule_updated_at": "2026-11-10T23:49:58.804015+00:00",
+  "rule_updated_at": "2026-11-12T03:29:48.479733+00:00",
   "type_counts": {
-    "domain_set": 38,
+    "domain_set": 41,
     "ip_cidr6_set": 7,
-    "domain_suffix_set": 1813,
+    "domain_suffix_set": 3659,
     "domain_keyword_set": 1,
     "asn_set": 5,
-    "ip_cidr_set": 26
+    "ip_cidr_set": 28
   },
-  "total_line_count": 1890,
+  "total_line_count": 3741,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rules_6952e3155030ca49.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Telegram_rules_85c6f385114623d8.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "b0995f4e85c3b97063cdf3bbd14dd79c6f3b1c75f4ab24656cb20b7d5c95cef7",
-        "bytes_sha256": "7058c886a077d6d5c021297325a29d01fe3f700f601585383ac529603ff5d8d4",
-        "semantic_sha256": "5d7576f4bce104a74e433615c72ce4102440417337058551927b0a959ba92c84",
+        "fingerprint": "894ae4e2466fd7b83129af1e860ab57109b4e02177be72efa0aa54c01d2f4f3e",
+        "bytes_sha256": "fbf672366ff3907c57396a026bcf6e79eb1db435f4be1bcf53c3b744d4ad2548",
+        "semantic_sha256": "f17bb5746343416f5e95f38fb2dc4b5c33965df539cee12715d23983eab3e5a8",
         "normalized_header_lines": 4,
         "shared": true
       }

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:57.391736+00:00",
+  "client": "Surge",
+  "rule": "Termux",
+  "rule_updated_at": "2026-07-26T10:45:37.643464+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Termux_rules_f873014d6e31bd2b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7599c6c682a3f868b71d01a58be25448ab8778bfe12c610c81ca28ee88e1afd2",
+        "bytes_sha256": "bc2fcb8c68fb5bce89f772d659c3e653f6fd192e3db13f2e8367baf591c6c27c",
+        "semantic_sha256": "687c773a175638f7b1b525e7aa7c701b8441e375324e50cadfaaf517f8bf2d0f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Termux_domain-set_bb215954d36ed837.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e65c62c6ce6ea72de8ee9e5c324eb67a219d1ed88433c8b2fdb2a333074f5c6e",
+        "bytes_sha256": "854342c2777d0857663eb1f3d8077bbf83593d0f075ff3bc1c9eb5bd3c2dbf2d",
+        "semantic_sha256": "1afcb51f0039df36b5f508cff5e6c85978e68739b8375ade67b43b93af4ff403",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

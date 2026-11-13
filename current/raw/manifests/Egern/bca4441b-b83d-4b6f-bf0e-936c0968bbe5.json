@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-10T23:55:16.700121+00:00",
+  "generated_at": "2026-11-12T18:11:11.087882+00:00",
   "client": "Egern",
   "rule": "ChinaIPs",
-  "rule_updated_at": "2026-11-10T23:47:20.397209+00:00",
+  "rule_updated_at": "2026-11-12T11:28:29.257027+00:00",
   "type_counts": {
     "ip_cidr6_set": 5459,
     "asn_set": 5076,
-    "ip_cidr_set": 12626
+    "ip_cidr_set": 12630
   },
-  "total_line_count": 23161,
+  "total_line_count": 23165,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_rules_0d7c83e2e5505b81.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/ChinaIPs_rules_10c6e31c88badcff.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "90bae87d313dba8f066e26105f0512b5fbcfb4057f3f194117a3dd4e341f39b4",
-        "bytes_sha256": "9dda32662bb98e6b05713fe6712443e4217f58e3a5ee38bfe6d05e31ba342e24",
-        "semantic_sha256": "05fdc58f0c638cc7b3ab4963ee59fbfa939af4f85dcbaa4612979ce35b3a0790",
+        "fingerprint": "1d6e6ee7da5c416bb55b0d2afa3db3b66377befecee402703aafc1eae0503c6a",
+        "bytes_sha256": "35eb1f5faae627e0ba0233085323a7c88126321555e0d53d721d53dd70d55a59",
+        "semantic_sha256": "aeeccce34899219e9ecb888791e6817d5a5ce730a0ab1e3bca75141bf02dd2c8",
         "normalized_header_lines": 4,
         "shared": true
       }

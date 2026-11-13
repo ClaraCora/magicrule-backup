@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-11T00:18:20.823400+00:00",
+  "generated_at": "2026-11-12T11:50:29.569216+00:00",
   "client": "Egern",
   "rule": "AppleProxy",
-  "rule_updated_at": "2026-11-10T23:52:03.273776+00:00",
+  "rule_updated_at": "2026-11-12T02:19:44.599426+00:00",
   "type_counts": {
-    "domain_set": 71,
-    "domain_suffix_set": 2041,
+    "domain_set": 74,
+    "domain_suffix_set": 3886,
     "user_agent_set": 5,
-    "ip_cidr_set": 3
+    "ip_cidr_set": 5
   },
-  "total_line_count": 2120,
+  "total_line_count": 3970,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleProxy_rules_bd27e22bc51e3948.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/AppleProxy_rules_0466292db148b62d.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "13e46c137de1319f0277e51b7fe8d075449e1ce122b6383ff02d422e4d3c57cb",
-        "bytes_sha256": "0962ed106103026a4932ef08867a118d90196ecaf45bc994fb93cbf7e1e01125",
-        "semantic_sha256": "8955f57d936ed1bc8bbc610904315193b04b32935ffe1375d46303bb08c339bb",
+        "fingerprint": "53f8d0d2c2386c3ffe76df8bd193aafa1c3b21a6757f5d5f3488490d569a3f2b",
+        "bytes_sha256": "5d4ee2b4a871cd2569ded72cff5fa18f829e13362fd29477179341b911160756",
+        "semantic_sha256": "886ed3c103e214c361fa4af22626058cffb1c8573e1951b2313de14e122a285f",
         "normalized_header_lines": 4,
         "shared": true
       }

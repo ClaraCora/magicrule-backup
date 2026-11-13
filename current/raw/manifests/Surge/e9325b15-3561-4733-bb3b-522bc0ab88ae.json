@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-11-12T11:49:03.886907+00:00",
+  "client": "Surge",
+  "rule": "GoogleVoice",
+  "rule_updated_at": "2026-07-26T07:24:10.446118+00:00",
+  "type_counts": {
+    "DOMAIN": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GoogleVoice_rules_7e2a5efa51b704e2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a51afc8919e1627f98f520f19d2f375ad8045ea6a6c0bd3278e916f8e1d36589",
+        "bytes_sha256": "9de05a5c8b1221a480dc00c83e7c704dcac28e0afdb73537c85effa2d0db1814",
+        "semantic_sha256": "1d10099df98e7553489dd8f9ba264629e7b1e2b1aa9154ddb981287b1549de10",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GoogleVoice_domain-set_a79ea0736aa301a5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e70d0f084bec41e1f47c65286455997f38788a512653a1bcdf24248fc239e5b",
+        "bytes_sha256": "71501de27897b5f07347779b6719df6411bae714343b156da62dc5a31a53c8ce",
+        "semantic_sha256": "dc7fa2d344a64d5a0ced11bf0254235a2687d83f9cd504b4f4c4104ca3734c01",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

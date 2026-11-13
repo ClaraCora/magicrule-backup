@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:49.825706+00:00",
+  "client": "Surge",
+  "rule": "Bridgestone",
+  "rule_updated_at": "2026-07-26T10:19:26.456397+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 98
+  },
+  "total_line_count": 98,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bridgestone_rules_38ea51d0ecc0ea7b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a46f0ffcd442d644e2e7e2181e786b9394a6c3f20f8997f1d6befd0756c24b9c",
+        "bytes_sha256": "b56c04647ba6d573330a57232eede783c0c92bf9a645581546ee0b72645ee287",
+        "semantic_sha256": "cc736b218ee0b9404b56efca51eb345ce238a8ec2f8f9541bf6d0cfc0b2928da",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bridgestone_domain-set_d6a615a85e06f713.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2792b0be0e9121db04b389a360c9e83494b8f0d8921987bc94fd34ba7078515e",
+        "bytes_sha256": "ee43460fd091cd528bdaa10f76994cefca77683ad8c7285a86269f248176fb2b",
+        "semantic_sha256": "e42af1fcb8ee6a6f133face37c7c5d00b735579bbec648b2c1b54987b14e619e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

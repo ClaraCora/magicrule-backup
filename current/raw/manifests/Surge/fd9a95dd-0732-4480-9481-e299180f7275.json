@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:02.757542+00:00",
+  "client": "Surge",
+  "rule": "Springer",
+  "rule_updated_at": "2026-07-26T10:44:00.987661+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Springer_rules_477921f0ceacf507.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9eb75a679880071768a7259dbf6d16f921d9d83966b16dbed887294dd98388e8",
+        "bytes_sha256": "c49553e7a253343afef4ae29639fe1a3ec49b37c2ddf30e8453a319564659efc",
+        "semantic_sha256": "0d9f422be14157d8371d6d177ed35a21b5222bd3550c7ccb4b4a0ae3f931e897",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Springer_domain-set_b3a90c839754ad46.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91580b7cb512f17a4c5eff85a9e84e59f9678f32f0797bd51e9f208a35babdfe",
+        "bytes_sha256": "f1eede60be382878fe97b22a5620921b8d19f92ba426a71d26cc413fce9771fc",
+        "semantic_sha256": "b62b749c50fe1d9235c7cd6307daad983bdda4a0657b6176c74a0608f8223e47",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

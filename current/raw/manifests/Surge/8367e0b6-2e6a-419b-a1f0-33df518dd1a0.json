@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:35:42.543112+00:00",
+  "client": "Surge",
+  "rule": "Forza",
+  "rule_updated_at": "2026-07-26T08:36:31.081289+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Forza_rules_7d2cb1c5ffefd55e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5448813f9ae4d882097f4c6813fda2fd58fe63acfa5e52fb7f47fbe3c4eff9b4",
+        "bytes_sha256": "d07a5a73cfa0864ff69b222a48b7fa2e2e610cbf708804fb8355beb3fc66d233",
+        "semantic_sha256": "9b3196f8796826783ab4ea515b6a5576ed87aca1c77ab2ca5b30c2d5d19465b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Forza_domain-set_ae22430de6a2a09f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4455065e26fc60b9dfbab0ff96c76f2d2c8d07669d060b9e88b21700fd64bc28",
+        "bytes_sha256": "5096867f34a0d8c7693b92e8945db6366dcf0a128867cdccb3af24fb8ddb0d59",
+        "semantic_sha256": "b688b2d72e92e9380e0c5ec81931d4fe87f507ec7e143e221333c90b42bae49c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

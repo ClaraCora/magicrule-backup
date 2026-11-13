@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:30.222691+00:00",
+  "client": "Surge",
+  "rule": "TheSun",
+  "rule_updated_at": "2026-07-26T10:45:46.411859+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheSun_rules_0ac52d91cfdac4aa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5912f63a09e2eb2e77d357b60a7759bf06c8c067912c5820bb08e5f26fc306fc",
+        "bytes_sha256": "167bfaf83f431653ef7e1e0c961ae5756dc5ff842a6a2d4cb997c35f23317468",
+        "semantic_sha256": "2bb77c0a525dbd6e77586fabd17946131294448e721ad5ebdd98ec6fe3d091e6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheSun_domain-set_0a9abae3266d151c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b0174f9c106d6afc6f38e7d18bc18f44f5dba164e6fb7bfbb3252d27394a8a3b",
+        "bytes_sha256": "948ad4bfd82a37de6d3980d5c3223338a74e38ee53d650080cd65d78a38501d3",
+        "semantic_sha256": "196a164143ad98e232134f436935ee5bcf2e48a68b172b0af6b2f0335a0d307b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:16.446533+00:00",
+  "client": "Surge",
+  "rule": "CloudNS",
+  "rule_updated_at": "2026-07-26T08:38:25.406860+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CloudNS_rules_666dd8722b7a1d15.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "46598ff3cbbc770a8b5e8adf5ce74fcb18b08bcadbb0d476432c23bd283a64dd",
+        "bytes_sha256": "053590f3fa76ea5c2a2115b5796b0d1cfb076e13c5cb4d8c3083ceea4f28a972",
+        "semantic_sha256": "3f72e1c2e09206d4676fd1dc05d31ddd87ee9544e93338624b2203c5646ae106",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CloudNS_domain-set_65ca51dd95cba446.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "337f538827353a95f66e99b3c643a320e9de01c693c11de8b3d375765bf3ef7a",
+        "bytes_sha256": "eae71ab017516a66bb513c83a3feae2ed2b1453ef9d70466e048f0b101c8a4de",
+        "semantic_sha256": "6ad239afadf9bcff57f011ef7bafebc3bfc0a2e1299b2f8a942fcb8cfcc46fb5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:52.164711+00:00",
+  "client": "Surge",
+  "rule": "Perl",
+  "rule_updated_at": "2026-07-26T08:36:07.512018+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Perl_rules_73cf0be9f6d1e2dc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0f680b4883e2d67e041772a2f1a20a7c91365e74004c2e53118987054722756e",
+        "bytes_sha256": "71be095f72fc3f6f22c9126a0342d02a1a8a6e02ae9ce5fa150fef65e3a1af36",
+        "semantic_sha256": "454856e5bd1c07fe5beccd058431a13a85d7516cb29a6fdc97c9fe3f0979044d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Perl_domain-set_57ce4cb196bf006a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b69dcbebde30a78eb57f877bf461e9b94aac7f5822f930fbf0314b8f229d56e",
+        "bytes_sha256": "a457f83bf708f9f2056b1a933d2841e3721b503debd2a20308ed13b71f3fd0a5",
+        "semantic_sha256": "06f2fce117f8434fcc47e33a93c600ce8bbfb46b3baedf1487bded2da7f28cdb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

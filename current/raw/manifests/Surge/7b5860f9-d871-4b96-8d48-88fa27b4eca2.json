@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:19.543119+00:00",
+  "client": "Surge",
+  "rule": "Gannett",
+  "rule_updated_at": "2026-07-26T10:28:27.612656+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gannett_rules_3dd81ebcfd0eb658.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "11a4828462c93aa460b3c534d8c79da3b326839ea373b4164b0f813b459ddb11",
+        "bytes_sha256": "34f0a11895c1ea9c47fab1a055a643f06cab3e351371c4b42ec5400594f9ee9f",
+        "semantic_sha256": "6e4314ca05a374d1a641ab4e93ef3f2702bc52ae94289ca54085dababe890bc9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gannett_domain-set_0e89fbe4a15b77ef.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4f86ddd1a219a5de5514571acc009885f6e0ae41bad19bbac235e9c9b8583074",
+        "bytes_sha256": "6774407fccc674f9615cb969ea1964419e826334a37a276aa54ed4932ea59ed4",
+        "semantic_sha256": "9b616c86b303f56713ea636208fae0f1f4fe4bbd5365bb563a5e6c48c60e62de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

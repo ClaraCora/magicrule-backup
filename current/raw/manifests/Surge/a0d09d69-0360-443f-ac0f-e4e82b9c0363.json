@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:40.010583+00:00",
+  "client": "Surge",
+  "rule": "PocketCasts",
+  "rule_updated_at": "2026-07-26T08:39:20.286043+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PocketCasts_rules_2bac9aa1997c0bca.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f219a1a7bbb4600f5e524bb78278bad536c8f7a3a4ab0b03bf69b8f714aadf96",
+        "bytes_sha256": "56c995b8debc12e33cf34a6b682c1eeca16f3c820eb715eaf10e27c01f694c39",
+        "semantic_sha256": "a4fbd6a24d85723bd2c97a3fd6507319b4bd4c85aa62589d50beae8c922e7e49",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/PocketCasts_domain-set_f19bf5337e53d701.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "33e234d649f124e04aef621031d674036ffc725291c0311b49537b6d21b449d0",
+        "bytes_sha256": "37343c062e7b4a19b956796c725999e88095327ff6e40f114734625f1a45a510",
+        "semantic_sha256": "9f2625b5b00d0b0295b0697cb2b1c15836f533ebdb69137c32a2a0962aa89c36",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

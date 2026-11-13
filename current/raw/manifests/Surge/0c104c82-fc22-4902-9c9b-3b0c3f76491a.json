@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:31:38.054967+00:00",
+  "client": "Surge",
+  "rule": "ColorfulClouds",
+  "rule_updated_at": "2026-07-26T10:24:47.886593+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ColorfulClouds_rules_9ca7d96a99c8059f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c0095be28586a61dca5bf65196d263aaf078b5b92622d0427d25850842a3b466",
+        "bytes_sha256": "b0ca2e1aa71b94f0ace20195347b94738884be8f98f7bc5d9da0c757e504b04a",
+        "semantic_sha256": "41d1b2c4a9d95aa193ee0e7f74e290fbefa26778e4e81f389f377cf478d79f69",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ColorfulClouds_domain-set_a53b6eea06279b72.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "42c576546440ed900e7417bd46376f244cdcece25905c220220afb8938073b95",
+        "bytes_sha256": "7642bcad30e87a66981c7a8958396b2eb5cdf2a9ff590acaae080b8868631578",
+        "semantic_sha256": "2b526f37912522b60c9c1c22cc0a55212ba0d5798c369c87881c166aa31b96d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

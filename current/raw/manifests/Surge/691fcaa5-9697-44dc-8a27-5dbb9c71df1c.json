@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:41.194968+00:00",
+  "client": "Surge",
+  "rule": "Bohemia",
+  "rule_updated_at": "2026-07-26T08:36:18.754917+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bohemia_rules_48734ddcb814f85c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "713d5f73231e8809209cd858be9720b2f6878d6c995f8f8329857075f031ae84",
+        "bytes_sha256": "f299d7d404756b38035d68b23fe16547143b2e347c22934910fe014ef8d85783",
+        "semantic_sha256": "dc510175681b3aa141e0db7fb28a50fcc9b87899e4267a58b20d02b4c796d475",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bohemia_domain-set_980527fccaa61efc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "defb64683d15fc8dfcb73e68a7a4ff92634e3d83040105a13edb5eddac0fa312",
+        "bytes_sha256": "2e3a3771a3c970ea8490624b769bd92679930238f4efffcbfdce3e3f2c6f2e14",
+        "semantic_sha256": "8836dc38c82b41f7bd0cbb807c512bd81bb570c5c35c8d21ae67570e019f0300",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

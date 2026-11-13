@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:41:06.135977+00:00",
+  "client": "Surge",
+  "rule": "SteamCN",
+  "rule_updated_at": "2026-11-11T03:13:42.035861+00:00",
+  "type_counts": {
+    "DOMAIN": 12,
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/SteamCN_rules_f86755549ad8ec69.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eb313d1ffc6af00611fc03113f22232f1f0f0f164cb5bbbf0b996a760284e488",
+        "bytes_sha256": "a0d4bb743141ed5cb550f80123f9f238dc32b615ca497cba41291a816c54ac8a",
+        "semantic_sha256": "cf50b2b90cde7349da40c31b2ede6e96464ce3c430c0d098796615a8dc730b99",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/SteamCN_domain-set_87f8767196e8812b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "494e17c50a792aa906dd56d6e903faa4eeeae770247f4ee3acf1b6759a3669fc",
+        "bytes_sha256": "be6b13301434c2c7c9b3d0c12ad3d79e6891c5912dd595d560cae6ded9df046f",
+        "semantic_sha256": "285ecdef2e8f5107a31827caf6916b8306d79cec3aa7ba754441f9f61633db3a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+  ]
+}

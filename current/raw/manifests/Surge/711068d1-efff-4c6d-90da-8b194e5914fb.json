@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:55.738149+00:00",
+  "client": "Surge",
+  "rule": "ICable",
+  "rule_updated_at": "2026-07-26T10:33:47.712252+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ICable_rules_9c02e1b4a68d5b46.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1ce9504e5889c973887e72363a83d4a40b45c0ea2b6165fc0c15ee69e69196e9",
+        "bytes_sha256": "d0575793569dc75b9797e6824c051801d5a7da404c932e20e1b74e8285d4b884",
+        "semantic_sha256": "898395706ba532c975ca364176aa7e8b344dab3ad3cda6f8b8030a0873682654",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ICable_domain-set_d23515de3b24b5e7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "faab63a35c89ae96f401ad0a141a49b63dc3937401b9a0b112676f55b1cbbcc5",
+        "bytes_sha256": "f7f3eab719c940f09afe0f450eaaca1334eae2815745b10d9a7c4f2da430862e",
+        "semantic_sha256": "86064323edc4b613ed86605ceb515478e3d56d6a5382979997905052e829f29c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

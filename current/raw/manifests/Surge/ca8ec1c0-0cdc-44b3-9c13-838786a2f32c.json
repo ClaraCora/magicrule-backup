@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:17.534574+00:00",
+  "client": "Surge",
+  "rule": "NICru",
+  "rule_updated_at": "2026-07-26T08:37:43.786799+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NICru_rules_88b8992042942825.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71825be9afc0e5f6d9f13c14fbbca2467e8825dd84dbc709c7ec1f0467258d2d",
+        "bytes_sha256": "0e5aff2d806821287b474653b72860cd5d977c5ff89eca364878370c8780f2e6",
+        "semantic_sha256": "a472c4f67e87bebecf1a9a40083687de4fe7d27c00deda02012b1b3bdadb6ee2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NICru_domain-set_4c54e45f8b9a0b0b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e2a2c3143a146a8d6bfc1e2cbcaa197bd92e240f46a537cf7fa30c5908f97bb9",
+        "bytes_sha256": "a51708512978ee843be5535105301ab1b0b28c3517ecfb6b4b753ebec82dc7db",
+        "semantic_sha256": "f752863e6ce61d29d2074d226795c61277e1af6afbc932d42f59e289b79561fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

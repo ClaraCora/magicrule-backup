@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:22.060045+00:00",
+  "client": "Surge",
+  "rule": "Bethesda",
+  "rule_updated_at": "2026-07-26T08:36:14.132163+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bethesda_rules_60ac985ebdfe8a9a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cc08f9fa09b8360bfde6e405a25859b3e6a0b1ddc36e8e63008340d61e7a4104",
+        "bytes_sha256": "29ea9e19c39f3fdf6f9113cb74ea76c780a8472e15cb85a96e2fcb0c5a14e7b4",
+        "semantic_sha256": "7517bd41cd16402a0072d61efb25458bd0e585b5839b09025080704acdba336e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bethesda_domain-set_a8d3def6e8dc3569.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c75dceac00398a915e02d47374769b2a9b9e6da14ab8499a9bc2d8c62908ab6",
+        "bytes_sha256": "7d9e782c42835bcbacf38754a10ce83039bf62ebf404875916f1ea28659236a5",
+        "semantic_sha256": "97162f05f8275cdc53b3a768ab2d1c56aa63faf454291ed39eb25f89cc52cf3a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

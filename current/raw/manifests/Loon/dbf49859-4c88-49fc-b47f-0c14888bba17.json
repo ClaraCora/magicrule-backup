@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T02:03:16.380336+00:00",
+  "generated_at": "2026-11-12T11:48:33.542414+00:00",
   "client": "Loon",
   "rule": "Hijacking",
   "rule_updated_at": "2026-07-26T06:31:06.277335+00:00",
   "type_counts": {
+    "DOMAIN": 1,
     "DOMAIN-SUFFIX": 177,
-    "IP-CIDR": 43,
-    "DOMAIN": 1
+    "IP-CIDR": 43
   },
   "total_line_count": 221,
   "artifacts": [
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8528c3063f8a3a083f4aec43853b5869b671b4bb1560dd3a151bc573a033f1dc",
-        "bytes_sha256": "c3984ac3621a78b117a4d013b005ecb954a5b8f2c56d6f7a1c0297d651c95d62",
+        "bytes_sha256": "064234ef43cc9ef54cb68880dd98c6cf986350406d39069496a936ce630c0b62",
         "semantic_sha256": "0c8244fd2b3560f1374807c61dd52a6b255c10db82f1892427f14dd0c7e22ab7",
         "normalized_header_lines": 4,
         "shared": true
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ff3d18ef76fd950e3bcea9bac8aeedd166657eabee6fe1b5ad83e3beed2ebc4b",
-        "bytes_sha256": "fe153bf24bd81e5a8f47d4209570850b3e6b8e7131e48a1f243d4ede28a1a868",
+        "bytes_sha256": "35f30dbdda7e4eeb48091a4705186dd64cb58fdade7c347d416899d1e57e2c6e",
         "semantic_sha256": "3cff46727170303b5d86c87d3ad9b9cc28cef487f44a1d257e78df532ae64911",
         "normalized_header_lines": 4,
         "shared": true
@@ -58,7 +58,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "31f8f5211e733de679e37a353016b53bb17169c49ac399d7f69523fca755696f",
-        "bytes_sha256": "33982574ddf84a7f2622377d8b03b9017f159a4d84a189248ca3c17ad896f3f3",
+        "bytes_sha256": "7c841a0bdaa1c199c3a1a498459559f4a5e31d45089a69106a364aac7a94a33c",
         "semantic_sha256": "8dfdf15d2a1f5eba19ef4605217af4cf4af3b8fa545a0914218a0b810c369a35",
         "normalized_header_lines": 4,
         "shared": true

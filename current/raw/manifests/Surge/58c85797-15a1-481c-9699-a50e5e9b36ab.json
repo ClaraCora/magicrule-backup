@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:43:30.674842+00:00",
+  "client": "Surge",
+  "rule": "OP",
+  "rule_updated_at": "2026-07-26T06:32:09.438375+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/OP_rules_1105d1038f53bcd4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99e7e6eaa49086b61bd3bf860b33f26faae93fe3d932a0c9502156a16a7cd927",
+        "bytes_sha256": "b16bf1fbeee3f33bd82cae9fa6ee808a923b16b7ecfa72319dec57c348438882",
+        "semantic_sha256": "3bc9fba2fca15dc33d81182d98e117413d12496bf06338bf03c3203d4cfafd25",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/OP_domain-set_adcd865c36255209.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "566bec17c2f49a23f1a565a99ae1b423ec8bbc87661beb3084fa9718aac89039",
+        "bytes_sha256": "17ef3c6aab4c7f7a41a2f6cb08f8f3da2f076c1318344dedb88d7092d34b35e8",
+        "semantic_sha256": "72478d8227bec5ada93932c0a352d8981b173f57b6c18ae93d0feb42f5e35047",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/OP.list"
+  ]
+}

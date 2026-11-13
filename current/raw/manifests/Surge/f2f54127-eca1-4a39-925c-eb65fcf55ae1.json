@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:36.244407+00:00",
+  "client": "Surge",
+  "rule": "LinuxDo",
+  "rule_updated_at": "2026-07-26T08:35:27.705488+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinuxDo_rules_a579194816f85a81.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f9b43a059117a4bd3ec6db3161ae85bc87d69fed143538aa2c1e0ee3d4682293",
+        "bytes_sha256": "fd45fecdd5ec3156a5195c51a59901874be7aff792b473a19d4be644a755eea2",
+        "semantic_sha256": "a3f09e8480d0f58541175fecfb6b447d125237a504daedca3dda4eaf707808f6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LinuxDo_domain-set_42ab8e03dee18963.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a2ca10bc4f1f5b91923e4916cd7266eeacb05023f01eca3e12570bbdd3b8007",
+        "bytes_sha256": "d04d882ed13b3d97d36ddfbec12bebd087a223e7b1ccb896a456f0f2c69bcc14",
+        "semantic_sha256": "17668501976c173937748f8fc801ad6474d76a952bf09bbf3aad732f4070072a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

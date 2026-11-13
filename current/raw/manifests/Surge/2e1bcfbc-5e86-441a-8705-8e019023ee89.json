@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:42:01.961721+00:00",
+  "client": "Surge",
+  "rule": "Uber",
+  "rule_updated_at": "2026-07-26T08:34:43.070974+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Uber_rules_9bcee804005df37a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "330c27b4f96f23df35b1b564d82cd77a36c38dc55552c245f455020edde96243",
+        "bytes_sha256": "fa95910d24e1d653dbd44d543d90b816ce7b1d62b486e69ecbb5adab3c4c175d",
+        "semantic_sha256": "722b50638771412e1f20602d0623f8fe483f44ff18514cf1111ee922f5b4b8e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Uber_domain-set_f8abab522435955e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "491695dce7a634130299013cca0c16ba156a36c1e1e0af32c35c99b2d1290a45",
+        "bytes_sha256": "f60abbeedfeaba8225c79f2041141fdfbf7458a78bf6ca43c3142f4f796809d7",
+        "semantic_sha256": "e35000ec75b0269b3d4297863938dcafc7dde617d551ac72a7d70e7aff3f5ebb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

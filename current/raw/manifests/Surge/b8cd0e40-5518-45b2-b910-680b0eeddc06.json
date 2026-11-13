@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:37:33.931258+00:00",
+  "client": "Surge",
+  "rule": "MVideo",
+  "rule_updated_at": "2026-07-26T08:38:24.589263+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MVideo_rules_3dd816791e5cd3d5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d132a045917724c97b1020c1e6da0246e49315b042d98b8161fda07202a476f6",
+        "bytes_sha256": "5cd3daa16957ecfb079692a3501a1dccd880d5dea438a11b6a633d3bab08b518",
+        "semantic_sha256": "5c37c0faadb009e18f2e05bf493ca2693ce51efa698a20c747064c2c9baba0d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MVideo_domain-set_2255051b914b73d1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a7c0f9a094dce0fb76a5ff8db9deabea33b215df21dbfeae309635b90590c020",
+        "bytes_sha256": "dfa08572b85d5cceea5675a8704b4a9e7ab8ceff6a30e61af14cef2d41089841",
+        "semantic_sha256": "063214eaa6463426675e28f1aa0be35cb50966bb0058bacc8f577fb8ddb00f95",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

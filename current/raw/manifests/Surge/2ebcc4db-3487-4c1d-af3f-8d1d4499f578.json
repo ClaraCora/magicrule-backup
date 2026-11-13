@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:42:03.197566+00:00",
+  "client": "Surge",
+  "rule": "ShenMa",
+  "rule_updated_at": "2026-07-26T06:27:57.909999+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ShenMa_rules_1365c1b4f119fc58.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fa5cea4385be067d15f8d0eb5c53155018837d2ff90913e8b2c825892f5998d9",
+        "bytes_sha256": "66c9ca8f6105235e7fcc9a34be04e2321f3ddb9ea16b5a93eda1126fc04da73a",
+        "semantic_sha256": "154bcb6a5d0c6d084dce3867f841263ef14fc98d41589de21e5cab7c004a9617",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ShenMa_domain-set_c671ed4b6b6f91f8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b8946b55a855547df38f6919e82990a3ad182572e2c870ff11e88fd59726a1b",
+        "bytes_sha256": "e7aed015d4b2871729728565130166f22f112d02ddc66e07dcfa47f769873f45",
+        "semantic_sha256": "440d7384f2c1a345407d386bfa2ea368fb78912755dab2f7c2f0331f19532962",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ShenMa.list"
+  ]
+}

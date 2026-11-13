@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:31:53.467205+00:00",
+  "client": "Surge",
+  "rule": "YundaExpress",
+  "rule_updated_at": "2026-07-26T10:50:28.989104+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YundaExpress_rules_f6f64b647d1a0bf7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "813a0be4434470cd7190ce3a159b37362616d9682909b0f3ced55ece4b279b10",
+        "bytes_sha256": "e38ff35b66638498daab02efd965d9be114bb1e7fa873c4c8a6cbec46c35d626",
+        "semantic_sha256": "eb4e3f9c7732e82060cfc0965da40197fb96652148f57ef5dd7673462916fa73",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YundaExpress_domain-set_beaac86b664c5069.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a2026d0d6bce56e4b93b672e6a714e85fc9892495c1bc706e9a7d370b1fa01c6",
+        "bytes_sha256": "89209518e92f8260b3fa5b2f823db0020e84ecbe091e1800c017186675bd5aca",
+        "semantic_sha256": "ad8a71b9f5c917cb9fe1c3eb47328c37be75d1cd9ac4196c683c86f37bf7ffd5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

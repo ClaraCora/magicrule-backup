@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:44:33.461062+00:00",
+  "client": "Surge",
+  "rule": "Riot",
+  "rule_updated_at": "2026-07-26T06:32:23.404379+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 54
+  },
+  "total_line_count": 55,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Riot_rules_f3aef6480ce91d91.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c624fb2c38f75e07be6339e553f9c82664098fbd9bdf6597e671895a0045153b",
+        "bytes_sha256": "ee7d57f68948efafd2ef3ccad7bf7d1010dac43b5c7ee1d6028885654562e25e",
+        "semantic_sha256": "ec8ace5921c17225f7dcce3692929f293b316117cdc5de869f5dc48074f344ce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Riot_domain-set_e2abf6d27d3dce39.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7d2da39ceb8f16d3ee87a04b91d17d68b3e62ac9e53aabade57c96ed51ab51de",
+        "bytes_sha256": "2f567d2902bf50aec2304eacfd90b575dd0c72c6fea0b535064b96bb76444946",
+        "semantic_sha256": "569c620fe680a50d00fa67b9486e4b4f7e51bae4afc4defe247e23735107f146",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Riot.list"
+  ]
+}

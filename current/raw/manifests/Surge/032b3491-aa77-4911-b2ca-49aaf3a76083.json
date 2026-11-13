@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:15.995373+00:00",
+  "client": "Surge",
+  "rule": "ChangYou",
+  "rule_updated_at": "2026-07-26T08:31:41.345512+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChangYou_rules_7f2779811dd5f461.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52767d075dcc3e1be15a756289688a59d340dc4c93ddc26a1774f6f442b741f5",
+        "bytes_sha256": "a796fe852b6f1f35cfb48cf73f58bbc2889cbd5a14051841a3d3f74e2d587445",
+        "semantic_sha256": "2ff3ba709188e05903cf6de84cbce6ec109ada2350fd0b93ddfecfa0eb0c4765",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChangYou_domain-set_0ee8647c44ad6ff2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77c965a2f66b4e8f4aa25c12a7b9746b8a38dfa94f2072aec025bd6b73b003cd",
+        "bytes_sha256": "ca7cb15ea4f3868395993994a1874cb389db86e730a951a73fbb3d64ebfbd76c",
+        "semantic_sha256": "5aa3cb5e4f61f672f8b37dc5766a36f3dd1c80d63040c3c9da0f1d40918e423b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:04:29.829132+00:00",
+  "generated_at": "2026-11-12T11:51:00.267072+00:00",
   "client": "Egern",
   "rule": "Download",
   "rule_updated_at": "2026-07-26T06:23:14.301447+00:00",
@@ -14,7 +14,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Download_rules_427ce455478c136f.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Download_rules_8630d7d10502330a.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "61a16122b473e7575b17060720d1a308246a4f8e832df02c62e8da3e7e377e44",
-        "bytes_sha256": "aac49c5ac42854a0ab90f6a39281d6ba4c96cb33050ef980229b9a1934832fc1",
+        "bytes_sha256": "bd802d5f6dcea94edf66900ef27dd05558670a0d107b226eb375e946571b8c85",
         "semantic_sha256": "64eaade40b75099ad3c7c13a3b46517d9f999fb460e5807fb9b8bbc8d40a5bf7",
         "normalized_header_lines": 4,
         "shared": true
@@ -32,15 +32,15 @@
       "key": "mitm",
       "label": "MITM",
       "ext": "module",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Download_mitm_3996517bc8b5868f.module",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Download_mitm_76f99c96400e049b.module",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "9cb3d8da455463f676d0bc3f8d2e635faf4402843016aeb11c05ea8761f05fe0",
-        "bytes_sha256": "40a481723ec2153b266ca5e0a7a9d9735e1d8c7cd0786ba8907f51cdc7282888",
+        "fingerprint": "be6c53c03307e295af25b1b99ce6773b070b3c6f30ae734e5039069b5490cc66",
+        "bytes_sha256": "5960af9623e7c6597175e999201e111f9ed22814f16138dad76bd7acd4f84bff",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

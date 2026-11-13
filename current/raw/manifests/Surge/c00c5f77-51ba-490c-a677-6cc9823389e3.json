@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:50.042492+00:00",
+  "client": "Surge",
+  "rule": "FreeCodeCamp",
+  "rule_updated_at": "2026-07-26T08:35:57.149983+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FreeCodeCamp_rules_582a31e5058837d6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ce68b8b0ee396d5d903d31628e97733ec3b8bbe9d2679b6eff73a316d23d1be6",
+        "bytes_sha256": "13c8ac4dc679cfcab4cd426fd456fc52c137321ba2cf7b15ca6218efbbe14790",
+        "semantic_sha256": "23995e4f16ad96fd96aceec50df776e9b6696d230eb539f65d66b974b4b0fa55",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FreeCodeCamp_domain-set_466099b9d136edde.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f11fc637c0eb0bc0fe0801059666f3a981cb362fdecb8b3087bf15223a36c0cd",
+        "bytes_sha256": "64c1271e4c2084dd30130798bdb7d17d24d7e4a0c8282f999b8e5acced8f4dd3",
+        "semantic_sha256": "8a3af7435017618f6a975f5d542b94d848db0023d2435dfec054a8d59c9fb133",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

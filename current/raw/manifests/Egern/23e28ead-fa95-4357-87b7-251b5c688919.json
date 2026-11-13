@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-10T23:59:24.294182+00:00",
+  "generated_at": "2026-11-12T11:50:23.762332+00:00",
   "client": "Egern",
   "rule": "NetEaseMusic",
-  "rule_updated_at": "2026-11-10T23:48:17.503297+00:00",
+  "rule_updated_at": "2026-11-12T02:44:46.767975+00:00",
   "type_counts": {
-    "domain_set": 39,
-    "domain_suffix_set": 1802,
+    "domain_set": 42,
+    "domain_suffix_set": 3648,
     "user_agent_set": 3,
-    "ip_cidr_set": 36
+    "ip_cidr_set": 38
   },
-  "total_line_count": 1880,
+  "total_line_count": 3731,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEaseMusic_rules_aa10a8e27c834825.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/NetEaseMusic_rules_054ccb99778fe94d.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "dd07008c2f1253a12bba20dcc6780ac30592ac409a31e5b609c245c5ef5ce146",
-        "bytes_sha256": "16fd7cf8f3175f10cb763fef132e28785c2026656df3f9cc0799854a092923e4",
-        "semantic_sha256": "1919f3999882b5294d342370cb25c926cf45e7be85e39001b35ea8bbab8dc7cf",
+        "fingerprint": "35f2054801e5c16a1296b7c4971bc076e3834b90c60852b069a22aeddd193ef8",
+        "bytes_sha256": "33c2197935b92149b6bbae7cb4a3bce721405f6d6fd3de9f175a6d3274edc687",
+        "semantic_sha256": "9d32d11fbd8290437389721776313fb2812fdfe3ed60fb233efe6a87a6f48473",
         "normalized_header_lines": 4,
         "shared": true
       }

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:34:16.202875+00:00",
+  "client": "Surge",
+  "rule": "MDN",
+  "rule_updated_at": "2026-07-26T08:36:00.597386+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MDN_rules_74fafa3b0b20e90b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "84a44ad6a8d7646501efd841b931bf1b9b58b244e74a028b4fa9e425c2507543",
+        "bytes_sha256": "1a7c35843c64baece598c7411f054a7a70f05887d4c4cf63a41fe4dcc28c7824",
+        "semantic_sha256": "7941adcda9d3c63420d801d079a5e2d780214b56a8a4a76a357bfdea6a5fd7cc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MDN_domain-set_5b0f859cf96c3161.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "97148a4023d089ab8ea04a2184bc6f081d9767a2154e0de72f778e97c0a9c022",
+        "bytes_sha256": "1583cdd13939b3d4a958e830333267db68c4a9ac588a2918a192b5963437e961",
+        "semantic_sha256": "24e0251fc1610f92e8958d11013b6ab4598b34eea909a7be756981b4602ff6c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

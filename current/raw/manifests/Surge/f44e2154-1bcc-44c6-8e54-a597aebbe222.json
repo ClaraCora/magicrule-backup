@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:45.243713+00:00",
+  "client": "Surge",
+  "rule": "Economist",
+  "rule_updated_at": "2026-07-26T10:26:54.262622+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Economist_rules_acadb8d1a9229342.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a889ce2fc39e61f6c1462c599d275d10d08529cc881758490907f510971c513",
+        "bytes_sha256": "2e6990a2891e4aecf7654178684c7358bd4ba15496ab30e28ea23192c452c705",
+        "semantic_sha256": "875f1fe852b412b1f5c7c636e50a4497194003880a1d27cf85d3d770a39e9834",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Economist_domain-set_6a024d8f99ac7a94.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4381c31f361e1212507aee9b3bb8b8b7317dab86ac6ba454a3fecf381fef8e8",
+        "bytes_sha256": "1f1a74e9a9a4db10204ef9f66deace8a32f71e8331915a1251f36e2c29e921f0",
+        "semantic_sha256": "089b2da2c51ece67f76e6e99d933742cd3b019b91c218acc3272fe610ab613b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

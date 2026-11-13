@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:41:40.717017+00:00",
+  "client": "Surge",
+  "rule": "Duolingo",
+  "rule_updated_at": "2026-07-26T08:32:29.193091+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Duolingo_rules_8254e1b9f9e860d0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "346ceff455d79c87229d619ff4e8c64bd817346708af9641d867668232931b45",
+        "bytes_sha256": "1e8fb9bce9d3519bfcc2635bf6dcfb1db1aa11254a92c8c63c33bee71fd974de",
+        "semantic_sha256": "a39252bc238b6fb56eaae6265e00effee7d549ac133091424f51712b455f89d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Duolingo_domain-set_c3829a2362faee65.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63170705bdab20dbf7405d06984d158e6ffbe8f82b936651532362e85b7d49e9",
+        "bytes_sha256": "e743a6e2d1fd190f072d32882d841c9d04b922866e1fb046f8d3fc9c0d67dda5",
+        "semantic_sha256": "8f61e11cafb21dfd1d63397b5ecd70f66214c781c6c78e685518ddc7be606296",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

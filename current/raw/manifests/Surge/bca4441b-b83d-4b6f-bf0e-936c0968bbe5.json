@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-12T18:11:08.103754+00:00",
+  "client": "Surge",
+  "rule": "ChinaIPs",
+  "rule_updated_at": "2026-11-12T11:28:27.966399+00:00",
+  "type_counts": {
+    "IP-CIDR6": 5459,
+    "IP-CIDR": 12630,
+    "IP-ASN": 5076
+  },
+  "total_line_count": 23165,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_rules_34a9221fa066bb18.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8eea8a33b8fa248705757ae3cda0319ccdc7a6cbd36e18e7edb135ccbe5a455f",
+        "bytes_sha256": "c5fcb68ed84fc005bc5637f9baed5cb0a8b01cfb2586b7a483860246a30bab40",
+        "semantic_sha256": "09e425a5b3d23db968ee46e83d1a5a699c2b8152e5b5a5339d08524bb49f9e75",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml",
+    "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/ChinaIP.list"
+  ]
+}

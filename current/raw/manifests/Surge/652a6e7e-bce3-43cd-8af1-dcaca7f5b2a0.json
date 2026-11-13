@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:30.575915+00:00",
+  "client": "Surge",
+  "rule": "Dribbble",
+  "rule_updated_at": "2026-07-26T10:26:09.934239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dribbble_rules_ad2913b50a62dd91.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5ff3d68fed8a43bd553a44e18fe12284386f2db1a58b9a32fd44d0ecf411aa6",
+        "bytes_sha256": "163a265079881d8ba0b3bb1d945e1a704f888e25b5d61601fb71cdad06549d9a",
+        "semantic_sha256": "2bd703112b6de0388ca0cfb707af60b33dd6cebe3b42e3f1738afb993cea4e77",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dribbble_domain-set_51a55bf5f4d4cc9c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6728a3c02bae4e498be206c80afe1c5a9f3746ec78e7b52f0c0cee5737c51f38",
+        "bytes_sha256": "e6dc5051da8f3c93fdc98d3775f5b7c9ff1557ced8649004ebed7edc5ae4f84c",
+        "semantic_sha256": "bd04c63065a576041b97349c520df70f71f336742c5c7e17fff1567faf61d73d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

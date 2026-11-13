@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:40:37.113414+00:00",
+  "client": "Surge",
+  "rule": "OPPO",
+  "rule_updated_at": "2026-11-06T06:43:47.501951+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 72
+  },
+  "total_line_count": 73,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/OPPO_rules_1195c2846f8e564e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bae76aaa368b9fe9319821775c4dd188eaf177c28b8249c5efdc90399ffb5b22",
+        "bytes_sha256": "7531bbd843a2341f306cfbfee0deb2cd522a962f80d53770212af9dcffeb7710",
+        "semantic_sha256": "5407386a7ff8f982b071fdf7f94d1efee1ea0387836b0dc8de5b2a8464e165e3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/OPPO_domain-set_2a5bf230450d5db8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2d72e53090b22488e4751abbf51d57a641b985f657fef49798a17f04d9a81954",
+        "bytes_sha256": "88099d7bcb608bfdf62c3a27d56c6c4c3e83098d1098563f2b8e04358da4bfb5",
+        "semantic_sha256": "57f533358623acba3bad0dcc113199527465e161dea27233fbcd4b76059836d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/OPPO.list"
+  ]
+}

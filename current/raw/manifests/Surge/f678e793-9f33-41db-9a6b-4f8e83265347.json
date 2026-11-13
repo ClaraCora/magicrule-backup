@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:50.086093+00:00",
+  "client": "Surge",
+  "rule": "Zeplin",
+  "rule_updated_at": "2026-07-26T08:36:13.258769+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zeplin_rules_5240ca98e694f910.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "01cf1003a1144e81c714be445db049ed778210ec26bdd9264bc91324c2d16a38",
+        "bytes_sha256": "48fdaacca60bb731f769b9a4a79d2ffa8588dea7df7b7a702582c527e43f3961",
+        "semantic_sha256": "4930c61886a7c9141679b0bf3529762bd192fd19e6863ca4ff8e980f470a9ad8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zeplin_domain-set_f1da0c8561d90276.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "67f7b75d890f9547a93c41b8fe66ba66aa145f779dd480923e15b888d85c29cd",
+        "bytes_sha256": "6d55401543bee9a29fe1bc595522c58e556f139a5f62bdca85ebf025041d124e",
+        "semantic_sha256": "779c27d3e65b9fcd5c9a8b35253d5d41090acac2dbc2996f6572f379ed48ffeb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

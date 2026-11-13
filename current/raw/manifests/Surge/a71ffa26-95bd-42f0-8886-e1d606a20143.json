@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-11-12T11:46:46.256701+00:00",
+  "client": "Surge",
+  "rule": "Instagram",
+  "rule_updated_at": "2026-07-26T06:20:41.704434+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 75
+  },
+  "total_line_count": 76,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Instagram_rules_7a25b214a1a8549b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e97b3a47f2ba49e81e99cc5017410c2c421c4386a44387eb7137de428876d2ac",
+        "bytes_sha256": "7546425d1371ec5fcaad18de2c20bbb453c87dd01ee9b79b32ee60e3b6cc6b9d",
+        "semantic_sha256": "8e046ec2a51e274baad59b0543b6026382201ea806a1037d5d3f6b196e1802e4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Instagram_domain-set_8042bfd4c46dabde.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07786e70f05f9af6a29109eb839bc19f5e86ea7725f695bc1362b210b9c495f6",
+        "bytes_sha256": "0dad4ac1dd6772bd177f664fa97fcd50b9767590580157dd1c440bec6ed4833e",
+        "semantic_sha256": "efda37b2f680912abaa15d726f91595e81d167a06b7dc07cc3f0a87d23b410a4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Instagram_rule-set_b05631dbf36ba549.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0aeb36a4a5bfa15013406d915a7ad9bc7fd5dd0891ef891b323340541edb0a7e",
+        "bytes_sha256": "fce4886b0b52babcb339700ccb230066a544551aff658bdd18c8fa73bd2a03bc",
+        "semantic_sha256": "169b27416000b66d96dd6ab4ffd8263873276b2c1cbf1b44bb9e94e4e05adea1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:39:22.529118+00:00",
+  "client": "Surge",
+  "rule": "Fandom",
+  "rule_updated_at": "2026-07-26T10:27:31.520072+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fandom_rules_d09a899b528a5a8a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f67389bbcd13b7568ead15b7269ed255eed3652c7771d89383ac808fbd57251b",
+        "bytes_sha256": "1ee883db3235a4c7c350628156a77b9bb31a5a4ae1cbe2e4551e8b1c50981360",
+        "semantic_sha256": "450d6c0955450c1cec091686d9a312c9f84118d11b1d3614070065565d1c20fc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fandom_domain-set_f05608b722dd2084.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6ffe1cfdff6f009c7c74df5f956680c42b6cbcc091ef5eef7ca021fa07954e46",
+        "bytes_sha256": "4efad85286a86d0f7697714cf91450b5dd9eb021c3e3ec8afa3a0563e4f25f1a",
+        "semantic_sha256": "f4f7c123622b7c857babfc89f096fcebf80aa90e7488a3b477b5da2032e08b6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

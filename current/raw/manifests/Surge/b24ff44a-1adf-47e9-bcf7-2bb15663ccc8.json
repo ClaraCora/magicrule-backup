@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:12.774963+00:00",
+  "client": "Surge",
+  "rule": "Volcengine",
+  "rule_updated_at": "2026-07-26T10:47:56.481048+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 279
+  },
+  "total_line_count": 279,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Volcengine_rules_ea18d4a2d79ef810.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1a61ffc0a162c252999a9632b0d111937d7823de2c37e0a00bdf1f45d6f3dcd",
+        "bytes_sha256": "e294dc2ba563e3f856dc63b6fbd759e17a9a2081120359c345ada8e86ffbff4f",
+        "semantic_sha256": "bafafc5f693f26c36a3dbf3999ba6148087da23dc1ccd0852f9161b7081f87c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Volcengine_domain-set_ce94b95ad4c375e0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b9f8f6a0a23e263ae1bbd9c609021f73b8f3bb012b2bff119e437b759fc3a67a",
+        "bytes_sha256": "dddb95b6ccca9af880bec2471785f7c111a09170aea4a11ba85f59f65c9b3ca8",
+        "semantic_sha256": "40e183268ad3693fdbb2d8ccb4ea9255790b9b3b608f8b3d8214f176fa567da5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

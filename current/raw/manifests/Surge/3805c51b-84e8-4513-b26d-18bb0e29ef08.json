@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:32:58.786380+00:00",
+  "client": "Surge",
+  "rule": "Patreon",
+  "rule_updated_at": "2026-07-26T08:35:28.114480+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Patreon_rules_3085c9d8a07f3e3e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "258aeafedc66228f5366ac36643c4d364d9f3f86a7564b0751d101650fc128be",
+        "bytes_sha256": "ae5dd9dec23ffe7dfc4e76cd2a3c580fd83b2262fbacb86360257574150a84c3",
+        "semantic_sha256": "d19aafe3a6dd87ef8977dfbcb96f74b4d8affe7f4ddadde11e092f7df02591e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Patreon_domain-set_f688de7cb22e0efa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "52b2e7943b18df3a3c2028a43f2767cae9758988e874480df133e82b1465d216",
+        "bytes_sha256": "bfeb67b7b0066a0f5219081fe1080cdb3d32dfa5e5a7a70ae57c414cf84e62e0",
+        "semantic_sha256": "77811488a8dee905d098e053421e3261585489ae63f324a7979ec99f1f75e613",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

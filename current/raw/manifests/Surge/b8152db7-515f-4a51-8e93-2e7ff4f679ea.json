@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:30.043510+00:00",
+  "client": "Surge",
+  "rule": "OpenCollective",
+  "rule_updated_at": "2026-07-26T10:39:39.358880+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenCollective_rules_7e12cbf4d2710233.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b8023405e0c05c43f9f2004ce1f454b18790ff13989e8e1379a607d251e7fcc2",
+        "bytes_sha256": "ec7f966439f5b2732c102f74a1da9a1bba39e63e4446f42e45b45627bcf83f42",
+        "semantic_sha256": "f98e784b2778dddc24a70ca0541bca6d814b4bb7cafd0e8934d273d7023f6d06",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenCollective_domain-set_88c7f4fd7e0517ad.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47466df3e30a589f477daff764064d6f60d3060fda42bad39f62273d39a7afe1",
+        "bytes_sha256": "9d9ce871452cf36265786f25d2e2ace175d13b91a61f347688ca999bcfd86553",
+        "semantic_sha256": "2b5f34378d7821c0202d56238db4b9b683e0d15f5c5e1aad550ff1f22cba2f80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

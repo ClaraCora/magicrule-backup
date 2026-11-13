@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T01:53:26.011771+00:00",
+  "generated_at": "2026-11-12T11:50:31.888866+00:00",
   "client": "Egern",
   "rule": "BBC",
   "rule_updated_at": "2026-07-26T06:38:12.860139+00:00",
   "type_counts": {
-    "domain_keyword_set": 2,
     "domain_set": 21,
     "domain_suffix_set": 17,
-    "user_agent_set": 1
+    "user_agent_set": 1,
+    "domain_keyword_set": 2
   },
   "total_line_count": 41,
   "artifacts": [
@@ -15,7 +15,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/BBC_rules_d1fa0c5f8c875b08.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/BBC_rules_cc2de00729841c03.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -23,7 +23,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "37cae1eb41d92459da2ecac9f219470aab6b47c7ada8ae4d964376dfcf399c92",
-        "bytes_sha256": "eeb0e111a107ec2d126c1d885e82b1ddc4e5430271a4c18e371c92d065332b2c",
+        "bytes_sha256": "063dea0309e36efaffb34945e454c27a59c2bcb9ef49f4c1be3ac960bc87a9d7",
         "semantic_sha256": "5744aaef833556d342a0f59a704d4d4a6c64dc183144129c9f8e3994d804a7dd",
         "normalized_header_lines": 4,
         "shared": true

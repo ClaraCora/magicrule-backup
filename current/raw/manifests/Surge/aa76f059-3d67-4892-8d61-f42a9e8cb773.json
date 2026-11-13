@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:57.374454+00:00",
+  "client": "Surge",
+  "rule": "HurricaneElectric",
+  "rule_updated_at": "2026-07-26T08:39:17.813640+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HurricaneElectric_rules_6dd0580bd90b25a9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eda31d55b83bd5de1c3a5eed205e788187215b42ad229f0201f9482495be86bd",
+        "bytes_sha256": "876b07cc1e2fb584304a2e6251f5697a3bd8e554c9663a28e9eaba346f18d81e",
+        "semantic_sha256": "7b57d6dc66b571c0b817df9b12d0afcf54bc4fde8db06f7c975a0531756326f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HurricaneElectric_domain-set_8e5b8602eda628e9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7906b6232069e2758003d869f9b1ac475bc764ed4a55a6e25b686f8766c99233",
+        "bytes_sha256": "6ecfaab60e12acdf7bb3a10b45df7054d81fed91d176becca37658198facb623",
+        "semantic_sha256": "4ec8840944002f6c1877353c2e6fb9e8423f429047e7ceb7141506595c7507fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

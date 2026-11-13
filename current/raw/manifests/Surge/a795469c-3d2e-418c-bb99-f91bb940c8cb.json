@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:48.231632+00:00",
+  "client": "Surge",
+  "rule": "Zotero",
+  "rule_updated_at": "2026-07-26T07:43:39.409678+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zotero_rules_5bcc7b28718af0f2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fff4e14190dfa7f225c9bdf6b3b8e7b68b33cc6b315866423d14fc3702d3d6f4",
+        "bytes_sha256": "cfebfa009b5371b54ab43c3795deae51d34551ef628136adfa16a3722e677d8c",
+        "semantic_sha256": "64aa6f03c5333930e2ee62ae240fb57e7a9950f820a7aeafa6779eec59fbd4de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zotero_domain-set_93dd4330953a5a0c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e6b357243fdbf9cc3dc0ac7e58651604c0edd9829b57f5d1cccb1c60cb0d68d0",
+        "bytes_sha256": "16c8e7d93ff72d847d6a984e6d8e288822f5b6559c1c175da41d5df9ccf10583",
+        "semantic_sha256": "302b1d672d6b952c4dd6755b0da6f206478c0cdf5d9ef0858d03416035e06f6b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

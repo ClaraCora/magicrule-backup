@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:28.682705+00:00",
+  "client": "Surge",
+  "rule": "Dettol",
+  "rule_updated_at": "2026-07-26T10:25:09.132139+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 35
+  },
+  "total_line_count": 35,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dettol_rules_016699464a40fc4b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "708d54fc078557b0cb4b1b5ca126b8c5e70814afb65e8f366806c88629512785",
+        "bytes_sha256": "11437151ff9a4eee115e546aaf096b3b122ba9f79d2d7bdf65d9d8ee4167cee4",
+        "semantic_sha256": "072ba1257daed5a9e72d44a02b806ac38f4649aebac0c26ea890c79b9af5549c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Dettol_domain-set_2bca61984776e85f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7ccbeac318e9b7d2faeb406853b162b10bc88c626ec74bab13427979ebadb30",
+        "bytes_sha256": "15760970bcfd355fe3e22bd8c552da2918d15e702486f39eecd58be98198d8f0",
+        "semantic_sha256": "cf2a98fe291cbbef1e16ea2c128ff51ed4aa3ce674ec6fd6e843842d13137f30",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

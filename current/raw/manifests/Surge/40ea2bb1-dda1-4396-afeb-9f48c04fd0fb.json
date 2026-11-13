@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:20.050287+00:00",
+  "client": "Surge",
+  "rule": "SciHub",
+  "rule_updated_at": "2026-07-26T10:42:41.162690+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SciHub_rules_dcd6f0c3a72aef4d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98ca07f1d59a9573906d09fc7c32cf638ecb5e83cfd0e78483b067bd14cfec2e",
+        "bytes_sha256": "a35a4403c4d3785f040101fd2e1084b3b25846480fbd1c463471475d96b42ff6",
+        "semantic_sha256": "2aabeefdae069849f3955a8cf5038a805e283aecc54d570dc9c819bea7e4170e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SciHub_domain-set_7f234fec9bf65656.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "40ca6b969a9931bb885bb5db066eed76d61b73929c2ef0ad897ec81e204bf539",
+        "bytes_sha256": "870967093d8cefe12094098f8ef52c67c581001f05fe4fd3c8670f9933bad369",
+        "semantic_sha256": "a4e6b0f2b7ddc48df89d4923b9b7c873f4d9ec569478f135dd603ee16e053eb4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

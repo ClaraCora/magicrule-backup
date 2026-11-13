@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:36:01.540747+00:00",
+  "client": "Surge",
+  "rule": "Homebrew",
+  "rule_updated_at": "2026-07-26T08:35:57.290525+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Homebrew_rules_281f46b263f8b42a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c38b4fbcd736e750131f4d0e1a19c87b76a18e50b2d42360dc85e4e7517c0467",
+        "bytes_sha256": "62439241bed87a215273528c93e8fa35983aa054b41a7f4189eed5ee6adb78ff",
+        "semantic_sha256": "ebcbcf83e73054b40ec264e842ecdd2a802aa3d2dfffe0aa24d813d297767f76",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Homebrew_domain-set_558603d439f53fec.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7ae56edf795816ad47392a22e3606e0bdf0bf77d3af097ab53c40b5eab5f6bea",
+        "bytes_sha256": "49e542de9ef4e30232c0229072fc3fd535c0ed278f8e240184077e9b16b63775",
+        "semantic_sha256": "f85f3e985f06cb16c921d12d1a6ac862902687bafb582e8538547775c7bac4ea",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

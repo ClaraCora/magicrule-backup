@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:03.817410+00:00",
+  "client": "Surge",
+  "rule": "NHK",
+  "rule_updated_at": "2026-07-26T10:38:52.202083+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NHK_rules_eb59369e94cb8d98.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6061f856cb698f676c365f71b4fcc8a0119691b123d7459f37882344f425ca61",
+        "bytes_sha256": "23b724426045fa9a55c5283f60898c4e6d441be4e558d4d1cdec3cef25bcdf33",
+        "semantic_sha256": "84b3fca5dd199c468d770cdebdea74b8018b74ca45d74281972c2ddee55fd238",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NHK_domain-set_a0ce7e44fc319f34.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "016c43787edfb2166d0906bab25ac3bd01fdd8bea21d6c2ad69f8e9906872dfa",
+        "bytes_sha256": "c604c9090045b535783b3f4f63f883f51030c6a11f6f90d066e7a009d9aba112",
+        "semantic_sha256": "1410bcab7f3b5d5c520818a210499a938d8aad25a18e3de634ea84a616fed02f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-11T00:24:18.562165+00:00",
+  "generated_at": "2026-11-12T11:50:32.525229+00:00",
   "client": "Egern",
   "rule": "GlobalMedia",
-  "rule_updated_at": "2026-11-10T23:53:02.333870+00:00",
+  "rule_updated_at": "2026-11-12T02:19:51.547013+00:00",
   "type_counts": {
     "domain_wildcard_set": 7,
     "url_regex_set": 1,
-    "domain_set": 126,
+    "domain_set": 129,
     "ip_cidr6_set": 200,
-    "domain_suffix_set": 2906,
+    "domain_suffix_set": 4752,
     "user_agent_set": 19,
     "domain_keyword_set": 28,
-    "ip_cidr_set": 267
+    "ip_cidr_set": 269
   },
-  "total_line_count": 3554,
+  "total_line_count": 5405,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rules_872637ff8943435d.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/GlobalMedia_rules_84693c4f884f148c.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a2242492e8725f947c2bce9a4f4c0c1c33a82943dd3458cf48be011298ac938a",
-        "bytes_sha256": "5fd8285c990ba555bc1adb647ca4ebb74277b08dfe488e04e9b9c0f5f537df3b",
-        "semantic_sha256": "d28f2913e43e154575b4bac897428ddf4f254b93bb8c70ae129d178d9f5106d3",
+        "fingerprint": "e7eabd18c7b9158104d094391cf2a7869fdcbef71d95691f87fcbc4a9b26c3ba",
+        "bytes_sha256": "f82bb5343d33ffa0f4b2da3aa7ca85e86d4e125a696fd20279338a328e683bbc",
+        "semantic_sha256": "b9d7c726d643c99267dd8e5f1589111bfebc37ba038cf1373c9d11ac2a8ec562",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -37,15 +37,15 @@
       "key": "mitm",
       "label": "MITM",
       "ext": "module",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_mitm_19187e56f52bb25f.module",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/GlobalMedia_mitm_244763421b6afe68.module",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "676c08d602bbfbb29cc8d83ace0c91038c431f1e868be6024d280174a4cc9b7c",
-        "bytes_sha256": "fbbe353aaba93025db9ccdf64a1d5253effd133e806db96ca5de66d677b04a0b",
+        "fingerprint": "be9136352561698e669352c7473e7c1c68d188af249806743617ffe0ddfb45eb",
+        "bytes_sha256": "64b7a55d8c7eb3c2539d67e65befbfcff5ab6bfafe23c6d71cbcdb6eb9411ba5",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

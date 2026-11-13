@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:01.997325+00:00",
+  "client": "Surge",
+  "rule": "OTPBank",
+  "rule_updated_at": "2026-07-26T10:39:51.187517+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OTPBank_rules_93b980a7bebd2beb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "44c9656078a67df430f7ec0b13ecca658b2c50aa60b5b826a793e88956f100a9",
+        "bytes_sha256": "ed8a6a90df821a37853d9b715cb3633f8817d65770b12b61038db5e40d7df51a",
+        "semantic_sha256": "17ded14c413449b89f8b78ac48e6b0c0c384a1e3c9669cdbf17fa28f36a8f44d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OTPBank_domain-set_9813d528d1258d82.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d0f2b5f8cd7bf2253723bf95eed69d4fa945a59e85df5e0d7a1e8f27c8eb1a1e",
+        "bytes_sha256": "42ef011fa40eab7bca3d0051e09ef1809385392c79939738204152e16cf3d5a2",
+        "semantic_sha256": "e13832712b5ee444c0f9513e8525318e5d0e635fa550c210ac0d0103b8f35e7e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

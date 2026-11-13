@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:41:56.677870+00:00",
+  "client": "Surge",
+  "rule": "MongoDB",
+  "rule_updated_at": "2026-07-26T08:34:06.496162+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/MongoDB_rules_68240b8e8030d609.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "eeec171b1ff7f88a2673dc9bda8a09d60ce302f61269e576d5be09ab91e1b4e7",
+        "bytes_sha256": "be703ff11bca6374d4e5bfeb23f470a4d9e026b59db378f5f01f6ad5704cb64d",
+        "semantic_sha256": "72dfd018b22e8986d97d1831df1c7d7eefb03666bb1a53f198260cf77a18bece",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/MongoDB_domain-set_5a3ebd43cbbbcf59.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c05f797d942a400e1dc3dd0f3d8e5d6c3776dfbc8f28497208ecb8bbbdd52a83",
+        "bytes_sha256": "7519a2f3dbe8b1f799ae409e58d36cc8f2e2a337fe456c297d440be9db27eb18",
+        "semantic_sha256": "c9f0262efceafa45f8da8c2037d82d19c5a5668c463a2e9e9c1b71911a232788",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

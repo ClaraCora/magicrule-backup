@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T01:49:17.704422+00:00",
+  "generated_at": "2026-11-12T11:50:20.297711+00:00",
   "client": "Egern",
   "rule": "AmazonPrimeVideo",
   "rule_updated_at": "2026-07-26T06:21:33.887655+00:00",
   "type_counts": {
-    "domain_keyword_set": 1,
     "domain_set": 5,
     "domain_suffix_set": 19,
-    "user_agent_set": 2
+    "user_agent_set": 2,
+    "domain_keyword_set": 1
   },
   "total_line_count": 27,
   "artifacts": [
@@ -15,7 +15,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AmazonPrimeVideo_rules_c723bf65bfa37cfe.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/AmazonPrimeVideo_rules_32a25a56646d1beb.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -23,7 +23,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6f234830687ea150028bd6fbc03e0f73f2b68cf09f3446a72aea72f8952a5af2",
-        "bytes_sha256": "2240215b9d8a3f362dd154f68ffd19b989d043449730fc6e1d25835e02c3dfbf",
+        "bytes_sha256": "95adf63e0b6459ec0895f2e8630a7b6199ecf9a9628b2978bac69e7dabf9493a",
         "semantic_sha256": "a6f1771531b3324641960c592dfad20597bb2ca05a97660c6ed355a189d14b78",
         "normalized_header_lines": 4,
         "shared": true

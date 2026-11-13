@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T02:03:18.664552+00:00",
+  "generated_at": "2026-11-12T11:48:34.704787+00:00",
   "client": "Mihomo",
   "rule": "Disney",
   "rule_updated_at": "2026-08-07T02:23:05.730023+00:00",
   "type_counts": {
+    "DOMAIN": 6,
     "DOMAIN-SUFFIX": 242,
-    "PROCESS-NAME": 2,
-    "DOMAIN": 6
+    "PROCESS-NAME": 2
   },
   "total_line_count": 250,
   "artifacts": [
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "810ad3edd44909628f162cb5d0d819feb81e1765f953d922e905b0c7d1da0e10",
-        "bytes_sha256": "7b82b54657357eab0ee32fee0f65ce0e03cdb52131d04eef6996bb7a5234e50c",
+        "bytes_sha256": "94dc0d8e7586cd00a1975496a0e916a58cef09f9a43e33815bab3a77e75313bb",
         "semantic_sha256": "b3b97d296642ac172e0f89aa34b9f49d564a145d412795c4b4c832c4b69bfcd4",
         "normalized_header_lines": 4,
         "shared": true
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f947f2a7856e0aa2723ff55a07e7214d985d6a68ccf8788234a38b43f30b6b19",
-        "bytes_sha256": "056e74d09386e445d4b9db57d946ae8070876a73abd34296c74e64443291fccb",
+        "bytes_sha256": "c63683879e853ef76989eedde7973ee1a37b70a4dfbee761a93226928f937a96",
         "semantic_sha256": "09f6a89d7cba741e3cf382dad69105ca1f1b734f9efdc6efa7c809bbc3adecca",
         "normalized_header_lines": 4,
         "shared": true
@@ -76,7 +76,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "92e91983d55748091a5edbee29de82766ec5f0cd85519aaa3be15a5bd1cf3f7e",
-        "bytes_sha256": "72ce9acc1831d449113b2453d9531fac2e0164e4b4df54491497a539d104dff1",
+        "bytes_sha256": "5e7a0a5fe97b2a1c4678c801c33aa182c69c2036676a2161385283cdf82f4eb3",
         "semantic_sha256": "da06d6036d1d82afb245e7c74731d516cebc5b2d0ceec6c0cb81b8c20100e080",
         "normalized_header_lines": 4,
         "shared": true

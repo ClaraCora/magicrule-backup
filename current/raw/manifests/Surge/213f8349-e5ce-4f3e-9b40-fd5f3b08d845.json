@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:13.365898+00:00",
+  "client": "Surge",
+  "rule": "Elsevier",
+  "rule_updated_at": "2026-07-26T10:27:06.598360+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 14
+  },
+  "total_line_count": 14,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Elsevier_rules_a4a27a5258576da0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "077b800dbfbf49e4bd76c45d2b933e334149836f1e1a37f474c3bab4f130d01d",
+        "bytes_sha256": "2eba3fbf9d421f18da2c1735e342ca413ba057f8523eb085c4c9a5699f2d56b6",
+        "semantic_sha256": "7f77ebe631d984799bc3df80ccb2080e88761bb067c5b2b30e28a5987130f7a9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Elsevier_domain-set_479c542ad51c9bf2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "97cccf34dd7a4baf98b92b5eb8d4c7d864d0241b800844da7a7bc4bf47650455",
+        "bytes_sha256": "01b43c9d6875f9892c76d78195fa70179672289dc55ba88ac8a9a661301203aa",
+        "semantic_sha256": "50a4505b7ce3cd5fa0c63f27b63ccdb0b011778271af54c47ef2dd45692e4eec",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

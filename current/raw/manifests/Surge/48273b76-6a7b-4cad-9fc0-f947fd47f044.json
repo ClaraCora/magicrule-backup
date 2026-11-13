@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:31.295768+00:00",
+  "client": "Surge",
+  "rule": "HainanAirlines",
+  "rule_updated_at": "2026-07-26T10:30:52.769266+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HainanAirlines_rules_004938abf841a3a5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c9cda9746c39eac9944573b6b3a6e5ccf1763b1cb28ff137eedd7cd81f2bdce",
+        "bytes_sha256": "92746bb4e02cdd4337d1b272019af03b4e8d6b33685d35dee66ca0f6f5e9d94f",
+        "semantic_sha256": "f80782dc57463ddb92eb9207ee358182f394bb80bbc32176812c87f4b1ef7dde",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HainanAirlines_domain-set_6d9a4912e775d4fa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "83748c44d924d5d679bb5cba8b532bbde5be314fa67f40541cdf026f04709702",
+        "bytes_sha256": "016db215de65a03aeb9482ad7eff4c36098dec703d7d7a7714c1f54b95222d18",
+        "semantic_sha256": "42dd9f7bcb11191e515b4f8273e6b147214fb53fcefc6d19853f64c49a1ea21f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

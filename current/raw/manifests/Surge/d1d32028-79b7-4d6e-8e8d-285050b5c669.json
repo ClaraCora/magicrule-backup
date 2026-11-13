@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:48:13.580616+00:00",
+  "client": "Surge",
+  "rule": "GlobalScholar",
+  "rule_updated_at": "2026-11-04T15:55:19.222638+00:00",
+  "type_counts": {
+    "DOMAIN": 76,
+    "DOMAIN-SUFFIX": 245
+  },
+  "total_line_count": 321,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalScholar_rules_8ea1164607216c07.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a1e2b894bbe67593eefc1117f3e33a10dc304a35bb496b40dd895625386210a",
+        "bytes_sha256": "74dddb60241c5167f20e981796857844501c6f4a41a5386c75671c40b42a4211",
+        "semantic_sha256": "1a78fc15123cce4d2c7b957ab8b1524d46c1a6e6772ef25714be8db0df553545",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalScholar_domain-set_2119e07b63509584.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5ddc09e7b4d7093052eaa0707f8539ba458223ceacb6db91085396edd276ca27",
+        "bytes_sha256": "376f29e224a907d448a8c56ef53f27803869be2374af5500f6751f647fd5e186",
+        "semantic_sha256": "3b09e3054c74d506ae16df125f65f828c36c914cf327eac0ce69a9d0d4aa01c8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": []
+}

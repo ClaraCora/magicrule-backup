@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:20.398413+00:00",
+  "client": "Surge",
+  "rule": "GrapheneOS",
+  "rule_updated_at": "2026-07-26T10:30:40.631627+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GrapheneOS_rules_2e15f7fbbf3c032c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58ca2513d2a36d58ec65a8e3e6fba23a656effb566a1a69b8c953a15042f84e2",
+        "bytes_sha256": "5257ac4ab7633f811f988112b6df7a267dd9f3cd074ea2a7359aae77f72a38f5",
+        "semantic_sha256": "b881098bb2ab7560f2a029da4dc73f741819d4d3fdd708f393b02dce7c697d00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GrapheneOS_domain-set_3f8306823c775c63.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0a3882d10d803d89bf9ac955ffa3be94ce1ec3b80fee9fdb49d4186f6d9324ff",
+        "bytes_sha256": "538f894ff066525229df5149b260fe1539b968a166cd65e8edcd462327ddf68a",
+        "semantic_sha256": "a6ce696726e17b0f48c0e65e19386df2866cacd1107f941ad753f259c63a2d5a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

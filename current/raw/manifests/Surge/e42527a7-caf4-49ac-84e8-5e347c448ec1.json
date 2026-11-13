@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:39:04.581377+00:00",
+  "client": "Surge",
+  "rule": "Entrust",
+  "rule_updated_at": "2026-07-26T08:35:20.819058+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Entrust_rules_141cf792e955f6d2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "54bd905a1f95378b4bcfe76e214c07e13c349060afc9c70f00ea9e8d4b96a169",
+        "bytes_sha256": "b6253966e15db6ae7fa0b7830551653b85bb410c8708b17099ae23d8aac64797",
+        "semantic_sha256": "bdfdf07b1a33aa5cd3176e1f5c293d4185a322e2f12a5d973f42b7fb0d6a4e4b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Entrust_domain-set_4068c10c9989dedc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ed2d0cd1b67b45d02a5eea3180cbb7b6b6c15b70c888a528e4cf325cc70fb294",
+        "bytes_sha256": "429a11938b10e40d3e0303fc5dc02b16803b79fa466e93b2e0adc1e2c0ae1ac3",
+        "semantic_sha256": "6c78230e36f75ca65ce7ffd1444d6a02aec2c812dbc7c9a5857b1966dae39272",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

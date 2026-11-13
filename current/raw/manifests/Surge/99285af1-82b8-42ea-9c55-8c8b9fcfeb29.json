@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:24.305217+00:00",
+  "client": "Surge",
+  "rule": "SSLCom",
+  "rule_updated_at": "2026-07-26T10:43:44.485687+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SSLCom_rules_a2d302447c014ba8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "79e630993bd6c9d7e26a0dc1ddd6054bac4ca96356c846a7b3eed666a36e7cd5",
+        "bytes_sha256": "e450ee4ecda700f97814eac7545446113769d8f8d69cfb4aecb2f00f399e470f",
+        "semantic_sha256": "563066aa1d16f97662dd18e9868038aac813021bc4f6dedf4a9a1e8b88add985",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SSLCom_domain-set_c59a217d5aca9d78.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d33f4906d962896af9baeedd3b20116c3973499b6f62e6d8ea02890401b96632",
+        "bytes_sha256": "c39d42dcffce4ad458bf6c5a842abb7e46c9c1c6428ac522145ae9d0adc0dba2",
+        "semantic_sha256": "21bc624fbd51521a0d3c0e47a5c0b95157d3c91ef9d0d46bafd772b6e614b750",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

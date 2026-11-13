@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:12.939367+00:00",
+  "client": "Surge",
+  "rule": "Polymer",
+  "rule_updated_at": "2026-07-26T10:41:04.186719+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Polymer_rules_54e28d029fe06ce4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "54f2dfa1bf43978a21e77bde054d5fee6c6892c5228e168c2a5eb36f391485dd",
+        "bytes_sha256": "068152f95389fa609b49f71d69b04da564697cac5b6e155a4caf12794fae4ce4",
+        "semantic_sha256": "efc4e487188360da0d8b889150be5f50867df01be3db91d63a2e06cadb4cfff1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Polymer_domain-set_4a29cb6e94c9c238.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f073edf3caf1ddd900c38d33c1a31cee8d791e4963572f8a60782e04893471a1",
+        "bytes_sha256": "c7e94b059dbb64464e7af8f43f8a89f851d3443470903b4e1995da578a5bdcd9",
+        "semantic_sha256": "4081618c7c2c4ceaa4f2ddee6f3977aea8f62b79e074c4818fa928bb4cecf4e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:00.191995+00:00",
+  "client": "Surge",
+  "rule": "DuyaoSS",
+  "rule_updated_at": "2026-07-26T10:26:49.085290+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DuyaoSS_rules_88f6248ade425c3a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d16476322fc6848bc828301dbec220bef06e946a8ea67d70a80727ea5eb83287",
+        "bytes_sha256": "333b29e3db23f0f2e9130c416d0216d304213c5f2375577a5740f2ecc27f2bb1",
+        "semantic_sha256": "02e440f6debc5c26a6ccd3a6f4f17fd818634af717e179e936c01671952795ba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DuyaoSS_domain-set_265d2c405a481754.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cca4538eb6f0c6f090006f326d42553bae64843546db282e4d0fbc1f88f6baac",
+        "bytes_sha256": "810a07793cd6526230f30c68c2038b437313ed6ac8ede2ca62aeb1c0ddd3b99d",
+        "semantic_sha256": "3e4efe2b3cf507496eb92fc3be71ec2966493f20e17e494e03813c300ee06b16",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

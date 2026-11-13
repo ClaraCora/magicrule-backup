@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:16.091330+00:00",
+  "client": "Surge",
+  "rule": "Certum",
+  "rule_updated_at": "2026-07-26T10:19:49.163598+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Certum_rules_2d47c883cb5d1381.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4d733c7da68a3b4911f5e2b768fc246689cd4d78130b146760081c5244ccb923",
+        "bytes_sha256": "98e51824528eb2e95c30c0aa3a3e27ce9eeb1e263b027c1ad5ab47d5e334973d",
+        "semantic_sha256": "94b0a2c94299d0c49d0499131167a4065c360db8d629ab8c11c884d165b84a64",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Certum_domain-set_4dbbd2e7f1770c76.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d68a14e91a01175fa32c6e42c543261b758e4ddedc3502ac055a403a2617a9de",
+        "bytes_sha256": "9a698e59ea47e2046d87f3363a27a5d155b8b2442613e359d4ece9296205b353",
+        "semantic_sha256": "e27fceffb7e0b13cfe0d4365c513bc091aac0675141dcc05aeb6caa7c4bc5fc5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

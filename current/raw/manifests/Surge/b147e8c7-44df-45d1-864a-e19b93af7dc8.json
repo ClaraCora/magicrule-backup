@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:10.900923+00:00",
+  "client": "Surge",
+  "rule": "STOExpress",
+  "rule_updated_at": "2026-07-26T10:44:16.728124+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/STOExpress_rules_483e15084befe4d3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e8bbbc13eb5b9ad8ed62f1e7ea4b78266251fd5fe2ac3a2af6a7472f9ccea3ed",
+        "bytes_sha256": "2cec13de9fb9a638f5cf65eadb1787f6801bbe6290ef36df4c935bde78310e35",
+        "semantic_sha256": "0bffa06c5d150a68f2a5a559ef7c88ebf22f418207fd3199814115c08985adc4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/STOExpress_domain-set_3f5f1234c738812a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7d844850ed27b16c082583ac364d7045b70f3f9546f5ef982c64920481a9ca3",
+        "bytes_sha256": "0f33df92f8e767686aedcf766653519249eb5a7927d4117f655ae385ef69ef36",
+        "semantic_sha256": "e9859a2393a6c9ec418964df2e6678244c273c05fc1bf8b25e858677b141de3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:08.628442+00:00",
+  "client": "Surge",
+  "rule": "Trustwave",
+  "rule_updated_at": "2026-07-26T08:35:51.576172+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Trustwave_rules_4200aff25ce0b3f8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e3179c5dd84f996aa0455327a15f75a4ca79912449f056b04033610f248bf69d",
+        "bytes_sha256": "da56771d62ed9cd2c94f3fcbd2374317a239fc45b667f64f2c2627a5ec10d11d",
+        "semantic_sha256": "53a24f3f1e3f8d78f72255635eb52e761a45bd0796710bc6dc1219590fa9211d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Trustwave_domain-set_61bae34f98e0ae85.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e08d0062ccca26490cb3c40bf085fe897c8c6410617c3064a9f02324606cc58d",
+        "bytes_sha256": "d49ca1ef1bcbe645ee1e53a513f887d2dfe971267b9c732ff9299df2c13e2506",
+        "semantic_sha256": "9e73e46bc7d2a3c40c7d631d9c65b5175b825552450f20cd605839c7bc6bf7d3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

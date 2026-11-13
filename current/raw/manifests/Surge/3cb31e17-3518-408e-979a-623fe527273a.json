@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:09.121376+00:00",
+  "client": "Surge",
+  "rule": "Oculus",
+  "rule_updated_at": "2026-07-26T10:39:28.200823+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Oculus_rules_eeb4b8e0332c7670.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a908dfc13934b15d017cc9a8f5194a5a29577c658aa4f1db75b43d48fbf76019",
+        "bytes_sha256": "781c7c2f89da0cb0c85d79c7f21d99254f75865e1741486c01d7602d0fe841c2",
+        "semantic_sha256": "0aadc1bee35d24b49cf54dc5fc962e89b44dd07f3241c56effc63d3e051856f1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Oculus_domain-set_aa4cfb8912e8504c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5eff190105e2b2817ca97ce17aada1e2f209cbe1884a035ade67bc43eab57769",
+        "bytes_sha256": "0e9ab070d1374239ac8ac15ae5f26bbd1c37f5033ae69de439fb65231c718e66",
+        "semantic_sha256": "1d7a04212c8f21eb97d0823bdc3769b043f46e72b294f4ec2b4ecac253e1e9c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

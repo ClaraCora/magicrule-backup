@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:38.429542+00:00",
+  "client": "Surge",
+  "rule": "CnBlogs",
+  "rule_updated_at": "2026-07-26T08:35:53.908267+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CnBlogs_rules_e93f51c9be5ec6cf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "010603b47f7205e8c039cc33d2c4999b9add4b3012e5849e376503282963a2e7",
+        "bytes_sha256": "dc338c792dfe44395e6a9bb76495f6800de33578e29533d87a6d98cee0c2c45a",
+        "semantic_sha256": "0e0e524bd810a01a9fbf2a0d14c98466d0fa7063854175fde02da30e4ab7cf35",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CnBlogs_domain-set_295085d1d91e6e6a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07458846d017a3fa7a9e2e99b9097b3b8f7449e5eda2edf33c2fca4ef5ca9e6e",
+        "bytes_sha256": "b66b199b12ad9a240b00a779cb13691bf0d5f596024eae74f71c8b0b80090373",
+        "semantic_sha256": "c919a9b59ef35f45fbebe5362ceb84370441f047012bdce4cddcc96224efefd1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

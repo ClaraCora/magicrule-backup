@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:35:11.533043+00:00",
+  "client": "Surge",
+  "rule": "Wildberries",
+  "rule_updated_at": "2026-07-26T08:39:00.908322+00:00",
+  "type_counts": {
+    "DOMAIN": 15,
+    "DOMAIN-SUFFIX": 99
+  },
+  "total_line_count": 114,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wildberries_rules_73e0b7424912efff.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "580ca65d55dd52b3afe7c95761f9c9b03383f34b4ea30fd88ba261a964fb8fbb",
+        "bytes_sha256": "cc936f780e5a272bbabaa50e2bbdd8aaa65128c1fc3966b07b6b225f90b8e36b",
+        "semantic_sha256": "86266acb8160b86db6763417be3be1f32a2dacd7b67733284fcfbef7c404e76c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Wildberries_domain-set_858978adca51fe7c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "45b45f515d35d404ab3b568bef7abfd69fa5edcee9294403cfcbfeea9cf5e970",
+        "bytes_sha256": "3549f6c0f29c3f0031e356c094fc152e0dddffd0aad91a495d493670c9da55ac",
+        "semantic_sha256": "53cb44646b9bc746af4a038e7574a77d409ccfe42de227817ba3f9af123f54d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

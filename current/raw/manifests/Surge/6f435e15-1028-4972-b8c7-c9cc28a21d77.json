@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:44:21.765883+00:00",
+  "client": "Surge",
+  "rule": "TencentTME",
+  "rule_updated_at": "2026-07-26T08:21:37.021022+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 45
+  },
+  "total_line_count": 45,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TencentTME_rules_2210237f85374cc4.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d6e69a978f37b8065815b5b4a52ef5b4efc5b9c53e67c549732d5957560fea6",
+        "bytes_sha256": "1e9d7cf34fc558197a7c43527462259d20221d5cd6155f832ff8f33afd2e7489",
+        "semantic_sha256": "7704e364e523f313f506fb7617099d60f56f58a13a4c1f504072b9d2a1784b72",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TencentTME_domain-set_8b276cc378cd011b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0941b2ec8700d36c60b9b049c412e28a623388f2ba0e0d8985fceae756c5c6f7",
+        "bytes_sha256": "cc0807904ee8f00a647c1cfd7ce5be2d94455e60fa3a9a956aa69aaa46533e45",
+        "semantic_sha256": "e8366b45544d91dd13e2bed3e150732befce494a4f3f70a4bbecd7d101433bdf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

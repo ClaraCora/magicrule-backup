@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:55.152780+00:00",
+  "client": "Surge",
+  "rule": "AirWick",
+  "rule_updated_at": "2026-07-26T09:55:57.687993+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 40
+  },
+  "total_line_count": 40,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AirWick_rules_51bf48266bff475d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "26840c365626bd7fe240936a46d7a5f8d5d66de1881e0fa43a3ebee49de31497",
+        "bytes_sha256": "6a588e6e898bde53335f6dff2e9b78801e112aadffc309c9802dd2e6d614b944",
+        "semantic_sha256": "2c3b2a0ae1ba362e1c360bac0ff048c22076b660fae087bed26b07fb96d11854",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AirWick_domain-set_aa41f38dd7d068a7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dda60d79f8ce6f240e5f8d07f5708e5c6ef07bd149657d6aad3e455e8780e0a8",
+        "bytes_sha256": "4c3a689bc6529f7eb49cd7145dc29cedf3091147964e7d6342f26d86295aa56c",
+        "semantic_sha256": "02038dec65af2cdfba1097d8c28455374a684c1b1640f68b8b11b98ff5144c0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

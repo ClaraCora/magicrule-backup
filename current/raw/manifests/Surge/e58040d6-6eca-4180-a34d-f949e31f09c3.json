@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:07.743227+00:00",
+  "client": "Surge",
+  "rule": "TheTimes",
+  "rule_updated_at": "2026-07-26T10:45:48.098797+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheTimes_rules_836cc1cfda8f889c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c4242c9f6455d7f40b522c6e8da13a1ad4db368597ab63eee3d74de749af8526",
+        "bytes_sha256": "1681b5e9ba50802a34aaa3fc8b1d616db90cd4989ea782d79e9b6dee82239e23",
+        "semantic_sha256": "6f2be0f5cb6db427ac10f8bdae79551c7d70890d67c4cca3325b443321308442",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheTimes_domain-set_2400f78db845bf42.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "794be050f213c91a3e1480a1ef04691df7364f5f915da1539703e135f004be56",
+        "bytes_sha256": "87796f4fd21c222115a4c44cebab456376722e586000d56804dea85d70a56d18",
+        "semantic_sha256": "9d3ba6e449d63aca3ea8059d4f5c58c457ef54b5a1abcaed705455338630457e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

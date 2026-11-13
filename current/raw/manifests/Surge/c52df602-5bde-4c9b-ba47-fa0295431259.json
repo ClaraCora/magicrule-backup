@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:38:04.796001+00:00",
+  "client": "Surge",
+  "rule": "HumbleBundle",
+  "rule_updated_at": "2026-07-26T08:37:15.253669+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HumbleBundle_rules_582da916a43a3554.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e9476e1db05ca5dc5a403c269deb0550022fd04b37c0763433ee58ffec56a3d2",
+        "bytes_sha256": "983657027700f48428bdbedb117070d8d324a169c4661cf4e950678dd5ebd8c3",
+        "semantic_sha256": "37eb241c9222a423cfd8781c955ce18d2eecec845507e6621619909deaef5cd6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HumbleBundle_domain-set_c2b6fc8984505f87.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b968b7a8d9c980bcd5632ff4b278031278c1c6d820df43b30f52e142ff0e8cf",
+        "bytes_sha256": "76cb204b26b7251f2923c1b9ea2761aa6153b892776d6f6be60d3142007fe990",
+        "semantic_sha256": "d5ba0fd53c2f7d88ee0d91b37a1e36d0e2ac02cbb1283e6d704fdcd58f3a2a9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

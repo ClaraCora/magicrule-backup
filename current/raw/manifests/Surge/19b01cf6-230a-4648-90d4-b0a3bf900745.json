@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:00.037759+00:00",
+  "client": "Surge",
+  "rule": "MyRadio",
+  "rule_updated_at": "2026-07-26T10:38:04.213737+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MyRadio_rules_c42ee60f751012aa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f48895cfb717b83b0a431fee83de94061192fe74463b45cd9cac59e9140d2b52",
+        "bytes_sha256": "9cdce25963caeb6937201fb2f01d78357dac6ad565fd1ac47ac0e4e9dbe523fd",
+        "semantic_sha256": "38537016823e062b3ac40ba5d3fea5ce90a4525571d4638de36c9f091418bb1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MyRadio_domain-set_a2e55958e75abd83.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5e6066f03cfd0111495efc9769744efeba7b0f1c4317ba67a6e94b59a67a5c5d",
+        "bytes_sha256": "bcaa97e2b6f2aa3b339fb8b955ba5f4f013aed7355c445035ee57ec8be2a2fc0",
+        "semantic_sha256": "7e9f379349408b4be19d03de1b2274e12d6f83fbf28c620803b45aa36624a206",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

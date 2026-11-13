@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:00.917611+00:00",
+  "client": "Surge",
+  "rule": "Tonec",
+  "rule_updated_at": "2026-07-26T10:46:22.324068+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Tonec_rules_fbf545d72b20e01c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d89fe7e5652f051d50b47012e9fe1c05f7f766343212a5ea59c6da933aef199",
+        "bytes_sha256": "aadcce0463c56c72fbef65029de43c3203d5bf77c1fda6a67c0c962557d33014",
+        "semantic_sha256": "efc1fcb07d9801d86765a91afbcf5947c6714a744151af74567540321f6614e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Tonec_domain-set_7b0b02b6af8250a6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7867d5ae04bdcf968fb4e52db1fb5bc1b86af43f572185185d434373765912b7",
+        "bytes_sha256": "a2b1cbb428560e4ec7a5d23288353a4119c74e48f73c09e54caebb5a83494a93",
+        "semantic_sha256": "4508ec8de4474d6974eef0b237524b11d14f93f93bc36f4fd9ba632207360414",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

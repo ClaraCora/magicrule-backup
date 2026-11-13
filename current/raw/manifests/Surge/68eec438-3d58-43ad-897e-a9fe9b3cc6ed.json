@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:39.353851+00:00",
+  "client": "Surge",
+  "rule": "Scala",
+  "rule_updated_at": "2026-07-26T08:36:07.962655+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Scala_rules_601b5303fec7b4d6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "939f8d3eea8c26dd01f2879adf5601175050f905df3735f372326389262f1e8f",
+        "bytes_sha256": "7632fe9e7f8574c62f773a18b186f9ac439da36a687c5ff9ef3a2922d667e48e",
+        "semantic_sha256": "2a11e75c6739a6c4f47edc198257c2bea431b8fec5edd2d6824b1b3c915b0dd9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Scala_domain-set_32296843f27ddfe6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "582204a933fe508b698fec3454003bd0cbe536b9731bf5f4333bc6d2dd53f475",
+        "bytes_sha256": "48f827e69a39d807a0bfc63133c2b95211a32bd436ef650f072311ecd9460c1b",
+        "semantic_sha256": "6cd95ce6cf26fc282a7aee9808d0d9ef06d13fa27e2dfd674e95721241024cd0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:36:39.083872+00:00",
+  "client": "Surge",
+  "rule": "DowJones",
+  "rule_updated_at": "2026-07-26T10:26:09.540421+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DowJones_rules_373e94384b782451.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4b64e77e9864873f5c12d616a93d0ae3cbffd53a97536fd42a24876907521d72",
+        "bytes_sha256": "b66a134b0d5d65c77d3b4fb3ffbf3f725500b2d86362c74c4994e447b84df14c",
+        "semantic_sha256": "795e59ba6a69ce25a2e4bf1b04de95119d139e8f152d8a69173d1271478c947c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/DowJones_domain-set_bcc7f718e2b09451.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "075b3f9f1157661579acd1f01dae9788754424405cbcdc5aa9446bcc551f162b",
+        "bytes_sha256": "28f3a22cb3d55e2abcc4914aeb8ad149af488d5291371e2b023c68d994903f88",
+        "semantic_sha256": "7309ba8f303b4f2bab5ea45c746b8b8ffb531ac6f0af68733beaba001a9d8554",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

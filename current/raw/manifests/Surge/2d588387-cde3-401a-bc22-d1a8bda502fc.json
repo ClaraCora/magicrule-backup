@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:36.255020+00:00",
+  "client": "Surge",
+  "rule": "ApplePKI",
+  "rule_updated_at": "2026-07-26T10:14:01.299996+00:00",
+  "type_counts": {
+    "DOMAIN": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ApplePKI_rules_8f7b59a17af661f7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e3f64bdaddcbf86a289a9e4855d43e09eba967f1d20915637b8546ebf78404e",
+        "bytes_sha256": "f11c48b129cd71226a7b9a56f1b6c1e2a1196a6233ccac91102bbe43d1e09989",
+        "semantic_sha256": "7f80b88cbef68b90ac850688c2d63a15bc51e83e150d806e2a3eb3bfa77e7f81",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/ApplePKI_domain-set_5e70bee766b16987.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61df16cc6ee95447b607d5b5551375a26efcf4eb3ae163f000932be221087d23",
+        "bytes_sha256": "3c370226a5313fee30abeb966384ea31b5837e86d38665e9720a910ad0a66245",
+        "semantic_sha256": "d9360174b1ef536ded7fc43715f12c6a0eff975c6bf3307a53d83f8035f1a2bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

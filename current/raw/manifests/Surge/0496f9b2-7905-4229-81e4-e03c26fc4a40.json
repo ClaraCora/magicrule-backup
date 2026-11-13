@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-11-12T11:40:21.867024+00:00",
+  "client": "Surge",
+  "rule": "HuluJP",
+  "rule_updated_at": "2026-07-26T06:30:26.100055+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 57,
+    "PROCESS-NAME": 1
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HuluJP_rules_5c6e6dc9f9fd36cf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0e62f35cb001c868d8fa0d243c232ec1d02775cd1b5cf391cad4e96c53a6ce65",
+        "bytes_sha256": "7424dcf43ae29bb59c196e45c0ff41942c8a514fa98bf8c3b24d12af4a8e7174",
+        "semantic_sha256": "7bd70c609398e6b88d974fdb804530caecaaea320b72dbfb0e63fa1f71c397d6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HuluJP_domain-set_c0b332fca106164d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de1fbd9c869261dcd1b32e9306ca62602e60543aa73f6167cce38c1832d09067",
+        "bytes_sha256": "65c7e37f4eb064a7244547820beb7309452eac59e391301e874b6df6a02ade14",
+        "semantic_sha256": "ddcd428bfac4245a869d89dcdc95160459cf59fbc51dfddb6ee7591709842d3e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/HuluJP_rule-set_e154bec53b748ae8.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "559ba9857d379eb0d083a0b0b2a631745b9d2d28120250304de51ade69bd5d45",
+        "bytes_sha256": "cd3413a24a87c9eb1abe749d6b76928be05208c0459f0f33ef5a0355bb66f44d",
+        "semantic_sha256": "84358e678ababcc82bf89dd04cbaf1d9035dfc3cacca64aeb8d4888508a0182c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuluJapan.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Hulu.list"
+  ]
+}

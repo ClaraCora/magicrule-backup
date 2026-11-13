@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:43:01.612725+00:00",
+  "client": "Surge",
+  "rule": "Marketing",
+  "rule_updated_at": "2026-07-26T07:16:37.021305+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 56
+  },
+  "total_line_count": 56,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Marketing_rules_192e94c97616b2de.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "858fe1584b62b5b9d01335a4909f667cba99e7f1a6185cfd722c7ac40682d25c",
+        "bytes_sha256": "5ff06310fcec2a45d71e8f9642ac31fa9fadcb4478e92bc043f692ecdeedc4c1",
+        "semantic_sha256": "8a02881becb589f5e5da15c074d3efa648ecebe2dfcfe3c844576e7800df940e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Marketing_domain-set_c06f3678510d2cc3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "215de9e2bce9be50ce1391fa770230ec612aba981f82b520615fc463943ab926",
+        "bytes_sha256": "d6bc12f86796a6624e91a268f4304a1584d927ddc2e56de44525ef4d2960727c",
+        "semantic_sha256": "65ce8548e993a926e677d4ca617f156acff26a7ae709d1feb94a7aaf72fc0677",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Marketing.list"
+  ]
+}

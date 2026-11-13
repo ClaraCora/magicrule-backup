@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:14.790928+00:00",
+  "client": "Surge",
+  "rule": "Selectel",
+  "rule_updated_at": "2026-07-26T08:39:23.239763+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 24
+  },
+  "total_line_count": 24,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Selectel_rules_f7aedfe9df058ffc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "09c277fb0d1af7523b22181cfe394208b92c41c432301f5c78490273c347efa7",
+        "bytes_sha256": "6db060b45ba675959b5305f5df75ec4815a2659ffb366f6bb88498c58287fc87",
+        "semantic_sha256": "43177897fcabfff3dc641d53abc4b30317bf3ebfe2470f09ea63fde7aaaae915",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Selectel_domain-set_29bafa2db434b2bc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ddfb7bdf53ec65f7bf55603906548a0cdae60279f644cba5bff25b1101ed6091",
+        "bytes_sha256": "ff7d31d956de049ae417bb174557b5d7c4fa90b08d8947d33d9fbd7c4e35196f",
+        "semantic_sha256": "900386c004608616f5a0f725d98a7fd937aa4c72dc4ce59d81540ef6b87d02fb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

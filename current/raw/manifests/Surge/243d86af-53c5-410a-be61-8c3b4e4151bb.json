@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:32:20.976613+00:00",
+  "client": "Surge",
+  "rule": "Costco",
+  "rule_updated_at": "2026-07-26T08:38:50.884909+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Costco_rules_053393ac25605f6c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc7d273e64a298ccec314790a5c3bdc38cc9f070e651a1368662b09411c4642a",
+        "bytes_sha256": "252453094687fdfbb0d687d0f7a01c2aa198d44c53503d0299545856a2f911a3",
+        "semantic_sha256": "7e91752433cfe03ea9ddd4ba8461b55f5a9a642d624e641041457ae248e59fd3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Costco_domain-set_ffe51a5cb60924c7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bb6724a6b89b8fbfa141569cbd9a290d1b7654ad5a1804e5a1b711d46683d8e",
+        "bytes_sha256": "fdf0b4d289913612ac08d86a44af379f2016ea4e8a13042d50dc079ef25175b0",
+        "semantic_sha256": "4073e4f4e1ab502cab29b9e1f323cb24eca214ca7e3926cf7fb1350f90350006",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

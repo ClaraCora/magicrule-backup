@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:48.480612+00:00",
+  "client": "Surge",
+  "rule": "Timeweb",
+  "rule_updated_at": "2026-10-29T02:37:33.677106+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Timeweb_rules_84287872e9a69740.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a324d5000fa63340cabb6e77ac5d93c49500359e13798843c70491afc835a7b7",
+        "bytes_sha256": "f8e484b83a5621afc010999a375fe114555f88598f4b824bfa43f649dcabd85f",
+        "semantic_sha256": "3c1c08b767d1808662a44b207c0945ddfc495f68baa4b3a8a19556e1341f1859",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Timeweb_domain-set_43f72fcd279f5228.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d1c97bb54a874fd7d22a341638361807e56e55854c36e66e56e28a89c92331c",
+        "bytes_sha256": "18ddd9d49a9d4ebcc766f83a17d7c1e90cb09051d5e53ee1c23afa6637583554",
+        "semantic_sha256": "e44be4082cf278c26d9192ae74901848984be022231d33c2c5ce9d47cd9e370c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:54.263253+00:00",
+  "client": "Surge",
+  "rule": "Enfa",
+  "rule_updated_at": "2026-07-26T10:27:23.089900+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Enfa_rules_032d8affb71a6a9f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "74940379c32f58cbe8c9ab334b79d0b213efb846386a5c65ac8a05c3b9eb6bc9",
+        "bytes_sha256": "70063c0aa2c155fd663505e6c2b8f4320c86b89815d5988894d5d8302f7ce53e",
+        "semantic_sha256": "f0efda6b1bdebcf678854e147527407098c5a0a6990f5ad27a51be9d51f3f7f0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Enfa_domain-set_e2a6735be18aba47.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bea00cf6e39b8395429661532b8123b21926b265faf823e972ea2b19f99170b",
+        "bytes_sha256": "75fd7471d473f71eef62679ff32e7564a81f95d07e390088a5c35f8b31fa3092",
+        "semantic_sha256": "14d42ba8b39fb42effad8e34e5f473b91690c1f7aaebafe20babf78c3e37e693",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

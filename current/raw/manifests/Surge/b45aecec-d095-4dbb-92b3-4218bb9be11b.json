@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:17.914881+00:00",
+  "client": "Surge",
+  "rule": "Insider",
+  "rule_updated_at": "2026-07-26T10:34:35.767558+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Insider_rules_644ee365f2d6cc38.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "006f25aa2dd9236c6c43a2cda8af7c31f03522bbd46cd8d451b5ac771d1d4736",
+        "bytes_sha256": "b862765bcf235d9f634ffc89f4c10e9fa25db5470330b036a1f839dd63f143a6",
+        "semantic_sha256": "78d904b84181ab1f5797c487d28b89447daa9de3ead97aa51ff42742527d0bbc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Insider_domain-set_d537a509b1489abd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6b33112f7e5021d63666974dc619e800b9560734a6c3b1270df0a778bd3e3676",
+        "bytes_sha256": "5c355bf6909b982c1f5eab88abd17403f6def2688993b162b01caa0d4e4d396d",
+        "semantic_sha256": "e1cea8e31f8b0bb36487eb1649ba4fafd693964cf88d2e86ef5162435e9f6092",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

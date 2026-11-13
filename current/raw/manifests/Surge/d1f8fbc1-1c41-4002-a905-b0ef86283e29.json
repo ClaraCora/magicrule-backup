@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:27.561173+00:00",
+  "client": "Surge",
+  "rule": "Fedora",
+  "rule_updated_at": "2026-07-26T08:35:16.470799+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fedora_rules_f7f2931c89098fc2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f00ea129cc4c3c3e6fbfa48e41a7b75cd3b6c959babc8b0e362c739d871046f9",
+        "bytes_sha256": "1c7381ac6d4b0aa4c7636d18c632c024cbcde2f84c5d09eeae536fd231512841",
+        "semantic_sha256": "b76b3e709edca16d5f315a72802cc9df68d253a82ba938c3d63be375b4266da2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Fedora_domain-set_265fd50f9d90550e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "beae84a3f6aaff756bfe3abaef7aad661a5fbd9d3d1a4121dda35aa1cea5b79f",
+        "bytes_sha256": "11432a353f6c15439b3a448f9f7a65646d066b51b33135a437752e623b928e42",
+        "semantic_sha256": "be924dbb22eab0575d4c43dfe65b0bb138f2ba1e5942c5a489f2f73632ce1ddf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

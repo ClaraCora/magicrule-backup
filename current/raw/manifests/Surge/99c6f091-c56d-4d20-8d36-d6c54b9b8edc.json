@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:46:20.286896+00:00",
+  "client": "Surge",
+  "rule": "MeiTuan",
+  "rule_updated_at": "2026-07-26T06:27:01.203378+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 19
+  },
+  "total_line_count": 19,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/MeiTuan_rules_aa9b3579f4433951.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5b94dd390f267c19c8106438bcf6a4f7cf020e216dbe44bc95f1d45fa58625dc",
+        "bytes_sha256": "e6aef438b17faf798d49169137fab8ee84c0350e333dcab21d6c12865956f8eb",
+        "semantic_sha256": "af7709be090bd03ec37d25f1af4c123ab00fcc1bbf51383b8237f01c2f76a53d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/MeiTuan_domain-set_747339ad95bcfd53.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "31a99d961d3abb70b53bad82a8da755345d0fbd46fe16dc060c5283c24bd745c",
+        "bytes_sha256": "dca50f06208d54f977132cdce612848efdf0a32ab0f33864d0dbe94257112a2d",
+        "semantic_sha256": "7b22ab392842c16650e34e991960d3e18af3094f790712ec2daec9e47e171ff5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/MeiTuan.list"
+  ]
+}

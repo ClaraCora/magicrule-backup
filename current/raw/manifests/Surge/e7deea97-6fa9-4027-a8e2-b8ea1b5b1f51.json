@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:14.139533+00:00",
+  "client": "Surge",
+  "rule": "OpenStreetMap",
+  "rule_updated_at": "2026-07-26T10:39:40.269110+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenStreetMap_rules_836143ff8590d117.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5f90d04b401b87840651053d1d9f212d38f8f4747ffcb6ad0a03bf9a44020e55",
+        "bytes_sha256": "051b4d3a69a3e6140f0eb12dd94ac24ccf07fa0190e7f6a913bcc4f457b4a7d8",
+        "semantic_sha256": "69008e275aa64f5d64bf998a5c93db3b36ae13325fb31dad223eab6597b0d39b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenStreetMap_domain-set_dd4d44a5202c0bcd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "76d9621ea2288e772e5452a0ff2050de5c70fda657cb92bc819063f59dd5e0e2",
+        "bytes_sha256": "3b61f79776b56e79870a42cd8773d7d66165b853563bca4a32279698e0046e8b",
+        "semantic_sha256": "ee6d7ec99fd4a7759f85f2f16398c2a10dd91d2dcf9e51f0504b7001510e2477",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

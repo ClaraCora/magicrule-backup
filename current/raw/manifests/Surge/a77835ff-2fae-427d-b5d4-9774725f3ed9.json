@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:47.364892+00:00",
+  "client": "Surge",
+  "rule": "TheGuardian",
+  "rule_updated_at": "2026-07-26T10:45:50.393849+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 9
+  },
+  "total_line_count": 9,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheGuardian_rules_43097881f61d277b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "881ac0ed334a039f53855591a17365b542f32e127889b7da9cb49853a89e01c7",
+        "bytes_sha256": "a83b4e73ea6499edf6686b7e82aad113477a2b820090acb47ee05728ac604382",
+        "semantic_sha256": "a9efb9eec7b7e1017f8d2e5e87075aa9570a071d44fc3543c2ac60d7b593b82e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TheGuardian_domain-set_05c216ab27fda6f2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5fd3dba305d2306e22642afdf435ddd76d01bfe198035c35985e47ad387be009",
+        "bytes_sha256": "4a09e0a7feb9fd427eaa48cded17ec38d66a076ae1216941822e48ac70f3cbec",
+        "semantic_sha256": "f33d22952be5cecd486d8faeb46fb14c44d382c4d49ff7532688355c08afc65b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

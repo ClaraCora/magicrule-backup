@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-11T00:14:09.215423+00:00",
+  "generated_at": "2026-11-12T11:50:25.909129+00:00",
   "client": "Egern",
   "rule": "Direct",
-  "rule_updated_at": "2026-11-10T23:50:29.511655+00:00",
+  "rule_updated_at": "2026-11-12T02:30:56.817250+00:00",
   "type_counts": {
     "url_regex_set": 4,
-    "domain_set": 40,
-    "domain_suffix_set": 1479,
+    "domain_set": 43,
+    "domain_suffix_set": 3324,
     "user_agent_set": 1,
     "domain_keyword_set": 10,
-    "ip_cidr_set": 3
+    "ip_cidr_set": 5
   },
-  "total_line_count": 1537,
+  "total_line_count": 3387,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_rules_b5366edba520b4b0.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Direct_rules_18e1b283a8d6b35e.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "7ea5be28b76101595788ee77e4c1695219e94ec34916687f04a086a766391e89",
-        "bytes_sha256": "c8ada0faf1cac297043a2e12c0bdefadedb6d8bbe4c2db09e594685a0c427a6e",
-        "semantic_sha256": "c6a528dd0ea2954aae6701d979bf86db73d35bd6b9f36f7d53b3988aa888a8e2",
+        "fingerprint": "8f582d0e7ece2f145f7c6381a8813bdf5064cd4cc2209d6c13b5a31d82c1c0ff",
+        "bytes_sha256": "bd46ae393d4cf7506166f15d170ddf18c2fc85a737ba0ce543fa79688f204406",
+        "semantic_sha256": "f93d8920b09c1d3078d4c237f1f0c3be487d5001b3701975fe24f34f3d0f8d8b",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -35,15 +35,15 @@
       "key": "mitm",
       "label": "MITM",
       "ext": "module",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_mitm_9254b53ffe295f7c.module",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Direct_mitm_212b02d8f5c84395.module",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "a55b76a583e8ddf8a64a6ed7c2eae1d91b5891a15e85d61537e36a7e38d11706",
-        "bytes_sha256": "8f9bb4b328a0eb7a95025a9fb9fbcc1441dd51a240d79c8d25151a5e8536f93f",
+        "fingerprint": "5b0447769a9949ec17ae5b7210c6dd0ff1b7813329001f6f3a7d219cb2e21a80",
+        "bytes_sha256": "24371294f5c95a357ef50f44f6c98d21f373bd2dc62cd35c96294c9e3736a171",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

@@ -1,10 +1,12 @@
 # NAME: MicrosoftProxy
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-11 08:09:55
+# UPDATED: 2026-11-12 19:42:27
 # BEHAVIOR: ipcidr
-# IP-CIDR: 2
+# IP-CIDR: 4
 
 payload:
+- '104.251.176.0/22'
+- '165.173.176.0/24'
 - '218.98.111.0/24'
 - '43.240.60.0/22'

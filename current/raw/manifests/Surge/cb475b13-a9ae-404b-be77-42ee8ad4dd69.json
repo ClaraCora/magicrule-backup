@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:47:53.449850+00:00",
+  "client": "Surge",
+  "rule": "UC",
+  "rule_updated_at": "2026-07-26T06:28:33.213229+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 42
+  },
+  "total_line_count": 42,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/UC_rules_1c0c8d48712c24b9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8079266690e3544d8fd5519ed31ea67203a7d57953eacd51acd5aac9646e8f9f",
+        "bytes_sha256": "64a11085fd8ca9d2c17bc52cad1eef2171734d2d164b67747a4a630832d117c7",
+        "semantic_sha256": "920acaf2d8aaea33bc4614a746308fc21b4725b99e99ab6304078b084b23ec2f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/UC_domain-set_352174dc1191e386.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "775f15babef97ad3b8543ad7904bf2d38c6211a09e43d120f31da5deb270b5f5",
+        "bytes_sha256": "163e8c1759c49f72b2b46a8b2d5cc526d6e5638f41a805a2696b0525ac076a69",
+        "semantic_sha256": "fa051906bb96ccab83ce734d054a9bbf6ff34f2eeb1d78f6205d460e1ca5f784",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/UC.list"
+  ]
+}

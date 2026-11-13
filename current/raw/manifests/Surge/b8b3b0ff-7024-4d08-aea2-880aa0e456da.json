@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:37:32.909620+00:00",
+  "client": "Surge",
+  "rule": "YuanBei",
+  "rule_updated_at": "2026-07-26T10:50:25.845094+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YuanBei_rules_680c03ffeb6bd325.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e19aba2b946b5e9b79a77e4b21e2725883958adf23eb756892115647a69a665",
+        "bytes_sha256": "cebf84d05967b41cada9036553989bda67e6e37bba0781c07c937b67ae7a3bae",
+        "semantic_sha256": "b62ef5988ed411c3f5019e7987b6e99068ba79351d4996890603c2ebdaa3b06b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YuanBei_domain-set_3bad17a41da8d847.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3b083a5eb23fbcbc602c9f50ec9831d64a996ee7c1edcc9a0c49054dc6041e9",
+        "bytes_sha256": "11c7fd4d23ce76d50ac814858da251c9f53505b80398826f4c27d7b954e2252c",
+        "semantic_sha256": "cd40ce6637376a5250eb78c790871108e546f62367507e70cc6f5912b2989014",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

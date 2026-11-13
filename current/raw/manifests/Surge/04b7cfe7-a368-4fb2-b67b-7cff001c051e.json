@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:31:26.464896+00:00",
+  "client": "Surge",
+  "rule": "Viu",
+  "rule_updated_at": "2026-07-26T10:48:06.576423+00:00",
+  "type_counts": {
+    "DOMAIN": 4,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Viu_rules_b111d052698d43f0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4490910f3ccc7d8fae2cd0bed8ec0cbf6557d7f94492419d81a4051d90335fcf",
+        "bytes_sha256": "ccd5b73008d3ea424f9d92618dc8c5ecd0da14d75722f32bc4d534b3f35d1139",
+        "semantic_sha256": "686c038d91df7d101bd6e01f335748c7f9286d2165eac8842854f746f5d885dd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Viu_domain-set_034cd7084d853db5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1c3f064b4b83fac5ac51dae90205866e3e6b3f87c41983c409158b6ddf1a7c5",
+        "bytes_sha256": "12db8375ac86d7ff1a4dceb14b5a4f9475a5e7e15612cf2256f0c9a227746994",
+        "semantic_sha256": "ea5396d296546ab73ca115befd214e20ae305e54adbac0d423e3bc9ea5d2564f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

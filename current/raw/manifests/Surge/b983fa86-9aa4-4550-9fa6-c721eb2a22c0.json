@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:34.927224+00:00",
+  "client": "Surge",
+  "rule": "Bushiroad",
+  "rule_updated_at": "2026-07-26T08:36:30.008504+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bushiroad_rules_4c1648a286a09c4d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "701e0c34887a4fca38fe5d0990d48840b3d929e06fc5743190a1c9d6a9729197",
+        "bytes_sha256": "be4c73aca7f465f46aef8569846f4fea1979aa95c53bb3b28d5c39fba53b5436",
+        "semantic_sha256": "5f3dab9060d280fb7963434c35c64650c6e2e0b14c68513ae248aefb42df6911",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bushiroad_domain-set_ad3d7045f94d73e2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "50f7b4495de0ca39bf79673e625d4d8bcb742ae8d72a1ed5e79bc8264683262f",
+        "bytes_sha256": "e50b6e7287bf30087e37acab99d7ebdfd391117e1e29ad83ae1d1b4d77527650",
+        "semantic_sha256": "18b85332423d9125dd26e9aa5bc993bfbbc060ef54d56fc3af2d0016691d0b55",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

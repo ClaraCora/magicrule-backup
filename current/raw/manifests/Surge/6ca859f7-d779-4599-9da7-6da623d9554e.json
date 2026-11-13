@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:44:12.864563+00:00",
+  "client": "Surge",
+  "rule": "Emby",
+  "rule_updated_at": "2026-08-31T06:03:25.683134+00:00",
+  "type_counts": {
+    "DOMAIN": 52,
+    "DOMAIN-SUFFIX": 31
+  },
+  "total_line_count": 83,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Emby_rules_0f60747f7dee9047.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1f9f3f5fa737ca7a8f642f76d4d9f9e4a8e1c570045ec9b022bd102c7730b3da",
+        "bytes_sha256": "c8744dbdb0a039d61e076cad98167a86aed53083f212e6f6786e53f6424c7945",
+        "semantic_sha256": "7d08e449c661fb3d3fd7df547d63441fbc8afba0d5a5cf6ae5990238547e8a34",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Emby_domain-set_e4f4b0c672711faa.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c124f1fdee92a62d75f99c618a0553304becb55a94a8c972c66cdefb76499659",
+        "bytes_sha256": "e1fa1a59f5e01a9195bb621ce31998682ad5bba9eb5f6abef051d47436adab55",
+        "semantic_sha256": "d4f65b294d64d0516d250ed09cefde2baea664c15fbf2db2e5d77f10cfceb392",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

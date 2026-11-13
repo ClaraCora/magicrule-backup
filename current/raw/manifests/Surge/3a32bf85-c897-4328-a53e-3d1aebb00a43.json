@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:33:03.553750+00:00",
+  "client": "Surge",
+  "rule": "Deribit",
+  "rule_updated_at": "2026-07-26T10:25:08.735426+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Deribit_rules_775737a5030d8d5d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bac09559e1c7f095a58c382303963a438f3bfef076686d276017c6178932149f",
+        "bytes_sha256": "666d7f3dcc796eb368a6376f46baa4abfa929ee96625a1678de5bff97760a4b4",
+        "semantic_sha256": "a6c04249a838df8f41c8d58e670121bb345c16059f5c55964654522f0a8dda9c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Deribit_domain-set_12dc457213ebc2ce.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b732dfc136d4778094b4bbedf95800eae62bcfd8e168f0eb934c12846237386f",
+        "bytes_sha256": "5867f5a6d0ae47194316980a784e87ff2c568a6e7d5fe3240cbecf3ea4934eb2",
+        "semantic_sha256": "3adc546434b33ce9cee0babcf03275aac0f7f020ccb79835ceb627815b88e83e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

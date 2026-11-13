@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:03.899601+00:00",
+  "client": "Surge",
+  "rule": "AnnasArchive",
+  "rule_updated_at": "2026-07-26T08:35:14.334129+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AnnasArchive_rules_8f7c97c105e74fad.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be86234a76029669d806faf180f774606d9215e861af69dfb63fa46325903dcc",
+        "bytes_sha256": "29f5b89515bac1600e6f8d8f84fdf6c1470dbe98f31a253eb8d60ba0691ab1a1",
+        "semantic_sha256": "85b24b8ff2b840b7cad16f15dda6aa3d38a5c29abfdfd8421262068d01e3490d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AnnasArchive_domain-set_831ce27998ee2eea.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2732929962ebceb10cd06d1303f9621db6d777f6188681b28db22ef71d3a085c",
+        "bytes_sha256": "0e085b20dd5cc3f7234cf8aaedc18e14b0eaec9dd1894e5fe9a176965621634d",
+        "semantic_sha256": "5a65b4746cbe3218fa6b9e94a160a10c1a942b6b190ac1b6034f30fee325bffa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

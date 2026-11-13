@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:14.476308+00:00",
+  "client": "Surge",
+  "rule": "Zaobao",
+  "rule_updated_at": "2026-07-26T10:50:28.142783+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zaobao_rules_bed9b61a30950ae5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bb5d0a26570125a395c4b67a2cbcaea7870b1542ef1f8aaa8988aaa3b67c891b",
+        "bytes_sha256": "3e336ec8931a2e2b5583bb6a25d46ca59aa9b7310688093b88abd8c0c785934d",
+        "semantic_sha256": "cfc4a47ee75aae26e76a5bdf9c78d5a9cdfe1858c1ba53db9e939a74d2465102",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Zaobao_domain-set_3849497fe5f4ae32.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0482ccbec03c1d9d608b3b58006afc18fb0f3cc78de6d409f82f8e0120f1cd0b",
+        "bytes_sha256": "bdca7368e63493242ea227bec43fd84affffa35e991e25b5ced99ebf4f6c00fc",
+        "semantic_sha256": "9bea63733267b5750f48ea2c5e37fbce38e9ee5eb371b7068c14f4e753b16025",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

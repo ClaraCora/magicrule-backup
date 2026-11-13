@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:34:20.072339+00:00",
+  "client": "Surge",
+  "rule": "Marvel",
+  "rule_updated_at": "2026-07-26T10:37:13.684532+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Marvel_rules_12f8c79bf73cceb9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "07c6d30f0435dda4a28ec576c779191fdce6e9861f31b709b6f8ce80c66d6a5d",
+        "bytes_sha256": "db98eebcb885d364a498d5e4c737ce4f54d984dbc95f13af24392d772a85ad83",
+        "semantic_sha256": "bf82de54b1b17adcfcc9aa7581dafcfb9f17d2ae3ef0bfa6e075ccfd9883eb33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Marvel_domain-set_e679bc1cdf6a06bf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "947c654f21fbe6a61a1b4bcc8d62a79a540f796330e13e497ad9911d7fa5173f",
+        "bytes_sha256": "03942bbf2c72c86696342f79e2cd0f6ed56ed77e5041e286abe50107c26a34bd",
+        "semantic_sha256": "a56e1e34301fec91aaf7280976c82e849f05454164bc8a14515ef23fc53a705d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

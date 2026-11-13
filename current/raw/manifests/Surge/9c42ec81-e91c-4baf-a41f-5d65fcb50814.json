@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:32.345693+00:00",
+  "client": "Surge",
+  "rule": "TianCity",
+  "rule_updated_at": "2026-07-26T08:36:59.301465+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TianCity_rules_4d0d8fcb993f89c3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "578a2b4438f96c83db37ebc3e5445e54905f71465d38aadf6a2aaa6e2d2ae360",
+        "bytes_sha256": "104ce472eec04e449079fa6ba32d0f77580b8a23f35359c805d794930f602838",
+        "semantic_sha256": "94444a1104e43ce65ee7abb476b86c1a4e4a34b109d8aefc0706be2911e9d183",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TianCity_domain-set_38337f15177ffc20.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c7928e5c10a5c038b83931613d156ec73bbf6a4ddf3878be0d9256dd2a47d660",
+        "bytes_sha256": "cd854bb196bf55210140e0ca66d751ecb61743a0a50985527f28f66a99eb81e8",
+        "semantic_sha256": "156c0f55bbae6a461c1a405523df05e76485b164d0d74aa44f18b9b6038de535",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

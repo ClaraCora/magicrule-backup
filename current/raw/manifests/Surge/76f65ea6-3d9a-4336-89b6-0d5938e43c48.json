@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:10.384575+00:00",
+  "client": "Surge",
+  "rule": "Bangumi",
+  "rule_updated_at": "2026-07-26T10:18:28.026682+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bangumi_rules_fac469587563eb0c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "47e76304055ef65ab921ea076a06a6d5f7f4d8a0b3ecb72fcbaa2849730ae182",
+        "bytes_sha256": "7c8f9452b22a593b08853fb70082d34e78e44b235ef8c75f0c6870ee91889411",
+        "semantic_sha256": "a01d86ca120fe33e16674fca01166000552ffebba8652b064a3872368c3e4ef4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Bangumi_domain-set_0c15cb4c933674f5.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d085e2b830c72257cafcb11a35ecbf1a9d5565d8a5e57ba4afd6f40fa06c3dcd",
+        "bytes_sha256": "f56be14f47d65c76de1d66089c5315ecf6c1dc8abb9fc45bff39449311ae4bd6",
+        "semantic_sha256": "d4cf74e0ae72d142e74e836573a07ee975667d894fe6d129834fd8c8f2acf876",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

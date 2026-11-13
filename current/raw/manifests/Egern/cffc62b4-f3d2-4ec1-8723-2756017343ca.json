@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T02:02:29.083855+00:00",
+  "generated_at": "2026-11-12T11:50:54.935200+00:00",
   "client": "Egern",
   "rule": "AbemaTV",
   "rule_updated_at": "2026-07-26T06:21:23.543585+00:00",
   "type_counts": {
+    "domain_keyword_set": 1,
     "domain_suffix_set": 22,
-    "user_agent_set": 1,
-    "domain_keyword_set": 1
+    "user_agent_set": 1
   },
   "total_line_count": 24,
   "artifacts": [
@@ -14,7 +14,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AbemaTV_rules_18501312f9e05a0c.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/AbemaTV_rules_7c8bed153881ad5c.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4e2ca87597e87eccfac41420ec36b70f5c9432e2b7144516dd9323617d3c1e07",
-        "bytes_sha256": "2fc272ee7c8d6fc6e85e642fb325f4ee44cbab06598411441fb4594b88a2c3d1",
+        "bytes_sha256": "3c6ee8c8e47153293e7952b71ab67ea3668eb4f028abbbb9965164a88ffb5be6",
         "semantic_sha256": "682f4cc82cbad9fe5cfcf84327a84a0bc463cb63cfccb1d5ef94c4e1933833ce",
         "normalized_header_lines": 4,
         "shared": true

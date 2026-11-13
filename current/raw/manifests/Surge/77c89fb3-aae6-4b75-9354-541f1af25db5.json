@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:44:50.103602+00:00",
+  "client": "Surge",
+  "rule": "ZDNS",
+  "rule_updated_at": "2026-07-26T06:29:51.282998+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ZDNS_rules_91838d7cbb1f966c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3294b3a232e3c54f66420cac02ada5fd4010a3a12a1397be8c672b74e56aa42",
+        "bytes_sha256": "0e7be15c462e9466a19e65a5a9ffbe16c8116a67daa386d294f3e73c81d7e87e",
+        "semantic_sha256": "1b41db68fc5a26e0c8eafbdb4b0f588ed77814238de3d8640a8429ba14b1a9b1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ZDNS_domain-set_01438d318e273cb8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3336565e8db0c24a92c5b2b096fab95826336cb7a3411c9fd2abdfaed8104033",
+        "bytes_sha256": "d486c871f20cb0394735394ab88bf70e1ee3df6ef460d0171cb920ea25e6bda3",
+        "semantic_sha256": "2a377b787a24755a5dda82975cb099d36ce8739aa276d233b1d86c93d65acf66",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ZDNS.list"
+  ]
+}

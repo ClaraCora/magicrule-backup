@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:34:14.051053+00:00",
+  "client": "Surge",
+  "rule": "EduHK",
+  "rule_updated_at": "2026-10-29T03:17:52.274252+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EduHK_rules_088c6d60372fd922.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c4c07ed6d9898d24713f0438352b0836b323aff27d50b423382bf5a486c3858",
+        "bytes_sha256": "3813c165274d016deeff5104cb2a1823b6e837c6f88844c1203d54149bb40248",
+        "semantic_sha256": "ce0357c0887522a894a176f7c41d814c8203f08f703c4309bf76bfeccb7a4c8d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/EduHK_domain-set_f6207ff5606ef6e2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7678e9fcda05ff7d163c803ca4447fd7a44fd013b83db5d2c17e6de4fa96057f",
+        "bytes_sha256": "c236152b62811bc622a2c93ae06d35e915db6d5fe79c80551686f195ef897726",
+        "semantic_sha256": "b37b742a6ba00a4ccbe7a022531d215f331d763666656734ce370fecb4188854",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

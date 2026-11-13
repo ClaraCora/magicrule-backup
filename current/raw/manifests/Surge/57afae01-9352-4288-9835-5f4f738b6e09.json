@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:04.830568+00:00",
+  "client": "Surge",
+  "rule": "Phoenix",
+  "rule_updated_at": "2026-07-26T10:40:29.989839+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Phoenix_rules_026d1685ec1f95a5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bdea35105b21e81b0e25fe13809b42bd1a21a755693f9dfbc3972a8c283e7c15",
+        "bytes_sha256": "eaebf79149da05440a3d17e1628905cd92e1ba867e140c597decdc5aa2a89f9d",
+        "semantic_sha256": "aaa60225a12eea1584e93f29badad30df7f020064b1ccf0bf0f20ef333185608",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Phoenix_domain-set_263659c6d8f08fd3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "175460b591f22f7d27436499d8a1e96ab1ccdd1e0fe5173a11fbe33960b9a9dd",
+        "bytes_sha256": "e4584316fcd3e4fc55d882e85fabc65349373c5241f3f0fb20027223dbae1076",
+        "semantic_sha256": "7bb137077ac90ca7990dbbc05e4661e1a17aa76a35490a644ecffc480d277f4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:40:28.706978+00:00",
+  "client": "Surge",
+  "rule": "PSBC",
+  "rule_updated_at": "2026-07-26T06:27:36.555692+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/PSBC_rules_0ab549bf6cd12a0e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b5bb00b3e13561ce71910552301cf8119e298a53c8758c7d826bde087a106739",
+        "bytes_sha256": "c259b6c0dbf26010a33e28e18f3a3855816ba34cd3723673e7d2bf6d6cd91283",
+        "semantic_sha256": "6443d4384272abd88ce2e98c0a7a67a4cbeb851add2482a1b9adcc057eaaeedc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/PSBC_domain-set_a48051e3db0616c4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d6f200f4ad9889b4f02dcb96cee85e085d048b31ab9c96e1e331268b20beb170",
+        "bytes_sha256": "f7de87b4881b4a84935582782c700533924d658a5342b54a4a5b5e58f64f01e2",
+        "semantic_sha256": "b574f22ee9b2fb6d16fd91dbb18d97a07b3f839d9c3084621595e7b3be8669b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PSBC.list"
+  ]
+}

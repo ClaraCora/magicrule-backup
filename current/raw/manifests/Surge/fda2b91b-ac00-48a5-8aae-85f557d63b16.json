@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-12T11:50:09.837335+00:00",
+  "client": "Surge",
+  "rule": "Discord",
+  "rule_updated_at": "2026-07-26T06:37:30.039249+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 29
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Discord_rules_cab38c2c0b331080.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9d9934b7808480f4049746bf6a45010f44dcf087fb2d8e6b7a869f838cd46bd4",
+        "bytes_sha256": "f39c945f7931e06714e946d7cb072cbb2a719bfd9dfb9ab8eedd60739a2834fd",
+        "semantic_sha256": "4a9851d461c43d3a1a2da27040156c455a99afddb9e4db7b0108d602f0279eb0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Discord_domain-set_0ec2dc079800c400.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bf85953b07ec53c4022c3183cd3b7d2df906de3cba9b8c1a5733f7cccd7fede5",
+        "bytes_sha256": "a1f8e043492e739228bfd96b70d2d9650634c32951f5c7d3458a11dbd3a72339",
+        "semantic_sha256": "770bc676f8902b4b2497c0ce09e921ac45df6a5bea5264292c07c851bc056ac7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Discord.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list"
+  ]
+}

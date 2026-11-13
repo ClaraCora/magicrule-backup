@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:58.029544+00:00",
+  "client": "Surge",
+  "rule": "SumKoo",
+  "rule_updated_at": "2026-07-26T10:44:41.150543+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SumKoo_rules_1f3a235b0e183a4e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e27a55e51039e48da921aa520777faac2dec2395ff578cd047a5a4195bc90cc",
+        "bytes_sha256": "36ccdab8d0caa9b1f0e130d12076aee759c563fa49ae995e18b7d8fc57857aea",
+        "semantic_sha256": "f85c141213063971b8d668a6123a7cbbd2cdfb91bcc054878a549356ee43c01a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SumKoo_domain-set_c4d6ddc75747a62e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66a40f2c166da8b6350e22d932c93c7bde28b380635aaa4625de878834a7814f",
+        "bytes_sha256": "ea7b22f4fc7a29cd5c0baf638848ac95d252ea2e004543d8c529e1f3d855b714",
+        "semantic_sha256": "0af810a499094d53bf6ceba61ba98bd83bde4f2ae907a4d5dbff6a155e43d5d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

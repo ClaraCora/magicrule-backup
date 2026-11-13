@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:14.692747+00:00",
+  "client": "Surge",
+  "rule": "WarGaming",
+  "rule_updated_at": "2026-10-29T02:37:35.355340+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WarGaming_rules_3663da77c5d57fa1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dd504423f1bc494e9b9ff352a8dbcb0eb4fe821f33bc0b3edeab73d660bd596f",
+        "bytes_sha256": "23d19b6e4d01aaec9e344f63115ce89ce15cc7f08163bd4333585ac52244831b",
+        "semantic_sha256": "61948444aed72b2fdbc914951b5b99fb75b10cc0056d4a6930990862b3b6bab1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WarGaming_domain-set_8b9b458e105322d4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1570bc5765b8d11539df43634809565b77de9186e3b3632bd937ddc9595e50a5",
+        "bytes_sha256": "ebfe5d8cd7c8e27bad2cb57c09f290fc0726d2375569964ebb462e2884e4c756",
+        "semantic_sha256": "92f440ab05b8a4df8885f56fb6abe1e964ffa120f6e8730f25f4adef6a97365c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

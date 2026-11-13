@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-12T11:41:11.080384+00:00",
+  "client": "Surge",
+  "rule": "Line",
+  "rule_updated_at": "2026-07-26T06:33:48.807158+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 21,
+    "IP-CIDR": 20
+  },
+  "total_line_count": 41,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Line_rules_bf3cac1cf2642523.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d9c5689e045a4cf34631397aed3b11cd9a8480759fc11f9298c87a41fe60a862",
+        "bytes_sha256": "065e5d32f5eab280f42be9afd102229cd88fe4c56329e6c73965aa6fe6017724",
+        "semantic_sha256": "dbc5c45388204b800ae4c2b21a1982676522876f239db799785f5538010706c7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Line_domain-set_d01bd77833aca421.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cdef4cbe2a1796d84f1c925106f1c93b37ac01d7dbf4c2375299578c1c89f4bf",
+        "bytes_sha256": "3dcea878b7ccf7672e9f5ca5f8babdf973db8e72c1f4e3a43017af86a95c60f2",
+        "semantic_sha256": "30b88829c161b28ec4feda027db116db3a03b6accb692f0a800d16df0d63aadf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Line_rule-set_4fe5cb52cb1f95df.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "13b6929603f4df785365a790660fc7edae4ba527ccf5474aed98aeb7182f3d44",
+        "bytes_sha256": "a9f1dcc0293dc405f23c04e5726d252ba9de15a8f1d328e5b698ca713007bfe4",
+        "semantic_sha256": "2d5dca4bb6220c8d3af1561bc70bde1c64f893e1571f57dd0542282cb6e4a3d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Line.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Line.list"
+  ]
+}

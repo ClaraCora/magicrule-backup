@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:24.514165+00:00",
+  "client": "Surge",
+  "rule": "Roku",
+  "rule_updated_at": "2026-07-26T08:35:49.037882+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Roku_rules_4ac332aab2f6f14a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f7fc25d9a3e07be1f06ca7eb64ce86ea136f74ae44e34eadfe9a759d16f2a675",
+        "bytes_sha256": "72cd617d52f48e7c81256bb8688e140c43c0dd0e714f09fde4ff019627adbddf",
+        "semantic_sha256": "06a64a5b17ad0c90839c0d52a5bb8ade19294a9cc60d9b4f6b317b5532805a59",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Roku_domain-set_3aed315f69306cb9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5b9047e0dc6a95e39d30fd71f43d7affaaafd70e2abf48e0c00a10141d2c4c8",
+        "bytes_sha256": "8ae8ae84f849c0e6388de3b4904cea7534bbe205f73330cd59aaa028ea1ae645",
+        "semantic_sha256": "dbf6df29433bfb63cc301fb8cdad6b80d5a8722b3e28c97178f31a8d430eb8f2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

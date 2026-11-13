@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-11-12T11:43:02.570488+00:00",
+  "client": "Surge",
+  "rule": "360",
+  "rule_updated_at": "2026-09-04T04:44:50.874807+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 287
+  },
+  "total_line_count": 287,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/360_rules_4609b91b510baf48.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc0968d43608261329c6a2c997d6befad7cbef49bd93513b361a5cca01e6aaa9",
+        "bytes_sha256": "0897afb8e147a6b69d88d7f354234995811335b9c421498c93a1566b58abc4da",
+        "semantic_sha256": "76c1521f2c316effa3ee8ab8d28c75e957682a4cbef8fb7e7a3ec12d9845c511",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/360_domain-set_2e4d86e9a89807b8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00f46434ce356a9cdd7a123a536473ca483cd0df7f30bd2ed742c0ebaa7241ec",
+        "bytes_sha256": "f136d79137ea2c53a2c0a1c7db65c4efcd54077d5dc014510abf30654b6b17c4",
+        "semantic_sha256": "c46ae28370873ebc415e96e9d7ace9aa6a6d96c0143fb1bafd24931febd5daee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/360.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Qihoo360.list"
+  ]
+}

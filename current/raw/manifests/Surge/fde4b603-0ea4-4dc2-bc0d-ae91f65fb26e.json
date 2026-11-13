@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:50:10.704588+00:00",
+  "client": "Surge",
+  "rule": "SmarTone",
+  "rule_updated_at": "2026-07-26T06:54:22.874515+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 15
+  },
+  "total_line_count": 15,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/SmarTone_rules_575c0e4703fd05de.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "935c1b9bb1f09c12a73999e6089d6c76bfb470600b537cd8557a9a52175a29de",
+        "bytes_sha256": "718ee38eb1a16b416004344417e3f3e1f0df0635bc0fb6adf47617a84e80699b",
+        "semantic_sha256": "f07736b669085c7f2ea152b084e937b6e1cfd358f3f82034295685d67acbf4a7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/SmarTone_domain-set_400bf350e543ceb0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "735f848a79f6ff83aabfe3d991715033e52448ec947081b31a4c1b2ab6685ce4",
+        "bytes_sha256": "96221af5cd025f3a3f353205118395e347224b27888906ccb34d1e7ae8dac4ee",
+        "semantic_sha256": "12fd3e844db83a98375339eb50706cdaac03012a4b197d21837a292ceb50a30d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/SmarTone.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/SmarTone.list"
+  ]
+}

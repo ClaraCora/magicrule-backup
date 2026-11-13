@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:47:03.614766+00:00",
+  "client": "Surge",
+  "rule": "Identrust",
+  "rule_updated_at": "2026-07-26T06:50:28.179626+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Identrust_rules_aab1a0684a2da960.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f0e418312435e5611e8809c003f8b8cc34066cd27d59a190f4fc01e82202c1b",
+        "bytes_sha256": "56af502bb5ea06cfe3c8c30b75928b0d78bb78231d048e28bf633431a67d3aeb",
+        "semantic_sha256": "f908b26be19942f775ea4afd5fa1782d88d2f63d8896ac7f3baa4e5472f919c1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Identrust_domain-set_fd7a92df82d49e91.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6691d907b9f2f24a86c8b7ee4534ebf30bebdf8edf36174cf4e2d0d43ad2b1c8",
+        "bytes_sha256": "104fd555e9be58be0c9c5773f2e7eb7054d5ffb2992088695237282362e9f44f",
+        "semantic_sha256": "a3af4a1b2940ef72edfdb5ec34b8e7ba491213999ee12313eccca578cf6075d0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Identrust.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Identrust.list"
+  ]
+}

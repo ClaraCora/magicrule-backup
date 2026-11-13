@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:41:31.392981+00:00",
+  "client": "Surge",
+  "rule": "XiaoHongShu",
+  "rule_updated_at": "2026-10-09T15:58:45.844630+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/XiaoHongShu_rules_ce24b09eca177197.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "314d85e3f88ddf436b2a7bc8d406c37fffb64fa238306d646445e14924040a87",
+        "bytes_sha256": "712b1e386547ff71f4c1a5970f4ddf6c98e7e720896cc6102eabdc92a943fda3",
+        "semantic_sha256": "4633ce3a6fda9bb4bed8c4e5f4040dd1711886f29bafae7a59fe527dd3e0d520",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/XiaoHongShu_domain-set_9d4bc87cb02afbbe.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c70699017653f260c5976b3bfcf975a9987903202f540a948f66cf2fd51fe026",
+        "bytes_sha256": "a346e797180131ef035bee62166556affd00217f9ce60f2cc67f4aae251322c7",
+        "semantic_sha256": "c124baf6879616f2cb115d6bd010fec8a8cf8c8cc060ad874efb436ec558ce03",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

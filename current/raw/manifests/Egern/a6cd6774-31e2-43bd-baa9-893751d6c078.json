@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-11T00:35:35.586814+00:00",
+  "generated_at": "2026-11-12T11:50:48.477225+00:00",
   "client": "Egern",
   "rule": "Apple",
-  "rule_updated_at": "2026-11-10T23:47:10.945140+00:00",
+  "rule_updated_at": "2026-11-12T02:33:15.338604+00:00",
   "type_counts": {
     "domain_wildcard_set": 15,
-    "domain_set": 318,
+    "domain_set": 321,
     "ip_cidr6_set": 3,
-    "domain_suffix_set": 3784,
+    "domain_suffix_set": 5629,
     "user_agent_set": 5,
     "domain_keyword_set": 5,
-    "ip_cidr_set": 13
+    "ip_cidr_set": 15
   },
-  "total_line_count": 4143,
+  "total_line_count": 5993,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_3ae0440ce99a7de0.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Apple_rules_82fca435b0a84450.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "51e4390773fa7577fc18f5568e5d3953a035f4caa8678302f7c1307efd47bbe7",
-        "bytes_sha256": "d57886e13d86c77eecc2bde17e5e74417cf984e17f2790e0857af4bfcffacdbd",
-        "semantic_sha256": "a897564bbf9c2382dedbb08ca4113c8916c2d0322237ce31dbfdd1cc6a20175c",
+        "fingerprint": "c467febcf0646cf7940314e81a0f1c649edb2aa6121e68d11ad9cafa441787a8",
+        "bytes_sha256": "846523b9aab7079f62f2ed1d700246f88625c03130404bf22468ba44e0e81635",
+        "semantic_sha256": "bb39ce9ce356da9216c24316d579c4ed904038b13878adbab9e61a4fcc917064",
         "normalized_header_lines": 4,
         "shared": true
       }

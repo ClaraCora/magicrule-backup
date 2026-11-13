@@ -1,16 +1,18 @@
 # NAME: Lan
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-11 08:01:22
+# UPDATED: 2026-11-12 19:46:25
 # BEHAVIOR: ipcidr
-# IP-CIDR: 19
+# IP-CIDR: 21
 # IP-CIDR6: 14
 
 payload:
 - '0.0.0.0/8'
 - '10.0.0.0/8'
 - '100.64.0.0/10'
+- '104.251.176.0/22'
 - '127.0.0.0/8'
+- '165.173.176.0/24'
 - '169.254.0.0/16'
 - '172.16.0.0/12'
 - '192.0.0.0/24'

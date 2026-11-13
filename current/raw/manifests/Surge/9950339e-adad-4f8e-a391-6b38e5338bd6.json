@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:26.157824+00:00",
+  "client": "Surge",
+  "rule": "HeroGame",
+  "rule_updated_at": "2026-07-26T08:37:00.395316+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HeroGame_rules_665b079d163f11be.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98a10ce643fc44f338827e35d7ed83cea9d04dd6917a368faeb6fb9088ee4360",
+        "bytes_sha256": "8049d0aeec162f5aaf7f8a315b4538eed4d4b0721464d2f1ad99e8f5b0a08594",
+        "semantic_sha256": "62332efec42a63b2002cf0ce5ca83115a4ab74ebbeb5f75ad7894a5e429049c5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HeroGame_domain-set_b5f524632ab03ef6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7e3fddd6609488ac8c159421e29a6feda5750eb303b2d60b8daa1028a59acc39",
+        "bytes_sha256": "8e84568a93a87ed555a052b04ab48a591f9b690be02172ff894cf8f5added7d3",
+        "semantic_sha256": "82deaca5c8d1ad3fee83c09f07b7ab06a65d1aa8e4fa93d6ba48e56c45027769",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

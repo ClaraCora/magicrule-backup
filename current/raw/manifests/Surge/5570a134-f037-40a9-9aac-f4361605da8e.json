@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:58.403993+00:00",
+  "client": "Surge",
+  "rule": "Coupang",
+  "rule_updated_at": "2026-07-26T08:39:21.192294+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Coupang_rules_6c33f06fdaf3ea82.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f81fbb21bc24b54972c0e63d2c5f4c7b6377ef711739aa103b653c34a5a1b5ba",
+        "bytes_sha256": "e34434277bc82eb1652b4a1b55b5143281971c5fbd82ed71cbb2b10b2d3a3ee8",
+        "semantic_sha256": "3c16568dcd33066c7f1781fbe817bc7594050c6a5faa6a2aab6b92e5ac825682",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Coupang_domain-set_c0eb4690694c1699.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c8d816ae7fec20dbf4787adde9e9705576d94fbf0879e4934e398aed974c26b8",
+        "bytes_sha256": "b40a2396b144f9d2f872443ec82144de60bb906960e7ce6aebe1130d173ec087",
+        "semantic_sha256": "31dc5e9cdf31bdd90f6ec9b22807acdf7f2ef6f38b79fcf246ad3acd04591e98",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

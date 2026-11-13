@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:36.191530+00:00",
+  "client": "Surge",
+  "rule": "AdobeActivation",
+  "rule_updated_at": "2026-07-26T09:55:32.819078+00:00",
+  "type_counts": {
+    "DOMAIN": 134
+  },
+  "total_line_count": 134,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AdobeActivation_rules_adf550f17d6ea6b5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "540d6c5c81acc264e6c60b0a79eca371fe0dd9e01b8536f5c02fcf7ded11c678",
+        "bytes_sha256": "638331210dc7ed3a9f889719017415a7ca87607869e6cd31d7e3118affcfcdca",
+        "semantic_sha256": "40bc2f2e17fda9490220081f16c268f1a92de8b1ed35b6e3e2c0312d5755628b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AdobeActivation_domain-set_c374a81d59185e8d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ad4d8181926e50cc21bb65702a324f4959e7f8793f0ab031055c8c3c59897710",
+        "bytes_sha256": "f24468252a96bc8f3d90a9b333106c688bee420687898b03dba89f3398b954f7",
+        "semantic_sha256": "02d0f8512383717ce51cd071d4bf394b63a740706941ee9e377914b3ceee40cb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:51.127609+00:00",
+  "client": "Surge",
+  "rule": "TranslateWiki",
+  "rule_updated_at": "2026-07-26T10:46:32.230324+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TranslateWiki_rules_f6e84f54b8b802aa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "035b8096b90dd72d4c102f118f5baf38af38732e884f59dba44f0f6ac540ce3a",
+        "bytes_sha256": "6f4f975552fe5e5d2717ac93e50266c4b3df9af420c4420ed1e3ffaee35c08cf",
+        "semantic_sha256": "44de342e092ffce54da458ac4e3e0906424241be7edf996418cb96ef0d907ea1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TranslateWiki_domain-set_daabd647a47ed158.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3a7a4e97e8ce20a6f46268fd58f0f97b8196a0887169a2d74cc3e86fe406d2d3",
+        "bytes_sha256": "2f9c49243202a6e15039afc5eb08ecda1da268786705b06dae772e0e368bcc84",
+        "semantic_sha256": "1e0fd891ceb482f6d661b1d6190b35e0b40465f87eaa3c8264ad3067fa419f00",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

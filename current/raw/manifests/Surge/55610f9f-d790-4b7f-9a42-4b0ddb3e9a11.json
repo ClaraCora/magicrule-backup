@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:43:22.270246+00:00",
+  "client": "Surge",
+  "rule": "FeiZhu",
+  "rule_updated_at": "2026-07-26T06:24:57.992698+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 20
+  },
+  "total_line_count": 20,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/FeiZhu_rules_48e62d1011c52b07.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8e38baaa49b1042a508aef9e7adf1b477990e2c2309638e2f8162223b26514ff",
+        "bytes_sha256": "c99952a158f52d6ee106e87a84357ac1ab9b159613db9d0af102ae521134c0a7",
+        "semantic_sha256": "c41eedf746b546c25d3185c9077bc4a4801f6fcc04be114c6f8e48c0f482bdbb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/FeiZhu_domain-set_96e9b873f503ae17.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "821d8712dbd5601546c166b76d0e0dcfd3afa8c701029753f10e7dc17b56ef1c",
+        "bytes_sha256": "06b3fd7f31b8c21db9cba96dc4082fe27cab771df3bf2f2c0ad3cc75d1ff6297",
+        "semantic_sha256": "973501987f588ebef1f841de5a04d0dcdb8f5a0bac125cb53cedd080a20f3b1a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/FeiZhu.list"
+  ]
+}

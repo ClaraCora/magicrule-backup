@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-11-12T11:41:12.007944+00:00",
+  "client": "Surge",
+  "rule": "NetEase",
+  "rule_updated_at": "2026-11-06T14:21:55.911440+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 159,
+    "IP-CIDR": 30
+  },
+  "total_line_count": 190,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEase_rules_472bdbafa7693848.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ff7ad357f483158eb17d7077eb72f18e8a6a0ed24adba1786e65c5ea3278a49",
+        "bytes_sha256": "750b71dd9ea847ba98ad145342927a02e46b3215854332f3e19f7f949d552105",
+        "semantic_sha256": "996a2881d23c32d1b8abfbf77f45b23de23de2027296f0b91822cc2e22a2073c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEase_domain-set_37088d4ad25f9f0f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bcf087aa456305ee77ce6c9a9a58c29cb7b420ecf15115eb54cd007ed65f0167",
+        "bytes_sha256": "69b8faf888826df4f62c4d405a73b6d5f160c22031ad1a8b664e9c7e1ec7debc",
+        "semantic_sha256": "59424702fdaeb6e7727a6d5ce3ad3925c7f76484fb14c76516e8c138a4c649a0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/NetEase_rule-set_d9b5ebdfb1a323c8.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "298b1963dd3a9499001f8a52a1957b3d61996b58274f79d06b0815f9eab6db26",
+        "bytes_sha256": "f1be65ef6bd860da3bc3a1b9c17b48ad0accf31d2419f2b472683af0166d9a31",
+        "semantic_sha256": "1f30e3a430c0a53fa29d517c6a7e6d631138820d8654c0cb108ef485378f753a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEase.list",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Netease.list"
+  ]
+}

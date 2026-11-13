@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:49:11.415171+00:00",
+  "client": "Surge",
+  "rule": "Shanbay",
+  "rule_updated_at": "2026-07-26T08:34:26.175591+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Shanbay_rules_5afa4dc27ecb051e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b35cbfe54274b77027ab1caa5b9bfa939ebbbb85a74de5d88291ca4882d84db3",
+        "bytes_sha256": "e592c603c1999f0130968c83281d349718ed3ed3e18f9d8e415d7b2a5c57f3fd",
+        "semantic_sha256": "5d57e51537193bf3817b8ec023ba09873e177755ef060d1e29e75f5c24501de7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Shanbay_domain-set_b2553085f4930826.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "33cf87d587dd74442929467c4448d7b68dcf722421e6bea30db677a0c35167e6",
+        "bytes_sha256": "fbdf996259ff64596f52c0ce368ea21c269428ac4cf1ff3f612930afdf1c4ea3",
+        "semantic_sha256": "958c675ea09b8584add581629fff1a5482f57a0bca30ba5fbc329079f7bde2de",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

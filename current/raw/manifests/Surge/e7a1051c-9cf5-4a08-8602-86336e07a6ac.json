@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:13.157498+00:00",
+  "client": "Surge",
+  "rule": "CurseForge",
+  "rule_updated_at": "2026-07-26T08:36:29.004972+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CurseForge_rules_ae34996ef6f3df54.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d5176e7d6821ddf595f17078f512efa745ff1ae67e73a0fd1510057de792388d",
+        "bytes_sha256": "c9a2cc93dd1178365aa05156289734f7808c9eb0d6089c50eb32b4354259813b",
+        "semantic_sha256": "64cbae453f9ad2c2bb2f7a31db5df80890a0d2c3d214d8f58068fa10611319c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CurseForge_domain-set_4c42f9bcd95428d8.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "658c63b0600f765345eeff0c51b82e1f2dd534c28268c282b41d374fcc9e6017",
+        "bytes_sha256": "56827e62469f3dbd929171ff531cab3119689f9a0abe6cc6837fa73d2c721a1a",
+        "semantic_sha256": "b058aa21799be7427c45e357d71f86e437ab1b2099c13597b5269a9e8b3dbe9f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T02:06:21.401304+00:00",
+  "generated_at": "2026-11-12T11:50:09.532771+00:00",
   "client": "Mihomo",
   "rule": "Discord",
   "rule_updated_at": "2026-07-26T06:37:33.561809+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 29,
-    "DOMAIN": 2
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 29
   },
   "total_line_count": 31,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f3104a56ac9293524ba8ebb2bdb3cb20ec2ca365758a49d0975b8414975c4e3a",
-        "bytes_sha256": "3aeac6d19f0e68b4aa4ca7eb553a567aae7907fdcbb570250b6f6c8ba82b6080",
+        "bytes_sha256": "a5711a984ec9258bba11e4b785b95c2aa71cc35de0939e516578d06b3a4f6f37",
         "semantic_sha256": "770cbf07a437a2d5e217d4d78eefb8bdff9eb55a164dfb5f01b5d354f8170cbb",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "548e5e134c48bf4f7d1eecb439cfff1e3e0c0f7318d6863217c9b23dbefc8040",
-        "bytes_sha256": "51d561bbd344b59c83d7aeecd070627dd6551ecfd0c34338cb26033a825f5cea",
+        "bytes_sha256": "8f8a4ce5f663f8d5a9945ac6bdf4802d9c3d89c203c89ed1d32a4481e30512a6",
         "semantic_sha256": "d8e9abbb2eecb6086e021c974fac28707919aedc9431d2ec64dd297329039139",
         "normalized_header_lines": 4,
         "shared": true

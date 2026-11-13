@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:42:40.930049+00:00",
+  "client": "Surge",
+  "rule": "ChuangKeTie",
+  "rule_updated_at": "2026-07-26T06:24:03.497693+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChuangKeTie_rules_05768097f1adc5fa.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fe4241a23b3f83f916906983872c8f24b76ad1e75c03204cfc1e60d25a3d6358",
+        "bytes_sha256": "d68cc4eff5f797b259b764bb719b5156ad596b1adcac6a603951280a23281cf4",
+        "semantic_sha256": "9ca9122c9137b8ab2a96ff15988a00bf39eed41740a80e169d2ef671959eb007",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChuangKeTie_domain-set_03f7ad729072bf02.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "99e31b7c12f576c638213d8ee7b92f9b69b970abb933cb4cddd69ea0b65635a8",
+        "bytes_sha256": "d5a6b16cd93a504f0e59d7bee555bb49870aa9734369dc5d2d9a9a348ee6532a",
+        "semantic_sha256": "88c8949be9510937c4537ff5cbe07d9bbf44efad002778550528046f25fd13b9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChuangKeTie.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:23.254985+00:00",
+  "client": "Surge",
+  "rule": "FuboTV",
+  "rule_updated_at": "2026-07-26T06:58:17.172182+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/FuboTV_rules_6132c154bd8f7061.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8946ff788973983968d94a6cb9fc8cd4cf9730742c6d3e574dd58921310ddd2e",
+        "bytes_sha256": "1fba79116b27181095c11b9ff21788f7db6047c4c2844ce835225d7e7f9f30ed",
+        "semantic_sha256": "a50b03c456c7636afeb6192f17422fbf0ceaa21109d00a299b54d259433f569e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/FuboTV_domain-set_1fe5cfc88e265213.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fce2bdf22daf7c01c5df6754a517c0540b67c90b30f77688a70b20ae4a6c0335",
+        "bytes_sha256": "c7cd9a5716a33bf2d8db47c5cf07b52cf9f95fa1f283c5517ee2fed7c23b7f4f",
+        "semantic_sha256": "669b9a4306741e58165f457b4a021abed42bfcceba3216ad7b64018b173e3fce",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/FuboTV.list"
+  ]
+}

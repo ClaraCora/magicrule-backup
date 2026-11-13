@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:48.283838+00:00",
+  "client": "Surge",
+  "rule": "NBCUniversal",
+  "rule_updated_at": "2026-07-26T10:38:05.429380+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 17
+  },
+  "total_line_count": 17,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NBCUniversal_rules_7875e81e08ddba78.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8719b096dd0fc269faf0825ded3a53ee5db1ad7a5031256997ac7ddbbb22eafe",
+        "bytes_sha256": "a4ef0c809f08780543c426fa92e5b6354b5737eaab222de8364f0ae2a69a52a5",
+        "semantic_sha256": "fb6933feb30e33bc0d3ef33f280e290131bff8aac82ff906bb0f2de67c447348",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NBCUniversal_domain-set_9eb9d0ca9c91ec72.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "172ef37739d7bde0821707de9e8c821677df3673ba8d9a73ec8ca06ae86f5cd2",
+        "bytes_sha256": "c127e49401b38fec165ef79b30ab0bd20df3e0b134b0cbf68f981af8d3979d20",
+        "semantic_sha256": "985ce1825c85365592dcb61940944779a122db6b8b54254d003b0a0ae8595e20",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

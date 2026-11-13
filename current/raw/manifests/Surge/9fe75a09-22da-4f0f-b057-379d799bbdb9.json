@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:37.927677+00:00",
+  "client": "Surge",
+  "rule": "Modrinth",
+  "rule_updated_at": "2026-07-26T10:37:42.679239+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Modrinth_rules_d33d42f702ed61d7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7f64752fdf4485a5f78594640b529bad7770cd5c7bdab5c8ef86d4e805205d93",
+        "bytes_sha256": "9a795dbe9051b4e94c02fb790708c440b4745caa9e9e96040cc0d0b70ac9bf24",
+        "semantic_sha256": "707c35d6dd543b2eefbd69d1a08d84344ae9777be54349c51f88e2437f1bec31",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Modrinth_domain-set_7971ec20dac9998e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "138171678179935b9e703ae252998554a65855b413f75e5695829eca8ff76649",
+        "bytes_sha256": "f4c13389612af77c18e4d9ba4749ef0ec8eb666c535a9b238fc1d08eca629d32",
+        "semantic_sha256": "29ced6f70c672eb32bb7b1b8c5dea30df57882d645956ed0308f565450799b96",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

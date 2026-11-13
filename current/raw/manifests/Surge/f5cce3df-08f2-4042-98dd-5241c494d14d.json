@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:48.106708+00:00",
+  "client": "Surge",
+  "rule": "Electron",
+  "rule_updated_at": "2026-07-26T08:35:22.795519+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Electron_rules_fa0a7e1ec409c1ad.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c8f75c50d6fcec3ecac3dff1210eac16829fb3843b08f9a1d00c667175b549e",
+        "bytes_sha256": "24415f265b72c73fddc9abc27bb140802cf3378d973b2d2fc8a8e798280aa182",
+        "semantic_sha256": "1db23016298eac1eb922b80104e81280216a55ec5ecaeda1f1968a910fe9c82c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Electron_domain-set_50b597179320b60a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c0de6201d383aed87e1c3363a218ea30393d46d569b88f1d22e045604a7ef606",
+        "bytes_sha256": "464432bc67f07593f8c41b6fe5ec25de6b9ccd4101a060c990e78eedfda4cf60",
+        "semantic_sha256": "98b64d4b43ac0ded2c763eb5ad9e92c318d475da05d69fc9b18cef736dc4482e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

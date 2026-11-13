@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:03.697548+00:00",
+  "client": "Surge",
+  "rule": "FastStone",
+  "rule_updated_at": "2026-07-26T10:27:44.722476+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FastStone_rules_f777bb7c7897dffd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e34b421366cbe1e1b63a32ef87a18cdbb44629b1ae29e78f4285df12aceb56d",
+        "bytes_sha256": "3a7dce27306c8f0048d2f9befe9e4b0c9730c9773d89f11ca3262acd4e4a525b",
+        "semantic_sha256": "88a494d27cde0dcb462f59cf21500b268be179195d32bbcbbd569306c21ec09e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/FastStone_domain-set_2cec45c91fa564d7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a82b9f80c2f3971b98c12e2575c2eb496bd1530cc955d77ac20a81fa5b09ea9f",
+        "bytes_sha256": "1a8d2eb62ee99de186edef6ea4061afbfc71c523dbc2905bcdc9b15bbc328bca",
+        "semantic_sha256": "df2bd8f9eef4723b0450342446fe062e30bee85c75e341aeaf3f5cc169fcda73",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

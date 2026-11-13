@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:42:53.955695+00:00",
+  "client": "Surge",
+  "rule": "Voxmedia",
+  "rule_updated_at": "2026-07-26T06:22:51.597374+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 16
+  },
+  "total_line_count": 16,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Voxmedia_rules_89097bb33f7e0e91.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d718b3f257dda9b90f1e0687958f2d629ba4237d12e1656c24e847d13cdfb39",
+        "bytes_sha256": "7f99c64f5464c0758697fc22619f515b723c8c31a5fc6adceb9a2ed9a48af6da",
+        "semantic_sha256": "f73e7efa65f799ba8dcf57d1fb39a02c197e31d1082caf6b8eff969a570cc6c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Voxmedia_domain-set_d7b1750b84ab29d9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ecd218206a7e667f0c77336162700e4e0e6981a44d717da9f0ad47a6629c3143",
+        "bytes_sha256": "1c84ba66e11f87a83ff400aa6e9b2fdc779675b5e9c017a78ba8a1dac820707e",
+        "semantic_sha256": "85187557d12d6c100172bd81f4e1138469790aa00867d6ac5dc2bb8293ecf5a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Voxmedia.list"
+  ]
+}

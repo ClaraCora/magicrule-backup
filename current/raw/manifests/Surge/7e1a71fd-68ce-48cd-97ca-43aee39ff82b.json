@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:35:30.664374+00:00",
+  "client": "Surge",
+  "rule": "OpenJSFoundation",
+  "rule_updated_at": "2026-07-26T08:36:04.412224+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 11
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenJSFoundation_rules_c70250d410ab64cd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b5ead3ca21f82c956ef64b66e95e7e375855e6be468427d78e66841b98833b6",
+        "bytes_sha256": "a3b3aabe08879cc85a4101deb842f58b2cf30ae77c9071b4b1a2015ffc9756b3",
+        "semantic_sha256": "91a6a189554d9480b6c6e94ae26ff0dc0bcf59ed4a320fbb32c44d46d2ae19fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/OpenJSFoundation_domain-set_c8e4b8e12f35d86e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e330396fdeae38ce205671195dabe7f12ecebbcf9780060faebb60af869895b7",
+        "bytes_sha256": "7cf4292a0765dd9036bc05828d59bb1e4de8b07e3f5536a9df3d479f62670ba8",
+        "semantic_sha256": "9d73b846afef539506ec59a8427404b0a3a5930049cba17c9e923e8e82c3d7c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

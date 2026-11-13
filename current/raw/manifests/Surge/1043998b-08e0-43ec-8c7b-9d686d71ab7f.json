@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:31:43.027715+00:00",
+  "client": "Surge",
+  "rule": "StandardChartered",
+  "rule_updated_at": "2026-07-26T10:43:56.415832+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StandardChartered_rules_e82f01d4a7462a76.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9854e80e185b477df8ad0a1e478c2b88d54bf6590bea93bd4174881f075932f4",
+        "bytes_sha256": "6524864e7ac1b418ed15a41889f981c4b67f05fb25396b56e40326399ae0c0ed",
+        "semantic_sha256": "8aff53ffb80973cb77c9c23a8bcdf8626b08ef6511ef630c91ae85e800e56e67",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StandardChartered_domain-set_f9aa7cff7c8e7297.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4157358257eaf702318f07e6deec0e8d1b79c2388853feaeab99dacb1d1cc002",
+        "bytes_sha256": "25542b46badd905dff2a6e86f2735e6207aab3c43bc9ec988d8d577819c83170",
+        "semantic_sha256": "2643549c18a5b116498fb5413dc85d6b5abf0d232dd429467c7f0ce9612983aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

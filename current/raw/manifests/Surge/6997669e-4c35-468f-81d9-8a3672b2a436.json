@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:41.857110+00:00",
+  "client": "Surge",
+  "rule": "CasImages",
+  "rule_updated_at": "2026-07-26T10:19:35.299528+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CasImages_rules_e6dd2a20b1742edd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ba87d7beaa3b2998810fc6760746c15880e807dc15245e22d270bc724c9cc082",
+        "bytes_sha256": "0149bfbd5d4800a0dc6664d9fbfc6f071a3cb038f8b67a7ac2e4236517a86893",
+        "semantic_sha256": "0362494183e4a3b23e105d1b0da8a525a252dd0ef0c00d54e17aafb07b91e051",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CasImages_domain-set_1dd7ca6ad13d3b93.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "15f7cc1e24aeae38c0b5101deca08e3b1d77e976d2419f1185cb5c087e3ff9b6",
+        "bytes_sha256": "d7592306b68e64afcfc67b2da096e8a343e0aa5dc8138ecbd304349b8347b4d4",
+        "semantic_sha256": "1ca98dc562e34888e4d5ccc5b377c72bbb8f84cf26986816f23a297b4d5f8313",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

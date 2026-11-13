@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:46:47.741089+00:00",
+  "client": "Surge",
+  "rule": "ChinaTelecom",
+  "rule_updated_at": "2026-11-04T15:55:14.633467+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 92
+  },
+  "total_line_count": 92,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaTelecom_rules_19341dd30beaf3e2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6fb5ca029b658acc5d481ac2662ca40960b13caa7db93d6227cbb2e654d61fa9",
+        "bytes_sha256": "c360c3a4d4785800d72ad337d0a1598c0634b0209c24e373a7959b0c1747b05f",
+        "semantic_sha256": "4fe24ef452f441a0c0465b0ace2bd066d219f9b40b8a80b84955e1ef4b877084",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaTelecom_domain-set_09e04e53e75a18ae.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8bbe4e4e2e185f948c9ba1f0ee8da1f09e7a78b7a67e6444314c82e10dd67d0c",
+        "bytes_sha256": "24038e12f21426551cb07a1607b1d31e8dfbc9a7facde4d5c5b90fe7c769a740",
+        "semantic_sha256": "656fce29a028054545c8db90d63083fe7d685f85a0b6efa1e07e43a3b85a32fd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ChinaTelecom.list"
+  ]
+}

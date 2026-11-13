@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:38.309866+00:00",
+  "client": "Surge",
+  "rule": "UUChat",
+  "rule_updated_at": "2026-07-26T08:36:41.984044+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 22
+  },
+  "total_line_count": 22,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UUChat_rules_a47efcb31ea34aca.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "77a14439deeb04b3f3778d06b81372f50ee3cd82d045c7ab19aa909fb2d1e00e",
+        "bytes_sha256": "ea255a5add5b256afa8f9965461d953a885baf488136ef818cada5f0da927ba6",
+        "semantic_sha256": "b95545132b7231fdb5bfa2e0091a6cf18ffb4f374f944d858ae7a7bb0230db4f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UUChat_domain-set_62fadf7d679d4b87.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "402f653a62adba4a47e0b860211fc4c3718651dee61b55b268699a397dcf39ac",
+        "bytes_sha256": "3b5e82f52651e17683c8879d764e0ec76a3fb944986bbc0f6345719d9e5579b9",
+        "semantic_sha256": "17603b24de4728ee6878e036323b8879381fd83e36e5654d82bf724aaf07b4c4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-11-12T11:46:26.506486+00:00",
+  "client": "Surge",
+  "rule": "Lan",
+  "rule_updated_at": "2026-11-12T03:17:56.976351+00:00",
+  "type_counts": {
+    "IP-CIDR6": 14,
+    "DOMAIN-SUFFIX": 3759,
+    "IP-CIDR": 21,
+    "DOMAIN": 58
+  },
+  "total_line_count": 3852,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rules_a7096f98ad43c9dc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f8acfd4a8b82b0da5581f08c0378601e76238c5e403fbec2f2bc5d5143677d21",
+        "bytes_sha256": "0e3415cc004d34029df91e58b3b99f9b787edc38956527cc1d57bfd322e936e0",
+        "semantic_sha256": "7badcc8b86e809f86791940662c4a02cbea482113f57c910043beaa2f98530ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_domain-set_c2f9919a12faad5a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d934c9922e7a0368b3128932797ee8e70db4a4bb0a93799ca73efc74d3645b60",
+        "bytes_sha256": "9c6044f8e2347084577c511ace2dcb1b61eaca5cee182197ae2079eef17ec0c5",
+        "semantic_sha256": "42b14aaadeea558abe40ab8f3f04d534d60bb495cce029d1d63e81c395575abf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Lan_rule-set_c947f916763f9e26.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ac227d32f48fccb5e01d5db479323a1ae46743304bcbd2ef668c5c2f1e762457",
+        "bytes_sha256": "b5889b2e8c0f005a30e72e61607769ad1849bfab12e3396019f2f4d68124a06b",
+        "semantic_sha256": "2e1dcd2294fe590ac69fd8b4dce517a2c04bcede1b9d852954a9de99b4e05c33",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/LAN.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/LAN.yaml",
+    "https://ruleset.skk.moe/List/ip/lan.conf",
+    "https://ruleset.skk.moe/List/non_ip/lan.conf"
+  ]
+}

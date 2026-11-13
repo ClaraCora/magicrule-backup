@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:40:47.285136+00:00",
+  "client": "Surge",
+  "rule": "Wordpress",
+  "rule_updated_at": "2026-07-26T06:55:54.457359+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 10
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Wordpress_rules_5f629db29faa1113.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2a550e998093f0c9f6d71cc3aa7d7f14e0eb95a3139b931def218ac1d96c54f7",
+        "bytes_sha256": "c6175c7710c1066ee1769b9e3d7ad543806a0c8d1e09641c0065de28c5ecc948",
+        "semantic_sha256": "5ad60c55f21576d3e7a885ef5e9f0e8e0cf81db2456086031cf266497ba21275",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Wordpress_domain-set_4c2c9fbc827b92b4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "be506232775353e2a491cdf97603303f2cc4658b59fe1cca3845530ce655e54c",
+        "bytes_sha256": "0156933b23ae06b8a5dac623ed10b809812990048550b581758203c8f6e1acb4",
+        "semantic_sha256": "b8e8207ce6c65687dace71b464bb7aac21a388d3d8fd8687deaf7d213e2d71b0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Wordpress.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Wordpress.list"
+  ]
+}

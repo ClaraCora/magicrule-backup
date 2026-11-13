@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:43:42.490372+00:00",
+  "client": "Surge",
+  "rule": "STUN",
+  "rule_updated_at": "2026-07-26T08:28:07.381311+00:00",
+  "type_counts": {
+    "DOMAIN": 358,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 359,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/STUN_rules_75bd620a0977fdcf.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c6cd417a520756c7891df8d6cf7ab041b8ff6614d246b984dc1da0d9ce14aa5",
+        "bytes_sha256": "cde2f0fa83680512de6c1db9212acc3022b1ec28a0f6c17ac9b8feb33c68c62c",
+        "semantic_sha256": "3d1e7e2ca0d8b04c7ecb1a9ca579970cd848df71eeb842f34ffc2f8792bbfb40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/STUN_domain-set_e2d73a0fc30a79c9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "85b61033582a6168cbd62adfadcc4ae31004c9b0f5beceaacac5efc73baa7a78",
+        "bytes_sha256": "48322e661238b7fe5ad723abe0404c59757f3ea3f4ca7f5fe36455282e682bd8",
+        "semantic_sha256": "1e09fb34a1425123aa9a090c42612938c1c778bfc2772643a131825b256e05cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

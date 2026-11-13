@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:52.811285+00:00",
+  "client": "Surge",
+  "rule": "Twilio",
+  "rule_updated_at": "2026-07-26T10:46:40.494580+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Twilio_rules_6c14db2a8d650080.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0cf3e8dbd71a6186a5cbb726c0860525daf6befca5eac4d0187be336a35dc718",
+        "bytes_sha256": "f3d016d5287d7e0788a36882252bdd0793ae525ceacb344474be5d79024bedf6",
+        "semantic_sha256": "05ccca6e5f87d3745394ec1ae61714b627943600a4b803f10d1c2a95c058305a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Twilio_domain-set_6e0ea743343188ac.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6620c8ec5da207fa6661cfa5e9c56d6d325c0cc8c07a101a4b93aad8a61c7e11",
+        "bytes_sha256": "3fd360cf94cd25ae604586628e6bb2ae22b3a2366f2095126db352b4c2bafc47",
+        "semantic_sha256": "018fc0337a710667c78c01b44b35c38f79bff6d061c0254c9811070350318ee9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

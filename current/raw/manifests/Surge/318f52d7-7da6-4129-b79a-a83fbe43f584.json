@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:43.259043+00:00",
+  "client": "Surge",
+  "rule": "WholeFoods",
+  "rule_updated_at": "2026-07-26T08:39:31.222417+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WholeFoods_rules_d0d4272c3749df7d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0c1588f4a068537f839cea59cca2ddbed74969582f06a345381c39e50c99b296",
+        "bytes_sha256": "5f25541ddfafdd25f8c233458a2a531ea38dda75e3878eb7b82f4b77492e534d",
+        "semantic_sha256": "fd26cf3e424729aae87cc4beb6a8c9dff4ac960c4e15201e0ac56323ea125dfe",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WholeFoods_domain-set_38d543f40ad309b0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc40faaecf4ab3b4bb36040523c7283e518c2d18348b4e857513b5eedafe8545",
+        "bytes_sha256": "8ad0f7ed060c3fe36d81882ed5fd7af2ad3207e0935bb7ca9f70e902cb5012a8",
+        "semantic_sha256": "24dd43e1942c1f0b6345d5e3595f18168edbcf3a384ad5960051e10cd50d4d65",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:59.299943+00:00",
+  "client": "Surge",
+  "rule": "YuKeTang",
+  "rule_updated_at": "2026-07-26T10:50:31.333871+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YuKeTang_rules_acca5ac0094b2d75.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ee54098bd9392ca9975e962c5503037a64ff4e28cf1b190a3bfbefa0e18f6d3f",
+        "bytes_sha256": "2917a3b685b22617e7bc5b7f7dab52fb3c6b324e8419128cb6184dfb5c0d6371",
+        "semantic_sha256": "d19dc5b290a4cd45da8a50ed7638f85db66c2ea63a27ff5056c0544ae95971c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YuKeTang_domain-set_618a5709b2932924.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ccaca7b83ae671ca4e293af3e5383a93605faa0d1913a59c14866b5bea3e723d",
+        "bytes_sha256": "f4626b88897814da8d6d2ac7a475d62caa08edc3b32dd3cd86a86160cab88a1c",
+        "semantic_sha256": "4ce28ea2c498ec7f231d1bb4791d68093f0f421a3eff6b53f23c9135d7a36cba",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

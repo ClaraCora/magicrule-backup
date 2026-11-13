@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-11-12T15:34:14.460220+00:00",
+  "client": "Surge",
+  "rule": "AdvertisingLite",
+  "rule_updated_at": "2026-11-12T15:25:18.505218+00:00",
+  "type_counts": {
+    "DOMAIN": 26932,
+    "DOMAIN-KEYWORD": 164,
+    "DOMAIN-SUFFIX": 162623,
+    "IP-CIDR": 233,
+    "IP-CIDR6": 4,
+    "URL-REGEX": 5
+  },
+  "total_line_count": 189961,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_rules_d6bbadfd97bae903.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f074a8b52855588c30c6b3d6a3443ad346239e1bbbfa5fbaea51bccae82a18d7",
+        "bytes_sha256": "4fd7e187d83cb946390e78b0cecf8ccacd31df9828bbc2200c457dad6b2802d7",
+        "semantic_sha256": "2f6a39e17c4ef8a2efe458f60fe1220cb3431501accc7eb5a481f4174354540d",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_domain-set_d4a1ddbe9c01b657.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "20963d3b4b32d28da533197ff9cba109f78475c3bb2c5c8951981f29137b7b1f",
+        "bytes_sha256": "6fad4fdcb6a423c64d8a445731465b3c44eab42f9068f31c0debdae411c9686d",
+        "semantic_sha256": "4f16701994e8c0126f371efe9dee959555ecf4401cb2b029ec03ab519bfdcae8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_rule-set_a4dd18045f3a12c0.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a49b598c0658a7b296c1fd5435dbdbbf52a53782e81b030ad6a7e633675f7b5c",
+        "bytes_sha256": "54f39d986e75fe21440611a7887a07a8d9802c978de26ad197de41129352879d",
+        "semantic_sha256": "6f9baf3a9a789ee2e9e5097ed710265b1b8779eb5fed1851ef2c3b857680f211",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "sgmodule",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdvertisingLite_mitm_b7247ab6df145c77.sgmodule",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "50d969627da8e259a0977502cda56d1297a78cde9060d9df8fcca3a2a5a79378",
+        "bytes_sha256": "3a940fbc674a2fc404fec7077aa01025da234737d8f92155876f94e7d488582b",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "可能存在部分误拦截，建议搭配放行规则进行修正。",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+    "https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt",
+    "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list",
+    "https://raw.githubusercontent.com/yjqiang/surge_scripts/main/modules/hupu/hupu.sgmodule",
+    "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "https://ruleset.skk.moe/List/non_ip/reject.conf"
+  ]
+}

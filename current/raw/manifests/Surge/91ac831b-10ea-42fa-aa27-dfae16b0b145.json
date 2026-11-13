@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:45:48.003061+00:00",
+  "client": "Surge",
+  "rule": "Rakuten",
+  "rule_updated_at": "2026-07-26T06:53:35.370934+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 37
+  },
+  "total_line_count": 37,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Rakuten_rules_80d413a366592e7f.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5cbdf8d2fb0bb48ec0f1dafab7d639b4fab1e4ac4e9011e80cb92720e0a2535e",
+        "bytes_sha256": "7b02a1b7b9b040f39b6873dedd2a4c8dc082cb325bc6f62007960d62814fab37",
+        "semantic_sha256": "7356a6238c614827dda820ab15e9418958ff5d9ba3054757932845c9625a8406",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Rakuten_domain-set_305999e123edfa91.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bc3c2aa27806cc5b4e7fdea89fea9f8ca7ea04d449587e38e8d2e1e99b42d8f2",
+        "bytes_sha256": "78db1ddc0ee8b896d263d2af9a5dbf85874511eddb5b3d66a4c4540f24b1fc28",
+        "semantic_sha256": "ec93273e58bd066b86731f546662c6f3ec34e73b92f2361e57b7a8d2a2324b38",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Rakuten.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Rakuten.list"
+  ]
+}

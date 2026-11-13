@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-10T02:03:21.510616+00:00",
+  "generated_at": "2026-11-12T11:50:57.340425+00:00",
   "client": "Egern",
   "rule": "AdGuardSDNSFilter",
-  "rule_updated_at": "2026-11-09T03:01:51.444426+00:00",
+  "rule_updated_at": "2026-11-12T02:41:01.485627+00:00",
   "type_counts": {
-    "domain_set": 183,
+    "domain_set": 184,
     "domain_suffix_set": 4
   },
-  "total_line_count": 187,
+  "total_line_count": 188,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AdGuardSDNSFilter_rules_2e20369e532c0ec2.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/AdGuardSDNSFilter_rules_f1c07cb7da231cc6.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "4fb91ea3faf9d3b89d980e7b72a434e736032eae587fd49dffdf899ae419a33d",
-        "bytes_sha256": "c00d0dbf0d33cc6e6ebdff13131beef0441a18489bb12288fe0e1a4f47d96de8",
-        "semantic_sha256": "eb514c56ba818789964157231970d5daf48f99b4e9ec185a307250a555623e4b",
+        "fingerprint": "93527f0ffb4c122ac518954617432fea18f9ef318fdc5c80e8d05cc697fd6115",
+        "bytes_sha256": "a9c57164aa842f5c606ee18f84f708aea53f1eb3dbb06dc123bff4f7672a5c01",
+        "semantic_sha256": "bed945e00515a1bebe99b62d267d2496de1c177d23e60b91cf445cefc74fde7e",
         "normalized_header_lines": 4,
         "shared": true
       }

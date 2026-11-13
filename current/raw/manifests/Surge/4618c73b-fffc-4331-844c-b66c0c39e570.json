@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:42:50.784742+00:00",
+  "client": "Surge",
+  "rule": "GlobalGame",
+  "rule_updated_at": "2026-11-04T15:55:14.661597+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 787,
+    "DOMAIN": 97
+  },
+  "total_line_count": 884,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalGame_rules_d8c6da812d5e7f0b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4e50657699781d79f230ea1c2c104c05c7c318ac0fa7288756192d055753daee",
+        "bytes_sha256": "1c9856ef3f97991890a39f48a84a4d8ff08f4151d50c1c492a26f8168431b6c6",
+        "semantic_sha256": "1b5e72d83b551c9adf13ef685c6f01c55282820b205b265d3e4ddc72d5b17602",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalGame_domain-set_ca6c58e49513113a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0d14fef7d152676b9e69d282187d246a31b274f03898eb759fabac4343e7869f",
+        "bytes_sha256": "00ed4497e0e5020a213aab51347de884f268d886acce72f71ceafba60e1edf88",
+        "semantic_sha256": "affb7926b8afc506dc22e54c586a4c4d6a1831b7624f1b390a6b9cd7d1136ffb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

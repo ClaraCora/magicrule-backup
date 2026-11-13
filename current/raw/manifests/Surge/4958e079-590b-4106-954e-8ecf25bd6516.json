@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:32.480055+00:00",
+  "client": "Surge",
+  "rule": "HKOpenTV",
+  "rule_updated_at": "2026-07-26T10:31:51.326185+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HKOpenTV_rules_5429d95448c5e96a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f06b343d76acd4b80f5daa575493c57cd32e60c26b630f0bffca8dcd6010f60",
+        "bytes_sha256": "84a1281824f5086827b43a771813db758e793d9747fd7d507f930353b129b0b8",
+        "semantic_sha256": "f17104616f0f274f24c7cec6bd5eab9ece478b8868b70cd47e31b2ecb97d0b8b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HKOpenTV_domain-set_e2d84496b0969b33.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "66a1702ce01fc5c0dc412b37368f99e4c856f9e40495537fc58035997df7aa80",
+        "bytes_sha256": "f5074993c03e06ece7b96e9e50048f447088c6089da77bd4e6575be26f6814d4",
+        "semantic_sha256": "95e67b4c2d73a2182fccf072b6bc936738c65e66156259ed745e7c444128372a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

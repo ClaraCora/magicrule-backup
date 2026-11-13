@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:50.978849+00:00",
+  "client": "Surge",
+  "rule": "Liberapay",
+  "rule_updated_at": "2026-07-26T10:36:32.855795+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Liberapay_rules_8bd86d9114128f04.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "59c94848fef829988d3049ed667244aa28d8593968b89ca84a9cd8204e37519b",
+        "bytes_sha256": "8efc99d1d3c3e9d606243e817a726869b3aa5b94051d228cc0c04f8ba52f75c5",
+        "semantic_sha256": "c05d69b227f9bbc54d81cd5db6614227adfd880722605afed529aa4b06190930",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Liberapay_domain-set_eb2615877ca717bf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b4696aaf9a328eb8cb967efa21b7c606bff3b7485a48ce09e2675f37a3f162de",
+        "bytes_sha256": "af74b96cd105170f8116c82979ac7e1f21654b82c2e56f952e66c493ad1d0a4c",
+        "semantic_sha256": "dbb0326a239f9fd4547a42d131ddd78c4fc8198289e997cd9f50a8a9c47f39c3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

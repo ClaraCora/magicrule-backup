@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:36:53.224854+00:00",
+  "client": "Surge",
+  "rule": "TendCloud",
+  "rule_updated_at": "2026-07-26T10:45:32.825344+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TendCloud_rules_8859d71ebdb0e694.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f3e210d163daf8f7db5761902b9b2562f55ca297d304fa51fd0445793be8317d",
+        "bytes_sha256": "828974c35bbf711f29b80849bb9f9cd832d5fc463b232105f970c950ceec3bd3",
+        "semantic_sha256": "d8b7bce9d093f078db6ab5e174e818d82d5a8c44dbce576247d81e8d02e694e8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TendCloud_domain-set_43e7679f014eff3f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "78fbf6c88905344c94eca8acdee9e2a7cf9c25ebc69650646233e2947206b635",
+        "bytes_sha256": "d63c3e9f6682fb95a29dc26d243c89baf984c6429b014645fd6ec9c77c88a5aa",
+        "semantic_sha256": "e407a4f8e8fded7e99718257f3024a87cc63822e01ae8ae406fb8ccdcd854819",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

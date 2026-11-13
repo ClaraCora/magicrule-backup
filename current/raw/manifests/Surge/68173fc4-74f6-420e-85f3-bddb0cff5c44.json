@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:35.761885+00:00",
+  "client": "Surge",
+  "rule": "Vaptcha",
+  "rule_updated_at": "2026-07-26T10:47:43.398435+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Vaptcha_rules_5ac15461e0b13cbb.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d2a32ca6c7c8c5fc3bf7f7e998d60559eb16a7154734cdd2ab3828345ad8dbed",
+        "bytes_sha256": "e9d8e92364f4911bc40e1e004fe05c353e0f053070d49434b0aedd9517c10951",
+        "semantic_sha256": "543d9db48d9f654ec4efe04a000953bfd6bf56170bad09acd7c60f5be670c76b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Vaptcha_domain-set_921573b1779d33c6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "c5abf6a07c1a9e8b11970c71a089e2fba4154f359d0ce0962ab75a2910c7eb9e",
+        "bytes_sha256": "335e16e735cd66cc58f3c2ccdbffe360df053f724695d9d8068e956324d373d6",
+        "semantic_sha256": "41f0c241e800bb308ae3f6eeb0892a1168481cf292ef5abee42deb71181f46c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

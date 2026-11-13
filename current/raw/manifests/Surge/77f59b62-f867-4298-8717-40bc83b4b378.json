@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:12.494970+00:00",
+  "client": "Surge",
+  "rule": "Aviasales",
+  "rule_updated_at": "2026-07-26T10:16:01.483814+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Aviasales_rules_37e599e82a36f4d6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4bf0ff7ce1328f0039584c8db35e21e41b64767448bcab9d5fc1c0bdf6b2d518",
+        "bytes_sha256": "7bd55eb9e84e37030997f2ebbea97a3fedc239b8f2e516aaa0d364817dcb74d5",
+        "semantic_sha256": "dc2c5e668d3b1fced30396fa56677f7186fbd61a76f12199e4ddb77627282e1a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Aviasales_domain-set_88e51eed1deea516.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "507d4fa4f87b80465afe3d76f90fe1d662e54080103a2b49294f8ea7dcd47c4f",
+        "bytes_sha256": "95630cd4ad6533a20b05ae9bf8abac1207127de9c2aaa4c8b2f967c2a502e168",
+        "semantic_sha256": "be78b6de0cc75090e63bf53640ae690b986040afbc9b5bd345c5642f80344668",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

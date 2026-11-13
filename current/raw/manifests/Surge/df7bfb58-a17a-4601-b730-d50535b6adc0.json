@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:55.383882+00:00",
+  "client": "Surge",
+  "rule": "Imgix",
+  "rule_updated_at": "2026-07-26T10:34:35.750892+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Imgix_rules_0c6b56d72c72ef8d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3323ec2f4ab7c681281d6b1f375413431ecfe2cf91f9157f2bbf28bbae177d68",
+        "bytes_sha256": "5f73d42dab8b3ae62fe058ab6b2a1ac65b68f88981402c84ba43ca3d48adc521",
+        "semantic_sha256": "82a0491780c0c79211b6114988ff540347ecadab3a41d456d63aac924b9242ff",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Imgix_domain-set_bfc20f379149fed6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fc9213dee63b799bf8658eb12c2cd415332b52aad6445fa98748bfb46fc9ee9b",
+        "bytes_sha256": "2a664aedb2dd59a53eb7d0df6ae8318999b1962273530d50617329bd86bdcd0d",
+        "semantic_sha256": "d495ac25b12fd361037d1b2ff007b67c84aea66c8032d114e4456f6107068633",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

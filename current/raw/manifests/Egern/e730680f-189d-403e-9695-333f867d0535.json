@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T02:04:09.621910+00:00",
+  "generated_at": "2026-11-12T11:50:59.419246+00:00",
   "client": "Egern",
   "rule": "TikTok",
   "rule_updated_at": "2026-11-04T15:55:13.985611+00:00",
   "type_counts": {
+    "domain_keyword_set": 4,
     "domain_set": 9,
     "domain_suffix_set": 52,
-    "user_agent_set": 1,
-    "domain_keyword_set": 4
+    "user_agent_set": 1
   },
   "total_line_count": 66,
   "artifacts": [
@@ -15,7 +15,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TikTok_rules_a38ecb26557c52f8.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/TikTok_rules_238c2d106d165a76.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -23,7 +23,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1c1f512085892d6185bb675dc66a669613ecb342b254d52d8194459876ef150c",
-        "bytes_sha256": "eb464775010465cefa936aa0a5f2f491c1028e2c5be8e8ef530b4088ac3d8a39",
+        "bytes_sha256": "d6868205fd4ef3e4c5367c6d81efcfa2288b9d47356869ea5dea2038ad2eac00",
         "semantic_sha256": "032e226de046ff6e8936026cad3e9db389ed4fab8eb95aa2b58ba1abf4093fbc",
         "normalized_header_lines": 4,
         "shared": true

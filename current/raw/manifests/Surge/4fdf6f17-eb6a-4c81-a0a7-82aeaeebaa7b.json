@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:45.561725+00:00",
+  "client": "Surge",
+  "rule": "Pgyer",
+  "rule_updated_at": "2026-07-26T10:40:28.725455+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pgyer_rules_b6838005adb76fae.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "784926ccee37eb25621887ed2d91cb179d32984f934b734862d221a2ca688ed8",
+        "bytes_sha256": "107ed4d2a86b1ca65283ccb04db825b03a887065a8c857db5b506a888580374b",
+        "semantic_sha256": "fbe9a6cce5e1fce6fd0d128846630476c12ecbcb79f680643e7972e2f7643c35",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pgyer_domain-set_1c16686f2270de48.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e79522e181d9bee51894cf92293b745188b5d0376b925f4d8dcaaacd50442456",
+        "bytes_sha256": "bc836e04ae12dbe06e378b6a09fb0a6e4ac412c24c8bbaf6ad182a9a7beee1fe",
+        "semantic_sha256": "319cca75158ef607c192db8f744c5c35a6e9b52044da46b1ba2c63c8d5612967",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

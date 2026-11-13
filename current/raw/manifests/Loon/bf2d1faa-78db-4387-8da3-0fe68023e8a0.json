@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T02:01:00.650961+00:00",
+  "generated_at": "2026-11-12T11:47:20.510544+00:00",
   "client": "Loon",
   "rule": "Yahoo",
   "rule_updated_at": "2026-08-27T01:36:24.078957+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 177,
-    "DOMAIN": 1
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 177
   },
   "total_line_count": 178,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "18b97ff6c04c1d7153244459e93dbf7c0e77fdf2f10e7c3335a6104f48a2d0f4",
-        "bytes_sha256": "2836c1fa0d28c019159f4fb87a8cf66843a603266f4825c24dfdfb22823a0c5e",
+        "bytes_sha256": "8b160972653c66a0b07762b0204d66dd36fb8967171eee4badd74f2d37587e4a",
         "semantic_sha256": "5ae5c0894617f2f55429b5b4e078ae8daeb187e286d87dd78a1533992423499a",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3ae23b9a73b249cda215c2a38475c05e8d7f09eb7244bd264869c5044780851b",
-        "bytes_sha256": "1b8eba88f0f0338ecfa47923bdb6bcecbc0eb1c7528aba35d16248da71e97f9f",
+        "bytes_sha256": "83ecf779373b52ebf2edc0ce81a57d324dfd24c03d4056098f801980652c74f2",
         "semantic_sha256": "b0816c669e37af351896356f278a533ae03f01852397bcedc0377ac3c0504bf7",
         "normalized_header_lines": 4,
         "shared": true

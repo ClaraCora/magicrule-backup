@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T02:05:45.535327+00:00",
+  "generated_at": "2026-11-12T11:51:02.677829+00:00",
   "client": "Egern",
   "rule": "PikPak",
   "rule_updated_at": "2026-07-26T07:00:36.885473+00:00",
   "type_counts": {
+    "domain_keyword_set": 1,
     "domain_set": 1,
-    "domain_suffix_set": 21,
-    "domain_keyword_set": 1
+    "domain_suffix_set": 21
   },
   "total_line_count": 23,
   "artifacts": [
@@ -14,7 +14,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/PikPak_rules_23fd42da6da15686.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/PikPak_rules_be4fea204a0bbe89.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "28090e70fb02bfa5f5c0d7641ad74f0d9d5ca508a7ba3c083ddde3181638fe2c",
-        "bytes_sha256": "7e34c46566bf1d35b71bc4c89630e9f05fab9e7021bc2e213cab96977b23c71e",
+        "bytes_sha256": "faa1a4eb68002ac48087b6b7cff4def594a83e7a10d0117f761a8572e0663e4d",
         "semantic_sha256": "916dfec631b8868ed3cd41768ef5cb9d977d42a7c462aac24e3cda074cc15e8a",
         "normalized_header_lines": 4,
         "shared": true

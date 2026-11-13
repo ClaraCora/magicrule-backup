@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:22.334207+00:00",
+  "client": "Surge",
+  "rule": "LiZhi",
+  "rule_updated_at": "2026-07-26T08:39:20.717052+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LiZhi_rules_75920f2a87de2292.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a8c9b6e7bbe7d3475e90f76191631a5df9fd5f8467a1f11c8823508f96829119",
+        "bytes_sha256": "91df85fd8a4a2cd8ad149b3b092b140e2753c0ef19c1b6846c67ae107fe474ae",
+        "semantic_sha256": "d17c9938d9d501f9fe0bc92b0c6acf6c88d1607205b5da75036678796b216457",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/LiZhi_domain-set_8be41217190c5241.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e1e7b1236828b44e0b4f30a1443c14d271779fc6f99faceb2d8b50c5f0db298e",
+        "bytes_sha256": "fc6364575182850225a2ac6598adde7d2d4788694cb81c01e14445267020a96b",
+        "semantic_sha256": "ea448dcf71f83b021d185e67000997be55c43dee36bac171baa7f00c1919dcdd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

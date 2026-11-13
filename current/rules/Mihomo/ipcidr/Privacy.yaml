@@ -1,13 +1,15 @@
 # NAME: Privacy
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-11 08:03:42
+# UPDATED: 2026-11-12 19:40:26
 # BEHAVIOR: ipcidr
-# IP-CIDR: 10
+# IP-CIDR: 12
 
 payload:
 - '0.0.0.1/32'
+- '104.251.176.0/22'
 - '109.123.233.251/32'
+- '165.173.176.0/24'
 - '185.193.38.148/32'
 - '34.215.155.61/32'
 - '35.194.26.233/32'

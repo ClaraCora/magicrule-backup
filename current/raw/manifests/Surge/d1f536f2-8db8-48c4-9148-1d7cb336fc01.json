@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:38:26.686505+00:00",
+  "client": "Surge",
+  "rule": "GMOInternet",
+  "rule_updated_at": "2026-07-26T08:38:35.557056+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 155
+  },
+  "total_line_count": 157,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GMOInternet_rules_aa9ca0d19bebd86d.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dbb6c27bdc7bed6cdf4dd60e8e2926dfe442a02c6beba0e40ed86bf787470ba5",
+        "bytes_sha256": "e93600d4d4ee1ad3842b1fbff6b8687fb7ef95d77ac47e68b0c04f0f29b3a468",
+        "semantic_sha256": "e02d868c86659bc7416e70f535cfc64c4dee31577f103a0f448a200b1346c631",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GMOInternet_domain-set_ddeeb1c6d99763f4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1e050f65c934ee690e395e3d9d3da38c20e31f8e55d6ed1e82b51e18ed294c09",
+        "bytes_sha256": "410ccd4bcece5e2ec7c163e34a59bb40f1f7f60d45a808b0190a4f1ac8a9bdf4",
+        "semantic_sha256": "f6831554bf79d17f94ed7298bb0f43dbf9b960d749b12a1f5a96df869ba76328",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:14.206340+00:00",
+  "client": "Surge",
+  "rule": "Envato",
+  "rule_updated_at": "2026-07-26T10:27:40.955485+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Envato_rules_fd193f99680a30ee.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e823b0df3b1d195af27506b163ca3f4b7b9940b5723c3ec26404e7a12f450830",
+        "bytes_sha256": "3f4ccd25edc8e1baf0262674f7aeeb979ec2e3ceffeac9b9f13557bc2276532d",
+        "semantic_sha256": "6922c46578df2bb3759e57b73d7628e21d620c2ce689ce64f8e0f911f2e1e0a3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Envato_domain-set_3e6941252685c235.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9f245962416c04614af1578e094325632d45930919eab85c1f9ac71848e43d7f",
+        "bytes_sha256": "9d1b5a8c1bb948ad3f7b6db653091d0e537ee71e3cd7d5c46e03e8514072b539",
+        "semantic_sha256": "f8c957be8eb235d280ac10eda50fb12a313c91f93ad4c6d239408d835ed93ce4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

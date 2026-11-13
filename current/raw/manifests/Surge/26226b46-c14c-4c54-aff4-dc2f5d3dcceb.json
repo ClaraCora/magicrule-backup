@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:27.092525+00:00",
+  "client": "Surge",
+  "rule": "Tidelift",
+  "rule_updated_at": "2026-07-26T10:46:18.052263+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Tidelift_rules_2ece207d421530b9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4fbc85320cad90e74340e316e166e8a9ecb89e3559fbe2277ee5357b5f2fa5b",
+        "bytes_sha256": "ae177232b9bd5fb1065cc2c2b8cfdb9bacee85a61eef57271093b3d104145602",
+        "semantic_sha256": "db47602128ed0fabf2e4bc3173564d36266f075190f301d544fd6d72756c9530",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Tidelift_domain-set_43bd08e9eaca7403.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "533cbdb445cf209ea20a244be72d34db854d3dd93b565f922adf13044097780d",
+        "bytes_sha256": "413eefcab68fce77a5f2acad478cbf933f785e73418facea6a5925a71777c7bb",
+        "semantic_sha256": "25e513a2cc2086099597c30fefc1ce62baa228d9750587f7dada19ed101aff40",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

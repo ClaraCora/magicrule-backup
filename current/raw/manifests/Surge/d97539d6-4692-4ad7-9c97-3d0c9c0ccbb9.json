@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:48:31.158662+00:00",
+  "client": "Surge",
+  "rule": "DouYin",
+  "rule_updated_at": "2026-10-16T15:21:20.247110+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 88
+  },
+  "total_line_count": 90,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/DouYin_rules_b3dc4221b07a0f28.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2f6da46daab253fc1bb19bcb31788c5a524a63b74ced4beaded725ad32e25b95",
+        "bytes_sha256": "c3f7b12a34a3809c1c866db7baaabc01dfa2755a7957198e11372ed51d4af98b",
+        "semantic_sha256": "b16009231e91ca2a03753e06e3e696eb0510ef79e52ee55f6f0432cafaba0c74",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/DouYin_domain-set_c9b5f7587786bb52.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bea77e3ec92517d494f2bbd36432440254abfcce4941b1cbaf4022fef5e3c96a",
+        "bytes_sha256": "4569703ac792e6f5c3965771832682cd3284b95a4152ad750d52ff8774ee30ed",
+        "semantic_sha256": "de7d42c5d7f675e588ada03c76c5b945ca8e2a0eb4bead2192b522bb8c1ef67d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Douyin.yaml"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-11-12T11:46:44.491168+00:00",
+  "client": "Surge",
+  "rule": "Apple",
+  "rule_updated_at": "2026-11-12T02:33:02.480712+00:00",
+  "type_counts": {
+    "IP-CIDR6": 3,
+    "DOMAIN-SUFFIX": 5629,
+    "DOMAIN-KEYWORD": 5,
+    "IP-CIDR": 15,
+    "PROCESS-NAME": 9,
+    "DOMAIN": 321,
+    "USER-AGENT": 5
+  },
+  "total_line_count": 5987,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_50be57f093bd1fff.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "30ef781a6147ed7342e7b13403208191d7db69d702390c95a23c8e307864abc5",
+        "bytes_sha256": "7c5fd27aee9b2bfb5634b939eea7d83081fbfe1f586cb2df1052adc0b3650e20",
+        "semantic_sha256": "08aefa6f35154a8410a6ea5beaaf008a7c7a08763f53b71faaf331e00872c5df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_domain-set_b1f9f490f641d157.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8cd1f40e634c4d866d0471c3acef3fc53a032c8e73af72f63b86f4b05a519a23",
+        "bytes_sha256": "decdd268deb9f95512dd5152dcbcb5bfe88b9a68985a171a32defa26f7593b8a",
+        "semantic_sha256": "f6987b7f35978a110e6a2aa1439ce59405b5f0e93ec4c02cf66e5cd151d4a645",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Apple_rule-set_6cba9e196243edea.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a4eceb7a4a50037939eff4633411fb6aae929e76b54d63eeb1092e783ede9ece",
+        "bytes_sha256": "12e5dc9f22819f42d4174db257325cae09297e2c4dad27825131166caac5c04a",
+        "semantic_sha256": "04a331c747aa693c8183d7a2ea004f9099794e3517cb7f5b8e7f26681544fc01",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml",
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list",
+    "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Apple.list",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt",
+    "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Apple.yaml",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Apple.list",
+    "https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+  ]
+}

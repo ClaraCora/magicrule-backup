@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:31:22.313883+00:00",
+  "client": "Surge",
+  "rule": "CTYun",
+  "rule_updated_at": "2026-07-26T10:24:47.489845+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 67
+  },
+  "total_line_count": 67,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CTYun_rules_64110343ce58cdf0.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "db89eaf1adf17217c865fbdd140973e3384a745fa8be41fc760433f1f7801e14",
+        "bytes_sha256": "41964c04bc901375ce40a4e3c2cc8d94e900d8bc8c43292204fcede2b97847ac",
+        "semantic_sha256": "189d33906fdf7337b7b72e8948c56bd632dc01facce1050f5a67837a1a9b1347",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CTYun_domain-set_7a0a0a48c6a8c9cc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d60dcbf97e8ea4f62251831102afb27831ce866704a1ad9e82cf63d44037b8c5",
+        "bytes_sha256": "6faff7afc5d0eba7ff87da6c16d0267f2f9b56f0738c7d7ffb77ec8f2ec56663",
+        "semantic_sha256": "554772d2a4d185529928a1bcf3d15a4bd8256bf921f6fe65f9592f546be75c8a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

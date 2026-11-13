@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:56.833534+00:00",
+  "client": "Surge",
+  "rule": "NowCoder",
+  "rule_updated_at": "2026-07-26T10:39:22.508598+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowCoder_rules_2fe34e58eb0a0307.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "ab3a3a1f3b05ae32d015fd27c902b39f5baae7313c1fbf427fd4ca00492308a0",
+        "bytes_sha256": "51e6360eb5c55e79fac725df4798e8e2de3eb461f18cc36c30b2afbe97a0db50",
+        "semantic_sha256": "7d484733d249fa3de41171d4017b80d3b2bca04444c99df46902336a88a98081",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/NowCoder_domain-set_af649642515d7b07.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "338396869967f5499289512b31e4dc195547a5b32fe47f2391bd2bc17c60de25",
+        "bytes_sha256": "7186b4fbea1a3937fb382bcbd81dd6d18fdd5c57dfd5a505683291ad342f023c",
+        "semantic_sha256": "bf4784e0e459647c2ab5e2b3659ec115fad9c80dfb3efbad19274d4fe301ca50",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

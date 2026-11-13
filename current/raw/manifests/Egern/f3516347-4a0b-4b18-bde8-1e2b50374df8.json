@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-11T00:21:41.762365+00:00",
+  "generated_at": "2026-11-12T22:03:02.541730+00:00",
   "client": "Egern",
   "rule": "Advertising",
-  "rule_updated_at": "2026-11-10T23:57:17.737312+00:00",
+  "rule_updated_at": "2026-11-12T15:25:56.149829+00:00",
   "type_counts": {
     "domain_wildcard_set": 22,
     "url_regex_set": 15,
-    "domain_set": 17498,
+    "domain_set": 17500,
     "ip_cidr6_set": 6,
-    "domain_suffix_set": 270912,
+    "domain_suffix_set": 273065,
     "user_agent_set": 1,
     "domain_keyword_set": 210,
     "asn_set": 15,
-    "ip_cidr_set": 1039
+    "ip_cidr_set": 1035
   },
-  "total_line_count": 289718,
+  "total_line_count": 291869,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_rules_8953ff95a8384813.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Advertising_rules_2e94175f96f58c91.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "29cb1d169a01b86aec67b35c4b8bfd40450e410a36335a4aca6bd5b17e8bfd75",
-        "bytes_sha256": "5d1bc5800fa875caf4b6068f101a2c64dadbca7025ed91a54398c044b6043aa6",
-        "semantic_sha256": "fde4652a6f17679a4bd599305bb73b9e202c7eda7ce006846801a5424a517298",
+        "fingerprint": "c115f43990a7236dc4b0edeb7d95a66c1bb7fec480c20d578cab307994875c1d",
+        "bytes_sha256": "bfc86e2514fe51263f2d326ccd701a9a570c4fdd2b89c740e24b4914bcca11bb",
+        "semantic_sha256": "74ed7c06c67f6e83990fea9d5d5a04c763da7cb9ec292b1d70a203ba16669055",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,15 +38,15 @@
       "key": "mitm",
       "label": "MITM",
       "ext": "module",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Advertising_mitm_296fa9fbf91ef37c.module",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Advertising_mitm_bf9c252b5225e6dd.module",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "6f1cb4afe13ef4b3aa9dd29c146adb43e1665f0b98d9ccc5089169b758004dc1",
-        "bytes_sha256": "a64e7e85ef15413efc7b47bb611e50182232fbcbce80316b9837364f924d8040",
+        "fingerprint": "4f9b603d421188ffafd14484bd2618b804b44b7d37133a6548cfcac8fcb45713",
+        "bytes_sha256": "1a2c55772df84290f363cd95056407655600612a91902d56baa300b008f2f546",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

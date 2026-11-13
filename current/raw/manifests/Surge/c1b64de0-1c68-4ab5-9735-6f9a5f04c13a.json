@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:37:57.357756+00:00",
+  "client": "Surge",
+  "rule": "GeeTest",
+  "rule_updated_at": "2026-07-26T10:28:27.876807+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GeeTest_rules_9753a45529641c1e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d217e567cc3528f4baa864aeb195bf332f6283e8bef8baed56d4052490fa821b",
+        "bytes_sha256": "ada499e963ed9dc428cc278cd3d8ba6bfbf6f5230e39bb46455a1eaaee88ea2b",
+        "semantic_sha256": "21d7631cd3f2c1ec2efc7c1686a4fe0aba178a8d9a4802de693b4c9eb6aff0d1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/GeeTest_domain-set_9b61195fd1e08a23.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4e87b9bbf26f359cf22ca0e6092dad6ac2436d07d03a4c330da1ad55eded4161",
+        "bytes_sha256": "5b9218e46498d8ca0d923fee5ccd0ac9330763466dd29817355875cb50053a3f",
+        "semantic_sha256": "83873037ec3dbbc28e338d5a31c3b6913a74b16f4e005282718e1df1b365e323",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

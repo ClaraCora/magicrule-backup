@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:35:49.409763+00:00",
+  "client": "Surge",
+  "rule": "Peppy",
+  "rule_updated_at": "2026-07-26T08:37:31.312010+00:00",
+  "type_counts": {
+    "DOMAIN": 9,
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 10,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Peppy_rules_ad02311a84c58cbc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b389cd294bcbc228f5b5a253ed8afcc65492bb277e3a2d80ffdc42bc768f1dd",
+        "bytes_sha256": "729f73f5e32dcb28f6e70d784e1275f10b008cf2fce674ca3d694274c08cf76c",
+        "semantic_sha256": "08ad62e29babba2abaf07706e4a186bf865618f5095dd05fa5c746a869e18c0e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Peppy_domain-set_c2589d2603b74b6f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9b84a4493afbce1730b3307bdc8747ff4d76d24df21d3d5944fe3edb61090be4",
+        "bytes_sha256": "2aca35f509a635a9fa5bac942233e2e4babe6c9d73cde45b72a501ffe97c89f6",
+        "semantic_sha256": "e777464ba0a3feb8a8b2c6937e011d135f9fac1893a94d769200ccd9b1a17ecb",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

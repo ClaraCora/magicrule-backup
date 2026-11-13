@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:58.542462+00:00",
+  "client": "Surge",
+  "rule": "HSBC",
+  "rule_updated_at": "2026-07-26T10:32:06.273676+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 48
+  },
+  "total_line_count": 48,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HSBC_rules_440f29d7e68cfd69.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a18415cbf95a814b81d4d8d90325428134dc94fcbeddef9a91625025227f313d",
+        "bytes_sha256": "3843b4659ad82d040e8c9050f8916f96d7713bdde31bc87af51659c7ee9686e4",
+        "semantic_sha256": "5cf18ce76f1b79b8f58fbf43f86a480f2abc9576f965bb655feee0c107e01dfc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/HSBC_domain-set_1f9e79676db2d091.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8bb2a5db0dc1b4d7c2076e981df6569614d171cdedb7353ab84e855f89d6dfd7",
+        "bytes_sha256": "c239f42633f9ed3ab31e5e3f03c0d175ac91ba9b17d93829cf5a4d23f15a4999",
+        "semantic_sha256": "370f96f9c89ff8c5a7ba6de5994e1a8589cc8d17c43ceacd8e2e4a5e0a581556",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

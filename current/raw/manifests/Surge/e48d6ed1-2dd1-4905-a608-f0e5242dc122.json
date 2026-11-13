@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:48:55.773698+00:00",
+  "client": "Surge",
+  "rule": "CGB",
+  "rule_updated_at": "2026-07-26T06:23:15.547116+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CGB_rules_575a92b256118302.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00b912350397e4a8976766d75caf2c73bc9674264107f6a48d9fd1a7684a1940",
+        "bytes_sha256": "70eb5661b576d6113ed90d3703405ef97bfbb4d22f96257f8f77d3245b3f27f4",
+        "semantic_sha256": "0479e8c088dbf02004cbedd83bf3c18cd395da96a3428d17ff4147dc3fbd5282",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/CGB_domain-set_b7acf25232733076.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "28ed5b8e46480a1e0c143479b810c2360f2906cc9b4b86583172174933da76d4",
+        "bytes_sha256": "3c3c05674e822e2aa37b1dc729f0b31270dfa48f127f2f23ead6fca418c151bf",
+        "semantic_sha256": "c4ffe9e5e1b9b8392c6aeca73d0e3e103d69d69d34502053cce8aa880d016cc8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CGB.list"
+  ]
+}

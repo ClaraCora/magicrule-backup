@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:57.526436+00:00",
+  "client": "Surge",
+  "rule": "CNET",
+  "rule_updated_at": "2026-07-26T10:23:49.720004+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CNET_rules_c198c196d389eb2e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5915e20cc62cf2914f1693b318d36bd46e02aaa30709d7d2f512b6ed4d437e66",
+        "bytes_sha256": "0446d272b6ecfef024172bce5c5d64f88527b7918b1170e721063775f7ac2072",
+        "semantic_sha256": "92bf74a40ed1aaeb7205f36df8d25dc66b4d0289ae71b8788a6d0d0090a1ce51",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CNET_domain-set_f6eaaeb21acd6f17.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "baded63833e9ac170d248657f0489cf66727aa0a43389875d9d75f0a026312ee",
+        "bytes_sha256": "06942239107206aea1f3ba222cbd7c60871557382fcb1ed2f9f3cccceefbade2",
+        "semantic_sha256": "953505536ffa10de1c990a5518a98940022572b6ce0444dcfc4fc706cca4cab4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

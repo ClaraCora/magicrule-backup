@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T23:59:24.302615+00:00",
+  "generated_at": "2026-11-12T11:41:36.626555+00:00",
   "client": "Mihomo",
   "rule": "NetEaseMusic",
-  "rule_updated_at": "2026-11-10T23:48:18.041474+00:00",
+  "rule_updated_at": "2026-11-12T02:45:03.716682+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 1802,
-    "IP-CIDR": 36,
-    "DOMAIN": 39
+    "DOMAIN-SUFFIX": 3648,
+    "IP-CIDR": 38,
+    "DOMAIN": 42
   },
-  "total_line_count": 1877,
+  "total_line_count": 3728,
   "artifacts": [
     {
       "key": "classical",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1efdd9943d02813af448005484fba36565572a703e01580e327b33fd20f3c518",
-        "bytes_sha256": "0bdb42c1d4f0d28eb84aa43ff92cbc3494efff87eeadf325cf9b186d4104572f",
-        "semantic_sha256": "202f0a80ddee0608eedc9ef565566e7ede4a887df73c96288942b43691525258",
+        "fingerprint": "237e8423b4f8757053997bb3cc1d1a0be41d1c212d44c8b9f58956c63cd94911",
+        "bytes_sha256": "5ce4654d59c2f371ba824e13b682c0fad5ec96f2a5e0d1ff860431dda3b3f5db",
+        "semantic_sha256": "5963a290b57fbace84aced4d70fc81ee46de9514e183574f5f3be768b0703681",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,9 +39,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "80ed3b2a6f722304b4f8c54cc9b4a220e4544bd0c29220f124d5e5145af075d4",
-        "bytes_sha256": "8d2fc0cf32a90dc1871c14fd1f6aa01c13d9a7750c27c3ac4b02bdefbc22863f",
-        "semantic_sha256": "7c4ec5c80a9e7e33abfd13fe6b3069410245c848d5c0ed75dc4ceb8f9f691469",
+        "fingerprint": "50a7a153e0f28c6ce381a49ba5c918b963551bd33bbbbdf3047115dbed0452fb",
+        "bytes_sha256": "c0c66d8767c3efdb325926e169e5d22928273b64629c47132de7bf376f0af22d",
+        "semantic_sha256": "4e2f41ead0310d23935bd1f680e213aef202369d65a9e67290cfaa5e00637a3b",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,8 +57,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "d770d9c930d3f34875a748b41c11fa2d9814b294bb9e44e1665548e0723f582b",
-        "bytes_sha256": "082b871eec86c38e28c1af15035c7c82644014be9aabc8ecc9b7e7b283130cae",
+        "fingerprint": "559456ca16593da9c111d732ab760e2f47be4c0a18d3f485ca8c2cb3596dabea",
+        "bytes_sha256": "229889cbc7af4236524e4b0e109adfc41715bf50ed69e0fb523fe15febdcf488",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -75,9 +75,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ad3e2ad9148672a9ed51bd511c47bc94b6baaa3b71007543697507a7ba655295",
-        "bytes_sha256": "ea54e2efb56fdda38e3306bf77ebd608a525cb139f7f4d83d6a17d9e1d7dccf0",
-        "semantic_sha256": "1cfd08eb0ad61440d9898a59c4ec493571a14cc1922e03760fc69dce83951224",
+        "fingerprint": "9dec88d4f43d7a834d3ac4ae1b02bed405a9a46d30915f52393e3bb40d91cada",
+        "bytes_sha256": "f51ad5eab59ee2bb8c8fbf9e67b117eb462fb8eca10203d96601483a4d1b2491",
+        "semantic_sha256": "6048f0844f3b2b2662c3b34b98245da8a00a443a24942f20545aed1a1812a84e",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -93,8 +93,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "89c1d1e8a9b5a9f2806e2e6b389b35a30d4a7e691e5796c380b60cbd6ffbb633",
-        "bytes_sha256": "cf5dda551d6e93722bc10faa90c8eed3c568533a36681dba4f4a355a3c5ff636",
+        "fingerprint": "a999640eae3f69ae0e4d1f9d26b78dcfeeb5c1d329f0297228dd71b607ca9082",
+        "bytes_sha256": "b4ea504d713690ea74dbc075873acc2e0d3f4e8ef90c54af7045f608f552ffdb",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

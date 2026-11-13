@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T02:04:22.558085+00:00",
+  "generated_at": "2026-11-12T11:50:59.868828+00:00",
   "client": "Egern",
   "rule": "Weibo",
   "rule_updated_at": "2026-07-26T06:39:42.929068+00:00",
   "type_counts": {
-    "domain_keyword_set": 1,
-    "domain_suffix_set": 3
+    "domain_suffix_set": 3,
+    "domain_keyword_set": 1
   },
   "total_line_count": 4,
   "artifacts": [
@@ -13,7 +13,7 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Weibo_rules_c32cee55192271c3.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Weibo_rules_20ac31bf317b89d2.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "627817a478337ab43082636dda0d2e8fd31c70e28a05ed537ec39b2811a337be",
-        "bytes_sha256": "8716eaa907a7cb41d9bc0e92446b2c173a8e5b93f3184404db83aa876577e9b3",
+        "bytes_sha256": "dca036c9355a87e7c7c2a17ae1df67c4fba91f631b704afc616d953e1eebde61",
         "semantic_sha256": "f46a60027c23fc9136b5b4fb7318293c4afff82a51418e435b24f0cec509ccb4",
         "normalized_header_lines": 4,
         "shared": true

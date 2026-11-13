@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-11T00:06:02.813936+00:00",
+  "generated_at": "2026-11-12T11:50:54.697644+00:00",
   "client": "Egern",
   "rule": "Speedtest",
-  "rule_updated_at": "2026-11-10T23:48:49.726751+00:00",
+  "rule_updated_at": "2026-11-12T02:18:27.827483+00:00",
   "type_counts": {
-    "domain_set": 3392,
-    "domain_suffix_set": 1919,
+    "domain_set": 3395,
+    "domain_suffix_set": 3765,
     "user_agent_set": 1,
     "domain_keyword_set": 1,
-    "ip_cidr_set": 1
+    "ip_cidr_set": 3
   },
-  "total_line_count": 5314,
+  "total_line_count": 7165,
   "artifacts": [
     {
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Speedtest_rules_b839dde37097b655.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Speedtest_rules_aa91fd82ddef65eb.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2241d5157eb32cf318abb0cd9972d2d91475b95dab827c71b5f97552a82065de",
-        "bytes_sha256": "f94f9eacc9c976e9dcd19a0dd3c5bbe8966505fe91cdd104b1d73c3d39e4aa1c",
-        "semantic_sha256": "a9b1a30908cdd8c178fbe480c5e58807f32c3488db7bbc712b74cec759a67bfc",
+        "fingerprint": "bf0cc93757d2318d65384a7262d9e8136427afd44fd01f4dda3df1fbfa4e41b1",
+        "bytes_sha256": "2ece76cdcdc6875cd520e0d994bc05fa5b2e739abd1b8965e8ffef8d7091f49f",
+        "semantic_sha256": "c416e69f4842c43531402e34ad34ce6a22b400fef777fbac2649be8df9321718",
         "normalized_header_lines": 4,
         "shared": true
       }

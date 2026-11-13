@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:08.143111+00:00",
+  "client": "Surge",
+  "rule": "AccuWeather",
+  "rule_updated_at": "2026-07-26T09:55:21.146769+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AccuWeather_rules_8095974300be518b.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cefc135b3145c677eaad150a398c44f7f42af779460d68513f0abf1a1050e46e",
+        "bytes_sha256": "89c6f3047e96c43a5f0bbfc529bf724f98461cd148b643a1eb4fe59352214797",
+        "semantic_sha256": "b68cb8d0c02e1fc0dcdf7a3a9abc9dd1677958f7910272833c3c050b96f03f50",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/AccuWeather_domain-set_30bb91ec8a94541e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "779ee7a838ef94e86481933a72804e7b21d4c52af166d93fbfecb749a8a752f1",
+        "bytes_sha256": "67d2da4f4c7f9735963e81d5e1ef6ea217ded3de3198fd7fc4aab381e863fd1a",
+        "semantic_sha256": "89eeedd0d1f561b45b51c39d71ac0483cceb8e8cc156e76ee37bd0880de3fee8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

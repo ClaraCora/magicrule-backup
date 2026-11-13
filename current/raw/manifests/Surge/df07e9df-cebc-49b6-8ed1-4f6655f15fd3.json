@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:54.341707+00:00",
+  "client": "Surge",
+  "rule": "Freenode",
+  "rule_updated_at": "2026-07-26T08:35:43.168069+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Freenode_rules_bc4de41594b9b1e6.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00acae028ce82128adbec2c34674f1110d9790f464bc518368c0552bfe45bd23",
+        "bytes_sha256": "87a0c35bcc6c82dae678bffcc18254c9284accd2f802c8b26680a909be13d391",
+        "semantic_sha256": "841eb4b79039788b21a4171efb2df1d0b4bb6479d60a851dcdebf4687a7d82ab",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Freenode_domain-set_540c34a951e6414d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "608a66cb462592df6add81fcf93c999d87bed11c6ea1795d088f4ee1131e7d82",
+        "bytes_sha256": "3cc3b42b26e01883f243c5fb7aa3a0a49d8c6a194c8a262724d451aeb347bc4c",
+        "semantic_sha256": "088eba2ec517e2a79a1ad7c2f3b246a74b9a800e9ba3cdcb353de13ce47e713e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

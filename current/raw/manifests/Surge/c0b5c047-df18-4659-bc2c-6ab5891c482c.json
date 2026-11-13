@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:52.260727+00:00",
+  "client": "Surge",
+  "rule": "Gandi",
+  "rule_updated_at": "2026-07-26T08:39:08.420091+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gandi_rules_054228b1917dd4e9.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3b700904822fc82b201e3eaa12eacebfb7f7a435a08b5d529da79a1cb50d5e01",
+        "bytes_sha256": "c6c22de9406732c178494eb811032728ee24d15d08bf5623d959e4945dbb1a9a",
+        "semantic_sha256": "62c53d12c5f608c5190cf319d64830c5c16ea17f0724ba8ee35338442da33f6a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Gandi_domain-set_530728a6575abccb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "116a96bf596925011af03922ce5f4098936005dbf207ff73b88cc8c12a5502d2",
+        "bytes_sha256": "7f67c819fe6a1644106fad52e3e38a3bb66845014e61628ca100c8222fc61141",
+        "semantic_sha256": "84895c2f7c4623cd8c92125d8986a1ca1beb66f58bb13aef9853a3d2525a47a8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

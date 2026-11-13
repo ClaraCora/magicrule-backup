@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:58.266878+00:00",
+  "client": "Surge",
+  "rule": "VRCDN",
+  "rule_updated_at": "2026-07-26T10:48:02.702555+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VRCDN_rules_82f029c0b83c1a73.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "700133153046bd15fc4fd2d5ea33a4b764144133fccf03135f4b5fd5f615899d",
+        "bytes_sha256": "1d816f7372a48b6df09e64b6d25d481361e21e484a6f2e9e17c1140404f729d9",
+        "semantic_sha256": "5d449b35b75ad309da9ca1108b661b7dc2511f7ba8cf6e5ec92c3b0568f546e7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VRCDN_domain-set_2e14c5f6971c25f1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "34c77e45711ab4387e40980b0ab583af5921a375134bd97a82d8e74aa625391c",
+        "bytes_sha256": "dc71984a783fcbec39d545444d5730a7545180a353d6ff754ba7b6021327f098",
+        "semantic_sha256": "7184d95feab188c11b7c3f7df7f08e96b1d3789c6db9e61bdff21da9647f822f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

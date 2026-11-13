@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:33.596473+00:00",
+  "client": "Surge",
+  "rule": "REAGroup",
+  "rule_updated_at": "2026-07-26T10:42:01.672073+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 32
+  },
+  "total_line_count": 32,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/REAGroup_rules_edda7829fd7c7fd8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e888d0afef9f82f7714662e552a4b9cb5d14cb76c5e9c28fe38cfdacb79bc062",
+        "bytes_sha256": "aaeb2d2e9d3da8d43eb4cc736e343796e9ac8e176c00c324acc904211487d96d",
+        "semantic_sha256": "217fa5f0f14872cd97d825eb564eddb3643f559af8626ef6299104af7e8e6972",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/REAGroup_domain-set_6cafd24566c67390.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "700a6579d6c791a9139b2057cfe5ecce4fd481281780886ae789a1f2acfe0886",
+        "bytes_sha256": "59fb11484c7256f8ef9978eaea0e37dd4a072682d06d8123c3cf4a8f285ff23a",
+        "semantic_sha256": "58843477d2c3713196d478561a324a86d7480db517c8cd95f27c1d2c5fb19acc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

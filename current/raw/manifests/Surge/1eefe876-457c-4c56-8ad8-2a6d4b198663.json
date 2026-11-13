@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:11.268044+00:00",
+  "client": "Surge",
+  "rule": "MoveFree",
+  "rule_updated_at": "2026-07-26T10:38:04.171695+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 7
+  },
+  "total_line_count": 7,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MoveFree_rules_e1294913d76ce0da.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1bf71146856a3a86d4a50f303817008bdc2a25e08ff1af2d3713ccb85a643452",
+        "bytes_sha256": "7f06a2def8b0d3e5fd187ace23be00d6d36443ab7fedb03226c055ceaef75bf7",
+        "semantic_sha256": "b8e3c826fc1fe22e4fc68c1165c55c32617f036ad47af70004bc04175876e4a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MoveFree_domain-set_9d456bb88149f928.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71fb839415c08362b9c990b133a3f103d5e4a2a1775323f49f9829bb8a3dfe02",
+        "bytes_sha256": "0f824308c53f92eae80727838006d841e9dea490d51c86143c225ac71daf35e3",
+        "semantic_sha256": "67ae4bdd8348b683235bfdded7db39267003a8060cc3d29e3dcefba561dce47f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:46.858639+00:00",
+  "client": "Surge",
+  "rule": "SquareUp",
+  "rule_updated_at": "2026-07-26T10:44:01.333644+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 12
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SquareUp_rules_d8869469d8ae65ed.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a01759d343535e2ab8d627731fd51c706a8dae1f740f87417c4e9eed0438452f",
+        "bytes_sha256": "ff2cb748566af97bc15c1d72397f2dc31e22417f040f612a8537dac5bfe623de",
+        "semantic_sha256": "4e2eabc312b5a7d5266012fb9dc9c920a5c5e8be450f2cb51c24f8a37453fec2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SquareUp_domain-set_8f1b195a5ececca4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "35312b5b60b0b2b5f087e8d8f75e90bbb1c5d1f4a7808dd0958df3e765b3f234",
+        "bytes_sha256": "327b211a44cc51d7c0f8a86ffa5fa4358154267be835c3dfdd2709c9770300a8",
+        "semantic_sha256": "73f69e25b4720f7166fd8b5bfb92244837fc5fc60401c81e56c7da6e96542f94",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

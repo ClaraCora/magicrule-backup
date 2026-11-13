@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:31:42.091714+00:00",
+  "client": "Surge",
+  "rule": "RSSHub",
+  "rule_updated_at": "2026-07-26T08:36:09.278718+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RSSHub_rules_f465e27f234d2999.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0ec95ab28e69a5a1a631dbcb7f81a94a3e33a1c45a74517804b39012c003479e",
+        "bytes_sha256": "07ad8c90a68f86ff05f5491a883fa5f67562772e7dd7d36d5528615c0b6e8f34",
+        "semantic_sha256": "0dbb32cb99cac12f218942c1068fdbc84115ac247c4181be9d398c2e73dd387a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RSSHub_domain-set_4730272239b755eb.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f02d4e33144e56eefbe4696a406b30e4a6c9edd8760036988e7bc88e7121b6c3",
+        "bytes_sha256": "a7e601fbac841f73c76472bf22a08241e57c6d9056c76c974d1fe20a96daa98b",
+        "semantic_sha256": "ce361c0cc831cd536c9315478998b1425acae18399cc1c2d8fad02827833c3c2",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

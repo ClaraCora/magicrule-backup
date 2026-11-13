@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:23.630561+00:00",
+  "client": "Surge",
+  "rule": "Stage1st",
+  "rule_updated_at": "2026-07-26T10:43:59.459971+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Stage1st_rules_94769d71f40d5f2e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "afc20fa847036aaa178c9f99072f0ea5b5e4a6f68d8e8d4c0fde2dcfe43cc939",
+        "bytes_sha256": "7e5119ecfb473a6ccf98dae60b008eb83686187c55348e8c252407344fc85eab",
+        "semantic_sha256": "9cb2d77e39f953950d139fbc833244f06e8ffbe0ac67fb5c022a6eddfd1ccc1d",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Stage1st_domain-set_fa94fe0bab0a1190.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8b4dd952a976c098287aac5be7fdd766766f260383239c7bbc320091255044aa",
+        "bytes_sha256": "f6b3e206d4bb53d1a5eb4474bb9d49e04e18ce96093235746f036224b11c8736",
+        "semantic_sha256": "f86b9e157a493d7856041c2abe9d63e87e19c709b97cc06756dab31c38304914",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

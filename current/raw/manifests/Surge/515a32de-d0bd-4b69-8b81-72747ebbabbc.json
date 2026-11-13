@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:43:10.341350+00:00",
+  "client": "Surge",
+  "rule": "AliyunDrive",
+  "rule_updated_at": "2026-07-26T08:20:42.321562+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AliyunDrive_rules_ba477a7f053fbf4c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3714e916bca0e0ca8e565ee0b2af98c6a9f12679518540d06633ada3622fc19c",
+        "bytes_sha256": "380acd62d969db680f0f58195a4f23028fa33f93e18abf05a2b4e985d592d300",
+        "semantic_sha256": "b570d3de4f1d6e157efa55b4b63778e9557cd1a24c5086782e981731b9f4aec0",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/AliyunDrive_domain-set_7ca951fb8d1b7953.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3cbbae8378e1e34508a397f3c64a4e8da0815263b8c0a3501db8036a7cb5d28a",
+        "bytes_sha256": "f5a402827570d5883362e89424365217ccf76251a8636fb9b10a2ed093c0609b",
+        "semantic_sha256": "63deff5646c78c853b8072246c2f28a1aeb7a071b2a29befb7886c782716c9f3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:06.945134+00:00",
+  "client": "Surge",
+  "rule": "WSJ",
+  "rule_updated_at": "2026-07-26T10:49:28.359759+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 13
+  },
+  "total_line_count": 13,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WSJ_rules_14e4a8fab533dde8.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1f2aa0ea95e1e07016de65c94c5cf034d6ceb43ae539929585c84bcf9c76c20",
+        "bytes_sha256": "c61455a1bf84e153a53df8a9ca17182426c67a7a9db4d7e3759d3ad42a163f1f",
+        "semantic_sha256": "617d534e03ae1333268d335fd5d7c8c10a84f7b5b8b1e2e4087e80a76edb0774",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/WSJ_domain-set_8e79655ccf1a2898.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4975f7dd3970754ec5d15a71ec17f13ad3ef0522fad4f84e9027329e0c8e286c",
+        "bytes_sha256": "58662f64a38aa99570d9ff0a06ba462382af35f5c6855733c6487c7a45db71d4",
+        "semantic_sha256": "2abbf74620dcf00c41193da10e42c0ecc7bb10d17989049651b8f31bae6d014c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

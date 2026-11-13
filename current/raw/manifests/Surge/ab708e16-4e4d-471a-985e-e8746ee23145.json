@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:46:52.928255+00:00",
+  "client": "Surge",
+  "rule": "ICBC",
+  "rule_updated_at": "2026-07-26T06:25:31.174548+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 58
+  },
+  "total_line_count": 58,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ICBC_rules_57e1187a07398ebd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3d21fc8ad1b5be8c54ac396f6d26518e93800d07c09448c00df13cd8111f9434",
+        "bytes_sha256": "af6438cf1b440859c03076f0b4c51c4e54996aa494c22f021dd1c887ccbf11d9",
+        "semantic_sha256": "3e68591ba5c87b49a45eaa9f4ae3c9e0769100d9dc83df0a830786d6b59ab2d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/ICBC_domain-set_2daf480c7dfda2f7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c0e890b62243f722c2d3855e0280a6cc44a1fdf5cd1abc3b1f13f24e2571a4c",
+        "bytes_sha256": "2199b0abd4ee23ee14f9c706b17e203bb408be933a9c614a8f815abeb5ada73e",
+        "semantic_sha256": "ff69d6beab043790dfb7262c65ab7eb67c0e1fb8226c838010e5bde4647d352c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ICBC.list"
+  ]
+}

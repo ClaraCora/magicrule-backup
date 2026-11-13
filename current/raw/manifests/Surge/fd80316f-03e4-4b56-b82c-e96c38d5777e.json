@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:01.005219+00:00",
+  "client": "Surge",
+  "rule": "CapitalOnline",
+  "rule_updated_at": "2026-07-26T10:19:41.850322+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CapitalOnline_rules_f8b3f0509cbfa672.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a0f63bed1d94a5be76b1cb2a0f497bad82d1557b8108cf217d12d3106d39b952",
+        "bytes_sha256": "d745f0e7e7a989acb34b8b4c16f29ba6f5b53361668d920226562bf5ef7b2aa9",
+        "semantic_sha256": "e741ee51cdeb538a175409bfd73debc9aabc1ff73223d904931ecad213a2f7f8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CapitalOnline_domain-set_47e569eecd519758.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4c0437c035007473e83cefce6a85e9481bfdfe592f2dedcdd7b8804eb7cc5e9c",
+        "bytes_sha256": "5e6d8d6ad3c4ca14606f97d245288e7a8a8abe7b61a100d7847d4190f5a47003",
+        "semantic_sha256": "791f86315da7fba402462ac98e20b5effd81a7d0a3c94cc97e0c48625b04e57e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,9 +1,11 @@
 # NAME: iCloudPrivateRelay
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-11 07:57:21
+# UPDATED: 2026-11-12 19:42:54
 # BEHAVIOR: ipcidr
-# IP-CIDR: 1
+# IP-CIDR: 3
 
 payload:
+- '104.251.176.0/22'
+- '165.173.176.0/24'
 - '43.240.60.0/22'

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:35:17.240279+00:00",
+  "client": "Surge",
+  "rule": "Arphic",
+  "rule_updated_at": "2026-07-26T10:14:50.248603+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Arphic_rules_f1db8bf8c21d7745.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4fefd5345526c332af81c618f074504f04d407c7d9b77c6d4874765f4694b06b",
+        "bytes_sha256": "62c5aa7a08e646de2d3877e6cc83078683a9fe4c9aa4d8fcefdec700a3818c58",
+        "semantic_sha256": "3556779927758b99b8dc9e4f7839d777ec5fbf36928c915e08ea46c71d5a449f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Arphic_domain-set_8e3287b364ea7b63.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6c06a26d4f0fae1d93344cb27729d73328cfefd96bcd2cc6a509c48160a9189c",
+        "bytes_sha256": "e56305b2e5db1a1da66e7053e837665f4458581ae6e50ec5f1431159b9c1cc78",
+        "semantic_sha256": "f7a79b42c21ae1ca675d8f2ada4d1677c11c7b5d0ce53640fdfd0d52849495a1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

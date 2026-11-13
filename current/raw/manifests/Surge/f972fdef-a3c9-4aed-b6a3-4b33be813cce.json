@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:53.130692+00:00",
+  "client": "Surge",
+  "rule": "MikroTik",
+  "rule_updated_at": "2026-07-26T10:37:31.727915+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MikroTik_rules_bab1397bb815a0f1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6280bd6cf5c88baa40b189999f81f3c49651f96aac94240168c67b57e81c5434",
+        "bytes_sha256": "bc314e20c121a77cb1daad346192023dd2fb3736cd05877c3f243156b4be6cd7",
+        "semantic_sha256": "653d6b60a99b50d00477f9f82af9650b1407a078116fa148eab5813a66622ed6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/MikroTik_domain-set_eff0b33c21a57fe3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "f95717436afae9d3242738b59ce8f6991cf24536a5578d8ee2a51ba9d072a042",
+        "bytes_sha256": "6a367c9dc9bbe27a7ca293dff8c7e0d81301bd09a97d01bf3ce50ab4dad1550e",
+        "semantic_sha256": "96340c4d02e3eceb00ffe2e7266713ce1207572d5b3a11efa0b2c01595ed060c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

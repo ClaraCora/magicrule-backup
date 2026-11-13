@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:32.515264+00:00",
+  "client": "Surge",
+  "rule": "Metacritic",
+  "rule_updated_at": "2026-07-26T10:37:27.346178+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Metacritic_rules_3e7afeb202455cef.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fd3b4af47304d58b3e605018d1cf6791027e68a95c362d43a789338969b51887",
+        "bytes_sha256": "aad36e6a3c92586d59dc0b0ab0023f1b570ad83072f87c4765bdd3d150862db1",
+        "semantic_sha256": "928f2aace948d532a466ccac9bf9a63246a92e01a69ea6674d6b218d8dc8ad09",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Metacritic_domain-set_f96e7aee27dabd1c.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "cb18a909836f178f0821a81ef8e1e44d9e46ca10c09b3ddf9d53b23d7574e9f4",
+        "bytes_sha256": "5c2263d736c4cb4f3eddba414fa73cbf61efcd97133e0cc17e3a9d8c20184ff7",
+        "semantic_sha256": "be442e65e0de7f12c4b1c0732ab5adabe4f701a996b1d169dd391cb005f17699",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:41:55.305198+00:00",
+  "client": "Surge",
+  "rule": "Purikonejp",
+  "rule_updated_at": "2026-07-26T06:32:09.843279+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Purikonejp_rules_67061b2f6ca43e01.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08ddda3fdae79ff7473b64c9e70ead19b5e074b32971335551a0becd2134cf02",
+        "bytes_sha256": "43a346b98398aa5b063a9e052c97e9368677f93f32ce63c39133001f7a8e0e7e",
+        "semantic_sha256": "fc12fcecbf04df2c28efc353f30639fb6745f57fcc5611a4d1a303d5fc0d715f",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Purikonejp_domain-set_2ac682150ddb5c82.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3c6f298f2cdd23b7e09e0f9278b39ed101658dcb228c4aab837f7f335da4cfa",
+        "bytes_sha256": "ad99fba731da04e245af7407b721cab677b1ce8cfc47a33d3b2573c89689e0ae",
+        "semantic_sha256": "e899876cc576ea237f8d0017c81a03b6cd32e18357aebbfbfb8317410651d373",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Purikonejp.list"
+  ]
+}

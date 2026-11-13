@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T11:42:05.244258+00:00",
+  "client": "Surge",
+  "rule": "PingAn",
+  "rule_updated_at": "2026-07-26T06:27:38.296398+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 27
+  },
+  "total_line_count": 27,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/PingAn_rules_89d75758234b917c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e139c8690fa3e19b9ba40ec2c57820d3020e2c6d13dd29268824e3e7fa3e7741",
+        "bytes_sha256": "0c60a8bb3752b4ce79de815dd49e06da1caa2e1c26b02f1ef65afa42d3e66204",
+        "semantic_sha256": "8039d902138b672105bb0a2b1ec563f55f7e1ec8019a5fc6a669b5c5348be413",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/PingAn_domain-set_104d98f91d92eeda.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a1ecfb105d8d342afdadb5f075e210cbff4d40a28935bb12b18d78174f94830a",
+        "bytes_sha256": "da99bf37fb11181867578b615b7d186f0aeff263ded0529e646a6ecd978336e6",
+        "semantic_sha256": "ac24cbb8acc2bc8eca6d15b12d6cb9a041a7177aaaa04bc6a17806753c790daa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/PingAn.list"
+  ]
+}

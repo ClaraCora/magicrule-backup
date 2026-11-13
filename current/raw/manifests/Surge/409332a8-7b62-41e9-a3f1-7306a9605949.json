@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:33:19.085631+00:00",
+  "client": "Surge",
+  "rule": "Quantil",
+  "rule_updated_at": "2026-07-26T08:39:18.635854+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Quantil_rules_ae1a79d24c7bab4a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6f39fca78004e57c6073e080d1d4ce96d5e02a45ca7f5059b92a0067a5e82e24",
+        "bytes_sha256": "f88cc422235ca48b0e020dd40851c070ffefc09944a69ed930ca72b7cbfc5cb9",
+        "semantic_sha256": "e9f0051fe153d3725111692afff8b5820a415bb563894d22bc79fb746739204a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Quantil_domain-set_33bed0eb2ea1a222.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "75c9d375407b161e8c43ed34140fe722b85450238841d0eb4fb827e477465dd5",
+        "bytes_sha256": "2f5aac60a2ebc2819fe99de37ff747024032e2375b097290dc1c36387be73bd1",
+        "semantic_sha256": "296d245709ca24837742f12e0f0a2d467cbcbafe925aec22d1782b5e770a7242",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

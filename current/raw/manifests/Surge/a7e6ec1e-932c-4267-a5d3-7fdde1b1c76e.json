@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:50.209352+00:00",
+  "client": "Surge",
+  "rule": "StackPath",
+  "rule_updated_at": "2026-07-26T08:36:11.649095+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StackPath_rules_f9fedd00df9af754.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "17a87fa149efe46237165494f8813d21ee04cf4059a2cbe093f012be7a469283",
+        "bytes_sha256": "74fadb4adef4b477f1fb7d256c79dfc1c9ce4032e15d174e170b95e8fca8e1a1",
+        "semantic_sha256": "a547daf37bf2bafbcfd01a454619558c478c850b5a41301f923763d830e39ed7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StackPath_domain-set_eb9b3a8e28b25ecd.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e93288e7064312763f3c3d7e5133b6057136876c72e954c1f82c2e9f863d3c0b",
+        "bytes_sha256": "efc62b52fbbfaa8fb60ce101a2854d27e85fd0069c09776306c17284ae226461",
+        "semantic_sha256": "b53809997ac5ae4f4bcef35cf5f79816855cd4de5b6b728418ed4027148ec2bd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

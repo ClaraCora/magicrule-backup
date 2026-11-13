@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-12T11:43:11.383563+00:00",
+  "client": "Surge",
+  "rule": "Anthropic",
+  "rule_updated_at": "2026-11-10T23:46:59.488494+00:00",
+  "type_counts": {
+    "DOMAIN": 10,
+    "DOMAIN-KEYWORD": 3,
+    "DOMAIN-SUFFIX": 33,
+    "IP-ASN": 1,
+    "IP-CIDR": 1,
+    "IP-CIDR6": 1,
+    "PROCESS-NAME": 2
+  },
+  "total_line_count": 51,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rules_f9e0decc2657fdcd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "fb40382a7f554aca599cfd7ef6859de8fd8eaa139af93d6dfe80f7b709f617f7",
+        "bytes_sha256": "d1a199f458ee4887876782cc9d686227b598bc7a3274b39f90dd26cae40671a9",
+        "semantic_sha256": "2cab6d57cb54432589be7c4127c8d8396b9cc2e27bac97bda16ace119000dd63",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_domain-set_dbad1f4be309757e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3c79f40fdc6bde6f4c2d5db3153f02e397bba4df0eff65163b34bcc0796a204d",
+        "bytes_sha256": "bec8d9e2230a156f2baaf33f13484b37e208038b069511319d655a4324cb89a3",
+        "semantic_sha256": "668690baca0ddd69a59d97b150912e9a8fdc55d391e53deb1a7fc14266043d9e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rule-set_81815445afd28861.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "54583352f4a99d77622915e63e3bfb0eccee2e82b98335d258c2510d1b1efe4d",
+        "bytes_sha256": "2313d577740192eaac44f5239935b7d4985b4f61a316a106f88a8ace9614acc1",
+        "semantic_sha256": "aa5dad21bc3691564fad712efe4791fb51f49d139f67effc6f0973db20e1bded",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/anthropic.list",
+    "https://raw.githubusercontent.com/jinxinkai/clash-ai-rules/refs/heads/master/Anthropic.yaml"
+  ]
+}

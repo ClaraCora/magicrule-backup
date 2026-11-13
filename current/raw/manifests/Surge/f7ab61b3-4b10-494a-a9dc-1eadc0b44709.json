@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:39:52.018926+00:00",
+  "client": "Surge",
+  "rule": "Showtime",
+  "rule_updated_at": "2026-07-26T10:43:10.234815+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Showtime_rules_720f13aeb7245867.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "badf637f661ccffe6462c0e5678ff7bd4c79992319ed8b361ad4c028f3a4b80f",
+        "bytes_sha256": "5a1ccc964381c07eedbc4429d33bfb336003db03ba0135d6db24de6684803eec",
+        "semantic_sha256": "59340919a3948e45177704e064ccbbb300f9b49bbbb8e8230f90eb590d275192",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Showtime_domain-set_b664bf17af0914dc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bd2bd96f023665b91c997e992eb98883bbd9b746d05b0c7348368930f108d0c3",
+        "bytes_sha256": "6c4a0bf466eb691a6fe51832f15c36c4e32ccfa8925d6fdd17ef83dcde7efde5",
+        "semantic_sha256": "8c27848034145889bc5bafac4321e844767f59ee83923de5245cd73cfafa6bc6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:40:05.752894+00:00",
+  "client": "Surge",
+  "rule": "Codecademy",
+  "rule_updated_at": "2026-07-26T08:35:52.928311+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codecademy_rules_0b420ea9e97a60ff.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b3ac3d9adef162370c23d0fcb8f9308b168d6335e3ce4b77a593fa3acb5a2dbe",
+        "bytes_sha256": "be84034528751899f6b9ebdf1a7ce8aca83afa76972f4061c10b4c63b6a6c927",
+        "semantic_sha256": "21c640876c1a43a83ccd7716ea95ba66f3f7e0ce5898593e30719e9932b67639",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Codecademy_domain-set_062b594d4a041eb3.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2e52e627af41972a4e511a3cf4f5dbe9f1120142d8138f0b5a1594768b13bcee",
+        "bytes_sha256": "3b6ba97d137fa51cafa8adf20caef909653e0c60f3b89b8bacfbf1d6bf0e8e2f",
+        "semantic_sha256": "e02fd095c503aabc3b0fd9ee5cd9761c02275463d2acf8cd5e840b48fca3f4aa",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

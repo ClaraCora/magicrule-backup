@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:43:48.398685+00:00",
+  "client": "Surge",
+  "rule": "Perplexity",
+  "rule_updated_at": "2026-07-26T08:22:09.886143+00:00",
+  "type_counts": {
+    "DOMAIN": 2,
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Perplexity_rules_22b649043ad75863.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "86ed36f2f6e7e088c26d8004da15443072527ee0ffde8a583a76c1d4c81c6415",
+        "bytes_sha256": "ab49df8607ca4131b31bf87367160fcde02d7040f1f781e9f4007706839b08ec",
+        "semantic_sha256": "5351ee1fd2782c3f28c7c4b03c315e5e2923b72bfaf4bfd0c0288b5b1b4c55cf",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Perplexity_domain-set_9a992f1bfb9f874e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1c657e2e0a8095d6e018e46cb24e9f4a535edb30002a9bf4b997ba5946540d55",
+        "bytes_sha256": "786469f8ee234b1a6aae02d6e848f3282a2e9ed9cec58b585e788d78e5ada2c4",
+        "semantic_sha256": "b6ed48ae34971c9cfd798555357ee867c6894f7598a866a42b522137765c0435",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

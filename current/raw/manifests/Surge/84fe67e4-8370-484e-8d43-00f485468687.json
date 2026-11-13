@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:35:45.720896+00:00",
+  "client": "Surge",
+  "rule": "Pawchive",
+  "rule_updated_at": "2026-07-26T10:40:17.597622+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pawchive_rules_80aaab1321dc4b94.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1f6b9755c0711a0aeb1d86c26ee51e22c09fd8d978435c8fe77a082d5936b711",
+        "bytes_sha256": "8c0de7b79ec1fea02c0d69f82d3944d0367fe43540cc553226d0b1565dbc8243",
+        "semantic_sha256": "703c330c81f6ae95124b784b57d43a4ee8385c2ddb24c0df0c5aec0908640a5b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Pawchive_domain-set_24af11a9b0624019.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "94969730c06b1f93328bb173b9d49784a9367234f49011c954d9939e63c5101f",
+        "bytes_sha256": "3eec53ecb8df7e84e2748e944beefd7c8a1967f391bf16407d7d3064f2204d0c",
+        "semantic_sha256": "0ee24ededc42f448edfe82fa6662b43aba8103058d40035c66ba19f81400cc80",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

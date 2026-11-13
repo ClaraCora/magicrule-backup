@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:05.860800+00:00",
+  "client": "Surge",
+  "rule": "SwissSign",
+  "rule_updated_at": "2026-07-26T10:44:53.487649+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 31
+  },
+  "total_line_count": 31,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SwissSign_rules_d8dde9177d5315cd.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "08a76c44341480f548c2d4e088db205473520d106fa7dd84f507ff8e7de17f73",
+        "bytes_sha256": "02aab8ababcec32db396ea5c0521ae3f1016a441b1c655732a61a9faf17e5600",
+        "semantic_sha256": "f43244ba0c953242a0fbd78e2ffcaea473788908c582f979ecb3d49fccb8e8df",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/SwissSign_domain-set_93861af65baa5939.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "10152bb09b0fbb7230e128563318b125962c6192593996bab913644faff9b044",
+        "bytes_sha256": "b5279b4ebbfffad4f392cec95839bfc07b758fcac76c2b605e1a49f4f803178d",
+        "semantic_sha256": "6a74e9efbd5de48a345d143a83446f102ac10d4cc4a005c3d7532b5078f541cd",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-11-12T11:41:42.085767+00:00",
+  "client": "Surge",
+  "rule": "GlobalAI",
+  "rule_updated_at": "2026-11-12T03:24:42.113593+00:00",
+  "type_counts": {
+    "DOMAIN": 144,
+    "DOMAIN-KEYWORD": 11,
+    "DOMAIN-SUFFIX": 4773,
+    "IP-ASN": 4,
+    "IP-CIDR": 5,
+    "IP-CIDR6": 2,
+    "PROCESS-NAME": 14,
+    "URL-REGEX": 1
+  },
+  "total_line_count": 4954,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bbfeb8cf831c7db4abcd9ba92ce9e741b52931003fdc0aec157f22c75d1f3300",
+        "bytes_sha256": "9a838357d217e6240152f59c53a255c6e08b8542f51f369298cb81e4171fbc39",
+        "semantic_sha256": "6246717505708a311d79ab4cf4d477541e34767a028c3161b388d2a141bb8cbf",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_domain-set_1fe683b884fc10e9.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0260efaefb06d99f10b0512dcc3c5b8ab17d51f93d733bff92e6689a1218b5dc",
+        "bytes_sha256": "d9b2540dc4e75c81c1c1abd5043840224a8c1bc8398643a10897a006c91616de",
+        "semantic_sha256": "34cfcf4e3c517c487e5e29f9ab83c7d5856d498a5d9688e33ac9e21d26679168",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rule-set_bac4d01b39412c60.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1959bee33e6299616df0dd7fa00fe357524cd1d8e680d5c3a905edd00d57abde",
+        "bytes_sha256": "7c138f5343afcb0bc0eb8474b31b994eb801afe75adabfce3e7921a9b24d6352",
+        "semantic_sha256": "6241fc459d72d57af2cc7e70c3e237a310f826780104ed73212bacd8f00083b3",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "sgmodule",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_mitm_6b0921cebed69917.sgmodule",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "f854dac3840406c05da2915ed4a00151d8e964010113f2dec9d7ae9b17de55c3",
+        "bytes_sha256": "0486a9d8084f01c7c92564b690d5c565d243ad69bd019742657dd57265ffae96",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/surge/all.list",
+    "https://ruleset.skk.moe/List/non_ip/ai.conf"
+  ]
+}

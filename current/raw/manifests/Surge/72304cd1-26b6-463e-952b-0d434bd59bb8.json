@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:59.595340+00:00",
+  "client": "Surge",
+  "rule": "Cygames",
+  "rule_updated_at": "2026-07-26T08:36:25.691388+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Cygames_rules_40840b50f154cf0c.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "6d4ca9b94ba77cd4e45f3f3a331b8bc681eb55209da259946201e98923cff3bc",
+        "bytes_sha256": "706c02e2367cb7e2840bf20f3b3f913796aaaaa2ffa72590710270dc9b9d789e",
+        "semantic_sha256": "48404d6f428f3b7fc6a6c8f2b51c7718a28d6d2a2a0723f052fa56239cfbd452",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Cygames_domain-set_ce2fcfafa5707afc.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d7d97b86865a5b3ee83c59746297f4516e161467d17f6f28a97388c1c755670d",
+        "bytes_sha256": "1fd9b8014a9086e756b13091d8ccb65a0d6828088dc8ef456f69e0fdbe54d8b7",
+        "semantic_sha256": "f39c8ebbc9e000f1ebcdbb2e52b6e99fbc2c2e06747b815aafed7737d4916c82",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

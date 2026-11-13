@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:04.367384+00:00",
+  "client": "Surge",
+  "rule": "UbuntuKylin",
+  "rule_updated_at": "2026-07-26T08:35:50.160081+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 2
+  },
+  "total_line_count": 2,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UbuntuKylin_rules_d85db700f55e5846.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "2ecae815edf07579152efca9c255cd55c0d8f58267b17d36c9a8a3acd48dd0ed",
+        "bytes_sha256": "def33370d02c67d8ef0428b61dcb6526d6898760084fa93a3deadb2835c7b886",
+        "semantic_sha256": "b542e225ffc6b78e4d859db1c2b490ec35442d3614bacf493bae764c69bbefd5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/UbuntuKylin_domain-set_b2fe9975efcb69ce.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "87ab5b42586c287dcdb8d4bd3a919b72e39060cfd4fdb5b7b5290a131b8c744a",
+        "bytes_sha256": "2c61acc244c77b35b16189d7ff7d30987797f89f6bbb875e1d2d01e769d6bc32",
+        "semantic_sha256": "dab7504374ec27af75575eddf89bd44c16477dafd8e644e5497615d16c063963",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

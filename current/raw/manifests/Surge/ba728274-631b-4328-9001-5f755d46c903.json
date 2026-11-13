@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:37:37.949296+00:00",
+  "client": "Surge",
+  "rule": "RedotPay",
+  "rule_updated_at": "2026-07-26T10:42:08.531645+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RedotPay_rules_41cb8cd56ff2ea19.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "467c04809f43883c75d8e1aec80881c8ab7217220c07e55c26b15450f44fb62b",
+        "bytes_sha256": "85c45bf5440c7d47042515235384a110a98ba4f1fc2428d90c625446445bc65a",
+        "semantic_sha256": "eec95ee6aff9b793f3451b49dc91c0ea497f3945bbbe39941f248a1d3d688b07",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/RedotPay_domain-set_9fc6839b2cd96980.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3e7b4d03519c845bcb82f7f7c6013e2d4baeb5e10c9d52d6bc16c62853a7bdd6",
+        "bytes_sha256": "ab024633a0962205fcdf8553e91f7ef20993f4dd35a5a501b0031af59360415e",
+        "semantic_sha256": "ffbd5361f1d1afc7e56fe98a8e061458ea601eb5156bfa1ffed47d87d1f1fcd8",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

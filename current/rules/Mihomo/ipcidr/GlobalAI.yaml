@@ -1,13 +1,15 @@
 # NAME: GlobalAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-11 08:08:04
+# UPDATED: 2026-11-12 19:41:41
 # BEHAVIOR: ipcidr
-# IP-CIDR: 3
+# IP-CIDR: 5
 # IP-CIDR6: 2
 
 payload:
+- '104.251.176.0/22'
 - '160.79.104.0/21'
+- '165.173.176.0/24'
 - '203.205.64.0/19'
 - '43.240.60.0/22'
 - '2604:f20::/32'

@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:46:56.201296+00:00",
+  "client": "Surge",
+  "rule": "DigiCert",
+  "rule_updated_at": "2026-07-26T06:50:00.941347+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 74
+  },
+  "total_line_count": 74,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/DigiCert_rules_7d8ce1acea806f0a.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e81be1cfb4b1ad37de5d9fb2bb6544764a7dfd6f00c7c4dadae665c3fcbcdef3",
+        "bytes_sha256": "3cd00a5b06dc002024418d7a98eb901cc8b8ccf3c6dd75c71c7ecc4a3774b077",
+        "semantic_sha256": "5706e3e0c2a8fcb1cbccde7b39a611e918a9ba4cea2cb230a843e31dd1e15fae",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/DigiCert_domain-set_2648901335f28da4.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "546df48053815b1913a855188ba7d889587b8e7319ea4ba44243acb83dc635cf",
+        "bytes_sha256": "7d335c61e87ad2d097b0bdf4538a81ffe1d032e8cb69ae308cf6cd61ff763627",
+        "semantic_sha256": "44e2926fffe27ca7004fb86c5804aa4ae025c6ada9cea134061a04befc7f4664",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/DigiCert.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/DigiCert.list"
+  ]
+}

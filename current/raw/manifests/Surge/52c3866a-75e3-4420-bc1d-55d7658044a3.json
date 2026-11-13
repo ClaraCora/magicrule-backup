@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-11-12T11:43:16.828875+00:00",
+  "client": "Surge",
+  "rule": "GlobalMedia",
+  "rule_updated_at": "2026-11-12T02:19:45.010559+00:00",
+  "type_counts": {
+    "IP-CIDR6": 200,
+    "DOMAIN-SUFFIX": 4752,
+    "DOMAIN-KEYWORD": 28,
+    "IP-CIDR": 269,
+    "URL-REGEX": 1,
+    "PROCESS-NAME": 3,
+    "DOMAIN": 129,
+    "USER-AGENT": 19
+  },
+  "total_line_count": 5401,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rules_cbbbcb6dca56af83.list",
+      "binary": false,
+      "role": "full",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "58d3ffa93da0ca133616cb5af5af1d12f2f68d66c2f9f0c0c50b887956df56b1",
+        "bytes_sha256": "13495975dea0a5a3427215f31ef3e3f0cab932c9141d4c5808e87b02ac02d071",
+        "semantic_sha256": "f880781b39a809e7863bb3cb59e0fd5e41ebd21e6bbc8af718d0d2ddec91c4b2",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_domain-set_55cdeb67ae4bf01d.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8de4a0e42ef97afe7290fcf86e1f073a8b8d336fd1aac0bcc14c0510daf104d4",
+        "bytes_sha256": "68af17441167dfea3b960e31796db0d5d5f3c1b72f9306daa49fdef1ce8f0920",
+        "semantic_sha256": "867465ce24e658382b11b2b04a75a534e1a0d44e4ff4edf569d1eb52402e7745",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rule-set_bcb7dff870c40ff2.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b8172be9ba2361e339e5eb51b0da0835b39daa5890795f5da7f53076754da384",
+        "bytes_sha256": "0490af5dccd99aaca37973a75e0045974649be25de41c12d79757fbbb1cc1767",
+        "semantic_sha256": "8f946b47e358cbcc9e60925e3c0ce4251d9926543a4c8b31293a727139b8b500",
+        "normalized_header_lines": 5,
+        "shared": true
+      }
+    },
+    {
+      "key": "mitm",
+      "label": "MITM",
+      "ext": "sgmodule",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_mitm_bacbc8d2b198a5b7.sgmodule",
+      "binary": false,
+      "role": null,
+      "recommended": null,
+      "empty": false,
+      "dedupe": {
+        "mode": "exact",
+        "fingerprint": "3f3e241f01a9a6ea21aee874442a2fc10aa299e06c5d08c2f4c0524050b31be7",
+        "bytes_sha256": "7996dcb64e297952f9cb51600f79c64d12d2732afffc9baf15f93265179989a8",
+        "semantic_sha256": null,
+        "normalized_header_lines": 0,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+    "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Media/ForeignMedia.list",
+    "https://ruleset.skk.moe/List/ip/stream.conf"
+  ]
+}

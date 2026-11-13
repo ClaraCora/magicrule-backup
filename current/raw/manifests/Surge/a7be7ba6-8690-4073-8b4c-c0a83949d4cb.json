@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:49.175977+00:00",
+  "client": "Surge",
+  "rule": "YTOExpress",
+  "rule_updated_at": "2026-07-26T10:50:25.201711+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 43
+  },
+  "total_line_count": 43,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YTOExpress_rules_0f527d5c0c7b9a1e.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e47bfe109a17e029daf21660bf8ab882f0f6e3f9f68d0a5e404e943a8fdf2bfe",
+        "bytes_sha256": "21b39892f762cdb70b2349111ab877113773da5dec47b663fba333d3445babb9",
+        "semantic_sha256": "9aeeab88064542beb25660e96b1061775ea763ac207156568096f3c2df57a19c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/YTOExpress_domain-set_272bd97479a03d4e.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "16e6a3963fd1d41a5333083189b07aa77be4065f0db7dabf9ba665282167aa59",
+        "bytes_sha256": "d5d0804274b71868d95feb14f0fa9afd2f11d5f7fe81a72f5c886c3c4e82760a",
+        "semantic_sha256": "8c3d249fbebdb71e05c3c7f5fef19f0d2e9d53175b80718633c2d7a22ab52ba3",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

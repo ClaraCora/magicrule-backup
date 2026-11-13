@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:28.446370+00:00",
+  "client": "Surge",
+  "rule": "Coinone",
+  "rule_updated_at": "2026-07-26T10:24:12.088211+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Coinone_rules_3d15d819a01f7c33.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "48c3ffd0957ebfb81cb44211a6d58149293f92d4db415d74aada2ff217642c35",
+        "bytes_sha256": "934435f57ad9c3cfe8203f4bdb2095137b944ce07afdfad1576919c1532fe567",
+        "semantic_sha256": "20d8cda4a120e2e7cfec14ae95117af5b243a0ce8fc1845bf5c0d7510e457506",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Coinone_domain-set_3add78a02b1f317a.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ee40dd63ecd7d63dae746694fb23971025618165f4067abce1685963437b2bf",
+        "bytes_sha256": "57a0696394e66cc989a0801afbf2e963e2ab336b4a79d5d7f07c2f2d7f91599e",
+        "semantic_sha256": "81b3eb51317e8d3b3dc6c53196e575ae0282a54f158942e277f6ddf9c06897c9",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

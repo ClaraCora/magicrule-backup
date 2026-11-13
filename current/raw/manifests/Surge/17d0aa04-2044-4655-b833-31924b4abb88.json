@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:31:56.281652+00:00",
+  "client": "Surge",
+  "rule": "Misskey",
+  "rule_updated_at": "2026-07-26T10:37:34.987233+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 34
+  },
+  "total_line_count": 34,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Misskey_rules_fc4271a79d6d0815.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "0b1447e700b543b728d2c4ee4a112612bdd328cb70b49c07caa949242da55bc8",
+        "bytes_sha256": "8dbc8feac9a1d1f56ee472ea6ed17256b33e0431136b9dc2cdc81dfab3c98463",
+        "semantic_sha256": "83df884b1a07f6f50a67386d831713c8a983d3e3491d51e46b7324a11aa2e28b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Misskey_domain-set_bd820747e96a1ce0.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1582dd1046b156a490c13a5754edbd1db40372195389c5d104d31481809e787d",
+        "bytes_sha256": "dfb866fd88b04c865a5cf9dcae39ab536c3da1dbeb7286ca61526fef235ffd1e",
+        "semantic_sha256": "1e20e6f1d3fc52ea54a64221d00a266e7b57aff89ed8c334a096908e1f3c7ba5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:46.751178+00:00",
+  "client": "Surge",
+  "rule": "TempMail",
+  "rule_updated_at": "2026-07-26T10:45:36.489327+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TempMail_rules_2fa19bb571912ed1.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "4fee8d3ab591292384b4af3f11395bf5cd99571fe6aa5777dad3c246aac70377",
+        "bytes_sha256": "e9cb8944c2cb528efbdf3d9beeb8bd9a696fa424b109bf1f61e8d0a8651ccbb2",
+        "semantic_sha256": "cbec38d888312b52951b3ac3c00d71c9d8c8a663f02ec76d853e2f7fff9de605",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/TempMail_domain-set_43d50be9c2c90b6f.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "de9b0dae036a9513461cbb119be4071492360aad54e551c79351b1d4d39e4414",
+        "bytes_sha256": "85931512e384826a505eef6b97465903c87d870b7833167e09670d7b3a01a8b0",
+        "semantic_sha256": "c3865abb884d8b242904e2c11d8cc5bb34b10b94c35bd79ff49940080158304a",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

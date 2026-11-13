@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:43.358460+00:00",
+  "client": "Surge",
+  "rule": "CoolAPK",
+  "rule_updated_at": "2026-07-26T10:24:23.366821+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 3
+  },
+  "total_line_count": 3,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CoolAPK_rules_43ba3bbcc013e0bc.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e5d66cbee7be9d8d1b5c07f453196de038a07991c0710a90cef976b9268e72a0",
+        "bytes_sha256": "ca38c7f974c84c629396aec076f3d8a16270f569bfd5ecd32164353c505bf535",
+        "semantic_sha256": "ace835e7c6a1989d6a99a07457c2290f4740f223ba5bd4570d4d1428200457bc",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/CoolAPK_domain-set_fadb1029ae7309b1.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "bee51324e89fd3001e4ac8046f16bb831dfbdcccc15712dca6f4f825010fa384",
+        "bytes_sha256": "34ee4c0a357f05a60ddbd42f1ebc67b3d461befa78a4b9dcb5b4eacb80d6baa3",
+        "semantic_sha256": "9f6550db4dac4af3ac5335d7fba8caf9e69da1bfe42142a36e0cda03aff0e1c5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

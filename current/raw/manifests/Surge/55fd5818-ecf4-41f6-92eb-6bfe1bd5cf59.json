@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:34:00.591615+00:00",
+  "client": "Surge",
+  "rule": "2KGames",
+  "rule_updated_at": "2026-07-26T08:36:12.065438+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/2KGames_rules_506c2902d6ad2f92.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1a8649167afc1db9e77055408e3f848fec1695b41b948dcf66ff3b1ac12c24d3",
+        "bytes_sha256": "bec4609638f3d9f68bd023e259bb8a6276eed18864ac6ac417cd5f628743a81f",
+        "semantic_sha256": "26fe77dc2827db2ee9cc7fb8634ffa5c1876e0afea8ab0be9199732ca70f5eb1",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/2KGames_domain-set_190a06efe571fd95.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "5c31e26b2097ffc3926ab06447fa0680e4dda768c0d95529e962d83538c40c5b",
+        "bytes_sha256": "aaf2226a49e65b06f4d88df625bf0bf0c1307a5ca9b66a35b28f3a0186e462be",
+        "semantic_sha256": "ee110b28f4126bc1d4f00c4761bf2549da745b0a7c7205c5622a602eb9b91fca",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

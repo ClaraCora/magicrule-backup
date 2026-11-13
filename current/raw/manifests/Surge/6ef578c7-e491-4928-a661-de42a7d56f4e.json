@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-11-12T11:44:20.988431+00:00",
+  "client": "Surge",
+  "rule": "Nvidia",
+  "rule_updated_at": "2026-09-10T05:29:34.001522+00:00",
+  "type_counts": {
+    "DOMAIN": 3,
+    "DOMAIN-SUFFIX": 65
+  },
+  "total_line_count": 68,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Nvidia_rules_0a3d0e788f1e3b41.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "63a3ed28076d21221ae25219a462f8a62df23f6b86307a9c11728551b13458d7",
+        "bytes_sha256": "2ac01aa822793b249d58e659091d2052eb5d2c15e2e29f9d8fc12faad2c8e09e",
+        "semantic_sha256": "59d67f2213cb9bc61fb7406fd36622d56e08a3c5cadb855348ed5eb78f9f7a93",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Nvidia_domain-set_33f5e24025fb42ac.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "dac65cd617019cfb57b1bc23ce982a30f16b7bbaf66e1cfc523d4206f68e3aa0",
+        "bytes_sha256": "7a98f7a6e2d1a680bf056ccb6dc267d2772842722f0c8bb4d5bc7050040ea70d",
+        "semantic_sha256": "c237f26fcc30550ee8dd46d006d5f4ec5224cf429d7446960c93c0707eaa99ee",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Nvidia.yaml",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Nvidia.list"
+  ]
+}

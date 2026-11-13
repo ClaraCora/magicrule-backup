@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:32:30.203278+00:00",
+  "client": "Surge",
+  "rule": "Mucinex",
+  "rule_updated_at": "2026-07-26T10:37:48.448963+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 8
+  },
+  "total_line_count": 8,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mucinex_rules_ae2e9d9ee15384c5.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "00568a4f17cb51c1a0b4ba5f23b44e60007d3562cbf25b2a32b7b4dc84735d15",
+        "bytes_sha256": "b4ea6ae107d693ca5ff6228a61758f655916cf69eb97a537aa819c736fb16cb4",
+        "semantic_sha256": "b5c0f13cccee9bab09c1f06be9fc9af3dd9644aed8885e55febc7ca370c64bb5",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Mucinex_domain-set_2978879f9769a226.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "aaff3a86dfe69178b1f0faaf7ae4440f19723bc3aaf80f48d60dc3151a7fc546",
+        "bytes_sha256": "80bafb967a6ccb97d78c1b74b633af52e9c5d8749ed758cca497e4afa57b592a",
+        "semantic_sha256": "5c7e06988bc6b771267767fdc3cd967d940e8b87cf4164439ce27439db0e7284",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

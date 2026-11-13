@@ -1,11 +1,13 @@
 # NAME: Direct
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-11 08:14:08
+# UPDATED: 2026-11-12 19:41:57
 # BEHAVIOR: ipcidr
-# IP-CIDR: 3
+# IP-CIDR: 5
 
 payload:
+- '104.251.176.0/22'
+- '165.173.176.0/24'
 - '203.205.64.0/19'
 - '218.98.111.0/24'
 - '43.240.60.0/22'

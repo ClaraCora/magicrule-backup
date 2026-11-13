@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:42:14.877525+00:00",
+  "client": "Surge",
+  "rule": "TCL",
+  "rule_updated_at": "2026-11-06T14:28:04.330643+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 30
+  },
+  "total_line_count": 30,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TCL_rules_e98ade4cbb755da2.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "d1245b55b638c2a0824fa51fee3da5800d009b71b5a2cae5283e821a17aa6a07",
+        "bytes_sha256": "dbdb220dd5095988f94fc26799e51d45ca710ec5fbad3b20dac2c67fbecd6a46",
+        "semantic_sha256": "b886568ba975e93769188cbe4ed32f8f60f477be4128ce933ee4d2adf46219ed",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TCL_domain-set_a58e132b9c051ecf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "3526db5af83251a50f3ae929c2ede5f16faa393b24b76185e935b08d6d031202",
+        "bytes_sha256": "a31b9efd7d76b3c1505e669e226fd326aa6c97d0f113d6fc3c0161a82116a634",
+        "semantic_sha256": "16f1654c459d85239b4f23dfe40622c46be2b5d187a0e9f5fe9fab85a24c0e0b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/TCL.list"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-11-12T11:45:35.978453+00:00",
+  "client": "Surge",
+  "rule": "iCloud",
+  "rule_updated_at": "2026-07-26T06:32:52.713125+00:00",
+  "type_counts": {
+    "DOMAIN": 1,
+    "DOMAIN-SUFFIX": 55
+  },
+  "total_line_count": 56,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloud_rules_2ed29d3d438b7646.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "b37cd07ff704c6d084d2cda3f6d26908dc6f39e414fc4da6da98cf47f2cb2518",
+        "bytes_sha256": "45fab2347bc48df1a630b1b3b4159aba23368b3639c9b10b7664e92fcfe7764e",
+        "semantic_sha256": "f5c57c01483c0973ccf596541e227f6ed3ad215f69ca5f12eb30838e0a247f4e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloud_domain-set_c98bfabea4066385.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "857da97433f52bc8f7626002fb3744ce9019199a1e92978135295995ae81ddbc",
+        "bytes_sha256": "e8f9ebd67e6bdbceed391c25edf5fd4f8598dcfbbd09d175fb10e6a6e5d7ddc3",
+        "semantic_sha256": "79bc95ddc2044090c260f2f9e5a293bdb57bdc65e47291fb090876ce3e9ae570",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt",
+    "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt"
+  ]
+}

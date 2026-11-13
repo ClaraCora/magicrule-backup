@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-12T11:41:51.757048+00:00",
+  "client": "Surge",
+  "rule": "TencentCloud",
+  "rule_updated_at": "2026-09-04T04:41:06.865623+00:00",
+  "type_counts": {
+    "IP-CIDR6": 32,
+    "DOMAIN-SUFFIX": 357,
+    "IP-CIDR": 2326
+  },
+  "total_line_count": 2715,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TencentCloud_rules_8b5e0f60df2779a3.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "81b10ee9dcaab57e638c578e090649e95bbdc7f340acef28ca134989621f2942",
+        "bytes_sha256": "a0f1b9cea5b4785938ffd8d14495ef0a14587312674546cb10858ac70fc8c912",
+        "semantic_sha256": "25880fb74a07c1ec3d9f50e9cf11e0e8adf6fbfdfd17e0581792f51123442b37",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TencentCloud_domain-set_669893019efb26e7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "91d67217a0d736c66cc49803d1f71cdc08888872c13bafee9b5af6c98a12b0c2",
+        "bytes_sha256": "15fc671aa86b1c62877891b713239fa9657c99cacb7a814f0cf1ca59df1fd900",
+        "semantic_sha256": "815e68c61d942a2c9b620b2500af34655a4ab2a6902cc5fef5c76923c6991ee6",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/TencentCloud_rule-set_d81cbafd01c5a685.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "98ece574661f2c783e58d19a25a5c5dbc19539f6e29392d7e38876c126b35511",
+        "bytes_sha256": "7d24899c5716c66f0e4b6de1f3c0eeec8e3a21ad01ee2c2f7c5f57782e5207d1",
+        "semantic_sha256": "3f3435aca38867932338034444abcb28ce7817c4f394311ae708d7f674561c1c",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://github.com/v2fly/domain-list-community",
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/CCC-CN/TencentCCC.list"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:34:53.820288+00:00",
+  "client": "Surge",
+  "rule": "StarfieldTech",
+  "rule_updated_at": "2026-07-26T10:44:04.587694+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarfieldTech_rules_4ce19447ffe245ef.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "a308ef989a5400311ecd7f372ac8154a1593368f07bcd06a5ada5b6b009ff41d",
+        "bytes_sha256": "fd71a07171bd70cf81964c0895af515ed31c12e081deef3a2e4383734c555acf",
+        "semantic_sha256": "e747f430415adf0e4ce1c38cba038c44dc9f3cdad0ddfa7e1e50c24e46b24233",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/StarfieldTech_domain-set_02f0114191c701cf.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "71bebe901ceaff94ad9d10d23a91fa6a9d91cc2ae603d93e13fcf105b0d56e6a",
+        "bytes_sha256": "bd61d2f88bd2b349740c65a0a8dd16044932f07673e054eebe9f130f0e1f428c",
+        "semantic_sha256": "57bfba5e0f94b0c3c30e702cc3f203fa09f6f84177d90e9e313e7eb1eae15149",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

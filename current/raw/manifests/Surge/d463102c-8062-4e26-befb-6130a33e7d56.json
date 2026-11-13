@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:38:33.284970+00:00",
+  "client": "Surge",
+  "rule": "Anaconda",
+  "rule_updated_at": "2026-07-26T06:58:52.713333+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 4
+  },
+  "total_line_count": 4,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Anaconda_rules_be26fb60f58b2252.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9964a1dc56921f0eed4ba55179daa9ff80b695435ae0eff02280faec2612217e",
+        "bytes_sha256": "8c2c9a337f5531b770014adeaaf745c9eac02f634e81d71a5758a1ce62640f7d",
+        "semantic_sha256": "788f48af2c2c04fdcb9687bbe19aca39c7b8275d434f763111c11a0421f65382",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/Anaconda_domain-set_8295d5fd126e290b.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "567764f0e80768a3ce49302f8b5218820cf5096e058bddaa28e38b14248ad0ab",
+        "bytes_sha256": "5d64a77fd26956a7d71a0b1d630ae148382fa9dfa8dc0fd12c85897c244f86f1",
+        "semantic_sha256": "455a74e0dab1733289743c3c2fcc3ea77346a4e7ff51e6863b6fd4df9814d76e",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

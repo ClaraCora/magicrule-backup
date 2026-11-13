@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:45:33.498927+00:00",
+  "client": "Surge",
+  "rule": "QiMao",
+  "rule_updated_at": "2026-07-26T08:34:12.828380+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 6
+  },
+  "total_line_count": 6,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/QiMao_rules_b8efc8a94c282c12.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "9153993770d4f9bcd9fe65acc670d24e1a48a89441c25eabe3d928a2655039d5",
+        "bytes_sha256": "ebe19fc8ec3a4ca6aad14e862b66bed6f575525ebe08898dfb71af36be537ef5",
+        "semantic_sha256": "86d4d53a45f8265138bd7ec2d0e49d80c70c99e7b3ca171e96b3eacf96782dd7",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/QiMao_domain-set_56aeaab22f67aea2.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "e0bdda496adc3162e27e9e821456683d8e05cc182ed97b3fe696606879192f30",
+        "bytes_sha256": "4f4e2e1b4107e6a416376d3db594021518d38bdf41a515f0be15db3db71123b4",
+        "semantic_sha256": "ed5e6438ba6ccfb178997842bebc8baf4f64ea935b70c6ed4885d8709cd598d4",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

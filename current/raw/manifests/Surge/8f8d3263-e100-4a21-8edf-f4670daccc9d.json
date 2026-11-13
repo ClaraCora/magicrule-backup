@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-11-12T11:36:02.604211+00:00",
+  "client": "Surge",
+  "rule": "VGTime",
+  "rule_updated_at": "2026-07-26T08:37:16.347579+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 1
+  },
+  "total_line_count": 1,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VGTime_rules_ec4f75a9a282da14.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8a591b0c8e19a9227445bd5bd6987ca3f1e3fdcb194bc9a05a42f9afa2e382b6",
+        "bytes_sha256": "2a164fd8c8bde84a309cfe85bb865d7fb45d7cf2affa9997992edf6fab71dc14",
+        "semantic_sha256": "049763460a8c6694ec8894e4c6d72b10ac67e352126db5ac7e48a5d33db3a77b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule-26r.pages.dev/data/_shared/artifacts/VGTime_domain-set_88d9dcb2823b5a07.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "7104a2abb4f44c0143168a16ad2c3ee50dbdb2f604dfff7de95aadc1222c133b",
+        "bytes_sha256": "bb4ef80f00874243db0bfb150351285d83440f3633fe5a125576a6a7b5c5d646",
+        "semantic_sha256": "b3bff5c7c4483629ebbfbf195af5bd5d6e3dd76446f36e32bcebecea72a0af9b",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "providers": [
+    "https://github.com/v2fly/domain-list-community"
+  ]
+}

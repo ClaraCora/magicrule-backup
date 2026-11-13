@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-12T11:43:55.084417+00:00",
+  "client": "Surge",
+  "rule": "JianGuoYun",
+  "rule_updated_at": "2026-07-26T06:25:40.540199+00:00",
+  "type_counts": {
+    "DOMAIN-SUFFIX": 5
+  },
+  "total_line_count": 5,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/JianGuoYun_rules_11c21767392d1ca7.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "432acf367fe6bd2a7cbdd47d3febae582a28925f3a432319fe546fbc795530d1",
+        "bytes_sha256": "c1a1a7d0f65f47e13de3aaf1bc71c5154016a2b80cd63d31eaace0c003b80f5d",
+        "semantic_sha256": "e413045e8f845cbcdb62a48a601d6ed295b1b27ac1beb4c3f4b0e9920499f619",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/JianGuoYun_domain-set_9135751ef3fb0fe6.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "1fcf3faa122bf72c918628b7a71421f5a865917d1410532daf9c58f3b8e43e94",
+        "bytes_sha256": "94b072629f81a31a452c06d3d3e362ae635176de11ce2fe394a7c1effa8f06f9",
+        "semantic_sha256": "5c99bf2c9c6040e8126fb6b9e2cbfa06473ff7e25244968debc3fe20471db461",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/JianGuoYun.list"
+  ]
+}
