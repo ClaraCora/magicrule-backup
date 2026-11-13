@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T18:11:08.089460+00:00",
+  "generated_at": "2026-11-13T00:58:21.139304+00:00",
   "client": "Loon",
   "rule": "ChinaIPs",
-  "rule_updated_at": "2026-11-12T11:28:26.632451+00:00",
+  "rule_updated_at": "2026-11-13T00:44:41.940252+00:00",
   "type_counts": {
-    "IP-CIDR6": 5459,
-    "IP-CIDR": 12630,
+    "IP-CIDR6": 5424,
+    "IP-CIDR": 12658,
     "IP-ASN": 5076
   },
-  "total_line_count": 23165,
+  "total_line_count": 23158,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "8eea8a33b8fa248705757ae3cda0319ccdc7a6cbd36e18e7edb135ccbe5a455f",
-        "bytes_sha256": "025db5d8be17302a93f32213653aa73e076801d45243d75765d356ff5d66b0d5",
-        "semantic_sha256": "09e425a5b3d23db968ee46e83d1a5a699c2b8152e5b5a5339d08524bb49f9e75",
+        "fingerprint": "641e9dddc945f9ed78a3994d7ab0d79920cbe75d39b48e0f25f9cd59cf546aa2",
+        "bytes_sha256": "13d2a116da7be7485fe9fad77b9cedda9bec4fb65bb62cfe78d27d95b466dbbd",
+        "semantic_sha256": "ccf3e4c46b25254dc632afd5719e0a4b9b7185eb9caf5d527da68ad584fde21c",
         "normalized_header_lines": 4,
         "shared": true
       }

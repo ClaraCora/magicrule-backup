@@ -47588,14 +47588,14 @@
             "ip_cidr_set"
           ],
           "typeCounts": {
-            "ip_cidr6_set": 5459,
+            "ip_cidr6_set": 5424,
             "asn_set": 5076,
-            "ip_cidr_set": 12630
+            "ip_cidr_set": 12658
           },
-          "totalLineCount": 23165,
-          "sourceUpdatedAt": "2026-11-12T11:28:29.257Z",
-          "generatedAt": "2026-11-12T18:11:11.087Z",
-          "fileChangedAt": "2026-11-13T00:10:50.598Z",
+          "totalLineCount": 23158,
+          "sourceUpdatedAt": "2026-11-13T00:44:52.186Z",
+          "generatedAt": "2026-11-13T00:58:27.187Z",
+          "fileChangedAt": "2026-11-13T01:12:05.878Z",
           "providers": [
             "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
             "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
@@ -47618,11 +47618,11 @@
               "path": "current/rules/Egern/rules/ChinaIPs.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/ChinaIPs.yaml",
               "sourceUrl": "https://rule2-ze9.pages.dev/data/_shared/artifacts/ChinaIPs_rules_10c6e31c88badcff.yaml",
-              "sha256": "35eb1f5faae627e0ba0233085323a7c88126321555e0d53d721d53dd70d55a59",
-              "expectedSha256": "35eb1f5faae627e0ba0233085323a7c88126321555e0d53d721d53dd70d55a59",
+              "sha256": "dd3d28530804d71c504aecb2592e96d9c5442eae2abec738a4bc2555da2aba7f",
+              "expectedSha256": "dd3d28530804d71c504aecb2592e96d9c5442eae2abec738a4bc2555da2aba7f",
               "verification": "bytes",
-              "bytes": 440159,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "bytes": 439923,
+              "changedAt": "2026-11-13T01:12:05.878Z"
             }
           ]
         },
@@ -47637,14 +47637,14 @@
             "IP-CIDR6"
           ],
           "typeCounts": {
-            "IP-CIDR6": 5459,
-            "IP-CIDR": 12630,
+            "IP-CIDR6": 5424,
+            "IP-CIDR": 12658,
             "IP-ASN": 5076
           },
-          "totalLineCount": 23165,
-          "sourceUpdatedAt": "2026-11-12T11:28:29.822Z",
-          "generatedAt": "2026-11-12T18:11:08.117Z",
-          "fileChangedAt": "2026-11-13T00:10:50.598Z",
+          "totalLineCount": 23158,
+          "sourceUpdatedAt": "2026-11-13T00:44:54.882Z",
+          "generatedAt": "2026-11-13T00:58:21.173Z",
+          "fileChangedAt": "2026-11-13T01:12:05.878Z",
           "providers": [
             "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
             "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
@@ -47667,11 +47667,11 @@
               "path": "current/rules/Mihomo/classical/ChinaIPs.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/ChinaIPs.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_classical_ef098f9be13f0809.yaml",
-              "sha256": "16bbffb8ab8ae008738587d87c856fe004747a555125bf3f4fef16957ecfc5e5",
-              "expectedSha256": "16bbffb8ab8ae008738587d87c856fe004747a555125bf3f4fef16957ecfc5e5",
+              "sha256": "b7cbf02e15addb6261c9102b4fad5b9407bcf744c4cd4fb57df075028b42ba2f",
+              "expectedSha256": "b7cbf02e15addb6261c9102b4fad5b9407bcf744c4cd4fb57df075028b42ba2f",
               "verification": "bytes",
-              "bytes": 869787,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "bytes": 869453,
+              "changedAt": "2026-11-13T01:12:05.878Z"
             },
             {
               "key": "ipcidr",
@@ -47684,11 +47684,11 @@
               "path": "current/rules/Mihomo/ipcidr/ChinaIPs.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr/ChinaIPs.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_ipcidr_460acc276e282d84.yaml",
-              "sha256": "95c1068d4829d6e3662b5ea888faef3a6d15057b39eec28c80bb23f1b45b2d44",
-              "expectedSha256": "95c1068d4829d6e3662b5ea888faef3a6d15057b39eec28c80bb23f1b45b2d44",
+              "sha256": "be7674bab04b435219984e833706cafc97ed35be3ae1af9aa10c1e99479a86aa",
+              "expectedSha256": "be7674bab04b435219984e833706cafc97ed35be3ae1af9aa10c1e99479a86aa",
               "verification": "bytes",
-              "bytes": 373876,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "bytes": 373710,
+              "changedAt": "2026-11-13T01:12:05.878Z"
             },
             {
               "key": "ipcidr-mrs",
@@ -47701,11 +47701,11 @@
               "path": "current/rules/Mihomo/ipcidr-mrs/ChinaIPs.mrs",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/ipcidr-mrs/ChinaIPs.mrs",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_ipcidr-mrs_b1f5c4b4a88c72f3.mrs",
-              "sha256": "73494db8ea175f8ad27f2f751328c2285b6f9a373e70fb10062a800135f7ba01",
-              "expectedSha256": "73494db8ea175f8ad27f2f751328c2285b6f9a373e70fb10062a800135f7ba01",
+              "sha256": "187a383dba97e3a8daa7b47d70058e4fe0c74434e610b92e1ba274429a068513",
+              "expectedSha256": "187a383dba97e3a8daa7b47d70058e4fe0c74434e610b92e1ba274429a068513",
               "verification": "bytes",
-              "bytes": 49382,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "bytes": 49365,
+              "changedAt": "2026-11-13T01:12:05.878Z"
             },
             {
               "key": "classical-rest",
@@ -47718,11 +47718,11 @@
               "path": "current/rules/Mihomo/classical-rest/ChinaIPs.yaml",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical-rest/ChinaIPs.yaml",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_classical-rest_5a00c2a99fb023a0.yaml",
-              "sha256": "f0f4de0c8f403ef3ff76a48811f29ae817c711d687e7cb3de7bdd3a28677ed43",
-              "expectedSha256": "f0f4de0c8f403ef3ff76a48811f29ae817c711d687e7cb3de7bdd3a28677ed43",
+              "sha256": "3685d2804842f39506caa516c702a4db73401bba1197958ca48df1a73b7c2fb1",
+              "expectedSha256": "3685d2804842f39506caa516c702a4db73401bba1197958ca48df1a73b7c2fb1",
               "verification": "bytes",
               "bytes": 146894,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "changedAt": "2026-11-13T01:12:05.878Z"
             }
           ]
         },
@@ -47737,14 +47737,14 @@
             "IP-CIDR6"
           ],
           "typeCounts": {
-            "IP-CIDR6": 5459,
-            "IP-CIDR": 12630,
+            "IP-CIDR6": 5424,
+            "IP-CIDR": 12658,
             "IP-ASN": 5076
           },
-          "totalLineCount": 23165,
-          "sourceUpdatedAt": "2026-11-12T11:28:26.632Z",
-          "generatedAt": "2026-11-12T18:11:08.089Z",
-          "fileChangedAt": "2026-11-13T00:10:50.598Z",
+          "totalLineCount": 23158,
+          "sourceUpdatedAt": "2026-11-13T00:44:41.940Z",
+          "generatedAt": "2026-11-13T00:58:21.139Z",
+          "fileChangedAt": "2026-11-13T01:12:05.878Z",
           "providers": [
             "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
             "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
@@ -47767,11 +47767,11 @@
               "path": "current/rules/Loon/rules/ChinaIPs.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/ChinaIPs.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_rules_34a9221fa066bb18.list",
-              "sha256": "025db5d8be17302a93f32213653aa73e076801d45243d75765d356ff5d66b0d5",
-              "expectedSha256": "025db5d8be17302a93f32213653aa73e076801d45243d75765d356ff5d66b0d5",
+              "sha256": "13d2a116da7be7485fe9fad77b9cedda9bec4fb65bb62cfe78d27d95b466dbbd",
+              "expectedSha256": "13d2a116da7be7485fe9fad77b9cedda9bec4fb65bb62cfe78d27d95b466dbbd",
               "verification": "bytes",
-              "bytes": 777096,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "bytes": 776790,
+              "changedAt": "2026-11-13T01:12:05.878Z"
             }
           ]
         },
@@ -47786,14 +47786,14 @@
             "IP-CIDR6"
           ],
           "typeCounts": {
-            "IP-CIDR6": 5459,
-            "IP-CIDR": 12630,
+            "IP-CIDR6": 5424,
+            "IP-CIDR": 12658,
             "IP-ASN": 5076
           },
-          "totalLineCount": 23165,
-          "sourceUpdatedAt": "2026-11-12T11:28:27.966Z",
-          "generatedAt": "2026-11-12T18:11:08.103Z",
-          "fileChangedAt": "2026-11-13T00:10:50.598Z",
+          "totalLineCount": 23158,
+          "sourceUpdatedAt": "2026-11-13T00:44:47.122Z",
+          "generatedAt": "2026-11-13T00:58:21.157Z",
+          "fileChangedAt": "2026-11-13T01:12:05.878Z",
           "providers": [
             "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
             "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt",
@@ -47816,11 +47816,11 @@
               "path": "current/rules/Surge/rules/ChinaIPs.list",
               "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Surge/rules/ChinaIPs.list",
               "sourceUrl": "https://magicrule.pages.dev/data/_shared/artifacts/ChinaIPs_rules_34a9221fa066bb18.list",
-              "sha256": "025db5d8be17302a93f32213653aa73e076801d45243d75765d356ff5d66b0d5",
-              "expectedSha256": "c5fcb68ed84fc005bc5637f9baed5cb0a8b01cfb2586b7a483860246a30bab40",
+              "sha256": "13d2a116da7be7485fe9fad77b9cedda9bec4fb65bb62cfe78d27d95b466dbbd",
+              "expectedSha256": "705408fa86b9eccc264593c41b0bb1f4fa524452799d749b7c53aa6fe85de3e1",
               "verification": "normalized-header",
-              "bytes": 777096,
-              "changedAt": "2026-11-13T00:10:50.598Z"
+              "bytes": 776790,
+              "changedAt": "2026-11-13T01:12:05.878Z"
             }
           ]
         }
