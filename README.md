@@ -55,7 +55,7 @@ Surge 拆分文件采用 `DOMAIN` / `DOMAIN-SUFFIX` 规则行，使用 `RULE-SET
 - `/rules/<id>/`：各客户端的条数、日期、全部格式、来源、实际 SHA-256、复制订阅地址与下载。
 - `/updates/`：成功同步记录与变动列表。`/about/`：使用与恢复说明。
 - `/catalog.json`：完整规范化目录，`schemaVersion: 1`，包含规则、客户端变体及各格式的 `fileName`、哈希、`path` 和 `url`；`key` 继续表示格式类型。
-- `/search-index.json`：供浏览器使用的精简检索目录。`/status.json`：最近成功时间、条数、文件数及总体积。
+- `/search-index.json`：供浏览器使用的精简检索目录。页面以最近同步成功时间作为请求版本号，避免新增客户端后继续读取旧的浏览器缓存。`/status.json`：最近成功时间、条数、文件数及总体积。
 - 下载地址：`https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/<client>/<artifact-key>/<rule-name>.<ext>`。文件名采用客户端清单的正式英文名称，保留大小写。
 
 以上网页和 JSON 地址都位于 `/magicrule-backup/` 路径下。检索不包含域名/IP 内容反查，也不提供在线格式转换。
