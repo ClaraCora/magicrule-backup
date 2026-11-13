@@ -12,11 +12,11 @@ Delegated by the user and confirmed in the implementation plan: Astro + TypeScri
 
 ## Users
 
-Chinese-speaking Egern, Mihomo, and Loon users finding rules by name, checking freshness, and copying usable backup download URLs.
+Chinese-speaking Egern, Mihomo, Loon, and Surge users finding rules by name, checking freshness, and copying usable backup download URLs.
 
 ## Product Purpose
 
-Back up all public pre-generated artifacts for the three selected clients daily. Keep usable copies independent of the source website, with searchable names, descriptions, sources, client and type filters, details, downloads, and history.
+Back up all public pre-generated artifacts for the four selected clients daily. Keep usable copies independent of the source website, with searchable names, descriptions, sources, client and type filters, details, downloads, and history.
 
 ## Operating Context
 

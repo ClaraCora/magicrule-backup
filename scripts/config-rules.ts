@@ -8,7 +8,7 @@ import type { Artifact, Catalog } from '../src/lib/types.ts';
 export interface DomainScope { domains: string[]; suffixes: string[] }
 export interface ConfigPolicy { foreignAI: DomainScope; domesticAI: DomainScope; webRTC: string[] }
 type DomainEntry = { type: 'DOMAIN' | 'DOMAIN-SUFFIX'; value: string };
-type AIClient = 'Mihomo' | 'Egern' | 'Loon';
+type AIClient = 'Mihomo' | 'Egern' | 'Loon' | 'Surge';
 const sha256 = (bytes: Uint8Array | string) => createHash('sha256').update(bytes).digest('hex');
 const beneath = (domain: string, root: string) => domain === root || domain.endsWith('.' + root);
 const validDomain = (s: string) => s === s.toLowerCase() && s.includes('.') && !s.startsWith('.') && !/^\d+(\.\d+)+$/.test(s) && /^[a-z0-9_-]+(?:\.[a-z0-9_-]+)+$/.test(s);
@@ -32,17 +32,17 @@ export function validatePolicy(policy: ConfigPolicy) {
 
 export function domainEntries(text: string, client: AIClient): DomainEntry[] {
   const entries: DomainEntry[] = [];
-  if (client === 'Loon') {
+  if (client === 'Loon' || client === 'Surge') {
     for (const raw of text.split(/\r?\n/)) {
       const line = raw.trim();
-      if (!line || line.startsWith('#')) continue;
+      if (!line || line.startsWith('#') || (client === 'Surge' && /^(\/\/|;)/.test(line))) continue;
       const [type, domain, ...extra] = line.split(',');
       if (type === 'DOMAIN' || type === 'DOMAIN-SUFFIX') {
-        if (extra.length || !domain) throw new Error('Invalid Loon domain rule');
+        if (extra.length || !domain) throw new Error(`Invalid ${client} domain rule`);
         entries.push({ type, value: domain });
       }
     }
-    if (!entries.length) throw new Error('Invalid or empty Loon source rules');
+    if (!entries.length) throw new Error(`Invalid or empty ${client} source rules`);
   } else if (client === 'Mihomo') {
     const value = YAML.parse(text);
     if (!Array.isArray(value?.payload) || value.payload.some((v: unknown) => typeof v !== 'string')) throw new Error('Invalid Mihomo source payload');
@@ -78,7 +78,7 @@ export function repairMusicYaml(text: string) {
 
 function render(entries: DomainEntry[], client: AIClient) {
   if (!entries.length) throw new Error('Refusing to publish an empty AI ruleset');
-  if (client === 'Loon') return entries.map(e => e.type + ',' + e.value).join('\n') + '\n';
+  if (client === 'Loon' || client === 'Surge') return entries.map(e => e.type + ',' + e.value).join('\n') + '\n';
   if (client === 'Mihomo') return YAML.stringify({ payload: entries.map(e => e.type + ',' + e.value) });
   return YAML.stringify({ no_resolve: true, domain_set: entries.filter(e => e.type === 'DOMAIN').map(e => e.value), domain_suffix_set: entries.filter(e => e.type === 'DOMAIN-SUFFIX').map(e => e.value) });
 }
@@ -102,8 +102,8 @@ export async function generateConfigRules(root: string, output = path.join(root,
     return bytes.toString('utf8');
   }
   const files: Record<string, string> = {};
-  for (const client of ['Mihomo', 'Egern', 'Loon'] as const) {
-    const extension = client === 'Loon' ? 'list' : 'yaml';
+  for (const client of ['Mihomo', 'Egern', 'Loon', 'Surge'] as const) {
+    const extension = client === 'Loon' || client === 'Surge' ? 'list' : 'yaml';
     const original = await source(client, 'GlobalAI', client === 'Mihomo' ? 'classical' : 'rules', extension);
     const entries = domainEntries(original, client);
     const attribution = original.split(/\r?\n/).filter(line => /^# (AUTHOR|REPO|UPDATED):/.test(line)).join('\n');
@@ -118,6 +118,7 @@ export async function generateConfigRules(root: string, output = path.join(root,
   for (const [name, text] of Object.entries(files)) {
     if (name.endsWith('.yaml')) YAML.parse(text);
     if (name.startsWith('Loon/')) domainEntries(text, 'Loon');
+    if (name.startsWith('Surge/')) domainEntries(text, 'Surge');
   }
   const manifest = { schemaVersion: 1, policySha256: sha256(policyText), sources, files: Object.entries(files).map(([file, text]) => ({ file, sha256: sha256(text), bytes: Buffer.byteLength(text) })) };
   // Everything is prepared and validated before writing. The workflow commits

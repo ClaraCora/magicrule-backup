@@ -12,6 +12,62 @@ import type { Catalog } from '../src/lib/types.ts';
 
 const sha = (data: string | Buffer) => createHash('sha256').update(data).digest('hex');
 
+test('adding Surge preserves the old snapshot offline and syncs all Surge artifact formats', async t => {
+  const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-surge-'));
+  const artifacts = [
+    { key: 'rules', ext: 'list', text: '# AUTHOR: MagicRule\nDOMAIN-SUFFIX,openai.com\nDOMAIN-SUFFIX,deepseek.com\nIP-ASN,14061,no-resolve\n' },
+    { key: 'domain-set', ext: 'list', text: '.openai.com\n.deepseek.com\n' },
+    { key: 'rule-set', ext: 'list', text: 'IP-ASN,14061,no-resolve\n' },
+    { key: 'mitm', ext: 'sgmodule', text: '#!name=GlobalAI\n[MITM]\nhostname = %APPEND% example.com\n' },
+  ];
+  const server = createServer((req, res) => {
+    const pathname = new URL(req.url!, 'http://localhost').pathname;
+    res.setHeader('Content-Type', 'application/json');
+    if (pathname === '/data/meta/clients.json') return void res.end(JSON.stringify({ clients: [{ name: 'Loon' }, { name: 'Surge' }] }));
+    if (pathname.startsWith('/data/meta/')) return void res.end('{}');
+    if (pathname.startsWith('/data/index/')) {
+      const client = path.basename(pathname, '.json');
+      return void res.end(JSON.stringify({ client, rules: [{ id: 'ai', name: 'GlobalAI', manifest: `/data/rules/${client}/ai/manifest.json` }] }));
+    }
+    if (pathname.endsWith('/manifest.json')) {
+      const client = pathname.split('/')[3];
+      const selected = client === 'Surge' ? artifacts : artifacts.slice(0, 1);
+      return void res.end(JSON.stringify({ client, artifacts: selected.map(({ key, ext, text }) => ({ key, ext, url: `/artifacts/${key}.${ext}`, dedupe: { bytes_sha256: sha(text) } })) }));
+    }
+    const artifact = artifacts.find(a => pathname === `/artifacts/${a.key}.${a.ext}`);
+    if (artifact) { res.setHeader('Content-Type', 'text/plain'); return void res.end(artifact.text); }
+    res.statusCode = 404; res.end('missing');
+  });
+  await new Promise<void>(resolve => server.listen(0, '127.0.0.1', resolve));
+  const origin = `http://127.0.0.1:${(server.address() as { port: number }).port}`;
+  t.after(async () => { server.closeAllConnections(); await new Promise<void>(resolve => server.close(() => resolve())); await rm(directory, { recursive: true, force: true }); });
+  const options = { source: origin, allowedOrigins: [origin], clients: ['Loon'], repository: 'example/rules', dataDirectory: directory, concurrency: 2, timeoutMs: 2000, attempts: 1 };
+  await sync(options);
+  const expanded = { ...options, clients: ['Loon', 'Surge'] };
+  const before = await readFile(path.join(directory, 'current/status.json'));
+  assert.equal((await verifySnapshot(directory, expanded)).verifiedFiles, 1);
+  assert.equal((await migrateNames(directory, expanded)).movedFiles, 0);
+  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), before);
+  const catalogFile = path.join(directory, 'current/catalog.json');
+  const catalog: Catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
+  for (const clients of [[], ['Loon', 'Loon'], ['Loon', 'Unexpected'], ['Loon', 'Surge']]) {
+    await writeFile(catalogFile, JSON.stringify({ ...catalog, clients }));
+    await assert.rejects(verifySnapshot(directory, expanded), /Snapshot clients/);
+  }
+  await writeFile(catalogFile, JSON.stringify(catalog));
+  const result = await sync(expanded);
+  assert.deepEqual(result.clients.map(client => client.name), ['Loon', 'Surge']);
+  assert.equal(result.clientRuleCount, 2);
+  assert.equal(result.artifactCount, 5);
+  assert.equal((await verifySnapshot(directory, expanded)).verifiedFiles, 5);
+  for (const { key, ext, text } of artifacts) {
+    assert.equal(await readFile(path.join(directory, `current/rules/Surge/${key}/GlobalAI.${ext}`), 'utf8'), text);
+  }
+  const repeated = await sync(expanded);
+  assert.equal(repeated.downloadedFiles, 0);
+  assert.equal(repeated.reusedFiles, 5);
+});
+
 test('complete snapshots, incremental reuse, timestamps, delisting, rollback and retry', async t => {
   const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-test-'));
   const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false };

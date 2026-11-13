@@ -9,11 +9,21 @@ export async function verifySnapshot(root: string, config: { clients: string[]; 
   const current = path.join(root, 'current');
   const catalog: Catalog = JSON.parse(await readFile(path.join(current, 'catalog.json'), 'utf8'));
   const status: SyncStatus = JSON.parse(await readFile(path.join(current, 'status.json'), 'utf8'));
+  // Verify the clients already published in this snapshot. Configuration may
+  // include a new client that will be added by the next successful sync.
+  const clients = catalog.clients;
+  if (!Array.isArray(clients) || !clients.length || new Set(clients).size !== clients.length
+    || clients.some(client => !config.clients.includes(client))
+    || status.clients.length !== clients.length || new Set(status.clients.map(client => client.name)).size !== clients.length
+    || status.clients.some(client => !clients.includes(client.name))
+    || catalog.rules.some(rule => rule.variants.some(variant => !clients.includes(variant.client)))) {
+    throw new Error('Snapshot clients do not match catalog or configuration');
+  }
   let records = 0, files = 0, bytes = 0, retainedFiles = 0;
   const methods = { bytes: 0, 'normalized-header': 0, recorded: 0 };
   const claimPath = pathRegistry();
   const expectedFiles = new Set<string>();
-  for (const client of config.clients) {
+  for (const client of clients) {
     const index = JSON.parse(await readFile(path.join(current, 'raw', 'index', client + '.json'), 'utf8'));
     const sourceIds = new Set(index.rules.map((rule: { id: string }) => rule.id));
     const variants = catalog.rules.flatMap(rule => rule.variants.filter(v => v.client === client).map(variant => ({ id: rule.id, variant })));

@@ -2,13 +2,13 @@
 
 [检索网站](https://claracora.github.io/magicrule-backup/) · [同步工作流](https://github.com/ClaraCora/magicrule-backup/actions/workflows/sync.yml) · [备份文件](https://github.com/ClaraCora/magicrule-backup/tree/data/current/rules) · [数据历史](https://github.com/ClaraCora/magicrule-backup/commits/data/)
 
-每日自动备份 MagicRule 为 **Egern、Mihomo、Loon** 公开提供的规则文件，并提供中文检索、客户端与类型筛选、详情、文件下载及更新时间展示。网站及下载使用本仓库中的备份，不在访客浏览时请求原站。
+每日自动备份 MagicRule 为 **Egern、Mihomo、Loon、Surge** 公开提供的规则文件，并提供中文检索、客户端与类型筛选、详情、文件下载及更新时间展示。网站及下载使用本仓库中的备份，不在访客浏览时请求原站。
 
 ## 自动同步
 
 - 北京时间每天 **04:17**（UTC `17 20 * * *`）通过 GitHub Actions 运行，GitHub 调度可能延迟。
 - `main` 分支保存代码与工作流，`data` 分支保存完整备份。Pages 发布源为 **GitHub Actions**。
-- 读取三个客户端的索引及每条规则的 manifest，跟随 `magicrule.pages.dev` 和 `rule-26r.pages.dev` 上的文件地址。
+- 读取四个客户端的索引及每条规则的 manifest，跟随 `magicrule.pages.dev`、`rule-26r.pages.dev` 和 `rule2-ze9.pages.dev` 上的文件地址。
 - 四路并发，单请求 30 秒超时，最多尝试三次。文件按 SHA-256 增量下载；内容未变时复用已有字节，不重新请求源站。
 - 先在临时目录完成整批校验，全部成功后再替换 `current/`。超时、404、HTML 错误页、无效清单或校验失败均中止发布并保留原备份。
 - 下架规则保留最后文件，目录标记为下架。Git 提交保留历史版本；每次成功检查都有状态提交，内容未变的文件不产生新 Git blob。
@@ -24,8 +24,8 @@
 
 `current/custom/` 保存配置修正版，与 `current/rules/` 中逐字节保留的原始备份分开。每日工作流校验原始快照后运行 `npm run config:rules`，整批生成并验证以下文件，再与数据提交一起发布：
 
-- `Mihomo/ForeignAI.yaml`、`Egern/ForeignAI.yaml`、`Loon/ForeignAI.list`：从各客户端的 GlobalAI 提取经 `config-rules/policy.json` 审核的专用 AI 域名。保留常见海外 AI 服务和精准 Copilot 地址，排除通用云域名、国内 AI、共享 IP/ASN、进程及关键词规则；新增顶级服务域名需更新白名单，已有服务下的源站新增域名继续同步。
-- `Mihomo/DomesticAI.yaml`、`Egern/DomesticAI.yaml`、`Loon/DomesticAI.list`：国内 AI 专用域名，供配置单独直连及使用国内 DNS。白名单中的精确地址也可作为专用认证端点补充，不扩大到整个共享平台。
+- `Mihomo/ForeignAI.yaml`、`Egern/ForeignAI.yaml`、`Loon/ForeignAI.list`、`Surge/ForeignAI.list`：从各客户端的 GlobalAI 提取经 `config-rules/policy.json` 审核的专用 AI 域名。保留常见海外 AI 服务和精准 Copilot 地址，排除通用云域名、国内 AI、共享 IP/ASN、进程及关键词规则；新增顶级服务域名需更新白名单，已有服务下的源站新增域名继续同步。
+- `Mihomo/DomesticAI.yaml`、`Egern/DomesticAI.yaml`、`Loon/DomesticAI.list`、`Surge/DomesticAI.list`：国内 AI 专用域名，供配置单独直连及使用国内 DNS。白名单中的精确地址也可作为专用认证端点补充，不扩大到整个共享平台。
 - `Egern/NetEaseMusic.yaml`：仅为以 `%` 开头的未引用 YAML 列表值补引号，保留规则值和署名。源站以后修正时继续正常生成。
 - `Mihomo/WebRTC.list`：明确的 STUN/TURN 主机清单，无全局端口规则；配置可再限定 UDP。此规则不承诺完整阻止 WebRTC 泄漏。
 
@@ -39,7 +39,17 @@ https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/cur
 https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/custom/Loon/ForeignAI.list, policy=AI, tag=ForeignAI, enabled=true
 ```
 
-`GlobalAI` 是国内外混合的原始完整规则，包含关键词和 IP/ASN 条目；`ForeignAI` 与 `DomesticAI` 是分别筛选的专用域名集。工作流每次同步后都会自动生成 Loon 文件；客户端仍需启用远程规则的更新。`policy=` 后的策略名需与实际配置一致，`[Host]` 中的 DNS 映射另行配置。
+Surge 在 `[Rule]` 中引用以下规则，放在 Google、Microsoft、GitHub、China、Global 等大合集及 `FINAL` 之前；将 `AI` 替换为已有的代理策略或策略组名：
+
+```ini
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/custom/Surge/DomesticAI.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/custom/Surge/ForeignAI.list,AI,update-interval=86400
+```
+
+Surge 拆分文件采用 `DOMAIN` / `DOMAIN-SUFFIX` 规则行，使用 `RULE-SET` 引用。原始备份还提供上游的完整规则、`domain-set`、`rule-set` 和 `.sgmodule` 附属模块；其中 `domain-set` 使用 `DOMAIN-SET` 引用，模块按 Surge 的模块方式安装。
+
+`GlobalAI` 是国内外混合的原始完整规则，包含关键词和 IP/ASN 条目；`ForeignAI` 与 `DomesticAI` 是分别筛选的专用域名集。工作流每次同步后都会自动生成四个客户端的拆分文件；客户端仍需启用远程规则的更新。Loon 的 `policy=` 后策略名和 Surge 的 `AI` 需与实际配置一致，DNS 映射另行配置。
 
 - 首页：顶部导航与紧凑规则表格，中英文名称、说明、来源搜索，客户端、规则类型、文件格式和下架状态筛选；同 ID 的规则合并展示，筛选需在同一客户端记录上同时满足。文件名下方可选择客户端和格式，直接复制对应地址，条数和日期随所选客户端更新。“全部”客户端的默认复制优先选未下架的 Mihomo classical 文件，再选其他完整规则。
 - `/rules/<id>/`：各客户端的条数、日期、全部格式、来源、实际 SHA-256、复制订阅地址与下载。
@@ -62,13 +72,16 @@ https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/cur
 | Mihomo IP YAML / MRS | `current/rules/Mihomo/ipcidr/Google.yaml` / `current/rules/Mihomo/ipcidr-mrs/Google.mrs` |
 | Mihomo 剩余规则 | `current/rules/Mihomo/classical-rest/Google.yaml` |
 | Loon 完整规则 / 域名集合 / 规则集合 | `current/rules/Loon/rules/Google.list` / `current/rules/Loon/domain-set/Google.list` / `current/rules/Loon/rule-set/Google.list` |
-| 附属模块 / 插件 | `current/rules/Egern/mitm/<name>.module` / `current/rules/Loon/mitm/<name>.plugin` |
+| Surge 完整规则 / 域名集合 / 规则集合 | `current/rules/Surge/rules/Google.list` / `current/rules/Surge/domain-set/Google.list` / `current/rules/Surge/rule-set/Google.list` |
+| 附属模块 / 插件 | `current/rules/Egern/mitm/<name>.module` / `current/rules/Loon/mitm/<name>.plugin` / `current/rules/Surge/mitm/<name>.sgmodule` |
 
 网站显示和下载均使用同一 `fileName`。Mihomo 的 `classical`、`domain`、`ipcidr` 格式应匹配对应 `behavior`；YAML 使用 `format: yaml`，MRS 使用 `format: mrs`。
 
 **此次升级删除旧 UUID 目录，以及原先的 `rules.yaml`、`classical.yaml` 等旧地址，不提供兼容别名或重定向。** 已有订阅需要从详情页重新复制地址，或重新导入更新后的配置。规则改名后地址随名称变化。非法文件名和同目录重名（含仅大小写不同）会阻止发布，避免覆盖。
 
 `npm run migrate:names` 可离线迁移整个已有快照，包含下架规则；它逐文件校验原内容，重建输出目录、清除旧路径，然后整批发布。重复执行安全；迁移不修改正文、哈希、规则更新时间、文件变更时间或最近上游同步成功时间。工作流在同步之前自动执行此步骤，后续同步也使用相同命名规则。
+
+新增客户端时，离线迁移和校验先检查旧快照中已有的客户端，下一次完整同步再加入新客户端。首次升级 Surge 时请保持工作流的 `sync` 开启，成功后才会生成 Surge 原始备份与 AI 拆分文件。
 
 时间统一按 **Asia/Shanghai** 显示：
 
@@ -100,7 +113,7 @@ npm run build
 npm run preview
 ```
 
-测试使用本地 HTTP 源和临时目录，不访问原站；覆盖旧布局迁移、重复迁移、改名及旧路径清理、命名冲突、二进制字节、增量复用、三类日期、下架保留、哈希异常、HTML 错误页、404、超时、非预期来源、失败回滚、重试及检索筛选。
+测试使用本地 HTTP 源和临时目录，不访问原站；覆盖旧布局迁移、重复迁移、改名及旧路径清理、新增 Surge 客户端、AI 拆分、命名冲突、二进制字节、增量复用、三类日期、下架保留、哈希异常、HTML 错误页、404、超时、非预期来源、失败回滚、重试及检索筛选。
 
 ## 手动同步和恢复
 

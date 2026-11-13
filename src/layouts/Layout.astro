@@ -5,7 +5,7 @@ import Icon from '../components/Icon.astro';
 import { loadStatus } from '../lib/data';
 import { base, formatDate } from '../lib/format';
 interface Props { title: string; active?: string; description?: string }
-const { title, active = 'catalog', description = 'Egern、Mihomo、Loon 分流规则每日备份。搜索规则，查看更新时间，复制备份订阅地址。' } = Astro.props;
+const { title, active = 'catalog', description = 'Egern、Mihomo、Loon、Surge 分流规则每日备份。搜索规则，查看更新时间，复制备份订阅地址。' } = Astro.props;
 const status = await loadStatus();
 ---
 <!doctype html>
