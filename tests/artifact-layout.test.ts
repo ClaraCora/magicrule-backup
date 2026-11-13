@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { artifactLocation, pathRegistry, ruleFile } from '../scripts/artifact-layout.ts';
+import { artifactLocation, pathRegistry, publishedLocation, ruleFile } from '../scripts/artifact-layout.ts';
 
 test('rule names remain the basename while directories distinguish formats and clients', () => {
   const yaml = artifactLocation('Mihomo', 'Google', 'classical', 'yaml', 'example/rules');
@@ -21,4 +21,19 @@ test('unsafe names, escaping paths, and case-insensitive filename collisions fai
   const claim = pathRegistry();
   claim('current/rules/Loon/rules/Google.list', 'first');
   assert.throws(() => claim('current/rules/Loon/rules/google.list', 'second'), /collision.*first; second/);
+});
+
+test('published addresses preserve named and legacy paths and reject a different repository or client', () => {
+  for (const relative of ['current/rules/Surge/rules/GlobalAI.list', 'current/rules/Surge/old-id/rules.list']) {
+    for (const branch of ['refs/heads/data', 'data']) {
+      const artifact = { path: relative, url: `https://raw.githubusercontent.com/example/rules/${branch}/${relative}`, extension: 'list' };
+      const location = publishedLocation('Surge', artifact, 'example/rules');
+      assert.equal(location.path, artifact.path);
+      assert.equal(location.url, artifact.url);
+      assert.equal(location.fileName, relative.split('/').at(-1));
+      assert.throws(() => publishedLocation('Loon', artifact, 'example/rules'), /location mismatch/);
+      assert.throws(() => publishedLocation('Surge', artifact, 'different/repository'), /location mismatch/);
+      assert.throws(() => publishedLocation('Surge', { ...artifact, extension: 'yaml' }, 'example/rules'), /Invalid published artifact path/);
+    }
+  }
 });

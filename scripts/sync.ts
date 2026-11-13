@@ -3,7 +3,7 @@ import { cp, mkdir, readFile, writeFile, rm, access } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { Artifact, Catalog, Change, Rule, SyncRun, SyncStatus, Variant } from '../src/lib/types.ts';
-import { artifactLocation, pathRegistry, publishSnapshot, ruleFile, storedBytes } from './artifact-layout.ts';
+import { artifactLocation, pathRegistry, publishedLocation, publishSnapshot, ruleFile, storedBytes } from './artifact-layout.ts';
 
 export interface SyncOptions {
   source: string;
@@ -185,7 +185,9 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
       const artifacts: Artifact[] = [];
       for (const artifact of manifest.artifacts) {
         segment(artifact.key); segment(artifact.ext);
-        const location = artifactLocation(client, rule.name, artifact.key, artifact.ext, options.repository);
+        const old = prior?.artifacts.find(item => item.key === artifact.key && item.extension === artifact.ext);
+        const initialLocation = artifactLocation(client, rule.name, artifact.key, artifact.ext, options.repository);
+        const location = old ? publishedLocation(client, old, options.repository) : initialLocation;
         const identity = `${artifact.key}.${artifact.ext}`;
         if (keys.has(identity)) throw new Error(`Duplicate artifact: ${client}/${rule.id}/${identity}`);
         keys.add(identity);
@@ -195,7 +197,6 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         const sourceUrl = urlFor(artifact.url);
         const expectedHash = artifact.dedupe?.bytes_sha256;
         if (expectedHash && !/^[a-f0-9]{64}$/i.test(expectedHash)) throw new Error(`Invalid artifact hash: ${sourceUrl}`);
-        const old = prior?.artifacts.find(item => item.key === artifact.key && item.extension === artifact.ext);
         let bytes: Buffer | undefined;
         if (expectedHash && old && (old.sha256 === expectedHash || old.expectedSha256 === expectedHash) && await present(ruleFile(root, old.path))) {
           const cached = await readFile(ruleFile(root, old.path));
@@ -268,10 +269,10 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
     for (const rule of oldCatalog.rules) for (const variant of rule.variants) {
       if (options.clients.includes(variant.client) && !variant.archived && !seen.has(`${variant.client}/${rule.id}`)) changes.push({ id: rule.id, name: rule.name, client: variant.client, kind: 'removed' });
     }
-    // Rebuild archived files too; never leave obsolete or legacy paths in the output tree.
+    // Rebuild archived files at their published addresses too.
     for (const rule of grouped.values()) for (const variant of rule.variants.filter(v => v.archived)) {
       for (const artifact of variant.artifacts) {
-        const location = artifactLocation(variant.client, variant.name, artifact.key, artifact.extension, options.repository);
+        const location = publishedLocation(variant.client, artifact, options.repository);
         claimPath(location.path, `${variant.client}/${rule.id}/${artifact.key}.${artifact.extension} (archived)`);
         const bytes = await storedBytes(root, artifact);
         const file = path.join(staging, ...location.path.split('/').slice(1));
@@ -279,6 +280,10 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         await writeFile(file, bytes);
         Object.assign(artifact, location);
       }
+    }
+    const publishedPaths = new Set([...grouped.values()].flatMap(rule => rule.variants.flatMap(variant => variant.artifacts.map(artifact => artifact.path))));
+    for (const rule of oldCatalog.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) {
+      if (!publishedPaths.has(artifact.path)) throw new Error(`Refusing to remove a published rule address: ${artifact.path}`);
     }
     const catalog: Catalog = { schemaVersion: 1, clients: options.clients, rules: [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name, 'en')) };
     const successfulAt = (options.now?.() || new Date()).toISOString();

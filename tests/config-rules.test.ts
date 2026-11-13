@@ -66,6 +66,12 @@ test('derived outputs are repeatable, preserve raw inputs and stay published whe
     await writeFile(path.join(root, 'current/catalog.json'), JSON.stringify(catalog));
     const first = await generateConfigRules(root);
     assert.equal(first.files.length, 10);
+    assert.deepEqual(first.files.map(file => file.file).sort(), [
+      'Egern/DomesticAI.yaml', 'Egern/ForeignAI.yaml', 'Egern/NetEaseMusic.yaml',
+      'Loon/DomesticAI.list', 'Loon/ForeignAI.list',
+      'Mihomo/DomesticAI.yaml', 'Mihomo/ForeignAI.yaml', 'Mihomo/WebRTC.list',
+      'Surge/DomesticAI.list', 'Surge/ForeignAI.list',
+    ], 'published configuration file paths are a compatibility contract');
     assert.deepEqual(await generateConfigRules(root), first);
     for (const [file, text] of originals) assert.equal(await readFile(path.join(root, file), 'utf8'), text);
     const foreign = await readFile(path.join(root, 'current/custom/Loon/ForeignAI.list'), 'utf8');

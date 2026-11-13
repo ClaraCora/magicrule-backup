@@ -2,7 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { pool, verifyArtifact } from './sync.ts';
-import { artifactLocation, pathRegistry, storedBytes } from './artifact-layout.ts';
+import { pathRegistry, publishedLocation, storedBytes } from './artifact-layout.ts';
 import type { Catalog, SyncStatus } from '../src/lib/types.ts';
 
 export async function verifySnapshot(root: string, config: { clients: string[]; repository: string }, requireNamed = true) {
@@ -40,7 +40,7 @@ export async function verifySnapshot(root: string, config: { clients: string[]; 
         const artifact = variant.artifacts.find(a => a.key === source.key && a.extension === source.ext);
         if (!artifact) throw new Error('Missing artifact: ' + client + '/' + id + '/' + identity);
         if (requireNamed) {
-          const location = artifactLocation(client, variant.name, artifact.key, artifact.extension, config.repository);
+          const location = publishedLocation(client, artifact, config.repository);
           if (artifact.path !== location.path || artifact.url !== location.url || artifact.fileName !== location.fileName) throw new Error('Artifact naming mismatch: ' + client + '/' + id + '/' + identity);
         }
         claimPath(artifact.path, client + '/' + id + '/' + identity);

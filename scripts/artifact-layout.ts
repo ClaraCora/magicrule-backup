@@ -14,6 +14,18 @@ export function artifactLocation(client: string, name: string, key: string, exte
   return { fileName, path: relative, url: `https://raw.githubusercontent.com/${repository}/refs/heads/data/${relative.split('/').map(encodeURIComponent).join('/')}` };
 }
 
+export function publishedLocation(client: string, artifact: Pick<Artifact, 'path' | 'url' | 'extension'>, repository: string) {
+  const parts = artifact.path.split('/');
+  const fileName = parts[4] || '';
+  const suffix = `.${artifact.extension}`;
+  if (parts.length !== 5 || !fileName.endsWith(suffix)) throw new Error(`Invalid published artifact path: ${artifact.path}`);
+  const location = artifactLocation(client, fileName.slice(0, -suffix.length), parts[3], artifact.extension, repository);
+  if (artifact.path !== location.path || ![location.url, location.url.replace('/refs/heads/data/', '/data/')].includes(artifact.url)) {
+    throw new Error(`Published artifact location mismatch: ${artifact.path}`);
+  }
+  return { fileName, path: artifact.path, url: artifact.url };
+}
+
 export function pathRegistry() {
   const paths = new Map<string, string>();
   return (relative: string, owner: string) => {

@@ -38,7 +38,7 @@ jobs:
       - run: npm run check && npm test
       - name: Prepare data worktree
         run: npm run prepare:data
-      - name: Migrate and verify named rule files offline
+      - name: Validate published rule addresses offline
         run: npm run migrate:names
       - name: Restore verified download cache
         uses: actions/cache@v4

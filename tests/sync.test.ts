@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
 import { createHash } from 'node:crypto';
-import { mkdtemp, mkdir, readFile, writeFile, readdir, rename, rm, access } from 'node:fs/promises';
+import { cp, mkdtemp, mkdir, readFile, writeFile, readdir, rename, rm, access } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { sync, verifyArtifact } from '../scripts/sync.ts';
@@ -70,7 +70,7 @@ test('adding Surge preserves the old snapshot offline and syncs all Surge artifa
 
 test('complete snapshots, incremental reuse, timestamps, delisting, rollback and retry', async t => {
   const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-test-'));
-  const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false };
+  const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false, duplicate: false };
   const binary = Buffer.from([0x4d, 0x52, 0x53, 0, 255, 0, 1]);
   let origin = '';
   const rule = (client: string, id: string) => ({ id, name: id === 'a' ? state.nameA : id === 'b' ? state.nameB : 'NewRule', chinese_name: id === 'a' ? '示例' : '保留', manifest: `${origin}/data/rules/${client}/${id}/manifest.json`, types: ['DOMAIN'], total_line_count: 1, providers: ['https://example.com/author'], ...(id === 'a' ? { rule_updated_at: '2026-01-01T00:00:00Z' } : {}) });
@@ -81,7 +81,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
     if (url.pathname.startsWith('/data/meta/')) return void res.end('{}');
     if (url.pathname.startsWith('/data/index/')) {
       const client = url.pathname.includes('Loon') ? 'Loon' : 'Mihomo';
-      const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : [])] : [rule(client, 'a')];
+      const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : []), ...(state.duplicate ? [rule(client, 'd')] : [])] : [rule(client, 'a')];
       return void res.end(JSON.stringify({ client, generated_at: '2026-11-01T00:00:00Z', rules }));
     }
     if (url.pathname.endsWith('/manifest.json')) {
@@ -89,7 +89,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
       const isBinary = client === 'Mihomo';
       const bytes = isBinary ? binary : Buffer.from(`DOMAIN,${id}${state.version}.example\n`);
       const artifactUrl = state.invalid === 'origin' ? 'https://unexpected.example/file.list' : `${origin}/artifacts/${client}-${id}-${state.version}.${isBinary ? 'mrs' : 'list'}`;
-      return void res.end(JSON.stringify({ client, total_line_count: 1, artifacts: [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
+      return void res.end(JSON.stringify({ client, total_line_count: 1, artifacts: state.invalid === 'missing-artifact' ? [] : [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
     }
     if (url.pathname.startsWith('/artifacts/')) {
       if (state.invalid === 'timeout') return;
@@ -98,7 +98,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
       if (state.invalid === 'hash') return void res.end('corrupt');
       if (state.retry > 0) { state.retry--; res.statusCode = 503; return void res.end('retry'); }
       const isBinary = url.pathname.endsWith('.mrs');
-      const id = /-(a|b|c)-/.exec(url.pathname)![1];
+      const id = /-(a|b|c|d)-/.exec(url.pathname)![1];
       res.setHeader('Content-Type', 'application/octet-stream');
       return void res.end(isBinary ? binary : Buffer.from(`DOMAIN,${id}${state.version}.example\n`));
     }
@@ -115,27 +115,36 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   const original = await catalog();
   assert.equal(original.rules.find(r => r.id === 'b')!.variants[0].sourceUpdatedAt, null, 'generation time must not masquerade as rule update');
   assert.deepEqual(await readFile(path.join(directory, 'current/rules/Mihomo/rules/Example.mrs')), binary, 'binary bytes are preserved');
-  // Turn the fixture into the previously published UUID layout, including an obsolete file.
+  // Previously published UUID addresses must survive offline validation too.
+  const legacyDirectory = path.join(directory, 'legacy');
+  await cp(path.join(directory, 'current'), path.join(legacyDirectory, 'current'), { recursive: true });
   const legacy = structuredClone(original);
   for (const rule of legacy.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) {
     const oldPath = `current/rules/${variant.client}/${rule.id}/${artifact.key}.${artifact.extension}`;
-    await mkdir(path.dirname(path.join(directory, oldPath)), { recursive: true });
-    await rename(path.join(directory, artifact.path), path.join(directory, oldPath));
+    await mkdir(path.dirname(path.join(legacyDirectory, oldPath)), { recursive: true });
+    await rename(path.join(legacyDirectory, artifact.path), path.join(legacyDirectory, oldPath));
     artifact.path = oldPath;
     artifact.url = `https://raw.githubusercontent.com/example/rules/refs/heads/data/${oldPath}`;
     Reflect.deleteProperty(artifact, 'fileName');
   }
-  await writeFile(path.join(directory, 'current/catalog.json'), JSON.stringify(legacy));
-  await writeFile(path.join(directory, 'current/rules/Loon/a/obsolete.list'), 'unused');
+  await writeFile(path.join(legacyDirectory, 'current/catalog.json'), JSON.stringify(legacy));
+  await writeFile(path.join(legacyDirectory, 'current/rules/Loon/a/obsolete.list'), 'unused');
   const initialStatus = await readFile(path.join(directory, 'current/status.json'));
   const initialHistory = await readFile(path.join(directory, 'current/history.json'));
-  assert.equal((await migrateNames(directory, options)).movedFiles, 3);
-  assert.deepEqual(await catalog(), original, 'migration changes only layout metadata');
-  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), initialStatus);
-  assert.deepEqual(await readFile(path.join(directory, 'current/history.json')), initialHistory);
-  await assert.rejects(access(path.join(directory, 'current/rules/Loon/a/obsolete.list')));
-  assert.equal((await migrateNames(directory, options)).movedFiles, 0, 'repeat migration is idempotent');
-  assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 3);
+  const validatedLegacy = await migrateNames(legacyDirectory, options);
+  assert.equal(validatedLegacy.movedFiles, 0);
+  assert.ok('updatedFiles' in validatedLegacy);
+  assert.equal(validatedLegacy.updatedFiles, 3);
+  for (const rule of legacy.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) artifact.fileName = path.posix.basename(artifact.path);
+  assert.deepEqual(JSON.parse(await readFile(path.join(legacyDirectory, 'current/catalog.json'), 'utf8')), legacy, 'validation fills filenames without moving published addresses');
+  assert.deepEqual(await readFile(path.join(legacyDirectory, 'current/status.json')), initialStatus);
+  assert.deepEqual(await readFile(path.join(legacyDirectory, 'current/history.json')), initialHistory);
+  await assert.rejects(access(path.join(legacyDirectory, 'current/rules/Loon/a/obsolete.list')));
+  assert.equal((await migrateNames(legacyDirectory, options)).movedFiles, 0, 'repeat validation is idempotent');
+  assert.equal((await verifySnapshot(legacyDirectory, options)).verifiedFiles, 3);
+  await sync({ ...options, dataDirectory: legacyDirectory });
+  for (const rule of legacy.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) await access(path.join(legacyDirectory, artifact.path));
+  assert.equal((await verifySnapshot(legacyDirectory, options)).verifiedFiles, 3);
   state.day++;
   const second = await sync(options);
   assert.equal(second.downloadedFiles, 0); assert.equal(second.reusedFiles, 3);
@@ -143,12 +152,19 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   state.day++; state.nameA = 'Renamed';
   const renamed = await sync(options);
   assert.equal(renamed.downloadedFiles, 0, 'renaming reuses previously verified bytes');
-  await assert.rejects(access(path.join(directory, 'current/rules/Loon/rules/Example.list')));
-  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/Renamed.list'), 'utf8'), 'DOMAIN,a1.example\n');
+  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/Example.list'), 'utf8'), 'DOMAIN,a1.example\n');
+  await assert.rejects(access(path.join(directory, 'current/rules/Loon/rules/Renamed.list')));
+  const renamedVariant = (await catalog()).rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Loon')!;
+  assert.equal(renamedVariant.name, 'Renamed');
+  assert.equal(renamedVariant.artifacts[0].url, original.rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Loon')!.artifacts[0].url);
+  assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 3);
+  assert.equal((await migrateNames(directory, options)).movedFiles, 0);
+  await access(path.join(directory, 'current/rules/Loon/rules/Example.list'));
   assert.equal((await catalog()).rules.find(r => r.id === 'a')!.variants[0].fileChangedAt, original.rules.find(r => r.id === 'a')!.variants[0].fileChangedAt);
-  state.day++; state.nameA = 'Example'; await sync(options);
   state.day++; state.version++;
   await sync(options);
+  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/Example.list'), 'utf8'), 'DOMAIN,a2.example\n', 'renamed rules keep updating at the original address');
+  state.day++; state.nameA = 'Example'; await sync(options);
   const updated = await catalog();
   assert.notEqual(updated.rules[0].variants[0].fileChangedAt, original.rules[0].variants[0].fileChangedAt);
   const binaryVariant = updated.rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Mihomo')!;
@@ -163,7 +179,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   assert.equal(archivedMigration.retainedFiles, 1, 'offline migration also verifies and preserves archived artifacts');
   const before = await readFile(path.join(directory, 'current/catalog.json'));
   const statusBefore = await readFile(path.join(directory, 'current/status.json'));
-  for (const invalid of ['hash', 'html', '404', 'origin', 'timeout']) {
+  for (const invalid of ['hash', 'html', '404', 'origin', 'timeout', 'missing-artifact']) {
     state.invalid = invalid; state.version++;
     await assert.rejects(sync({ ...options, timeoutMs: invalid === 'timeout' ? 100 : options.timeoutMs }));
     assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), before, `${invalid} must not publish a partial catalog`);
@@ -179,7 +195,11 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/NewRule.list'), 'utf8'), `DOMAIN,c${state.version}.example\n`);
   const validCatalog = await readFile(path.join(directory, 'current/catalog.json'));
   const validStatus = await readFile(path.join(directory, 'current/status.json'));
-  for (const name of ['example', '../escape', 'CON', 'Trailing.']) {
+  state.duplicate = true;
+  await assert.rejects(sync(options), /collision/);
+  assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), validCatalog);
+  state.duplicate = false;
+  for (const name of ['../escape', 'CON', 'Trailing.']) {
     state.nameB = name;
     await assert.rejects(sync(options), /collision|Unsafe rule filename/);
     assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), validCatalog);
