@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T11:50:49.186483+00:00",
+  "generated_at": "2026-11-13T20:06:45.727532+00:00",
   "client": "Egern",
   "rule": "Grok",
-  "rule_updated_at": "2026-07-28T13:21:08.920289+00:00",
+  "rule_updated_at": "2026-11-13T20:06:33.772217+00:00",
   "type_counts": {
-    "domain_suffix_set": 4
+    "domain_suffix_set": 5
   },
-  "total_line_count": 4,
+  "total_line_count": 5,
   "artifacts": [
     {
       "key": "rules",
@@ -19,9 +19,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "81dab771e49d1d2257704c17daecdfbf183dd6a5edc4b9147a99550335e4d510",
-        "bytes_sha256": "8250b270977787c9f6bb6e663dc1415749ca5668088a476d3aa3f60ce8bda44f",
-        "semantic_sha256": "34692d9f0413df8f6873d01e7319fc26375b074aa8a2f568d1bfd95b151041ab",
+        "fingerprint": "50d9e1fc4cc3f700f49a6315daaef6369bd0d1d4c410f60c2535b152c881b0a4",
+        "bytes_sha256": "b25f919b145b9f72d17b6e9585ccc7b31cfca321c9d00b2faf4ae785e1c40f44",
+        "semantic_sha256": "03014ef1098728295401dd07c9fa9e2bedae767b4bb04fe1bd553f15ca5c45f8",
         "normalized_header_lines": 4,
         "shared": true
       }

@@ -1,12 +1,13 @@
 # NAME: Grok
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:46:53
+# UPDATED: 2026-11-14 04:06:39
 # BEHAVIOR: domain
-# DOMAIN-SUFFIX: 4
+# DOMAIN-SUFFIX: 5
 
 payload:
 - '.grok.com'
 - '.grok.x.com'
+- '.grokbot.com'
 - '.grokipedia.com'
 - '.x.ai'

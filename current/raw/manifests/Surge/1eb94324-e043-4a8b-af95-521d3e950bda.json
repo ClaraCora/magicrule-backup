@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T21:27:04.149478+00:00",
+  "generated_at": "2026-11-13T23:22:10.562882+00:00",
   "client": "Surge",
   "rule": "AdGuardSDNSFilterDirect",
-  "rule_updated_at": "2026-11-12T21:25:29.676313+00:00",
+  "rule_updated_at": "2026-11-13T23:20:42.702729+00:00",
   "type_counts": {
-    "DOMAIN": 189914,
+    "DOMAIN": 190358,
     "DOMAIN-SUFFIX": 4,
     "IP-CIDR": 74
   },
-  "total_line_count": 189992,
+  "total_line_count": 190436,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "149d66478a0d6f300fbe7278de34f83be75fa2bc70b9dd4f0ae24ee87b6695e5",
-        "bytes_sha256": "18e3d5dd9ef1b6f7721fff1450335ba24af69cea86023b879178428477f480ed",
-        "semantic_sha256": "6296ab710301a4557d455513b85212c8f824e45fcc729559b5f503a8e9455892",
+        "fingerprint": "df634cd6a98dee70325a6273fcbf38567920863a1dcd5aadf5eca8a35f26e5d3",
+        "bytes_sha256": "6afdc9c353db320ccd33a848c4cc6fd6a26a541f55041ca37296a772988b6df6",
+        "semantic_sha256": "9653d70f9071e407e45c2f67e1cfe032acd763d1a2e4b95bad7d0641a892b2d8",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,9 +39,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "e116ebc53e420f64022ee6f182c6aaa0f36f1f9b6c56be203bfebc4e82e704a2",
-        "bytes_sha256": "87f61fbd7c993adec13e6e5d7b7c26310b45ac2da3d4172b95e6f216782d3721",
-        "semantic_sha256": "492949284d5e76447719fcf3f0476cebf408d4329a02a2ca0022f84d8476be6c",
+        "fingerprint": "0ff883ceedb2fcb3065773ec811bcb2da855141e2eeb23b94598a28ea4a2f029",
+        "bytes_sha256": "ff463e4f5ca478e2cdf930aa66484ce210ca00b9c1a9011ba20851a38a9a6977",
+        "semantic_sha256": "7f74019a5ca9dc6fd5f4b430e67ff7ef0147b264050b9e6c78c970df796c3d69",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -58,7 +58,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "732e8e688b22db4371747411e8311b228eefdce464da0797f615044f72fbcbe4",
-        "bytes_sha256": "10804bdf9db9aa5b2d58f7e0228bdd8e8b5fd1496c7b686794fe6e1a65fe712a",
+        "bytes_sha256": "69eea699202af6ab5231de91d8413bd25d41814a214601f0dfe748bff3771ea9",
         "semantic_sha256": "2c28d32ed818197823f373526fbe3daa48e60886a976a51f12b8d46fbdfda7e9",
         "normalized_header_lines": 4,
         "shared": true

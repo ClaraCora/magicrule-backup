@@ -1,6 +1,6 @@
 {
   "client": "Egern",
-  "generated_at": "2026-11-13T00:59:43.985818+00:00",
+  "generated_at": "2026-11-13T23:43:40.131115+00:00",
   "rules": [
     {
       "id": "80294b1d-d7b7-48c1-a745-7eedcfbb22f4",
@@ -602,13 +602,13 @@
         "domain_suffix_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-12T21:25:45.290740+00:00",
+      "rule_updated_at": "2026-11-13T23:20:58.215354+00:00",
       "type_counts": {
-        "domain_set": 189914,
+        "domain_set": 190358,
         "domain_suffix_set": 4,
         "ip_cidr_set": 74
       },
-      "total_line_count": 189992,
+      "total_line_count": 190436,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/e66e9d5b252a034b354e80b2/manifest.json",
       "providers": [
         "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -698,19 +698,19 @@
         "url_regex_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-12T15:25:56.149829+00:00",
+      "rule_updated_at": "2026-11-13T23:34:21.200652+00:00",
       "type_counts": {
         "asn_set": 15,
         "domain_keyword_set": 210,
         "domain_set": 17500,
-        "domain_suffix_set": 273065,
+        "domain_suffix_set": 273621,
         "domain_wildcard_set": 22,
         "ip_cidr6_set": 6,
         "ip_cidr_set": 1035,
         "url_regex_set": 15,
         "user_agent_set": 1
       },
-      "total_line_count": 291869,
+      "total_line_count": 292425,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/4119fda6764d91cd981c1470/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
@@ -747,17 +747,17 @@
         "ip_cidr_set",
         "url_regex_set"
       ],
-      "rule_updated_at": "2026-11-12T15:25:57.437426+00:00",
+      "rule_updated_at": "2026-11-13T23:32:08.844592+00:00",
       "type_counts": {
         "domain_keyword_set": 164,
         "domain_set": 26932,
-        "domain_suffix_set": 162623,
+        "domain_suffix_set": 162995,
         "domain_wildcard_set": 15,
         "ip_cidr6_set": 4,
         "ip_cidr_set": 233,
         "url_regex_set": 5
       },
-      "total_line_count": 189976,
+      "total_line_count": 190348,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/fd0481088c2ca850d0f96f1d/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
@@ -3879,7 +3879,7 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-12T18:15:50.833355+00:00",
+      "rule_updated_at": "2026-11-13T15:08:26.029453+00:00",
       "type_counts": {
         "domain_keyword_set": 10,
         "domain_regex_set": 4,
@@ -3973,13 +3973,13 @@
         "ip_cidr6_set",
         "ip_cidr_set"
       ],
-      "rule_updated_at": "2026-11-13T00:44:52.186574+00:00",
+      "rule_updated_at": "2026-11-13T21:51:06.571642+00:00",
       "type_counts": {
         "asn_set": 5076,
         "ip_cidr6_set": 5424,
-        "ip_cidr_set": 12658
+        "ip_cidr_set": 12659
       },
-      "total_line_count": 23158,
+      "total_line_count": 23159,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/f2c540534e5ea7e064ee5a89/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
@@ -8622,17 +8622,17 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-12T23:38:23.985483+00:00",
+      "rule_updated_at": "2026-11-13T11:43:52.982789+00:00",
       "type_counts": {
         "domain_keyword_set": 53,
-        "domain_set": 1913,
+        "domain_set": 1914,
         "domain_suffix_set": 22364,
         "domain_wildcard_set": 61,
         "ip_cidr6_set": 4,
         "ip_cidr_set": 80,
         "user_agent_set": 9
       },
-      "total_line_count": 24484,
+      "total_line_count": 24485,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/d5c65c5bb25249badf18e3d1/manifest.json",
       "providers": [
         "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list",
@@ -9215,11 +9215,11 @@
       "types": [
         "domain_suffix_set"
       ],
-      "rule_updated_at": "2026-07-28T13:21:08.920289+00:00",
+      "rule_updated_at": "2026-11-13T20:06:33.772217+00:00",
       "type_counts": {
-        "domain_suffix_set": 4
+        "domain_suffix_set": 5
       },
-      "total_line_count": 4,
+      "total_line_count": 5,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/0cf39a34b0c51387cf0e38de/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community"
@@ -18733,15 +18733,15 @@
         "ip_cidr_set",
         "user_agent_set"
       ],
-      "rule_updated_at": "2026-11-12T02:18:27.827483+00:00",
+      "rule_updated_at": "2026-11-13T23:37:29.129240+00:00",
       "type_counts": {
         "domain_keyword_set": 1,
-        "domain_set": 3395,
+        "domain_set": 3399,
         "domain_suffix_set": 3765,
         "ip_cidr_set": 3,
         "user_agent_set": 1
       },
-      "total_line_count": 7165,
+      "total_line_count": 7169,
       "manifest": "https://rule2-ze9.pages.dev/data/rules/Egern/d8a8a1fc59d62d2d6f082f0a/manifest.json",
       "providers": [
         "https://github.com/v2fly/domain-list-community",

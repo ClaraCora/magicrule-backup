@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-12T23:43:19.647537+00:00",
+  "generated_at": "2026-11-13T11:47:39.951520+00:00",
   "client": "Egern",
   "rule": "Global",
-  "rule_updated_at": "2026-11-12T23:38:23.985483+00:00",
+  "rule_updated_at": "2026-11-13T11:43:52.982789+00:00",
   "type_counts": {
     "domain_wildcard_set": 61,
-    "domain_set": 1913,
+    "domain_set": 1914,
     "ip_cidr6_set": 4,
     "domain_suffix_set": 22364,
     "user_agent_set": 9,
     "domain_keyword_set": 53,
     "ip_cidr_set": 80
   },
-  "total_line_count": 24484,
+  "total_line_count": 24485,
   "artifacts": [
     {
       "key": "rules",
@@ -25,9 +25,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "558beab3bf43cb8224e8d88ff74124697c73fc85347837f34f1f6525d8762fdd",
-        "bytes_sha256": "a9a161ee0eb2c7f81f8484f21c11c8e70bb29dd7962cd972cea06869767ba2fb",
-        "semantic_sha256": "fdc82fe80b1d5bfda5a5efea5b7e1bead14a4b91d44c19d81ccbd981e47c36f4",
+        "fingerprint": "db29cfcf945567c6a096d3498eaef03b492d9238f7da9c540a1ee9e34a019420",
+        "bytes_sha256": "f8cbef76ac325fd392df1a2270dca65d2971b0d80a4954a5ff08f72343e4a214",
+        "semantic_sha256": "8a46894034ed73666f3453815cf4b12c1f726480cf2aee06d2e450c6ab4b5347",
         "normalized_header_lines": 4,
         "shared": true
       }
