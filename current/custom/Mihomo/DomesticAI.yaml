@@ -1,10 +1,10 @@
 # NAME: DomesticAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:41:40
+# UPDATED: 2026-11-14 23:19:47
 # DERIVED: scoped domains only; no shared cloud IP/ASN, process or keyword rules.
 # SOURCE: https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/GlobalAI.yaml
-# SOURCE-SHA256: cf09b01be62ae4e7c018bd589f95a722047ec595614245a0d12c60a82485f131
+# SOURCE-SHA256: f69ddd53a7bc59055c125cb16af8469cdf0f75d11250223018fe9c77b64059d7
 
 payload:
   - DOMAIN,api.hunyuan.cloud.tencent.com
@@ -23,9 +23,6 @@ payload:
   - DOMAIN-SUFFIX,cozebaas.cn
   - DOMAIN-SUFFIX,cozefn.cn
   - DOMAIN-SUFFIX,cozeide.cn
-  - DOMAIN-SUFFIX,deepseek.com
-  - DOMAIN-SUFFIX,deepseeksvc.com
-  - DOMAIN-SUFFIX,doubao.com
   - DOMAIN-SUFFIX,doudou.com
   - DOMAIN-SUFFIX,hailuoai.com
   - DOMAIN-SUFFIX,hunyuan.tencent.com
