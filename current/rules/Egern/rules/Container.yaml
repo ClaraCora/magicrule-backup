@@ -1,7 +1,7 @@
 # NAME: Container
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:50:46
+# UPDATED: 2026-11-17 18:21:43
 domain_suffix_set:
   - azurecr.io
   - docker.io
@@ -12,3 +12,5 @@ domain_suffix_set:
   - quay.io
   - registry.gitlab.com
   - registry.k8s.io
+domain_regex_set:
+  - ".+\\.dkr\\.ecr\\.[^\\.]+\\.amazonaws\\.com$"

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T11:42:37.498929+00:00",
+  "generated_at": "2026-11-17T07:30:21.601196+00:00",
   "client": "Mihomo",
   "rule": "HuaweiCloud",
   "rule_updated_at": "2026-07-26T07:04:20.500941+00:00",
   "type_counts": {
+    "IP-CIDR6": 3,
     "DOMAIN-SUFFIX": 291,
-    "IP-CIDR": 99,
-    "IP-CIDR6": 3
+    "IP-CIDR": 99
   },
   "total_line_count": 393,
   "artifacts": [
@@ -22,7 +22,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "dd4788aadc51f8e56f01717aebe039f370e508ba5db708d6d486fd9289445e23",
-        "bytes_sha256": "ab021686a480d1a67fc27e2a2a9030760d8f38b631cfdcc146ddbc063f8de5b3",
+        "bytes_sha256": "3df8a68a12c370085900139a8f061b0855df98fbb9618ba6ae9b9a3a0df89097",
         "semantic_sha256": "a9b1868cb04011c8a8ed9699f6ace9c7d7d1005501b002631b6e75ed38fb8066",
         "normalized_header_lines": 4,
         "shared": true
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6750461e326828756c0eaf2225f865a6f6d6104a828dfbf57b0a716754f938a9",
-        "bytes_sha256": "2f762cfd2ec2495398f2353fc87ebdd9eef4b6ba2920485242c9e756c0136991",
+        "bytes_sha256": "0a960ee952a404d740e3282c8e1f47aaf5f1b895d37590f380816b0ecb9502ac",
         "semantic_sha256": "28582fe1529051aba3bb476e133af926019d2f44770d4d76b4cab40f94224419",
         "normalized_header_lines": 4,
         "shared": true
@@ -76,7 +76,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c1bbb92bf3d8b65e7a18b4ca909c95cadd03bfbacb536498c126118c64f8b424",
-        "bytes_sha256": "0179e8b64be21b06d45afaab667c5982139dcd33ba2ffc22abd4264ea979397e",
+        "bytes_sha256": "acf0bafe2feda216713bc5d3b99e3df06c020688b3f4c30ca3c157a3549527c6",
         "semantic_sha256": "4b58c478827ab36c4e2d0cee46b3173411fb6a5c7e2ce6d86834a19a01489958",
         "normalized_header_lines": 4,
         "shared": true

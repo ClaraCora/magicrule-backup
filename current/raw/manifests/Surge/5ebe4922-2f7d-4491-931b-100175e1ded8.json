@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:43:43.988538+00:00",
+  "generated_at": "2026-11-17T12:21:28.868928+00:00",
   "client": "Surge",
   "rule": "AppleDirect",
-  "rule_updated_at": "2026-11-12T02:14:10.056406+00:00",
+  "rule_updated_at": "2026-07-26T07:36:56.803750+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3883,
-    "IP-CIDR": 14,
-    "DOMAIN": 45
+    "DOMAIN-SUFFIX": 21,
+    "IP-CIDR": 10,
+    "DOMAIN": 4
   },
-  "total_line_count": 3942,
+  "total_line_count": 35,
   "artifacts": [
     {
       "key": "rules",
@@ -17,13 +17,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_rules_f5e4fe91ff60b5d6.list",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "37111795b63975dd82f5364ba403588dd071c557d50f551c59f8d1b80184af56",
-        "bytes_sha256": "e7a40e636f0054b394e149fd6b4599a0e245cab2d5763d063a833b748ceda0b8",
-        "semantic_sha256": "214e62b4cde9f76045af7255fffefa581a73ff50ef87a24b513333f365656b3f",
+        "fingerprint": "49cf5e8b43fdc4c16ed689498e4388b61c7808c62eff6790e536dc62039238ff",
+        "bytes_sha256": "74578866ed191dd3a4ca5e11fe63c4b906e4dda7a639f0fc936f949559d86214",
+        "semantic_sha256": "19cd2dba8bf00e42a4f8cea1602c1d3f72cda0d531da68ab858c68b287fd5dc6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -35,13 +35,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_domain-set_2aa55f07ab383dae.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2948e620a142e18e0a6a20247628dacecbfc63e2e02da1431845b7dc6b4ea7fc",
-        "bytes_sha256": "c512c20ca4795785a9865b7e95a4d4671754991daf85aea18ac03b347b4cbf76",
-        "semantic_sha256": "630d9ad08a6d5e8f3c38da97746d1e55ab5e962aff10bfba0b5476436eaadab3",
+        "fingerprint": "9488872e563d1a386079ff1f1761ed2b472c3539e20d861ed385a6674e4d1bab",
+        "bytes_sha256": "a06868de9c67090e26cc57949d772903ef98abf7b0d8b9503ddb203b27a40a18",
+        "semantic_sha256": "61f7803e1af288a59d4bd3dfd089a30076dfdb408b1abf8a0fe5e2f32d4524c0",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -53,13 +53,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_rule-set_2f9413e0b04c3311.list",
       "binary": false,
       "role": "rule-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "d82ac7d60f7ff4a6b0f4546470ad1f68e8f0b4c6e00ff608b1be072055ce3d3a",
-        "bytes_sha256": "e50daccea8b892ebf394287bd3dd5b85fa17565f49d4a45a7b2f7c5788e06558",
-        "semantic_sha256": "64dbca87f3c25a759294ab99a502cd6a7e34ce684925c6caa4770ac39137d9d4",
+        "fingerprint": "9ff42fc445507f4e7403b0eb17b1b5b905c8c93289dcdf49f741cdd64e858224",
+        "bytes_sha256": "3d590419df3aa8d07e560ee4db73e0d41201f40b89d3e9348dbc208c5058e258",
+        "semantic_sha256": "2f352290b941229722a1840742915bf0517ae43ab2106d14a2ca9d003885e393",
         "normalized_header_lines": 4,
         "shared": true
       }

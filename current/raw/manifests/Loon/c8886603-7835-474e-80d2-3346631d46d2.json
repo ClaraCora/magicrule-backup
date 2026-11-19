@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T11:47:47.215432+00:00",
+  "generated_at": "2026-11-17T10:57:12.558893+00:00",
   "client": "Loon",
   "rule": "Copilot",
   "rule_updated_at": "2026-11-09T02:49:09.235464+00:00",
@@ -8,11 +8,11 @@
     "DOMAIN-KEYWORD": 5,
     "DOMAIN-SUFFIX": 305,
     "IP-ASN": 3,
-    "IP-CIDR": 4,
+    "IP-CIDR": 1,
     "IP-CIDR6": 2,
     "PROCESS-NAME": 14
   },
-  "total_line_count": 404,
+  "total_line_count": 401,
   "artifacts": [
     {
       "key": "rules",
@@ -25,9 +25,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "76d6ab3af4780eaf958423110eac04725bdc448b73c954c8d8f7807a54aad282",
-        "bytes_sha256": "1e0b3c3f0fd73d9967a6290501d8e4d9b7306b0bac80046db2bde1632dd3ea21",
-        "semantic_sha256": "e0499f70eeed2b641e8d6373f40418ca465adf2f516e12ddd9c38eddae7a1543",
+        "fingerprint": "c352642fbe41a749f264237fa1ee41a0b35e2b97b5643404c975c695969d9af1",
+        "bytes_sha256": "3040292c30ac5b787af4564dc8edff073ec70ed194eea7b0256618100eccf7c8",
+        "semantic_sha256": "7ce6b6d0c64945b325a2dbb123e7cf1f9a03201455babff505817c6dcfc0cfc7",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -44,7 +44,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "36a76f54fa0ff798e5031ccfe8b1e79e1547ad0c720a99bef3ed31f2a14f4c22",
-        "bytes_sha256": "df607c3e231d944d8a240e83836e38d38836c360afa9c482a6edd9eaeea6e739",
+        "bytes_sha256": "cd26fbfe78702e0eabfd72ce155f7e047f7a718a7f5a3c1af1453082d295ab32",
         "semantic_sha256": "53a520cae418b5f5173ebfcf6ed4e33a3cf937c7482ef6f54b6594ba89458cc9",
         "normalized_header_lines": 4,
         "shared": true
@@ -61,9 +61,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "79ff099db4297d404e06d23fb4c3c350ceec5bde7f66118c217e44d3d7695b7d",
-        "bytes_sha256": "8309bfe901fbeeb81ccea2fe52a1e5fe8e99239ea7bf7568833fc25cc3eec876",
-        "semantic_sha256": "137ec280ee7e42e2f3e7d838709599edee0fcd49cf2a6d89226b22ee8bbed1df",
+        "fingerprint": "7fad9197bb350a3fdb8ade84ec7985bdfddaa251b62745cf49148cfc54664cb0",
+        "bytes_sha256": "11b8e4ea683238e2f5a836d493454a67ff3b562588a0ee380250f0f939e83fa7",
+        "semantic_sha256": "eb0168b71d39bc2a11fd6e51e810f52de4d47e3a26536be0c9fd0f64e3c60b78",
         "normalized_header_lines": 4,
         "shared": true
       }

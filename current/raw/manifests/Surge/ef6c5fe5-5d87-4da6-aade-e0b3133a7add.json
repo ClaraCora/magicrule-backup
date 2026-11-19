@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:49:20.827683+00:00",
+  "generated_at": "2026-11-17T12:26:52.156866+00:00",
   "client": "Surge",
   "rule": "Naver",
   "rule_updated_at": "2026-07-26T06:52:16.721642+00:00",
   "type_counts": {
-    "DOMAIN": 2,
+    "IP-CIDR6": 50,
     "DOMAIN-SUFFIX": 52,
     "IP-CIDR": 144,
-    "IP-CIDR6": 50,
     "PROCESS-NAME": 1,
+    "DOMAIN": 2,
     "USER-AGENT": 1
   },
   "total_line_count": 250,
@@ -25,7 +25,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "18583a35e8a865372c6d97d447b35bc6c05c7321f62e729995dd1b3d63286f61",
-        "bytes_sha256": "1b8e0980c61fd80032a98b1ed22ccc83620c5336605e2601ac67b32b2e1e9955",
+        "bytes_sha256": "5ba575339f6e15c13f32bc8c8a73b6f92283102d7f4452f3640f7b992f49b783",
         "semantic_sha256": "aa457ffb361088d38a4ffcb4fbea0f70285de562af9a792cb8f05b35f892020f",
         "normalized_header_lines": 4,
         "shared": true
@@ -43,7 +43,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cba96973a649f3fd364ebefe97cc55a9494b147b2e27966987f1f07577691c3a",
-        "bytes_sha256": "b8888f1797471028ae82ad815f06aeca700a3650c9d71878f6666c989d207c2c",
+        "bytes_sha256": "1a9f07ad2aed0e26ebb8fcb7f0336d5f08178592425bbac8621cb0ecf7f33eed",
         "semantic_sha256": "37100a4da532e7bf75f630118977fbb5e30f051cb9eda99ad859cdb219f10b70",
         "normalized_header_lines": 4,
         "shared": true
@@ -61,7 +61,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "47780baad48bd75683d73a622b431d18673e2af5961bb014a4d92ad6c8e042cc",
-        "bytes_sha256": "aec1cd21b382872e3a17ad151c97275d6f02e0fc35024e49a108c5f0e82b06f5",
+        "bytes_sha256": "00a86235b567e4c2038293b4f1d8f5bea2f0afa13e9b545d68173282b702b6bb",
         "semantic_sha256": "247d5d000641fcbe95c762db71a107360b8d60a610048ada1b5849eab419cf2c",
         "normalized_header_lines": 4,
         "shared": true

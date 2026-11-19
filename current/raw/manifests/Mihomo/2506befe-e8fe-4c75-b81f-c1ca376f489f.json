@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T11:41:42.624090+00:00",
+  "generated_at": "2026-11-17T07:29:49.912572+00:00",
   "client": "Mihomo",
   "rule": "ClubhouseIP",
   "rule_updated_at": "2026-07-26T06:30:21.062861+00:00",
   "type_counts": {
-    "DOMAIN": 4,
-    "IP-CIDR": 100
+    "IP-CIDR": 100,
+    "DOMAIN": 4
   },
   "total_line_count": 104,
   "artifacts": [
@@ -21,7 +21,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "117106d917815f7db266512e23f6df555d5a8eb3e68b791b6c2e1d89b04398b7",
-        "bytes_sha256": "73afdee46bfe17b49a7db49c359029b66778d2a1943730e6ba2eeca56f0835e9",
+        "bytes_sha256": "6880b4e548d4212da43d1829e64161d980c1731e0be31df2967741fac5db5359",
         "semantic_sha256": "fe60cc54b6c716be2542fc49fbbda414e3c6bac51d4c7b250c161cfc2b4d11e6",
         "normalized_header_lines": 4,
         "shared": true
@@ -39,7 +39,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cb6a0ad36228bd6bd159a1f8bfab227641eb2024ee18513711e261afa70a9747",
-        "bytes_sha256": "77b81ad6f196676963d708e45e2f3a55c2d7d90343ca601c2fbd57229ad404fb",
+        "bytes_sha256": "cf48c3ebf2ad7137ba80f31b9b8c508f2bcdcfc9549b40468ea3b057a042fba3",
         "semantic_sha256": "9f787d9435c9b56c0d504833e8f226f2b37adc692506c57c849ed8307af711b5",
         "normalized_header_lines": 4,
         "shared": true
@@ -75,7 +75,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "48224ec0641a52d0406368d1cb1c8c862e418338c2c7fdfaf79da43b15434514",
-        "bytes_sha256": "9e39d578f64881b7e5754e9b9fdc9d47628734e8b9d48dc278713688e60ed0e8",
+        "bytes_sha256": "481ec3f7d2090b3fb4491191f48976d41b949e16ca8b60b70327035de8aadf36",
         "semantic_sha256": "949804d6f425a2e83093576c04821e7af709b91fd0b1c2f387208add6fa352d6",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:50:38.162653+00:00",
+  "generated_at": "2026-11-17T11:08:34.364077+00:00",
   "client": "Egern",
   "rule": "GooglePlay",
-  "rule_updated_at": "2026-07-26T08:22:11.647934+00:00",
+  "rule_updated_at": "2026-11-17T09:15:09.294981+00:00",
   "type_counts": {
+    "domain_regex_set": 2,
     "domain_set": 1,
     "domain_suffix_set": 7
   },
-  "total_line_count": 8,
+  "total_line_count": 10,
   "artifacts": [
     {
       "key": "rules",
@@ -20,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "54e084ff7eaeb20c1ba977791988b5f66927f78dd8eb2e69613544443dad1d73",
-        "bytes_sha256": "06c6c9cecd6e23c79ba7d4cdb602d6a955afb9edae0d7ca1a4b117b4957d6c94",
-        "semantic_sha256": "9348607bb68b43fbe644929731b5d4b640917b829325279267515063abcce583",
+        "fingerprint": "4aeed001a06f36be379d0af8bdecb5c5c3eaa63decd3900f2bfd5516c2422c25",
+        "bytes_sha256": "eeb788dcba4d42beb71ee232662d6a0d5a2afafa1620b006b0d35158705d9ea4",
+        "semantic_sha256": "5fcf62e1f926145412dab59109c8fc5edbdf82e934fb91c216da440b3ba89980",
         "normalized_header_lines": 4,
         "shared": true
       }

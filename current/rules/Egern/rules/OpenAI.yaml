@@ -1,7 +1,7 @@
 # NAME: OpenAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:50:55
+# UPDATED: 2026-11-17 20:47:56
 no_resolve: true
 domain_set:
   - browser-intake-datadoghq.com
@@ -54,6 +54,8 @@ domain_keyword_set:
   - chatgpt-async-webps-prod
   - codex
   - openai
+domain_regex_set:
+  - "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$"
 ip_cidr_set:
   - 199.47.142.0/23
   - 24.199.123.28/32

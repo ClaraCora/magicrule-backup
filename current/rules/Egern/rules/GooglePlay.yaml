@@ -1,7 +1,7 @@
 # NAME: GooglePlay
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:50:38
+# UPDATED: 2026-11-17 19:08:34
 domain_set:
   - redirector.c.play.google.com
 domain_suffix_set:
@@ -12,3 +12,6 @@ domain_suffix_set:
   - play.google.com
   - play.googleapis.com
   - xn--ngstr-lra8j.com
+domain_regex_set:
+  - "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$"
+  - "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$"

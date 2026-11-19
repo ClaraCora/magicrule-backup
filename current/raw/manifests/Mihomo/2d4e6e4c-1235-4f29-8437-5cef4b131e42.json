@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-11-12T11:41:58.298245+00:00",
+  "generated_at": "2026-11-17T12:19:20.483423+00:00",
   "client": "Mihomo",
   "rule": "Direct",
-  "rule_updated_at": "2026-11-12T02:30:59.503264+00:00",
+  "rule_updated_at": "2026-08-18T02:21:14.665713+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3324,
+    "DOMAIN-SUFFIX": 218,
     "DOMAIN-KEYWORD": 10,
-    "IP-CIDR": 5,
     "PROCESS-NAME": 36,
-    "DOMAIN": 43
+    "DOMAIN": 30
   },
-  "total_line_count": 3418,
+  "total_line_count": 294,
   "artifacts": [
     {
       "key": "classical",
@@ -19,13 +18,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_classical_055a900ccd414d6a.yaml",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f8ef6fe21aa51ee065107d0d51aa207b03139d14d2620b2a74a6f19419357f6b",
-        "bytes_sha256": "875e7a681434b0ec8edf9958f741b743e2d49ce128f387daf30b8fbb82742cb2",
-        "semantic_sha256": "195ed75b08547008a8bf681d2e3c489f7e6838a4b7442e7ed79b9ac30f51e175",
+        "fingerprint": "0b7463fe2bda50a65f099222138be9f7a72fd97d49daf9de569387e7cd189b31",
+        "bytes_sha256": "1ef875965d93da4b3023cc1cfd91f33cb1a6fc0d65371e9ec54c009980277618",
+        "semantic_sha256": "6d3e7bbc589333b452b43541d0fca87260c8669a19ad7f6ebc1885ffcde18dd6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -37,13 +36,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_domain_c5de40dc00467ccc.yaml",
       "binary": false,
       "role": "domain",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "7d4183b468be15c543b637c68626d47beb035355fae07f23932cf18a105d8964",
-        "bytes_sha256": "67974e93800ea73cbe9188bb212ab9fe21fa34730c32ba46a5dc2a32990b4e9b",
-        "semantic_sha256": "8e9d1178724fea8875de8ed38c9be75d2c95d6fadbd4719ff8669a6e5e70e1d4",
+        "fingerprint": "cde2f6454aa4db22d5415af7956d9d18c9ae39cb7334e022d91cbee62ec8f996",
+        "bytes_sha256": "3b638840a9189901a0776485162efbd5a0732314dae15f06c453f07e72d3cd40",
+        "semantic_sha256": "79ef0da3cdbc78431676fd571395b02db6ec34ea85ff1514f6b2bf45cabd9e8a",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -55,48 +54,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_domain-mrs_d32dc7585282de33.mrs",
       "binary": true,
       "role": "domain",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "38b8016ac9a39adde4d8cae6f286d831c5d025d4004b9276c9ca7a8d98fe9505",
-        "bytes_sha256": "a89ac2db81998d318f37112fb68b8d9cbf447c3cb153d48873564c9702d2997a",
-        "semantic_sha256": null,
-        "normalized_header_lines": 0,
-        "shared": true
-      }
-    },
-    {
-      "key": "ipcidr",
-      "label": "ipcidr",
-      "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_ipcidr_ab4ffadd3f4af167.yaml",
-      "binary": false,
-      "role": "ipcidr",
-      "recommended": true,
-      "empty": false,
-      "dedupe": {
-        "mode": "standard_header_normalized",
-        "fingerprint": "613364a91979d9a7b61566c5d5af3a743c8610288e9759280e405ae94254d382",
-        "bytes_sha256": "a25c9be8f319a38426067a17f448dc01f79dd5ed8761d949f0af95ee9def9052",
-        "semantic_sha256": "e6812cd2eb0f5bc1d695f3b81f83634aeef3f44736c37a177b5a0d78554dc543",
-        "normalized_header_lines": 4,
-        "shared": true
-      }
-    },
-    {
-      "key": "ipcidr-mrs",
-      "label": "ipcidr(mrs)",
-      "ext": "mrs",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_ipcidr-mrs_faf57333b166353f.mrs",
-      "binary": true,
-      "role": "ipcidr",
-      "recommended": true,
-      "empty": false,
-      "dedupe": {
-        "mode": "exact",
-        "fingerprint": "21684f0b3f3dfe735c0069a15d82826e540268545f147a48458ebe2969f3a589",
-        "bytes_sha256": "6ffe41672fea4fc022c7a3fcf6082ab97d8d133eda8cb43b19d7c488675ee8f9",
+        "fingerprint": "d82f1d950e2c7efbba407f41e66e51c14a4af7882b456a75a3819be77f0c81a4",
+        "bytes_sha256": "d29bf8050d7fa4101060b990bb67c9dddfa17b4fc048d408d1202d46f8bae59b",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -109,12 +72,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_classical-rest_5ccb1981211b5450.yaml",
       "binary": false,
       "role": "rule-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a6229f8927526b3e1a188c8384986b66ea58d78e3d9c2cecffdbfe3b84f75f24",
-        "bytes_sha256": "0a3c59712d6d41f8ddfc2678cd595f0b268de538eddc1f101e511aee5ff89ce6",
+        "bytes_sha256": "711722d093ba5e11bc8a127c7ec11a80a909c3e08a05045d40a70cd90678557e",
         "semantic_sha256": "302cf304693aa9780f189aae38256f3df1584f03c0d41793222f7dec92e508ba",
         "normalized_header_lines": 4,
         "shared": true

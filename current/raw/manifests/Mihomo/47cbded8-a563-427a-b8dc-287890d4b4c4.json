@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-11-12T11:42:54.882921+00:00",
+  "generated_at": "2026-11-17T12:51:32.753939+00:00",
   "client": "Mihomo",
   "rule": "iCloudPrivateRelay",
-  "rule_updated_at": "2026-11-12T03:22:52.166406+00:00",
+  "rule_updated_at": "2026-07-26T07:44:49.410029+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3638,
-    "IP-CIDR": 3,
-    "DOMAIN": 47
+    "DOMAIN-SUFFIX": 3,
+    "DOMAIN": 6
   },
-  "total_line_count": 3688,
+  "total_line_count": 9,
   "artifacts": [
     {
       "key": "classical",
@@ -21,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "810f255cb3f9be383b43c1a71a94ceafc5893088b3c59087e987d488e5eaf703",
-        "bytes_sha256": "46b79403c61fecee979871fa1144c22454308c4d50ce4f413796249c29471eff",
-        "semantic_sha256": "59980d6cbd11d881713bb77fb047bc50bf1163de68bb3cc199ea072a3741e9e8",
+        "fingerprint": "5ce69a8192f0e73e7b3ec316d51949cfa1615938e085e56dcb5c03a5c9a84af3",
+        "bytes_sha256": "05f4b761c1bd30ae4651176f31e532bd2ac5797ba621b8404e07108421b2427a",
+        "semantic_sha256": "5968b1e9035c2140face1bdf5250f3f6a4219a9703a2fa05404d8c6ed7a4300c",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "872e63c5adab62f726c8ad4552b316ec7a73ad7925b4eb2d235ae2b8f7ee4d93",
-        "bytes_sha256": "e44009d03dd43fc697ac875a2c6597436108abdf2fc32de08c9e679210600d4b",
-        "semantic_sha256": "ff1339210dadbb156e47fe437cfd44234a834f1866a03f8543f83ce26bf4aee8",
+        "fingerprint": "0bc54a619fb20d49c8e2df0fdf1d924e9da13f1ac4001abe86f1c33d7b58d814",
+        "bytes_sha256": "dc0a688e6048d24388630e756e36b887b7bde2294518a9b6c26508f14b24eea9",
+        "semantic_sha256": "f4347f1cf263679d300c0ed42174deab8f2def7940ccb178b7e18948649eb2a5",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,44 +56,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "4e5abf93116a8ed70d5411927d153bf82ee253aa52fcdaed2ec26843d883eb7d",
-        "bytes_sha256": "253f7899815e8553e480d81ec0f9cb3a1e448084a7118680133f05f14dca663d",
-        "semantic_sha256": null,
-        "normalized_header_lines": 0,
-        "shared": true
-      }
-    },
-    {
-      "key": "ipcidr",
-      "label": "ipcidr",
-      "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloudPrivateRelay_ipcidr_a872838844b43013.yaml",
-      "binary": false,
-      "role": "ipcidr",
-      "recommended": true,
-      "empty": false,
-      "dedupe": {
-        "mode": "standard_header_normalized",
-        "fingerprint": "007e6b874dd64836b5cafc62286f05f127d96ae8b1b9db52823930f4028981d2",
-        "bytes_sha256": "1fd0102a67fc1e7145c9091cdd87a2661a7b34b298448c7e5cba95dc98d9ff46",
-        "semantic_sha256": "5a9dad0f4e6b3b75fa439a680907f76efc48d00e1c550806d68c0074f40f4fc8",
-        "normalized_header_lines": 4,
-        "shared": true
-      }
-    },
-    {
-      "key": "ipcidr-mrs",
-      "label": "ipcidr(mrs)",
-      "ext": "mrs",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/iCloudPrivateRelay_ipcidr-mrs_4fed319774ed57b7.mrs",
-      "binary": true,
-      "role": "ipcidr",
-      "recommended": true,
-      "empty": false,
-      "dedupe": {
-        "mode": "exact",
-        "fingerprint": "697ed805254c82c9e3c50b3bd662ad563b259f57aebd10b30369a6d735ca6612",
-        "bytes_sha256": "2d2783d476967f3f5b094ccf108650e35c83c808b70fcf778f09838ffc0e1460",
+        "fingerprint": "c83a4f0995a13b462ab42018baefd04e1e8f32d3687b66c3a9c612885900e8ae",
+        "bytes_sha256": "28fd10916e40a3341227243d022eaea2f9bce48326ea19aa6c305fdd7d1f139a",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

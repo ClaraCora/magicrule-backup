@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-12T11:50:19.255162+00:00",
+  "generated_at": "2026-11-17T14:03:11.366708+00:00",
   "client": "Egern",
   "rule": "YouTube",
   "rule_updated_at": "2026-07-26T06:32:40.783538+00:00",
   "type_counts": {
     "domain_keyword_set": 1,
     "domain_set": 3,
-    "domain_suffix_set": 181,
+    "domain_suffix_set": 180,
     "domain_wildcard_set": 3,
     "ip_cidr6_set": 1,
     "ip_cidr_set": 2,
     "user_agent_set": 2
   },
-  "total_line_count": 193,
+  "total_line_count": 192,
   "artifacts": [
     {
       "key": "rules",
@@ -25,9 +25,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "84339c957e1bf238f5c5748b59c5e16885190fe57fc8ccbfdea5a803fe40fe50",
-        "bytes_sha256": "973b8569a80423a1f8f9d0609fd6162ea2d619524af06735f51ad9c60da74782",
-        "semantic_sha256": "a947e1296af3f0b43cbd2d2606d167626f32f36e382ca7bd7e9866f11741cc4f",
+        "fingerprint": "6a7e97375f27f9bbc934b074897fea6d5b34d8c6ee8cd9dc69a86ffa4c8d10d9",
+        "bytes_sha256": "14cc018f2035a771d40a58eebf406266357c85ff05b0d86c550f4a9a0d0f1510",
+        "semantic_sha256": "5812f73c5c7a3f442aad207c28242fef2a912bda2551c1ed17093cb95d5734b6",
         "normalized_header_lines": 4,
         "shared": true
       }

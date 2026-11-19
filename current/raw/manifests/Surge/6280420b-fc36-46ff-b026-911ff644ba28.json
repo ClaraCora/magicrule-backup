@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-12T11:43:51.790104+00:00",
+  "generated_at": "2026-11-17T14:13:21.057835+00:00",
   "client": "Surge",
   "rule": "Telegram",
-  "rule_updated_at": "2026-11-12T03:29:39.048307+00:00",
+  "rule_updated_at": "2026-10-09T15:59:00.347383+00:00",
   "type_counts": {
     "IP-CIDR6": 7,
-    "DOMAIN-SUFFIX": 3659,
+    "DOMAIN-SUFFIX": 24,
     "DOMAIN-KEYWORD": 1,
-    "IP-CIDR": 28,
+    "IP-CIDR": 25,
     "PROCESS-NAME": 5,
-    "IP-ASN": 5,
-    "DOMAIN": 41
+    "IP-ASN": 5
   },
-  "total_line_count": 3746,
+  "total_line_count": 67,
   "artifacts": [
     {
       "key": "rules",
@@ -21,13 +20,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rules_4acef626d1aec7ca.list",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ba4ef8016a8a5f2063f7219cdcbc33ebd25331e53d0c8560c72b368ac93bce30",
-        "bytes_sha256": "446a65e1cd0232f6ab833df4801aa9fdf131738bf1728850870be50cf35ac541",
-        "semantic_sha256": "879c0b285151628bdda1af304135bf7df033f71f069e0f33951aaf53faf41fa3",
+        "fingerprint": "76842d43b32bca793ef5a19c96b39b428ae7db1403ae9b0221a8a2870d5ed693",
+        "bytes_sha256": "e17b348a83df177a49243c05843f40fea05927ff3ea20c6f12f137661c078ba2",
+        "semantic_sha256": "5466413aafc45ff76c921b05e0867b56a2da2cdae0211da39be8a66a24c2075b",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -39,13 +38,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_domain-set_f8d8ea64104ddfa1.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "041452caddecf648b1cc2642ed31649ee71a28cdf9c133f1e805bf6cd59c9c9f",
-        "bytes_sha256": "c1c658cfee7ff10edf7d24b653b3516e82f88d13923cbfbae85f8872000c934f",
-        "semantic_sha256": "4218a774b27ec95e79cc9002267d1701ff279ac520f3b81e9e0d60530a6551c9",
+        "fingerprint": "63a89e00405e347b91304f4696d508af46bf703d3994a3057694d10f5c473751",
+        "bytes_sha256": "63439a589b02969f863c2972b16d4e1ae692c7c244446a812899d8c7a22e48ea",
+        "semantic_sha256": "3fe1f17e5b429242718a283222a45caa7df18005664227767a944b2bf14697ca",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,13 +56,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rule-set_b65c1737e9db5f77.list",
       "binary": false,
       "role": "rule-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "da798ff93e1beb252dcfee0b8c7dca72c80255f0670aba0714c589b088d87b75",
-        "bytes_sha256": "06f9e459d950b25bc633325255da59228f17e0dee68b84eb80f8e09251f4c836",
-        "semantic_sha256": "7573890c69f3fc4862c129d3d647a07180a79526c5dbe150c4c72ea297b1be92",
+        "fingerprint": "81385ee50d3e789143d2cc57bc9f6f02122e2e377b263ca2abc1c6e147c46dd7",
+        "bytes_sha256": "06b28f65429d3f6d7abc45bbeb13969e3ab10e603c973eff63da9a9867897a43",
+        "semantic_sha256": "cb76bb293b1b02473f62d840fdc1d31e7b26c87305d45d2cfa24d003572b0824",
         "normalized_header_lines": 4,
         "shared": true
       }

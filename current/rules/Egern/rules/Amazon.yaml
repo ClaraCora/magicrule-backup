@@ -1,7 +1,7 @@
 # NAME: Amazon
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:51:05
+# UPDATED: 2026-11-17 18:03:00
 no_resolve: true
 domain_set:
   - atv-ps.amazon.com
@@ -50,7 +50,6 @@ domain_suffix_set:
   - alexafund.cn
   - alexafund.com.cn
   - amaaozn.com
-  - amazon
   - amazon-adsystem.com
   - amazon-fashions.com
   - amazon-jp-recruiting.com
@@ -164,7 +163,6 @@ domain_suffix_set:
   - atv-ps.amazon.com
   - audible.com
   - avodmp4s3ww-a.akamaihd.net
-  - aws
   - aws-border.cn
   - aws-icp-domain-manager.cn
   - aws-iot-hackathon.com
@@ -211,10 +209,8 @@ domain_suffix_set:
   - images-amazon.com
   - images-cn-8.ssl-images-amazon.com
   - images-cn.ssl-images-amazon.com
-  - imdb
   - imdb.com
   - imdb.to
-  - kindle
   - kindle.cn
   - kindle.co.jp
   - kindle.co.uk
@@ -268,13 +264,9 @@ domain_suffix_set:
   - wholefoodsmarket.com
   - wholekidsfoundation.org
   - wholeplanetfoundation.org
-  - xn--cckwcxetd
-  - xn--jlq480n2rg
-  - yamaxun
   - yamaxun.cn
   - yamaxun.com
   - z.cn
-  - zappos
 domain_keyword_set:
   - avoddashs
 domain_wildcard_set:
@@ -283,6 +275,10 @@ domain_wildcard_set:
   - "amazonaws.*"
   - "kindle.*"
   - "kindleoasis.*"
+domain_regex_set:
+  - ".+\\.awsdns-[0-9][0-9]\\.(co\\.uk|com|net|org)$"
+  - ".+\\.awsdns-cn-[0-9][0-9]\\.(biz|com|net|top)$"
+  - ".+\\.awsdns-cn-[0-9][a-e0-9]\\.cn$"
 ip_cidr_set:
   - 13.32.0.0/15
   - 13.32.0.0/16

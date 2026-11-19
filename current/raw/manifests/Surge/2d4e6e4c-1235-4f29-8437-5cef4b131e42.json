@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-12T11:41:58.643038+00:00",
+  "generated_at": "2026-11-17T12:19:20.480135+00:00",
   "client": "Surge",
   "rule": "Direct",
-  "rule_updated_at": "2026-11-12T02:30:51.787447+00:00",
+  "rule_updated_at": "2026-08-18T02:21:10.579099+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3324,
+    "DOMAIN-SUFFIX": 218,
     "DOMAIN-KEYWORD": 10,
-    "IP-CIDR": 5,
     "URL-REGEX": 4,
     "PROCESS-NAME": 36,
-    "DOMAIN": 43,
+    "DOMAIN": 30,
     "USER-AGENT": 1
   },
-  "total_line_count": 3423,
+  "total_line_count": 299,
   "artifacts": [
     {
       "key": "rules",
@@ -21,13 +20,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_rules_471bc079c5184e1f.list",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "0b0ad3526c400e657aade501820be1cb1b43307d6c46133afb88bfd03a5a178c",
-        "bytes_sha256": "31f81711611d413a3b2b8acae7ff4dd7bb6fb5810612ec99ae739d760ee7d106",
-        "semantic_sha256": "bb1af40d188456c281055cc3d334cdc2051abc4cf3f48bf3d0eab5f82e3235ec",
+        "fingerprint": "14c3efefb31e3280fb8f9f105d60e318c2198741b11dacb3477c438a54e2ea0a",
+        "bytes_sha256": "e67ca98330fc567e7558c71f9055cfdbdcff14584781820d1950f5196e0fb452",
+        "semantic_sha256": "4eecbe044b73d79ad0abda734c3a2107d0e1e80dafaa7823a607a8039cd2664c",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -39,13 +38,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_domain-set_d8ce53ad61acdd9d.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ce496c88fc72c0ad1090f118aada16272559d1fba564bd7c1c10915f06ce6f06",
-        "bytes_sha256": "b91ddcc01731198696efa5899af48b0ccce892a59ccb8a5352a4bd9add980911",
-        "semantic_sha256": "b6a762d93be57b1b15abf3bdf9f5bdbb5bf1c377ae60700a4b7a3f0d9f765374",
+        "fingerprint": "c6834e435c227980b42d52bff8db47bf80076a89b3325c76fef99f59d0b3396f",
+        "bytes_sha256": "ccb565daf12a78f8f952d24534412dfbd2a2f25b0a1739bbaf47936d46bb0f22",
+        "semantic_sha256": "8208110982227fb5e91b99c37e9e76272ad6a8f2834f5f93535002e36c04730a",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -57,13 +56,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/Direct_rule-set_24b598b89443a3d9.list",
       "binary": false,
       "role": "rule-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "c8ec91af746dff2bb473eee0eac66e2f7673f06295cf759b9bb3377cf231df93",
-        "bytes_sha256": "d3ee153a7ca013268f51c5188cf7ef9cded0735dd735c319dfdc8ca63b8f1f4b",
-        "semantic_sha256": "2cab138c22c5fd1d9cea910ff4e04aa6448c2e524ca651840ee8c869e3a9050a",
+        "fingerprint": "d2f9352bdb466a58fbf98c0d106785c00f1274f2f5b69077f81ddf0587758ae4",
+        "bytes_sha256": "32bcd7e6c30caab858d7dabe3ea1985e2adfd6f56c88a51179a7ae1d3db10a5f",
+        "semantic_sha256": "aae619b567f6f93187a93987d7371510843b6f6bd3b4ffd4f8b66a57a41919e8",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -79,8 +78,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "3af9af1e778b94e17690785ae6816b18aecf1ed17878996fb2e11b4df3f3afd8",
-        "bytes_sha256": "2cd892873ad342be9ec612e4882cae918ceec904fec3c27ddf2d31abbf5da76d",
+        "fingerprint": "ad2797e7543dd51d338852c71383ef2ef0c1603e6277ae140657ede1696ed814",
+        "bytes_sha256": "6ba3176ab66f90015f4cfa6f24d8d755e947b4809ec620808dcd6fa841919a58",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

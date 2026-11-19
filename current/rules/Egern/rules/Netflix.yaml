@@ -1,7 +1,7 @@
 # NAME: Netflix
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:50:47
+# UPDATED: 2026-11-17 20:32:18
 no_resolve: true
 domain_set:
   - netflix.com.edgesuite.net
@@ -41,6 +41,11 @@ domain_keyword_set:
   - netflixdnstest
 domain_wildcard_set:
   - "netflixdnstest*.com"
+domain_regex_set:
+  - "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$"
+  - "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$"
+  - "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$"
+  - "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
 ip_cidr_set:
   - 103.87.204.0/22
   - 103.87.205.0/24

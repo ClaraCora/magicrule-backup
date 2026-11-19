@@ -1,7 +1,7 @@
 # NAME: ChinaGame
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:50:21
+# UPDATED: 2026-11-19 00:27:54
 domain_set:
   - end-api.shallow.ink
   - end.shallow.ink
@@ -9,6 +9,8 @@ domain_suffix_set:
   - 17173.com
   - 17173cdn.com
   - 17roco.com
+  - 1y.com
+  - 1ycdn.com
   - 3304399.com
   - 3304399.net
   - 37.com
@@ -60,6 +62,8 @@ domain_suffix_set:
   - anticheatexpert.com
   - appeeres.com
   - arcaea.cn
+  - arknights.com
+  - arknights.com.cn
   - astral-vector.com
   - battlecare.net
   - bcfmglobal.com
@@ -120,7 +124,14 @@ domain_suffix_set:
   - hero.com
   - heroesports.com
   - herogame.com
+  - hgto.cc
   - hkgcloudcs.com
+  - hycdn.cn
+  - hycdn.com
+  - hypergryph.cn
+  - hypergryph.com
+  - hypergryph.com.cn
+  - hypergryph.net
   - i3839.com
   - ihappystudio.cn
   - ihappystudio.com
@@ -175,6 +186,7 @@ domain_suffix_set:
   - nikkigames.cn
   - nikkigames.com.cn
   - nzsiteres.com
+  - octavedge.com
   - papegames.cn
   - papegames.com
   - phira.cn
@@ -205,6 +217,8 @@ domain_suffix_set:
   - seasunwbl.com
   - shengqugames.com
   - shyxhy.com
+  - skland.com
+  - skland.net
   - skydweller.cn
   - sl916.com
   - supercellcommunity.cn
@@ -260,7 +274,6 @@ domain_suffix_set:
   - xindong.com
   - xinwuji.com
   - xishanju.com
-  - xn--owtw8cc49ajfl.cn
   - xoyo.com
   - xoyocdn.com
   - ycgame.com
@@ -285,3 +298,5 @@ domain_suffix_set:
   - zhuoyuegame.com
   - zjshulong.com
   - zx.com
+domain_regex_set:
+  - "^.+-mihayo\\.akamaized\\.net$"

@@ -1,7 +1,7 @@
 # NAME: Game
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:50:57
+# UPDATED: 2026-11-17 19:32:12
 no_resolve: true
 domain_set:
   - a.ppy.sh
@@ -206,6 +206,8 @@ domain_suffix_set:
   - appeeres.com
   - arcaea.cn
   - arcraiders.com
+  - arknights.com
+  - arknights.com.cn
   - arma3.com
   - armaplatform.com
   - artstation.com
@@ -335,6 +337,7 @@ domain_suffix_set:
   - cy.com
   - cyberpunk.net
   - cygames.co.jp
+  - cygames.com
   - cygames.jp
   - daoc.net
   - darkageofcamelot.com
@@ -522,6 +525,7 @@ domain_suffix_set:
   - heroesofthestorm.com
   - heroesports.com
   - herogame.com
+  - hgto.cc
   - highmoonstudios.com
   - historyofdota.com
   - historyofdota.net
@@ -535,6 +539,12 @@ domain_suffix_set:
   - humancoexperience.com
   - humblebundle.com
   - hutpromos.com
+  - hycdn.cn
+  - hycdn.com
+  - hypergryph.cn
+  - hypergryph.com
+  - hypergryph.com.cn
+  - hypergryph.net
   - hyprsense.com
   - i3839.com
   - ihappystudio.cn
@@ -775,6 +785,7 @@ domain_suffix_set:
   - nintendowii.com
   - noxygames.com
   - nzsiteres.com
+  - octavedge.com
   - offworldindustries.com
   - offworldindustries.net
   - ol.epicgames.com
@@ -970,6 +981,8 @@ domain_suffix_set:
   - skate2.com
   - sketchfab.com
   - skinswap.com
+  - skland.com
+  - skland.net
   - skydweller.cn
   - skylanders.com
   - sl916.com
@@ -1279,6 +1292,11 @@ domain_keyword_set:
   - steambroadcast
   - steamstore
   - steamuserimages
+domain_regex_set:
+  - "^.+-mihayo\\.akamaized\\.net$"
+  - "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$"
+  - "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$"
+  - "^epicgames-download\\d\\.akamaized\\.net$"
 ip_cidr_set:
   - 103.10.124.0/23
   - 103.28.54.0/24

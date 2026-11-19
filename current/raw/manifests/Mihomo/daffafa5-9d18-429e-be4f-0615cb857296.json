@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-12T11:48:33.046614+00:00",
+  "generated_at": "2026-11-18T05:59:51.207638+00:00",
   "client": "Mihomo",
   "rule": "iTunes",
-  "rule_updated_at": "2026-11-06T14:18:51.634027+00:00",
+  "rule_updated_at": "2026-11-18T05:59:44.933579+00:00",
   "type_counts": {
-    "DOMAIN": 46,
+    "DOMAIN": 48,
     "DOMAIN-SUFFIX": 53
   },
-  "total_line_count": 99,
+  "total_line_count": 101,
   "artifacts": [
     {
       "key": "classical",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "61abf4cfc9803f75ff096ae310f24c63441fe25c8e3ab041e97700363ed1c44a",
-        "bytes_sha256": "b16c1e2015762307943ea3f4a11ca3a4c619ecb98f06e896563318555c26b18a",
-        "semantic_sha256": "26bed25d28bbfbb1fe3d7c11b8a765e91fb651811768f1a2515ef776fa41f654",
+        "fingerprint": "29505984e3a43c32fae132d020ac14370d93728ca7bc78aef00d23b6b5e0f6e8",
+        "bytes_sha256": "55693c8cf8ed288e5f164d201f4e1dd12e14dc4fad54cd9403c87c2ac3bdc71e",
+        "semantic_sha256": "d7a4970f1f4726122d5c3655c6a741f2ae3f7cb4447cd28195698eee65952f4e",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "78abe769e7c9c05c40f39c174ac5de2b7bd3178f2169e1616e7c69fbad1f140a",
-        "bytes_sha256": "15c2c283fa993d2e2b408cae8d0cf90a93e8edd160ed8ec074a8848ad2a3ae49",
-        "semantic_sha256": "e77a5d5b557a7ee7748d866fd3428998c5bad4224031a29bb3eaa6df5c0b8c46",
+        "fingerprint": "0ec256ce5ba19b805e7e40f749eaa9ddc1a3f8b392f19c136e0a0236f7906a5a",
+        "bytes_sha256": "91e09218375bf40f1bcd8da5e4c23412dce66a0e56d4a92364f39f594c8ad9eb",
+        "semantic_sha256": "a85c5fb8657b43c8445c7656d178d0fe4f46e85316d20935327ee54c53cca576",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -56,8 +56,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "b77d833a7193e649d680473ed413d2976acb81dc5d33cb04b0ad267da8a07a10",
-        "bytes_sha256": "36b222c17039d07322c748d9c0f96aee454b27d1750e897554ee73fdacf7e66f",
+        "fingerprint": "6b7c48d84a97ac1c9d8388a79070de0f419ccd5b28fed2a5f0f7e153c8873c06",
+        "bytes_sha256": "bf2b837c221f95b22cc0b4e3ada971acfa34dcfd135d5c80e41dc55410bfb75b",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

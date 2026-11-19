@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-11-12T11:42:27.858242+00:00",
+  "generated_at": "2026-11-17T13:39:48.449534+00:00",
   "client": "Mihomo",
   "rule": "MicrosoftProxy",
-  "rule_updated_at": "2026-11-12T02:32:32.157300+00:00",
+  "rule_updated_at": "2026-08-05T03:59:13.721679+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 2960,
-    "DOMAIN-KEYWORD": 3,
-    "IP-CIDR": 4,
-    "DOMAIN": 13
+    "DOMAIN-SUFFIX": 80,
+    "DOMAIN-KEYWORD": 3
   },
-  "total_line_count": 2980,
+  "total_line_count": 83,
   "artifacts": [
     {
       "key": "classical",
@@ -18,13 +16,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/MicrosoftProxy_classical_8907083dc6134b4f.yaml",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "505513d98336be711d382fd35866001b35c63434ebccd40cd48f1507cd5e1aea",
-        "bytes_sha256": "895d57ecbaa96f348c59e0c537094418d5f2bf784625171ad96cb1d64fe8a2b6",
-        "semantic_sha256": "202ec102fb91bd1cff4b63aad976b0993de3ab8756a68acb66d601d71fa42c55",
+        "fingerprint": "4a7a42a841010650533271c3ba28b410bccbe54538a30ea8857c89371ae88623",
+        "bytes_sha256": "f16752622e2aeb9536d634961bf21d3058cef386259defbe92313b057346cf83",
+        "semantic_sha256": "9ad0dc965d6323d194a104e560db8cb449981045c35e0c4a43023c995ec467f7",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -36,13 +34,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/MicrosoftProxy_domain_82c7f8e30e9c5d9b.yaml",
       "binary": false,
       "role": "domain",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "071a076e362b995d4eacab54c349291579d174c66c80fec2ddabf2fd715e63c4",
-        "bytes_sha256": "e7d67f3c62107b2b4de8d25174bd832c7fcde62f2dd026091a7a58a4715b4b56",
-        "semantic_sha256": "c5951749e88fcfc65ba9aef2250b3576733ceccb494524a653fe20a3a2a52452",
+        "fingerprint": "f72be6babc63ea5da4d6fc4ba5de054c98c9fe04b2d01184e3742f25c7ac1df5",
+        "bytes_sha256": "e37535a97339c1947766e1771896092be1cb8c0ba1d4847fc87e545bc10abc4c",
+        "semantic_sha256": "eef614111e2b5a9874192ce2ae0bfe9e99cc55d5d3d4d36b287435338b475070",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -54,48 +52,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/MicrosoftProxy_domain-mrs_668c0d26aa2fbf3d.mrs",
       "binary": true,
       "role": "domain",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "099aa75e0a36360687b03795b13fc5b5a28cbde743f40b4ebfe4f48b1b24d7e5",
-        "bytes_sha256": "8458fb8af322126b91102852eb943bf336686207ecaf430ece3cadeed8bb54d1",
-        "semantic_sha256": null,
-        "normalized_header_lines": 0,
-        "shared": true
-      }
-    },
-    {
-      "key": "ipcidr",
-      "label": "ipcidr",
-      "ext": "yaml",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/MicrosoftProxy_ipcidr_24be92de1471bcb6.yaml",
-      "binary": false,
-      "role": "ipcidr",
-      "recommended": true,
-      "empty": false,
-      "dedupe": {
-        "mode": "standard_header_normalized",
-        "fingerprint": "037a32bc803c5c47d31e3c067d44de6f6edb8c7d9c90ab55d5eac0bfc688e09f",
-        "bytes_sha256": "a08e248de2bbcff1e43189f221acc3412dce30f4db2e4a26eb0812772fa7572f",
-        "semantic_sha256": "0b518af1f6440c530b937e6a8365844ee22da7857de8adbaf8c194cae20c9334",
-        "normalized_header_lines": 4,
-        "shared": true
-      }
-    },
-    {
-      "key": "ipcidr-mrs",
-      "label": "ipcidr(mrs)",
-      "ext": "mrs",
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/MicrosoftProxy_ipcidr-mrs_7ab70e5d3c6cddef.mrs",
-      "binary": true,
-      "role": "ipcidr",
-      "recommended": true,
-      "empty": false,
-      "dedupe": {
-        "mode": "exact",
-        "fingerprint": "16ae166c163364fe22337c463e2306c8c544fb922687549d23858900b132bef4",
-        "bytes_sha256": "ba3528790895b3d8c397b65911ac6532f543dd87252d4ebe4dc4bc795e50d747",
+        "fingerprint": "670a80dc9afe63363b68421e1279c8b800756b1470bee8d11319024e1375d99a",
+        "bytes_sha256": "71b5060b9551ce0731dd29da15ddc8512b523dde93124f192e416d03e6e6b833",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -108,12 +70,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/MicrosoftProxy_classical-rest_158fcde4661d756e.yaml",
       "binary": false,
       "role": "rule-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1a58aea5f383f5036e02696c8e8ba8f69f9de80fe15ac90567acdb28005be0e3",
-        "bytes_sha256": "82141b102aa137d875b43ddf23041ce6d79d1a96882e6363f1c4e73983b81150",
+        "bytes_sha256": "a11be9e1f3f339eaa9cf419395dcf8941f3bfb5fd36fd2b60f6c779748de2ba8",
         "semantic_sha256": "35dfcc58825c79e151a3c4883ca5bca67f208ae45fe353517e9f6ef4f4623826",
         "normalized_header_lines": 4,
         "shared": true

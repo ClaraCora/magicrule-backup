@@ -1,7 +1,7 @@
 # NAME: Vimeo
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:50:27
+# UPDATED: 2026-11-17 21:46:19
 domain_suffix_set:
   - livestream.com
   - vhx.tv
@@ -19,3 +19,5 @@ domain_suffix_set:
   - vimeogoods.com
   - vimeoondemand.com
   - vimeostatus.com
+domain_regex_set:
+  - "^[0-9]+vod-adaptive\\.akamaized\\.net$"

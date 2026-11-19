@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-12T11:48:01.268706+00:00",
+  "generated_at": "2026-11-17T10:15:37.181188+00:00",
   "client": "Surge",
   "rule": "Cisco",
   "rule_updated_at": "2026-07-26T06:48:24.833134+00:00",
   "type_counts": {
     "DOMAIN": 2,
-    "DOMAIN-SUFFIX": 121
+    "DOMAIN-SUFFIX": 120
   },
-  "total_line_count": 123,
+  "total_line_count": 122,
   "artifacts": [
     {
       "key": "rules",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "508e38cc0e0bc38cd3916f5c5b8f1d9aa01135256a5f2f2997f6e35e7b92162d",
-        "bytes_sha256": "29bc1fe54d53d486d62103dd08fcce9098678174c2ba168bad79697743220a19",
-        "semantic_sha256": "7216d3c0a21fa04b5c694e747205005f7ac5d1b43a563de500a342216a3cbf07",
+        "fingerprint": "d71bb7f6bfa5f28c39f7d346fa7ecd37940788f959f15187299561920bfc70d1",
+        "bytes_sha256": "75431aa781bfa8d47c5783e966853327e31102cb286d5011d49ef38c125914d9",
+        "semantic_sha256": "c3e99b2978b305a0dd78371224214fa2de8d158b59c3aa6243b58de084ef8043",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "8224273f75ab95172bd5587a1e587b9861430764747f88a9c6e665779bf6b500",
-        "bytes_sha256": "598d3342e2c541750ad711923d1ec0bf0cb5096822d5daac2a578eba8d835a6d",
-        "semantic_sha256": "db3c8c3ede4d1715c068d54d7876a8ad06bf13ea2a3bf2be8f73da89a1edf957",
+        "fingerprint": "5ee01d108f586b2ec7944c7681fce1aa5c4abc354ffb3fa1f107bdf45939b8f0",
+        "bytes_sha256": "a08cb3c9c583c0f246ff308194c0a5667c67672103e394ac429ea26f847d7621",
+        "semantic_sha256": "ea74787e55c4ce575bd1f35ff214bbb1cde83f69a626f1c873760401db101d85",
         "normalized_header_lines": 4,
         "shared": true
       }

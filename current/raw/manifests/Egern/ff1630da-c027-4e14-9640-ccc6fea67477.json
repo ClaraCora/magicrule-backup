@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-12T11:51:05.933896+00:00",
+  "generated_at": "2026-11-17T10:03:00.133486+00:00",
   "client": "Egern",
   "rule": "Amazon",
-  "rule_updated_at": "2026-10-29T02:37:34.385391+00:00",
+  "rule_updated_at": "2026-11-17T09:12:54.205448+00:00",
   "type_counts": {
-    "domain_wildcard_set": 5,
-    "url_regex_set": 1,
-    "domain_set": 21,
-    "domain_suffix_set": 249,
-    "user_agent_set": 2,
     "domain_keyword_set": 1,
-    "ip_cidr_set": 17
+    "domain_regex_set": 3,
+    "domain_set": 21,
+    "domain_suffix_set": 241,
+    "domain_wildcard_set": 5,
+    "ip_cidr_set": 17,
+    "url_regex_set": 1,
+    "user_agent_set": 2
   },
-  "total_line_count": 296,
+  "total_line_count": 291,
   "artifacts": [
     {
       "key": "rules",
@@ -25,9 +26,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "6894ed4d11a1e4f32227cfa3c67dae21c3a5a053caee07341f22bfba0a134f4f",
-        "bytes_sha256": "76f6958468a28a57bd359dbcdab723cafa25c23e4abebaa4d62bc1ed876a2c66",
-        "semantic_sha256": "f92243d56f43ff7fa2f9c26bfccc453c3c9f21f14df9f6589a7f2cc5994cda28",
+        "fingerprint": "8e639f5112a81fd76bcd4f5b20fc397879e00f016eb23e56b596d3f9b7686bb4",
+        "bytes_sha256": "07d09ff37fa259aba3ae7f9b5582a336f7d952c6eaa65803d80ab9eb7978759a",
+        "semantic_sha256": "0a895cd11a707b81d71d4a5c0fecb392ae49d7e152fb4ea7fca6f4cee50ba861",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,8 +44,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "650fc5dd7be778a9a873da05e7018c4367445ceef0612a0f9759d86fc2c4598d",
-        "bytes_sha256": "4c241038dbadec9bdb8e16258f92877c1dddbd303478211d7eeae40c6def059d",
+        "fingerprint": "64526ee865f568f587380804d3cf9195b14b6f3a6ea2033f211a01970c9a3983",
+        "bytes_sha256": "60779253d69a22cf83c7e32a737c6d178ff83cb69ee75bbb9118ee1e8182bde8",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

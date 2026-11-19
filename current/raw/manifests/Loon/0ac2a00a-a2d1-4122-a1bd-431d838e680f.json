@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:40:38.843150+00:00",
+  "generated_at": "2026-11-17T13:57:35.441949+00:00",
   "client": "Loon",
   "rule": "XiaoMi",
-  "rule_updated_at": "2026-11-06T14:29:04.031061+00:00",
+  "rule_updated_at": "2026-11-06T14:29:04.031108+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 181,
     "IP-CIDR": 15,
-    "PROCESS-NAME": 1
+    "PROCESS-NAME": 2
   },
-  "total_line_count": 197,
+  "total_line_count": 198,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a5b4f62b62d7bd15bf726bccaee52fa4d3910af11bb23ab0755e4bc1e3952502",
-        "bytes_sha256": "fb4db8bf016e70fbec985755e625db7679b0499d5371ef467298dd2dbc00a07a",
-        "semantic_sha256": "adce93707a997a03db4bd6f511592070a65a3641c3103d19dc437f0473824afa",
+        "fingerprint": "a0ca5f454715836e0e3fa3e863d175cdc53d290542cffa7d6a51ac8076488649",
+        "bytes_sha256": "691aa0493e4d2d250dc23cb8e0d3555b4d10b275ddd18284f2cb02aed69b84c6",
+        "semantic_sha256": "18495e2da89815f965100bc5a451a9f2fa1eb8adcad3a9f09eb7fa47b7773883",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "55ced64f384581ea1ff9b3f8d6daa9adf5ff3a37bf8dfc0a832691b2d280a0ad",
-        "bytes_sha256": "2cd02f32af17657a442aa2f186ec924ec8d53f7c5db5e1bdee302808658e0adc",
+        "bytes_sha256": "c39f1b24c4fcc23bde557e31a3da9b0f29390af6aad270bf3193ef4dee721275",
         "semantic_sha256": "1a6e8c931d07393803e1837c2f6b5ce18ac41f265d52763bdd3055aae53f45f6",
         "normalized_header_lines": 4,
         "shared": true
@@ -57,9 +57,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1787a24b571e2da995350596b65e2bbbb50c8d3f8e79b4c38b2e20c32bffbf56",
-        "bytes_sha256": "85cebc662236133a4de3e5cd145d6c263dfc1c99e4039bdf8dbaabb65842bbae",
-        "semantic_sha256": "14ecfe18494f86afbd95a4237352218223c66d7189f113c9fb2beb3be34b050c",
+        "fingerprint": "617123f86be6426fb15aba261b0a0cb517d66383719352ac0d58f95e3758fc4f",
+        "bytes_sha256": "1c4eba804755172477fac48c519ba94aa0118ffa62cb3eb4bedcc30b346fc4e1",
+        "semantic_sha256": "a6f9991f73a2db5ea5247217853d2c77f0c00b7ba4c323228eddf57f8f4a5e93",
         "normalized_header_lines": 4,
         "shared": true
       }

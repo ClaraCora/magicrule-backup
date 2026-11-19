@@ -1,7 +1,7 @@
 # NAME: PCCW
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:50:39
+# UPDATED: 2026-11-17 20:53:41
 domain_set:
   - api.viu.now.com
   - d1k2us671qcoau.cloudfront.net
@@ -35,3 +35,5 @@ domain_suffix_set:
   - viu.com
   - viu.now.com
   - viu.tv
+domain_regex_set:
+  - "^ewcdn[0-9]+\\.nowe\\.com$"

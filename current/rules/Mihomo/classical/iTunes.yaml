@@ -1,9 +1,9 @@
 # NAME: iTunes
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:48:32
+# UPDATED: 2026-11-18 13:59:49
 # BEHAVIOR: classical
-# DOMAIN: 46
+# DOMAIN: 48
 # DOMAIN-SUFFIX: 53
 
 payload:
@@ -31,8 +31,10 @@ payload:
 - 'DOMAIN,itunes.apple.com'
 - 'DOMAIN,itunesconnect.apple.com'
 - 'DOMAIN,misc-assets.itunes.apple.com'
+- 'DOMAIN,musicstatus.itunes.apple.com'
 - 'DOMAIN,mvod.itunes.apple.com'
 - 'DOMAIN,myapp.itunes.apple.com'
+- 'DOMAIN,mzstorekit.itunes.apple.com'
 - 'DOMAIN,np-edge.itunes.apple.com'
 - 'DOMAIN,osxapps.itunes.apple.com'
 - 'DOMAIN,osxapps.itunes.g.aaplimg.com'

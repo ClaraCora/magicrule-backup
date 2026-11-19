@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:43:43.514444+00:00",
+  "generated_at": "2026-11-17T12:21:28.872206+00:00",
   "client": "Mihomo",
   "rule": "AppleDirect",
-  "rule_updated_at": "2026-11-12T02:15:15.372943+00:00",
+  "rule_updated_at": "2026-07-26T07:37:00.471858+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 3883,
-    "IP-CIDR": 14,
-    "DOMAIN": 45
+    "DOMAIN-SUFFIX": 21,
+    "IP-CIDR": 10,
+    "DOMAIN": 4
   },
-  "total_line_count": 3942,
+  "total_line_count": 35,
   "artifacts": [
     {
       "key": "classical",
@@ -17,13 +17,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_classical_7b599bf8fa6e635a.yaml",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "faf6bc1ca72480972a511dc458e056347480eb778ff9621611342fbffa8096ea",
-        "bytes_sha256": "fcda95367f08da33bd320a04e33d5575afb677d21e98881a03ea6d7f6c4fed3b",
-        "semantic_sha256": "389deae27224f30ad32dd88eee79c3714f0c0c66e0ea2f53bbb2a789de4030eb",
+        "fingerprint": "88fe742ad74598110590362e0af5a535a2332ca4d3a977257c09741def0d1778",
+        "bytes_sha256": "59011bec0fb51b7b5dbc54b35b18b9695ae1055794704a25e4ddbc175bf783e0",
+        "semantic_sha256": "71827ab2a99851d9bd76e52f411ba74ab81387df1a827b8a61252b427f530456",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -35,13 +35,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_domain_d765755e35267376.yaml",
       "binary": false,
       "role": "domain",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "ba77dbf87c5840ddb83a1074e24d8ef35046093a2d6bd007ddae106d4a3ea492",
-        "bytes_sha256": "f56c8b158198ded00848bbeb0be00aabcfeae153826723254f64daa75bf92de3",
-        "semantic_sha256": "708d278dadd0352ae0ae63c2873ab4335698e229e8a2e8d6a0cc1a8cb274632d",
+        "fingerprint": "23c742ce1bff17474672751efec8d55c104ecf3ca805bdd16a8ee8b6284180d1",
+        "bytes_sha256": "397045d583a4707e2ba6d65205a101ac3d175fdca2cfb5262ca06c262cc6d020",
+        "semantic_sha256": "eb037c8d4aa96f33fb88a1eb28a1a7b3315eb5350905cc51b2d8818efc7385a1",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -53,12 +53,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_domain-mrs_b2a1d93a14fb39e7.mrs",
       "binary": true,
       "role": "domain",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "4ba14f50f4cd48eb82b41842640c979d74e09d54cf595fe42121054d3847f4a0",
-        "bytes_sha256": "bbfb00d623fbe2fe41a1c3a5612ed0bd91d778ef06e9201829705d11e254ea37",
+        "fingerprint": "d63e9b18b235981354fe46cc7bf44d84e1cad443b2c99d6bdb8471e4ef73adfc",
+        "bytes_sha256": "c1f3b59f159d3452650c764d85159c5efc09325bd5610f733adde994097714c9",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
@@ -71,13 +71,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_ipcidr_dcd74cec7589834f.yaml",
       "binary": false,
       "role": "ipcidr",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "4730a2174c8b1a664c11eefd9f4c70a9f49ebd2bda378af21e22c4b463b8b909",
-        "bytes_sha256": "ebef5af5b2c412276c73c4e2dd4b2116ba4d67f8e5a239c7b5d5b833f4618607",
-        "semantic_sha256": "783652f3c5fcea538456fab34be40c8f5544edcf3468082742ad3cb17650074b",
+        "fingerprint": "462a087d002c09f0fc15c6934f9579dbb260c48e0304e9f8aad1ac3913396f1c",
+        "bytes_sha256": "240e0fb74fecad2486a18edc8739a69652637c1fd537bfa5b00ab19f01ae5325",
+        "semantic_sha256": "1420ceea7b0d2c3389b5ca903c97f075af5f67a9ee920c8d038d339c2e5be2c8",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -89,12 +89,12 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/AppleDirect_ipcidr-mrs_6db0c1cb16da42bf.mrs",
       "binary": true,
       "role": "ipcidr",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "7db936e35c03012168be46ecdc67165448c21010e49c0356b935dde49721e1c8",
-        "bytes_sha256": "15e741f2c8cfe0ae9db350afbc3a794aa106a090ac240484085c1e978f588a57",
+        "fingerprint": "50ff7af7d52a12a915ff12cbf25dd55e344a1c6caff9932ef67f673955f5d87c",
+        "bytes_sha256": "9c3ac6e550ff760e7af78040ceac1711e4b6173876069926e40a492ad1683cb5",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-12T11:50:23.762332+00:00",
+  "generated_at": "2026-11-17T14:11:03.336606+00:00",
   "client": "Egern",
   "rule": "NetEaseMusic",
-  "rule_updated_at": "2026-11-12T02:44:46.767975+00:00",
+  "rule_updated_at": "2026-07-26T07:37:12.270746+00:00",
   "type_counts": {
-    "domain_set": 42,
-    "domain_suffix_set": 3648,
+    "domain_set": 1,
+    "domain_suffix_set": 13,
     "user_agent_set": 3,
-    "ip_cidr_set": 38
+    "ip_cidr_set": 35
   },
-  "total_line_count": 3731,
+  "total_line_count": 52,
   "artifacts": [
     {
       "key": "rules",
@@ -22,9 +22,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "35f2054801e5c16a1296b7c4971bc076e3834b90c60852b069a22aeddd193ef8",
-        "bytes_sha256": "33c2197935b92149b6bbae7cb4a3bce721405f6d6fd3de9f175a6d3274edc687",
-        "semantic_sha256": "9d32d11fbd8290437389721776313fb2812fdfe3ed60fb233efe6a87a6f48473",
+        "fingerprint": "08af2bf2ca544e8342d32cc44a0c392f786d596f8b6479638fa3486657a7807f",
+        "bytes_sha256": "3c9affe582e04b30ffd361b95a057c7984c964c65c7dcc32feb0617e8b3184eb",
+        "semantic_sha256": "976fa72974cae8fe30d22e567a8ca51ec0c2ab955596db9c4d4e0564113b0d24",
         "normalized_header_lines": 4,
         "shared": true
       }

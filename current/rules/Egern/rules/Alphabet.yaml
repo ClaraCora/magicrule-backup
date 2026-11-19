@@ -1,7 +1,7 @@
 # NAME: Alphabet
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-12 19:50:53
+# UPDATED: 2026-11-17 17:41:13
 domain_set:
   - 2mdn-cn.net
   - 2mdn.net
@@ -1137,3 +1137,6 @@ domain_suffix_set:
   - yt.be
   - ytimg.com
   - zukunftswerkstatt.de
+domain_regex_set:
+  - "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$"
+  - "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$"

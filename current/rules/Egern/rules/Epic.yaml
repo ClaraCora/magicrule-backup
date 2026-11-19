@@ -1,7 +1,7 @@
 # NAME: Epic
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-12 19:50:27
+# UPDATED: 2026-11-17 18:38:32
 domain_suffix_set:
   - 3lateral.com
   - artstation.com
@@ -37,3 +37,7 @@ domain_suffix_set:
   - unrealtournament.com
 domain_keyword_set:
   - epicgames
+domain_regex_set:
+  - "^cdn\\d-epicgames-\\d+\\.file\\.myqcloud\\.com$"
+  - "^epicgames-download\\d-\\d+\\.file\\.myqcloud\\.com$"
+  - "^epicgames-download\\d\\.akamaized\\.net$"

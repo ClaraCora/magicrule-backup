@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-18T14:30:37.048102+00:00",
+  "client": "Surge",
+  "rule": "Apple APNs",
+  "rule_updated_at": "2026-11-18T14:20:21.447161+00:00",
+  "type_counts": {
+    "DOMAIN-KEYWORD": 1,
+    "DOMAIN-SUFFIX": 2,
+    "IP-CIDR": 5,
+    "IP-CIDR6": 4
+  },
+  "total_line_count": 12,
+  "artifacts": [
+    {
+      "key": "rules",
+      "label": "完整规则",
+      "ext": "list",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Apple_APNs_rules_d2564762cb4af336.list",
+      "binary": false,
+      "role": "full",
+      "recommended": true,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "902a4a5395ad0f3008cf55d78360ea6eff851a5ce7e329c5a227f107fb01a73d",
+        "bytes_sha256": "8f25b8a0ae0ef87d440661b9826042d41bea8e062761c25548b5b6ea0de3868d",
+        "semantic_sha256": "60e3ec6f80f4388626b69c64448ec66bff807c41516deb8710509abf745ace92",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "domain-set",
+      "label": "DOMAIN-SET",
+      "ext": "list",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Apple_APNs_domain-set_2de626850b3f32c7.list",
+      "binary": false,
+      "role": "domain-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "8ea50814a0cbe109152dae9de25d1df53aa23bac1f9d8f8071519c6f49ffdc42",
+        "bytes_sha256": "a78f91747ff27789721c5f17223f3acaa2494cf9d9fcc435f804097585b21f05",
+        "semantic_sha256": "0521c90f91d4ab056db49f123c6bdf985670e448f6c5007a7f5a70a8f9771a37",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    },
+    {
+      "key": "rule-set",
+      "label": "RULE-SET",
+      "ext": "list",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Apple_APNs_rule-set_020aea2eaeb0abdf.list",
+      "binary": false,
+      "role": "rule-set",
+      "recommended": false,
+      "empty": false,
+      "dedupe": {
+        "mode": "standard_header_normalized",
+        "fingerprint": "61a177ec598e4b827d329dd662155027c44e7ad52c95fb89410311a414e8ad85",
+        "bytes_sha256": "1cc4cf20f274ed8c7e0e2492ea7a1e551741338fbbce13649117be50288f1874",
+        "semantic_sha256": "2a86e49cb1f4e8b09ad7a1d98000dc7bd30ab0923f70759722b9cd4c082f8821",
+        "normalized_header_lines": 4,
+        "shared": true
+      }
+    }
+  ],
+  "description": "",
+  "providers": [
+    "https://raw.githubusercontent.com/ttyyss2233/Tool/main/shadowrocket/rules/apns.list"
+  ]
+}

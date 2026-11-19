@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-11-12T11:50:30.751576+00:00",
+  "generated_at": "2026-11-17T12:51:36.415270+00:00",
   "client": "Egern",
   "rule": "iCloudPrivateRelay",
-  "rule_updated_at": "2026-11-12T03:22:45.940435+00:00",
+  "rule_updated_at": "2026-07-26T07:44:48.377185+00:00",
   "type_counts": {
-    "domain_set": 47,
-    "domain_suffix_set": 3638,
-    "ip_cidr_set": 3
+    "domain_set": 6,
+    "domain_suffix_set": 3
   },
-  "total_line_count": 3688,
+  "total_line_count": 9,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "d08461e507e6ba7ff81f3e524ca7e6094c10a16d7b16af2425558c584eb5066c",
-        "bytes_sha256": "9097b00793663d13f96b5b725e365ae2999a3777ea5b78d75dff6e670cedd816",
-        "semantic_sha256": "1f099a5658b191716491712d974f5a28922c024dacde00974f42b6a70648e570",
+        "fingerprint": "c09a1cda7c0b273378803fa0a68917bc0656a5c43149691aa0eaa8e9e215656d",
+        "bytes_sha256": "46f8a13285898c7c35d19530f570e955c38f53f1941a148802d11b973b4df0a5",
+        "semantic_sha256": "1c9acdca1e33a6f556fa1f75851e395a4708316f803022e6ec2a06dd2797a7cd",
         "normalized_header_lines": 4,
         "shared": true
       }

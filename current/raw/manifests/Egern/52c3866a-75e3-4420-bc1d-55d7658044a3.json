@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-12T11:50:32.525229+00:00",
+  "generated_at": "2026-11-17T12:36:06.936233+00:00",
   "client": "Egern",
   "rule": "GlobalMedia",
-  "rule_updated_at": "2026-11-12T02:19:51.547013+00:00",
+  "rule_updated_at": "2026-11-06T07:11:23.095710+00:00",
   "type_counts": {
     "domain_wildcard_set": 7,
     "url_regex_set": 1,
-    "domain_set": 129,
+    "domain_set": 88,
     "ip_cidr6_set": 200,
-    "domain_suffix_set": 4752,
+    "domain_suffix_set": 1114,
     "user_agent_set": 19,
-    "domain_keyword_set": 28,
-    "ip_cidr_set": 269
+    "domain_keyword_set": 27,
+    "ip_cidr_set": 266
   },
-  "total_line_count": 5405,
+  "total_line_count": 1722,
   "artifacts": [
     {
       "key": "rules",
@@ -26,9 +26,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "e7eabd18c7b9158104d094391cf2a7869fdcbef71d95691f87fcbc4a9b26c3ba",
-        "bytes_sha256": "f82bb5343d33ffa0f4b2da3aa7ca85e86d4e125a696fd20279338a328e683bbc",
-        "semantic_sha256": "b9d7c726d643c99267dd8e5f1589111bfebc37ba038cf1373c9d11ac2a8ec562",
+        "fingerprint": "d5d0ec32802bbc61feb40aa798aa66df6fdc864fe1222ad6477957b474cd7eab",
+        "bytes_sha256": "7a273f7c775336c2b00bdc5a68f668336094b36072faa50750d5a189f68c072e",
+        "semantic_sha256": "8eaa6634d75600b35b6c38ac8560ab8b1ffc64524a013a9e6b8ec6d9dbfc590e",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -44,8 +44,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "be9136352561698e669352c7473e7c1c68d188af249806743617ffe0ddfb45eb",
-        "bytes_sha256": "64b7a55d8c7eb3c2539d67e65befbfcff5ab6bfafe23c6d71cbcdb6eb9411ba5",
+        "fingerprint": "e1fcc257d40b19553dfa4fc3663d3b45da27f9e18549538e6f4bea77d8264b70",
+        "bytes_sha256": "521850628c201eedc0bfed4ec2aa10e4c648bca8fba78b827f2f604ff71ef7b9",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true

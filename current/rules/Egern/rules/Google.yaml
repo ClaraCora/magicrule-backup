@@ -1,7 +1,7 @@
 # NAME: Google
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-14 23:23:34
+# UPDATED: 2026-11-17 19:37:48
 no_resolve: true
 domain_set:
   - 2mdn-cn.net
@@ -1146,6 +1146,9 @@ domain_keyword_set:
   - google
   - googlesource
   - recaptcha
+domain_regex_set:
+  - "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.googlevideo\\.com$"
+  - "^r+[0-9]+(---|\\.)sn-(2x3|ni5|j5o)\\w{5}\\.xn--ngstr-lra8j\\.com$"
 ip_cidr_set:
   - 173.194.0.0/16
   - 74.125.0.0/16

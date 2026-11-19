@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:40:39.709528+00:00",
+  "generated_at": "2026-11-17T13:57:35.445245+00:00",
   "client": "Surge",
   "rule": "XiaoMi",
   "rule_updated_at": "2026-10-09T15:59:10.471365+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 181,
     "IP-CIDR": 15,
-    "PROCESS-NAME": 1
+    "PROCESS-NAME": 2
   },
-  "total_line_count": 197,
+  "total_line_count": 198,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a5b4f62b62d7bd15bf726bccaee52fa4d3910af11bb23ab0755e4bc1e3952502",
-        "bytes_sha256": "08b9988925b4d86bc211458ed24de185fe873c8540215ffd3f69a9bd5bc80a4e",
-        "semantic_sha256": "adce93707a997a03db4bd6f511592070a65a3641c3103d19dc437f0473824afa",
+        "fingerprint": "a0ca5f454715836e0e3fa3e863d175cdc53d290542cffa7d6a51ac8076488649",
+        "bytes_sha256": "691aa0493e4d2d250dc23cb8e0d3555b4d10b275ddd18284f2cb02aed69b84c6",
+        "semantic_sha256": "18495e2da89815f965100bc5a451a9f2fa1eb8adcad3a9f09eb7fa47b7773883",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -40,7 +40,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "55ced64f384581ea1ff9b3f8d6daa9adf5ff3a37bf8dfc0a832691b2d280a0ad",
-        "bytes_sha256": "d09d53ee656a6d98ca0a127e4d29548e8d1ebc2ec86cd57eec0583ba29729425",
+        "bytes_sha256": "c39f1b24c4fcc23bde557e31a3da9b0f29390af6aad270bf3193ef4dee721275",
         "semantic_sha256": "1a6e8c931d07393803e1837c2f6b5ce18ac41f265d52763bdd3055aae53f45f6",
         "normalized_header_lines": 4,
         "shared": true
@@ -57,9 +57,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1787a24b571e2da995350596b65e2bbbb50c8d3f8e79b4c38b2e20c32bffbf56",
-        "bytes_sha256": "e360e21f3b43295682d5f1cd13a94fe0719dd54edbc84e1980ebd6569467364b",
-        "semantic_sha256": "14ecfe18494f86afbd95a4237352218223c66d7189f113c9fb2beb3be34b050c",
+        "fingerprint": "617123f86be6426fb15aba261b0a0cb517d66383719352ac0d58f95e3758fc4f",
+        "bytes_sha256": "1c4eba804755172477fac48c519ba94aa0118ffa62cb3eb4bedcc30b346fc4e1",
+        "semantic_sha256": "a6f9991f73a2db5ea5247217853d2c77f0c00b7ba4c323228eddf57f8f4a5e93",
         "normalized_header_lines": 4,
         "shared": true
       }

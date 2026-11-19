@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-12T11:50:57.135763+00:00",
+  "generated_at": "2026-11-17T10:29:05.439800+00:00",
   "client": "Egern",
   "rule": "Disney",
-  "rule_updated_at": "2026-08-07T02:23:05.638487+00:00",
+  "rule_updated_at": "2026-11-17T09:14:05.695068+00:00",
   "type_counts": {
+    "domain_regex_set": 1,
     "domain_set": 6,
     "domain_suffix_set": 242
   },
-  "total_line_count": 248,
+  "total_line_count": 249,
   "artifacts": [
     {
       "key": "rules",
@@ -20,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a6e3670b8ce7744a195d4c0538132b75f8381762855997d8c76ba64757bbc939",
-        "bytes_sha256": "e8026e70e2cdfe851476b47deb3d09ee5f8fae0a377c8db4804cd4b7364288b0",
-        "semantic_sha256": "3b230c89764f951c0d0af33fca72d190ee780066bc2b788064291594dc031386",
+        "fingerprint": "e9008635209c5dd3be30ab6c636751cfb8f05b1b44820f845fc0c3ecd49143a5",
+        "bytes_sha256": "0262b637a36f34120ad14671a6aee9d686313715001fdaca2df5e0a800322e0c",
+        "semantic_sha256": "a69e2adff812fde24f456145026bd849a82f1490e46419a12d15102cfbac7fc6",
         "normalized_header_lines": 4,
         "shared": true
       }

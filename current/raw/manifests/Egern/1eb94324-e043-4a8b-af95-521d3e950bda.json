@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-15T01:17:31.923417+00:00",
+  "generated_at": "2026-11-18T15:21:38.364462+00:00",
   "client": "Egern",
   "rule": "AdGuardSDNSFilterDirect",
-  "rule_updated_at": "2026-11-15T01:16:05.883453+00:00",
+  "rule_updated_at": "2026-11-18T15:20:09.697253+00:00",
   "type_counts": {
-    "domain_set": 190756,
+    "domain_set": 190191,
     "domain_suffix_set": 4,
     "ip_cidr_set": 74
   },
-  "total_line_count": 190834,
+  "total_line_count": 190269,
   "artifacts": [
     {
       "key": "rules",
@@ -21,9 +21,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "37a64e64ce8faf0ec39ea68ccde6981f90b6c67b27353db50aaade72b561bb60",
-        "bytes_sha256": "2e30209774db33df61c0831afdaebf79e9d6daac330f4f8926b71155a2229887",
-        "semantic_sha256": "6a3b4fefb7db315676c63030561701446b9bd0e35c2298a01694893e0263c6f3",
+        "fingerprint": "d06a1b76e66bd051ac0cbf04b9cdb8fdde1a4009937fa765778fc5fc67280a4c",
+        "bytes_sha256": "7861611604920010fde8cc7678d0998e6dbdb6638944aaa3029974c656632ce8",
+        "semantic_sha256": "63ae69a1d9e670b2878c6ae85b8941796f24def7235ab458c3d1eb2285c1c202",
         "normalized_header_lines": 4,
         "shared": true
       }
