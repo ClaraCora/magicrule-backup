@@ -20,6 +20,8 @@ test('adding Surge preserves the old snapshot offline and syncs all Surge artifa
     { key: 'rule-set', ext: 'list', text: 'IP-ASN,14061,no-resolve\n' },
     { key: 'mitm', ext: 'sgmodule', text: '#!name=GlobalAI\n[MITM]\nhostname = %APPEND% example.com\n' },
   ];
+  let surgeName = 'GlobalAI';
+  let surgeFormats = artifacts;
   const server = createServer((req, res) => {
     const pathname = new URL(req.url!, 'http://localhost').pathname;
     res.setHeader('Content-Type', 'application/json');
@@ -27,11 +29,11 @@ test('adding Surge preserves the old snapshot offline and syncs all Surge artifa
     if (pathname.startsWith('/data/meta/')) return void res.end('{}');
     if (pathname.startsWith('/data/index/')) {
       const client = path.basename(pathname, '.json');
-      return void res.end(JSON.stringify({ client, rules: [{ id: 'ai', name: 'GlobalAI', manifest: `/data/rules/${client}/ai/manifest.json` }] }));
+      return void res.end(JSON.stringify({ client, rules: [{ id: 'ai', name: client === 'Surge' ? surgeName : 'GlobalAI', manifest: `/data/rules/${client}/ai/manifest.json` }] }));
     }
     if (pathname.endsWith('/manifest.json')) {
       const client = pathname.split('/')[3];
-      const selected = client === 'Surge' ? artifacts : artifacts.slice(0, 1);
+      const selected = client === 'Surge' ? surgeFormats : artifacts.slice(0, 1);
       return void res.end(JSON.stringify({ client, artifacts: selected.map(({ key, ext, text }) => ({ key, ext, url: `/artifacts/${key}.${ext}`, dedupe: { bytes_sha256: sha(text) } })) }));
     }
     const artifact = artifacts.find(a => pathname === `/artifacts/${a.key}.${a.ext}`);
@@ -66,6 +68,40 @@ test('adding Surge preserves the old snapshot offline and syncs all Surge artifa
   const repeated = await sync(expanded);
   assert.equal(repeated.downloadedFiles, 0);
   assert.equal(repeated.reusedFiles, 5);
+
+  const surgeVariant = async () => {
+    const snapshot: Catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
+    return snapshot.rules[0].variants.find(variant => variant.client === 'Surge')!;
+  };
+  const originalVariant = await surgeVariant();
+  const removed = originalVariant.artifacts[1];
+  const removedPath = path.join(directory, removed.path);
+  const originalBytes = await readFile(removedPath);
+  surgeFormats = artifacts.filter(artifact => artifact.key !== removed.key);
+  assert.equal((await sync(expanded)).artifactCount, 4);
+  assert.deepEqual((await surgeVariant()).retainedArtifacts, [removed]);
+  assert.ok(!(await surgeVariant()).artifacts.some(artifact => artifact.key === removed.key));
+  assert.equal((await verifySnapshot(directory, expanded)).retainedFiles, 1);
+  const migrated = await migrateNames(directory, expanded);
+  assert.ok('retainedFiles' in migrated);
+  assert.equal(migrated.retainedFiles, 1);
+  assert.deepEqual(await readFile(removedPath), originalBytes);
+
+  const publishedStatus = await readFile(path.join(directory, 'current/status.json'));
+  await writeFile(removedPath, 'corrupt');
+  await assert.rejects(verifySnapshot(directory, expanded), /Stored bytes mismatch/);
+  await assert.rejects(sync(expanded), /Stored bytes mismatch/);
+  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), publishedStatus);
+  await writeFile(removedPath, originalBytes);
+
+  surgeName = 'RenamedGlobalAI';
+  surgeFormats = artifacts;
+  assert.equal((await sync(expanded)).artifactCount, 5);
+  const restored = await surgeVariant();
+  assert.equal(restored.name, surgeName);
+  assert.equal(restored.retainedArtifacts, undefined);
+  assert.deepEqual(restored.artifacts.find(artifact => artifact.key === removed.key), removed);
+  assert.equal((await verifySnapshot(directory, expanded)).retainedFiles, 0);
 });
 
 test('complete snapshots, incremental reuse, timestamps, delisting, rollback and retry', async t => {
@@ -89,7 +125,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
       const isBinary = client === 'Mihomo';
       const bytes = isBinary ? binary : Buffer.from(`DOMAIN,${id}${state.version}.example\n`);
       const artifactUrl = state.invalid === 'origin' ? 'https://unexpected.example/file.list' : `${origin}/artifacts/${client}-${id}-${state.version}.${isBinary ? 'mrs' : 'list'}`;
-      return void res.end(JSON.stringify({ client, total_line_count: 1, artifacts: state.invalid === 'missing-artifact' ? [] : [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
+      return void res.end(JSON.stringify({ client, total_line_count: 1, artifacts: state.invalid === 'missing-artifact' ? undefined : [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
     }
     if (url.pathname.startsWith('/artifacts/')) {
       if (state.invalid === 'timeout') return;

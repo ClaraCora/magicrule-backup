@@ -20,7 +20,7 @@ export async function migrateNames(root: string, config: { clients: string[]; re
     await cp(current, staging, { recursive: true });
     await rm(path.join(staging, 'rules'), { recursive: true, force: true });
     await mkdir(path.join(staging, 'rules'));
-    for (const rule of catalog.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) {
+    for (const rule of catalog.rules) for (const variant of rule.variants) for (const artifact of [...variant.artifacts, ...(variant.retainedArtifacts ?? [])]) {
       const location = publishedLocation(variant.client, artifact, config.repository);
       claimPath(location.path, `${variant.client}/${rule.id}/${artifact.key}.${artifact.extension}`);
       const bytes = await storedBytes(root, artifact);

@@ -31,6 +31,7 @@ export interface Variant {
   sourceManifestUrl: string;
   archived: boolean;
   artifacts: Artifact[];
+  retainedArtifacts?: Artifact[];
 }
 
 export interface Rule {

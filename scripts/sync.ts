@@ -105,6 +105,20 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   const oldVariants = new Map<string, Variant>(oldCatalog.rules.flatMap(rule => rule.variants.map(variant => [`${variant.client}/${rule.id}`, variant] as const)));
   let downloadedFiles = 0, reusedFiles = 0, completed = 0;
   const claimPath = pathRegistry();
+  const copyRetained = async (client: string, id: string, artifact: Artifact): Promise<Artifact> => {
+    const location = publishedLocation(client, artifact, options.repository);
+    claimPath(location.path, `${client}/${id}/${artifact.key}.${artifact.extension} (retained)`);
+    const bytes = await storedBytes(root, artifact);
+    const file = path.join(staging, ...location.path.split('/').slice(1));
+    await mkdir(path.dirname(file), { recursive: true });
+    await writeFile(file, bytes);
+    return { ...artifact, ...location };
+  };
+  const copyRetainedList = async (client: string, id: string, artifacts: Artifact[]) => {
+    const copies: Artifact[] = [];
+    for (const artifact of artifacts) copies.push(await copyRetained(client, id, artifact));
+    return copies;
+  };
   const allowed = new Set(options.allowedOrigins);
   const urlFor = (value: string, manifest = false) => {
     const base = manifest && !value.startsWith('/') && !/^https?:/i.test(value) && !value.startsWith('data/') ? `${options.source}/data/` : `${options.source}/`;
@@ -181,14 +195,16 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
       await mkdir(directory, { recursive: true });
       await writeFile(path.join(directory, `${rule.id}.json`), result.bytes);
       const prior = oldVariants.get(`${client}/${rule.id}`);
+      const previousArtifacts = prior ? [...prior.artifacts, ...(prior.retainedArtifacts ?? [])] : [];
+      const previousByKey = new Map(previousArtifacts.map(artifact => [`${artifact.key}.${artifact.extension}`, artifact]));
       const keys = new Set<string>();
       const artifacts: Artifact[] = [];
       for (const artifact of manifest.artifacts) {
         segment(artifact.key); segment(artifact.ext);
-        const old = prior?.artifacts.find(item => item.key === artifact.key && item.extension === artifact.ext);
+        const identity = `${artifact.key}.${artifact.ext}`;
+        const old = previousByKey.get(identity);
         const initialLocation = artifactLocation(client, rule.name, artifact.key, artifact.ext, options.repository);
         const location = old ? publishedLocation(client, old, options.repository) : initialLocation;
-        const identity = `${artifact.key}.${artifact.ext}`;
         if (keys.has(identity)) throw new Error(`Duplicate artifact: ${client}/${rule.id}/${identity}`);
         keys.add(identity);
         claimPath(location.path, `${client}/${rule.id}/${identity}`);
@@ -232,6 +248,8 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
           bytes: bytes.length, changedAt: old?.sha256 === sha256 ? old.changedAt : now,
         });
       }
+      const removedFormats = previousArtifacts.filter(artifact => !keys.has(`${artifact.key}.${artifact.extension}`));
+      const retainedArtifacts = await copyRetainedList(client, rule.id, removedFormats);
       const signature = (items: Artifact[]) => JSON.stringify(items.map(item => [item.key, item.extension, item.sha256]).sort());
       const fileChangedAt = prior && signature(prior.artifacts) === signature(artifacts) ? prior.fileChangedAt : now;
       const variant: Variant = {
@@ -244,6 +262,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         generatedAt: date(manifest.generated_at), fileChangedAt,
         providers: rule.providers?.length ? rule.providers : manifest.providers || [],
         sourceManifestUrl: manifestUrl, archived: false, artifacts,
+        ...(retainedArtifacts.length ? { retainedArtifacts } : {}),
       };
       if (++completed % 100 === 0 || completed === jobs.length) console.log(`Validated ${completed}/${jobs.length}; downloaded ${downloadedFiles}, reused ${reusedFiles}.`);
       return { id: rule.id, variant };
@@ -271,18 +290,14 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
     }
     // Rebuild archived files at their published addresses too.
     for (const rule of grouped.values()) for (const variant of rule.variants.filter(v => v.archived)) {
-      for (const artifact of variant.artifacts) {
-        const location = publishedLocation(variant.client, artifact, options.repository);
-        claimPath(location.path, `${variant.client}/${rule.id}/${artifact.key}.${artifact.extension} (archived)`);
-        const bytes = await storedBytes(root, artifact);
-        const file = path.join(staging, ...location.path.split('/').slice(1));
-        await mkdir(path.dirname(file), { recursive: true });
-        await writeFile(file, bytes);
-        Object.assign(artifact, location);
+      variant.artifacts = await copyRetainedList(variant.client, rule.id, variant.artifacts);
+      if (variant.retainedArtifacts) {
+        variant.retainedArtifacts = await copyRetainedList(variant.client, rule.id, variant.retainedArtifacts);
       }
     }
-    const publishedPaths = new Set([...grouped.values()].flatMap(rule => rule.variants.flatMap(variant => variant.artifacts.map(artifact => artifact.path))));
-    for (const rule of oldCatalog.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) {
+    const publishedPaths = new Set([...grouped.values()].flatMap(rule => rule.variants.flatMap(variant =>
+      [...variant.artifacts, ...(variant.retainedArtifacts ?? [])].map(artifact => artifact.path))));
+    for (const rule of oldCatalog.rules) for (const variant of rule.variants) for (const artifact of [...variant.artifacts, ...(variant.retainedArtifacts ?? [])]) {
       if (!publishedPaths.has(artifact.path)) throw new Error(`Refusing to remove a published rule address: ${artifact.path}`);
     }
     const catalog: Catalog = { schemaVersion: 1, clients: options.clients, rules: [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name, 'en')) };

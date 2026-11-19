@@ -3,7 +3,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { pool, verifyArtifact } from './sync.ts';
 import { pathRegistry, publishedLocation, storedBytes } from './artifact-layout.ts';
-import type { Catalog, SyncStatus } from '../src/lib/types.ts';
+import type { Artifact, Catalog, SyncStatus } from '../src/lib/types.ts';
 
 export async function verifySnapshot(root: string, config: { clients: string[]; repository: string }, requireNamed = true) {
   const current = path.join(root, 'current');
@@ -33,23 +33,33 @@ export async function verifySnapshot(root: string, config: { clients: string[]; 
       const manifest = JSON.parse(await readFile(path.join(current, 'raw', 'manifests', client, id + '.json'), 'utf8'));
       if (manifest.artifacts.length !== variant.artifacts.length) throw new Error('Artifact count mismatch: ' + client + '/' + id);
       const identities = new Set<string>();
-      for (const source of manifest.artifacts) {
-        const identity = source.key + '.' + source.ext;
-        if (identities.has(identity)) throw new Error('Duplicate manifest artifact: ' + client + '/' + id + '/' + identity);
-        identities.add(identity);
-        const artifact = variant.artifacts.find(a => a.key === source.key && a.extension === source.ext);
-        if (!artifact) throw new Error('Missing artifact: ' + client + '/' + id + '/' + identity);
+      const verifyFile = async (artifact: Artifact, identity: string) => {
         if (requireNamed) {
           const location = publishedLocation(client, artifact, config.repository);
           if (artifact.path !== location.path || artifact.url !== location.url || artifact.fileName !== location.fileName) throw new Error('Artifact naming mismatch: ' + client + '/' + id + '/' + identity);
         }
         claimPath(artifact.path, client + '/' + id + '/' + identity);
         expectedFiles.add(artifact.path);
-        const data = await storedBytes(root, artifact);
+        return storedBytes(root, artifact);
+      };
+      for (const source of manifest.artifacts) {
+        const identity = source.key + '.' + source.ext;
+        if (identities.has(identity)) throw new Error('Duplicate manifest artifact: ' + client + '/' + id + '/' + identity);
+        identities.add(identity);
+        const artifact = variant.artifacts.find(a => a.key === source.key && a.extension === source.ext);
+        if (!artifact) throw new Error('Missing artifact: ' + client + '/' + id + '/' + identity);
+        const data = await verifyFile(artifact, identity);
         const method = verifyArtifact(data, source);
         if (method !== artifact.verification) throw new Error('Verification metadata mismatch: ' + artifact.path);
         if (!variant.archived) { methods[method]++; files++; bytes += data.length; }
         else retainedFiles++;
+      }
+      for (const artifact of variant.retainedArtifacts ?? []) {
+        const identity = artifact.key + '.' + artifact.extension;
+        if (identities.has(identity)) throw new Error('Duplicate retained artifact: ' + client + '/' + id + '/' + identity);
+        identities.add(identity);
+        await verifyFile(artifact, identity);
+        retainedFiles++;
       }
       if (!variant.archived) records++;
     });
