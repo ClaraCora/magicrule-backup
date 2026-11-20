@@ -1,6 +1,7 @@
 import { createHash, randomUUID } from 'node:crypto';
 import { cp, mkdir, readFile, writeFile, rm, access } from 'node:fs/promises';
 import path from 'node:path';
+import { setTimeout as delay } from 'node:timers/promises';
 import { pathToFileURL } from 'node:url';
 import type { Artifact, Catalog, Change, Rule, SyncRun, SyncStatus, Variant } from '../src/lib/types.ts';
 import { artifactLocation, pathRegistry, publishedLocation, publishSnapshot, ruleFile, storedBytes } from './artifact-layout.ts';
@@ -17,6 +18,8 @@ export interface SyncOptions {
   now?: () => Date;
   retryDelayMs?: number;
 }
+
+class RetryableUpstreamError extends Error {}
 
 interface SourceArtifact {
   key: string; label?: string; ext: string; url: string;
@@ -134,7 +137,14 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
           headers: { 'User-Agent': `MagicRuleBackup/1.0 (+https://github.com/${options.repository})`, Accept: '*/*' },
           signal: AbortSignal.timeout(options.timeoutMs), redirect: 'error',
         });
-        if (!response.ok) { await response.body?.cancel(); throw new Error(`HTTP ${response.status}: ${url}`); }
+        if (!response.ok) {
+          await response.body?.cancel();
+          const message = `HTTP ${response.status}: ${url}`;
+          if ([404, 408, 429].includes(response.status) || response.status >= 500) {
+            throw new RetryableUpstreamError(message);
+          }
+          throw new Error(message);
+        }
         const chunks: Uint8Array[] = [];
         let size = 0;
         for await (const chunk of response.body!) {
@@ -143,12 +153,19 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
           chunks.push(chunk);
         }
         const bytes = Buffer.concat(chunks);
-        if (/^\s*(?:<!doctype\s+html|<html\b)/i.test(bytes.subarray(0, 256).toString('utf8'))) throw new Error(`HTML returned instead of data: ${url}`);
+        if (/^\s*(?:<!doctype\s+html|<html\b)/i.test(bytes.subarray(0, 256).toString('utf8'))) throw new RetryableUpstreamError(`HTML returned instead of data: ${url}`);
         validate?.(bytes);
         return bytes;
       } catch (cause) {
-        error = cause;
-        if (attempt + 1 < options.attempts) await new Promise(resolve => setTimeout(resolve, (options.retryDelayMs ?? 1000) * 2 ** attempt));
+        // Fetch and response-body failures surface as TypeError or a timeout.
+        if (cause instanceof TypeError || (cause instanceof Error && cause.name === 'TimeoutError')) {
+          error = new RetryableUpstreamError(`Upstream request failed: ${url}`, { cause });
+        } else if (cause instanceof RetryableUpstreamError) {
+          error = cause;
+        } else {
+          throw cause;
+        }
+        if (attempt + 1 < options.attempts) await delay((options.retryDelayMs ?? 1000) * 2 ** attempt);
       }
     }
     throw error;
@@ -156,7 +173,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   const requestJson = async <T>(url: string): Promise<{ bytes: Buffer; value: T }> => {
     const bytes = await request(url);
     try { return { bytes, value: JSON.parse(bytes.toString('utf8')) as T }; }
-    catch { throw new Error(`Invalid JSON: ${url}`); }
+    catch (cause) { throw new RetryableUpstreamError(`Invalid JSON: ${url}`, { cause }); }
   };
   try {
     if (await present(current)) await cp(current, staging, { recursive: true });
@@ -228,7 +245,15 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
             try { verifyArtifact(cached, artifact); bytes = cached; reusedFiles++; } catch { /* Fetch again if a cache entry is corrupt. */ }
           }
           if (!bytes) {
-            bytes = await request(sourceUrl, data => { verifyArtifact(data, artifact); });
+            bytes = await request(sourceUrl, data => {
+              if (!data.length && !artifact.empty) {
+                throw new RetryableUpstreamError(`Unexpected empty artifact: ${sourceUrl}`);
+              }
+              try { verifyArtifact(data, artifact); }
+              catch (cause) {
+                throw new RetryableUpstreamError(`Artifact validation failed: ${client}/${rule.name}/${identity} (${sourceUrl})`, { cause });
+              }
+            });
             downloadedFiles++;
             if (expectedHash) {
               await mkdir(path.dirname(cacheFile), { recursive: true });
@@ -327,8 +352,19 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   }
 }
 
+export async function syncWithRetry(options: SyncOptions, retryDelayMs = 60_000): Promise<SyncStatus> {
+  try {
+    return await sync(options);
+  } catch (error) {
+    if (!(error instanceof RetryableUpstreamError)) throw error;
+    console.warn(`Sync attempt failed. Retrying the full snapshot in ${retryDelayMs / 1000}s.`, error);
+    await delay(retryDelayMs);
+    return sync(options);
+  }
+}
+
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   const config = JSON.parse(await readFile(new URL('../sync.config.json', import.meta.url), 'utf8')) as SyncOptions;
   config.dataDirectory = process.env.BACKUP_DIR || config.dataDirectory;
-  await sync(config);
+  await syncWithRetry(config);
 }

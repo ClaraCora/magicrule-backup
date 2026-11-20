@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { cp, mkdtemp, mkdir, readFile, writeFile, readdir, rename, rm, access } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { sync, verifyArtifact } from '../scripts/sync.ts';
+import { sync, syncWithRetry, verifyArtifact } from '../scripts/sync.ts';
 import { migrateNames } from '../scripts/migrate-names.ts';
 import { verifySnapshot } from '../scripts/verify.ts';
 import type { Catalog } from '../src/lib/types.ts';
@@ -107,6 +107,7 @@ test('adding Surge preserves the old snapshot offline and syncs all Surge artifa
 test('complete snapshots, incremental reuse, timestamps, delisting, rollback and retry', async t => {
   const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-test-'));
   const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false, duplicate: false };
+  let indexLoads = 0;
   const binary = Buffer.from([0x4d, 0x52, 0x53, 0, 255, 0, 1]);
   let origin = '';
   const rule = (client: string, id: string) => ({ id, name: id === 'a' ? state.nameA : id === 'b' ? state.nameB : 'NewRule', chinese_name: id === 'a' ? '示例' : '保留', manifest: `${origin}/data/rules/${client}/${id}/manifest.json`, types: ['DOMAIN'], total_line_count: 1, providers: ['https://example.com/author'], ...(id === 'a' ? { rule_updated_at: '2026-01-01T00:00:00Z' } : {}) });
@@ -116,6 +117,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
     if (url.pathname === '/data/meta/clients.json') return void res.end(JSON.stringify({ clients: [{ name: 'Loon' }, { name: 'Mihomo' }] }));
     if (url.pathname.startsWith('/data/meta/')) return void res.end('{}');
     if (url.pathname.startsWith('/data/index/')) {
+      indexLoads++;
       const client = url.pathname.includes('Loon') ? 'Loon' : 'Mihomo';
       const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : []), ...(state.duplicate ? [rule(client, 'd')] : [])] : [rule(client, 'a')];
       return void res.end(JSON.stringify({ client, generated_at: '2026-11-01T00:00:00Z', rules }));
@@ -132,6 +134,12 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
       if (state.invalid === '404') { res.statusCode = 404; return void res.end('not found'); }
       if (state.invalid === 'html') return void res.end('<!doctype html><html>Missing</html>');
       if (state.invalid === 'hash') return void res.end('corrupt');
+      if (state.invalid === 'stale-file') {
+        // The first manifest describes bytes unavailable until the upstream deploy finishes.
+        state.invalid = '';
+        state.version++;
+        return void res.end('bytes from a different upstream version');
+      }
       if (state.retry > 0) { state.retry--; res.statusCode = 503; return void res.end('retry'); }
       const isBinary = url.pathname.endsWith('.mrs');
       const id = /-(a|b|c|d)-/.exec(url.pathname)![1];
@@ -222,6 +230,29 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
     assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), statusBefore, `${invalid} must not update successful time`);
     assert.equal((await readdir(directory)).some(name => name.startsWith('.staging-')), false);
   }
+  const oneRequestAttempt = { ...options, concurrency: 1, attempts: 1 };
+  const loadsBeforeRetry = indexLoads;
+  state.invalid = 'stale-file'; state.version++; state.day++;
+  const recovered = await syncWithRetry(oneRequestAttempt, 1);
+  assert.equal(indexLoads - loadsBeforeRetry, 4, 'retry reloads both indexes');
+  assert.equal(recovered.lastSuccessfulSyncAt, options.now().toISOString());
+  const keepPath = path.join(directory, 'current/rules/Loon/rules/Keep.list');
+  assert.equal(await readFile(keepPath, 'utf8'), `DOMAIN,b${state.version}.example\n`);
+  assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 2);
+
+  const recoveredStatus = await readFile(path.join(directory, 'current/status.json'));
+  const loadsBeforeFailure = indexLoads;
+  state.invalid = '404'; state.version++; state.day++;
+  await assert.rejects(syncWithRetry(oneRequestAttempt, 1), /HTTP 404/);
+  assert.equal(indexLoads - loadsBeforeFailure, 4, 'persistent upstream error is retried only once');
+  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
+  assert.equal((await readdir(directory)).some(name => name.startsWith('.staging-')), false);
+
+  const loadsBeforeInvalid = indexLoads;
+  state.invalid = 'origin';
+  await assert.rejects(syncWithRetry(oneRequestAttempt, 1), /Unexpected source URL/);
+  assert.equal(indexLoads - loadsBeforeInvalid, 2, 'a disallowed origin fails without a second snapshot');
+
   state.invalid = ''; state.retry = 2; state.version++; state.day++;
   assert.ok((await sync(options)).downloadedFiles > 0, 'transient failures retry successfully');
   state.extra = true; state.day++;
