@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-17T11:32:12.735416+00:00",
+  "generated_at": "2026-11-20T09:52:29.781794+00:00",
   "client": "Egern",
   "rule": "Game",
-  "rule_updated_at": "2026-11-17T09:15:39.703602+00:00",
+  "rule_updated_at": "2026-11-20T09:06:28.206426+00:00",
   "type_counts": {
     "domain_set": 125,
-    "domain_suffix_set": 1157,
+    "domain_suffix_set": 1159,
     "domain_regex_set": 4,
     "domain_keyword_set": 4,
     "ip_cidr_set": 12
   },
-  "total_line_count": 1302,
+  "total_line_count": 1304,
   "artifacts": [
     {
       "key": "rules",
@@ -23,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "a262e2c963a2b02e03804ec3c3ff2d883a2a19599e17eba3b29d32229fb498f3",
-        "bytes_sha256": "62e285ec7271a4aee82d8b8a8dde2006abcdafd139e729d47166406d4425b2aa",
-        "semantic_sha256": "e4b4ac428b6856e2d2cd79dc47c7ee416a06bb4e49d5bbfeec51de0b568a4871",
+        "fingerprint": "524e61b37362a60d7164783e89ad967487c6719595ed0d2093251887da975b05",
+        "bytes_sha256": "9ab23f1e14a634fbb2b82c1adde7067eada63cdade8d70b98d4b369b40c5e740",
+        "semantic_sha256": "b3ee244342795b7a8c71ae104d61168c4ea4f4221e13cd100ab7c39fdb03fbce",
         "normalized_header_lines": 4,
         "shared": true
       }

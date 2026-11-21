@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-17T07:29:49.633276+00:00",
+  "generated_at": "2026-11-20T09:23:57.078176+00:00",
   "client": "Surge",
   "rule": "GlobalAI",
-  "rule_updated_at": "2026-11-17T07:20:06.331770+00:00",
+  "rule_updated_at": "2026-11-20T09:02:33.688941+00:00",
   "type_counts": {
     "IP-CIDR6": 2,
-    "DOMAIN-SUFFIX": 4770,
+    "DOMAIN-SUFFIX": 347,
     "DOMAIN-KEYWORD": 11,
-    "IP-CIDR": 5,
+    "IP-CIDR": 1,
     "URL-REGEX": 1,
     "PROCESS-NAME": 14,
-    "IP-ASN": 4,
-    "DOMAIN": 145
+    "IP-ASN": 3,
+    "DOMAIN": 73
   },
-  "total_line_count": 4952,
+  "total_line_count": 452,
   "artifacts": [
     {
       "key": "rules",
@@ -22,13 +22,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
       "binary": false,
       "role": "full",
-      "recommended": false,
+      "recommended": true,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "3ab0accf1fecdff68fa7f9eb78591cb5449b551fd17a05eb7eeff9ad5f999a36",
-        "bytes_sha256": "be9f13d9042b0c4c81ec217aab3aa598161f02dc5217f04e3ae9fa1dbf103890",
-        "semantic_sha256": "5ffa38c6e6117acd9405210f4dfa064d9eece478e8d9091c2cea1e8c8f791650",
+        "fingerprint": "49956d7ab5a0973abb8b3346e8fd2941ceee3111dacfd87160b0f3b384549929",
+        "bytes_sha256": "7d59feba30377643dab89b50a7def953eacf790ad02d107b237ee09e09f5d030",
+        "semantic_sha256": "01abc50bddcef0b13a26c5c120053a041b802056bad5cd44567d6db6b1b2fc85",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -40,13 +40,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_domain-set_1fe683b884fc10e9.list",
       "binary": false,
       "role": "domain-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "3c896112124fb0710e0b331a207148ad801fda4a3b966ee6e99e49c140ca0730",
-        "bytes_sha256": "b7fdf9d1b9557b2c1cfa140ac92a1e08d730291cc1fd7040a1bf815472d6a34d",
-        "semantic_sha256": "f40b05f5166a5e8700a08120269c191dac80d88345ce5dd148bc3299634ebb99",
+        "fingerprint": "168f54a4640a2353ff030346652f68c00ce2a5625f555f9d8b077c451477781f",
+        "bytes_sha256": "7c4946f715044233256bb51fb7b9fd57517f2c69da1d4864559e5c36a4e9865d",
+        "semantic_sha256": "0c51d6c82f77248ae74e4140e522bb806c58c5257608fa81b0f9a1f224363285",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -58,13 +58,13 @@
       "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rule-set_bac4d01b39412c60.list",
       "binary": false,
       "role": "rule-set",
-      "recommended": true,
+      "recommended": false,
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "1959bee33e6299616df0dd7fa00fe357524cd1d8e680d5c3a905edd00d57abde",
-        "bytes_sha256": "cf06c82d1eab0624c994744dadcc5f940bfe1d969b50205d0afce0bb296974c6",
-        "semantic_sha256": "6241fc459d72d57af2cc7e70c3e237a310f826780104ed73212bacd8f00083b3",
+        "fingerprint": "e11b402499002129417550510dc8577b4f51a0a86050d86e4af3948c045328a2",
+        "bytes_sha256": "6a9571f1455fa38afc9d618f2ac722b873334987b9ecf2b10cf977e7185f9ff3",
+        "semantic_sha256": "1dfbdfc72af2a479e5d648a54df6b712873e0df4d7400ee0bfe0bba215c2eaa0",
         "normalized_header_lines": 5,
         "shared": true
       }
@@ -80,8 +80,8 @@
       "empty": false,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "6d77af26d76c2a8d9ff2b55829c7a1ba1eb06eb819cc15dae2382812d532a664",
-        "bytes_sha256": "e19552e5017fc8b97fccd6563c4f96abc5e212dc4ea72b74193b926451bab035",
+        "fingerprint": "f0957f821eee34bd2f37fadc7498b60a1cf2f6935f506b281c79f53b591178d5",
+        "bytes_sha256": "a58789c29405c319eb81b0023a64a0ae3ac63c40fec1c95dbf7afbff45effdb6",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
