@@ -120,14 +120,19 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
       indexLoads++;
       const client = url.pathname.includes('Loon') ? 'Loon' : 'Mihomo';
       const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : []), ...(state.duplicate ? [rule(client, 'd')] : [])] : [rule(client, 'a')];
-      return void res.end(JSON.stringify({ client, generated_at: '2026-11-01T00:00:00Z', rules }));
+      return void res.end(JSON.stringify({ client: state.invalid === 'wrong-index' ? 'Other' : client, generated_at: '2026-11-01T00:00:00Z', rules }));
     }
     if (url.pathname.endsWith('/manifest.json')) {
       const [, , , client, id] = url.pathname.split('/');
       const isBinary = client === 'Mihomo';
       const bytes = isBinary ? binary : Buffer.from(`DOMAIN,${id}${state.version}.example\n`);
       const artifactUrl = state.invalid === 'origin' ? 'https://unexpected.example/file.list' : `${origin}/artifacts/${client}-${id}-${state.version}.${isBinary ? 'mrs' : 'list'}`;
-      return void res.end(JSON.stringify({ client, total_line_count: 1, artifacts: state.invalid === 'missing-artifact' ? undefined : [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
+      const nameAtRequest = rule(client, id).name;
+      if (state.invalid === 'change-index' && client === 'Loon' && id === 'b') {
+        state.nameB = 'RenamedDuringSync';
+        state.invalid = '';
+      }
+      return void res.end(JSON.stringify({ client, rule: state.invalid === 'wrong-rule' ? 'OtherRule' : nameAtRequest, total_line_count: 1, artifacts: state.invalid === 'missing-artifact' ? undefined : [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
     }
     if (url.pathname.startsWith('/artifacts/')) {
       if (state.invalid === 'timeout') return;
@@ -230,11 +235,20 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
     assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), statusBefore, `${invalid} must not update successful time`);
     assert.equal((await readdir(directory)).some(name => name.startsWith('.staging-')), false);
   }
+  for (const [invalid, reason] of [
+    ['wrong-index', /Unexpected client/], ['wrong-rule', /Manifest rule mismatch/],
+    ['change-index', /Upstream index changed during sync: Loon/],
+  ] as const) {
+    state.invalid = invalid;
+    await assert.rejects(sync(options), reason);
+    assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), before);
+    assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), statusBefore);
+  }
   const oneRequestAttempt = { ...options, concurrency: 1, attempts: 1 };
   const loadsBeforeRetry = indexLoads;
   state.invalid = 'stale-file'; state.version++; state.day++;
   const recovered = await syncWithRetry(oneRequestAttempt, 1);
-  assert.equal(indexLoads - loadsBeforeRetry, 4, 'retry reloads both indexes');
+  assert.equal(indexLoads - loadsBeforeRetry, 6, 'the retry reloads both indexes and confirms them before publishing');
   assert.equal(recovered.lastSuccessfulSyncAt, options.now().toISOString());
   const keepPath = path.join(directory, 'current/rules/Loon/rules/Keep.list');
   assert.equal(await readFile(keepPath, 'utf8'), `DOMAIN,b${state.version}.example\n`);

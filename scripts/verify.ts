@@ -1,7 +1,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { pool, verifyArtifact } from './sync.ts';
+import { checkSourceIdentity, pool, verifyArtifact } from './sync.ts';
 import { pathRegistry, publishedLocation, storedBytes } from './artifact-layout.ts';
 import type { Artifact, Catalog, SyncStatus } from '../src/lib/types.ts';
 
@@ -25,12 +25,14 @@ export async function verifySnapshot(root: string, config: { clients: string[]; 
   const expectedFiles = new Set<string>();
   for (const client of clients) {
     const index = JSON.parse(await readFile(path.join(current, 'raw', 'index', client + '.json'), 'utf8'));
-    const sourceIds = new Set(index.rules.map((rule: { id: string }) => rule.id));
+    checkSourceIdentity(client, index);
+    const sourceNames = new Map<string, string>(index.rules.map((rule: { id: string; name: string }) => [rule.id, rule.name]));
     const variants = catalog.rules.flatMap(rule => rule.variants.filter(v => v.client === client).map(variant => ({ id: rule.id, variant })));
     const active = variants.filter(record => !record.variant.archived);
-    if (sourceIds.size !== index.rules.length || active.length !== index.rules.length || index.rules.length !== status.clients.find(c => c.name === client)?.count || active.some(record => !sourceIds.has(record.id))) throw new Error('Index records mismatch: ' + client);
+    if (sourceNames.size !== index.rules.length || active.length !== index.rules.length || index.rules.length !== status.clients.find(c => c.name === client)?.count || active.some(record => sourceNames.get(record.id) !== record.variant.name)) throw new Error('Index records mismatch: ' + client);
     await pool(variants, 4, async ({ id, variant }) => {
       const manifest = JSON.parse(await readFile(path.join(current, 'raw', 'manifests', client, id + '.json'), 'utf8'));
+      checkSourceIdentity(client, manifest, variant.name);
       if (manifest.artifacts.length !== variant.artifacts.length) throw new Error('Artifact count mismatch: ' + client + '/' + id);
       const identities = new Set<string>();
       const verifyFile = async (artifact: Artifact, identity: string) => {

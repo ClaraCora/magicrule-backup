@@ -35,7 +35,7 @@ interface SourceRule {
 }
 
 interface SourceManifest {
-  client?: string; rule_updated_at?: string; generated_at?: string;
+  client?: string; rule?: string; rule_updated_at?: string; generated_at?: string;
   description?: string; providers?: string[]; type_counts?: Record<string, number>;
   total_line_count?: number; artifacts: SourceArtifact[];
 }
@@ -76,6 +76,15 @@ export function verifyArtifact(bytes: Buffer, artifact: SourceArtifact): Artifac
     }
   }
   throw new Error(`SHA-256 mismatch (file and declared normalized body): ${artifact.url}`);
+}
+
+export function checkSourceIdentity(client: string, source: { client?: string; rule?: string }, ruleName?: string) {
+  if (source.client !== undefined && source.client !== client) {
+    throw new RetryableUpstreamError(`Unexpected client for ${client}/${ruleName ?? 'index'}: ${source.client}`);
+  }
+  if (ruleName !== undefined && source.rule !== undefined && source.rule !== ruleName) {
+    throw new RetryableUpstreamError(`Manifest rule mismatch for ${client}/${ruleName}: ${source.rule}`);
+  }
 }
 
 export async function pool<T, R>(items: T[], concurrency: number, task: (item: T, index: number) => Promise<R>): Promise<R[]> {
@@ -190,8 +199,10 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
     if (!available || options.clients.some(client => !available.includes(client))) throw new Error('Selected client missing from upstream directory');
     const indexes = await pool(options.clients, options.concurrency, async client => {
       segment(client);
-      const result = await requestJson<{ client?: string; generated_at?: string; rules: SourceRule[] }>(urlFor(`/data/index/${client}.json`));
+      const url = urlFor(`/data/index/${client}.json`);
+      const result = await requestJson<{ client?: string; generated_at?: string; rules: SourceRule[] }>(url);
       if (!Array.isArray(result.value.rules) || !result.value.rules.length) throw new Error(`Empty or invalid index: ${client}`);
+      checkSourceIdentity(client, result.value);
       const ids = new Set<string>();
       for (const rule of result.value.rules) {
         segment(rule.id);
@@ -199,7 +210,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         ids.add(rule.id);
       }
       await writeFile(path.join(staging, 'raw', 'index', `${client}.json`), result.bytes);
-      return { client, generatedAt: date(result.value.generated_at), rules: result.value.rules };
+      return { client, url, sha256: digest(result.bytes), generatedAt: date(result.value.generated_at), rules: result.value.rules };
     });
     const jobs = indexes.flatMap(index => index.rules.map(rule => ({ client: index.client, rule })));
     console.log(`Syncing ${jobs.length} client records (${options.clients.join(', ')}).`);
@@ -207,7 +218,8 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
       const manifestUrl = urlFor(rule.manifest, true);
       const result = await requestJson<SourceManifest>(manifestUrl);
       const manifest = result.value;
-      if (!Array.isArray(manifest.artifacts) || (manifest.client && manifest.client !== client)) throw new Error(`Invalid manifest: ${client}/${rule.name}`);
+      if (!Array.isArray(manifest.artifacts)) throw new Error(`Invalid manifest: ${client}/${rule.name}`);
+      checkSourceIdentity(client, manifest, rule.name);
       const directory = path.join(staging, 'raw', 'manifests', client);
       await mkdir(directory, { recursive: true });
       await writeFile(path.join(directory, `${rule.id}.json`), result.bytes);
@@ -326,6 +338,11 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
       if (!publishedPaths.has(artifact.path)) throw new Error(`Refusing to remove a published rule address: ${artifact.path}`);
     }
     const catalog: Catalog = { schemaVersion: 1, clients: options.clients, rules: [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name, 'en')) };
+    await pool(indexes, options.concurrency, async index => {
+      if (digest(await request(index.url)) !== index.sha256) {
+        throw new RetryableUpstreamError(`Upstream index changed during sync: ${index.client}`);
+      }
+    });
     const successfulAt = (options.now?.() || new Date()).toISOString();
     const status: SyncStatus = {
       schemaVersion: 1, source: options.source, lastSuccessfulSyncAt: successfulAt,
