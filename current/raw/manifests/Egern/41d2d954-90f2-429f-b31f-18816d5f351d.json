@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:36:38.102107+00:00",
+  "generated_at": "2026-11-27T01:54:27.130415+00:00",
   "client": "Egern",
   "rule": "VISA",
-  "rule_updated_at": "2026-07-26T06:54:59.268901+00:00",
+  "rule_updated_at": "2026-11-27T09:54:27+08:00",
+  "source_rule_updated_at": "2026-07-26T06:54:59.268901+00:00",
   "type_counts": {
     "domain_suffix_set": 160
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:27+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1a827ab6cbc6f8d9be473a1cede1b7f2c4cb8db398a46b351e4ba7f3cd825273",
-        "bytes_sha256": "ac29ea622818229f5740214fad2457a6dae62ef5ca19624d4e5a65e6b12077ae",
+        "bytes_sha256": "67f2b96993999183bd31d8f771f6b5ae028fbf781d4215a492cade17ec42ea63",
         "semantic_sha256": "4a4b56e806ad405cebb931399926e962f5867a76d944130bdc53d74817706e68",
         "normalized_header_lines": 4,
         "shared": true

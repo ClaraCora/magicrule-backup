@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:38.006914+00:00",
+  "generated_at": "2026-11-27T01:35:07.065266+00:00",
   "client": "Loon",
   "rule": "IEEE",
-  "rule_updated_at": "2026-07-26T10:34:04.009209+00:00",
+  "rule_updated_at": "2026-11-27T09:35:08+08:00",
+  "source_rule_updated_at": "2026-07-26T10:34:04.009209+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 54
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:08+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5c6440eb8cc831c35838ee40ae428d39927b6e7c0693ce720afc960bb131c82e",
-        "bytes_sha256": "7fb3d95ae5864dde7d1da3c542f6baaf769e920dc59e758f896d0eafc9c0a306",
+        "bytes_sha256": "4f7b5c7f0219c3a6d4354352f3d4682ab71608408ff30bec8b294bfd6e8725c4",
         "semantic_sha256": "02dcd96cbb0e8cf7f0b813d64ec6dc69cb598d448074c0a3e93f58e7a5c20f74",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:08+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "09a7d5b7f81960cf3028790e9274ecca38104882dd786f90d08fdd695d1bb7ed",
-        "bytes_sha256": "877c0374640cc1cefc24797f754cc5373f69d171f20bda81a7b2b61af1ccf064",
+        "bytes_sha256": "17887b35bc8c1274958c80e267e67036a8fb1b5da3775372ed326999e3dfb0b7",
         "semantic_sha256": "84f8a6ac4740e71bc9cfd071df29597cdd12943b90a361b72580e3a46c652fcd",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-17T12:26:55.438683+00:00",
+  "generated_at": "2026-11-27T01:55:15.703328+00:00",
   "client": "Egern",
   "rule": "Naver",
-  "rule_updated_at": "2026-07-26T06:52:24.225921+00:00",
+  "rule_updated_at": "2026-11-27T09:55:15+08:00",
+  "source_rule_updated_at": "2026-07-26T06:52:24.225921+00:00",
   "type_counts": {
     "domain_set": 2,
-    "ip_cidr6_set": 50,
     "domain_suffix_set": 52,
-    "user_agent_set": 1,
-    "ip_cidr_set": 144
+    "ip_cidr6_set": 50,
+    "ip_cidr_set": 144,
+    "user_agent_set": 1
   },
   "total_line_count": 249,
   "artifacts": [
@@ -21,10 +22,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:15+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c5d7e3f2521bb679e611fdb0fecd81d58b6d7c949d3ca7786f56566693e38d49",
-        "bytes_sha256": "3a46270499d92256aeaae895d207090226ded5796a1064a55cb572b94d9b1d2c",
+        "bytes_sha256": "6788c9b1a8818b47b32d547da641d39977aa7471aa3de12dea0b8aa2cde2bda9",
         "semantic_sha256": "1339be63262301ad40a306cc648437fdfc3bdd641aa05b074955eb3f51fb49dc",
         "normalized_header_lines": 4,
         "shared": true

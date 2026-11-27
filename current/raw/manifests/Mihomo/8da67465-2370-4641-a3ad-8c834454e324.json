@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:32.583669+00:00",
+  "generated_at": "2026-11-27T01:31:39.430320+00:00",
   "client": "Mihomo",
   "rule": "Homebrew",
-  "rule_updated_at": "2026-07-26T08:35:57.388180+00:00",
+  "rule_updated_at": "2026-11-27T09:31:39+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:57.388180+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 1
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ae89f79a76c7e50f86a2588fcfcd3e60fdd2e990cef032815b830ba6f414de78",
-        "bytes_sha256": "9bffcdf98b087dbc3e1bede16a864de6ceb5c38b23426a6d12123bf36f4487db",
+        "bytes_sha256": "db5c61974a794099fd4009294d17bcfa88c248c8ff96d4c923e122c7e781e42d",
         "semantic_sha256": "fa7f7fdfbb3b722cc8b2878be869583ff54d9ee945232ccf421fc36837ad47cf",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7c3f782071faf67ae6362c26c822e7aa6e7bde9b54e645314295ae533d29cd61",
-        "bytes_sha256": "0a37975071bed91bdaf8e3166427f706cd87a6696aa50131a1a2f3d7653b1148",
+        "bytes_sha256": "af89eedcf0ce7201a5e41f29d128cc4d6a468f9f7cd7eb1ad71f1ff6c4648146",
         "semantic_sha256": "49d2604ffefdf8ef1109172fe2b644053d01aa4ef4b3cb52448f27fe106ae85f",
         "normalized_header_lines": 4,
         "shared": true
@@ -54,6 +57,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "4798905187d0e4fcd494fb419464e18d1544544765d2ed4aab466c522c36facb",

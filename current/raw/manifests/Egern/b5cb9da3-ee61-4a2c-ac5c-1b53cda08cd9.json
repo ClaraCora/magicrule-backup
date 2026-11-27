@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:08.737246+00:00",
+  "generated_at": "2026-11-27T01:33:38.575457+00:00",
   "client": "Egern",
   "rule": "SpaceMail",
-  "rule_updated_at": "2026-07-26T10:43:33.869038+00:00",
+  "rule_updated_at": "2026-11-27T09:33:38+08:00",
+  "source_rule_updated_at": "2026-07-26T10:43:33.869038+00:00",
   "type_counts": {
     "domain_suffix_set": 1
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:38+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "fdd1769acd03f9d6118bbc00aab22f96d09360abcda9fccf6d581be7bf1d2133",
-        "bytes_sha256": "340700b4fdac16f303a067550728e3c4a5230acb57b1d41f2f35ce53e8292774",
+        "bytes_sha256": "42dd95ae802f4695f0d43e06f2027266bfd315c5d05e2832dfe1f520a8c70232",
         "semantic_sha256": "8059f9a5bdb5b663bcc88a40519acd7b18008c8551e553d38c38ac6ce493793e",
         "normalized_header_lines": 4,
         "shared": true

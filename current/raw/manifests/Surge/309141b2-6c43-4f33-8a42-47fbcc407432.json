@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:11.108040+00:00",
+  "generated_at": "2026-11-27T01:26:39.536296+00:00",
   "client": "Surge",
   "rule": "Farfetch",
-  "rule_updated_at": "2026-07-26T08:39:06.015063+00:00",
+  "rule_updated_at": "2026-11-27T09:26:39+08:00",
+  "source_rule_updated_at": "2026-07-26T08:39:06.015063+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 8
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c7b2339a2aec7ef64aa3647a3afd9244427190d5397f64a03e0416e4c30ac406",
-        "bytes_sha256": "b8bfb0fdebbcd93cb2f3320bae623e8e95d1fa10f1b593d0a7675fd3086c7d12",
+        "bytes_sha256": "a364744343b8b6353b44014526e1956d1713b5a3702f4119e96610b2151ec147",
         "semantic_sha256": "c25e4125c153c67e1409562815a4faf58aae6f53435f0543d1ff9a57e6eda3d7",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a822c27541407ab3f5759bb1654780710b207b455596ccb154c4158950084824",
-        "bytes_sha256": "613ee784ed238fb6b6baf41554f17fd1be6b9951444539ae05b98122299ee173",
+        "bytes_sha256": "60f1bcd5f14e5bb3226ec2e2b2e84f976c5a65b341b385272300a2cea05dffec",
         "semantic_sha256": "b7b265daaf01e9bdb7943eb500f3140700399a1f26a98e434ea2f0bdc2aec0ea",
         "normalized_header_lines": 4,
         "shared": true

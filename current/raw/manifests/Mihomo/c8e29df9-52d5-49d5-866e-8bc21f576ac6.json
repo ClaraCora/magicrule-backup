@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:34.234910+00:00",
+  "generated_at": "2026-11-27T01:34:58.808414+00:00",
   "client": "Mihomo",
   "rule": "Envato",
-  "rule_updated_at": "2026-07-26T10:27:41.104786+00:00",
+  "rule_updated_at": "2026-11-27T09:34:59+08:00",
+  "source_rule_updated_at": "2026-07-26T10:27:41.104786+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 4
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:34:59+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5c73b5a5c884c9c89b4eee7c119ca7abd24d2babfa1d22f9034d5fa4acbf83d7",
-        "bytes_sha256": "fd9a3a2762cfd8f750d941d9bab5d037c25d9ab324847cbdc44fbee5b4fbb2e4",
+        "bytes_sha256": "34c197952bda52006f5e071eb925a6cd0935d419fe228eefb1c1aa31cddde05c",
         "semantic_sha256": "e522e0a9ae63a758ef54caac221472db782396c0df66e61774bc8f6317f7f967",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:34:59+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4780cd992ea0adcaa8377f3201181a39bcf6b6175dd32fb220251290b8bb9f48",
-        "bytes_sha256": "c5aecdf7aaa8ce08b344eb3f4d036ba587e2a86bf00ef0d6ecba7c6f42d6ef56",
+        "bytes_sha256": "495d08a260075e73a6e40ae91817096404af77c0fefdeee9fbad90f426bc7a98",
         "semantic_sha256": "6ba2c51a82170b2e31d7b0695e7c18971dc48813db78bec04930482b25f583e9",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "b2ac8110601e023d0b4099a962695e117d407cf8edc59280ff2ddf9d744787ae",

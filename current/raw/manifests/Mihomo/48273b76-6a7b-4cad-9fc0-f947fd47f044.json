@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:32.296015+00:00",
+  "generated_at": "2026-11-27T01:27:54.467743+00:00",
   "client": "Mihomo",
   "rule": "HainanAirlines",
-  "rule_updated_at": "2026-07-26T10:30:53.107977+00:00",
+  "rule_updated_at": "2026-11-27T09:27:54+08:00",
+  "source_rule_updated_at": "2026-07-26T10:30:53.107977+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 4
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bf2dfdd9f56836176cb67ae8d6f90642a0e6f5951a8d2b614c55eeaf59b87b25",
-        "bytes_sha256": "2a91c44c8ef910846714d8734940ba03ae91c30121942aafa18685a01f0b47a2",
+        "bytes_sha256": "6967560d2fcceeacce48ed0d75cc111461e2cee136cf4d8e72cbd4cfa588dd1c",
         "semantic_sha256": "795126fe724fb33cf05b337faaee8576b70fd86b3e25d190357d60869088447d",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7654ea6ecd993616430e96d4800fae13aa6292f24ed7b31c542fc00166e54c17",
-        "bytes_sha256": "35156936f950c3049e58002cb86aab77db0a7ab7166005dd6e416b65bb9ca5bc",
+        "bytes_sha256": "47e8e787b9b957610603697dea42f88ed40a1b2786077cf3f17c0295161c1090",
         "semantic_sha256": "74f35f1eb701657654535c63225b3b5f40f882e81ef792f1612150c58730a8b4",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "481b121d819587570ff565d9bff28b6a9d1cce39d3bc95cefc611e5bea9ed3ca",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:43.366697+00:00",
+  "generated_at": "2026-11-27T01:32:15.589422+00:00",
   "client": "Mihomo",
   "rule": "HeroGame",
-  "rule_updated_at": "2026-07-26T08:37:00.533888+00:00",
+  "rule_updated_at": "2026-11-27T09:32:15+08:00",
+  "source_rule_updated_at": "2026-07-26T08:37:00.533888+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 5
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:15+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d78c69b8d773523be4a567ec9fee0bb65684a25f08fdd7692fa65f3e8f352eba",
-        "bytes_sha256": "5c2a8f1afdb801496242af684dccf52f102f5a99503811bb632158a0ea333561",
+        "bytes_sha256": "0249d45cc0d252848b650fa4564efdd4d6f5c8eb04d4e45c4f999c931d71bff8",
         "semantic_sha256": "5337358e4ce2bed2f93ed5795e1e11b2a99fee357f5f231b965164a6bd04ba95",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:15+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1caceec9249415db9d0411e2f9a797d9464e48224feeba7747ac5fe8dba487b2",
-        "bytes_sha256": "45dcf967c64735f9c2511b368a560774ed56c81a820a7a875c18ba935dac982b",
+        "bytes_sha256": "760d70064a1786026f197966492cd512de04f734beb68be3d9ff1d60aae7f9a3",
         "semantic_sha256": "9194fca90c41bd8e256591f9f61dd73f542c5938640d70823c5763c684009cd8",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "d3a31064f0cfec439a6ac200a4da59f17c9e1d206fc7a39b730385dc7c466296",

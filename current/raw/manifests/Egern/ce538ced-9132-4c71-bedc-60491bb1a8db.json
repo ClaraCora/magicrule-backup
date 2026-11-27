@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T10:15:42.179709+00:00",
+  "generated_at": "2026-11-27T01:55:04.635725+00:00",
   "client": "Egern",
   "rule": "Cisco",
-  "rule_updated_at": "2026-07-26T06:48:29.454227+00:00",
+  "rule_updated_at": "2026-11-27T09:55:04+08:00",
+  "source_rule_updated_at": "2026-07-26T06:48:29.454227+00:00",
   "type_counts": {
     "domain_set": 2,
     "domain_suffix_set": 120
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:04+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2776790826685857012893a4799b63db59028a8445d66ab08ac76b66b3188f95",
-        "bytes_sha256": "a29432c02edf843522c61ededbfee1c8bfa629291d41705809498a17ca6c779e",
+        "bytes_sha256": "b86a1d8393940f475b97b891567b240be3e73d5f3269a72501e2d16ea4e6851d",
         "semantic_sha256": "ab4a457455f646755bfe227efb67c3961feafb83f2d67933f82df595777fd455",
         "normalized_header_lines": 4,
         "shared": true

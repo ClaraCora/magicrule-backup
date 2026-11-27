@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:22.095342+00:00",
+  "generated_at": "2026-11-27T01:54:19.500379+00:00",
   "client": "Egern",
   "rule": "DouBan",
-  "rule_updated_at": "2026-07-26T06:24:42.270187+00:00",
+  "rule_updated_at": "2026-11-27T09:54:19+08:00",
+  "source_rule_updated_at": "2026-07-26T06:24:42.270187+00:00",
   "type_counts": {
     "domain_suffix_set": 3
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:19+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e88d5f0fb1fef5dfaac29c6a60c81821039184041c95924f5834b7f385cb199d",
-        "bytes_sha256": "afd419dbf8d55feeb499f3ef87ea9cb7aec21bdf75d09b54159b70fa56d5821a",
+        "bytes_sha256": "2541cb5cfba2bce6548319ed21f0f6505f8f334c46f081a025a76dfa0ccd764a",
         "semantic_sha256": "377fa5bc65c8f202aab8c34d0e1f952755fff626834a5692cde19dfe7bc48bee",
         "normalized_header_lines": 4,
         "shared": true

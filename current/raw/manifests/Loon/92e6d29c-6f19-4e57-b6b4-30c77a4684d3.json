@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:34.887144+00:00",
+  "generated_at": "2026-11-27T01:31:48.711207+00:00",
   "client": "Loon",
   "rule": "TheLinuxFoundation",
-  "rule_updated_at": "2026-07-26T08:35:30.299969+00:00",
+  "rule_updated_at": "2026-11-27T09:31:49+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:30.299969+00:00",
   "type_counts": {
     "DOMAIN": 2,
     "DOMAIN-SUFFIX": 15
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:49+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "77b38414e8fae52fc39461f3241d3eca20d464f680a64d3a1d45a77cd6f036c2",
-        "bytes_sha256": "a3d3f10a687f623d68bf59f4fd9f627e8977e4155d83f9cd23dd54409fda9565",
+        "bytes_sha256": "bdc7f668192ca1e236a287b8cfc56573787ad65dbf1de70844b6726e031dd911",
         "semantic_sha256": "4609f9520e7abccfae00c26d103e0ce50c130c639bd62c865e7855f2557a6811",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:49+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d5248603ca1470a4aea39e593f79725b75fe7c04559c72ac3a7d8ed36116358b",
-        "bytes_sha256": "b55aaf880ef25284e7779c883f79a43aa76339ee378648e829b78ae9bcc0110d",
+        "bytes_sha256": "02acacc9766ef367283a2a85b5a270ff918b88a0ba0d25c2a1426fc0c1bbea3b",
         "semantic_sha256": "c83af88b0b244fdcb28c61fc90b4f6a8e250f9891086f17958f10da995397a5e",
         "normalized_header_lines": 4,
         "shared": true

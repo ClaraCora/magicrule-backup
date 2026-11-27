@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:36:29.930452+00:00",
+  "generated_at": "2026-11-27T01:54:14.527797+00:00",
   "client": "Egern",
   "rule": "Starbucks",
-  "rule_updated_at": "2026-07-26T06:54:37.918341+00:00",
+  "rule_updated_at": "2026-11-27T09:54:14+08:00",
+  "source_rule_updated_at": "2026-07-26T06:54:37.918341+00:00",
   "type_counts": {
     "domain_suffix_set": 67
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:14+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4f886336e6bde8f884dc6dd4bb7daa8c6d3d5b7d22e091c64a5c032d5a96cc31",
-        "bytes_sha256": "532af3cec0c7e821129e80d48322cdcd8e15c96df0774b7485fb34dac2535bc7",
+        "bytes_sha256": "2a059685c21a14d8eeb46ff8b1526c13ec459614ca4dc9ac8b7d2977a420aa94",
         "semantic_sha256": "00b99d7ba5815ccc392fd49b5112579c210f6d0c72f1633fadfbaf341c1bd70b",
         "normalized_header_lines": 4,
         "shared": true

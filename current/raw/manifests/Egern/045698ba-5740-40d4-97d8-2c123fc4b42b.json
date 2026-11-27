@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-17T13:35:42.201637+00:00",
+  "generated_at": "2026-11-27T01:54:08.062802+00:00",
   "client": "Egern",
   "rule": "Twitch",
-  "rule_updated_at": "2026-10-29T02:37:34.845527+00:00",
+  "rule_updated_at": "2026-11-27T09:54:07+08:00",
+  "source_rule_updated_at": "2026-10-29T02:37:34.845527+00:00",
   "type_counts": {
-    "domain_keyword_set": 1,
     "domain_set": 27,
-    "domain_suffix_set": 9,
     "ip_cidr6_set": 6,
+    "domain_suffix_set": 9,
+    "domain_keyword_set": 1,
     "ip_cidr_set": 15
   },
   "total_line_count": 58,
@@ -21,10 +22,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5457576e9c53d333a1d082fabf26d833a46db3a658cf449b9f78c10f500336c8",
-        "bytes_sha256": "408ffff87b8f368f50fc47e3f2bbc2f8842c04ec38e5171a70acdf89300154f9",
+        "bytes_sha256": "95bccb32a72d1ed79007c4abda9c5afda4d3e2988a698dfab0bd57c71f69e680",
         "semantic_sha256": "646ed8000c85072afaa2f86f704f4ccc0671c8a00fc98c5dfe49ac6e9d329116",
         "normalized_header_lines": 4,
         "shared": true

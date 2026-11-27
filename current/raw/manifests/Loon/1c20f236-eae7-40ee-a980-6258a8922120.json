@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:55.110949+00:00",
+  "generated_at": "2026-11-27T01:25:37.111281+00:00",
   "client": "Loon",
   "rule": "UbuntuKylin",
-  "rule_updated_at": "2026-07-26T08:35:50.102562+00:00",
+  "rule_updated_at": "2026-11-27T09:25:38+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:50.102562+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:38+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2ecae815edf07579152efca9c255cd55c0d8f58267b17d36c9a8a3acd48dd0ed",
-        "bytes_sha256": "e7fdc86afb4870ae6eaa1414b55d14c1e4ea8e6af25b9768c6db6f832e7cf0f1",
+        "bytes_sha256": "9a8a654827da107c7eab29c9683a4eb6235df5700ad4b0afece3afd27e95e5f3",
         "semantic_sha256": "b542e225ffc6b78e4d859db1c2b490ec35442d3614bacf493bae764c69bbefd5",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:38+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "87ab5b42586c287dcdb8d4bd3a919b72e39060cfd4fdb5b7b5290a131b8c744a",
-        "bytes_sha256": "57b98fa004d277602b997a3fa35c850a54dea783b3826f52384bc0363db1e197",
+        "bytes_sha256": "922a2e04edfd59759c244bea2a5048b88867f6584946a910dd640b6c84998148",
         "semantic_sha256": "dab7504374ec27af75575eddf89bd44c16477dafd8e644e5497615d16c063963",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:06.481598+00:00",
+  "generated_at": "2026-11-27T01:26:20.995353+00:00",
   "client": "Egern",
   "rule": "FlowUs",
-  "rule_updated_at": "2026-07-26T10:28:17.209001+00:00",
+  "rule_updated_at": "2026-11-27T09:26:20+08:00",
+  "source_rule_updated_at": "2026-07-26T10:28:17.209001+00:00",
   "type_counts": {
     "domain_suffix_set": 2
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:20+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5ab82b1fe230c9dcaa99a10b42a0af971d458c444787365c3ccd382e8eac9185",
-        "bytes_sha256": "f5bb3480e1ddc3e69731064924e43a0307856b6ae3f17620743eda9e2c5ac4c5",
+        "bytes_sha256": "1577335cad0ad8b1a99ecab8bb9e3147757d7f127805c22c79a5b9b5ff81361b",
         "semantic_sha256": "f236ff24f8f78f3a03c51c28f23909d35d5cbbc535801d8f3a7e28ca2d8a3fb4",
         "normalized_header_lines": 4,
         "shared": true

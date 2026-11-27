@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:24.202301+00:00",
+  "generated_at": "2026-11-27T01:36:27.961492+00:00",
   "client": "Mihomo",
   "rule": "FontExplorer",
-  "rule_updated_at": "2026-07-26T10:27:59.725041+00:00",
+  "rule_updated_at": "2026-11-27T09:36:28+08:00",
+  "source_rule_updated_at": "2026-07-26T10:27:59.725041+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 1
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:28+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "baf63f0771b9f0da3037f8d36db205e05e7027253a2f20fee867dad4305f04c2",
-        "bytes_sha256": "71f08d0717b7ae972e642182c8eff25faf22686b6251109c672c06eea190e1c9",
+        "bytes_sha256": "723e1cade6d681c6101277d0325e9520bcb9fffc5551f2b2ee4514d6f716f547",
         "semantic_sha256": "6b28dea19ec42d91e838dcf9c475b7834c4915b38b91bc6e76bcc943d26ec828",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:28+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bafe9699ccd77b0c58df21c037953f89d4bbc4cd9e7b8af0011a68a4d14b08e8",
-        "bytes_sha256": "65624b139b74f429e05c1c8e5df635b8f6757550e809f53cb3f93d3e16b07655",
+        "bytes_sha256": "fafb90aad34805030078bba1333a9a6e4ec4012df765e425525219938b79be13",
         "semantic_sha256": "b7ac9f89f9b8b28279c6c4a838820db71a7356ea7812c3af5a43269830dfc4d2",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "6eedf3696a622fe66a1aeb799b569ff3a742bada09843d4621fe032a12234e25",

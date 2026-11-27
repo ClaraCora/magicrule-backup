@@ -1,15 +1,17 @@
 # NAME: Fastly
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-17 15:32:45
+# UPDATED: 2026-11-26 12:32:50
 # BEHAVIOR: domain
-# DOMAIN-SUFFIX: 7
+# DOMAIN-SUFFIX: 9
 
 payload:
 - '.fastly-edge.com'
+- '.fastly-insights.com'
 - '.fastly-terrarium.com'
 - '.fastly.com'
 - '.fastly.io'
 - '.fastly.net'
+- '.fastlydns.net'
 - '.fastlylabs.com'
 - '.fastlylb.net'

@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-11-17T07:36:44.414467+00:00",
+  "generated_at": "2026-11-27T01:54:07.677672+00:00",
   "client": "Egern",
   "rule": "TestFlight",
-  "rule_updated_at": "2026-07-26T06:33:05.209367+00:00",
+  "rule_updated_at": "2026-11-27T09:54:07+08:00",
+  "source_rule_updated_at": "2026-07-26T06:33:05.209367+00:00",
   "type_counts": {
-    "domain_keyword_set": 1,
-    "domain_set": 1
+    "domain_set": 1,
+    "domain_keyword_set": 1
   },
   "total_line_count": 2,
   "artifacts": [
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1c7cda859a568e92d842c7e896e6fe74f70c304f8296e6fa12f7819ca0750600",
-        "bytes_sha256": "cc96b081272f139b0c8fa03df2c638a9f10f2f93c1c392863394051a77dbc931",
+        "bytes_sha256": "3423930e338bc80ec997b97e4fa8f17995c9bef4f4cae5b8403c46c2548d45ff",
         "semantic_sha256": "fee1b4c605fde83fed175fc39c356f284f00ddd0ea3e7ef399c9aa6acc85bd7d",
         "normalized_header_lines": 4,
         "shared": true

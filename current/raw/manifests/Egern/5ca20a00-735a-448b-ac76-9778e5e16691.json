@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T10:04:45.578964+00:00",
+  "generated_at": "2026-11-27T01:54:34.572340+00:00",
   "client": "Egern",
   "rule": "BrightCove",
-  "rule_updated_at": "2026-07-26T06:31:01.374444+00:00",
+  "rule_updated_at": "2026-11-27T09:54:34+08:00",
+  "source_rule_updated_at": "2026-07-26T06:31:01.374444+00:00",
   "type_counts": {
     "domain_set": 3,
     "domain_suffix_set": 14
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3ce2275c5e2cf3e672fadf4482ddea6735dd00344b08262767c207db817cf433",
-        "bytes_sha256": "9f84a4f6c14b7de4f683e924ebacde7d82fbaad87055e98abd1bf3334ec68c1d",
+        "bytes_sha256": "06e4fb9ed09718b3c15063f4f837dedf4f29d748a031f1c4e0150d72eb488014",
         "semantic_sha256": "505e25f0c0f2d73d850a79a7f754450b88b2057822357368e6f375c5a5730d80",
         "normalized_header_lines": 4,
         "shared": true

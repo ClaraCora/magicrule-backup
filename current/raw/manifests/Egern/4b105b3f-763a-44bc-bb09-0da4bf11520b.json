@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:34.223058+00:00",
+  "generated_at": "2026-11-27T01:28:01.589685+00:00",
   "client": "Egern",
   "rule": "ESET",
-  "rule_updated_at": "2026-07-26T08:39:38.927360+00:00",
+  "rule_updated_at": "2026-11-27T09:28:01+08:00",
+  "source_rule_updated_at": "2026-07-26T08:39:38.927360+00:00",
   "type_counts": {
     "domain_set": 2,
     "domain_suffix_set": 7
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:01+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cb7a1b55ddec45ae97e47e4752b2cc318683ece91b7ee144ea7f764fe191ca1b",
-        "bytes_sha256": "285872bb889d6303c0c4ff3419dddea162b5683c10af22e259b226d443848d84",
+        "bytes_sha256": "8a58fa45df7f0ba8f2861d46a44fdf917147f0a07aa3b931c60fdcb39fc461f0",
         "semantic_sha256": "da180b02382272b028761370066b861c607a86e306bca2535aebe2e03b7702a8",
         "normalized_header_lines": 4,
         "shared": true

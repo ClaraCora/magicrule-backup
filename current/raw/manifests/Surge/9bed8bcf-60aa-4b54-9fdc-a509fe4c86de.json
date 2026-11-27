@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:45.325349+00:00",
+  "generated_at": "2026-11-27T01:32:22.893678+00:00",
   "client": "Surge",
   "rule": "VMware",
-  "rule_updated_at": "2026-07-26T08:36:16.402839+00:00",
+  "rule_updated_at": "2026-11-27T09:32:22+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:16.402839+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 103
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:22+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5ac81141d5907ff6685e11a5cd8efed823f456cdfa814129b602101057c7177b",
-        "bytes_sha256": "f3ebf88fdc6024636e4b74055c3122cc0a6742dcfea3a6867b01dc64b07f992a",
+        "bytes_sha256": "abdd6f1ea57ce5c384ece049539cf99682c84b0d9cc950dd861ae63c4705e2b8",
         "semantic_sha256": "8bbcef85485468a8d5049573a31d1a12aa6d226e0722bdd1270635f0a72d443f",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:22+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8ee1e1e50c8db1a0e2410a11b5344d681d204d0140c34e5204fc55e3d500b1d2",
-        "bytes_sha256": "1cb6dc3f58553a1eebf06dccaabaf9295e90cb404c2c3f1498f74463034ba5ea",
+        "bytes_sha256": "474f624bd9449368534eeefcd4c9ff7a87a70ba7c85ceb9fac24e34dc012f6b7",
         "semantic_sha256": "616a538d976623ec5dba229b021cb95a834ccbca16efc7d19a59cd3ede7b0540",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:05.739923+00:00",
+  "generated_at": "2026-11-27T01:35:55.722697+00:00",
   "client": "Loon",
   "rule": "Books",
-  "rule_updated_at": "2026-07-26T08:38:27.095627+00:00",
+  "rule_updated_at": "2026-11-27T09:35:56+08:00",
+  "source_rule_updated_at": "2026-07-26T08:38:27.095627+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:56+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "68eb7f7f44ee1dd2e7da66cbfcf805c76f0aca8da6dc0d68c2832747abe1b5c1",
-        "bytes_sha256": "5eda14a27bb16f984d3b3e82b4f1f2657a862d42ec6c7f0d9ad3eae49b9d0aa3",
+        "bytes_sha256": "e2ffbc67f74e008d57a7fd539e324b2f853c9bd9828824c34d54735374802dbd",
         "semantic_sha256": "5c87baa5172ddb2fa736dd7351d0cbe8f1fdb801cc89c27c29282867aaa742bf",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:56+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ac9f95ef3247454a336825a0a4453dd460af0bb33773f0cb6bedfeff5183c507",
-        "bytes_sha256": "1306282001780e5c18dda36bd00a553f3fcfe23ada3a9158071e1d92f1e3ebd5",
+        "bytes_sha256": "c36aaab362e780c63159b26f246e6f6b2c1f4e45abbafbaaa44c83b0afbc65cf",
         "semantic_sha256": "0e81997be7fa7fb0dc6f9b4650bddae5a00a76ff454da05232a9c747f3b3ed5a",
         "normalized_header_lines": 4,
         "shared": true

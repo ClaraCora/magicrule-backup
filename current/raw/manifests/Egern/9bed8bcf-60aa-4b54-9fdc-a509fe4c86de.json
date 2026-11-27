@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:44.856369+00:00",
+  "generated_at": "2026-11-27T01:32:21.631792+00:00",
   "client": "Egern",
   "rule": "VMware",
-  "rule_updated_at": "2026-07-26T08:36:20.552964+00:00",
+  "rule_updated_at": "2026-11-27T09:32:21+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:20.552964+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 103
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:21+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "afbebb5fe592d074ed651425324e9c399059e7ecb97eeddd6dd1287fef1f2912",
-        "bytes_sha256": "01db37fb8f951ba7ca64c50a28605b4cec6952acba2bee873b2ebaaa1d7cd68f",
+        "bytes_sha256": "5e5710df73dd2d7bcf2e1f9d7b3f88fe739d728ca39f05a8901ecff23f583867",
         "semantic_sha256": "dbda4cb16efdc437616b1a5ee987a848f0772174a3e6d07b6e800ecefe27d4e0",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:55.303853+00:00",
+  "generated_at": "2026-11-27T01:25:37.515156+00:00",
   "client": "Mihomo",
   "rule": "UbuntuKylin",
-  "rule_updated_at": "2026-07-26T08:35:50.232485+00:00",
+  "rule_updated_at": "2026-11-27T09:25:37+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:50.232485+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:37+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4bba97af244b5d5ae89c40d3c4adb9ab16d8466f7a74c2b18e04776921a1226a",
-        "bytes_sha256": "197939092804097dc032759606c269debc7e2e24a358606bc769cceaca09c1e8",
+        "bytes_sha256": "542426a0820e198d5991d29814b681b95864e2bb5863e97a4e96f95e29a5c738",
         "semantic_sha256": "d6b935ff499be020974813195e093960f8a986c17e64c67248e134f2609ba2b6",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:37+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bafc8237ae6cbd5f2bf854de7aeffde8b55721f7cc68e52bc36ae20b818816b2",
-        "bytes_sha256": "b76431c2918ec2b267516e9098e13012cac984f44f397c34804eb153d7648b77",
+        "bytes_sha256": "0bb62fc808e0ddbd2937c60c257657f852256bb44116ae7739d6a6c77dbbc91e",
         "semantic_sha256": "71f402954f7d79fd39621ca06061d4e9e279d9a6d6a4b1bcd04e670e45e66f47",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "52d11e81af1822ff02710613e60abbf7b94f6802ce5592a99851460ca5dfba1a",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:52.131937+00:00",
+  "generated_at": "2026-11-27T01:32:45.474132+00:00",
   "client": "Loon",
   "rule": "MicrosoftPKI",
-  "rule_updated_at": "2026-07-26T10:37:40.682796+00:00",
+  "rule_updated_at": "2026-11-27T09:32:46+08:00",
+  "source_rule_updated_at": "2026-07-26T10:37:40.682796+00:00",
   "type_counts": {
     "DOMAIN": 5,
     "DOMAIN-SUFFIX": 1
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:46+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9dc1270437115c7738ac910752aa5f01a1642f1edf8808fbdc96d91d607d2b1e",
-        "bytes_sha256": "44590b0063543bbeb659a5981c2d831148f9f58ae9e960429c4914263dc4210e",
+        "bytes_sha256": "43ab5e6d15da41d3665ad2c5f17cef5fbf033651638c9a8dfa107973763a5c33",
         "semantic_sha256": "2f1c33c17d27703f82d52a498d2899c4ed1c585279655c9e8a06fd812d189865",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:46+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "24b30eb4d3d6051047b368aca205b4717bbeca02a699fa6d05706d947d0623fb",
-        "bytes_sha256": "994f47afc2a5e7e4fac07e42c30c332cb0de9ec9399ff1815568329351a85976",
+        "bytes_sha256": "337b5b69b9b8481c3da2d8960b802e21516cc6e3125ab4b6ccdb92448d452efa",
         "semantic_sha256": "3a784aa57aea8ebec8c39b817e32b4dab5c48f949c20ac5d009dc8a88fa820a7",
         "normalized_header_lines": 4,
         "shared": true

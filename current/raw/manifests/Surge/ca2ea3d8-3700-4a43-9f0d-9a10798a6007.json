@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T10:18:03.074923+00:00",
+  "generated_at": "2026-11-27T01:35:02.875735+00:00",
   "client": "Surge",
   "rule": "CloudNS",
-  "rule_updated_at": "2026-07-26T08:38:25.406860+00:00",
+  "rule_updated_at": "2026-11-27T09:35:02+08:00",
+  "source_rule_updated_at": "2026-07-26T08:38:25.406860+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "46598ff3cbbc770a8b5e8adf5ce74fcb18b08bcadbb0d476432c23bd283a64dd",
-        "bytes_sha256": "08eae33d65f395388d3c89401cdd40e5c3675b5a67dd98b24e174b605b0b5c7e",
+        "bytes_sha256": "06a7770c911c2695f3b6817a87cf652233c4bce8efa1c9bfd437d42c9c47c6bf",
         "semantic_sha256": "3f72e1c2e09206d4676fd1dc05d31ddd87ee9544e93338624b2203c5646ae106",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "337f538827353a95f66e99b3c643a320e9de01c693c11de8b3d375765bf3ef7a",
-        "bytes_sha256": "096104bbee467f2414d198c0a9f30711310ec4f6394c9a2968882a412cfb648f",
+        "bytes_sha256": "97e7c6c40620de9b05defa20cee0c01b5dfff1a5dd174bdd48823f12322d0958",
         "semantic_sha256": "6ad239afadf9bcff57f011ef7bafebc3bfc0a2e1299b2f8a942fcb8cfcc46fb5",
         "normalized_header_lines": 4,
         "shared": true

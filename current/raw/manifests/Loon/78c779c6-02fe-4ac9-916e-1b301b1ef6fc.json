@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:31:37.799127+00:00",
+  "generated_at": "2026-11-26T06:20:09.777073+00:00",
   "client": "Loon",
   "rule": "GoogleDeepMind",
-  "rule_updated_at": "2026-10-29T02:37:20.506858+00:00",
+  "rule_updated_at": "2026-11-26T03:12:05.647880+00:00",
   "type_counts": {
     "DOMAIN": 16,
-    "DOMAIN-SUFFIX": 33
+    "DOMAIN-SUFFIX": 34
   },
-  "total_line_count": 49,
+  "total_line_count": 50,
   "artifacts": [
     {
       "key": "rules",
@@ -20,9 +20,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "6b5c37006429b140c17b50b28a71f8485a7636620ca2270f649a8e49ef2b8327",
-        "bytes_sha256": "27d85bf29a91304f50a494e43feac0b6e6d296c0a9c51348e38bfbff6ed7ce5d",
-        "semantic_sha256": "78f8c446a9646b6145986fdfc132292f6c1166854e4da052de8da02e7cca80a5",
+        "fingerprint": "d26166b81acea2488e4950e8d76ec8ef47d95ac8ec16ac697efce653fda35c0c",
+        "bytes_sha256": "f12122afc01c8c620ebc75f15231b845d75574a16e3f506fb7e560542d4c0c23",
+        "semantic_sha256": "ff8fd03f2a5b02a01823a3e729a27a2a89cdc9526ec93c3e2eb5eedf3c296ad0",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -38,9 +38,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "943f6582afef8198389ab2dd60629a12e3c4f251003cf1ce77b07c1e91aef8a0",
-        "bytes_sha256": "0a8489d9f2f617f78109b5637f4260029805a87d5a7938f61ba38a47a9d31c7e",
-        "semantic_sha256": "3164201a2aa354a3b45b7210b4a2841b246745e0f3bd804dcad9826eb8195e29",
+        "fingerprint": "6e4deda469a61b6473acc0ce830ef36d2e5875313c4981c28a983e312b3f4de2",
+        "bytes_sha256": "d2f3519bdcdc007e5350b2492578dab7d5e49948ef090818c94f5a2f38123742",
+        "semantic_sha256": "860625c8185599511f302ae0950719edc5e474aee1ed755413148d0c40d62151",
         "normalized_header_lines": 4,
         "shared": true
       }

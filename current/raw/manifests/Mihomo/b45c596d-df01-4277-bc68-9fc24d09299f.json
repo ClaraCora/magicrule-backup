@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:08.089843+00:00",
+  "generated_at": "2026-11-27T01:33:35.847544+00:00",
   "client": "Mihomo",
   "rule": "1Password",
-  "rule_updated_at": "2026-10-29T03:05:25.177780+00:00",
+  "rule_updated_at": "2026-11-27T09:33:36+08:00",
+  "source_rule_updated_at": "2026-10-29T03:05:25.177780+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 14
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d9e76ab5003fc847fcc513285238b760dc1dfb10bf9eaa2143a43be8fb3acd20",
-        "bytes_sha256": "f5f63c93af5b26e58f96daca05c5ae45c6c135ca9e0ebc9c2161f635880ace25",
+        "bytes_sha256": "deffe6724b1975c87c6d3bb36ce5b560898a89595a8b550621722faa3353b9a4",
         "semantic_sha256": "2d1af69dbb989758c00fce4b6731fcc4a8b6c6581e15903f338ac0195cc3cfab",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1183f96e09f5717a071e564d09e12731884a51cd19d6155470ae2c72bbad1648",
-        "bytes_sha256": "d411fcb50575d4e851e51d7e4192204cf67c410285f12cf492179230fc9cf90c",
+        "bytes_sha256": "8da51f4bc9d5e26ebbf04a259a00c7e06d019f5e3ca33852df7061ed64c6df5b",
         "semantic_sha256": "e262b5274823a932892b3e777399749d023c28dbc26aa5682eb49ab4d9c4cf7e",
         "normalized_header_lines": 4,
         "shared": true
@@ -54,6 +57,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "15ce7193eb4b4207e797e1c3ff17bf6cbac8dcff448f991e02c68b939be07cec",

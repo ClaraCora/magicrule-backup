@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:34.574840+00:00",
+  "generated_at": "2026-11-27T01:28:02.718489+00:00",
   "client": "Surge",
   "rule": "ESET",
-  "rule_updated_at": "2026-07-26T08:39:36.713954+00:00",
+  "rule_updated_at": "2026-11-27T09:28:02+08:00",
+  "source_rule_updated_at": "2026-07-26T08:39:36.713954+00:00",
   "type_counts": {
     "DOMAIN": 2,
     "DOMAIN-SUFFIX": 7
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e4b841d1aedfc21daefc11280c317f0f25f256b231d3a3fc14002448f17aca5e",
-        "bytes_sha256": "448aebca093128976ca86fb58f9e7f346ef9d24836097eaae5f1debc073e4b0a",
+        "bytes_sha256": "a40a1e32161cbb0708cbfeb1a372b0c50b3df5450e8aada9dbf75b0b36a09a81",
         "semantic_sha256": "cefd0e448f16d75fe20c6c4687660c08d61277c47527c2df263cfa4841dffbf7",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f4c23998132b963016bfaa9b204487bfb02e492678531acebe153714b82a5e2e",
-        "bytes_sha256": "64b2de92af210cbb6c45034121cf92ead7d90952cf579c7cfa84b5a179f40c99",
+        "bytes_sha256": "20a9e1f2d8bd136ecd6e981e8c154ea53cfa02e8e305d8a0f0761f67e3ba3cc2",
         "semantic_sha256": "c1ffce9386472dbce50646baf89faa7172817c2bc6454ecef88d150062575035",
         "normalized_header_lines": 4,
         "shared": true

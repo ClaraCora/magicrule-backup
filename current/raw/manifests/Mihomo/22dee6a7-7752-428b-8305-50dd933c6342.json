@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:00.872488+00:00",
+  "generated_at": "2026-11-27T01:25:59.732830+00:00",
   "client": "Mihomo",
   "rule": "OpenWeather",
-  "rule_updated_at": "2026-07-26T10:39:40.272823+00:00",
+  "rule_updated_at": "2026-11-27T09:26:00+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:40.272823+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:00+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2e373c6edc05c9796c8295d7e2c57c6276d06f19b0a228bc9cc4380be9ce03fc",
-        "bytes_sha256": "dfbea39f60e27e62640865c41939d6e7a798e42cd04e91579cbabd25b9d09870",
+        "bytes_sha256": "62dda29293fea6fb8c0657c7d39192d52fb7e1f00db93602ba90008709e20225",
         "semantic_sha256": "6b1b24002b93f1aded1b6b45c6059c9a5c9ba0663fb3265ed774ec6d74934327",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:00+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c55d883af3ba01a38da018bb4adaf35c7eb7f26cbda1450a8019eb62e7b7e78c",
-        "bytes_sha256": "d5fd60332e3c14377f4d10818a1ee0dd4e9a4871df5072f31358fee2e069c36c",
+        "bytes_sha256": "d6646bff4e373555ae054db8573a47703690066d96493d435b5d836807285e2b",
         "semantic_sha256": "9eb3932c4c16312e154f601a83c65eee60c25eef8c3763ce331f51b0e91707e0",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "c60fbd6c9f59d13256cbe7c96b351eb8803bdb78b8b21889cbf43b293b17a95e",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:57.898045+00:00",
+  "generated_at": "2026-11-27T01:37:35.052912+00:00",
   "client": "Egern",
   "rule": "HSBC",
-  "rule_updated_at": "2026-07-26T10:32:06.360437+00:00",
+  "rule_updated_at": "2026-11-27T09:37:34+08:00",
+  "source_rule_updated_at": "2026-07-26T10:32:06.360437+00:00",
   "type_counts": {
     "domain_suffix_set": 48
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "23815d739d84ae0a0678eceab2409ab4ee3d29e9227596e47eb94e798c4c1d6a",
-        "bytes_sha256": "e0c084854588e8e216b73cfca1291819acdff19e7ae92db4a831a6d478b04ca7",
+        "bytes_sha256": "841621ab67274032c2a073b5d538ed086fdfa43d7107862031dfe9fe9dc61fa1",
         "semantic_sha256": "a704d35ffdb29de8416082972f28e2bbea949933a5904610edb050cb7a96ef92",
         "normalized_header_lines": 4,
         "shared": true

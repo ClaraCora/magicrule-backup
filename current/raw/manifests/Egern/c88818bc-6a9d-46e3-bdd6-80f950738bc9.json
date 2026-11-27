@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:09.197765+00:00",
+  "generated_at": "2026-11-27T01:55:02.981203+00:00",
   "client": "Egern",
   "rule": "HiNet",
-  "rule_updated_at": "2026-07-26T07:04:56.026510+00:00",
+  "rule_updated_at": "2026-11-27T09:55:02+08:00",
+  "source_rule_updated_at": "2026-07-26T07:04:56.026510+00:00",
   "type_counts": {
     "ip_cidr6_set": 264,
     "domain_suffix_set": 10,
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a0c4317a17d2b52584cd030d798d2743ade5f11f7a5b2f34f6cdcf12ace4a6e7",
-        "bytes_sha256": "678618bd45775854ffa01ec00c9416e0a7e4f16db1f658ddf333d2385876ab7b",
+        "bytes_sha256": "ad890be4354851f79591652a12f41e8e3e1e84efa0732160162cbbcce9dd5253",
         "semantic_sha256": "c918442ba6ad3b63bbae410ca10da9208879dc65018e591ae14721b1ec53c384",
         "normalized_header_lines": 4,
         "shared": true

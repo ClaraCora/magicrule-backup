@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-17T12:55:49.093140+00:00",
+  "generated_at": "2026-11-27T01:54:48.610742+00:00",
   "client": "Egern",
   "rule": "PayPal",
-  "rule_updated_at": "2026-07-26T06:36:55.963525+00:00",
+  "rule_updated_at": "2026-11-27T09:54:48+08:00",
+  "source_rule_updated_at": "2026-07-26T06:36:55.963525+00:00",
   "type_counts": {
+    "domain_keyword_set": 1,
     "domain_set": 1,
     "domain_suffix_set": 245,
-    "user_agent_set": 1,
-    "domain_keyword_set": 1
+    "user_agent_set": 1
   },
   "total_line_count": 248,
   "artifacts": [
@@ -20,10 +21,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:48+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "77d374389f02ecced3c922e73fafe044affebbb362355b651b5e4e20238753d9",
-        "bytes_sha256": "30676d665c8bf756b0ac32a4cc349b06af938bbf052ea4a385231e826912a1d6",
+        "bytes_sha256": "86fda35dea7fac931d0a8a108d43137c273d1d2a597e862309fa408369c4c9c7",
         "semantic_sha256": "70eac53257804371463f6bc4ebe414373b9750a5e0e4a09abc3205f3e924b8bc",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:15.266549+00:00",
+  "generated_at": "2026-11-27T01:26:55.627273+00:00",
   "client": "Egern",
   "rule": "RaiffeisenBank",
-  "rule_updated_at": "2026-07-26T10:42:07.432013+00:00",
+  "rule_updated_at": "2026-11-27T09:26:55+08:00",
+  "source_rule_updated_at": "2026-07-26T10:42:07.432013+00:00",
   "type_counts": {
     "domain_suffix_set": 16
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:55+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4c0a4c9ea0a7adeff5f44882a403a7d585e159716f140bb51a71b4e511f5deac",
-        "bytes_sha256": "78ca64f4f85e572aaf30fc363ad3ab88e728d54191870cbed55546edef8accf7",
+        "bytes_sha256": "dc6a21120e2bb6391614a8621d26bd184d2e691cec6af7b72280b5cda1a5910b",
         "semantic_sha256": "1b33d8a200900c5fa1f6df677541571afc909d1e2d95125489ffcdd603710106",
         "normalized_header_lines": 4,
         "shared": true

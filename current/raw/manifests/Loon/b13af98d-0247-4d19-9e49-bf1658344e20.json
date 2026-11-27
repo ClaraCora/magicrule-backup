@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:03.733863+00:00",
+  "generated_at": "2026-11-27T01:33:22.012255+00:00",
   "client": "Loon",
   "rule": "TeX",
-  "rule_updated_at": "2026-07-26T10:45:44.611769+00:00",
+  "rule_updated_at": "2026-11-27T09:33:23+08:00",
+  "source_rule_updated_at": "2026-07-26T10:45:44.611769+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 4
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:23+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e7df01c92ab017dfdc7fe6d4c9c1e17cc4422a47a4dda34aae08616748f87dcb",
-        "bytes_sha256": "8b91133ceabeb1032f07000603e84fe10a364b2a7c62bf0181d4fd570040cbc1",
+        "bytes_sha256": "b44284fcbf2f7e5a1bb8cf6739d055385e95bbf6a34aa1bcdbd171d04df117fd",
         "semantic_sha256": "44d541d16cde9d545b577d2adba6340851baa97fd549d7e90219b09905322c4c",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:23+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "24a1c7bc82bb16a77f1d71daadea44606689ed383e44e48e3d059af2c9bb6942",
-        "bytes_sha256": "ae89de9a40ce0e7f2228c7cf4eb7dcd4066f3c458c39937e35b4124081616744",
+        "bytes_sha256": "6d83ae2ef63cfdcebd4276d78bfe7b331849ccb2f015d8476478ee418a416cd1",
         "semantic_sha256": "0cb44cfcbf97d9efaf18141d9ea2576bfcfe81d7654003cce7a4dea9a43d0246",
         "normalized_header_lines": 4,
         "shared": true

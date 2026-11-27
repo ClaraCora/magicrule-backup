@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:12.765670+00:00",
+  "generated_at": "2026-11-27T01:36:02.332491+00:00",
   "client": "Mihomo",
   "rule": "Imgix",
-  "rule_updated_at": "2026-07-26T10:34:35.839278+00:00",
+  "rule_updated_at": "2026-11-27T09:36:02+08:00",
+  "source_rule_updated_at": "2026-07-26T10:34:35.839278+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "21fe14d9355917f4555f365537253b65c30da62ae0363a3907eefaffc5c9139a",
-        "bytes_sha256": "9b2f46cc57811e94a29952453fe4d1186a3917ea3fc9e7c56c49e6a38ee6d834",
+        "bytes_sha256": "09da8a521241dc3e8ca1d8ac817e25268bdd3a97068d1887b497b55a707d60d7",
         "semantic_sha256": "1c0e6188fd9e23b5e8061dcba6f6f699aa342005f2a2f46269f8a28ae14a5615",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c2a32bf912ee80fd1327ddbc9a4dad51586cb92c6d85477d523f772b9f2bf433",
-        "bytes_sha256": "45c831b7aa47f9194dcdba626a5b2865213649be28fa3db5dafd3c8426a19604",
+        "bytes_sha256": "51480d3161e0e6eff238ae4392872c003661edbf21cc8824e2bd904a5e641425",
         "semantic_sha256": "770f8e07165715208cd7d3658fa0b28e74fc5ae2b85d3fa033a3a5315fb929db",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "4b374e3a2ddc474734d261527f80ed213aaae9379dcdc7c22ddc913d9f3c4619",

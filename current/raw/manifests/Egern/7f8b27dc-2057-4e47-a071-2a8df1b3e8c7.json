@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:21.711332+00:00",
+  "generated_at": "2026-11-27T01:30:59.223902+00:00",
   "client": "Egern",
   "rule": "ImageCurl",
-  "rule_updated_at": "2026-07-26T10:34:14.978873+00:00",
+  "rule_updated_at": "2026-11-27T09:30:59+08:00",
+  "source_rule_updated_at": "2026-07-26T10:34:14.978873+00:00",
   "type_counts": {
     "domain_suffix_set": 3
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:59+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cbdfe0d6a0a41032ca61b275b22c159cd3091e09a2ca3d4ef8fd4e67a481b5fa",
-        "bytes_sha256": "9dc2b3765c61e6b90684ec0f00b889e4cf66dd63d0244d976f38e2ba12630bc7",
+        "bytes_sha256": "9917be3539f0fa32796e07a3d77fba110d7cb0049ea83f1b0476c00da8d496d4",
         "semantic_sha256": "f97f2f11e71edfdf01e0ff6ec496af433365c336c3197b6cda62bd104f5e39e5",
         "normalized_header_lines": 4,
         "shared": true

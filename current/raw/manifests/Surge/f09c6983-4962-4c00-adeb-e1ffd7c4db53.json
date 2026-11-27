@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:36.749410+00:00",
+  "generated_at": "2026-11-27T01:36:54.811964+00:00",
   "client": "Surge",
   "rule": "TheSun",
-  "rule_updated_at": "2026-07-26T10:45:46.411859+00:00",
+  "rule_updated_at": "2026-11-27T09:36:54+08:00",
+  "source_rule_updated_at": "2026-07-26T10:45:46.411859+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 7
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5912f63a09e2eb2e77d357b60a7759bf06c8c067912c5820bb08e5f26fc306fc",
-        "bytes_sha256": "ecf13609c0a75bfc9add3039cdbaf04984c4ba8e3dc7fdd79175dafcbeb2ca0c",
+        "bytes_sha256": "092f75d223568f01667d3365d5ed61ecddac9fbd0e175cfee8ad234a11d1cba5",
         "semantic_sha256": "2bb77c0a525dbd6e77586fabd17946131294448e721ad5ebdd98ec6fe3d091e6",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b0174f9c106d6afc6f38e7d18bc18f44f5dba164e6fb7bfbb3252d27394a8a3b",
-        "bytes_sha256": "e3f88115a19e3342205351343ea03ff8cdea2f7be680e1a0984e2079a02c9e47",
+        "bytes_sha256": "ca770c54baa4398794dafb4ef00944eb31298aa3b7f05c224914da3a3741c45d",
         "semantic_sha256": "196a164143ad98e232134f436935ee5bcf2e48a68b172b0af6b2f0335a0d307b",
         "normalized_header_lines": 4,
         "shared": true

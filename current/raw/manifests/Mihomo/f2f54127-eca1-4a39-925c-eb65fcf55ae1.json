@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:40.239503+00:00",
+  "generated_at": "2026-11-27T01:37:02.466126+00:00",
   "client": "Mihomo",
   "rule": "LinuxDo",
-  "rule_updated_at": "2026-07-26T08:35:27.824365+00:00",
+  "rule_updated_at": "2026-11-27T09:37:02+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:27.824365+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "924c7ebbb63022614396111ba3d29434a096c2dc4b5dfe5e5fe745e1323fb1d0",
-        "bytes_sha256": "13e5fe5ea98b70dc4eaf92cd0b8832e391b72af612597114d3d6de50bab652c0",
+        "bytes_sha256": "8059215aa8eb0321370afe12eaf22dc88bb51b7f97a899f141fec9972dbcfcfa",
         "semantic_sha256": "86e874457a92fb364ad1581a988a1c14c191a0c680c2a12d789b6c26fab6a681",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c3b9b69f419687a81cbaf1508370bf333a76fb06b6461adea065a89ec662acb0",
-        "bytes_sha256": "915c6876fe4f569dad64311b3e8ca7c1b315d2fc305658636c89b38620302953",
+        "bytes_sha256": "1da0888a256a5a9f80055a3dd6cd14f7d781b3c4b80d632f6a7a14f1276d100b",
         "semantic_sha256": "b1fbdc2da8f0da143dd9748ef591175a7ec327e1cc3ebd50f848fb8a05c16320",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "bd550d3ba85e29e44feb199f0cc978c9b0998dd75aa43172861a865ac849a886",

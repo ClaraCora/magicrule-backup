@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:59.975177+00:00",
+  "generated_at": "2026-11-27T01:37:40.004860+00:00",
   "client": "Mihomo",
   "rule": "ProQuest",
-  "rule_updated_at": "2026-07-26T10:41:22.582930+00:00",
+  "rule_updated_at": "2026-11-27T09:37:40+08:00",
+  "source_rule_updated_at": "2026-07-26T10:41:22.582930+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:40+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9834b31a18d89317642fb8ab59dff8568dab71f24b9edae72db8289f2bef7505",
-        "bytes_sha256": "2dc746766488a7a3e18e7eb41f9d8bf5c563775fde4eaa00d2a169e9e376d83a",
+        "bytes_sha256": "82d7ed63e1fddf65e186a8e97e594cc1b7f4dafa902497696185e36b5387850e",
         "semantic_sha256": "b244011dd86437d4090934ac354caa7542465ff0733dd40b990f235db903cc99",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:40+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "00a2ef43d0c03c6e7352abb1f2dfd463267b13535158120ccf8b15f33615b5b4",
-        "bytes_sha256": "b991a8e884e87b57d631cc609d57947e183686e5ff1315159246bcecb24b23a4",
+        "bytes_sha256": "2125ca0892d3f49811298feb6edabc93e4bf2a8b33b1c30bccd2b0d881345940",
         "semantic_sha256": "470715cecafb0a56118c07c7268a6c2ac3f37b3788591018b275f49b5684893c",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "95faa4fc6f0d0721cec875526cd60c53a51b39481c39f04328428466870ba200",

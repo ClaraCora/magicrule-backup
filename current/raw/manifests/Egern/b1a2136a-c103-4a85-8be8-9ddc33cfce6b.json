@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T09:46:55.815668+00:00",
+  "generated_at": "2026-11-27T01:54:57.672641+00:00",
   "client": "Egern",
   "rule": "AWS",
-  "rule_updated_at": "2026-11-17T09:12:51.519072+00:00",
+  "rule_updated_at": "2026-11-27T09:54:57+08:00",
+  "source_rule_updated_at": "2026-11-17T09:12:51.519072+00:00",
   "type_counts": {
     "domain_regex_set": 3,
     "domain_suffix_set": 77
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:57+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9219a0a92494c1de10ccecad64395fa35b7001b89746e3cd29defa33919dc680",
-        "bytes_sha256": "4d856e6ae98e08ee8bb9801347d8317b60db58072466e0cb1aa6d3d3a7ea6253",
+        "bytes_sha256": "81a1a7c3fd34f411c85a4df15a2e657810fab3dec24a07ea24cd1b196e29f967",
         "semantic_sha256": "833a4bbd00784529406461e2c05c26d3bee9ea61f47d6d30abf543abb8459e39",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-17T09:42:59.706377+00:00",
+  "generated_at": "2026-11-26T04:05:09.367771+00:00",
   "client": "Loon",
   "rule": "Alibaba",
-  "rule_updated_at": "2026-11-06T13:56:49.285076+00:00",
+  "rule_updated_at": "2026-11-26T03:20:46.818646+00:00",
   "type_counts": {
     "IP-CIDR6": 9,
-    "DOMAIN-SUFFIX": 1470,
+    "DOMAIN-SUFFIX": 1471,
     "IP-CIDR": 139,
     "PROCESS-NAME": 1,
     "DOMAIN": 5
   },
-  "total_line_count": 1624,
+  "total_line_count": 1625,
   "artifacts": [
     {
       "key": "rules",
@@ -23,9 +23,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "f3757f590d1189dabc5e8932a191208a56a7d82f78713e779467d0b839498ef1",
-        "bytes_sha256": "503dcc24e6c5974fc962ae8048a5e9cc7ee2430c15c4b881182843a7fda689e0",
-        "semantic_sha256": "cc4e2ca96e83b753d8e294c02ddb7aaed01541afc13db8f31f6929ab8e899ceb",
+        "fingerprint": "69a3f01e0794034b551d8a0426de81de917d6107a451892ba9de66408580480a",
+        "bytes_sha256": "0df575b927eb95158637a263c4cb14d7b52c66f06470072bfe6c6f3659af24d7",
+        "semantic_sha256": "76fbb38159bda1690465c4dfb1781a6dff8a2e3f5ff0b29a403d7baae61252a6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -41,9 +41,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "46b292fcde32f9e04d6d99fda7970dc1938824ec4d6019950952d2ddd5b18df1",
-        "bytes_sha256": "91352cbed59a6a87b4c32a73440247459f60b10915544fde424dec3e3060387b",
-        "semantic_sha256": "3680819413f84a1005d687eb6bf65d9f832b68cce8a7a12887baecefb2528e2f",
+        "fingerprint": "b0912301d755b65346d585a3fb601a869c46ff950de04312fdfb5f0cb03a29a7",
+        "bytes_sha256": "d4ed9441fe9e4d1c5ced612906a37f49e311dc4faa94b7add9750de22506a786",
+        "semantic_sha256": "113c02dce4a77c576d4dfce21b84f65b8fa4a6341a2bda6b56175eb3c5c147dd",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -60,7 +60,7 @@
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "87fb4e326be9bcb9ab67620a85bd8dd105373217641ccd4636f8e00228e0733a",
-        "bytes_sha256": "6a0f2ed2f04ff21cd4914362eef266e7fa61e83cf839fc7d632a5f423217cdaf",
+        "bytes_sha256": "88bc236292d25f6e8c68fcc58587df4524992a24efee0e42ff894405bcaccd56",
         "semantic_sha256": "cf0aff693dc27eb652889f18229bfafa6bfebea1a9e55aacb2bb2b74869553ca",
         "normalized_header_lines": 4,
         "shared": true

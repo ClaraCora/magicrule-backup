@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:49.218387+00:00",
+  "generated_at": "2026-11-27T01:35:30.458361+00:00",
   "client": "Egern",
   "rule": "IINA",
-  "rule_updated_at": "2026-07-26T10:34:15.014722+00:00",
+  "rule_updated_at": "2026-11-27T09:35:30+08:00",
+  "source_rule_updated_at": "2026-07-26T10:34:15.014722+00:00",
   "type_counts": {
     "domain_suffix_set": 1
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:30+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bf3db9ac296a688ff60eaa28598d1b4c6380ca91cb8d2d3ff92ba9d47623f883",
-        "bytes_sha256": "5f1fa12d076bce771a13da4f10fbf58d67d1560af3ce55039a64b662b6d17229",
+        "bytes_sha256": "19f25d5e771ace2eccd366c67aa0c3b391246de5d02ddb7ebfe6d0933b519c01",
         "semantic_sha256": "a822863aa19f9bb22cd8b328592d6477de292b87e4cefb46a8e074f309b46c6f",
         "normalized_header_lines": 4,
         "shared": true

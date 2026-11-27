@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:59.092318+00:00",
+  "generated_at": "2026-11-27T01:37:38.158836+00:00",
   "client": "Egern",
   "rule": "CapitalOnline",
-  "rule_updated_at": "2026-07-26T10:19:41.907682+00:00",
+  "rule_updated_at": "2026-11-27T09:37:38+08:00",
+  "source_rule_updated_at": "2026-07-26T10:19:41.907682+00:00",
   "type_counts": {
     "domain_suffix_set": 2
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:38+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f1416bc54415abe1dc594e5a80f87a8d02dcc950b161739ffdafd0c0a77dbfd3",
-        "bytes_sha256": "d9c95d64d1e8a095b4008c325373382c722b1506ba3dec5e5506cb2e06fc3637",
+        "bytes_sha256": "5ad1e4296ee041baea47313b6084a69f260e0a62d5de184a2a5b1751a698de6e",
         "semantic_sha256": "a3ad5907d622e0dfe43293316f1e5bfab5a5b0abc92fdf23dcb7638c229c9ff1",
         "normalized_header_lines": 4,
         "shared": true

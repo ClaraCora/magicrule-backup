@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:05.515097+00:00",
+  "generated_at": "2026-11-27T01:26:17.493359+00:00",
   "client": "Surge",
   "rule": "Bandcamp",
-  "rule_updated_at": "2026-07-26T08:38:24.227573+00:00",
+  "rule_updated_at": "2026-11-27T09:26:17+08:00",
+  "source_rule_updated_at": "2026-07-26T08:38:24.227573+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:17+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a010b2a4c9723872051757aa57955ce61a3a21f54b22e52751d503849bc2d383",
-        "bytes_sha256": "78e9a265b8928c6af77473688a7e43520052359243a22ce96f7aa16ed59aa86e",
+        "bytes_sha256": "60143dbbbd1dc662939421b59ff950006938da94736ac2de6fa5fb3d33ef088f",
         "semantic_sha256": "426cb3431417b382339984776f4997a06ece6259321fc379b16cc07df6f7911a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:17+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ef9e32396f2a6e0ceeb341f13153940f6d88c04b12d3da80a4455280c2d35256",
-        "bytes_sha256": "05f927fc4b5af79ebaf1429555038c88225d6cbaa6b4967e867e9093c7554ff5",
+        "bytes_sha256": "837cda54f69b0767e1b2492f9d93d6a37f69159de481dbaeaf86018789267423",
         "semantic_sha256": "bbd2ab084e526ac90e76ba6396c2d6eb6692fec575f51473b3a27ab391141a0c",
         "normalized_header_lines": 4,
         "shared": true

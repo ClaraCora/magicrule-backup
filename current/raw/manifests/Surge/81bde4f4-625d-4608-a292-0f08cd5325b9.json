@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:23.788089+00:00",
+  "generated_at": "2026-11-27T01:31:06.541892+00:00",
   "client": "Surge",
   "rule": "BiliBiliGame",
-  "rule_updated_at": "2026-07-26T08:36:15.142207+00:00",
+  "rule_updated_at": "2026-11-27T09:31:06+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:15.142207+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 6
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:06+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "88e592e6c137144b374dfe24d577974f76dfe3f4e8121d70cea257930b862ee6",
-        "bytes_sha256": "576ebfdf33a28c5a150d351029fecf0adbe6dcdecc7807a25fa825ac666d23d1",
+        "bytes_sha256": "64a40f1c9c378c6ea9af0e0e4b8865311b7b9e86173abbf2ab33399f0e3c619f",
         "semantic_sha256": "158e20b7c9e6fd0bcf41cc127ae7ad6330433215a64a8a46bb00795d963fde5e",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:06+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "324bd7effbf6383862f4520371995d459e7004760660c97239ce3e77795d5027",
-        "bytes_sha256": "a9a2e89f8fee50a5eb8bcc087ba0c9165d0741c632adaec19a8582e4b599d915",
+        "bytes_sha256": "8e984ab624957662c056e190f221d4395ef67b61284ae43f3803ce12720ea932",
         "semantic_sha256": "970bdef0d10ba40d3524a9e80ccf6318a6747ab42e364e2fa2c45108625833d8",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:05.839016+00:00",
+  "generated_at": "2026-11-27T01:33:28.513187+00:00",
   "client": "Mihomo",
   "rule": "ScienceDirect",
-  "rule_updated_at": "2026-07-26T07:36:39.873563+00:00",
+  "rule_updated_at": "2026-11-27T09:33:28+08:00",
+  "source_rule_updated_at": "2026-07-26T07:36:39.873563+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:28+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "beec508f134916683be28b808ce07bfd08de6aff1a1876e09256cde9f86664ad",
-        "bytes_sha256": "10056fccbafc2a5acbc270b4595f8959bc9411b099a5639c63474226e73cf245",
+        "bytes_sha256": "52d547451d6cdad896f4566fd73230cefbd58c58781327bcfa81cc78e14909a7",
         "semantic_sha256": "63d36123543d2de5107b85a934015390992166e08d1d37dc34174a21db87501a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:28+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b24e1d16c3555bf7513f2f360df4f4c9817951f312bb0f73a3af990c4167a9b7",
-        "bytes_sha256": "a84f6499c78fae4e3dbf203c07973fb4204c29c64baaaf0afa8200508cd8ef03",
+        "bytes_sha256": "5393daf5af6c6e96f5e9fe56a9c76bf1dda2e75fe4d472812040e81b8ffdf280",
         "semantic_sha256": "5c96a80b36f9993c7c6a37df4d70c3c42b4122734d5abb0a2f815b19ade0a6bf",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "ca38efbe99554456d8bcb3d142ec86d3a7fbb7ba4592fc6affc117540f090d27",

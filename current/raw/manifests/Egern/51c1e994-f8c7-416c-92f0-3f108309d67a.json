@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T11:58:03.139798+00:00",
+  "generated_at": "2026-11-27T01:54:31.411006+00:00",
   "client": "Egern",
   "rule": "LastPass",
-  "rule_updated_at": "2026-07-26T06:38:06.942585+00:00",
+  "rule_updated_at": "2026-11-27T09:54:31+08:00",
+  "source_rule_updated_at": "2026-07-26T06:38:06.942585+00:00",
   "type_counts": {
     "domain_suffix_set": 3,
     "user_agent_set": 1
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:31+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0fbc3515f11117950e9e24b671448c65dea692212b972bb40d07fddf4d36a155",
-        "bytes_sha256": "0f247dcc0cbbee7ac49d08cb39d8a2680735ce8cce45fc8c0849bb7f517139b8",
+        "bytes_sha256": "85d95655f964197d9ff170d39febeb1847db11f96a088dc75ce671f76c68cf87",
         "semantic_sha256": "d8617cca1f9a694e8f8b08dcda51bde23f0d229dd16a5fa010a4fbf5a6ff8aa2",
         "normalized_header_lines": 4,
         "shared": true

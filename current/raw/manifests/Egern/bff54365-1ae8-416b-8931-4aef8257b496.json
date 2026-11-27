@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:07.328064+00:00",
+  "generated_at": "2026-11-27T01:55:00.393020+00:00",
   "client": "Egern",
   "rule": "TIDAL",
-  "rule_updated_at": "2026-07-26T06:22:31.506279+00:00",
+  "rule_updated_at": "2026-11-27T09:55:00+08:00",
+  "source_rule_updated_at": "2026-07-26T06:22:31.506279+00:00",
   "type_counts": {
     "domain_suffix_set": 4,
     "user_agent_set": 1
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:00+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8bfaa3c6377d62b3c85ad81aff6438a83a05cff8d2153d129ea5c4477a44d753",
-        "bytes_sha256": "65ed28ffcef0220147037f31a2a06dffd3cfc905f499cf90f4df598a7dc0aab1",
+        "bytes_sha256": "b36999129a8bf2c45e5c9b6774e95fe79d34d1262ba92362c33de1fc01ee5d0d",
         "semantic_sha256": "8789fb695b9c66a2ed48d30a165f95ca1d906ca35fc11138bd3d3e89e977fb2d",
         "normalized_header_lines": 4,
         "shared": true

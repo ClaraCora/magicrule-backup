@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:36.561064+00:00",
+  "generated_at": "2026-11-27T01:28:10.333685+00:00",
   "client": "Loon",
   "rule": "Walmart",
-  "rule_updated_at": "2026-07-26T08:39:34.579600+00:00",
+  "rule_updated_at": "2026-11-27T09:28:11+08:00",
+  "source_rule_updated_at": "2026-07-26T08:39:34.579600+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 10
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:11+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "542e2c870fb71a0ab7c9e05d65d3d8ad36ccda1cca340c03afde7a4b27c44fec",
-        "bytes_sha256": "dd65e3c17e8367c6507428cdac742a6e381bba15b513ba2165efd06f75484113",
+        "bytes_sha256": "a91bed88e99d03582e14db8b7b342962f1adb703a56398c07493f3c9e0c2f676",
         "semantic_sha256": "6347b7884141ec6c5f5d2593e7fb44d87c1609dd6ff283ffcc4ceeb3fba07d4f",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:11+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ca2fb09089211d819625e5753b54052641e8c4faeb9b47dc6e623f072bbf8fe4",
-        "bytes_sha256": "28e5e860db61150875c3484a5d73be12714eb668ebcf5d43b3817bb0d15d6bc1",
+        "bytes_sha256": "d0fdfce8203af4b848d77e5d3b8656c833c8135a24d0258c18bea4e941dfeeeb",
         "semantic_sha256": "16359427dfbfe932fd5a12477e8c4a07d3938abd0b448c4eb7b172536fe2e9aa",
         "normalized_header_lines": 4,
         "shared": true

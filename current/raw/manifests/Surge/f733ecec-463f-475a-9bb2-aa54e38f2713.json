@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:54.029438+00:00",
+  "generated_at": "2026-11-27T01:37:25.293169+00:00",
   "client": "Surge",
   "rule": "TranslateWiki",
-  "rule_updated_at": "2026-07-26T10:46:32.230324+00:00",
+  "rule_updated_at": "2026-11-27T09:37:25+08:00",
+  "source_rule_updated_at": "2026-07-26T10:46:32.230324+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:25+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "035b8096b90dd72d4c102f118f5baf38af38732e884f59dba44f0f6ac540ce3a",
-        "bytes_sha256": "f9ac8bef7e41ad9eaf9991f911fd0569cc6b06f8e7fba2db770d44b72d575970",
+        "bytes_sha256": "58c537a221e9514866905015339fee7d9fb454d0318995994bc722db3c69154b",
         "semantic_sha256": "44de342e092ffce54da458ac4e3e0906424241be7edf996418cb96ef0d907ea1",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:25+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3a7a4e97e8ce20a6f46268fd58f0f97b8196a0887169a2d74cc3e86fe406d2d3",
-        "bytes_sha256": "89dd7d6a8a5f751ec1e5d59f7b89bf54f5a82dc09bb16e3187b2ee4fad340cb4",
+        "bytes_sha256": "c17bc3010d1a7476cead7b024d227428834039544cd78515d4f4487ce704ed9f",
         "semantic_sha256": "1e0fd891ceb482f6d661b1d6190b35e0b40465f87eaa3c8264ad3067fa419f00",
         "normalized_header_lines": 4,
         "shared": true

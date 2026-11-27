@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T12:21:30.797369+00:00",
+  "generated_at": "2026-11-27T01:54:35.098461+00:00",
   "client": "Egern",
   "rule": "AppleDirect",
-  "rule_updated_at": "2026-07-26T07:36:59.247595+00:00",
+  "rule_updated_at": "2026-11-27T09:54:35+08:00",
+  "source_rule_updated_at": "2026-07-26T07:36:59.247595+00:00",
   "type_counts": {
     "domain_set": 4,
     "domain_suffix_set": 21,
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:35+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5447d7618cd2ae467db6f8d82189bf5386f48dacceb6b3e34ced8e2c7c29713e",
-        "bytes_sha256": "08f515b806ba1ff81b213ad1f58b13486847d2960793a7e96d39d6d0ac671313",
+        "bytes_sha256": "afb9f1e160235b3463aeaaad7c687549e7047259e3126a99f5c3a95e197c271b",
         "semantic_sha256": "681c4fbbb39e735ee9a796b301ee3482582ca9c48344fa44a6cc9737288dc618",
         "normalized_header_lines": 4,
         "shared": true

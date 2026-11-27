@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:31.784665+00:00",
+  "generated_at": "2026-11-27T01:36:45.107675+00:00",
   "client": "Mihomo",
   "rule": "ArtStation",
-  "rule_updated_at": "2026-07-26T10:15:13.592944+00:00",
+  "rule_updated_at": "2026-11-27T09:36:45+08:00",
+  "source_rule_updated_at": "2026-07-26T10:15:13.592944+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:45+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bfa0ffb00331fed7b1413b5279069a172bad3e5ac2ec270ed92a8951caefbf3b",
-        "bytes_sha256": "597423c4bb65c956fd1192ac2c9692578a53c14744e35722ef5261fc4f7e1e7b",
+        "bytes_sha256": "5120562cb362e72f909664ce68667e8c8c9183421b453862a1daf3c3c8f95d27",
         "semantic_sha256": "33deb19a803b1608547c39f58261057cdf60ce4b6969fd4a64ce66c9d51a10fb",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:45+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "880f337e6a2f72114233b4c8daa568c83b4923ed9a0a1ea3862e8d1db02e892b",
-        "bytes_sha256": "d0ebd5e209276e06db5ef633ce706623d051f75fb765539ea2808003022316b7",
+        "bytes_sha256": "3ec170e5c53e5ddcedee6b023c4b43170ff526aa22c1a90737077f44c85d0ecc",
         "semantic_sha256": "688382e024122364c590f6d3b05fb0ebe5311d68403ccf16c5f22b919fba6684",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "d980cfb8846c1802f461fda51d153abf12112f0f2dc014f088390af0e9318be1",

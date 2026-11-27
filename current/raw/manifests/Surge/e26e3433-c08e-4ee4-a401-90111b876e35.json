@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T07:34:35.635413+00:00",
+  "generated_at": "2026-11-26T07:32:58.936637+00:00",
   "client": "Surge",
   "rule": "Debian",
-  "rule_updated_at": "2026-07-26T08:31:46.019644+00:00",
+  "rule_updated_at": "2026-11-26T03:28:21.095362+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 2
+    "DOMAIN-SUFFIX": 3
   },
-  "total_line_count": 2,
+  "total_line_count": 3,
   "artifacts": [
     {
       "key": "rules",
@@ -19,9 +19,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "049aea875eb7722b895e7e1e93097fdc9e2e35cdd40892f11d17169fbcdc53cf",
-        "bytes_sha256": "7b99c9a5f77e4fe51a59da564a1cc8fb2e21301b3b4b55ca02639b644f76fede",
-        "semantic_sha256": "9202b1ceb9ace45ba956a4b10ee28ae7d774f32125b0b0ba23400c1fbd17ea23",
+        "fingerprint": "6f7d63c587d44e7e05c32df7bc79ff3c60bc0304bc676c182245df1da4ea2ec5",
+        "bytes_sha256": "65c2765a32074d5c8a4b9dbc3b1d9815525d681f575bcd42fc068a37ecd97259",
+        "semantic_sha256": "ecaa6522be64a1bb0593b0fcd23770fb11a56b3ebec525ddd32d70711ac428b6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -37,9 +37,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "4b019e17833b6e149d20d7e45662142148599858b49d61010eb0433b51c817e8",
-        "bytes_sha256": "675a43a64d0b29c5811453fb1fa16da500a08b8c9b6c5479fefe6faf8c011b95",
-        "semantic_sha256": "d30c8cf82a3978719a9da4a207a4ef39617c7b7371251ce2d6739b74954bfd85",
+        "fingerprint": "472e9af1fdc0b7c24311f167236e26713abd1b28df1af7c53acef071ebdc68ea",
+        "bytes_sha256": "05badb0c63fd8dcd046ba6d16ca78be01b1ff43b29bc83047a414ec3aa99cc54",
+        "semantic_sha256": "06a403a177a689ea4ee57eefb72f8918b7194c6b046cddfd07c9e2a8175135cc",
         "normalized_header_lines": 4,
         "shared": true
       }

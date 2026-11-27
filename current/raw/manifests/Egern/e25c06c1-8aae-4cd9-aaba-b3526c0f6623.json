@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-18T14:30:37.065862+00:00",
+  "generated_at": "2026-11-27T01:55:10.223121+00:00",
   "client": "Egern",
   "rule": "Apple APNs",
-  "rule_updated_at": "2026-11-18T14:20:21.587388+00:00",
+  "rule_updated_at": "2026-11-27T09:55:10+08:00",
+  "source_rule_updated_at": "2026-11-18T14:20:21.587388+00:00",
   "type_counts": {
     "domain_keyword_set": 1,
     "domain_suffix_set": 2,
@@ -15,15 +16,16 @@
       "key": "rules",
       "label": "RULE-SET",
       "ext": "yaml",
-      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Apple_APNs_rules_7cfe5e3651847673.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/Apple_APNs_rules_b11b6fba7bae6bcf.yaml",
       "binary": false,
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:10+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "086a68ce27f3b924f4b5cf5a4d2ba509c91c076d2666c834eb7826731844469c",
-        "bytes_sha256": "4536dd860c2813a050be39a3ffc56ec0aed203fb0775c2611d86ebae844c22f4",
+        "bytes_sha256": "8f41058e4a5992a71b9850251e9bf237ad98cc042717d00408fd48265c3d515e",
         "semantic_sha256": "ac135475e94bfe00af603d9b8a8dfda1fc5b2dd1825e64a7cb1a053a96b00e08",
         "normalized_header_lines": 4,
         "shared": true

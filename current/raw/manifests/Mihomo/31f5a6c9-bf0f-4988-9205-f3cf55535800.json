@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:12.313963+00:00",
+  "generated_at": "2026-11-27T01:26:43.626155+00:00",
   "client": "Mihomo",
   "rule": "NowTV",
-  "rule_updated_at": "2026-07-26T10:39:23.231267+00:00",
+  "rule_updated_at": "2026-11-27T09:26:43+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:23.231267+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 6
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:43+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "89d4ee68e1f9869ab3d40405ed8e187ff6483a40d51ed24a486083cb34cab0b2",
-        "bytes_sha256": "09d3aea96b611c9bd72011797f62b1ace712c596d8b7e6829d49ed737fe93648",
+        "bytes_sha256": "8b6fec1feca139b5eeaa82836a6baab34635fbac7261ea1021be411027b417a0",
         "semantic_sha256": "632d10aab480abe36bf5780243310606524b1e5bd1bbad0bdd705c542e67ef6a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:43+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "fe55e87dc0d3e3b999dfa84966b5da094af978ccb5d7b27bc791e928bc346ec3",
-        "bytes_sha256": "9d333a372f2592a9131a3a368ea4fb4bd51a749e3ab8551bef7622728173b49a",
+        "bytes_sha256": "bf27b10ae2350503860c179ceeca71a2d7a89704ea9de5d84b105795f89a01c4",
         "semantic_sha256": "dfe8a422210b9a7ba65d2658020e2c5d2ec1a95b9d187af875ccfb998e2eedc1",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "20c8b5b7239fba5b2f20709e8a252a4c012b586f2d737496c2c6dfd408d3f0d5",

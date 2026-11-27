@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:21.130165+00:00",
+  "generated_at": "2026-11-27T01:27:16.862905+00:00",
   "client": "Loon",
   "rule": "WikiHow",
-  "rule_updated_at": "2026-07-26T10:49:16.267868+00:00",
+  "rule_updated_at": "2026-11-27T09:27:17+08:00",
+  "source_rule_updated_at": "2026-07-26T10:49:16.267868+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 1
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:17+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3efbc8c8d8f37082637ff937cf14f60c6e04489c593e33f4c33446dc3fd484c0",
-        "bytes_sha256": "0de2c0cbf751de2c2888ed701c75db921006b674740f3cb61a35163be531b391",
+        "bytes_sha256": "5725d09821bd369dafd2b03ac31e5af20a33201f8585c22343009d9dec2339ef",
         "semantic_sha256": "eba253d231231ddc2f197f5038bd49b42e68f7327706bcd99205ae992c6cc2e6",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:17+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "761685c3248ef9311e9b9c50ff5552d5a5062ca3d57e7463c309d60ecd2c297f",
-        "bytes_sha256": "d1f0243e53443c3731194cb81d4b23a97b130bf9e5736f8ab864d7cf0ad51a77",
+        "bytes_sha256": "8fb1090a6c876ede0faccf5747ba09bc0de0551064b27299a899e61953844b55",
         "semantic_sha256": "e54c2cd63299eeeadf4be17444fbf311793441339510b20798e43cff8982dbcb",
         "normalized_header_lines": 4,
         "shared": true

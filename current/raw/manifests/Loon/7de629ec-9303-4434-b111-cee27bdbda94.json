@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:18.886604+00:00",
+  "generated_at": "2026-11-27T01:30:48.841473+00:00",
   "client": "Loon",
   "rule": "Dettol",
-  "rule_updated_at": "2026-07-26T10:25:09.073798+00:00",
+  "rule_updated_at": "2026-11-27T09:30:49+08:00",
+  "source_rule_updated_at": "2026-07-26T10:25:09.073798+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 35
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:49+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "708d54fc078557b0cb4b1b5ca126b8c5e70814afb65e8f366806c88629512785",
-        "bytes_sha256": "cef7c533a6c895a10437cbbc6a580ae2ed181060b31e5ffb9ddbad640dd9066a",
+        "bytes_sha256": "ac62bfaa25c3062d95ddd712904ab68eb3dc8f507cdedbafd9711146c0a7cadc",
         "semantic_sha256": "072ba1257daed5a9e72d44a02b806ac38f4649aebac0c26ea890c79b9af5549c",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:49+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d7ccbeac318e9b7d2faeb406853b162b10bc88c626ec74bab13427979ebadb30",
-        "bytes_sha256": "08c22a11d85532135f891fc8009182ab12a779781f7b0c43883c2ea9019ac848",
+        "bytes_sha256": "ca76418b076c16a6501afce40e3995824ada3c38b8888f50fe0ace47d4676f8c",
         "semantic_sha256": "cf2a98fe291cbbef1e16ea2c128ff51ed4aa3ce674ec6fd6e843842d13137f30",
         "normalized_header_lines": 4,
         "shared": true

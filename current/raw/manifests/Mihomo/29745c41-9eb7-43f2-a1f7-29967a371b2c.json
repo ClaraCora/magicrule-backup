@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:06.337046+00:00",
+  "generated_at": "2026-11-27T01:26:19.982335+00:00",
   "client": "Mihomo",
   "rule": "Gamesplanet",
-  "rule_updated_at": "2026-07-26T08:36:57.779268+00:00",
+  "rule_updated_at": "2026-11-27T09:26:20+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:57.779268+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:20+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "eabf4d2289e4f6811ac476aecacb81863e8ecc20f996dbcaea79c1d69412ccdc",
-        "bytes_sha256": "42f79ff47ac5c5a66e01db1778a15b523f5f2f9e6c177bcb482b8a36159ef5e0",
+        "bytes_sha256": "7b5a31f8afa22e6c0355d639f64bc111a0a80686fd0ab0b7c173e5d1b1ab3891",
         "semantic_sha256": "455a206691212cf5c347218209c1baa48c962538cf1b5969b5892ba2eda52b9b",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:20+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1af36217323f5d5c58451d3cc47280af7fa449ce425eee8d43e7ad1a74b0d88a",
-        "bytes_sha256": "53265c732f2ab86ecdca46ab206887f052ea0fcca98e5585cd2861b374991636",
+        "bytes_sha256": "d98e0dee8e3ee6e7ea7021d47c73f63c1d5d6f11bde0bac1404dbfdfa95628ea",
         "semantic_sha256": "1af4c77630ce1ad34c14c72d1bf0c612d54dc5c342e7c1452e50a6d107092484",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "ba49845dc311ef03a1393b7f3522f546e1d5b753dd6f2277e7ebf818846abb49",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:31.907465+00:00",
+  "generated_at": "2026-11-27T01:27:52.959598+00:00",
   "client": "Mihomo",
   "rule": "TechTimes",
-  "rule_updated_at": "2026-07-26T10:45:26.861002+00:00",
+  "rule_updated_at": "2026-11-27T09:27:53+08:00",
+  "source_rule_updated_at": "2026-07-26T10:45:26.861002+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 1
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:53+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "77c6cc7ab8ca7f865d892fd9bb6cd54efc70fde853fd4993f5ad187f59ea4883",
-        "bytes_sha256": "92977375762aed78ca733bad48c2245d938466dfed99145da57d7524c7a69c2d",
+        "bytes_sha256": "57255218f83be3e61cf5cd485824a61f2c026d9c4d50dac13a137b08a7672909",
         "semantic_sha256": "fc7f1a2d75f70242b9eb2833f5866d9f988984301ea6c96f4f010e3b8af92479",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:53+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "bce93fc5850385a7472b88ca2fb231680cc5fce49edee33f9e81a05e7023d1eb",
-        "bytes_sha256": "571702ee7381a66fa31f4198e1eee500ba80cc2ff6d048e98359a8b118e06ef3",
+        "bytes_sha256": "a0da8027e85c12858243ec167b4410037809e5903370be121ea6e2284127965f",
         "semantic_sha256": "e9125b6587e339e939ca1a7f82f9653661a6cfc33a84852f7b37dc8e07f09ca7",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "372c01cc73f063f7fb16b73542840e3dc5d05129407ee47c3a20b619ed2ae51c",

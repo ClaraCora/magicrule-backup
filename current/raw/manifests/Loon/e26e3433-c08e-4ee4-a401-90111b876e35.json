@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T07:34:35.097492+00:00",
+  "generated_at": "2026-11-26T07:32:58.924356+00:00",
   "client": "Loon",
   "rule": "Debian",
-  "rule_updated_at": "2026-07-26T08:31:45.967010+00:00",
+  "rule_updated_at": "2026-11-26T03:28:20.828960+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 2
+    "DOMAIN-SUFFIX": 3
   },
-  "total_line_count": 2,
+  "total_line_count": 3,
   "artifacts": [
     {
       "key": "rules",
@@ -19,9 +19,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "049aea875eb7722b895e7e1e93097fdc9e2e35cdd40892f11d17169fbcdc53cf",
-        "bytes_sha256": "26f3c7f22bdf8e2128853c95409797625887c8cce865e3c2f6691c0c2c301d44",
-        "semantic_sha256": "9202b1ceb9ace45ba956a4b10ee28ae7d774f32125b0b0ba23400c1fbd17ea23",
+        "fingerprint": "6f7d63c587d44e7e05c32df7bc79ff3c60bc0304bc676c182245df1da4ea2ec5",
+        "bytes_sha256": "65c2765a32074d5c8a4b9dbc3b1d9815525d681f575bcd42fc068a37ecd97259",
+        "semantic_sha256": "ecaa6522be64a1bb0593b0fcd23770fb11a56b3ebec525ddd32d70711ac428b6",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -37,9 +37,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "4b019e17833b6e149d20d7e45662142148599858b49d61010eb0433b51c817e8",
-        "bytes_sha256": "80047d5a1b6109dff8079373faa8950ba72d4b6c454b39a851c4584a63d94c56",
-        "semantic_sha256": "d30c8cf82a3978719a9da4a207a4ef39617c7b7371251ce2d6739b74954bfd85",
+        "fingerprint": "472e9af1fdc0b7c24311f167236e26713abd1b28df1af7c53acef071ebdc68ea",
+        "bytes_sha256": "f8022985c0055981e16e2136e21b51c18326809d655f8294ab02c805534f51d2",
+        "semantic_sha256": "06a403a177a689ea4ee57eefb72f8918b7194c6b046cddfd07c9e2a8175135cc",
         "normalized_header_lines": 4,
         "shared": true
       }

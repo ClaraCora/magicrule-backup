@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:27.105187+00:00",
+  "generated_at": "2026-11-27T01:27:35.475170+00:00",
   "client": "Mihomo",
   "rule": "OpenSourceInsights",
-  "rule_updated_at": "2026-07-26T10:39:47.491296+00:00",
+  "rule_updated_at": "2026-11-27T09:27:35+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:47.491296+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 4
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:35+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "dc70e43147c7a4429c9c142fb1bc574ea160e0c2aebac09103d9b59ea8c8d5d1",
-        "bytes_sha256": "699cb3c1287d5380f242112b205bb23c71fd3d8851c1ea7ac1ed6e5f207c486f",
+        "bytes_sha256": "6aa92e677fef57876456ab80a9a6872632cf33854f1a405e3d5adc57a61fc4c8",
         "semantic_sha256": "b784b361f0ae85da7d4795be494ecd4ab5e4b85cf220c11aa0d13206cbc99757",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:35+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d28ad357edfaf80d3818ffacb6cf2c4b176e29293f67ec259ce3d92e3a973b33",
-        "bytes_sha256": "e3b86d3bb304d81ae4b0710c9a48bf6b5d34f1870b4c9d1bc660bf5cec8e7d05",
+        "bytes_sha256": "1d06139ae0b103cdb22a7063d2ec6c5842ca44a3257c02b6b28de00a3d9da21f",
         "semantic_sha256": "c9996d16a674c5ad9dc578b96365009026fab1c6b20915b89f6582cbcbee4a2f",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "d326ee5efb1fbf18735d8d8d2301ec2768cbc59b64d7378fdd89f83cc7f3adbf",

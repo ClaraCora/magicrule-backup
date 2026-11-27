@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T13:42:23.917767+00:00",
+  "generated_at": "2026-11-27T01:24:34.357013+00:00",
   "client": "Egern",
   "rule": "Viu",
-  "rule_updated_at": "2026-11-17T09:33:48.812152+00:00",
+  "rule_updated_at": "2026-11-27T09:24:34+08:00",
+  "source_rule_updated_at": "2026-11-17T09:33:48.812152+00:00",
   "type_counts": {
     "domain_regex_set": 1,
     "domain_set": 4,
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:24:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "388fe2e87db703376dddf6c0f1e5311d57bcb5d543e56f7e9358a27f224597f9",
-        "bytes_sha256": "75e9bdd4c9525276f836e90b56498880fd894d10f72e5839dbd5f52bf2a1c56b",
+        "bytes_sha256": "2d095445d15d116363e882b2123062d63d8e830474afb8a0f90b885094f7b7bd",
         "semantic_sha256": "1c71a92a2bef998fcec999e2a0dd6868d6a8350631bb6d75412ba88b334b7872",
         "normalized_header_lines": 4,
         "shared": true

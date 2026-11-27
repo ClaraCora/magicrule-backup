@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:46.612988+00:00",
+  "generated_at": "2026-11-27T01:25:05.736201+00:00",
   "client": "Egern",
   "rule": "FunPay",
-  "rule_updated_at": "2026-07-26T08:36:31.661547+00:00",
+  "rule_updated_at": "2026-11-27T09:25:05+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:31.661547+00:00",
   "type_counts": {
     "domain_suffix_set": 3
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:05+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8f2edc24e3ce7e26e2630c1d6a18071cfc53fff3a7e25d944d0664f04b7a5b05",
-        "bytes_sha256": "ef7d99335b108d1f1b1f134b105cd979aef150066ee14aac06ae313f9c8aa343",
+        "bytes_sha256": "659a1a4a2f29be793d2b8857ea018bf6f775105b8e0fcae75573c0490386b1ad",
         "semantic_sha256": "57e16d64db0e9b1abbd0b76f57494164757b34e002ccde8d4f8a2c1405e70d8a",
         "normalized_header_lines": 4,
         "shared": true

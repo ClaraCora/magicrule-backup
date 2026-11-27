@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:36:51.875410+00:00",
+  "generated_at": "2026-11-27T01:54:43.029216+00:00",
   "client": "Egern",
   "rule": "ChinaMobile",
-  "rule_updated_at": "2026-11-06T06:43:47.380139+00:00",
+  "rule_updated_at": "2026-11-27T09:54:42+08:00",
+  "source_rule_updated_at": "2026-11-06T06:43:47.380139+00:00",
   "type_counts": {
     "domain_suffix_set": 55,
     "ip_cidr_set": 1
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:42+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "aa63789f475b08fa3438c6d6dcfb33fb92c3483b217e452e55802bf8ccbecf53",
-        "bytes_sha256": "0cfd648ba164a8640b3d7cf9129c2ef00e33c66d47e8b2319cc773afda6c63c5",
+        "bytes_sha256": "59b56181b3b59269f7e017463e676e1a68c8d10e167fd3be7fe8cce2686edf0d",
         "semantic_sha256": "7a2f2163683c671584d4dd4a1193c50573559b74c1432f75cabdad81ae615e2c",
         "normalized_header_lines": 4,
         "shared": true

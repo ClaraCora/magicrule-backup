@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:12.374311+00:00",
+  "generated_at": "2026-11-27T01:26:44.381928+00:00",
   "client": "Surge",
   "rule": "NowTV",
-  "rule_updated_at": "2026-07-26T10:39:23.115389+00:00",
+  "rule_updated_at": "2026-11-27T09:26:44+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:23.115389+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 6
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:44+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "14191c87c3af3a0b50676873ab751676f4d46bd149131f9f0f2af51e5bee28b8",
-        "bytes_sha256": "ebef19cefc6911473cba797fa17172520dad48b93df3c8b7430f57abaf39fcce",
+        "bytes_sha256": "7065f75741cd9848a4711f0278cdd8d45308fc4430d5da54c0c641beb0c6d2d0",
         "semantic_sha256": "886a0b28110cbaf840d93ae16338aedd813ffd897c24647bc740e7d5e3663be9",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:44+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b90d0547c6d4d34ebb90223c12217a5a82e306a4629ce197eff1b28509391adc",
-        "bytes_sha256": "afe8bdaddda582de81ed3e709d970064ecca1f5517f6be2d30669d980d4236e9",
+        "bytes_sha256": "73e97a94253b988103daa796ae5cfbef49db233a3fabe878783ccf0fd281b843",
         "semantic_sha256": "072bb0029171234ef1d6078cc0eafeaaa341e91486d94950a0a70e5a463eced2",
         "normalized_header_lines": 4,
         "shared": true

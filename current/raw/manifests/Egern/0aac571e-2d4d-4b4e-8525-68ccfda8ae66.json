@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-11-17T11:19:10.060666+00:00",
+  "generated_at": "2026-11-27T01:54:10.388709+00:00",
   "client": "Egern",
   "rule": "HoYoverse",
-  "rule_updated_at": "2026-11-17T09:15:32.635457+00:00",
+  "rule_updated_at": "2026-11-27T09:54:10+08:00",
+  "source_rule_updated_at": "2026-11-17T09:15:32.635457+00:00",
   "type_counts": {
-    "domain_regex_set": 1,
-    "domain_suffix_set": 26
+    "domain_suffix_set": 26,
+    "domain_regex_set": 1
   },
   "total_line_count": 27,
   "artifacts": [
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:10+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "fee8bca4beac6feb9994789d8c5a5b9d2b979119a73a37d18593c09e246164cb",
-        "bytes_sha256": "cda264597bf618e671bc282199228135d3cad2721d0569d338e7a7dd7ac9c84a",
+        "bytes_sha256": "33e24549c5e1fb4c66608170821f26be227f79a1d1b83e88026228cbc1290893",
         "semantic_sha256": "6a957c4ae08e31c5acb6c52e0f46fd925896679f7e5d28c89f000c613dc2190b",
         "normalized_header_lines": 4,
         "shared": true

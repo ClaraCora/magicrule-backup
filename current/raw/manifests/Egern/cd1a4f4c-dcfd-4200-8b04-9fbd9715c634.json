@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:10.003001+00:00",
+  "generated_at": "2026-11-27T01:55:04.153407+00:00",
   "client": "Egern",
   "rule": "CCB",
-  "rule_updated_at": "2026-07-26T06:23:17.410155+00:00",
+  "rule_updated_at": "2026-11-27T09:55:04+08:00",
+  "source_rule_updated_at": "2026-07-26T06:23:17.410155+00:00",
   "type_counts": {
     "domain_suffix_set": 18
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:04+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4acb13920636b18064cee1ece6b7247eefd4553a9ae4cef55b4839ece31bde5e",
-        "bytes_sha256": "4f43b1e4c10f3381b92548ae6160c341ea9f0d5ea148ea937a4b00889d94f11c",
+        "bytes_sha256": "a5afcf86e6f61a075fb891f88652ef651e02ba6fca60b51d1fe7bebe7581c7d5",
         "semantic_sha256": "2676c56b4a309ac6a330752aff273c8aae74cd0a4ee09b4429b861a96afa6f38",
         "normalized_header_lines": 4,
         "shared": true

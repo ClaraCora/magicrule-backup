@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:25:07.614789+00:00",
+  "generated_at": "2026-11-27T01:30:05.174480+00:00",
   "client": "Egern",
   "rule": "Cygames",
-  "rule_updated_at": "2026-07-26T08:36:25.779641+00:00",
+  "rule_updated_at": "2026-11-27T09:30:05+08:00",
+  "source_rule_updated_at": "2026-11-26T03:23:51.859248+00:00",
   "type_counts": {
-    "domain_suffix_set": 5
+    "domain_suffix_set": 6
   },
-  "total_line_count": 5,
+  "total_line_count": 6,
   "artifacts": [
     {
       "key": "rules",
@@ -17,11 +18,12 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:05+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "2242d21ed08e772e97d93c06df382571d66b3c32943d50baf3a6ebfb975d4816",
-        "bytes_sha256": "4e392b97bd72904648febd490ec97946167affdb3c7f577e80cf7708c1297c55",
-        "semantic_sha256": "6f19063c68ff751f723e79f56432247bdb1e88e390cc43932c9dd340896ca037",
+        "fingerprint": "53a319057223eebef023fa9a4544e7a596b48ee9903cc51c88794a68da554dac",
+        "bytes_sha256": "149bfb02ee06167cd7861893f947f16c7d79556acabbbc10b4ec77dc671d85c3",
+        "semantic_sha256": "0a2deb14213ddedf845e629182a027d1180a0d6a7c15b47d98e11a4237f921ad",
         "normalized_header_lines": 4,
         "shared": true
       }

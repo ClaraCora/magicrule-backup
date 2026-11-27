@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T14:13:23.131904+00:00",
+  "generated_at": "2026-11-27T01:54:35.950258+00:00",
   "client": "Egern",
   "rule": "Telegram",
-  "rule_updated_at": "2026-10-09T15:59:00.446060+00:00",
+  "rule_updated_at": "2026-11-27T09:54:35+08:00",
+  "source_rule_updated_at": "2026-10-09T15:59:00.446060+00:00",
   "type_counts": {
     "ip_cidr6_set": 7,
     "domain_suffix_set": 24,
@@ -21,10 +22,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:35+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7af5ff3214fec3d4d7a185f0ddc163234714340d7ececf26cf4f9775c9b593f4",
-        "bytes_sha256": "32dd3cffd7298b322b497bcd0787b66c38fd310255defaac2ddecbe17b89605d",
+        "bytes_sha256": "0aaedc8c851ecce13f265c0b6a7c483ab37e4009eb08d9dee2d94c5ba15b430f",
         "semantic_sha256": "2831d9708b474dcfba994138d0ccd411042eb76e92dc9393eeb54fdd1a1be2d9",
         "normalized_header_lines": 4,
         "shared": true

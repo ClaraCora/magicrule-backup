@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:25:20.032006+00:00",
+  "generated_at": "2026-11-27T01:30:53.337831+00:00",
   "client": "Loon",
   "rule": "GlobalCDN",
-  "rule_updated_at": "2026-08-08T02:57:22.359891+00:00",
+  "rule_updated_at": "2026-11-27T09:30:54+08:00",
+  "source_rule_updated_at": "2026-11-26T03:21:54.241807+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 195
+    "DOMAIN-SUFFIX": 197
   },
-  "total_line_count": 195,
+  "total_line_count": 197,
   "artifacts": [
     {
       "key": "rules",
@@ -17,11 +18,12 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "3ed526aaf0f61a1857259860c0072ca7dd6b4ca25f1d87c73e2dd33cc44dceae",
-        "bytes_sha256": "96dd1e93f4be71845d325fe8582915da8961417577662f6595429a7cbdc3e9bb",
-        "semantic_sha256": "d2927f053fd8ef2dc663f5e6bcc689e63c1289ac0745b6065d36b0438448fa2d",
+        "fingerprint": "aa33eb76f585805b1613c01610a5a3291fb448172d56cc1729162990263e4221",
+        "bytes_sha256": "ab7c2de7e57c754997095b200d8c0467bc2b7d13de9a379bbafe3ab23eff2f27",
+        "semantic_sha256": "233a658e4c8071f0e7e3d130ed4a433aefebc408a33a4acf8d71eae384be1509",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -35,11 +37,12 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "931ec6599ec3f23f470790d4e4de2ffcdb5156e401fda81360c5b9a55f3530f7",
-        "bytes_sha256": "4c37b742af26f1067e1c7c202230e0557c70046cd3e516bcd175ee97ff43cc2f",
-        "semantic_sha256": "59de793528af1527238f9ac87bb12e0e367c6655d29f1773ea86e9827fc0a892",
+        "fingerprint": "497f9cae55d6f1690fd4cf08f82a372c91955b68b976f1b31e7305e19b64f53f",
+        "bytes_sha256": "9f485c74a999d955ae07e6e84ea0bd9da0a64a3fa7c0f85577576871808f0d7b",
+        "semantic_sha256": "667113db6439b01dcd3cae65f92c61efac2a5b6133ff9022b99ba8d955055f62",
         "normalized_header_lines": 4,
         "shared": true
       }

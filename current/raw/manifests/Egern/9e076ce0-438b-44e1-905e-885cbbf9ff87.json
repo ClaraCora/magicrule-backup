@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:08.547812+00:00",
+  "generated_at": "2026-11-27T01:54:54.114610+00:00",
   "client": "Egern",
   "rule": "DtDNS",
-  "rule_updated_at": "2026-07-26T06:50:22.944770+00:00",
+  "rule_updated_at": "2026-11-27T09:54:54+08:00",
+  "source_rule_updated_at": "2026-07-26T06:50:22.944770+00:00",
   "type_counts": {
     "domain_suffix_set": 17
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a4693681c8b0463a58b47e9ccff6903fbc1d364f65069a7e0b75036128bc189c",
-        "bytes_sha256": "6f85b0dd55db2d68ceb1e4bd968c6c36df3b851f3435429e25409b97a7dabd5d",
+        "bytes_sha256": "9acce999f6c31e24ec4ba72f46f107c57131d51980d0ff681bb5c1edff1cf839",
         "semantic_sha256": "116a5b4691e20f42edde6e27c7ffdb0af7c2919b166b54e15187a91b67dde7cd",
         "normalized_header_lines": 4,
         "shared": true

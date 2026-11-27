@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T09:44:56.035465+00:00",
+  "generated_at": "2026-11-27T01:54:19.252112+00:00",
   "client": "Egern",
   "rule": "AppleUpdate",
-  "rule_updated_at": "2026-07-26T06:33:25.456631+00:00",
+  "rule_updated_at": "2026-11-27T09:54:19+08:00",
+  "source_rule_updated_at": "2026-07-26T06:33:25.456631+00:00",
   "type_counts": {
     "domain_set": 66,
     "domain_suffix_set": 31
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:19+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5ce006f7c47cadab2604e6ef78ecd0b772b5698daabd641bb477886b5abdd54a",
-        "bytes_sha256": "7673a450297a230ed2bf63bed06e36c9b207a630c7a163b252d9291f3ac6efca",
+        "bytes_sha256": "026afac1814aed90ec058a068adafd83afa1e43102d7561a057772aaaa0ba4dd",
         "semantic_sha256": "f353b8fa5ec5c5951f627352b30ae4018a13132737f1f4ff55d3b11488ea8c33",
         "normalized_header_lines": 4,
         "shared": true

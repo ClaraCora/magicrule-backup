@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:50.849961+00:00",
+  "generated_at": "2026-11-27T01:29:04.092597+00:00",
   "client": "Mihomo",
   "rule": "NewsCorp",
-  "rule_updated_at": "2026-07-26T10:38:35.947440+00:00",
+  "rule_updated_at": "2026-11-27T09:29:04+08:00",
+  "source_rule_updated_at": "2026-07-26T10:38:35.947440+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 152
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:04+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "78d7011216b61868615c0ae6e914ab704b0db1ced5b15bd23c633eccee600330",
-        "bytes_sha256": "9e341247fef5eda943edc8b945ebb076f7c03061b188bbd6e188820f5bcb31c7",
+        "bytes_sha256": "4a2b3e5ef23d104981c4d321d94697c47990ed255f21290370f8733b8fff1d75",
         "semantic_sha256": "71563611cd88df3879cb4f39d3e8837bdfca6116b11d449db5486d04c3473763",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:04+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "21add4c1e2b6950f9f7ad8e52cb71851c1a36329fa37f147c37338445ba038d6",
-        "bytes_sha256": "44be479e49baafc6c6da39dcb3fadd52f74a4c276e54be75c721cd4c69c97ac5",
+        "bytes_sha256": "66fc94f103a0521bd576ec6d1cdd0e73b3b75b0a78b12a8a721de6a954c87ce8",
         "semantic_sha256": "7363e85401318aab0266926625cd140bde02859e9c444faf98f03b4f4b36d48e",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "2679ea9b422787a8fe2bd14aa823081a62873abfba4fac0fb22dc96c0b9ad28d",

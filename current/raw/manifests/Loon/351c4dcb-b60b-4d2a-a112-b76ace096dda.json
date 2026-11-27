@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:15.355068+00:00",
+  "generated_at": "2026-11-27T01:26:55.736118+00:00",
   "client": "Loon",
   "rule": "RaiffeisenBank",
-  "rule_updated_at": "2026-07-26T10:42:07.276021+00:00",
+  "rule_updated_at": "2026-11-27T09:26:56+08:00",
+  "source_rule_updated_at": "2026-07-26T10:42:07.276021+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 16
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:56+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "995355bda4258bc7020bae1d0af3e8a67e5178e9f75de016a9d87dd2e767c672",
-        "bytes_sha256": "4306cf001b401a26866be7833df14904f34d601395cfdc7ea07e578a15f66f54",
+        "bytes_sha256": "b7f0173482748abfe6e95cff168655bbc20337cd88ab44747adb602dc217d569",
         "semantic_sha256": "8c74d3b7e9a50547f87a9ec66a4bef4c24d6878c7bef353c55ad55f199ba3527",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:56+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ac3f916ec6acf6b21239f2bd7b672e47744d04162af30591bc147f466adbd99f",
-        "bytes_sha256": "d25202ad3656c54775c30bacb3faf2d320e0b771876dfc225d7eb6e69f51f2cf",
+        "bytes_sha256": "76e22c2ac820cbe5fd1ce3bba54b7459c00afdee809f01b7976c8ee9d6bfeaf8",
         "semantic_sha256": "a360318166fc1489ffb729cfdee36c2f5e3ec8d883951253366c4f2b4b4098a1",
         "normalized_header_lines": 4,
         "shared": true

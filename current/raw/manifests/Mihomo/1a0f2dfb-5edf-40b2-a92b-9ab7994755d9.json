@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:54.480247+00:00",
+  "generated_at": "2026-11-27T01:25:33.812193+00:00",
   "client": "Mihomo",
   "rule": "OTPBank",
-  "rule_updated_at": "2026-07-26T10:39:51.317160+00:00",
+  "rule_updated_at": "2026-11-27T09:25:34+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:51.317160+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 12
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4bf2a2f6dfeb24526e3da07d32588350c6000568b9b49687aa17b40cc163877c",
-        "bytes_sha256": "940ca29d0487d6c9e0bc6c2f872e30574aca032b4752cdb63ed79c4addf17ac8",
+        "bytes_sha256": "9976f7031c9c2099912ac9d1d5624a4d0f869a51d164adbb5f3f9f730e0e1854",
         "semantic_sha256": "fe6bde68cd810c009585c189e55e37ed1831d1f62a83bef0c7efa78531c87a86",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8b332580eb14a41c891e0ae643ac8bfc4ee4823def0098c2ed04191d1b04430a",
-        "bytes_sha256": "b74449dd4f1753326c91becdccb40ff84eda015553efa1a2d5ca419357917f0c",
+        "bytes_sha256": "53a2a6378d8b73911771790bc21217b63862a96829d6b78e644e3b872e1126f1",
         "semantic_sha256": "e8c2680b2020d141c722580493caaf920e7b951e973f6ff4d87477f8e9a5683e",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "045136ce50f46b250195f9a7632255d47930782f28b729aa714d8e553f2e8859",

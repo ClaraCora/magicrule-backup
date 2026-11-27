@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T10:10:11.816722+00:00",
+  "generated_at": "2026-11-27T01:54:42.510475+00:00",
   "client": "Egern",
   "rule": "CCTV",
-  "rule_updated_at": "2026-07-31T04:08:59.708358+00:00",
+  "rule_updated_at": "2026-11-27T09:54:42+08:00",
+  "source_rule_updated_at": "2026-07-31T04:08:59.708358+00:00",
   "type_counts": {
     "domain_suffix_set": 44
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:42+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "fc69eec11fa8145ef516a9b450d1487f08e6d6f48207119be82dbd1e6ee81dac",
-        "bytes_sha256": "60d86c9dfbc8a28ec91ee08ab39a308a17d4f407015ceef3ec2e3aee21a505ea",
+        "bytes_sha256": "d16fa548fab9912ac57989f42c59953b5ad298a9d24d9e1bd9f6a2d96055752b",
         "semantic_sha256": "7252b7500751a5a1e66a9e85ba62bb91c2bb8ebce9c300df80c85ec85b08b2e0",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:08.914709+00:00",
+  "generated_at": "2026-11-27T01:55:02.645106+00:00",
   "client": "Egern",
   "rule": "Communication",
-  "rule_updated_at": "2026-10-29T02:37:33.043626+00:00",
+  "rule_updated_at": "2026-11-27T09:55:02+08:00",
+  "source_rule_updated_at": "2026-10-29T02:37:33.043626+00:00",
   "type_counts": {
     "domain_set": 2,
     "domain_suffix_set": 158
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:02+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "34d6a4d4638b4e9d0c5994a5a6a685a206a5e2a78473d0f2cf07ddcbaef2fe06",
-        "bytes_sha256": "c9d991632c89c261ae99a9b9360e97b032f5449838f46f49ba257ae4c994fff5",
+        "bytes_sha256": "c35d5f8a2f0db45abf3bf5379ebe3a67010ce3b8406da34c21323cb443809212",
         "semantic_sha256": "c49b333005eb0b0482ec09c8340d7db7f1cb9e7be1a06d2dc09dd5d2ab316e6e",
         "normalized_header_lines": 4,
         "shared": true

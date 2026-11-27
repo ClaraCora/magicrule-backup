@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:01.917206+00:00",
+  "generated_at": "2026-11-27T01:26:04.320800+00:00",
   "client": "Loon",
   "rule": "Costco",
-  "rule_updated_at": "2026-07-26T08:38:50.705557+00:00",
+  "rule_updated_at": "2026-11-27T09:26:05+08:00",
+  "source_rule_updated_at": "2026-07-26T08:38:50.705557+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:05+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "fc7d273e64a298ccec314790a5c3bdc38cc9f070e651a1368662b09411c4642a",
-        "bytes_sha256": "ed2fbf49e0a50f0f609c27bc93f418c8381f874bf6ab54dd1ec2349a002b5846",
+        "bytes_sha256": "76283ca9f2154cf28b941f8cfd9753754ba99d05b7dd656ca3fddd61b7ee9fa1",
         "semantic_sha256": "7e91752433cfe03ea9ddd4ba8461b55f5a9a642d624e641041457ae248e59fd3",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:05+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1bb6724a6b89b8fbfa141569cbd9a290d1b7654ad5a1804e5a1b711d46683d8e",
-        "bytes_sha256": "c85974741fba522b2086f29d74929b73a93ceb1f480d4e3ed5e4520a32c06f89",
+        "bytes_sha256": "1809db7c5a0ca6942c4c384e4eb6420258ea79968ca59661de42465bff57ab16",
         "semantic_sha256": "4073e4f4e1ab502cab29b9e1f323cb24eca214ca7e3926cf7fb1350f90350006",
         "normalized_header_lines": 4,
         "shared": true

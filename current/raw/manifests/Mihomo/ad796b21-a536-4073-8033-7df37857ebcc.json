@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:00.736306+00:00",
+  "generated_at": "2026-11-27T01:33:12.821065+00:00",
   "client": "Mihomo",
   "rule": "AlJazeera",
-  "rule_updated_at": "2026-07-26T09:57:39.616827+00:00",
+  "rule_updated_at": "2026-11-27T09:33:12+08:00",
+  "source_rule_updated_at": "2026-07-26T09:57:39.616827+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 7
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:12+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "70573c4fafc45fb7f99f1d300c24c6ca23b21d66559b45ce706aec39a7cb3a7b",
-        "bytes_sha256": "eded6a5c122aec3b6d1452edba0ba1732359b0551fad3d3f20449f70ed1e5000",
+        "bytes_sha256": "80aeffcbfa7db15ecb04f3025020f29dd1f588c7c1ee8c41a2736982eb0d3b94",
         "semantic_sha256": "8545b21496c0e8f52560f96a9d553811e6830ec0b2342d6664919a62b59fa28a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:12+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5b216ca8a61afefa9891c15b51996ed23e75529ee2e898fcd351c48522f3a9ef",
-        "bytes_sha256": "9ad99db5ff0ce4595f33d742f0bf8748b869d21d7dd16a96a1f8e7c7aa0b4339",
+        "bytes_sha256": "4eaa9148e9d1083945ffe10ac412b40bdddafbdef82890b3c06ff41b273c2c5c",
         "semantic_sha256": "8ac4ab055361dcbbe300839d9b2a4205105d643a68b08732b7392704a86d14b6",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "74af4e034d9789e29b447e8e1f55e04456aab58ba19c4365c8b9edb744772f8f",

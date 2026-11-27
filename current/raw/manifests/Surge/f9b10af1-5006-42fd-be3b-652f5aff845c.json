@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T12:08:22.646428+00:00",
+  "generated_at": "2026-11-26T06:23:30.697684+00:00",
   "client": "Surge",
   "rule": "Lenovo",
-  "rule_updated_at": "2026-07-26T06:26:50.991485+00:00",
+  "rule_updated_at": "2026-11-26T03:21:10.827557+00:00",
   "type_counts": {
-    "DOMAIN-SUFFIX": 60
+    "DOMAIN-SUFFIX": 63
   },
-  "total_line_count": 60,
+  "total_line_count": 63,
   "artifacts": [
     {
       "key": "rules",
@@ -19,9 +19,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "d59f4dadc876a2218e53e5af692f4db2a470a38277bbc520a8d656135e3303ac",
-        "bytes_sha256": "a4ce136e0d19ac3623fb6c6a356a593b9dd7bb586cc7c4997be234294f36a49b",
-        "semantic_sha256": "a5505b2f1ef50668c215ed507935f0fd0d6ca2dd8c163fe8972c755f2e0bc4fd",
+        "fingerprint": "00adc7e4db1206d398503887b4118605c1de7710e13c1affdf90f846781ea7f5",
+        "bytes_sha256": "1bf598d9d148102d52920d82da7a3ad14656698f6b6a9f95b6f1ef0df776589c",
+        "semantic_sha256": "c460dd9cc7555891c10d1cf12cd4e6d183297163bf5fc327dfa713423f5b0a95",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -37,9 +37,9 @@
       "empty": false,
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "e5edeb15f7f01050a4d3da5554e139eca6a1770b65b9432f8de485cc6ec667c6",
-        "bytes_sha256": "1eb788ebb5d8cb6c96d49c2084d8ef5a2e78f1e676376bfd9f8cf2c57a1a3407",
-        "semantic_sha256": "3ee6a7f49a78d141df560534d74cfc776d2651058160e093c54cfe3348a22664",
+        "fingerprint": "df023884d1c7c45f72790ebe1c1db5163542014c68f174e1a75529dde6e28567",
+        "bytes_sha256": "342ee0160a21e2c61d37db385d47525652891271b721ca1cdd5b5128941ecbbb",
+        "semantic_sha256": "feeef81f77f1120f272c1fdf16e3c1cfab5764e941f945c4ada1ef806a4a8f87",
         "normalized_header_lines": 4,
         "shared": true
       }

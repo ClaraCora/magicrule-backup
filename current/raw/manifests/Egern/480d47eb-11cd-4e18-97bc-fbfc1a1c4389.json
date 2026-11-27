@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T12:34:08.411990+00:00",
+  "generated_at": "2026-11-27T01:54:29.311962+00:00",
   "client": "Egern",
   "rule": "Microsoft",
-  "rule_updated_at": "2026-11-17T07:20:06.318831+00:00",
+  "rule_updated_at": "2026-11-27T09:54:29+08:00",
+  "source_rule_updated_at": "2026-11-17T07:20:06.318831+00:00",
   "type_counts": {
     "domain_wildcard_set": 1,
     "domain_set": 124,
@@ -21,10 +22,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:29+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "37b1162417a0d13afa2e6dc8071562c92196967167949627c75fd02aba83e590",
-        "bytes_sha256": "cea6e93a1a5a0e0262e7d3051c2d2f7ab1ab8893dd702a235c33c0ca5ab4ccac",
+        "bytes_sha256": "8850ff9905146dcac057df7cd92b6e18bf94b75ff375ed6bfe7f4a62658e1bf0",
         "semantic_sha256": "4a60676518e0afc9f95886ae30604970b626271210bb87feab5df91349375460",
         "normalized_header_lines": 4,
         "shared": true

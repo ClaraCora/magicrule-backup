@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-20T15:47:11.344296+00:00",
+  "generated_at": "2026-11-27T02:42:40.957405+00:00",
   "client": "Surge",
   "rule": "ChinaIPs",
-  "rule_updated_at": "2026-11-20T15:46:55.882780+00:00",
+  "rule_updated_at": "2026-11-27T10:42:08+08:00",
+  "source_rule_updated_at": "2026-11-27T01:43:44.276472+00:00",
   "type_counts": {
-    "IP-CIDR6": 5428,
-    "IP-CIDR": 12500,
+    "IP-CIDR6": 5433,
+    "IP-CIDR": 12513,
     "IP-ASN": 5076
   },
-  "total_line_count": 23004,
+  "total_line_count": 23022,
   "artifacts": [
     {
       "key": "rules",
@@ -19,11 +20,12 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T10:42:08+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "565a706fd922d5a3195bfb56290858d0b81113251ca1ad51f4d1973ad9c52900",
-        "bytes_sha256": "18285182490a05f820c42b8e407e75592ce7bd1b6870f60a5ac2eca0d5c81075",
-        "semantic_sha256": "ce24b3984041c64ba7f7d994203bc103cef231a1212d76468ae9072db032e176",
+        "fingerprint": "483dc961bec381f770d48660fe7a5f61b76ed69420de11e897cee5ee70337841",
+        "bytes_sha256": "1b500719cdcf950f287ad243514ba2ab57a5f6e31f30a3c931ca53d20ad25c26",
+        "semantic_sha256": "deb0d079de47cd3d565a8d8cfd5ef014b68fa9127fe60011b598f0c4d3d68f31",
         "normalized_header_lines": 4,
         "shared": true
       }

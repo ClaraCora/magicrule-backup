@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:54.544493+00:00",
+  "generated_at": "2026-11-27T01:25:34.756755+00:00",
   "client": "Surge",
   "rule": "OTPBank",
-  "rule_updated_at": "2026-07-26T10:39:51.187517+00:00",
+  "rule_updated_at": "2026-11-27T09:25:34+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:51.187517+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 12
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "44c9656078a67df430f7ec0b13ecca658b2c50aa60b5b826a793e88956f100a9",
-        "bytes_sha256": "f1df0eca41450a73152738fac9982711ed5b885359f09821ab2438df2745fd54",
+        "bytes_sha256": "5dd898bab43bfa6fc6af92ff047b237495ead8a6c420a21ae311a6bf7c5c4bd4",
         "semantic_sha256": "17ded14c413449b89f8b78ac48e6b0c0c384a1e3c9669cdbf17fa28f36a8f44d",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d0f2b5f8cd7bf2253723bf95eed69d4fa945a59e85df5e0d7a1e8f27c8eb1a1e",
-        "bytes_sha256": "135d385b2975d0364b051b72f693793e5e26b6e9bdda807c11f5338c313695a2",
+        "bytes_sha256": "a8358e0e846321ecb34212e38929ce36defe5ff5a0dfe31440e5b8368ecf2abc",
         "semantic_sha256": "e13832712b5ee444c0f9513e8525318e5d0e635fa550c210ac0d0103b8f35e7e",
         "normalized_header_lines": 4,
         "shared": true

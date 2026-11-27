@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:08.963308+00:00",
+  "generated_at": "2026-11-27T01:33:39.057431+00:00",
   "client": "Mihomo",
   "rule": "SpaceMail",
-  "rule_updated_at": "2026-07-26T10:43:33.901446+00:00",
+  "rule_updated_at": "2026-11-27T09:33:39+08:00",
+  "source_rule_updated_at": "2026-07-26T10:43:33.901446+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 1
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "31ccd955b830853c40d790684fcb3e2c19ee5963ded43918104557a7a52108cc",
-        "bytes_sha256": "abf62c545e7d350edc068901921c541a56ae9be373336fc8665a874013b83c1f",
+        "bytes_sha256": "73bd51375bc59668c997635eaf1de455811f5b7ebb38017a135cb3718be4bd59",
         "semantic_sha256": "7b2c336e9d5dcb87b38f9ceede5cd31b42417c4819e7e46cf72346083e35c9a0",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6285e99abffe392ca0384118786f0965113bfd5c4039442d7a16b7c19d1e44be",
-        "bytes_sha256": "7f57de6588f97b9b5615e4f18c64de7b1af909c5247b12732c327fc893dfe6ed",
+        "bytes_sha256": "36752301e76213126570b0ccdfeb76e71028a30b6009d53faaa7fc9f5445b038",
         "semantic_sha256": "ed40aef3bf37c2b78634781764fe16872b276776b4d02b9c5eac66c211d508ba",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "ab8f5a9b907abd0bbae43273e05fcd6ab59cc05cc68fdeb31901a44029082010",

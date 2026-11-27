@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:08.650118+00:00",
+  "generated_at": "2026-11-27T01:26:30.127603+00:00",
   "client": "Egern",
   "rule": "LongBridge",
-  "rule_updated_at": "2026-07-26T10:37:11.416830+00:00",
+  "rule_updated_at": "2026-11-27T09:26:30+08:00",
+  "source_rule_updated_at": "2026-07-26T10:37:11.416830+00:00",
   "type_counts": {
     "domain_suffix_set": 12
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:30+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b26662ed6631893b1affa0304c143f9f534ae3b8e16b3ead908fc5a182f29293",
-        "bytes_sha256": "463c1076927c52d9bf1114337556e4ed2c7b8e7d23f5df8872c956f84b3dff96",
+        "bytes_sha256": "f7b34dfddf58d87a8bd092f3c5a85d65b8d4fbbfaf057f3469066f0b1558eb3c",
         "semantic_sha256": "597e8c2c2aafa81d89ef5cab47c2283bc39313a145116deb1ed8905aa5c7e25b",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:04.058835+00:00",
+  "generated_at": "2026-11-27T01:54:57.631096+00:00",
   "client": "Egern",
   "rule": "PBS",
-  "rule_updated_at": "2026-07-26T06:22:20.308673+00:00",
+  "rule_updated_at": "2026-11-27T09:54:57+08:00",
+  "source_rule_updated_at": "2026-07-26T06:22:20.308673+00:00",
   "type_counts": {
     "domain_suffix_set": 1,
     "user_agent_set": 1
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:57+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e744a1478044eb1b1ad699188e6fd0eb3b53c01cb5fdc6723e518f8651ffc0e1",
-        "bytes_sha256": "0cbb55ff4eac91b08e2c058de8869ac081f0b3991c0ca9c69ee24c065d49f104",
+        "bytes_sha256": "48ca449ab052eb4a2a7a079eb00eaf78d70bbfd81fba740957485dc6a1c0a2db",
         "semantic_sha256": "3c09d64d2a7804a20ca9c2482679b7d8ae838797d33094e418f72353146d4c3e",
         "normalized_header_lines": 4,
         "shared": true

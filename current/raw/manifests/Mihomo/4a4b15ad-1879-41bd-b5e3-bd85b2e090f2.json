@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-11-17T07:24:33.682020+00:00",
+  "generated_at": "2026-11-27T01:27:59.206494+00:00",
   "client": "Mihomo",
   "rule": "RB",
-  "rule_updated_at": "2026-07-26T10:42:10.632117+00:00",
+  "rule_updated_at": "2026-11-27T09:27:59+08:00",
+  "source_rule_updated_at": "2026-07-26T10:42:10.632117+00:00",
   "type_counts": {
-    "DOMAIN": 1,
-    "DOMAIN-SUFFIX": 456
+    "DOMAIN-SUFFIX": 456,
+    "DOMAIN": 1
   },
   "total_line_count": 457,
   "artifacts": [
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:59+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "abb3f277bbe3a574b901865200c1e4abff7c569dd99c07cb521a50c0fa0fc0e8",
-        "bytes_sha256": "280ecd73a13bde98797553a9c92ce6a14059d342710ac6f0619415e25f3169e7",
+        "bytes_sha256": "520801dba0cf82b10de1cb1172106c57095013babf6da0a9b5781ff69d3b276f",
         "semantic_sha256": "ade983095bebb36f8993fe2cf43ae468b7f63e2f11abaec42b18be5a7edb3a49",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:59+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ab2409b779ae44158e3a62533fe21d966c7ca4f7d053413771cabd49e0e87931",
-        "bytes_sha256": "3b6a86e54446f0ab8a48e64406f9d52fd4b44f48a686040a4fcf4f499242ea02",
+        "bytes_sha256": "c5eaf811842ee09fd313a8b0cb2c307f3bc3425c38f2f6f5393db7b1a1785a01",
         "semantic_sha256": "7745fdd2d33c80bed50306257416c9e1ccef4df0400cd09a80bc686c4726f493",
         "normalized_header_lines": 4,
         "shared": true
@@ -54,6 +57,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "4ee3b1acc6a7755b0ba06eb00b5340b7b5c2137c4a07888487181430d2c3aa19",

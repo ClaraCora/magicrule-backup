@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:36:55.590497+00:00",
+  "generated_at": "2026-11-27T01:54:46.936340+00:00",
   "client": "Egern",
   "rule": "PasswordManager",
-  "rule_updated_at": "2026-10-29T03:05:25.460288+00:00",
+  "rule_updated_at": "2026-11-27T09:54:46+08:00",
+  "source_rule_updated_at": "2026-10-29T03:05:25.460288+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 31
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:46+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0fdbda050996c92430050c8934aa285c99ed8490651f06f43a0a32bf6b1fe55b",
-        "bytes_sha256": "8c1642ed7ee1443216b551ada8d18dc26071ecf08fa9547b9ad990d3cb349f4f",
+        "bytes_sha256": "26c7772e9e4a619aa511fb6dccf7a3ff2554982a2b9424ddc82458b0134400b4",
         "semantic_sha256": "2c5203b3cbfbb266a17216ee2a7488e93f02cbe626b5acc19fdf04eff28a16b1",
         "normalized_header_lines": 4,
         "shared": true

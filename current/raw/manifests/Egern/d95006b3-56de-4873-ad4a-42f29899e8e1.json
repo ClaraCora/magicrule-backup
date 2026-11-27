@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:25.197204+00:00",
+  "generated_at": "2026-11-27T01:55:07.651122+00:00",
   "client": "Egern",
   "rule": "NeteaseCloud",
-  "rule_updated_at": "2026-07-26T07:04:50.179697+00:00",
+  "rule_updated_at": "2026-11-27T09:55:07+08:00",
+  "source_rule_updated_at": "2026-07-26T07:04:50.179697+00:00",
   "type_counts": {
     "ip_cidr_set": 106
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5709662462a9ab045569e649734539f97f475837638c00f43ddb7d3eedc0c9f2",
-        "bytes_sha256": "bb1ced7840d6db1e7a3fcf12bdd3eacd6b2ae72d51c7644c6e3ea6d9b81aea10",
+        "bytes_sha256": "698f3e983a38b9256a973376913540811439c76a0a514f6d38fb489d8d769c5e",
         "semantic_sha256": "0e240d91c42aeda0020e438476a86559ceadd4a686bea33bb598470aa63319b4",
         "normalized_header_lines": 4,
         "shared": true

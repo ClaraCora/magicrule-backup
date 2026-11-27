@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-11-17T07:36:24.578887+00:00",
+  "generated_at": "2026-11-27T01:54:07.328226+00:00",
   "client": "Egern",
   "rule": "Opera",
-  "rule_updated_at": "2026-07-26T06:52:46.801138+00:00",
+  "rule_updated_at": "2026-11-27T09:54:07+08:00",
+  "source_rule_updated_at": "2026-07-26T06:52:46.801138+00:00",
   "type_counts": {
-    "domain_suffix_set": 14,
     "ip_cidr6_set": 5,
+    "domain_suffix_set": 14,
     "ip_cidr_set": 15
   },
   "total_line_count": 34,
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6c56eec65c036a2cdaeb9b3665d9ab45f929176aebbb0d60dba1587b2678dcf5",
-        "bytes_sha256": "76c80f1b422a0981c23ee2be8a7c794439f9f8f52299d6fe7ab77e57cf6fe27b",
+        "bytes_sha256": "3763bb6062cf66231070f34be3224ae2f08ac82a8bc5192ce1baf3b7d6edf772",
         "semantic_sha256": "e9c20a7f12af68e3d3763c19ba8edf030954106435097bca83055a70c5198f84",
         "normalized_header_lines": 4,
         "shared": true

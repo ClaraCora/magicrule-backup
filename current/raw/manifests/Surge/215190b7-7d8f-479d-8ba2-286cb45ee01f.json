@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:59.430689+00:00",
+  "generated_at": "2026-11-27T01:25:54.407141+00:00",
   "client": "Surge",
   "rule": "GamerSky",
-  "rule_updated_at": "2026-07-26T08:36:57.159343+00:00",
+  "rule_updated_at": "2026-11-27T09:25:54+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:57.159343+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 6
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7982ba124f966e712772173be028bbefa952b0b67517136b28120e9947025576",
-        "bytes_sha256": "54e35c365ec9ac6a475372722eccb075ca80303a4540494b4872266540997420",
+        "bytes_sha256": "fb5754fd145f1c71075dbcac26a87ccc5cd5f79633a89497cffe88842eada888",
         "semantic_sha256": "1866f59cb3fe302b3d58faa27b0f969ddc3abc2bd1e54b2a4eb657033a4443da",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:54+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b2fbdfe8da86060869c965762e103f6b1bb55a0e66d562e875aa64363400e291",
-        "bytes_sha256": "21bb6d2fba813bcbd309a1d6890ec0707ba69beb76a5fbf0c15a5ea9f607be0e",
+        "bytes_sha256": "e75961b6c6b9d92da413e5e36cf245f6cad17af71fce6239d0823a6d35ddf223",
         "semantic_sha256": "a7c1ab5d8c0409d17d8cf4948a5b09576409a6f7a1fdd7b7d3934b401d4524ae",
         "normalized_header_lines": 4,
         "shared": true

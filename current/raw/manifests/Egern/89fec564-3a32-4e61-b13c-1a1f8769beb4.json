@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:07.882220+00:00",
+  "generated_at": "2026-11-27T01:54:47.130631+00:00",
   "client": "Egern",
   "rule": "Dell",
-  "rule_updated_at": "2026-07-26T06:49:39.279962+00:00",
+  "rule_updated_at": "2026-11-27T09:54:47+08:00",
+  "source_rule_updated_at": "2026-07-26T06:49:39.279962+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 313
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:47+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "920b065db0f429e496aa3162b90da2d75457e52e0d8fe2639c7611688c78a7ef",
-        "bytes_sha256": "5061e8dec579527d83a99a53626f6b5c264aaa4584deb1c25df768e0488811c6",
+        "bytes_sha256": "5507446d8e19466f1df9c1258cf5d16a902250dd5e63f58c37e83c932568b8bd",
         "semantic_sha256": "240e90afa5c104674a68af2754729f67f72ac41ae5e68ec21a9c89bfc9bf8506",
         "normalized_header_lines": 4,
         "shared": true

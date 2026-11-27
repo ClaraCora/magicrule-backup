@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-18T16:27:54.997301+00:00",
+  "generated_at": "2026-11-27T01:54:14.848699+00:00",
   "client": "Egern",
   "rule": "ChinaGame",
-  "rule_updated_at": "2026-11-18T16:27:49.211117+00:00",
+  "rule_updated_at": "2026-11-27T09:54:14+08:00",
+  "source_rule_updated_at": "2026-11-26T03:47:42.393261+00:00",
   "type_counts": {
-    "domain_regex_set": 1,
     "domain_set": 2,
-    "domain_suffix_set": 292
+    "domain_suffix_set": 296,
+    "domain_regex_set": 1
   },
-  "total_line_count": 295,
+  "total_line_count": 299,
   "artifacts": [
     {
       "key": "rules",
@@ -19,11 +20,12 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:14+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "9695915761b593f6834d7b91549afbaf939b67b0f23662291ab3d29e38b9d277",
-        "bytes_sha256": "ddd1db5b5b7f30309989f07bf4c765bc349cca679adb4cfa8bf34248e0dbc034",
-        "semantic_sha256": "bbd5ed7fa361e682c9fb9225f9ee724d491fde86e5416d04f13068bf9da9e8d4",
+        "fingerprint": "28a88cdffdac0a649305cd39d6d4cec44c4a906b2e289dc93289efb4d24b591c",
+        "bytes_sha256": "627319735c046f025569a043722cf1515b61297a7a898d2c7dc703191963f77f",
+        "semantic_sha256": "59b1e4d4f1187f5a26cd1184c02d93b0c326f9b02fa0a39c9b3fef126b38abc9",
         "normalized_header_lines": 4,
         "shared": true
       }

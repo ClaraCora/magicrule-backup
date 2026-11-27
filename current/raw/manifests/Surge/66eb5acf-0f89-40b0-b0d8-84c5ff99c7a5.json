@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:57.180205+00:00",
+  "generated_at": "2026-11-27T01:29:24.632871+00:00",
   "client": "Surge",
   "rule": "PUBG",
-  "rule_updated_at": "2026-07-26T08:36:58.259953+00:00",
+  "rule_updated_at": "2026-11-27T09:29:24+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:58.259953+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 3
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:24+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b7fd1050336b725a58ceb70f3713656f2285323bad134c74b6f737bf01eb6f17",
-        "bytes_sha256": "c8c79adea12fb1a354c357aa875a61e75e3e924a8d4c002764aa3cabf270acc7",
+        "bytes_sha256": "0b1442f4adb6e9129af912f1ca904f302188a49478f3e688324f6fdeb906ce9e",
         "semantic_sha256": "496db9b2b0ba320010c4a97deae6b2e1f8e558af62bfaefa9a9152632f46a89a",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:24+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8244a66c337026a24fc67eef5ffa4d3a7c872569dfb5e7ccd801df00cc57107f",
-        "bytes_sha256": "3dd3ff4617dbb500f74fb79878d710266abace76dde5de52e0bebd6a66f55da8",
+        "bytes_sha256": "3c5caa3d96bcd92d9c6f5dc7a4d0b7ea2e910e6fbb7466a21598aaed9789739f",
         "semantic_sha256": "1e316968a60a3bf361048a3cf09e0bcf6acedc1209cc9b3587fc708a5efa69d9",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:52.869166+00:00",
+  "generated_at": "2026-11-27T01:32:47.610182+00:00",
   "client": "Mihomo",
   "rule": "TheGuardian",
-  "rule_updated_at": "2026-07-26T10:45:50.502028+00:00",
+  "rule_updated_at": "2026-11-27T09:32:47+08:00",
+  "source_rule_updated_at": "2026-07-26T10:45:50.502028+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 9
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:47+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "66d387b25ba206c946bec7c00dd0db669bcf5cd64da6c4623e5c2424819833f2",
-        "bytes_sha256": "ee6c0a9e12e27a638c9463357845432cc9fa4d21d4712aab8c3cc7190e7bf5bf",
+        "bytes_sha256": "ec358d6da10918c78ebfba51756d41299ba5073810c880090d814de4da34351f",
         "semantic_sha256": "590d692089fa4cdf003c466ad8fc9ea11426f2a21bea5ea08b36ed25bea69ba3",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:47+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c7f8bbcca99497e9e3ff82ee1990a74ce8ff981072bf9191c6d7e590ffaef18c",
-        "bytes_sha256": "50f4d4ce589d8484d0f6172e284f2d5e8e0382cc922d7325a21e0dc0a35941c1",
+        "bytes_sha256": "76c3ab74fe91fa46a6b1474a0d1879271eea12e5bdc92333d95a90ef8939d114",
         "semantic_sha256": "3621e0ecc43303b1bc124920050f1056d343098c2271c4a44a909b7762764ba4",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "66899ffb582c31c4cc6f40a79fa4e5b84872bfaa4c50fe73b77ed1f13734eca7",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:17.189634+00:00",
+  "generated_at": "2026-11-27T01:55:15.518798+00:00",
   "client": "Egern",
   "rule": "Azure",
-  "rule_updated_at": "2026-10-29T02:37:29.141344+00:00",
+  "rule_updated_at": "2026-11-27T09:55:15+08:00",
+  "source_rule_updated_at": "2026-10-29T02:37:29.141344+00:00",
   "type_counts": {
     "domain_set": 4,
     "domain_suffix_set": 150
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:15+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3c7311c137c05f63180d3e07089880ec85a78ca916c46c9ddb8a723e7f8c6f00",
-        "bytes_sha256": "a7a95060310007d3645e4222eab9ddf7a63274fa464f3df52821b548ad6109ab",
+        "bytes_sha256": "7274e2c2b519f0bd6cbfdf5a620f7d6d2d16b083a82708a1bb1a3ba08c1fcfad",
         "semantic_sha256": "2dd6ad42884cf2cf2f7a18f22dcc743ead42294ba9d346452de41e2d7c56e139",
         "normalized_header_lines": 4,
         "shared": true

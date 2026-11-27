@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-17T10:43:48.629351+00:00",
+  "generated_at": "2026-11-27T01:54:58.962852+00:00",
   "client": "Egern",
   "rule": "Facebook",
-  "rule_updated_at": "2026-10-09T15:59:08.583379+00:00",
+  "rule_updated_at": "2026-11-27T09:54:58+08:00",
+  "source_rule_updated_at": "2026-10-09T15:59:08.583379+00:00",
   "type_counts": {
+    "asn_set": 1,
+    "domain_keyword_set": 2,
     "domain_set": 1,
     "domain_suffix_set": 552,
-    "domain_keyword_set": 2,
-    "asn_set": 1,
     "ip_cidr_set": 36
   },
   "total_line_count": 592,
@@ -21,10 +22,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:58+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8af893fe5240aac04f48d4060a5ed420b3f393c741c9ec39e7158bdfeef270e0",
-        "bytes_sha256": "a66e7183f9b03217fa7b7f350ad8a1fc4bd8a107c6cb42275e77d0053b20c835",
+        "bytes_sha256": "7a86276d07dc587b0a42c60a404ebe7646159a7760e36d22e282288e348b19f8",
         "semantic_sha256": "d2b961fb24aea2db9bd4c9943f25781749f3e8d479e17b048339f422f43d74a1",
         "normalized_header_lines": 4,
         "shared": true

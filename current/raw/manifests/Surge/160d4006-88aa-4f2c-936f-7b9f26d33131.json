@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:50.434222+00:00",
+  "generated_at": "2026-11-27T01:25:18.457987+00:00",
   "client": "Surge",
   "rule": "TeamSpeak",
-  "rule_updated_at": "2026-07-26T08:35:50.488426+00:00",
+  "rule_updated_at": "2026-11-27T09:25:18+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:50.488426+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:18+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e16bc09c5ee150c4e825c981d72a28054df8103910d52cd4ee030c727c36a915",
-        "bytes_sha256": "00902bb65780e0b4da6d02bcfa58a98ab05db0e552effb50d5e1b036594b153b",
+        "bytes_sha256": "5df89f4331a89091d72d8636142afd23f4ac00b3874ac877fb734e1e3b098064",
         "semantic_sha256": "f5e9c19bb70b545f75756ecc38d60ecc0a892f993ddd7772b2a194b14014ee46",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:18+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d73893f5363195b4c93b6f5459cf9ec2834d57194ec999f23d9d9b871481155e",
-        "bytes_sha256": "854082054e6e142e35b593984b73f1f8addffe7d3bb7adc5641cc1c39eeb75fc",
+        "bytes_sha256": "399aead47dcb8e747d494c4e8fb2c356b80fd7446e4249cea440d21ede2d8b4d",
         "semantic_sha256": "c4e573dec59ebbe83d3a8fb876e298fd62e90c2106f47c8d2a1044ec165aac43",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T13:27:55.683409+00:00",
+  "generated_at": "2026-11-27T01:54:13.779740+00:00",
   "client": "Egern",
   "rule": "SteamCN",
-  "rule_updated_at": "2026-11-11T03:13:42.333817+00:00",
+  "rule_updated_at": "2026-11-27T09:54:13+08:00",
+  "source_rule_updated_at": "2026-11-11T03:13:42.333817+00:00",
   "type_counts": {
     "domain_set": 12,
     "domain_suffix_set": 5
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:13+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ac595870cbdc6e07d327384f28d108cfd3769353a68476f3d999c676e19c36a2",
-        "bytes_sha256": "33002ef5d91fd7fa4d458135e93879f4ee1d51cc3aa8f144d4a9d6383f15e6f5",
+        "bytes_sha256": "90c7a69767f5aaae1c09b9479466d49fe388a900485c182936827d3b2a54a9c0",
         "semantic_sha256": "a069cf97f9e2b594299d2465eca985010c44c0805c075cf1219eae00e8c35480",
         "normalized_header_lines": 4,
         "shared": true

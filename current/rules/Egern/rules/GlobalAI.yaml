@@ -1,7 +1,7 @@
 # NAME: GlobalAI
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-17 21:17:58
+# UPDATED: 2026-11-27 09:54:18
 no_resolve: true
 domain_set:
   - ai.developer.meta.com
@@ -51,10 +51,13 @@ domain_set:
   - http-intake.logs.us5.datadoghq.com
   - hunyuan.tencentcloudapi.com
   - idetoolkits-hostedfiles.amazonaws.com
+  - idetoolkits.amazonwebservices.com
   - in.appcenter.ms
   - llama.developer.meta.com
+  - location.microsoft.com
   - notebooklm-pa.googleapis.com
   - notebooklm.googleapis.com
+  - odc.officeapps.live.com
   - openai-api.arkoselabs.com
   - openai.qualtrics.com
   - openaiassets.blob.core.windows.net
@@ -67,6 +70,7 @@ domain_set:
   - q-developer-integration.us-east-1.api.aws
   - qianfan.baidubce.com
   - qodercn-jb.oss-cn-hangzhou.aliyuncs.com
+  - self.events.data.microsoft.com
   - servd-anthropic-website.b-cdn.net
   - static.cloudflareinsights.com
   - storage.googleapis.com
@@ -199,6 +203,7 @@ domain_suffix_set:
   - eigent.ai
   - elevenlabs.com
   - elevenlabs.io
+  - elevenlabsusercontent.com
   - envato-static.com
   - envato.com
   - envatousercontent.com
@@ -217,6 +222,7 @@ domain_suffix_set:
   - gemini.google
   - gemini.google.com
   - gemini.gstatic.com
+  - gemma.ai
   - generativeai.google
   - generativelanguage.googleapis.com
   - genspark.ai

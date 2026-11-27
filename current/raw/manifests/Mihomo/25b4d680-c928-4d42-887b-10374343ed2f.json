@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:04.159954+00:00",
+  "generated_at": "2026-11-27T01:26:12.393247+00:00",
   "client": "Mihomo",
   "rule": "FIBank",
-  "rule_updated_at": "2026-07-26T10:27:53.492212+00:00",
+  "rule_updated_at": "2026-11-27T09:26:12+08:00",
+  "source_rule_updated_at": "2026-07-26T10:27:53.492212+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:12+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "873330da1d67fbf4b23fd43cb5fb381aa42935059dce749c0374a37f2e05598f",
-        "bytes_sha256": "971a5332ddf5ed19e5ef83ca273ec5a15ff3f3fc0f89b8034d74d1946888a945",
+        "bytes_sha256": "9c1719e1ecb71ad4d0f24120fc81b64237ec32b6baaef02805fbf6cd1b919cbf",
         "semantic_sha256": "44e6f438cd79fac5031d6f524d5ce385c4c9c5eebca84479f769b3c49aefbe1b",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:12+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "24322d673a112afa43de2c66fba2169e4dbb42e2b82f4c39e1676693a90ba7f7",
-        "bytes_sha256": "7a43814ba45b4de70676208c03546a6f5f38070f433db7b749f26f0a013bab1b",
+        "bytes_sha256": "01df760c77f5350bc9cb967b7ec22c0f7542e4f9a4432a0592d75f1116accd13",
         "semantic_sha256": "148b72e32a07cf10ec3f583c9b63ec968194eec2cfdd0caec4ee1484840ff627",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "fc847a0cec8cb1b623fad15231960dd7c12d95a65a35d353d6a0fcfca64ec355",

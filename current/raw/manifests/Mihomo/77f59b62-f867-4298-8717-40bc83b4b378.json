@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:12.784230+00:00",
+  "generated_at": "2026-11-27T01:30:24.526818+00:00",
   "client": "Mihomo",
   "rule": "Aviasales",
-  "rule_updated_at": "2026-07-26T10:16:01.563709+00:00",
+  "rule_updated_at": "2026-11-27T09:30:24+08:00",
+  "source_rule_updated_at": "2026-07-26T10:16:01.563709+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:24+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b6d25efb1e3b270648645523720c6e7b1a80f1b6cf88858d1d1c8135b40ae86f",
-        "bytes_sha256": "77917eac1a027db0f8880bca044a1893978629f9609f12e4e7ae51b92fc034c9",
+        "bytes_sha256": "364246bcb81775a2217c12fe5c2c1c176dd36e052d80419d423348f7dbc92b8c",
         "semantic_sha256": "f140c8030c4afe3173699b8a9b0c823f97242c297906d2a74f2f0b59c99d90dc",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:30:24+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "447385282015db64d7b67bbc1e3e4db1bf6e755a3b97400efe126a44b457fad1",
-        "bytes_sha256": "0766532f4f7f65e88b0919d4bae9aea08c8871b9dc5d022ff1f56364bd440f76",
+        "bytes_sha256": "29ee998f2e8027ded459cb05d151ee924f656b380a4e8360a9968c62fb7e5d47",
         "semantic_sha256": "630d7590ce7f59a7a00086f88242a8a9c05e403f0a78f182de4e492ec1be8a20",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "116d9029737bd2fa4724c17b9b89e8534230a739635e61bf20449bf292757194",

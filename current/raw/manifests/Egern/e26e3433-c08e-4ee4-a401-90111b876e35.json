@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:37:14.363924+00:00",
+  "generated_at": "2026-11-27T01:55:11.833171+00:00",
   "client": "Egern",
   "rule": "Debian",
-  "rule_updated_at": "2026-07-26T08:31:46.077678+00:00",
+  "rule_updated_at": "2026-11-27T09:55:11+08:00",
+  "source_rule_updated_at": "2026-11-26T03:28:22.715133+00:00",
   "type_counts": {
-    "domain_suffix_set": 2
+    "domain_suffix_set": 3
   },
-  "total_line_count": 2,
+  "total_line_count": 3,
   "artifacts": [
     {
       "key": "rules",
@@ -17,11 +18,12 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:11+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "61e42d75627e2bace0b9be13f0fd49d79867211b9a7a0777ad7099191e894fb8",
-        "bytes_sha256": "e20c0dd592ac6dc0910dbf72eba4140c27b5a8bd85bd33253f573a259667a7a9",
-        "semantic_sha256": "9ef49b7a8b5e4193fe66bc3f48b1fe7fa146bc1feb2af78d0649f6e8dc24a6a6",
+        "fingerprint": "afead41e483c0a488b7c97e99adda1349b98c4cbb9d910a97bb639b9a647b33e",
+        "bytes_sha256": "c4f36ef61973c84ccb1b63d327116105d38fc8c9402a839788695aae5828e023",
+        "semantic_sha256": "33697ff5ebf65c3a3598783180376e27cb915c55949db305cff5dc851485d3e1",
         "normalized_header_lines": 4,
         "shared": true
       }

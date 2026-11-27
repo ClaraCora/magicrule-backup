@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:56.535927+00:00",
+  "generated_at": "2026-11-27T01:29:22.107694+00:00",
   "client": "Mihomo",
   "rule": "FontShop",
-  "rule_updated_at": "2026-07-26T10:28:05.676464+00:00",
+  "rule_updated_at": "2026-11-27T09:29:22+08:00",
+  "source_rule_updated_at": "2026-07-26T10:28:05.676464+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 3
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:22+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "588b475411456663c14193a2302407f91f09a9081402657beee6749db05b0615",
-        "bytes_sha256": "154d52443ce01e867cc9772068242f66d0a2e7e4a2dd2c83fbe341980da190f4",
+        "bytes_sha256": "c524dd30fbcc5ecebb2c599144bb9a7c4f684b83135ae02e662ebe9712aaa31b",
         "semantic_sha256": "306dfc8ed131510dda4c6b19de631bb1af53773ab5fd237f5d53fb66641b9d21",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:22+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e1f511770a85541bb8af013f0798720ab8a62ca1eb06abffac7dbb882e445526",
-        "bytes_sha256": "1229f0a97d502898b8558fe8188e81336f129786d13f33a51ba4576c1274fcaf",
+        "bytes_sha256": "8cf2bd9dab0228b496f03d54d70de6d2ec8ffded97d6dd72281eacc0823d3696",
         "semantic_sha256": "ce1cb209a03482b7084fdc2580c3d633a4edf66c9ed147b24e185672e009e795",
         "normalized_header_lines": 4,
         "shared": true
@@ -54,6 +57,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "9d2d5cd5506e0d8f3af52e06c403352aa883da2ad4ba666c0f31216c0194c0c2",

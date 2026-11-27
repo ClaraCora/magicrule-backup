@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:27.779785+00:00",
+  "generated_at": "2026-11-27T01:36:36.245437+00:00",
   "client": "Mihomo",
   "rule": "TokyoSports",
-  "rule_updated_at": "2026-07-26T10:46:28.318340+00:00",
+  "rule_updated_at": "2026-11-27T09:36:36+08:00",
+  "source_rule_updated_at": "2026-07-26T10:46:28.318340+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "58651b517aadcd1e41d77bfb839a7021ff3d59bf5cb8942063a356f39814b03e",
-        "bytes_sha256": "92ea8c17a6da9eca234cd0f4224abe89d64cfe8e3b4848a28e9440e0dde6e0ae",
+        "bytes_sha256": "af8f1ad2e4fbf9b0204456f8bec50da2dcae6fce5a83b13547d548a3e37539cc",
         "semantic_sha256": "3064c57eb98e1d496bec977bcacb5906cf99073a2f0f17f040081cb56c15caf3",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "534ed279901096465e595ac26449e4dc6d7f9ecb4eb7f8e87194f88b2a35f69a",
-        "bytes_sha256": "fee34435d1dbad8ac9675e470c291dfadf03559f1411761b8f269702e28e31ad",
+        "bytes_sha256": "705ff1b42b1876289586b9ca926b390a836b06561c039abbf1bacc8e740143ae",
         "semantic_sha256": "4bf842100a16588fa7e693e931e3e9f8bb99d28790430fe9a7d846ee07bc089c",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "49c9399e2415549fb6382822bf520747672f91c65696048afc862f9929eeacd8",

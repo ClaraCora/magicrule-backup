@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:49.049933+00:00",
+  "generated_at": "2026-11-27T01:32:34.377229+00:00",
   "client": "Egern",
   "rule": "DowJones",
-  "rule_updated_at": "2026-07-26T10:26:09.628770+00:00",
+  "rule_updated_at": "2026-11-27T09:32:34+08:00",
+  "source_rule_updated_at": "2026-07-26T10:26:09.628770+00:00",
   "type_counts": {
     "domain_suffix_set": 4
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7f24c20995268bf8e306af132baa81719cec5da9d74412ceedfcccdc6c1b5e62",
-        "bytes_sha256": "59d95d3f417f158e2341aed021241db90320cff3fc2c56d6e2b0b457efb21997",
+        "bytes_sha256": "26e3d8d93c924f12d85b952d94d8dc4eb2aa1ac4472cde0a6410e2603b58c38a",
         "semantic_sha256": "caa45bdea3b7f92fcdb03b6e0638754fe6f91b1e497dc8b06511328b7b59a0ef",
         "normalized_header_lines": 4,
         "shared": true

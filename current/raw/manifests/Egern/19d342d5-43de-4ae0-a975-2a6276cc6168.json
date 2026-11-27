@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:23.437363+00:00",
+  "generated_at": "2026-11-27T01:54:13.593580+00:00",
   "client": "Egern",
   "rule": "CIBN",
-  "rule_updated_at": "2026-07-26T06:23:29.448076+00:00",
+  "rule_updated_at": "2026-11-27T09:54:13+08:00",
+  "source_rule_updated_at": "2026-07-26T06:23:29.448076+00:00",
   "type_counts": {
     "domain_suffix_set": 71
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:13+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cd0ef27ecb4225126cef31a2bb929650e40d2d7430fe86e6a784d9daa68c783a",
-        "bytes_sha256": "30e626f9a1580e5b3816a4c80a1210cd438288cc9b44c5fab8bb36e8c90f1e30",
+        "bytes_sha256": "cb7b24572c4c83f20154cf89a4ac6d93c6616e0cab829bae159af80e81db701a",
         "semantic_sha256": "dadf6aee0c0c0b30dea5761619e1d3bc193d7a018ce99c39153b57c3e040766c",
         "normalized_header_lines": 4,
         "shared": true

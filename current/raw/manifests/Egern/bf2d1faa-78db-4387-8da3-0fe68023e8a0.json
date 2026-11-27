@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:06.968090+00:00",
+  "generated_at": "2026-11-27T01:55:00.005246+00:00",
   "client": "Egern",
   "rule": "Yahoo",
-  "rule_updated_at": "2026-08-27T01:36:24.209637+00:00",
+  "rule_updated_at": "2026-11-27T09:54:59+08:00",
+  "source_rule_updated_at": "2026-08-27T01:36:24.209637+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 177
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:59+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9332f257c1afbd8cf3445c5e9ed1ebfb7e0bdb62427e6d9c1966b0862673c192",
-        "bytes_sha256": "7a9ebdae43976895185b56ed4c7179a57e9521277075d59cbfbc4b24fd92f5d0",
+        "bytes_sha256": "3bd5860d7306fe0ea016fd271fd4b47d1c9c426c1976f41ec0750a501a509016",
         "semantic_sha256": "f449e70eaeda7635d73426c2a0cc289f7297ffb0e38f83039f71a1c4fd9adb3b",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:21.034634+00:00",
+  "generated_at": "2026-11-27T01:27:16.380806+00:00",
   "client": "Surge",
   "rule": "PoloCloud",
-  "rule_updated_at": "2026-07-26T08:38:27.493182+00:00",
+  "rule_updated_at": "2026-11-27T09:27:16+08:00",
+  "source_rule_updated_at": "2026-07-26T08:38:27.493182+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:16+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "54cf94b8f959ce3439de03bd19f0e36b5a302bb19fd4ed867eb0399d1b1f5306",
-        "bytes_sha256": "782e2cb39f57c78e73be4207b40e8b2cd4896e55ae6580aa56d4d9016517e4a3",
+        "bytes_sha256": "2b07a0c7e9251c7afc40326ec5de83a3760ce94932c48553cb896ecefe5bda4d",
         "semantic_sha256": "04f1beb5c954f2fb1f26e91d31a92ddae9f3385125c48dcdbcd6b52f91d44c68",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:16+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cad21a864725c1491e7a3c2f508fb35163f0b6f44838b9b8ec185f7f0b39dcd4",
-        "bytes_sha256": "b558b56d59669cbc4864c710029732c0c76e82959f09fd7f88d43ef49100f85e",
+        "bytes_sha256": "2dcdc0f69bc68b10f346f54605d02dee280596af03a15d5def90b4c1276219d2",
         "semantic_sha256": "af042ce54f3ccb844829223e7979dd5a68b7250ee4d99be85ce703e553017782",
         "normalized_header_lines": 4,
         "shared": true

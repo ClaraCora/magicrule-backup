@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:49.159192+00:00",
+  "generated_at": "2026-11-27T01:37:15.408899+00:00",
   "client": "Surge",
   "rule": "Economist",
-  "rule_updated_at": "2026-07-26T10:26:54.262622+00:00",
+  "rule_updated_at": "2026-11-27T09:37:15+08:00",
+  "source_rule_updated_at": "2026-07-26T10:26:54.262622+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 4
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:15+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0a889ce2fc39e61f6c1462c599d275d10d08529cc881758490907f510971c513",
-        "bytes_sha256": "170e54063570f4ff8d7948db4457182d2a5f49b0188522534f0abd17d24751b6",
+        "bytes_sha256": "95631bc4da49d633f1c9e4fe0328a9282eab771bde2d58408bc4d0e942323608",
         "semantic_sha256": "875f1fe852b412b1f5c7c636e50a4497194003880a1d27cf85d3d770a39e9834",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:15+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a4381c31f361e1212507aee9b3bb8b8b7317dab86ac6ba454a3fecf381fef8e8",
-        "bytes_sha256": "625ac78303cce03cca5e825ded0159babb02a0a1123cbcbba76e00b8f868b17a",
+        "bytes_sha256": "44e0f7f29ffcf2ec1d916f5a4d03eb06272e65a099a0eb02c9d181bb436c661f",
         "semantic_sha256": "089b2da2c51ece67f76e6e99d933742cd3b019b91c218acc3272fe610ab613b0",
         "normalized_header_lines": 4,
         "shared": true

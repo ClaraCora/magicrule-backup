@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:09.079984+00:00",
+  "generated_at": "2026-11-27T01:54:49.328930+00:00",
   "client": "Egern",
   "rule": "AmazonCloud",
-  "rule_updated_at": "2026-07-26T07:15:08.887895+00:00",
+  "rule_updated_at": "2026-11-27T09:54:49+08:00",
+  "source_rule_updated_at": "2026-07-26T07:15:08.887895+00:00",
   "type_counts": {
     "ip_cidr6_set": 1265,
     "ip_cidr_set": 3892
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:49+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0a3c593067124515bb0fd010185c329e6cb4da9d0397bc202e7516fcd54c376a",
-        "bytes_sha256": "7a116de2688f346583e889967d84f8954694133065ee3f6a49abc8592f01db95",
+        "bytes_sha256": "cc66d05ec672114512ed58450291cf16427ac426964689cd5fd95f0d2ecfefe4",
         "semantic_sha256": "0b737c5747e62dda6317e76fa7382db812c4c52bd512e5fa21634107cf816553",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-17T10:40:17.747964+00:00",
+  "generated_at": "2026-11-27T01:55:19.715253+00:00",
   "client": "Egern",
   "rule": "ECommerce",
-  "rule_updated_at": "2026-10-29T02:37:31.701167+00:00",
+  "rule_updated_at": "2026-11-27T09:55:19+08:00",
+  "source_rule_updated_at": "2026-11-26T03:20:42.896681+00:00",
   "type_counts": {
     "domain_set": 39,
-    "domain_suffix_set": 1291
+    "domain_suffix_set": 1292
   },
-  "total_line_count": 1330,
+  "total_line_count": 1331,
   "artifacts": [
     {
       "key": "rules",
@@ -18,11 +19,12 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:19+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "5b0db12707210ba9f11faab0584054f08ca724a2b1e84bad37a53f21ba30a050",
-        "bytes_sha256": "d92221c11d6ec309af718da6a88fce698fbff4582be0ebd7c727496af9e6bf8e",
-        "semantic_sha256": "f39ccf9d5d8a8f154ce7cab68f6b1d351de191b078816d5fcb983fb97d96cb0f",
+        "fingerprint": "91c272d603cec2fcac20265e6ec3f93ee75dd2685e3d442f122fffc81a63fb28",
+        "bytes_sha256": "a16c61cd90cee1ae65e25f7031d5b4c21acc5782492feadbeca76818b9c3e205",
+        "semantic_sha256": "8247434b167dc61dfe183d1d023e7ac6b11f17a21b9d635af8665926c38dbb24",
         "normalized_header_lines": 4,
         "shared": true
       }

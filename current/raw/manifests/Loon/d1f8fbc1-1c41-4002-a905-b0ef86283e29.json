@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:43.064333+00:00",
+  "generated_at": "2026-11-27T01:35:20.166247+00:00",
   "client": "Loon",
   "rule": "Fedora",
-  "rule_updated_at": "2026-07-26T08:35:16.373949+00:00",
+  "rule_updated_at": "2026-11-27T09:35:21+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:16.373949+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 6
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:21+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f00ea129cc4c3c3e6fbfa48e41a7b75cd3b6c959babc8b0e362c739d871046f9",
-        "bytes_sha256": "964540e835e8ea6dbe576134fdef673f6f4ec989815de0c0a7fb656da2d1aae3",
+        "bytes_sha256": "00fa11bbff5a058dbbb4f94eb7f69270f86cae18faabb33655dc827d1fdf742f",
         "semantic_sha256": "b76b3e709edca16d5f315a72802cc9df68d253a82ba938c3d63be375b4266da2",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:21+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "beae84a3f6aaff756bfe3abaef7aad661a5fbd9d3d1a4121dda35aa1cea5b79f",
-        "bytes_sha256": "f811472430deb63b1785d5d6ba5ce837f6a40e9beeddbd7adfdbdb2e0c176e10",
+        "bytes_sha256": "e23be6119cad2b4f5bb3f76a8ac698c1de59dd48caafdf4f7a814c0ecc73de07",
         "semantic_sha256": "be924dbb22eab0575d4c43dfe65b0bb138f2ba1e5942c5a489f2f73632ce1ddf",
         "normalized_header_lines": 4,
         "shared": true

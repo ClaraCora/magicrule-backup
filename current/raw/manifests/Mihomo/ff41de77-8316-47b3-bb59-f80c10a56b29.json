@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:28:04.116858+00:00",
+  "generated_at": "2026-11-27T01:37:48.026309+00:00",
   "client": "Mihomo",
   "rule": "WSJ",
-  "rule_updated_at": "2026-07-26T10:49:28.470233+00:00",
+  "rule_updated_at": "2026-11-27T09:37:48+08:00",
+  "source_rule_updated_at": "2026-07-26T10:49:28.470233+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 13
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:48+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2c0bd52601711ab17aefc3a7fe07cbf6f535dfce129156e1e96b3be15e139798",
-        "bytes_sha256": "51362ee0f5f10764f0f2bae8a89dbceeab82542388064d39f3c9b6346a7ee756",
+        "bytes_sha256": "8965d811b75b656007a25ff3f52e9810ce27edfaa8a13e82f3eff5e37ef08778",
         "semantic_sha256": "e0f1806c49bac82d3fe89c2250d30643ec0335b5dc9db04e3ae2bf9e89e3bffb",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:48+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cda2077c4d1dfab936f98927094db0633c4868906109dee676c3bd86f67175a5",
-        "bytes_sha256": "785fb68b5bc8868916aed392dbdeb10a408786fb52a637d2063bec48661a6a12",
+        "bytes_sha256": "fd868ec85514bf1834bf1b766ad8629de17bb1285677f4d528c7ab6c8616fb77",
         "semantic_sha256": "984d52e66de15ac45805282b0393cf43013e6effc54f21f5ce6e28a92ab3da6f",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "249bc2a59fb173e94d1f615b842f709007553fdf6bbfc48bbc3ff22a0687f3d8",

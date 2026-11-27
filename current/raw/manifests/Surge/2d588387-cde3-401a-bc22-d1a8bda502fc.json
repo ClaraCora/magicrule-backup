@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:08.555352+00:00",
+  "generated_at": "2026-11-27T01:26:29.549828+00:00",
   "client": "Surge",
   "rule": "ApplePKI",
-  "rule_updated_at": "2026-07-26T10:14:01.299996+00:00",
+  "rule_updated_at": "2026-11-27T09:26:29+08:00",
+  "source_rule_updated_at": "2026-07-26T10:14:01.299996+00:00",
   "type_counts": {
     "DOMAIN": 8
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:29+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8e3f64bdaddcbf86a289a9e4855d43e09eba967f1d20915637b8546ebf78404e",
-        "bytes_sha256": "1c6cf9c21124b3bb71f6046c32b56b167dcb11c7c507964f06d0f24effb744d9",
+        "bytes_sha256": "614e3787a3062615a7140ab6c9c46639c94911416c4e71329f14dcd8f42996af",
         "semantic_sha256": "7f80b88cbef68b90ac850688c2d63a15bc51e83e150d806e2a3eb3bfa77e7f81",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:29+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "61df16cc6ee95447b607d5b5551375a26efcf4eb3ae163f000932be221087d23",
-        "bytes_sha256": "47e8b51f5dd1715003968e1626db0c54322f7fd956d79ad70dcfb61fb9d35e6a",
+        "bytes_sha256": "2524902015c414e680dd26713e2028de92e7ae6118c492f4cf5fa15c5f1bcdeb",
         "semantic_sha256": "d9360174b1ef536ded7fc43715f12c6a0eff975c6bf3307a53d83f8035f1a2bc",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:48.738979+00:00",
+  "generated_at": "2026-11-27T01:28:56.430849+00:00",
   "client": "Mihomo",
   "rule": "EduHK",
-  "rule_updated_at": "2026-10-29T03:17:52.366515+00:00",
+  "rule_updated_at": "2026-11-27T09:28:56+08:00",
+  "source_rule_updated_at": "2026-10-29T03:17:52.366515+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:56+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9e3c36945b9a5122d8a5122e1328ce225b6e37b957b7a706e262c8fff1d10f16",
-        "bytes_sha256": "1fc058c35519355eb157dd932f1d74a0b480dfb2f9609cfec5233cbddde01803",
+        "bytes_sha256": "c99e9752f04616c94e468e15b98b53d1542c8419ee21154173514a3eca43ac9a",
         "semantic_sha256": "47fd49dc5017a6ece955249eccb6c8b634ba7bf92834cc0c07666329a68d9cdb",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:56+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7fb6c5500192a6632e4e93ecd0847a837d9d39b2b985b392fefda7c78f7a784f",
-        "bytes_sha256": "33f3e96e400d2ba2cc5266daf3acd91a249648c0b39f1d9b48a239985880c57f",
+        "bytes_sha256": "53bc0b17e26cf40c865f5993c2293a025ddfa9d9921f5477c5e1f1bf4d8f09a1",
         "semantic_sha256": "15ca9759a29eba1d49964129c8bff252b00e08c73812f3ab515e45de03b4c5e5",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "f30ae68a25b1f8695704b9d407f471c274c67c4fba5680870b86df485d9ad2ec",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:18.616006+00:00",
+  "generated_at": "2026-11-27T01:27:07.502021+00:00",
   "client": "Loon",
   "rule": "BitSquare",
-  "rule_updated_at": "2026-07-26T10:18:38.194454+00:00",
+  "rule_updated_at": "2026-11-27T09:27:08+08:00",
+  "source_rule_updated_at": "2026-07-26T10:18:38.194454+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:08+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "42e3af52277143727067fd9e5284538757855d316472f035da0a9f3c83ff9926",
-        "bytes_sha256": "45bd3e79ba984c6085da926e544ccad3f07259b99dc03bb604756a36db06d62b",
+        "bytes_sha256": "b4c6f3329cd40edb36945b9b1d78cc28c76fb07fe510b25d36c36f0655795891",
         "semantic_sha256": "446b055d4d7d6854ca7fb9243e0646af2fcfc83a196c315ec53d242990733f9c",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:08+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d246e30616ef6930a76001e7b6d0caa5fbacf9c15fd7f2142abe0935f1e2f44e",
-        "bytes_sha256": "d34644a388d45f4ec5f20b1c1d7a03343b1468ee0b5b5d7318e37c4ebdf51e15",
+        "bytes_sha256": "7d0b086770e8bab46b04e6f176fe05911ce41e5c012cb42a8426234ac421cade",
         "semantic_sha256": "aabcd442d43fab82cfcc4853b7715e51b2e46b0531d72bc152834af1f4a237b2",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:57.603712+00:00",
+  "generated_at": "2026-11-27T01:37:34.002914+00:00",
   "client": "Mihomo",
   "rule": "CNET",
-  "rule_updated_at": "2026-07-26T10:23:49.832065+00:00",
+  "rule_updated_at": "2026-11-27T09:37:34+08:00",
+  "source_rule_updated_at": "2026-07-26T10:23:49.832065+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 5
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b22b9ca81a2776f61126af46bccf93882c00d16d2109bb8ad4ad9451b3396b46",
-        "bytes_sha256": "dccdb0113ccce759be05ac092a45eb38d36e8801156c428ba01e71af0f2839da",
+        "bytes_sha256": "5bc28eac583602c2bcad8df99d93947784d2b7d52d176b1c35e9bfd1cc7444ee",
         "semantic_sha256": "ae6be0d7dadbe9b3ab811c6f19a26166c6e78f4a599e7defc2fa1707db1b1c0e",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:37:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b75f99aa301e6533655537a855c4ee15fbee9832a0102fa0f19345134f378076",
-        "bytes_sha256": "114a58d50020322d1acf45e494317ae5e5f68a1f469fec46c81a6ffb19e9d6b1",
+        "bytes_sha256": "35c67a06d39c9b3b2b9702c6f996514e4b65cda0d000ae8885a900d626d32cd8",
         "semantic_sha256": "4e2930cf39c76a0d05756f16c6d5c97fa41a67d88215e8d3114ebfdc3ba32cb0",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "3d838871a4fd72e793a55c330411e5455cc7112bc96f0b8c71cf8b6c6bab35b3",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:24.193972+00:00",
+  "generated_at": "2026-11-27T01:34:36.689572+00:00",
   "client": "Egern",
   "rule": "GeeTest",
-  "rule_updated_at": "2026-07-26T10:28:27.942648+00:00",
+  "rule_updated_at": "2026-11-27T09:34:36+08:00",
+  "source_rule_updated_at": "2026-07-26T10:28:27.942648+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 1
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:34:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3df01e7535e56cc8ce8735fd7cbf97ab248d19b08871abcc5f38f5a88a443966",
-        "bytes_sha256": "1315e81c268f8c5211a7b5209bb4ce6b64732731164fe81e1ec4ac7404dadb3f",
+        "bytes_sha256": "c87ff65751aef89afd6f5465011def24e3c7ff6c7995ec365ac72a8f1a221fd6",
         "semantic_sha256": "88396f015263564cae7027e72f4298c793fba53b3d2695a4cac51ca4c893f82f",
         "normalized_header_lines": 4,
         "shared": true

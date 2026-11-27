@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:09.509252+00:00",
+  "generated_at": "2026-11-27T01:26:33.524253+00:00",
   "client": "Loon",
   "rule": "KyodoNews",
-  "rule_updated_at": "2026-07-26T10:36:12.024973+00:00",
+  "rule_updated_at": "2026-11-27T09:26:34+08:00",
+  "source_rule_updated_at": "2026-07-26T10:36:12.024973+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 9
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a18ea6687817c38100b9e2dcf11e520840da1deaf67f983fe16bba1acf9f925e",
-        "bytes_sha256": "04d22a7e06224f116f67bf79641fefb25587da7d20b0faec89be7e9b20a51daa",
+        "bytes_sha256": "987f36dbbbe260777947ae0ab9e736c491f79b46fe460df3fc29cec92e4fa1fb",
         "semantic_sha256": "5beb0bf0e810c071ebd2f67eae4dcfe7da0ed916f403772f042a3085c818211a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:34+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a4fb460248dc40dd11ab590f10e01f53659c5961bdbceb4fba179570b1022d16",
-        "bytes_sha256": "b47a589a518490f2f96eaa9ba18af4372273fc2a5403547535008d4f0df7a96a",
+        "bytes_sha256": "5d4f54aa334760329e7eb71b579475202b9e1f117ce171cb3331559f560920aa",
         "semantic_sha256": "b996efb244a6b37e18c3a0a690a587a54fbc8eb421f24d0581dcfba81fde02fd",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:51.185743+00:00",
+  "generated_at": "2026-11-27T01:32:41.278202+00:00",
   "client": "Mihomo",
   "rule": "CoolAPK",
-  "rule_updated_at": "2026-07-26T10:24:23.469789+00:00",
+  "rule_updated_at": "2026-11-27T09:32:41+08:00",
+  "source_rule_updated_at": "2026-07-26T10:24:23.469789+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 3
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:41+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "049c94a20e7b77f4dfb5324891b8f3cd69aa7d0a86a2ce94f4eff13137d5dea1",
-        "bytes_sha256": "12d705f039c3fa1873f3e035ff6670338d86faf9c984e1d72ed0c20fe6e44967",
+        "bytes_sha256": "67e42c657fe450ef6f4902a5a7f1b7023e2f42ff932a66dbc765d143ea7dcbf4",
         "semantic_sha256": "fe1f118409d70b478c6fe9166dfd4232860eae68ab50d503abaeea8daedf5c61",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:32:41+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4ede7cdd67d8f39431e9a6a05c79c42fa348e829543cd4eece2741fb31ee8918",
-        "bytes_sha256": "ad434615c5f5de82be5c3981fd738d3a920122da23fa5a0dfcfdd56f2f8b8b2e",
+        "bytes_sha256": "1be7af9e0615bf8f6ec41c89b81fe6c690bcde974629cb9cd949374d8126ae02",
         "semantic_sha256": "646977ca205db7fee819adb00d9c9d77bca55a309f1602c1735727c6b486710f",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "5252306e95f86f479d75cd4e43c4a3c5cc6e01a6082fc68c9dd5684a9514f328",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:12.038075+00:00",
+  "generated_at": "2026-11-27T01:54:24.740322+00:00",
   "client": "Egern",
   "rule": "NYPost",
-  "rule_updated_at": "2026-07-26T06:22:19.969983+00:00",
+  "rule_updated_at": "2026-11-27T09:54:24+08:00",
+  "source_rule_updated_at": "2026-07-26T06:22:19.969983+00:00",
   "type_counts": {
     "domain_suffix_set": 3
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:24+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a438af11bc04506fa71cdc4d93efab01513971d4067fa5075db0763fc9198956",
-        "bytes_sha256": "89c7256d42d6b7257e97425936368605f3f7dbed9eafd541b4d3fcf12c0bfca2",
+        "bytes_sha256": "ecc61d6e509ac44663427943e16e8893874814002a8b6b65f527dc317c1754a9",
         "semantic_sha256": "923c2125de36b0cfa9b16941429c9b0a1a66f6d56b87ce30d4f5d1ee1c6c0622",
         "normalized_header_lines": 4,
         "shared": true

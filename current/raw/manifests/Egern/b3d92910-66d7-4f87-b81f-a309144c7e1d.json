@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:06.997527+00:00",
+  "generated_at": "2026-11-27T01:33:32.523300+00:00",
   "client": "Egern",
   "rule": "IntSig",
-  "rule_updated_at": "2026-07-26T10:34:37.385552+00:00",
+  "rule_updated_at": "2026-11-27T09:33:32+08:00",
+  "source_rule_updated_at": "2026-07-26T10:34:37.385552+00:00",
   "type_counts": {
     "domain_suffix_set": 5
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:32+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d8cae47db28e77b1168b3431f944bdeef229e9b2f850a433c1c2c134a4ce434c",
-        "bytes_sha256": "42e5396406b2cdaab7a63f6664a9289393c8c3c04e941f7711f69f53f4cfa59b",
+        "bytes_sha256": "4712cdc532d970f3a5037de73088d913c2727e1a6b2ab9c559ff458b49e6d949",
         "semantic_sha256": "8a8fbcfef6c7e54f6074a8f44a1df411f0dc5c7bc66f04d789495fc652402821",
         "normalized_header_lines": 4,
         "shared": true

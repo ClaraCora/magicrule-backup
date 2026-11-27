@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:12.337112+00:00",
+  "generated_at": "2026-11-27T01:55:07.869386+00:00",
   "client": "Egern",
   "rule": "Redis",
-  "rule_updated_at": "2026-07-26T08:34:14.598429+00:00",
+  "rule_updated_at": "2026-11-27T09:55:07+08:00",
+  "source_rule_updated_at": "2026-07-26T08:34:14.598429+00:00",
   "type_counts": {
     "domain_suffix_set": 2
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7e38312a54dddc607a2e269c23ee27ca79dd1d6de4841e09a270089157adf936",
-        "bytes_sha256": "7907161db82d48348fb01de38efbf77cc587a98657156cb561b556284146e4c3",
+        "bytes_sha256": "90268ea7f8b87f0a52311604a7c567c6d9ec4ea3aca25ed0f03f07164f831654",
         "semantic_sha256": "b774e3148c17ac17c23f41ab7b12b7b5acb5243f35ee9813081d08f367fd4844",
         "normalized_header_lines": 4,
         "shared": true

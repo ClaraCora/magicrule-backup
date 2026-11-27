@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:31.409094+00:00",
+  "generated_at": "2026-11-27T01:36:44.521390+00:00",
   "client": "Surge",
   "rule": "Fandom",
-  "rule_updated_at": "2026-07-26T10:27:31.520072+00:00",
+  "rule_updated_at": "2026-11-27T09:36:44+08:00",
+  "source_rule_updated_at": "2026-07-26T10:27:31.520072+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 11
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:44+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f67389bbcd13b7568ead15b7269ed255eed3652c7771d89383ac808fbd57251b",
-        "bytes_sha256": "5856e5426133dc2329ef603f54b25ad0f1966a37c1e36d047969f1fae6b28d3d",
+        "bytes_sha256": "e69e5ca664578ee81fd9ab01f99f5b22be4b51f60288d41975a4618b7456073f",
         "semantic_sha256": "450d6c0955450c1cec091686d9a312c9f84118d11b1d3614070065565d1c20fc",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:44+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6ffe1cfdff6f009c7c74df5f956680c42b6cbcc091ef5eef7ca021fa07954e46",
-        "bytes_sha256": "b0457a5bdc94ebf9e6bc0e31fd12a86585aba3d21b1b8fc67617bf79592f1ffe",
+        "bytes_sha256": "a9653365798ca633e08bef9390c6898f6d7628d34622586c13f05c0ea6b7cf68",
         "semantic_sha256": "f4f7c123622b7c857babfc89f096fcebf80aa90e7488a3b477b5da2032e08b6a",
         "normalized_header_lines": 4,
         "shared": true

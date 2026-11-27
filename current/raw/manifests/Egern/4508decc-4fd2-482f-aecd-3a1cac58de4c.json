@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:36:54.593234+00:00",
+  "generated_at": "2026-11-27T01:54:28.216214+00:00",
   "client": "Egern",
   "rule": "BOC",
-  "rule_updated_at": "2026-07-26T06:47:37.265518+00:00",
+  "rule_updated_at": "2026-11-27T09:54:28+08:00",
+  "source_rule_updated_at": "2026-07-26T06:47:37.265518+00:00",
   "type_counts": {
     "domain_suffix_set": 22
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:28+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "41f170aefed05d5a6289035bc447749c4845d6e151bee0328af363db8cebd73c",
-        "bytes_sha256": "efa8360762fe0f2c6ed6ae8d94fc08a8956f87e64ab9c8b00f8333fabb27c914",
+        "bytes_sha256": "167d692fe5e8ed1eeb0ff21490c5129ca3f22cd89bb847f3ecace4e0308424d5",
         "semantic_sha256": "c9b2fc1abb94374e2db1846da85fe29d1346aa602c22026915a3e5bd4fad31c4",
         "normalized_header_lines": 4,
         "shared": true

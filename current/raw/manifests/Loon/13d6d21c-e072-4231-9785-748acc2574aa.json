@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:48.570127+00:00",
+  "generated_at": "2026-11-27T01:25:12.076032+00:00",
   "client": "Loon",
   "rule": "ZTOExpress",
-  "rule_updated_at": "2026-07-26T10:51:10.731930+00:00",
+  "rule_updated_at": "2026-11-27T09:25:13+08:00",
+  "source_rule_updated_at": "2026-07-26T10:51:10.731930+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 13
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:13+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e840ed1467833b5f078c991bda4a2155627332ddcd90f2815c9a5d87a1ad2e6c",
-        "bytes_sha256": "e8f7c8cf71463ab659229d6ceee73aa8309ecd9fff81a58b26971dc1eaebd019",
+        "bytes_sha256": "56546adb448e9c83793aca093ed1d2752e37d73bfb95d5dffd47bb079936351d",
         "semantic_sha256": "34b33638439066a67fc993912d591a6860ccd0b50aaf4b361ab796427f1c159d",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:13+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "52ffebfd8cd8bc84a232045252cd8586c211588d19a3f7030dee36969063c537",
-        "bytes_sha256": "e5f3f9898caad355fa5360f2167b2e3e5570c75477c71b631278655742cc38ee",
+        "bytes_sha256": "8a22f233cc6de789819925359b6fdf7335b0361d44ab57a9631ba9fb6ff01ae8",
         "semantic_sha256": "cf4431acead601e887a8e5eb8b2f28c00a1b10d1f7eb1bddf1e9386ef0edeebf",
         "normalized_header_lines": 4,
         "shared": true

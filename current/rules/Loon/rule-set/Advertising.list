@@ -1,11 +1,11 @@
 # NAME: Advertising
 # AUTHOR: MagicRule
 # REPO: https://magicrule.pages.dev
-# UPDATED: 2026-11-20 23:29:04
+# UPDATED: 2026-11-27 00:57:22
 # DOMAIN-KEYWORD: 208
 # USER-AGENT: 1
 # URL-REGEX: 11
-# IP-CIDR: 1025
+# IP-CIDR: 1018
 # IP-CIDR6: 6
 # IP-ASN: 15
 # DESC: 包含URL-REGEX规则，建议搭配MITM模块使用
@@ -230,7 +230,6 @@ URL-REGEX,^https?://app\.58\.com/api/log
 URL-REGEX,^https?://d\d\.sinaimg\.cn
 URL-REGEX,^https?://update\.pan\.baidu\.com/statistics\?
 URL-REGEX,^https?:\/\/cdn-1rtb\.caiyunapp\.com\/creative\/.*$
-IP-CIDR,0.0.0.1/32,no-resolve
 IP-CIDR,1.0.218.230/32,no-resolve
 IP-CIDR,1.3.0.10/32,no-resolve
 IP-CIDR,10.72.25.0/24,no-resolve
@@ -240,8 +239,6 @@ IP-CIDR,100.28.19.138/32,no-resolve
 IP-CIDR,101.124.19.122/32,no-resolve
 IP-CIDR,101.201.29.182/32,no-resolve
 IP-CIDR,101.226.10.8/32,no-resolve
-IP-CIDR,101.227.200.11/32,no-resolve
-IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,101.227.97.240/32,no-resolve
 IP-CIDR,101.251.211.235/32,no-resolve
 IP-CIDR,101.35.204.35/32,no-resolve
@@ -303,8 +300,6 @@ IP-CIDR,110.89.59.135/32,no-resolve
 IP-CIDR,110.89.8.126/32,no-resolve
 IP-CIDR,110.93.143.144/32,no-resolve
 IP-CIDR,111.11.208.2/32,no-resolve
-IP-CIDR,111.175.220.163/32,no-resolve
-IP-CIDR,111.175.220.164/32,no-resolve
 IP-CIDR,111.175.221.58/32,no-resolve
 IP-CIDR,111.206.22.0/24,no-resolve
 IP-CIDR,111.224.199.91/32,no-resolve
@@ -867,7 +862,6 @@ IP-CIDR,220.250.64.28/31,no-resolve
 IP-CIDR,220.250.64.30/32,no-resolve
 IP-CIDR,221.109.58.36/31,no-resolve
 IP-CIDR,221.179.131.72/32,no-resolve
-IP-CIDR,221.179.140.145/32,no-resolve
 IP-CIDR,221.179.183.0/24,no-resolve
 IP-CIDR,221.179.191.0/24,no-resolve
 IP-CIDR,221.179.46.190/32,no-resolve
@@ -889,7 +883,6 @@ IP-CIDR,221.6.4.148/32,no-resolve
 IP-CIDR,222.142.183.194/32,no-resolve
 IP-CIDR,222.186.61.91/32,no-resolve
 IP-CIDR,222.186.61.95/32,no-resolve
-IP-CIDR,222.186.61.96/31,no-resolve
 IP-CIDR,222.187.226.96/32,no-resolve
 IP-CIDR,222.221.5.204/32,no-resolve
 IP-CIDR,222.221.5.252/31,no-resolve

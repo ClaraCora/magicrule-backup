@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:52.656682+00:00",
+  "generated_at": "2026-11-27T01:25:26.596252+00:00",
   "client": "Loon",
   "rule": "KuCoin",
-  "rule_updated_at": "2026-07-26T10:35:51.750537+00:00",
+  "rule_updated_at": "2026-11-27T09:25:27+08:00",
+  "source_rule_updated_at": "2026-07-26T10:35:51.750537+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:27+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "3b54e0faa9db59b08224669e6b10424625240c8d1494f7327b599359c06176d9",
-        "bytes_sha256": "c9e0d88dc12a04e7c2a5d42b78d318f745b8e8e6fbd36539c652f5480d25c8f8",
+        "bytes_sha256": "847df861416bde53ef188a1d1915e69797929534067b36d7b1465420328e4f46",
         "semantic_sha256": "4c42fcbb2337a0e59a524617a1e0e696ec4825886c0a478f1a171e59b7ebb474",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:27+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "db7b7e727de81bd63bda07d4b22ed65205007bc68d614db53b5c9887cbc08ce3",
-        "bytes_sha256": "3990db4ce687c2ef625c1985729e90718347abb65cbfd521f077551438a0f723",
+        "bytes_sha256": "b4a5e60257a33c45b399aa73d73d198f0eae9ae700fce0508ba8fa56525a4214",
         "semantic_sha256": "71e411e4c6e7a918ada0c927b4660046f3acc0ee6e7b42e8816039f2ee07e008",
         "normalized_header_lines": 4,
         "shared": true

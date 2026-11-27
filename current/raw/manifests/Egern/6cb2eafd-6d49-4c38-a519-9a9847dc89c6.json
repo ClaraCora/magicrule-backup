@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:36:47.921106+00:00",
+  "generated_at": "2026-11-27T01:54:38.336502+00:00",
   "client": "Egern",
   "rule": "Verizon",
-  "rule_updated_at": "2026-07-26T06:55:30.199862+00:00",
+  "rule_updated_at": "2026-11-27T09:54:38+08:00",
+  "source_rule_updated_at": "2026-07-26T06:55:30.199862+00:00",
   "type_counts": {
     "domain_suffix_set": 183
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:38+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d6f38f34c25b89dafbde1086d3d57217ed2cf3f2192189cf678a971d4a3023dd",
-        "bytes_sha256": "2c9b7a54fba60c34c85686d53fccc19a8aa8adce225dd324c5f93bace6f8e23e",
+        "bytes_sha256": "ef1d6df4f1542049aadbbe3d2698ba3d1494cb987ce45c7806865ed7c4311448",
         "semantic_sha256": "603e6b4862d6846a5cea33c9c63ead83554b124edce0d097bc835753bb145391",
         "normalized_header_lines": 4,
         "shared": true

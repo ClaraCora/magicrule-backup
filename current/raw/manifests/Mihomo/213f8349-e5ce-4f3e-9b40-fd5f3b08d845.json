@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:59.000596+00:00",
+  "generated_at": "2026-11-27T01:25:52.159520+00:00",
   "client": "Mihomo",
   "rule": "Elsevier",
-  "rule_updated_at": "2026-07-26T10:27:06.718330+00:00",
+  "rule_updated_at": "2026-11-27T09:25:52+08:00",
+  "source_rule_updated_at": "2026-07-26T10:27:06.718330+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 14
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:52+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "63d08aaa2e7e6385170f0716a537e2b23d1c889b2e4baf986d836e65a2d9ec87",
-        "bytes_sha256": "a09aa37e3b8c842ab08d87b9a286ee5243748166be4a38d35df59a916b363e1f",
+        "bytes_sha256": "fd3bdd031284ae01b7bffe3ea99a7c31cc7f837f545e741cf986574adb0e402d",
         "semantic_sha256": "45e2149c908c6fe8fbbebb61705892b80487fb33ed02d538cf79139955f37d50",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:52+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c240c3408d6541a31b06f340c2474c0cfb58c2d2c898f719bf1064ef89851181",
-        "bytes_sha256": "e8c40afc819ba750c8bc93e1bc146124f3192945df3285d771c967a98bd95646",
+        "bytes_sha256": "f5e047b1e0b2e26d23ccd43986b3b546f3c2debc861a12fe2d3703f103ef076b",
         "semantic_sha256": "598ad7c2dfdd82523434753b32807d16e09dfa727cc90943fffe915996feb2fc",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "6ab9daf832f285862b4a4846909f36d15cad040efc9597e391d073bedb7267a0",

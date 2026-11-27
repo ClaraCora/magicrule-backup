@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T13:37:47.759985+00:00",
+  "generated_at": "2026-11-27T01:54:24.071840+00:00",
   "client": "Egern",
   "rule": "UnionPay",
-  "rule_updated_at": "2026-07-26T06:28:38.901894+00:00",
+  "rule_updated_at": "2026-11-27T09:54:23+08:00",
+  "source_rule_updated_at": "2026-07-26T06:28:38.901894+00:00",
   "type_counts": {
     "domain_suffix_set": 53
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:23+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "dc79a8d3335e64fa2aff0edf0c5ee230c9aedd37a527cec1be1aef343b5738e6",
-        "bytes_sha256": "7520cc799b6bb7ba1d6476cf671a1de48cce20828b68505e9e2c59c37e22f4f2",
+        "bytes_sha256": "592d104f09836b23429225e16d2e0fc4401c3f75ea4295abb98562c26f26fbd8",
         "semantic_sha256": "f5bc9f8aaced00acc0e9b58dae1314b18fa9c039b8a8871ba84059bdd1fe6d52",
         "normalized_header_lines": 4,
         "shared": true

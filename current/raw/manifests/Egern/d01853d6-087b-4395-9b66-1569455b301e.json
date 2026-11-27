@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:10.757512+00:00",
+  "generated_at": "2026-11-27T01:55:05.402722+00:00",
   "client": "Egern",
   "rule": "RemoteControl",
-  "rule_updated_at": "2026-07-26T08:26:02.750103+00:00",
+  "rule_updated_at": "2026-11-27T09:55:05+08:00",
+  "source_rule_updated_at": "2026-07-26T08:26:02.750103+00:00",
   "type_counts": {
     "domain_set": 2,
     "domain_suffix_set": 6
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:05+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ad729adb25df7704442aac8e9a75413fe515771d7122e0a55d6a7fb3e8cdb24b",
-        "bytes_sha256": "6150694a84fd9d447c8d3a821097a3dffff68243c557244a5ae2a057c7e1382f",
+        "bytes_sha256": "cd042495a5724a84e47a7baf8158fc64ffac46dacdb209184769f1e58a63f9c1",
         "semantic_sha256": "3a45caa4e7757e236d54a84aa94cc41c7ffab019d9f4f790fc1e17d3abd6cd6f",
         "normalized_header_lines": 4,
         "shared": true

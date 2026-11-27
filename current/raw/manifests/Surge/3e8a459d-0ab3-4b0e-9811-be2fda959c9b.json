@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:25.670369+00:00",
+  "generated_at": "2026-11-27T01:27:31.494950+00:00",
   "client": "Surge",
   "rule": "WarGaming",
-  "rule_updated_at": "2026-10-29T02:37:35.355340+00:00",
+  "rule_updated_at": "2026-11-27T09:27:31+08:00",
+  "source_rule_updated_at": "2026-10-29T02:37:35.355340+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 12
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:31+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "dd504423f1bc494e9b9ff352a8dbcb0eb4fe821f33bc0b3edeab73d660bd596f",
-        "bytes_sha256": "dee35c9b678311f3e849fb798db07b573980285132790e620155dc71179f8e59",
+        "bytes_sha256": "9ebd71fc5cb0afc5ba395b65031cc57c1abf807a42b07a12f1e5745c8cc72624",
         "semantic_sha256": "61948444aed72b2fdbc914951b5b99fb75b10cc0056d4a6930990862b3b6bab1",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:31+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1570bc5765b8d11539df43634809565b77de9186e3b3632bd937ddc9595e50a5",
-        "bytes_sha256": "de3566b23954c51ec12db8f25024641da768768993463d129c85c55db5637117",
+        "bytes_sha256": "7e19d43055aa2035bf590a4a93ac9cb34e8245fc3a4332ffd438fb29c1c5605e",
         "semantic_sha256": "92f440ab05b8a4df8885f56fb6abe1e964ffa120f6e8730f25f4adef6a97365c",
         "normalized_header_lines": 4,
         "shared": true

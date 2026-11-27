@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T10:06:40.835246+00:00",
+  "generated_at": "2026-11-27T01:54:35.291325+00:00",
   "client": "Egern",
   "rule": "CBS",
-  "rule_updated_at": "2026-07-26T06:21:36.967627+00:00",
+  "rule_updated_at": "2026-11-27T09:54:35+08:00",
+  "source_rule_updated_at": "2026-07-26T06:21:36.967627+00:00",
   "type_counts": {
     "domain_set": 4,
     "domain_suffix_set": 34,
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:35+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6bea7838b6dfffdde3c11ce62b7214c226fcfe78de61952aad0d30d30af3b994",
-        "bytes_sha256": "041487288c831c7f7951823449644edbd570c2a24e1f338741a7f66f3366de13",
+        "bytes_sha256": "a8a5b2403c7a1392635bddbca0be725a68728363d1962fa2897a07ea8a90d075",
         "semantic_sha256": "8f133174381e322862c40a34d40cb21e81f67b0bc2b572dbde63d56a4a47e5f8",
         "normalized_header_lines": 4,
         "shared": true

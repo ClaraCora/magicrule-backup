@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-17T07:37:06.356233+00:00",
+  "generated_at": "2026-11-27T01:54:41.992867+00:00",
   "client": "Egern",
   "rule": "GoogleDeepMind",
-  "rule_updated_at": "2026-10-29T02:37:20.609064+00:00",
+  "rule_updated_at": "2026-11-27T09:54:41+08:00",
+  "source_rule_updated_at": "2026-11-26T03:12:32.672641+00:00",
   "type_counts": {
     "domain_set": 16,
-    "domain_suffix_set": 33
+    "domain_suffix_set": 34
   },
-  "total_line_count": 49,
+  "total_line_count": 50,
   "artifacts": [
     {
       "key": "rules",
@@ -18,11 +19,12 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:41+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "b6a851b08731dbd26a1c20b8aafc49a275705b82c8144c76aea8e99e8ed2fa61",
-        "bytes_sha256": "d73bb3bc3160fb6abeb125be4de355018da89ae2c9a5bddd8e7f462a8ed44240",
-        "semantic_sha256": "c24f434e790d5334e8a32a83c9e7a03a5f6cf7b4ecf7de49a254ae1509fb636a",
+        "fingerprint": "52551afd2fa48ab52ed98ece832b80ca8d581a01d35f3dd6c72344b6535650b6",
+        "bytes_sha256": "7a522addf747043344dd4e47138583aa923be8b2ee32655e0cd40896dcc690f0",
+        "semantic_sha256": "113216c2c91e856e10dd9b5908394ab984cda62122d8d869ff8d1f70aa8ea572",
         "normalized_header_lines": 4,
         "shared": true
       }

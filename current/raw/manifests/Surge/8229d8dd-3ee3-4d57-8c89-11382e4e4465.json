@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:24.382676+00:00",
+  "generated_at": "2026-11-27T01:31:08.051936+00:00",
   "client": "Surge",
   "rule": "Golang",
-  "rule_updated_at": "2026-07-26T08:35:46.832550+00:00",
+  "rule_updated_at": "2026-11-27T09:31:07+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:46.832550+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 8
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "09d5c166d705855dca67ca59c994509848ee5e574c56decd6ea7c2ceeb350a95",
-        "bytes_sha256": "58338c6d0d82b57688e41f176ef6107a1dba39086ad3793fdc4a5acb216c64bc",
+        "bytes_sha256": "3b7994f84c776824d812f7be991c481ebcda5269e5c16e1545c60e5b7acb568f",
         "semantic_sha256": "65b34d214407a7a3daac635c069b01462c9d53b949fe4482c7de3f5eff484ab9",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:07+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6f45b0f114afa8501521a5d6ee42b774c3a06821aea033bf877c3efb6f6b1b3e",
-        "bytes_sha256": "118b108f18ff9722b2710acc3f9de909e7d52f5ccd7c0c7b3fada897cea271f6",
+        "bytes_sha256": "c8aabeb9f2b7ed87bd5dd36cb3f714a02a42eb821ad57830dab9ed6c39b48da9",
         "semantic_sha256": "ddcd849a8b81b9e57b8b9a3f2cf3dbdee3df1027f3950fa8af4c539a6ef98c71",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:04.008021+00:00",
+  "generated_at": "2026-11-27T01:35:51.284304+00:00",
   "client": "Mihomo",
   "rule": "Flickr",
-  "rule_updated_at": "2026-07-26T10:27:59.304449+00:00",
+  "rule_updated_at": "2026-11-27T09:35:51+08:00",
+  "source_rule_updated_at": "2026-07-26T10:27:59.304449+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 5
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:51+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7d4f58e781d167b389548c584a83ce79f08bd9c32b9ccecd9931cac408bcfc04",
-        "bytes_sha256": "d853c91acf130956fad4a20531cf054d30b01f7e81434afa453ada5f02874353",
+        "bytes_sha256": "6924e146cb4d92c1b8f91113c03459c60073e6d6696323d66bb2b2f48eb17931",
         "semantic_sha256": "3f5b33dda47dbc71cd2810954fb8f2acb6fdbe5576ba51eb7c3c4dafa0bfa0bb",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:35:51+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ec5d251a09372362ae4b208656d82ad7399be1ea538b4ec6f3383c84d33b37a2",
-        "bytes_sha256": "a78a6fd2e55a90f97a7a1fa84c32065751a22dd734ad7087f7e1874baf42ea1a",
+        "bytes_sha256": "2c8bdb4127737ab03665e68d5088c464f0eacf14bae42dae07a20100876602a9",
         "semantic_sha256": "b430b1ce044bfd1a23f4bee00846412e5408b399a105240f927f45d548bc4ea9",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "a1f1159f103092642e6db26599210116a950c5a6e7bb6b6ff1c1231e672a81a8",

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:32.073395+00:00",
+  "generated_at": "2026-11-27T01:31:37.534801+00:00",
   "client": "Mihomo",
   "rule": "Konami",
-  "rule_updated_at": "2026-07-26T08:37:29.114866+00:00",
+  "rule_updated_at": "2026-11-27T09:31:37+08:00",
+  "source_rule_updated_at": "2026-07-26T08:37:29.114866+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 19
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:37+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "2add2bdd49cb8a328a08d9b30e7d53748ce9536e5e7469b4f061bf6dbcb542aa",
-        "bytes_sha256": "024326b8c1dbbaa203299d9e60db7111d478097ad4c8f042e35afb045346d094",
+        "bytes_sha256": "ea71dbc06c0a9bad51d8eaced9fda3183c0d41e728df74da32d765454f3a5b3f",
         "semantic_sha256": "0e901efca7ee09c8c1e6fde479604e9e323f8a075507f2d9c3e205868d3e24a3",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:37+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ea705f62a4b0aa40a2d10075ebab8e97d0cd8986b5b50eb8b59377ecd2f3942d",
-        "bytes_sha256": "34339263867aefb47c294c3b9c2b773fbeda034d6e33e166b0cdfc2300206926",
+        "bytes_sha256": "5215ccaa237fb9a713db6ecf8b8ab1f0560b7c8184cd0dcae338cec1ed69233e",
         "semantic_sha256": "34048a59de56ed3d9e0956fa3929333dad803081d9986130b8c5de4ad59b26b1",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "8900bd15fce136fe2aefeddd0cfb0ef0ecf701931689410cedb7f87f17707b53",

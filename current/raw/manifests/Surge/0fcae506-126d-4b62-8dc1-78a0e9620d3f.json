@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:23:45.207453+00:00",
+  "generated_at": "2026-11-27T01:25:00.628169+00:00",
   "client": "Surge",
   "rule": "RSSHub",
-  "rule_updated_at": "2026-07-26T08:36:09.278718+00:00",
+  "rule_updated_at": "2026-11-27T09:25:00+08:00",
+  "source_rule_updated_at": "2026-07-26T08:36:09.278718+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 1
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:00+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0ec95ab28e69a5a1a631dbcb7f81a94a3e33a1c45a74517804b39012c003479e",
-        "bytes_sha256": "16b212f892fe42f5574e03b776885cba6be6c48a44d0802c910190147fbe8e83",
+        "bytes_sha256": "2bf37b79fb574ad934e48cde51598a3ab817733545f2fcd3369d835015b1788b",
         "semantic_sha256": "0dbb32cb99cac12f218942c1068fdbc84115ac247c4181be9d398c2e73dd387a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:25:00+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f02d4e33144e56eefbe4696a406b30e4a6c9edd8760036988e7bc88e7121b6c3",
-        "bytes_sha256": "9f6a29a80dba40a57a4f84518adc5dd82b99e0a2ddec84c53217570b0b7032d8",
+        "bytes_sha256": "6d8d1a3663169f41d249cc4bec4e64ba7b460333e0e32b41b6ef407a8db2affb",
         "semantic_sha256": "ce361c0cc831cd536c9315478998b1425acae18399cc1c2d8fad02827833c3c2",
         "normalized_header_lines": 4,
         "shared": true

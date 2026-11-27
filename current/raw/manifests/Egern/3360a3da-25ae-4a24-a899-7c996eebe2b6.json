@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:11.365516+00:00",
+  "generated_at": "2026-11-27T01:54:23.704169+00:00",
   "client": "Egern",
   "rule": "Mailru",
-  "rule_updated_at": "2026-07-30T08:09:46.141161+00:00",
+  "rule_updated_at": "2026-11-27T09:54:23+08:00",
+  "source_rule_updated_at": "2026-07-30T08:09:46.141161+00:00",
   "type_counts": {
     "domain_set": 48,
     "domain_suffix_set": 252
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:23+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c475c572da3d65d4c50ff61d772749cc62057d343b47d9945a74cbadf82998bf",
-        "bytes_sha256": "57c3090fdeb68381b8391cbb3b9a1777272005bc51c6393753ccb152580cb27c",
+        "bytes_sha256": "1b1e3ac44159bab6327399a955ec8245eef54ebc02bb52a2a9a1d709a43a8aec",
         "semantic_sha256": "46015dbf9dd86847d175fda5cdd72f493062b567702636f7f7d80f9b55d8f5ec",
         "normalized_header_lines": 4,
         "shared": true

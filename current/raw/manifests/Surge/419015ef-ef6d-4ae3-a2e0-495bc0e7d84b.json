@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:28.345973+00:00",
+  "generated_at": "2026-11-27T01:27:40.629543+00:00",
   "client": "Surge",
   "rule": "FamilyMart",
-  "rule_updated_at": "2026-07-26T08:37:55.903505+00:00",
+  "rule_updated_at": "2026-11-27T09:27:40+08:00",
+  "source_rule_updated_at": "2026-07-26T08:37:55.903505+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 7
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:40+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ae903362930fe57c663ab06b14ac2f50370ae2c12cfdd94622fccc5069b50fbc",
-        "bytes_sha256": "9d4c9b33f3642cc5be1636336e21ff4b83159678bebcebd7715917136a1a73d7",
+        "bytes_sha256": "1b9eeadf5393809bff9909538bb37150694b0418f124c906c8894930f1d1cf7d",
         "semantic_sha256": "a22bccfb5cebb84aa96d5fb65c9de0aaff4a3901832f6b90867981d20246aa6d",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:40+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8e69cd3997bf08959ad2a3a84fe1de7f7f803d24f2da3a6b0cb9557bed190295",
-        "bytes_sha256": "d4fda543ba150a67402cb2112309fbd07f309902a06e139450d4e94581926e64",
+        "bytes_sha256": "8d0dc0a7f8a1f864b897f1ce5be726daf9924a8c1bdb28ad20acee4d4f94de20",
         "semantic_sha256": "c4ba48c7a1282472fde2ca1658cad2687a1894f5268f6289ccc0eb2cd8cb69c2",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:32.463317+00:00",
+  "generated_at": "2026-11-27T01:36:46.541675+00:00",
   "client": "Mihomo",
   "rule": "Roku",
-  "rule_updated_at": "2026-07-26T08:35:49.232892+00:00",
+  "rule_updated_at": "2026-11-27T09:36:46+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:49.232892+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 6
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:46+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "cb5123e4beef15ef2d0cd14628b557f76416719d3f1ede1795c32de70b1127d7",
-        "bytes_sha256": "fa6ecab97997d405601dd9be9844cd21caef49892c13b70363399cfe42eb1ce6",
+        "bytes_sha256": "ef1dda17971c4cb03909871094fbb3d6ff52c99b1fe63d70a4c6f2d4790b3eef",
         "semantic_sha256": "cd442eef500f39e62c939297ec79d84183a24dcd1373ec18748dcc99ec328af2",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:46+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e2a67aef8c3a1f94b22147349be9afd5ff1c404e3f83ea1f45c7bf8d4c6a8454",
-        "bytes_sha256": "f87182fa4703922cc9c22d6f9898df69f051cc42961da1b7c58941e78ba59b2d",
+        "bytes_sha256": "1ac6f2e545198aaf92d45000a6da148139ca6b67113999f93192d277b3bb7e1c",
         "semantic_sha256": "752f7b8b50c51d4e7c47f2bab7d5e99685125d3ee86dded5620221aab367678f",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "55d877bffba66d2c06436f3a87ebb91b928e21bb0c38e65cdbe1307ee29de115",

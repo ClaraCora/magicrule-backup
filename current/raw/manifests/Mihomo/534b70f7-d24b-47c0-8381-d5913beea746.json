@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:40.529351+00:00",
+  "generated_at": "2026-11-27T01:28:25.116586+00:00",
   "client": "Mihomo",
   "rule": "LocalBitcoins",
-  "rule_updated_at": "2026-07-26T10:36:54.754096+00:00",
+  "rule_updated_at": "2026-11-27T09:28:25+08:00",
+  "source_rule_updated_at": "2026-07-26T10:36:54.754096+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:25+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "57ccf879c5a9c9cd80c8b80fc02f64cfd5b260f166d630d88b4ae25d7a441e59",
-        "bytes_sha256": "5b13e5e049fe52d94660fb5e6e55025224dcfc26fb932e900331145ffbbffdaf",
+        "bytes_sha256": "cdc9b12c73a54a33076e4b9b6ccd54b234678f7f3841dc9400872895ea0edf57",
         "semantic_sha256": "7b9f14bc6806ce26a0ca00888500935a0c7fcbcd8a46e5c4c9953fc37fb7a3f9",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:25+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "4cff49d37a37d61dd306b4f92b700e28badcd60d996219d67f609d3a70a352e8",
-        "bytes_sha256": "bdea50c6f88719f8683677b0af322be5aa99847d641fcb4e54279fc38cd504b0",
+        "bytes_sha256": "6ff32d360a78af9203df7e065f2904d9a045a558a15dde79d42b14fb234b1da6",
         "semantic_sha256": "a215c8a31995b8747a8d92c1272bf839ed10653bc04d732e331c54b718999c4b",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "a81064af8aff7202e046bbbdaf8fa1c4388b63d464fc721fd9be12ac9ad060c1",

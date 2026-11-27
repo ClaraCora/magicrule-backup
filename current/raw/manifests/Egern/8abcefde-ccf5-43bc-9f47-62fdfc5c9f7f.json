@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:25:30.991386+00:00",
+  "generated_at": "2026-11-27T01:31:33.834578+00:00",
   "client": "Egern",
   "rule": "VRCDN",
-  "rule_updated_at": "2026-07-26T10:48:02.772121+00:00",
+  "rule_updated_at": "2026-11-27T09:31:33+08:00",
+  "source_rule_updated_at": "2026-07-26T10:48:02.772121+00:00",
   "type_counts": {
     "domain_suffix_set": 3
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:31:33+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9be6cc85fc8889ff93b47b4bacd9967063dc18e563b5e98cd35dded1053bb6d8",
-        "bytes_sha256": "64aac4d03fedfe4cbbb1f04e9d21521ac416203f465abb787a526b5404475383",
+        "bytes_sha256": "9ff4430435c85422bf1af47135aaa5773db4e7eb479e50518d9bb7c399a86922",
         "semantic_sha256": "fabfa3bc8a48c1fa564fffe1eb0aef51e5a68205e142b0bc66beacbff4875b86",
         "normalized_header_lines": 4,
         "shared": true

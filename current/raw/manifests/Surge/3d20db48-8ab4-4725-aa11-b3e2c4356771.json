@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T14:23:53.733966+00:00",
+  "generated_at": "2026-11-27T01:27:28.349444+00:00",
   "client": "Surge",
   "rule": "GlobalCloud",
-  "rule_updated_at": "2026-07-26T10:32:00.887330+00:00",
+  "rule_updated_at": "2026-11-27T09:27:27+08:00",
+  "source_rule_updated_at": "2026-07-26T10:32:00.887330+00:00",
   "type_counts": {
     "IP-CIDR6": 829,
     "DOMAIN-SUFFIX": 19,
@@ -19,10 +20,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:27+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b67bbce71552a4bb984a7b9693c98769984c8d9cb177339eb0d13715108c91f7",
-        "bytes_sha256": "537f0e99ac1fac3361c192ca85c238086c54d03a65179d9354de6602d41d0de7",
+        "bytes_sha256": "a85154837ca12b15b525239bb0605c6363203e522615501e94b0c88403ac09a8",
         "semantic_sha256": "c368d66f860235d5fe54ede88a8a6e016bd25b2046331671fb031c5aaf73a301",
         "normalized_header_lines": 4,
         "shared": true
@@ -37,10 +39,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:27+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "ce40535b1f2444e62bdd8ceec4a026bcd54cf0488e5d2d2669346786a644d839",
-        "bytes_sha256": "039c57ef040a100f3f0fe5e3e68dfaed8a36acb6528a24abe3fecd3fa1743b2b",
+        "bytes_sha256": "132758e74ad47554ff3e8e8c2869609b7a9e8dbb93c05c4c953c984ddbd34f5e",
         "semantic_sha256": "b369c642920127a65f1a8bfc3e8cf67326085bbc771632327ac7ceaa71eca2f3",
         "normalized_header_lines": 4,
         "shared": true
@@ -55,10 +58,11 @@
       "role": "rule-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:27+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7f89caf59d7160cea7402ccf1daeaac926ec2cf26c713684b5e70dab70523753",
-        "bytes_sha256": "f63e23d850c03360daa9a717d8ae96829365af0a976501e5bb23b740bec0eac2",
+        "bytes_sha256": "e08a8390458b55966b26612ea58f20fef9ecf57781d26a8050f83f589b26631f",
         "semantic_sha256": "cc45766a8c4b873ac12505567258854ca304f03135d0a488ed3dad2f4885295f",
         "normalized_header_lines": 4,
         "shared": true

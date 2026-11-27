@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:12.095817+00:00",
+  "generated_at": "2026-11-27T01:33:52.113913+00:00",
   "client": "Mihomo",
   "rule": "Mapbox",
-  "rule_updated_at": "2026-07-26T10:37:21.902337+00:00",
+  "rule_updated_at": "2026-11-27T09:33:52+08:00",
+  "source_rule_updated_at": "2026-07-26T10:37:21.902337+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:52+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "8bd6987121af50e2c681fcb9010525bad1952ab1cc53b10d723be1a14a598fe2",
-        "bytes_sha256": "080a73fd69a2e32d63e1b0fc3edc717eb6f7a79bde20895ab20340f169e7c23a",
+        "bytes_sha256": "80e9a508357e7f25bc6779b1e1676b05433b444dc0482b89447b4f0accaa54b1",
         "semantic_sha256": "5894f2e6599147ada7919255afbac14e412b5ccbbb3e045d2dc1f362f45e695b",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:52+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d9a7c019d7d351153d514c9a019cb9c7bf88602a53c7868c0d966eef45eab384",
-        "bytes_sha256": "ecb1c3bfe2407418c78d75d15b965764aeae629509cca7b6317af3084869d9c5",
+        "bytes_sha256": "86f53775ebfa7470cef36d919ae7c0eb510739d398e425388c4f3bbc03bf4ebc",
         "semantic_sha256": "af2a2f1f74bb24ed976ba69602c2ab33f5db6f759d8448493703ffdea0cde924",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "44ea725a7ecdecb0467ad5dab86e7ad52256a6dd206d19ec363a165f294e77fe",

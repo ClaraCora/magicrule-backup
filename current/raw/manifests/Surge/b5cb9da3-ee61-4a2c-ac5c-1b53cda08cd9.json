@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:09.109831+00:00",
+  "generated_at": "2026-11-27T01:33:39.805597+00:00",
   "client": "Surge",
   "rule": "SpaceMail",
-  "rule_updated_at": "2026-07-26T10:43:33.801012+00:00",
+  "rule_updated_at": "2026-11-27T09:33:39+08:00",
+  "source_rule_updated_at": "2026-07-26T10:43:33.801012+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 1
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a96a362adde95de8ced56c017664dacaca873caa31b2343add5e8d50054e935e",
-        "bytes_sha256": "1b347ffd340adc85e1d84c9718a92a2566a9f66d235b1febf647af49a1cac303",
+        "bytes_sha256": "d51b9e266bbc24c437ddea1716c7291f29ab2aa744a618ded404eb8daad03411",
         "semantic_sha256": "cf395a85ca87397080cd85121b6d088bced712b427e84b8c9095cf2a1167ae80",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e8ff6fa9dc7553ad78b2248406fb70c945d11a9fc64942cbf31bfb2b792203c0",
-        "bytes_sha256": "e7b274c91a6f09e42d443183f321fadeb58acbf5cdd3a707a81d9f26d8897246",
+        "bytes_sha256": "4a6c05fdae826a758e428d82ad999504d93e46a851cd4f33f961c2dcddf93331",
         "semantic_sha256": "245dfea9a8dd6ec148191bcac8419fbbd07a5d65ecf01063e4bd91ca11ffec05",
         "normalized_header_lines": 4,
         "shared": true

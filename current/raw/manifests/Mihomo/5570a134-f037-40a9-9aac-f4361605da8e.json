@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:42.644464+00:00",
+  "generated_at": "2026-11-27T01:28:33.144661+00:00",
   "client": "Mihomo",
   "rule": "Coupang",
-  "rule_updated_at": "2026-07-26T08:39:21.723249+00:00",
+  "rule_updated_at": "2026-11-27T09:28:33+08:00",
+  "source_rule_updated_at": "2026-07-26T08:39:21.723249+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:33+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "9f5b16d3ddc922931dcc09826d004faef2d67945aa8ea07dd343c476a68f0f87",
-        "bytes_sha256": "a596ce5e9e18887b89c83462ad0a06280421d44444fa410f9210835dee5a3e51",
+        "bytes_sha256": "aba67c23404b7f44aaa3d5a2f547f576461e1ec4ede5c36f94a43ea8bc705780",
         "semantic_sha256": "8203035a2cb20b68c18f1a247c2dda0e071286ca1c62c275fcf9745f3249778b",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:33+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d247ce2b5d9fb8f6e3bd44cd2872fc55156fe703360b3042a44fcba82412c15e",
-        "bytes_sha256": "51b175391761f765991d9934d9af792732db4ff9672dad2916d38f2420b4354b",
+        "bytes_sha256": "ce84d15d37a0f6117f5542178384e1dae2ee4aadc71d84dc35d7280874e7bcf4",
         "semantic_sha256": "3e47a003ef13db092426909a21cf2c30435b35033b57170e0a4f1f5dfc802034",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "108bb0243c5e0736d5ff0a22444b77b43adc81158d75d6ea12121f9e12eea48d",

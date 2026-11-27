@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T12:30:27.700068+00:00",
+  "generated_at": "2026-11-27T01:54:26.885864+00:00",
   "client": "Egern",
   "rule": "AppleProxy",
-  "rule_updated_at": "2026-07-26T07:43:48.729198+00:00",
+  "rule_updated_at": "2026-11-27T09:54:26+08:00",
+  "source_rule_updated_at": "2026-07-26T07:43:48.729198+00:00",
   "type_counts": {
     "domain_set": 33,
     "domain_suffix_set": 25,
@@ -20,10 +21,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:26+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "aaf2aa7f3279f0fba07d40a11765255a1411ed903e639b59ead66da3e4e5c31f",
-        "bytes_sha256": "8f4c1db5f0537edc1198993fee09830af68a4f8db860b86ffd18e77e2fbad233",
+        "bytes_sha256": "65af17061c6aeeca7977a981e3fdaeb95e49c797443ccab50e899b342c8f546c",
         "semantic_sha256": "d81b7d816224ece1da8b9782d87a71a0f71e6a6a6d71c1823d8f78fb4c5a5d47",
         "normalized_header_lines": 4,
         "shared": true

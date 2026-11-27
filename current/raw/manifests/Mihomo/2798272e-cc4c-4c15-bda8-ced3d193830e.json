@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:05.436779+00:00",
+  "generated_at": "2026-11-27T01:26:16.805201+00:00",
   "client": "Mihomo",
   "rule": "Bandcamp",
-  "rule_updated_at": "2026-07-26T08:38:24.319092+00:00",
+  "rule_updated_at": "2026-11-27T09:26:17+08:00",
+  "source_rule_updated_at": "2026-07-26T08:38:24.319092+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 2
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:17+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d90f1a7a023537065dfe68fd4c04d71a46d485a17630d6d388a3feb9cbcc4d5b",
-        "bytes_sha256": "13083e05b505e41701ec00c30e24cbd1d2d86b214bf95e5ad8accc57a4936a64",
+        "bytes_sha256": "7404619db8b724aa5a3db99c9505b160cc64d3810458bb7fa790d9d64d85c62c",
         "semantic_sha256": "b166c0f819c13a4e8dd7a833ff1b6b17beb86532bb81bd2e97475fdb2f1b2251",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:17+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b305062c149a460373b73c79e87ed3732059b0379db68efacf8edf3ec43eb05e",
-        "bytes_sha256": "9a63cf7079b45434db6c3e5af7c6884b7c3b1e4e598091cded721996d4406237",
+        "bytes_sha256": "e2044e6d0275bb044dfd66015c41cefc6db3a65e648c445153bcc9d20c13b816",
         "semantic_sha256": "122228b0cf88f940890fe25e2911fdb620019f1f8cf281714c5e461569f71bc8",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "577ac094539edb67c866d648e045561527f45bc72286ad423e22229a7016db7f",

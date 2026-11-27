@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:56.583390+00:00",
+  "generated_at": "2026-11-27T01:29:22.832158+00:00",
   "client": "Surge",
   "rule": "FontShop",
-  "rule_updated_at": "2026-07-26T10:28:05.566906+00:00",
+  "rule_updated_at": "2026-11-27T09:29:22+08:00",
+  "source_rule_updated_at": "2026-07-26T10:28:05.566906+00:00",
   "type_counts": {
     "DOMAIN": 1,
     "DOMAIN-SUFFIX": 3
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:22+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "29ace8db6e236616fe122ed0937fba2f90adb43bf63a8b31a3d0ccb92dab2c30",
-        "bytes_sha256": "1f9658aca613a35eada19b2eab2a0f234d2e7f9f180e97839a66b17f881ac943",
+        "bytes_sha256": "58591dcc16cc614ec30d8f12e8c436fc07d3d31979b08cedf3a6434d17512ae6",
         "semantic_sha256": "677b9248b0da2638ac376345579764115a255fe8db05a6ff5d8af66247b1b763",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:29:22+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "d1fb4b08eaeb0ff7a0339a09d58ced0019ae0f85da586146ccca908e70cb05f7",
-        "bytes_sha256": "4d40eb9d0c0eb12e14ee5c62ebfc108dcb29559618d98734900da7d912702bb5",
+        "bytes_sha256": "abd7c4758742c95a561d8836e0b91e17c80dec562fce837f687b6a90a855a1b9",
         "semantic_sha256": "fd0406283982bb3df50d25a21a64d4792af84b20bb9621b2788461de088559ee",
         "normalized_header_lines": 4,
         "shared": true

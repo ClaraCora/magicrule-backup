@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:28.262467+00:00",
+  "generated_at": "2026-11-27T01:27:39.846287+00:00",
   "client": "Mihomo",
   "rule": "FamilyMart",
-  "rule_updated_at": "2026-07-26T08:37:56.297860+00:00",
+  "rule_updated_at": "2026-11-27T09:27:40+08:00",
+  "source_rule_updated_at": "2026-07-26T08:37:56.297860+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 7
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:40+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "e7e1fed5519ba5b6ee5f00e05630333561df0564ec880664997f78d60cd1a684",
-        "bytes_sha256": "f696bd04982b8e0aee9325f0672cf4f2b743575fcf52d590a7cb98a3e6abc8a3",
+        "bytes_sha256": "7f801880f407b0e80f058c328b89106b1c66232bd3063d19fe7e870f5360e095",
         "semantic_sha256": "4577642aa03e8fdfa0af6dabf779a671950c9535e630757fb59718d161f8f83a",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:40+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "b03e8bedd5da29447916ce12818b005ce634a7fa180dc76b16f8d02bedb863f6",
-        "bytes_sha256": "aba35b885f300904ec19ed03541a2540397f8bd1f21667ea7bdb682631291579",
+        "bytes_sha256": "28dd821881fa4a0465c3c90d21de8996dcc948bdb45cfdfe4f3b8986e9b3347c",
         "semantic_sha256": "d3bb23509306e79fe10d7a2bace89c257e64d2fb84e32b1527d582efc03aa48d",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "6f68a1842440dbca0afa0895be1a19af096cc07730541cd4206c2265d294b0ab",

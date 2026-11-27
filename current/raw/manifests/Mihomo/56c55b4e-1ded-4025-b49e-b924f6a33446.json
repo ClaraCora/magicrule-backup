@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:44.264230+00:00",
+  "generated_at": "2026-11-27T01:28:39.645189+00:00",
   "client": "Mihomo",
   "rule": "QWeather",
-  "rule_updated_at": "2026-07-26T10:41:53.741690+00:00",
+  "rule_updated_at": "2026-11-27T09:28:39+08:00",
+  "source_rule_updated_at": "2026-07-26T10:41:53.741690+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 5
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "63aa8182f3f2f1473dd3ec7932da3412b3b2c624b974625b7a776519a99f896d",
-        "bytes_sha256": "e3a8e27afff37053050a3ec7fe13f96796964fab4a2bc10305801b9447371d8c",
+        "bytes_sha256": "868af83517803dcb69709e8f41bd58418aea704312b1227d87f17dcac53ee50e",
         "semantic_sha256": "e399929ef3461f3d58a9f82d00eae903a741d9703bd4bd3b5de540846c9c2a0e",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:28:39+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "6aededf6664dafdb31d06d0d4cb7ad7585013d3452ed711755ffb5f9fa9c14d1",
-        "bytes_sha256": "364492dacb1d519cdd259e7ce1c6eff266e90f8774ce78be706abc4432d1d602",
+        "bytes_sha256": "658dc914ce5307f049ff25f2da33d5bb8f9243803aaebdfb2fa931726050d99f",
         "semantic_sha256": "19a6f32c3ddcbeac094672df885f8d9d5c982ae72c43cfa5ed46a3bb7647096a",
         "normalized_header_lines": 4,
         "shared": true
@@ -53,6 +56,7 @@
       "role": "domain",
       "recommended": true,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
         "fingerprint": "4fac69265eeac7644a2dd2e19a57e7df739a7e8da0215597f33c01ad1cacea64",

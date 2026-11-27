@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:25.957301+00:00",
+  "generated_at": "2026-11-27T01:36:31.735364+00:00",
   "client": "Loon",
   "rule": "OpenStreetMap",
-  "rule_updated_at": "2026-07-26T10:39:40.183471+00:00",
+  "rule_updated_at": "2026-11-27T09:36:32+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:40.183471+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 9
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:32+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "5f90d04b401b87840651053d1d9f212d38f8f4747ffcb6ad0a03bf9a44020e55",
-        "bytes_sha256": "3cb4b3a81218bef1a24c33180868979df9c6830472253f82546320f8fa2ec609",
+        "bytes_sha256": "cb688cc0a26479506b44788cda50169c875ee0b13b2c547313abf295ae1006b7",
         "semantic_sha256": "69008e275aa64f5d64bf998a5c93db3b36ae13325fb31dad223eab6597b0d39b",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:32+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "76d9621ea2288e772e5452a0ff2050de5c70fda657cb92bc819063f59dd5e0e2",
-        "bytes_sha256": "180c3b824eeb8cd962f1c11ff9967cf6057812340119f1333acc309205beb9fd",
+        "bytes_sha256": "2181e39c2c72dcfc795aa4279ff4e7bda966b0f2a65f43d9e7f76f71ec298416",
         "semantic_sha256": "ee6d7ec99fd4a7759f85f2f16398c2a10dd91d2dcf9e51f0504b7001510e2477",
         "normalized_header_lines": 4,
         "shared": true

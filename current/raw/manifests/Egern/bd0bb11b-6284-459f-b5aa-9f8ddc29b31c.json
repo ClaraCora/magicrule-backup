@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:17.282189+00:00",
+  "generated_at": "2026-11-27T01:34:12.406511+00:00",
   "client": "Egern",
   "rule": "PixHost",
-  "rule_updated_at": "2026-07-26T10:40:58.196248+00:00",
+  "rule_updated_at": "2026-11-27T09:34:12+08:00",
+  "source_rule_updated_at": "2026-07-26T10:40:58.196248+00:00",
   "type_counts": {
     "domain_suffix_set": 1
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:34:12+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "fed991faf3a5d03d77c3a7556de24ad4b4ad07077706893be0fa07c6a3cbbc6d",
-        "bytes_sha256": "3871021bb89d9124ff85eb7355bca84e69b4cfe7404556366238effe4a28efa4",
+        "bytes_sha256": "39113f91dc26a93c34fabaff62df94563ccff8f593da689cea8dd7bd40eea2e6",
         "semantic_sha256": "ba419ddaf131f2d716305cc3b2ef5464732bea68b4c4b094f6a90eff2a1a7836",
         "normalized_header_lines": 4,
         "shared": true

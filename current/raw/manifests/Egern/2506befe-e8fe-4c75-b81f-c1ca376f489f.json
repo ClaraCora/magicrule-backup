@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:08.045625+00:00",
+  "generated_at": "2026-11-27T01:54:19.116147+00:00",
   "client": "Egern",
   "rule": "ClubhouseIP",
-  "rule_updated_at": "2026-07-26T06:30:19.103066+00:00",
+  "rule_updated_at": "2026-11-27T09:54:19+08:00",
+  "source_rule_updated_at": "2026-07-26T06:30:19.103066+00:00",
   "type_counts": {
     "domain_set": 4,
     "ip_cidr_set": 100
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:19+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "7e2c4dabfe470af770dc1b0736ce417c6efb253f0cbcf8359fa3c0869abd3e4b",
-        "bytes_sha256": "ff745255cafcfe1ef173469dbb0ea7c623189fade6a3ef0846f502c4fa821463",
+        "bytes_sha256": "c7d2c6f133bef409c4f3abfe48d8bd533b659d14205f334fc3ae3b05dc91de25",
         "semantic_sha256": "f1e71b07f0945989fd9e5145da10318a84137d4b851fcdbd163ee15d9e5ad60c",
         "normalized_header_lines": 4,
         "shared": true

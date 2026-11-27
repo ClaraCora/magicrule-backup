@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T14:23:53.737358+00:00",
+  "generated_at": "2026-11-27T01:27:26.102815+00:00",
   "client": "Egern",
   "rule": "GlobalCloud",
-  "rule_updated_at": "2026-07-26T10:32:04.581808+00:00",
+  "rule_updated_at": "2026-11-27T09:27:26+08:00",
+  "source_rule_updated_at": "2026-07-26T10:32:04.581808+00:00",
   "type_counts": {
     "ip_cidr6_set": 829,
     "domain_suffix_set": 19,
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:26+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a4318b6a01a883bae8fa4b797e26f1fe3e8230ba88fa809abaaa7c5e4f8c6916",
-        "bytes_sha256": "6facaf2fe6dcd41edc89aade09ff0f8bbc0be6c4000c191bf07496ecf90dd1ad",
+        "bytes_sha256": "05600ac99fbfeff7a1101827113654ebcfe53850525146fbf8f182fb3ffda4eb",
         "semantic_sha256": "7ac0d3e054892aaf3e1d5a4c0ebacbcfb204eb59a41b798c2fd8e4e09d140a3b",
         "normalized_header_lines": 4,
         "shared": true

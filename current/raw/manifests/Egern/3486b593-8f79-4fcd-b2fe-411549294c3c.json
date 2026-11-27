@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:14.484794+00:00",
+  "generated_at": "2026-11-27T01:26:52.761945+00:00",
   "client": "Egern",
   "rule": "HKUST",
-  "rule_updated_at": "2026-07-26T10:31:57.772535+00:00",
+  "rule_updated_at": "2026-11-27T09:26:52+08:00",
+  "source_rule_updated_at": "2026-07-26T10:31:57.772535+00:00",
   "type_counts": {
     "domain_suffix_set": 4
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:26:52+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "0bfa6dfd40c1ca411570cbbd64f2058cfc7e9ccd5048d95a92b3219865b26d93",
-        "bytes_sha256": "2e3cf4a1d4186af0a9e80972f9391cee1c1af403af99bd595cd50a6cdb21322f",
+        "bytes_sha256": "87b9b3cbdc3a671dfaf227e6ffbdf24c8a925cafe59b12e7ad19cb589421cea4",
         "semantic_sha256": "7d4f046fce33306b1335e1b2c25070cfb2f2f1b76e28a218f580566c23e988d0",
         "normalized_header_lines": 4,
         "shared": true

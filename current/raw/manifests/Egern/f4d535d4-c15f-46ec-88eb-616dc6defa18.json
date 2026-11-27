@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:37:18.574289+00:00",
+  "generated_at": "2026-11-27T01:55:19.891884+00:00",
   "client": "Egern",
   "rule": "PikPak",
-  "rule_updated_at": "2026-07-26T07:00:36.885473+00:00",
+  "rule_updated_at": "2026-11-27T09:55:19+08:00",
+  "source_rule_updated_at": "2026-07-26T07:00:36.885473+00:00",
   "type_counts": {
+    "domain_keyword_set": 1,
     "domain_set": 1,
-    "domain_suffix_set": 21,
-    "domain_keyword_set": 1
+    "domain_suffix_set": 21
   },
   "total_line_count": 23,
   "artifacts": [
@@ -19,10 +20,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:19+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "28090e70fb02bfa5f5c0d7641ad74f0d9d5ca508a7ba3c083ddde3181638fe2c",
-        "bytes_sha256": "a2a942fdce0177f7ac0f2a8c7eca8fcc892cbad6100a45deb25011612725346e",
+        "bytes_sha256": "2f18359036813aca435ca413cbc7b8ea367ee7405597cb0b7af9d73b1af0e6aa",
         "semantic_sha256": "916dfec631b8868ed3cd41768ef5cb9d977d42a7c462aac24e3cda074cc15e8a",
         "normalized_header_lines": 4,
         "shared": true

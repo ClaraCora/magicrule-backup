@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:27:22.796305+00:00",
+  "generated_at": "2026-11-27T01:36:23.945299+00:00",
   "client": "Surge",
   "rule": "TheTimes",
-  "rule_updated_at": "2026-07-26T10:45:48.098797+00:00",
+  "rule_updated_at": "2026-11-27T09:36:23+08:00",
+  "source_rule_updated_at": "2026-07-26T10:45:48.098797+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 9
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:23+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "c4242c9f6455d7f40b522c6e8da13a1ad4db368597ab63eee3d74de749af8526",
-        "bytes_sha256": "d515aa76230e2a11f9d4f9f5562ecdbacb65a23e42b7d8c4417740dacde14c51",
+        "bytes_sha256": "44dc4780ac2c5e811e2d8e0bacb4e676f81c95bc34537119695f7ab0ecea1116",
         "semantic_sha256": "6f2be0f5cb6db427ac10f8bdae79551c7d70890d67c4cca3325b443321308442",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:36:23+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "794be050f213c91a3e1480a1ef04691df7364f5f915da1539703e135f004be56",
-        "bytes_sha256": "ab86df2b1fc0825b3e666af57ebbf52de727790e266abff06b0249e7f79588a7",
+        "bytes_sha256": "ae38c16b1d5213066db1f61237aaab851c8737d3fa240613edea15ea5d867408",
         "semantic_sha256": "9d3ba6e449d63aca3ea8059d4f5c58c457ef54b5a1abcaed705455338630457e",
         "normalized_header_lines": 4,
         "shared": true

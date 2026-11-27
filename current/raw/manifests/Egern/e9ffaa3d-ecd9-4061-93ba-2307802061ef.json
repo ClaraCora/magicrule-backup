@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:37:27.476022+00:00",
+  "generated_at": "2026-11-27T01:55:14.021250+00:00",
   "client": "Egern",
   "rule": "Akamai",
-  "rule_updated_at": "2026-07-26T06:30:42.993116+00:00",
+  "rule_updated_at": "2026-11-27T09:55:13+08:00",
+  "source_rule_updated_at": "2026-07-26T06:30:42.993116+00:00",
   "type_counts": {
     "domain_suffix_set": 81
   },
@@ -17,10 +18,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:13+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "00e5eada5737dad757ac1ed39495e27745756b0403f8d5b0e2d767eff36a7c57",
-        "bytes_sha256": "f859b98d7c75aa64d7bbbf4929062b0438ae8fa61dfb2f70c0736058f6abe9c0",
+        "bytes_sha256": "cd19f84dcd9ab1be653d434fb03c3de663b4f6e7991e2edbc5e12edc59a1b7a5",
         "semantic_sha256": "8560e7c41a1924cc10c27940fa63a9ba723936325538886a2d72e862e81c5fe6",
         "normalized_header_lines": 4,
         "shared": true

@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:24:26.937700+00:00",
+  "generated_at": "2026-11-27T01:27:35.208935+00:00",
   "client": "Loon",
   "rule": "OpenSourceInsights",
-  "rule_updated_at": "2026-07-26T10:39:47.263038+00:00",
+  "rule_updated_at": "2026-11-27T09:27:36+08:00",
+  "source_rule_updated_at": "2026-07-26T10:39:47.263038+00:00",
   "type_counts": {
     "DOMAIN-SUFFIX": 4
   },
@@ -17,10 +18,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "f9fa9630bf9f50ca595eeb86abfb2e56c7deaec7eb89b156c7cbeb780eaab7be",
-        "bytes_sha256": "70f77b4805a8e16bbc3f8a493e1a8146525927e170b26a729b874c1dcfaddbcd",
+        "bytes_sha256": "5ceac44de80fa4b8ea211014cd65841d85bc88a2ce96ef987b7e880489d7a99e",
         "semantic_sha256": "a35154af27447edd46bd7ec832edbec7af51898df2e5fd588822914ec8493e51",
         "normalized_header_lines": 4,
         "shared": true
@@ -35,10 +37,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:27:36+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "1639af96530c904e1e730ec0ce1400bf959ce8d64040b98d92f0d7d62a073b67",
-        "bytes_sha256": "8c5dedb2dafb2068c2becadda811b9e74df73a261a0c75e866295d35322f4254",
+        "bytes_sha256": "976275e4b754b5cf51f9b06c8d617159c3b74472b9021db64133d31eedb38a2f",
         "semantic_sha256": "65a8e845ec37d211d8c2f83c17f99d4cc6ec03b154588a9cc3e5ebb7f0425208",
         "normalized_header_lines": 4,
         "shared": true

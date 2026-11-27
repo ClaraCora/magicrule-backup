@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T12:32:18.092235+00:00",
+  "generated_at": "2026-11-27T01:54:55.260738+00:00",
   "client": "Egern",
   "rule": "Netflix",
-  "rule_updated_at": "2026-11-17T09:28:00.058764+00:00",
+  "rule_updated_at": "2026-11-27T09:54:55+08:00",
+  "source_rule_updated_at": "2026-11-17T09:28:00.058764+00:00",
   "type_counts": {
     "domain_wildcard_set": 1,
     "domain_set": 1,
@@ -24,10 +25,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:55+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "a92ac1a1b9fc8df26106d00bdc499f21f6e810942167d5dcba915f73010b6884",
-        "bytes_sha256": "b7d7b22c9059d9f223a4411ca9b99e6d9be68cc225b46e1328ba72754adbe3a4",
+        "bytes_sha256": "a9e8e76be30d5dd02082d895fd316f9cca55cf8b5b8818f7457f797211012205",
         "semantic_sha256": "439c35518483adc89992a9651a1dc3c66448989a2516318f53618183d4eb1ad6",
         "normalized_header_lines": 4,
         "shared": true

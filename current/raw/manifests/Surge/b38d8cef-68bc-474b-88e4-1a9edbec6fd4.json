@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T07:26:06.927269+00:00",
+  "generated_at": "2026-11-27T01:33:32.227087+00:00",
   "client": "Surge",
   "rule": "Ubisoft",
-  "rule_updated_at": "2026-07-26T08:35:48.359566+00:00",
+  "rule_updated_at": "2026-11-27T09:33:32+08:00",
+  "source_rule_updated_at": "2026-07-26T08:35:48.359566+00:00",
   "type_counts": {
     "DOMAIN": 27,
     "DOMAIN-SUFFIX": 4
@@ -18,10 +19,11 @@
       "role": "full",
       "recommended": true,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:32+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "354327b7ad6968b0a80b71f28369642110311061fbf3d206e975880fc7a724e9",
-        "bytes_sha256": "32a89db9797f77577fbdea6c470a45d74a8bdb8ebfc3bac1196808b7a7c0ed84",
+        "bytes_sha256": "27e9c9e26ca6d1f7ff796ccab19d5c83343dd42a1ffb7725973e84c5ac738855",
         "semantic_sha256": "2c20c3026d46663caa8e14d0815c28ab19b6f24adceca5e42c99df2e8f1fd781",
         "normalized_header_lines": 4,
         "shared": true
@@ -36,10 +38,11 @@
       "role": "domain-set",
       "recommended": false,
       "empty": false,
+      "updated_at": "2026-11-27T09:33:32+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "81c75635818cfc98a6575a1e4f8c4c71870e4d86f31c0082c9d1d013c76f4533",
-        "bytes_sha256": "aea13d6d5c42b82a3cf9dd74b3564935064324f57969e339d4f4830c07503832",
+        "bytes_sha256": "827a4822b531aafe3cfe3c7f539b41c4f584aba16e6eb80dee878cc15bf20995",
         "semantic_sha256": "00d8361314f1f76a3bb0bfa0bb2383f6cec3a17fe471f6842768f7c5b0c0ed36",
         "normalized_header_lines": 4,
         "shared": true

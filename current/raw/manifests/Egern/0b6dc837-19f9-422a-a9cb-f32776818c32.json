@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-17T09:55:38.357841+00:00",
+  "generated_at": "2026-11-27T01:54:10.984232+00:00",
   "client": "Egern",
   "rule": "Beats",
-  "rule_updated_at": "2026-07-26T07:03:06.199116+00:00",
+  "rule_updated_at": "2026-11-27T09:54:10+08:00",
+  "source_rule_updated_at": "2026-07-26T07:03:06.199116+00:00",
   "type_counts": {
     "domain_set": 1,
     "domain_suffix_set": 716
@@ -18,10 +19,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:54:10+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
         "fingerprint": "041bbe387a07d5243392c5feec98d335a552fe5116be60f622341f92551f6d87",
-        "bytes_sha256": "8713fee9ce2d00e7763bda7ed6c531a51680f1d98af47df5721bf5e8cec44c57",
+        "bytes_sha256": "859d462bd1628925916768bdfe81ad183447f19136ddce4f68cabf8af54241bb",
         "semantic_sha256": "9fd88bfc003e2bf18c751c48fb5e79a69f1eb3f0655ce108d08e30af07881d6b",
         "normalized_header_lines": 4,
         "shared": true

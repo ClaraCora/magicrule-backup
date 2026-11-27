@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-11-20T15:30:35.650850+00:00",
+  "generated_at": "2026-11-27T01:55:19.991692+00:00",
   "client": "Egern",
   "rule": "Advertising",
-  "rule_updated_at": "2026-11-20T15:20:18.992875+00:00",
+  "rule_updated_at": "2026-11-27T09:55:18+08:00",
+  "source_rule_updated_at": "2026-11-26T16:46:43.030359+00:00",
   "type_counts": {
-    "domain_wildcard_set": 22,
-    "url_regex_set": 11,
-    "domain_set": 17421,
-    "ip_cidr6_set": 6,
-    "domain_suffix_set": 255234,
-    "user_agent_set": 1,
-    "domain_keyword_set": 208,
     "asn_set": 15,
-    "ip_cidr_set": 1025
+    "domain_keyword_set": 208,
+    "domain_set": 17709,
+    "domain_suffix_set": 228231,
+    "domain_wildcard_set": 22,
+    "ip_cidr6_set": 6,
+    "ip_cidr_set": 1018,
+    "url_regex_set": 11,
+    "user_agent_set": 1
   },
-  "total_line_count": 273943,
+  "total_line_count": 247221,
   "artifacts": [
     {
       "key": "rules",
@@ -25,11 +26,12 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": "2026-11-27T09:55:18+08:00",
       "dedupe": {
         "mode": "standard_header_normalized",
-        "fingerprint": "42ff956c6bd489cdacac3ba80fba012831c966fb7e2ac72f09146a29bde31deb",
-        "bytes_sha256": "432e5dbb988ca9e46b9f4ae6399de5c6047d3aba21d3e3978b493e20bf30f769",
-        "semantic_sha256": "3c88d4a2cec896d1422ce50bd4d2bd889f4f69d0bed9cb42617406fe55f1d44e",
+        "fingerprint": "bbdfd7c3a78eb4bab59fe983fb495d913fb6613ec64c752d5a2729c02e98e7bd",
+        "bytes_sha256": "74b0a92166bb1b45b350393eaaadc4705518ba01df61b59272d8fb7d0a2e72e1",
+        "semantic_sha256": "3393d6f31c5460a1530bc93698782f570d16bf2de504ef390ad5a154f4b22f0d",
         "normalized_header_lines": 4,
         "shared": true
       }
@@ -43,10 +45,11 @@
       "role": null,
       "recommended": null,
       "empty": false,
+      "updated_at": null,
       "dedupe": {
         "mode": "exact",
-        "fingerprint": "2c857886d2505661405ec5880a0687a6aba70f06073b9ade4263a78809dd1784",
-        "bytes_sha256": "2fbb3f5736ffe9186f655bcbb7209bb7452271ca9dd59b2a132edbc2a24175db",
+        "fingerprint": "c5070b71cfcb96c9eea6480a8fd720d1af6b23263c273db63d8dd0b2c8fa132e",
+        "bytes_sha256": "336ce4a906aa3e397fccbeebcb1edfa37ec7d62163ca6e41b72dfcc8f9ad0ca1",
         "semantic_sha256": null,
         "normalized_header_lines": 0,
         "shared": true
