@@ -108,6 +108,7 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-test-'));
   const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false, duplicate: false };
   let indexLoads = 0;
+  let forbiddenIndexes = 0;
   const binary = Buffer.from([0x4d, 0x52, 0x53, 0, 255, 0, 1]);
   let origin = '';
   const rule = (client: string, id: string) => ({ id, name: id === 'a' ? state.nameA : id === 'b' ? state.nameB : 'NewRule', chinese_name: id === 'a' ? '示例' : '保留', manifest: `${origin}/data/rules/${client}/${id}/manifest.json`, types: ['DOMAIN'], total_line_count: 1, providers: ['https://example.com/author'], ...(id === 'a' ? { rule_updated_at: '2026-01-01T00:00:00Z' } : {}) });
@@ -119,6 +120,11 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
     if (url.pathname.startsWith('/data/index/')) {
       indexLoads++;
       const client = url.pathname.includes('Loon') ? 'Loon' : 'Mihomo';
+      if (client === 'Mihomo' && forbiddenIndexes > 0) {
+        forbiddenIndexes--;
+        res.statusCode = 403;
+        return void res.end('forbidden');
+      }
       const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : []), ...(state.duplicate ? [rule(client, 'd')] : [])] : [rule(client, 'a')];
       return void res.end(JSON.stringify({ client: state.invalid === 'wrong-index' ? 'Other' : client, generated_at: '2026-11-01T00:00:00Z', rules }));
     }
@@ -254,7 +260,20 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   assert.equal(await readFile(keepPath, 'utf8'), `DOMAIN,b${state.version}.example\n`);
   assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 2);
 
+  const loadsBeforeForbidden = indexLoads;
+  forbiddenIndexes = 1;
+  await syncWithRetry(options, 1);
+  assert.equal(indexLoads - loadsBeforeForbidden, 6, 'a 403 triggers a fresh snapshot attempt instead of a single-request retry');
+
   const recoveredStatus = await readFile(path.join(directory, 'current/status.json'));
+  const loadsBeforePersistentForbidden = indexLoads;
+  forbiddenIndexes = 3;
+  await assert.rejects(syncWithRetry(options, 1), /HTTP 403: .*\/data\/index\/Mihomo.json/);
+  assert.equal(indexLoads - loadsBeforePersistentForbidden, 4, 'a persistent 403 stops after two snapshot attempts');
+  assert.equal(forbiddenIndexes, 1);
+  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
+  forbiddenIndexes = 0;
+
   const loadsBeforeFailure = indexLoads;
   state.invalid = '404'; state.version++; state.day++;
   await assert.rejects(syncWithRetry(oneRequestAttempt, 1), /HTTP 404/);

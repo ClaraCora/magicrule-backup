@@ -20,6 +20,7 @@ export interface SyncOptions {
 }
 
 class RetryableUpstreamError extends Error {}
+class UpstreamForbiddenError extends RetryableUpstreamError {}
 
 interface SourceArtifact {
   key: string; label?: string; ext: string; url: string;
@@ -149,6 +150,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         if (!response.ok) {
           await response.body?.cancel();
           const message = `HTTP ${response.status}: ${url}`;
+          if (response.status === 403) throw new UpstreamForbiddenError(message);
           if ([404, 408, 429].includes(response.status) || response.status >= 500) {
             throw new RetryableUpstreamError(message);
           }
@@ -166,6 +168,8 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         validate?.(bytes);
         return bytes;
       } catch (cause) {
+        // Let the whole sync back off before retrying a forbidden response.
+        if (cause instanceof UpstreamForbiddenError) throw cause;
         // Fetch and response-body failures surface as TypeError or a timeout.
         if (cause instanceof TypeError || (cause instanceof Error && cause.name === 'TimeoutError')) {
           error = new RetryableUpstreamError(`Upstream request failed: ${url}`, { cause });
