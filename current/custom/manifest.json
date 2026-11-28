@@ -1,83 +1,145 @@
 {
   "schemaVersion": 1,
+  "syncedAt": "2026-11-27T03:00:39.681Z",
   "policySha256": "ab50244f6dcb31d7c41f2a6736a0e2de5660a2d61311d1b47a3e1b35ab099a01",
   "sources": {
     "Mihomo/GlobalAI": {
-      "path": "current/rules/Mihomo/classical/GlobalAI.yaml",
-      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Mihomo/classical/GlobalAI.yaml",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_classical_53616f647b807ae2.yaml",
+      "manifestUrl": "https://magicrule.pages.dev/data/rules/Mihomo/751f401cb91ca739d9cc2d19/manifest.json",
+      "updatedAt": "2026-11-26T03:12:32.824Z",
+      "verification": "bytes",
       "sha256": "9c5c3dc5152124bcd148a5db206b3939a0487d0416f0945d691dbf8d5da25276"
     },
     "Egern/GlobalAI": {
-      "path": "current/rules/Egern/rules/GlobalAI.yaml",
-      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/GlobalAI.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/GlobalAI_rules_f7fcf61ae36f83d8.yaml",
+      "manifestUrl": "https://rule2-ze9.pages.dev/data/rules/Egern/56e1132cef7141537613e1e3/manifest.json",
+      "updatedAt": "2026-11-27T01:54:18.000Z",
+      "verification": "bytes",
       "sha256": "57b8c9e375ab69585369f1d4ad2ee99350602a497419c0a84ccc26b1fa34ce59"
     },
     "Loon/GlobalAI": {
-      "path": "current/rules/Loon/rules/GlobalAI.list",
-      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Loon/rules/GlobalAI.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
+      "manifestUrl": "https://magicrule.pages.dev/data/rules/Loon/883f2b9b9bbdd4521ae94b86/manifest.json",
+      "updatedAt": "2026-11-26T03:11:46.142Z",
+      "verification": "bytes",
       "sha256": "93ff24942caa6bdd5a7f79ba30bc650a7e4c877fd7715857dedfa9629940e94b"
     },
     "Surge/GlobalAI": {
-      "path": "current/rules/Surge/rules/GlobalAI.list",
-      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Surge/rules/GlobalAI.list",
+      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
+      "manifestUrl": "https://magicrule.pages.dev/data/rules/Surge/a71f6500ad64b424bc1ca465/manifest.json",
+      "updatedAt": "2026-11-26T03:12:09.994Z",
+      "verification": "normalized-header",
       "sha256": "93ff24942caa6bdd5a7f79ba30bc650a7e4c877fd7715857dedfa9629940e94b"
     },
     "Egern/NetEaseMusic": {
-      "path": "current/rules/Egern/rules/NetEaseMusic.yaml",
-      "url": "https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/rules/Egern/rules/NetEaseMusic.yaml",
+      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/NetEaseMusic_rules_054ccb99778fe94d.yaml",
+      "manifestUrl": "https://rule2-ze9.pages.dev/data/rules/Egern/909a4a4714ab94b04aa34747/manifest.json",
+      "updatedAt": "2026-11-27T01:54:18.000Z",
+      "verification": "bytes",
       "sha256": "0a1497523e6d13b322eef1c7815d3ba3cbee117447a2f8b0609e937c72c4d0d4"
     }
   },
   "files": [
     {
       "file": "Mihomo/ForeignAI.yaml",
-      "sha256": "43ce9d7057e81989781768d43fa2e087c3b7fa87112a38fdaf9f768506cc1d47",
-      "bytes": 10995
+      "sha256": "06065ba52813dee3084782804c9f4adb70e6ccb7afcf8864ec1baedabdbd74ca",
+      "bytes": 10965,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 43,
+        "DOMAIN-SUFFIX": 266
+      }
     },
     {
       "file": "Mihomo/DomesticAI.yaml",
-      "sha256": "7f8694aa54571edc2e8840d5283d011413ecf500927dd6c273fc356dd12721cf",
-      "bytes": 2071
+      "sha256": "9efe21529fcc14b97dfd0319ac6d7638c67cf128c87a7f6cdeeb4dab53a31dcd",
+      "bytes": 2041,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 10,
+        "DOMAIN-SUFFIX": 43
+      }
     },
     {
       "file": "Egern/ForeignAI.yaml",
-      "sha256": "0ca6cce344e27596280aa5b0f7afdf71c26327f4450c2a5899e1e6810d86353e",
-      "bytes": 7004
+      "sha256": "23153474720394be6c97039758b30a59909fb251413668bea2b970b466ac1d7f",
+      "bytes": 6975,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 43,
+        "DOMAIN-SUFFIX": 266
+      }
     },
     {
       "file": "Egern/DomesticAI.yaml",
-      "sha256": "e885f5d0bfcbf2d94e5bd782b9f1da7fa3fafb809a4370146151cc2982c3b6cc",
-      "bytes": 1433
+      "sha256": "8ceddd2e7331aef6d1adc89a207c24eded8f5081a74fa8149d7ea091c91753eb",
+      "bytes": 1404,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 10,
+        "DOMAIN-SUFFIX": 43
+      }
     },
     {
       "file": "Loon/ForeignAI.list",
-      "sha256": "5429559f741b9b85c1d890bab2d63bf5411f4afc72a5baaba4f2d91c1d90ee2d",
-      "bytes": 9744
+      "sha256": "4ae3443cdabcdf943f33a122b955eefa0747a88e837c8084b8c9df01b59e5406",
+      "bytes": 9716,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 43,
+        "DOMAIN-SUFFIX": 266
+      }
     },
     {
       "file": "Loon/DomesticAI.list",
-      "sha256": "665676383dcf4dbb38cbb7ee99dd121d4c72a27c147806f88f4f055ea82fef1a",
-      "bytes": 1844
+      "sha256": "61a069e8498cfa4e3a6d139ce641cf94b2ec573b4787cc2ecfd60b2c33fa5be5",
+      "bytes": 1816,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 10,
+        "DOMAIN-SUFFIX": 43
+      }
     },
     {
       "file": "Surge/ForeignAI.list",
-      "sha256": "d67e7d4a2f73020e0b362529719cf148aa5598d2bd704666d7874deeebfb8ebd",
-      "bytes": 9745
+      "sha256": "4ae3443cdabcdf943f33a122b955eefa0747a88e837c8084b8c9df01b59e5406",
+      "bytes": 9716,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 43,
+        "DOMAIN-SUFFIX": 266
+      }
     },
     {
       "file": "Surge/DomesticAI.list",
-      "sha256": "6b950933c44052578bbc119869a2dd47750cfb8b16cdd2b69d81480559cdb024",
-      "bytes": 1845
+      "sha256": "61a069e8498cfa4e3a6d139ce641cf94b2ec573b4787cc2ecfd60b2c33fa5be5",
+      "bytes": 1816,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 10,
+        "DOMAIN-SUFFIX": 43
+      }
     },
     {
       "file": "Egern/NetEaseMusic.yaml",
-      "sha256": "917766c6727dd89342736d6f6f2e3d26d98d199bce2cc005592a728b673c5150",
-      "bytes": 1530
+      "sha256": "6375d03ed2f7b482ff31393238b9972065bfb98e254b3912a36c608e52d554d8",
+      "bytes": 1632,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 1,
+        "DOMAIN-SUFFIX": 13,
+        "IP-CIDR": 35,
+        "USER-AGENT": 3
+      }
     },
     {
       "file": "Mihomo/WebRTC.list",
       "sha256": "51878b75e3f138e84731753e077981cf7d708ca9731c48e16d65eb9422de005d",
-      "bytes": 876
+      "bytes": 876,
+      "changedAt": "2026-11-27T03:00:39.681Z",
+      "typeCounts": {
+        "DOMAIN": 27
+      }
     }
   ]
 }
