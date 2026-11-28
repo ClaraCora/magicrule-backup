@@ -13,6 +13,7 @@ export interface SyncOptions {
   repository: string;
   dataDirectory: string;
   concurrency: number;
+  requestIntervalMs?: number;
   timeoutMs: number;
   attempts: number;
   now?: () => Date;
@@ -20,7 +21,25 @@ export interface SyncOptions {
 }
 
 class RetryableUpstreamError extends Error {}
-class UpstreamForbiddenError extends RetryableUpstreamError {}
+
+function retryAfterMs(value: string | null): number {
+  if (value && /^\d+$/.test(value)) return Number(value) * 1000;
+  const deadline = value ? Date.parse(value) : NaN;
+  return Number.isFinite(deadline) ? Math.max(0, deadline - Date.now()) : 5_000;
+}
+
+async function cloudflareErrorCode(response: Response): Promise<string | undefined> {
+  if (response.headers.get('content-type')?.split(';')[0] !== 'text/plain' || !response.body) {
+    await response.body?.cancel();
+    return;
+  }
+  let prefix = '';
+  for await (const chunk of response.body) {
+    prefix += Buffer.from(chunk.subarray(0, 128 - prefix.length)).toString('utf8');
+    if (prefix.length >= 128) break;
+  }
+  return /^\s*error code:\s*(\d{4})\b/i.exec(prefix)?.[1];
+}
 
 interface SourceArtifact {
   key: string; label?: string; ext: string; url: string;
@@ -110,7 +129,10 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
   const current = path.join(root, 'current');
   const staging = path.join(root, `.staging-${randomUUID()}`);
   const now = (options.now?.() || new Date()).toISOString();
-  if (!options.clients.length || options.concurrency < 1 || options.attempts < 1) throw new Error('Invalid sync configuration');
+  const requestIntervalMs = options.requestIntervalMs ?? 0;
+  if (!options.clients.length || options.concurrency < 1 || options.attempts < 1 || !Number.isSafeInteger(requestIntervalMs) || requestIntervalMs < 0 || requestIntervalMs > 60_000) {
+    throw new Error('Invalid sync configuration');
+  }
   if (!/^[\w.-]+\/[\w.-]+$/.test(options.repository)) throw new Error('Invalid repository');
   await mkdir(root, { recursive: true });
   await mkdir(staging);
@@ -139,19 +161,56 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
     if (!allowed.has(url.origin) || url.username || url.password) throw new Error(`Unexpected source URL: ${url.origin}${url.pathname}`);
     return url.href;
   };
+  const upstreamStop = new AbortController();
+  const stop = (error: Error): never => {
+    upstreamStop.abort(error);
+    throw upstreamStop.signal.reason;
+  };
+  let nextRequestAt = 0;
+  const waitForRequestSlot = async () => {
+    for (;;) {
+      upstreamStop.signal.throwIfAborted();
+      const now = performance.now();
+      const wait = nextRequestAt - now;
+      if (wait <= 0) {
+        nextRequestAt = now + requestIntervalMs;
+        return;
+      }
+      await delay(Math.ceil(wait), undefined, { signal: upstreamStop.signal });
+    }
+  };
   const request = async (url: string, validate?: (bytes: Buffer) => void): Promise<Buffer> => {
     let error: unknown;
     for (let attempt = 0; attempt < options.attempts; attempt++) {
       try {
+        await waitForRequestSlot();
+        upstreamStop.signal.throwIfAborted();
         const response = await fetch(url, {
           headers: { 'User-Agent': `MagicRuleBackup/1.0 (+https://github.com/${options.repository})`, Accept: '*/*' },
-          signal: AbortSignal.timeout(options.timeoutMs), redirect: 'error',
+          signal: AbortSignal.any([upstreamStop.signal, AbortSignal.timeout(options.timeoutMs)]), redirect: 'error',
         });
-        if (!response.ok) {
-          await response.body?.cancel();
+        const challenge = response.headers.get('cf-mitigated') === 'challenge';
+        if (!response.ok || challenge) {
           const message = `HTTP ${response.status}: ${url}`;
-          if (response.status === 403) throw new UpstreamForbiddenError(message);
-          if ([404, 408, 429].includes(response.status) || response.status >= 500) {
+          const ray = response.headers.get('cf-ray');
+          const detail = ray && /^[\w-]{1,80}$/.test(ray) ? ` (CF-Ray: ${ray})` : '';
+          if (response.status === 403 || challenge) {
+            const code = await cloudflareErrorCode(response).catch(() => undefined);
+            const policy = challenge ? 'Cloudflare challenge' : code ? `Cloudflare error ${code}` : 'upstream access denied';
+            stop(new Error(`${message} — ${policy}${detail}`));
+          }
+          if (response.status === 429) {
+            const cooldown = Math.max(1_000, retryAfterMs(response.headers.get('retry-after')));
+            if (attempt + 1 === options.attempts || cooldown > 60_000) {
+              stop(new Error(`${message}${detail} — rate limit, cooldown ${cooldown / 1000}s`));
+            }
+            nextRequestAt = Math.max(nextRequestAt, performance.now() + cooldown);
+            console.warn(`${message}${detail} — pausing upstream requests for ${cooldown / 1000}s`);
+            await response.body?.cancel();
+            continue;
+          }
+          await response.body?.cancel();
+          if ([404, 408].includes(response.status) || response.status >= 500) {
             throw new RetryableUpstreamError(message);
           }
           throw new Error(message);
@@ -168,8 +227,7 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         validate?.(bytes);
         return bytes;
       } catch (cause) {
-        // Let the whole sync back off before retrying a forbidden response.
-        if (cause instanceof UpstreamForbiddenError) throw cause;
+        upstreamStop.signal.throwIfAborted();
         // Fetch and response-body failures surface as TypeError or a timeout.
         if (cause instanceof TypeError || (cause instanceof Error && cause.name === 'TimeoutError')) {
           error = new RetryableUpstreamError(`Upstream request failed: ${url}`, { cause });
@@ -178,7 +236,14 @@ export async function sync(options: SyncOptions): Promise<SyncStatus> {
         } else {
           throw cause;
         }
-        if (attempt + 1 < options.attempts) await delay((options.retryDelayMs ?? 1000) * 2 ** attempt);
+        if (attempt + 1 < options.attempts) {
+          try {
+            await delay((options.retryDelayMs ?? 1000) * 2 ** attempt, undefined, { signal: upstreamStop.signal });
+          } catch (cause) {
+            upstreamStop.signal.throwIfAborted();
+            throw cause;
+          }
+        }
       }
     }
     throw error;

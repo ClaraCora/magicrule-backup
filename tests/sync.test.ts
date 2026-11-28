@@ -108,22 +108,32 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-test-'));
   const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false, duplicate: false };
   let indexLoads = 0;
-  let forbiddenIndexes = 0;
+  let forbidden = false;
+  let retryAfter: string | undefined;
+  const requests: { path: string; time: number }[] = [];
   const binary = Buffer.from([0x4d, 0x52, 0x53, 0, 255, 0, 1]);
   let origin = '';
   const rule = (client: string, id: string) => ({ id, name: id === 'a' ? state.nameA : id === 'b' ? state.nameB : 'NewRule', chinese_name: id === 'a' ? '示例' : '保留', manifest: `${origin}/data/rules/${client}/${id}/manifest.json`, types: ['DOMAIN'], total_line_count: 1, providers: ['https://example.com/author'], ...(id === 'a' ? { rule_updated_at: '2026-01-01T00:00:00Z' } : {}) });
   const server = createServer((req, res) => {
     const url = new URL(req.url!, origin);
+    requests.push({ path: url.pathname, time: performance.now() });
+    if (url.pathname === '/data/meta/clients.json' && retryAfter !== undefined) {
+      res.statusCode = 429;
+      res.setHeader('Retry-After', retryAfter);
+      retryAfter = undefined;
+      return void res.end('rate limited');
+    }
     res.setHeader('Content-Type', 'application/json');
     if (url.pathname === '/data/meta/clients.json') return void res.end(JSON.stringify({ clients: [{ name: 'Loon' }, { name: 'Mihomo' }] }));
     if (url.pathname.startsWith('/data/meta/')) return void res.end('{}');
     if (url.pathname.startsWith('/data/index/')) {
       indexLoads++;
       const client = url.pathname.includes('Loon') ? 'Loon' : 'Mihomo';
-      if (client === 'Mihomo' && forbiddenIndexes > 0) {
-        forbiddenIndexes--;
+      if (client === 'Mihomo' && forbidden) {
         res.statusCode = 403;
-        return void res.end('forbidden');
+        res.setHeader('Content-Type', 'text/plain; charset=UTF-8');
+        res.setHeader('CF-Ray', 'abcdef-NRT');
+        return void res.end('error code: 1010\n');
       }
       const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : []), ...(state.duplicate ? [rule(client, 'd')] : [])] : [rule(client, 'a')];
       return void res.end(JSON.stringify({ client: state.invalid === 'wrong-index' ? 'Other' : client, generated_at: '2026-11-01T00:00:00Z', rules }));
@@ -260,19 +270,19 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
   assert.equal(await readFile(keepPath, 'utf8'), `DOMAIN,b${state.version}.example\n`);
   assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 2);
 
-  const loadsBeforeForbidden = indexLoads;
-  forbiddenIndexes = 1;
-  await syncWithRetry(options, 1);
-  assert.equal(indexLoads - loadsBeforeForbidden, 6, 'a 403 triggers a fresh snapshot attempt instead of a single-request retry');
-
   const recoveredStatus = await readFile(path.join(directory, 'current/status.json'));
-  const loadsBeforePersistentForbidden = indexLoads;
-  forbiddenIndexes = 3;
-  await assert.rejects(syncWithRetry(options, 1), /HTTP 403: .*\/data\/index\/Mihomo.json/);
-  assert.equal(indexLoads - loadsBeforePersistentForbidden, 4, 'a persistent 403 stops after two snapshot attempts');
-  assert.equal(forbiddenIndexes, 1);
+  const loadsBeforeForbidden = indexLoads;
+  forbidden = true;
+  await assert.rejects(syncWithRetry(options, 1), /HTTP 403: .*\/data\/index\/Mihomo.json.*Cloudflare error 1010.*CF-Ray: abcdef-NRT/);
+  assert.equal(indexLoads - loadsBeforeForbidden, 2, 'a 403 stops after one batch without a request retry');
   assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
-  forbiddenIndexes = 0;
+  forbidden = false;
+
+  retryAfter = '120';
+  const loadsBeforeLongCooldown = requests.length;
+  await assert.rejects(syncWithRetry({ ...options, requestIntervalMs: 25 }, 1), /HTTP 429.*cooldown 120s/);
+  assert.equal(requests.length - loadsBeforeLongCooldown, 1, 'a long cooldown cancels queued requests and stops without retrying');
+  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
 
   const loadsBeforeFailure = indexLoads;
   state.invalid = '404'; state.version++; state.day++;
@@ -288,6 +298,13 @@ test('complete snapshots, incremental reuse, timestamps, delisting, rollback and
 
   state.invalid = ''; state.retry = 2; state.version++; state.day++;
   assert.ok((await sync(options)).downloadedFiles > 0, 'transient failures retry successfully');
+  retryAfter = '1';
+  const start = requests.length;
+  await sync({ ...options, requestIntervalMs: 25 });
+  const paced = requests.slice(start);
+  assert.equal(paced[0].path, '/data/meta/clients.json');
+  assert.ok(paced[1].time - paced[0].time >= 980, 'Retry-After pauses even other queued requests');
+  assert.ok(paced.slice(2).every((request, i) => request.time - paced[i + 1].time >= 15), 'request starts stay spaced under concurrency');
   state.extra = true; state.day++;
   const added = await sync(options);
   assert.equal(added.clientRuleCount, 3);
