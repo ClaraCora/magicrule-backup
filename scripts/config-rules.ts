@@ -1,15 +1,46 @@
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { pathToFileURL } from 'node:url';
 import YAML from 'yaml';
-import type { Artifact, Catalog } from '../src/lib/types.ts';
 
 export interface DomainScope { domains: string[]; suffixes: string[] }
 export interface ConfigPolicy { foreignAI: DomainScope; domesticAI: DomainScope; webRTC: string[] }
 type DomainEntry = { type: 'DOMAIN' | 'DOMAIN-SUFFIX'; value: string };
-type AIClient = 'Mihomo' | 'Egern' | 'Loon' | 'Surge';
-const sha256 = (bytes: Uint8Array | string) => createHash('sha256').update(bytes).digest('hex');
+export const clients = ['Mihomo', 'Egern', 'Loon', 'Surge'] as const;
+type AIClient = (typeof clients)[number];
+const extensionFor = (client: AIClient) => client === 'Loon' || client === 'Surge' ? 'list' : 'yaml';
+export const sourceRules = [
+  ...clients.map(client => ({ client, name: 'GlobalAI', key: client === 'Mihomo' ? 'classical' : 'rules', extension: extensionFor(client) })),
+  { client: 'Egern', name: 'NetEaseMusic', key: 'rules', extension: 'yaml' },
+];
+const webRTCSource = 'https://raw.githubusercontent.com/ClaraCora/ege/main/mihomo/WebRTC.list';
+export const customFiles = [
+  ...clients.flatMap(client => ['ForeignAI', 'DomesticAI'].map(name => client + '/' + name + '.' + extensionFor(client))),
+  'Egern/NetEaseMusic.yaml', 'Mihomo/WebRTC.list',
+];
+export interface RuleSource {
+  bytes: Buffer;
+  url: string;
+  manifestUrl: string;
+  updatedAt: string | null;
+  verification: 'bytes' | 'normalized-header';
+}
+export interface CustomFile {
+  file: string;
+  sha256: string;
+  bytes: number;
+  changedAt: string;
+  typeCounts: Record<string, number>;
+}
+export interface CustomManifest {
+  schemaVersion: 1;
+  syncedAt: string;
+  policySha256: string;
+  sources: Record<string, Omit<RuleSource, 'bytes'> & { sha256: string }>;
+  files: CustomFile[];
+}
+export const sourceId = ({ client, name }: { client: string; name: string }) => client + '/' + name;
+export const sha256 = (bytes: Uint8Array | string) => createHash('sha256').update(bytes).digest('hex');
 const beneath = (domain: string, root: string) => domain === root || domain.endsWith('.' + root);
 const validDomain = (s: string) => s === s.toLowerCase() && s.includes('.') && !s.startsWith('.') && !/^\d+(\.\d+)+$/.test(s) && /^[a-z0-9_-]+(?:\.[a-z0-9_-]+)+$/.test(s);
 
@@ -83,57 +114,68 @@ function render(entries: DomainEntry[], client: AIClient) {
   return YAML.stringify({ no_resolve: true, domain_set: entries.filter(e => e.type === 'DOMAIN').map(e => e.value), domain_suffix_set: entries.filter(e => e.type === 'DOMAIN-SUFFIX').map(e => e.value) });
 }
 
-export async function generateConfigRules(root: string, output = path.join(root, 'current', 'custom')) {
-  root = path.resolve(root);
+export async function generateConfigRules(
+  inputs: Map<string, RuleSource>, output: string, syncedAt: string, previous?: CustomManifest,
+): Promise<CustomManifest> {
   const policyText = await readFile(new URL('../config-rules/policy.json', import.meta.url), 'utf8');
   const policy: ConfigPolicy = JSON.parse(policyText);
   validatePolicy(policy);
-  const catalog: Catalog = JSON.parse(await readFile(path.join(root, 'current', 'catalog.json'), 'utf8'));
-  const sources: Record<string, { path: string; url: string; sha256: string }> = {};
-  async function source(client: string, name: string, key: string, extension = 'yaml') {
-    const matches = catalog.rules.flatMap(r => r.variants.filter(v => v.client === client && v.name === name && !v.archived).flatMap(v => v.artifacts.filter(a => a.key === key && a.extension === extension)));
-    if (matches.length !== 1) throw new Error('Missing or ambiguous source: ' + client + '/' + name);
-    const artifact: Artifact = matches[0];
-    const file = path.resolve(root, artifact.path);
-    if (!file.startsWith(root + path.sep)) throw new Error('Escaping source path');
-    const bytes = await readFile(file);
-    if (sha256(bytes) !== artifact.sha256) throw new Error('Source hash mismatch: ' + artifact.path);
-    sources[client + '/' + name] = { path: artifact.path, url: artifact.url, sha256: artifact.sha256 };
+  const sources: CustomManifest['sources'] = {};
+  function source(id: string) {
+    const input = inputs.get(id);
+    if (!input) throw new Error('Missing verified source: ' + id);
+    const { bytes, ...provenance } = input;
+    sources[id] = { ...provenance, sha256: sha256(bytes) };
     return bytes.toString('utf8');
   }
-  const files: Record<string, string> = {};
-  for (const client of ['Mihomo', 'Egern', 'Loon', 'Surge'] as const) {
-    const extension = client === 'Loon' || client === 'Surge' ? 'list' : 'yaml';
-    const original = await source(client, 'GlobalAI', client === 'Mihomo' ? 'classical' : 'rules', extension);
+  const files = new Map<string, { text: string; typeCounts: Record<string, number> }>();
+  for (const client of clients) {
+    const id = client + '/GlobalAI';
+    const original = source(id);
     const entries = domainEntries(original, client);
-    const attribution = original.split(/\r?\n/).filter(line => /^# (AUTHOR|REPO|UPDATED):/.test(line)).join('\n');
+    const attribution = original.split(/\r?\n/).filter(line => /^# (AUTHOR|REPO|UPDATED):/.test(line));
     for (const [name, scope] of [['ForeignAI', policy.foreignAI], ['DomesticAI', policy.domesticAI]] as const) {
       const selected = scopedEntries(entries, scope);
-      files[`${client}/${name}.${extension}`] = `# NAME: ${name}\n${attribution}\n# DERIVED: scoped domains only; no shared cloud IP/ASN, process or keyword rules.\n# SOURCE: ${sources[client + '/GlobalAI'].url}\n# SOURCE-SHA256: ${sources[client + '/GlobalAI'].sha256}\n\n` + render(selected, client);
+      const header = [
+        '# NAME: ' + name, ...attribution,
+        '# DERIVED: scoped domains only; no shared cloud IP/ASN, process or keyword rules.',
+        '# SOURCE: ' + sources[id].url, '# SOURCE-SHA256: ' + sources[id].sha256, '', '',
+      ].join('\n');
+      const typeCounts: Record<string, number> = {};
+      for (const { type } of selected) typeCounts[type] = (typeCounts[type] ?? 0) + 1;
+      files.set(client + '/' + name + '.' + extensionFor(client), { text: header + render(selected, client), typeCounts });
     }
   }
-  const music = await source('Egern', 'NetEaseMusic', 'rules');
-  files['Egern/NetEaseMusic.yaml'] = '# DERIVED: YAML quoting repair; original rule values and attribution preserved.\n# SOURCE-SHA256: ' + sources['Egern/NetEaseMusic'].sha256 + '\n' + repairMusicYaml(music);
-  files['Mihomo/WebRTC.list'] = '# NAME: WebRTC\n# SOURCE: https://raw.githubusercontent.com/ClaraCora/ege/main/mihomo/WebRTC.list\n# DERIVED: explicit STUN/TURN hosts only; no global destination-port rules.\n' + policy.webRTC.map(domain => 'DOMAIN,' + domain).join('\n') + '\n';
-  for (const [name, text] of Object.entries(files)) {
-    if (name.endsWith('.yaml')) YAML.parse(text);
-    if (name.startsWith('Loon/')) domainEntries(text, 'Loon');
-    if (name.startsWith('Surge/')) domainEntries(text, 'Surge');
-  }
-  const manifest = { schemaVersion: 1, policySha256: sha256(policyText), sources, files: Object.entries(files).map(([file, text]) => ({ file, sha256: sha256(text), bytes: Buffer.byteLength(text) })) };
-  // Everything is prepared and validated before writing. The workflow commits
-  // this complete batch with the validated backup only after the build succeeds.
-  for (const [name, text] of Object.entries({ ...files, 'manifest.json': JSON.stringify(manifest, null, 2) + '\n' })) {
+  const musicId = 'Egern/NetEaseMusic';
+  const music = repairMusicYaml(source(musicId));
+  const typeCounts = Object.fromEntries(Object.entries(YAML.parse(music) as Record<string, unknown>)
+    .filter(([key, value]) => key.endsWith('_set') && Array.isArray(value))
+    .map(([key, value]) => [key.replace(/_set$/, '').replaceAll('_', '-').toUpperCase(), (value as unknown[]).length]));
+  files.set('Egern/NetEaseMusic.yaml', {
+    text: '# DERIVED: YAML quoting repair; original rule values and attribution preserved.\n# SOURCE: '
+      + sources[musicId].url + '\n# SOURCE-SHA256: ' + sources[musicId].sha256 + '\n' + music,
+    typeCounts,
+  });
+  files.set('Mihomo/WebRTC.list', {
+    text: '# NAME: WebRTC\n# SOURCE: ' + webRTCSource
+      + '\n# DERIVED: explicit STUN/TURN hosts only; no global destination-port rules.\n'
+      + policy.webRTC.map(domain => 'DOMAIN,' + domain).join('\n') + '\n',
+    typeCounts: { DOMAIN: policy.webRTC.length },
+  });
+
+  const manifest: CustomManifest = {
+    schemaVersion: 1, syncedAt, policySha256: sha256(policyText), sources,
+    files: [...files].map(([file, { text, typeCounts }]) => {
+      const hash = sha256(text);
+      const prior = previous?.files.find(entry => entry.file === file);
+      return { file, sha256: hash, bytes: Buffer.byteLength(text), changedAt: prior?.sha256 === hash ? prior.changedAt : syncedAt, typeCounts };
+    }),
+  };
+  for (const [name, { text }] of files) {
     const target = path.join(output, name);
     await mkdir(path.dirname(target), { recursive: true });
-    await writeFile(target + '.tmp', text);
-    await rename(target + '.tmp', target);
+    await writeFile(target, text);
   }
+  await writeFile(path.join(output, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
   return manifest;
-}
-
-if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  const root = path.resolve(process.env.BACKUP_DIR || '.cache/backup');
-  const manifest = await generateConfigRules(root, process.env.CONFIG_RULES_OUTPUT);
-  console.log(JSON.stringify({ generatedFiles: manifest.files, sources: manifest.sources }, null, 2));
 }

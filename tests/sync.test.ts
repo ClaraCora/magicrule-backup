@@ -1,332 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
-import { createHash } from 'node:crypto';
-import { cp, mkdtemp, mkdir, readFile, writeFile, readdir, rename, rm, access } from 'node:fs/promises';
+import { mkdir, mkdtemp, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { sync, syncWithRetry, verifyArtifact } from '../scripts/sync.ts';
-import { migrateNames } from '../scripts/migrate-names.ts';
-import { verifySnapshot } from '../scripts/verify.ts';
-import type { Catalog } from '../src/lib/types.ts';
-
-const sha = (data: string | Buffer) => createHash('sha256').update(data).digest('hex');
-
-test('adding Surge preserves the old snapshot offline and syncs all Surge artifact formats', async t => {
-  const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-surge-'));
-  const artifacts = [
-    { key: 'rules', ext: 'list', text: '# AUTHOR: MagicRule\nDOMAIN-SUFFIX,openai.com\nDOMAIN-SUFFIX,deepseek.com\nIP-ASN,14061,no-resolve\n' },
-    { key: 'domain-set', ext: 'list', text: '.openai.com\n.deepseek.com\n' },
-    { key: 'rule-set', ext: 'list', text: 'IP-ASN,14061,no-resolve\n' },
-    { key: 'mitm', ext: 'sgmodule', text: '#!name=GlobalAI\n[MITM]\nhostname = %APPEND% example.com\n' },
-  ];
-  let surgeName = 'GlobalAI';
-  let surgeFormats = artifacts;
-  const server = createServer((req, res) => {
-    const pathname = new URL(req.url!, 'http://localhost').pathname;
-    res.setHeader('Content-Type', 'application/json');
-    if (pathname === '/data/meta/clients.json') return void res.end(JSON.stringify({ clients: [{ name: 'Loon' }, { name: 'Surge' }] }));
-    if (pathname.startsWith('/data/meta/')) return void res.end('{}');
-    if (pathname.startsWith('/data/index/')) {
-      const client = path.basename(pathname, '.json');
-      return void res.end(JSON.stringify({ client, rules: [{ id: 'ai', name: client === 'Surge' ? surgeName : 'GlobalAI', manifest: `/data/rules/${client}/ai/manifest.json` }] }));
-    }
-    if (pathname.endsWith('/manifest.json')) {
-      const client = pathname.split('/')[3];
-      const selected = client === 'Surge' ? surgeFormats : artifacts.slice(0, 1);
-      return void res.end(JSON.stringify({ client, artifacts: selected.map(({ key, ext, text }) => ({ key, ext, url: `/artifacts/${key}.${ext}`, dedupe: { bytes_sha256: sha(text) } })) }));
-    }
-    const artifact = artifacts.find(a => pathname === `/artifacts/${a.key}.${a.ext}`);
-    if (artifact) { res.setHeader('Content-Type', 'text/plain'); return void res.end(artifact.text); }
-    res.statusCode = 404; res.end('missing');
-  });
-  await new Promise<void>(resolve => server.listen(0, '127.0.0.1', resolve));
-  const origin = `http://127.0.0.1:${(server.address() as { port: number }).port}`;
-  t.after(async () => { server.closeAllConnections(); await new Promise<void>(resolve => server.close(() => resolve())); await rm(directory, { recursive: true, force: true }); });
-  const options = { source: origin, allowedOrigins: [origin], clients: ['Loon'], repository: 'example/rules', dataDirectory: directory, concurrency: 2, timeoutMs: 2000, attempts: 1 };
-  await sync(options);
-  const expanded = { ...options, clients: ['Loon', 'Surge'] };
-  const before = await readFile(path.join(directory, 'current/status.json'));
-  assert.equal((await verifySnapshot(directory, expanded)).verifiedFiles, 1);
-  assert.equal((await migrateNames(directory, expanded)).movedFiles, 0);
-  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), before);
-  const catalogFile = path.join(directory, 'current/catalog.json');
-  const catalog: Catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
-  for (const clients of [[], ['Loon', 'Loon'], ['Loon', 'Unexpected'], ['Loon', 'Surge']]) {
-    await writeFile(catalogFile, JSON.stringify({ ...catalog, clients }));
-    await assert.rejects(verifySnapshot(directory, expanded), /Snapshot clients/);
-  }
-  await writeFile(catalogFile, JSON.stringify(catalog));
-  const result = await sync(expanded);
-  assert.deepEqual(result.clients.map(client => client.name), ['Loon', 'Surge']);
-  assert.equal(result.clientRuleCount, 2);
-  assert.equal(result.artifactCount, 5);
-  assert.equal((await verifySnapshot(directory, expanded)).verifiedFiles, 5);
-  for (const { key, ext, text } of artifacts) {
-    assert.equal(await readFile(path.join(directory, `current/rules/Surge/${key}/GlobalAI.${ext}`), 'utf8'), text);
-  }
-  const repeated = await sync(expanded);
-  assert.equal(repeated.downloadedFiles, 0);
-  assert.equal(repeated.reusedFiles, 5);
-
-  const surgeVariant = async () => {
-    const snapshot: Catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
-    return snapshot.rules[0].variants.find(variant => variant.client === 'Surge')!;
-  };
-  const originalVariant = await surgeVariant();
-  const removed = originalVariant.artifacts[1];
-  const removedPath = path.join(directory, removed.path);
-  const originalBytes = await readFile(removedPath);
-  surgeFormats = artifacts.filter(artifact => artifact.key !== removed.key);
-  assert.equal((await sync(expanded)).artifactCount, 4);
-  assert.deepEqual((await surgeVariant()).retainedArtifacts, [removed]);
-  assert.ok(!(await surgeVariant()).artifacts.some(artifact => artifact.key === removed.key));
-  assert.equal((await verifySnapshot(directory, expanded)).retainedFiles, 1);
-  const migrated = await migrateNames(directory, expanded);
-  assert.ok('retainedFiles' in migrated);
-  assert.equal(migrated.retainedFiles, 1);
-  assert.deepEqual(await readFile(removedPath), originalBytes);
-
-  const publishedStatus = await readFile(path.join(directory, 'current/status.json'));
-  await writeFile(removedPath, 'corrupt');
-  await assert.rejects(verifySnapshot(directory, expanded), /Stored bytes mismatch/);
-  await assert.rejects(sync(expanded), /Stored bytes mismatch/);
-  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), publishedStatus);
-  await writeFile(removedPath, originalBytes);
-
-  surgeName = 'RenamedGlobalAI';
-  surgeFormats = artifacts;
-  assert.equal((await sync(expanded)).artifactCount, 5);
-  const restored = await surgeVariant();
-  assert.equal(restored.name, surgeName);
-  assert.equal(restored.retainedArtifacts, undefined);
-  assert.deepEqual(restored.artifacts.find(artifact => artifact.key === removed.key), removed);
-  assert.equal((await verifySnapshot(directory, expanded)).retainedFiles, 0);
-});
-
-test('complete snapshots, incremental reuse, timestamps, delisting, rollback and retry', async t => {
-  const directory = await mkdtemp(path.join(tmpdir(), 'magicrule-test-'));
-  const state = { version: 1, remove: false, invalid: '', retry: 0, day: 1, nameA: 'Example', nameB: 'Keep', extra: false, duplicate: false };
-  let indexLoads = 0;
-  let forbidden = false;
-  let retryAfter: string | undefined;
-  const requests: { path: string; time: number }[] = [];
-  const binary = Buffer.from([0x4d, 0x52, 0x53, 0, 255, 0, 1]);
-  let origin = '';
-  const rule = (client: string, id: string) => ({ id, name: id === 'a' ? state.nameA : id === 'b' ? state.nameB : 'NewRule', chinese_name: id === 'a' ? '示例' : '保留', manifest: `${origin}/data/rules/${client}/${id}/manifest.json`, types: ['DOMAIN'], total_line_count: 1, providers: ['https://example.com/author'], ...(id === 'a' ? { rule_updated_at: '2026-01-01T00:00:00Z' } : {}) });
-  const server = createServer((req, res) => {
-    const url = new URL(req.url!, origin);
-    requests.push({ path: url.pathname, time: performance.now() });
-    if (url.pathname === '/data/meta/clients.json' && retryAfter !== undefined) {
-      res.statusCode = 429;
-      res.setHeader('Retry-After', retryAfter);
-      retryAfter = undefined;
-      return void res.end('rate limited');
-    }
-    res.setHeader('Content-Type', 'application/json');
-    if (url.pathname === '/data/meta/clients.json') return void res.end(JSON.stringify({ clients: [{ name: 'Loon' }, { name: 'Mihomo' }] }));
-    if (url.pathname.startsWith('/data/meta/')) return void res.end('{}');
-    if (url.pathname.startsWith('/data/index/')) {
-      indexLoads++;
-      const client = url.pathname.includes('Loon') ? 'Loon' : 'Mihomo';
-      if (client === 'Mihomo' && forbidden) {
-        res.statusCode = 403;
-        res.setHeader('Content-Type', 'text/plain; charset=UTF-8');
-        res.setHeader('CF-Ray', 'abcdef-NRT');
-        return void res.end('error code: 1010\n');
-      }
-      const rules = client === 'Loon' ? [...(state.remove ? [] : [rule(client, 'a')]), rule(client, 'b'), ...(state.extra ? [rule(client, 'c')] : []), ...(state.duplicate ? [rule(client, 'd')] : [])] : [rule(client, 'a')];
-      return void res.end(JSON.stringify({ client: state.invalid === 'wrong-index' ? 'Other' : client, generated_at: '2026-11-01T00:00:00Z', rules }));
-    }
-    if (url.pathname.endsWith('/manifest.json')) {
-      const [, , , client, id] = url.pathname.split('/');
-      const isBinary = client === 'Mihomo';
-      const bytes = isBinary ? binary : Buffer.from(`DOMAIN,${id}${state.version}.example\n`);
-      const artifactUrl = state.invalid === 'origin' ? 'https://unexpected.example/file.list' : `${origin}/artifacts/${client}-${id}-${state.version}.${isBinary ? 'mrs' : 'list'}`;
-      const nameAtRequest = rule(client, id).name;
-      if (state.invalid === 'change-index' && client === 'Loon' && id === 'b') {
-        state.nameB = 'RenamedDuringSync';
-        state.invalid = '';
-      }
-      return void res.end(JSON.stringify({ client, rule: state.invalid === 'wrong-rule' ? 'OtherRule' : nameAtRequest, total_line_count: 1, artifacts: state.invalid === 'missing-artifact' ? undefined : [{ key: 'rules', ext: isBinary ? 'mrs' : 'list', url: artifactUrl, binary: isBinary, dedupe: { bytes_sha256: sha(bytes) } }] }));
-    }
-    if (url.pathname.startsWith('/artifacts/')) {
-      if (state.invalid === 'timeout') return;
-      if (state.invalid === '404') { res.statusCode = 404; return void res.end('not found'); }
-      if (state.invalid === 'html') return void res.end('<!doctype html><html>Missing</html>');
-      if (state.invalid === 'hash') return void res.end('corrupt');
-      if (state.invalid === 'stale-file') {
-        // The first manifest describes bytes unavailable until the upstream deploy finishes.
-        state.invalid = '';
-        state.version++;
-        return void res.end('bytes from a different upstream version');
-      }
-      if (state.retry > 0) { state.retry--; res.statusCode = 503; return void res.end('retry'); }
-      const isBinary = url.pathname.endsWith('.mrs');
-      const id = /-(a|b|c|d)-/.exec(url.pathname)![1];
-      res.setHeader('Content-Type', 'application/octet-stream');
-      return void res.end(isBinary ? binary : Buffer.from(`DOMAIN,${id}${state.version}.example\n`));
-    }
-    res.statusCode = 404; res.end('missing');
-  });
-  await new Promise<void>(resolve => server.listen(0, '127.0.0.1', resolve));
-  origin = `http://127.0.0.1:${(server.address() as { port: number }).port}`;
-  const options = { source: origin, allowedOrigins: [origin], clients: ['Loon', 'Mihomo'], repository: 'example/rules', dataDirectory: directory, concurrency: 2, timeoutMs: 2000, attempts: 3, retryDelayMs: 1, now: () => new Date(`2026-11-${String(state.day).padStart(2, '0')}T00:00:00Z`) };
-  const catalog = async () => JSON.parse(await readFile(path.join(directory, 'current/catalog.json'), 'utf8')) as Catalog;
-  t.after(async () => { server.closeAllConnections(); await new Promise<void>(resolve => server.close(() => resolve())); await rm(directory, { recursive: true, force: true }); });
-
-  const first = await sync(options);
-  assert.equal(first.activeRuleCount, 2); assert.equal(first.clientRuleCount, 3); assert.equal(first.artifactCount, 3);
-  const original = await catalog();
-  assert.equal(original.rules.find(r => r.id === 'b')!.variants[0].sourceUpdatedAt, null, 'generation time must not masquerade as rule update');
-  assert.deepEqual(await readFile(path.join(directory, 'current/rules/Mihomo/rules/Example.mrs')), binary, 'binary bytes are preserved');
-  // Previously published UUID addresses must survive offline validation too.
-  const legacyDirectory = path.join(directory, 'legacy');
-  await cp(path.join(directory, 'current'), path.join(legacyDirectory, 'current'), { recursive: true });
-  const legacy = structuredClone(original);
-  for (const rule of legacy.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) {
-    const oldPath = `current/rules/${variant.client}/${rule.id}/${artifact.key}.${artifact.extension}`;
-    await mkdir(path.dirname(path.join(legacyDirectory, oldPath)), { recursive: true });
-    await rename(path.join(legacyDirectory, artifact.path), path.join(legacyDirectory, oldPath));
-    artifact.path = oldPath;
-    artifact.url = `https://raw.githubusercontent.com/example/rules/refs/heads/data/${oldPath}`;
-    Reflect.deleteProperty(artifact, 'fileName');
-  }
-  await writeFile(path.join(legacyDirectory, 'current/catalog.json'), JSON.stringify(legacy));
-  await writeFile(path.join(legacyDirectory, 'current/rules/Loon/a/obsolete.list'), 'unused');
-  const initialStatus = await readFile(path.join(directory, 'current/status.json'));
-  const initialHistory = await readFile(path.join(directory, 'current/history.json'));
-  const validatedLegacy = await migrateNames(legacyDirectory, options);
-  assert.equal(validatedLegacy.movedFiles, 0);
-  assert.ok('updatedFiles' in validatedLegacy);
-  assert.equal(validatedLegacy.updatedFiles, 3);
-  for (const rule of legacy.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) artifact.fileName = path.posix.basename(artifact.path);
-  assert.deepEqual(JSON.parse(await readFile(path.join(legacyDirectory, 'current/catalog.json'), 'utf8')), legacy, 'validation fills filenames without moving published addresses');
-  assert.deepEqual(await readFile(path.join(legacyDirectory, 'current/status.json')), initialStatus);
-  assert.deepEqual(await readFile(path.join(legacyDirectory, 'current/history.json')), initialHistory);
-  await assert.rejects(access(path.join(legacyDirectory, 'current/rules/Loon/a/obsolete.list')));
-  assert.equal((await migrateNames(legacyDirectory, options)).movedFiles, 0, 'repeat validation is idempotent');
-  assert.equal((await verifySnapshot(legacyDirectory, options)).verifiedFiles, 3);
-  await sync({ ...options, dataDirectory: legacyDirectory });
-  for (const rule of legacy.rules) for (const variant of rule.variants) for (const artifact of variant.artifacts) await access(path.join(legacyDirectory, artifact.path));
-  assert.equal((await verifySnapshot(legacyDirectory, options)).verifiedFiles, 3);
-  state.day++;
-  const second = await sync(options);
-  assert.equal(second.downloadedFiles, 0); assert.equal(second.reusedFiles, 3);
-  assert.deepEqual(await catalog(), original, 'unchanged sync does not change rule dates');
-  state.day++; state.nameA = 'Renamed';
-  const renamed = await sync(options);
-  assert.equal(renamed.downloadedFiles, 0, 'renaming reuses previously verified bytes');
-  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/Example.list'), 'utf8'), 'DOMAIN,a1.example\n');
-  await assert.rejects(access(path.join(directory, 'current/rules/Loon/rules/Renamed.list')));
-  const renamedVariant = (await catalog()).rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Loon')!;
-  assert.equal(renamedVariant.name, 'Renamed');
-  assert.equal(renamedVariant.artifacts[0].url, original.rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Loon')!.artifacts[0].url);
-  assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 3);
-  assert.equal((await migrateNames(directory, options)).movedFiles, 0);
-  await access(path.join(directory, 'current/rules/Loon/rules/Example.list'));
-  assert.equal((await catalog()).rules.find(r => r.id === 'a')!.variants[0].fileChangedAt, original.rules.find(r => r.id === 'a')!.variants[0].fileChangedAt);
-  state.day++; state.version++;
-  await sync(options);
-  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/Example.list'), 'utf8'), 'DOMAIN,a2.example\n', 'renamed rules keep updating at the original address');
-  state.day++; state.nameA = 'Example'; await sync(options);
-  const updated = await catalog();
-  assert.notEqual(updated.rules[0].variants[0].fileChangedAt, original.rules[0].variants[0].fileChangedAt);
-  const binaryVariant = updated.rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Mihomo')!;
-  assert.equal(binaryVariant.fileChangedAt, original.rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Mihomo')!.fileChangedAt, 'unchanged binary keeps its date');
-  state.day++; state.remove = true;
-  await sync(options);
-  assert.equal((await catalog()).rules.find(r => r.id === 'a')!.variants.find(v => v.client === 'Loon')!.archived, true);
-  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/Example.list'), 'utf8'), 'DOMAIN,a2.example\n', 'delisted files remain downloadable');
-  assert.equal((await verifySnapshot(directory, options)).retainedFiles, 1);
-  const archivedMigration = await migrateNames(directory, options);
-  assert.ok('retainedFiles' in archivedMigration);
-  assert.equal(archivedMigration.retainedFiles, 1, 'offline migration also verifies and preserves archived artifacts');
-  const before = await readFile(path.join(directory, 'current/catalog.json'));
-  const statusBefore = await readFile(path.join(directory, 'current/status.json'));
-  for (const invalid of ['hash', 'html', '404', 'origin', 'timeout', 'missing-artifact']) {
-    state.invalid = invalid; state.version++;
-    await assert.rejects(sync({ ...options, timeoutMs: invalid === 'timeout' ? 100 : options.timeoutMs }));
-    assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), before, `${invalid} must not publish a partial catalog`);
-    assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), statusBefore, `${invalid} must not update successful time`);
-    assert.equal((await readdir(directory)).some(name => name.startsWith('.staging-')), false);
-  }
-  for (const [invalid, reason] of [
-    ['wrong-index', /Unexpected client/], ['wrong-rule', /Manifest rule mismatch/],
-    ['change-index', /Upstream index changed during sync: Loon/],
-  ] as const) {
-    state.invalid = invalid;
-    await assert.rejects(sync(options), reason);
-    assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), before);
-    assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), statusBefore);
-  }
-  const oneRequestAttempt = { ...options, concurrency: 1, attempts: 1 };
-  const loadsBeforeRetry = indexLoads;
-  state.invalid = 'stale-file'; state.version++; state.day++;
-  const recovered = await syncWithRetry(oneRequestAttempt, 1);
-  assert.equal(indexLoads - loadsBeforeRetry, 6, 'the retry reloads both indexes and confirms them before publishing');
-  assert.equal(recovered.lastSuccessfulSyncAt, options.now().toISOString());
-  const keepPath = path.join(directory, 'current/rules/Loon/rules/Keep.list');
-  assert.equal(await readFile(keepPath, 'utf8'), `DOMAIN,b${state.version}.example\n`);
-  assert.equal((await verifySnapshot(directory, options)).verifiedFiles, 2);
-
-  const recoveredStatus = await readFile(path.join(directory, 'current/status.json'));
-  const loadsBeforeForbidden = indexLoads;
-  forbidden = true;
-  await assert.rejects(syncWithRetry(options, 1), /HTTP 403: .*\/data\/index\/Mihomo.json.*Cloudflare error 1010.*CF-Ray: abcdef-NRT/);
-  assert.equal(indexLoads - loadsBeforeForbidden, 2, 'a 403 stops after one batch without a request retry');
-  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
-  forbidden = false;
-
-  retryAfter = '120';
-  const loadsBeforeLongCooldown = requests.length;
-  await assert.rejects(syncWithRetry({ ...options, requestIntervalMs: 25 }, 1), /HTTP 429.*cooldown 120s/);
-  assert.equal(requests.length - loadsBeforeLongCooldown, 1, 'a long cooldown cancels queued requests and stops without retrying');
-  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
-
-  const loadsBeforeFailure = indexLoads;
-  state.invalid = '404'; state.version++; state.day++;
-  await assert.rejects(syncWithRetry(oneRequestAttempt, 1), /HTTP 404/);
-  assert.equal(indexLoads - loadsBeforeFailure, 4, 'persistent upstream error is retried only once');
-  assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), recoveredStatus);
-  assert.equal((await readdir(directory)).some(name => name.startsWith('.staging-')), false);
-
-  const loadsBeforeInvalid = indexLoads;
-  state.invalid = 'origin';
-  await assert.rejects(syncWithRetry(oneRequestAttempt, 1), /Unexpected source URL/);
-  assert.equal(indexLoads - loadsBeforeInvalid, 2, 'a disallowed origin fails without a second snapshot');
-
-  state.invalid = ''; state.retry = 2; state.version++; state.day++;
-  assert.ok((await sync(options)).downloadedFiles > 0, 'transient failures retry successfully');
-  retryAfter = '1';
-  const start = requests.length;
-  await sync({ ...options, requestIntervalMs: 25 });
-  const paced = requests.slice(start);
-  assert.equal(paced[0].path, '/data/meta/clients.json');
-  assert.ok(paced[1].time - paced[0].time >= 980, 'Retry-After pauses even other queued requests');
-  assert.ok(paced.slice(2).every((request, i) => request.time - paced[i + 1].time >= 15), 'request starts stay spaced under concurrency');
-  state.extra = true; state.day++;
-  const added = await sync(options);
-  assert.equal(added.clientRuleCount, 3);
-  assert.equal(added.downloadedFiles, 1, 'only the newly added artifact downloads');
-  assert.equal(await readFile(path.join(directory, 'current/rules/Loon/rules/NewRule.list'), 'utf8'), `DOMAIN,c${state.version}.example\n`);
-  const validCatalog = await readFile(path.join(directory, 'current/catalog.json'));
-  const validStatus = await readFile(path.join(directory, 'current/status.json'));
-  state.duplicate = true;
-  await assert.rejects(sync(options), /collision/);
-  assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), validCatalog);
-  state.duplicate = false;
-  for (const name of ['../escape', 'CON', 'Trailing.']) {
-    state.nameB = name;
-    await assert.rejects(sync(options), /collision|Unsafe rule filename/);
-    assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), validCatalog);
-    assert.deepEqual(await readFile(path.join(directory, 'current/status.json')), validStatus);
-  }
-  const preservedFile = path.join(directory, 'current/rules/Loon/rules/Keep.list');
-  await writeFile(preservedFile, 'corrupt');
-  await assert.rejects(migrateNames(directory, options), /Stored bytes mismatch/);
-  assert.deepEqual(await readFile(path.join(directory, 'current/catalog.json')), validCatalog, 'failed migration never publishes metadata');
-});
+import { migrate, sync, verifyArtifact } from '../scripts/sync.ts';
+import { sha256 as sha, sourceId, sourceRules } from '../scripts/config-rules.ts';
+import { verifyCustom } from '../scripts/verify.ts';
 
 test('normalized shared headers require the declared body hash; binary files require exact hashes', () => {
   const header = '# NAME: Example\n# AUTHOR: MagicRule\n# REPO: https://magicrule.pages.dev\n# UPDATED: old\n';
@@ -356,4 +36,106 @@ test('five-line normalization removes only DESC metadata before the rule body', 
   }
   assert.throws(() => verifyArtifact(Buffer.from(changed), { ...artifact, binary: true }), /SHA-256 mismatch/);
   assert.throws(() => verifyArtifact(Buffer.from(changed), { ...artifact, dedupe: { ...artifact.dedupe, normalized_header_lines: 6 } }), /SHA-256 mismatch/);
+});
+
+test('migration and targeted refresh preserve all subscription paths and roll back on failed verification', async t => {
+  const root = await mkdtemp(path.join(tmpdir(), 'magicrule-targeted-test-'));
+  let version = 1;
+  let forbidden = false;
+  let corrupt = false;
+  const requests: string[] = [];
+  const manifests: Record<string, string> = {};
+  const manifestPath = (id: string) => '/data/' + id + '/manifest.json';
+  const artifactPath = (id: string) => '/artifacts/' + id;
+  const sourceText = (id: string, revision: number) => {
+    const extra = 'rev' + revision + '.openai.com';
+    if (id === 'Mihomo/GlobalAI') return 'payload: ["DOMAIN,' + extra + '", "DOMAIN-SUFFIX,deepseek.com"]\n';
+    if (id === 'Egern/GlobalAI') return 'domain_suffix_set: [deepseek.com]\ndomain_set: [' + extra + ']\n';
+    if (id === 'Egern/NetEaseMusic') return 'domain_suffix_set: [music.163.com]\nuser_agent_set:\n - %E7\n';
+    return '# AUTHOR: Example\nDOMAIN,' + extra + '\nDOMAIN-SUFFIX,deepseek.com\n';
+  };
+  const server = createServer((req, res) => {
+    const pathname = req.url!;
+    requests.push(pathname);
+    const spec = sourceRules.find(item => [manifestPath(sourceId(item)), artifactPath(sourceId(item))].includes(pathname));
+    if (!spec) { res.statusCode = 404; res.end('unexpected'); return; }
+    const id = sourceId(spec);
+    if (forbidden && id === 'Egern/GlobalAI') {
+      res.writeHead(403, { 'Content-Type': 'text/plain', 'CF-Ray': 'unit-test' });
+      res.end('error code: 1010\n');
+    } else if (pathname === manifestPath(id)) {
+      res.end(JSON.stringify({ client: spec.client, rule: spec.name, artifacts: [
+        { key: 'other', ext: 'bin', url: '/unrelated' },
+        { key: spec.key, ext: spec.extension, url: artifactPath(id), dedupe: { bytes_sha256: sha(sourceText(id, version)) } },
+      ] }));
+    } else {
+      res.end(corrupt && id === 'Egern/GlobalAI' ? 'wrong bytes' : sourceText(id, version));
+    }
+  });
+  await new Promise<void>(resolve => server.listen(0, '127.0.0.1', resolve));
+  t.after(async () => {
+    server.closeAllConnections();
+    await new Promise<void>(resolve => server.close(() => resolve()));
+    await rm(root, { recursive: true, force: true });
+  });
+  const origin = 'http://127.0.0.1:' + (server.address() as { port: number }).port;
+  const catalog = { rules: [] as unknown[] };
+  const current = path.join(root, 'current');
+  for (const spec of sourceRules) {
+    const id = sourceId(spec);
+    const file = 'current/rules/' + id + '.' + spec.extension;
+    const text = sourceText(id, 1);
+    const diskPath = path.join(root, file);
+    await mkdir(path.dirname(diskPath), { recursive: true });
+    await writeFile(diskPath, text);
+    manifests[id] = origin + manifestPath(id);
+    catalog.rules.push({ variants: [{
+      client: spec.client, name: spec.name, sourceManifestUrl: manifests[id], sourceUpdatedAt: null,
+      artifacts: [{
+        path: file, key: spec.key, extension: spec.extension, sourceUrl: origin + artifactPath(id),
+        sha256: sha(text), bytes: Buffer.byteLength(text), verification: 'bytes',
+      }],
+    }] });
+  }
+  const legacyDate = '2026-11-27T03:00:39.681Z';
+  await writeFile(path.join(current, 'catalog.json'), JSON.stringify(catalog));
+  await writeFile(path.join(current, 'status.json'), JSON.stringify({ lastSuccessfulSyncAt: legacyDate }));
+  await migrate(root);
+  assert.equal(requests.length, 0);
+  assert.deepEqual(await readdir(current), ['custom']);
+  const seed = await verifyCustom(current);
+  assert.equal(seed.syncedAt, legacyDate);
+  assert.deepEqual(seed.files.map(file => file.file).sort(), [
+    'Egern/DomesticAI.yaml', 'Egern/ForeignAI.yaml', 'Egern/NetEaseMusic.yaml',
+    'Loon/DomesticAI.list', 'Loon/ForeignAI.list',
+    'Mihomo/DomesticAI.yaml', 'Mihomo/ForeignAI.yaml', 'Mihomo/WebRTC.list',
+    'Surge/DomesticAI.list', 'Surge/ForeignAI.list',
+  ]);
+  assert.ok((await readFile(path.join(current, 'custom/Loon/ForeignAI.list'), 'utf8')).includes('DOMAIN,rev1.openai.com'));
+  version = 2;
+  const options = {
+    allowedOrigins: [origin], manifests, repository: 'example/fixture', dataDirectory: root,
+    requestIntervalMs: 0, timeoutMs: 1_000, attempts: 1, now: () => new Date('2026-11-28T04:00:00Z'),
+  };
+  const refreshed = await sync(options);
+  assert.deepEqual(requests, sourceRules.flatMap(spec => [manifestPath(sourceId(spec)), artifactPath(sourceId(spec))]));
+  assert.deepEqual(refreshed.files.map(file => file.file), seed.files.map(file => file.file));
+  assert.equal(refreshed.syncedAt, options.now().toISOString());
+  const published = await readFile(path.join(current, 'custom/manifest.json'));
+  const changed = await readFile(path.join(current, 'custom/Loon/ForeignAI.list'), 'utf8');
+  assert.ok(changed.includes('DOMAIN,rev2.openai.com'));
+  assert.ok(!changed.includes('DOMAIN,rev1.openai.com'));
+  const oldWebRTC = seed.files.find(file => file.file.endsWith('WebRTC.list'));
+  assert.deepEqual(refreshed.files.find(file => file.file.endsWith('WebRTC.list')), oldWebRTC);
+
+  forbidden = true;
+  requests.length = 0;
+  await assert.rejects(sync(options), /HTTP 403.*unit-test.*Cloudflare error 1010/);
+  assert.equal(requests.filter(url => url === manifestPath('Egern/GlobalAI')).length, 1);
+  assert.deepEqual(await readFile(path.join(current, 'custom/manifest.json')), published);
+  forbidden = false;
+  corrupt = true;
+  await assert.rejects(sync(options), /Upstream request or validation failed/);
+  assert.deepEqual(await readFile(path.join(current, 'custom/manifest.json')), published);
+  assert.equal(await readFile(path.join(current, 'custom/Loon/ForeignAI.list'), 'utf8'), changed);
 });

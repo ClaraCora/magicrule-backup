@@ -1,89 +1,48 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { checkSourceIdentity, pool, verifyArtifact } from './sync.ts';
-import { pathRegistry, publishedLocation, storedBytes } from './artifact-layout.ts';
-import type { Artifact, Catalog, SyncStatus } from '../src/lib/types.ts';
+import { customFiles, sha256, sourceId, sourceRules, type CustomManifest } from './config-rules.ts';
 
-export async function verifySnapshot(root: string, config: { clients: string[]; repository: string }, requireNamed = true) {
-  const current = path.join(root, 'current');
-  const catalog: Catalog = JSON.parse(await readFile(path.join(current, 'catalog.json'), 'utf8'));
-  const status: SyncStatus = JSON.parse(await readFile(path.join(current, 'status.json'), 'utf8'));
-  // Verify the clients already published in this snapshot. Configuration may
-  // include a new client that will be added by the next successful sync.
-  const clients = catalog.clients;
-  if (!Array.isArray(clients) || !clients.length || new Set(clients).size !== clients.length
-    || clients.some(client => !config.clients.includes(client))
-    || status.clients.length !== clients.length || new Set(status.clients.map(client => client.name)).size !== clients.length
-    || status.clients.some(client => !clients.includes(client.name))
-    || catalog.rules.some(rule => rule.variants.some(variant => !clients.includes(variant.client)))) {
-    throw new Error('Snapshot clients do not match catalog or configuration');
+export async function verifyCustom(snapshot: string): Promise<CustomManifest> {
+  const directory = path.join(snapshot, 'custom');
+  const manifest: CustomManifest = JSON.parse(await readFile(path.join(directory, 'manifest.json'), 'utf8'));
+  if (manifest.schemaVersion !== 1 || !Number.isFinite(Date.parse(manifest.syncedAt)) ||
+      !/^[a-f0-9]{64}$/.test(manifest.policySha256) ||
+      !Array.isArray(manifest.files) || manifest.files.length !== customFiles.length) {
+    throw new Error('Invalid custom rules manifest');
   }
-  let records = 0, files = 0, bytes = 0, retainedFiles = 0;
-  const methods = { bytes: 0, 'normalized-header': 0, recorded: 0 };
-  const claimPath = pathRegistry();
-  const expectedFiles = new Set<string>();
-  for (const client of clients) {
-    const index = JSON.parse(await readFile(path.join(current, 'raw', 'index', client + '.json'), 'utf8'));
-    checkSourceIdentity(client, index);
-    const sourceNames = new Map<string, string>(index.rules.map((rule: { id: string; name: string }) => [rule.id, rule.name]));
-    const variants = catalog.rules.flatMap(rule => rule.variants.filter(v => v.client === client).map(variant => ({ id: rule.id, variant })));
-    const active = variants.filter(record => !record.variant.archived);
-    if (sourceNames.size !== index.rules.length || active.length !== index.rules.length || index.rules.length !== status.clients.find(c => c.name === client)?.count || active.some(record => sourceNames.get(record.id) !== record.variant.name)) throw new Error('Index records mismatch: ' + client);
-    await pool(variants, 4, async ({ id, variant }) => {
-      const manifest = JSON.parse(await readFile(path.join(current, 'raw', 'manifests', client, id + '.json'), 'utf8'));
-      checkSourceIdentity(client, manifest, variant.name);
-      if (manifest.artifacts.length !== variant.artifacts.length) throw new Error('Artifact count mismatch: ' + client + '/' + id);
-      const identities = new Set<string>();
-      const verifyFile = async (artifact: Artifact, identity: string) => {
-        if (requireNamed) {
-          const location = publishedLocation(client, artifact, config.repository);
-          if (artifact.path !== location.path || artifact.url !== location.url || artifact.fileName !== location.fileName) throw new Error('Artifact naming mismatch: ' + client + '/' + id + '/' + identity);
-        }
-        claimPath(artifact.path, client + '/' + id + '/' + identity);
-        expectedFiles.add(artifact.path);
-        return storedBytes(root, artifact);
-      };
-      for (const source of manifest.artifacts) {
-        const identity = source.key + '.' + source.ext;
-        if (identities.has(identity)) throw new Error('Duplicate manifest artifact: ' + client + '/' + id + '/' + identity);
-        identities.add(identity);
-        const artifact = variant.artifacts.find(a => a.key === source.key && a.extension === source.ext);
-        if (!artifact) throw new Error('Missing artifact: ' + client + '/' + id + '/' + identity);
-        const data = await verifyFile(artifact, identity);
-        const method = verifyArtifact(data, source);
-        if (method !== artifact.verification) throw new Error('Verification metadata mismatch: ' + artifact.path);
-        if (!variant.archived) { methods[method]++; files++; bytes += data.length; }
-        else retainedFiles++;
-      }
-      for (const artifact of variant.retainedArtifacts ?? []) {
-        const identity = artifact.key + '.' + artifact.extension;
-        if (identities.has(identity)) throw new Error('Duplicate retained artifact: ' + client + '/' + id + '/' + identity);
-        identities.add(identity);
-        await verifyFile(artifact, identity);
-        retainedFiles++;
-      }
-      if (!variant.archived) records++;
-    });
-  }
-  if (records !== status.clientRuleCount || files !== status.artifactCount || bytes !== status.totalBytes || catalog.rules.filter(rule => rule.variants.some(v => !v.archived)).length !== status.activeRuleCount) throw new Error('Snapshot totals do not match status');
-  if (requireNamed) {
-    const actualFiles: string[] = [];
-    async function walk(directory: string, relative: string) {
-      for (const entry of await readdir(directory, { withFileTypes: true })) {
-        if (entry.isDirectory()) await walk(path.join(directory, entry.name), relative + '/' + entry.name);
-        else if (entry.isFile()) actualFiles.push(relative + '/' + entry.name);
-        else throw new Error('Unexpected backup entry: ' + relative + '/' + entry.name);
-      }
+  const expected = new Set(customFiles);
+  const sourceKeys = new Set(sourceRules.map(sourceId));
+  for (const [id, source] of Object.entries(manifest.sources)) {
+    if (!sourceKeys.delete(id) || !/^[a-f0-9]{64}$/.test(source.sha256) ||
+        !['bytes', 'normalized-header'].includes(source.verification)) {
+      throw new Error('Invalid source entry: ' + id);
     }
-    await walk(path.join(current, 'rules'), 'current/rules');
-    if (actualFiles.length !== expectedFiles.size || actualFiles.some(file => !expectedFiles.has(file))) throw new Error('Unlisted or legacy rule files remain in snapshot');
+    for (const value of [source.url, source.manifestUrl]) {
+      const url = new URL(value);
+      if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password) throw new Error('Invalid source link: ' + id);
+    }
   }
-  return { verifiedRecords: records, verifiedFiles: files, verifiedBytes: bytes, retainedFiles, methods };
+  if (sourceKeys.size) throw new Error('Missing source entries in the custom manifest');
+  for (const artifact of manifest.files) {
+    if (!expected.delete(artifact.file) || !Number.isFinite(Date.parse(artifact.changedAt))) throw new Error('Invalid custom file: ' + artifact.file);
+    const bytes = await readFile(path.join(directory, artifact.file));
+    if (!bytes.length || bytes.length !== artifact.bytes || sha256(bytes) !== artifact.sha256) {
+      throw new Error('Custom file verification failed: ' + artifact.file);
+    }
+  }
+  const actual = await readdir(directory, { recursive: true, withFileTypes: true });
+  const files = actual.filter(entry => !entry.isDirectory()).map(entry => path.relative(directory, path.join(entry.parentPath, entry.name)));
+  if (actual.some(entry => !entry.isDirectory() && !entry.isFile()) ||
+      files.length !== customFiles.length + 1 || files.some(file => file !== 'manifest.json' && !customFiles.includes(file)) ||
+      (await readdir(snapshot)).some(name => name !== 'custom')) {
+    throw new Error('Unexpected files in the custom snapshot');
+  }
+  return manifest;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  const config = JSON.parse(await readFile(new URL('../sync.config.json', import.meta.url), 'utf8'));
-  const root = path.resolve(process.env.BACKUP_DIR || config.dataDirectory);
-  console.log(JSON.stringify(await verifySnapshot(root, config), null, 2));
+  const directory = path.resolve(process.env.BACKUP_DIR || '.cache/backup', 'current');
+  const manifest = await verifyCustom(directory);
+  console.log('Verified ' + manifest.files.length + ' custom subscriptions and their manifest.');
 }

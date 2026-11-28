@@ -15,7 +15,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check && npm test
-      - name: Load published backup for a build check
+      - name: Load published rules for a build check
         run: npm run prepare:data
-      - run: npm run migrate:names && npm run verify
+      - run: npm run migrate:data && npm run verify
       - run: npm run build

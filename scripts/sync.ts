@@ -1,26 +1,44 @@
-import { createHash, randomUUID } from 'node:crypto';
-import { cp, mkdir, readFile, writeFile, rm, access } from 'node:fs/promises';
+import { access, mkdtemp, readFile, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { setTimeout as delay } from 'node:timers/promises';
 import { pathToFileURL } from 'node:url';
-import type { Artifact, Catalog, Change, Rule, SyncRun, SyncStatus, Variant } from '../src/lib/types.ts';
-import { artifactLocation, pathRegistry, publishedLocation, publishSnapshot, ruleFile, storedBytes } from './artifact-layout.ts';
+import type { Catalog } from '../src/lib/types.ts';
+import { publishSnapshot } from './artifact-layout.ts';
+import { generateConfigRules, sha256, sourceId, sourceRules, type RuleSource } from './config-rules.ts';
+import { verifyCustom } from './verify.ts';
 
 export interface SyncOptions {
-  source: string;
   allowedOrigins: string[];
-  clients: string[];
+  manifests: Record<string, string>;
   repository: string;
   dataDirectory: string;
-  concurrency: number;
-  requestIntervalMs?: number;
+  requestIntervalMs: number;
   timeoutMs: number;
   attempts: number;
   now?: () => Date;
-  retryDelayMs?: number;
 }
 
-class RetryableUpstreamError extends Error {}
+interface SourceArtifact {
+  key: string;
+  ext: string;
+  url: string;
+  binary?: boolean;
+  dedupe?: { bytes_sha256?: string; semantic_sha256?: string; mode?: string; normalized_header_lines?: number };
+}
+
+interface SourceManifest {
+  client: string;
+  rule: string;
+  rule_updated_at?: string;
+  artifacts: SourceArtifact[];
+}
+
+const asDate = (value: unknown) => typeof value === 'string' && Number.isFinite(Date.parse(value)) ? new Date(value).toISOString() : null;
+const readJson = async <T>(file: string): Promise<T> => JSON.parse(await readFile(file, 'utf8'));
+const exists = (file: string) => access(file).then(() => true, (error: NodeJS.ErrnoException) => {
+  if (error.code === 'ENOENT') return false;
+  throw error;
+});
 
 function retryAfterMs(value: string | null): number {
   if (value && /^\d+$/.test(value)) return Number(value) * 1000;
@@ -41,42 +59,10 @@ async function cloudflareErrorCode(response: Response): Promise<string | undefin
   return /^\s*error code:\s*(\d{4})\b/i.exec(prefix)?.[1];
 }
 
-interface SourceArtifact {
-  key: string; label?: string; ext: string; url: string;
-  binary?: boolean; empty?: boolean; recommended?: boolean;
-  dedupe?: { bytes_sha256?: string; semantic_sha256?: string; mode?: string; normalized_header_lines?: number };
-}
-
-interface SourceRule {
-  id: string; name: string; chinese_name?: string; description?: string;
-  manifest: string; types?: string[]; type_counts?: Record<string, number>;
-  total_line_count?: number; rule_updated_at?: string;
-  providers?: string[];
-}
-
-interface SourceManifest {
-  client?: string; rule?: string; rule_updated_at?: string; generated_at?: string;
-  description?: string; providers?: string[]; type_counts?: Record<string, number>;
-  total_line_count?: number; artifacts: SourceArtifact[];
-}
-
-const digest = (bytes: Uint8Array) => createHash('sha256').update(bytes).digest('hex');
-const present = async (file: string) => access(file).then(() => true, () => false);
-const jsonRead = async <T>(file: string, fallback: T): Promise<T> => {
-  try { return JSON.parse(await readFile(file, 'utf8')) as T; }
-  catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return fallback; throw error; }
-};
-const jsonWrite = (file: string, value: unknown) => writeFile(file, JSON.stringify(value, null, 2) + '\n');
-const date = (value: unknown) => typeof value === 'string' && Number.isFinite(Date.parse(value)) ? new Date(value).toISOString() : null;
-const segment = (value: string) => {
-  if (typeof value !== 'string' || !/^[a-zA-Z0-9_-][a-zA-Z0-9_.-]*$/.test(value) || value.includes('..')) throw new Error(`Unsafe file identifier: ${value}`);
-  return value;
-};
-
-export function verifyArtifact(bytes: Buffer, artifact: SourceArtifact): Artifact['verification'] {
+export function verifyArtifact(bytes: Buffer, artifact: SourceArtifact): 'bytes' | 'normalized-header' {
   const expected = artifact.dedupe?.bytes_sha256;
-  if (!expected) return 'recorded';
-  if (digest(bytes) === expected) return 'bytes';
+  if (typeof expected !== 'string' || !/^[a-f0-9]{64}$/.test(expected)) throw new Error('Missing or invalid upstream SHA-256: ' + artifact.url);
+  if (sha256(bytes) === expected) return 'bytes';
   const dedupe = artifact.dedupe;
   if (!artifact.binary && dedupe?.mode === 'standard_header_normalized' && [4, 5].includes(dedupe.normalized_header_lines ?? 0) && /^[a-f0-9]{64}$/.test(dedupe.semantic_sha256 || '')) {
     const lines = bytes.toString('utf8').split('\n');
@@ -92,365 +78,144 @@ export function verifyArtifact(bytes: Buffer, artifact: SourceArtifact): Artifac
         if (descriptions.length === 1) body.splice(descriptions[0], 1);
         else throw new Error(`Invalid five-line normalized header: ${artifact.url}`);
       }
-      if (digest(Buffer.from(body.join('\n'))) === dedupe.semantic_sha256) return 'normalized-header';
+      if (sha256(Buffer.from(body.join('\n'))) === dedupe.semantic_sha256) return 'normalized-header';
     }
   }
   throw new Error(`SHA-256 mismatch (file and declared normalized body): ${artifact.url}`);
 }
 
-export function checkSourceIdentity(client: string, source: { client?: string; rule?: string }, ruleName?: string) {
-  if (source.client !== undefined && source.client !== client) {
-    throw new RetryableUpstreamError(`Unexpected client for ${client}/${ruleName ?? 'index'}: ${source.client}`);
-  }
-  if (ruleName !== undefined && source.rule !== undefined && source.rule !== ruleName) {
-    throw new RetryableUpstreamError(`Manifest rule mismatch for ${client}/${ruleName}: ${source.rule}`);
-  }
-}
+function fetchUpstream(options: SyncOptions) {
+  let nextRequestAt = 0;
+  return async (url: string, validate?: (bytes: Buffer) => void): Promise<Buffer> => {
+    for (let attempt = 1; ; attempt++) {
+      const wait = nextRequestAt - performance.now();
+      if (wait > 0) await delay(Math.ceil(wait));
+      nextRequestAt = performance.now() + options.requestIntervalMs;
 
-export async function pool<T, R>(items: T[], concurrency: number, task: (item: T, index: number) => Promise<R>): Promise<R[]> {
-  const results: R[] = new Array(items.length);
-  let cursor = 0;
-  let failure: unknown;
-  const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
-    while (!failure) {
-      const index = cursor++;
-      if (index >= items.length) return;
-      try { results[index] = await task(items[index], index); }
-      catch (error) { failure ??= error; }
+      let response: Response | undefined;
+      try {
+        response = await fetch(url, {
+          headers: { 'User-Agent': 'MagicRuleBackup/1.0 (+https://github.com/' + options.repository + ')', Accept: '*/*' },
+          signal: AbortSignal.timeout(options.timeoutMs), redirect: 'error',
+        });
+        if (response.ok && response.headers.get('cf-mitigated') !== 'challenge') {
+          const chunks: Uint8Array[] = [];
+          let size = 0;
+          for await (const chunk of response.body!) {
+            size += chunk.byteLength;
+            if (size > 4 * 1024 * 1024) throw new Error('Upstream response exceeds 4 MiB: ' + url);
+            chunks.push(chunk);
+          }
+          const bytes = Buffer.concat(chunks);
+          validate?.(bytes);
+          console.log('HTTP ' + response.status + ' ' + url);
+          return bytes;
+        }
+      } catch (error) {
+        if (attempt >= options.attempts) throw new Error('Upstream request or validation failed: ' + url, { cause: error });
+        await delay(1_000 * attempt);
+        continue;
+      }
+      const ray = response.headers.get('cf-ray');
+      const detail = ray && /^[\w-]{1,80}$/.test(ray) ? ' (CF-Ray: ' + ray + ')' : '';
+      const message = 'HTTP ' + response.status + ': ' + url + detail;
+      if (response.status === 403 || response.headers.get('cf-mitigated') === 'challenge') {
+        const code = await cloudflareErrorCode(response).catch(() => undefined);
+        throw new Error(message + (code ? ' — Cloudflare error ' + code : ' — upstream access denied'));
+      }
+      await response.body?.cancel();
+      const retryable = response.status === 429 || response.status === 408 || response.status >= 500;
+      if (!retryable || attempt >= options.attempts) throw new Error(message);
+      const cooldown = response.status === 429 ? Math.max(1_000, retryAfterMs(response.headers.get('retry-after'))) : 1_000 * attempt;
+      if (cooldown > 60_000) throw new Error(message + ' — Retry-After exceeds 60 seconds');
+      console.warn(message + ' — retrying after ' + cooldown + 'ms');
+      nextRequestAt = Math.max(nextRequestAt, performance.now() + cooldown);
     }
-  });
-  await Promise.all(workers);
-  if (failure) throw failure;
-  return results;
+  };
 }
 
-export async function sync(options: SyncOptions): Promise<SyncStatus> {
-  const root = path.resolve(options.dataDirectory);
-  const current = path.join(root, 'current');
-  const staging = path.join(root, `.staging-${randomUUID()}`);
-  const now = (options.now?.() || new Date()).toISOString();
-  const requestIntervalMs = options.requestIntervalMs ?? 0;
-  if (!options.clients.length || options.concurrency < 1 || options.attempts < 1 || !Number.isSafeInteger(requestIntervalMs) || requestIntervalMs < 0 || requestIntervalMs > 60_000) {
-    throw new Error('Invalid sync configuration');
+async function publishRules(root: string, inputs: Map<string, RuleSource>, syncedAt: string, migrating = false) {
+  const previous = migrating ? undefined : await verifyCustom(path.join(root, 'current')).catch((error: NodeJS.ErrnoException) => {
+    if (error.code !== 'ENOENT') throw error;
+    return undefined;
+  });
+  const staging = await mkdtemp(path.join(root, '.staging-'));
+  try {
+    const manifest = await generateConfigRules(inputs, path.join(staging, 'custom'), syncedAt, previous);
+    await verifyCustom(staging);
+    await publishSnapshot(root, staging);
+    return manifest;
+  } finally {
+    await rm(staging, { recursive: true, force: true });
   }
-  if (!/^[\w.-]+\/[\w.-]+$/.test(options.repository)) throw new Error('Invalid repository');
-  await mkdir(root, { recursive: true });
-  await mkdir(staging);
-  const oldCatalog = await jsonRead<Catalog>(path.join(current, 'catalog.json'), { schemaVersion: 1, clients: [], rules: [] });
-  const oldVariants = new Map<string, Variant>(oldCatalog.rules.flatMap(rule => rule.variants.map(variant => [`${variant.client}/${rule.id}`, variant] as const)));
-  let downloadedFiles = 0, reusedFiles = 0, completed = 0;
-  const claimPath = pathRegistry();
-  const copyRetained = async (client: string, id: string, artifact: Artifact): Promise<Artifact> => {
-    const location = publishedLocation(client, artifact, options.repository);
-    claimPath(location.path, `${client}/${id}/${artifact.key}.${artifact.extension} (retained)`);
-    const bytes = await storedBytes(root, artifact);
-    const file = path.join(staging, ...location.path.split('/').slice(1));
-    await mkdir(path.dirname(file), { recursive: true });
-    await writeFile(file, bytes);
-    return { ...artifact, ...location };
-  };
-  const copyRetainedList = async (client: string, id: string, artifacts: Artifact[]) => {
-    const copies: Artifact[] = [];
-    for (const artifact of artifacts) copies.push(await copyRetained(client, id, artifact));
-    return copies;
-  };
+}
+
+export async function sync(options: SyncOptions) {
   const allowed = new Set(options.allowedOrigins);
-  const urlFor = (value: string, manifest = false) => {
-    const base = manifest && !value.startsWith('/') && !/^https?:/i.test(value) && !value.startsWith('data/') ? `${options.source}/data/` : `${options.source}/`;
+  const checkedUrl = (value: string, base?: string) => {
     const url = new URL(value, base);
-    if (!allowed.has(url.origin) || url.username || url.password) throw new Error(`Unexpected source URL: ${url.origin}${url.pathname}`);
+    if (!allowed.has(url.origin) || url.username || url.password || url.hash) throw new Error('Unexpected upstream URL: ' + url.origin + url.pathname);
     return url.href;
   };
-  const upstreamStop = new AbortController();
-  const stop = (error: Error): never => {
-    upstreamStop.abort(error);
-    throw upstreamStop.signal.reason;
-  };
-  let nextRequestAt = 0;
-  const waitForRequestSlot = async () => {
-    for (;;) {
-      upstreamStop.signal.throwIfAborted();
-      const now = performance.now();
-      const wait = nextRequestAt - now;
-      if (wait <= 0) {
-        nextRequestAt = now + requestIntervalMs;
-        return;
-      }
-      await delay(Math.ceil(wait), undefined, { signal: upstreamStop.signal });
+  const request = fetchUpstream(options);
+  const inputs = new Map<string, RuleSource>();
+  const downloads = new Map<string, Buffer>();
+  for (const spec of sourceRules) {
+    const id = sourceId(spec);
+    const manifestUrl = checkedUrl(options.manifests[id]);
+    const manifest = JSON.parse((await request(manifestUrl)).toString('utf8')) as SourceManifest;
+    if (manifest.client !== spec.client || manifest.rule !== spec.name || !Array.isArray(manifest.artifacts)) {
+      throw new Error('Unexpected upstream manifest for ' + id + ': ' + manifestUrl);
     }
-  };
-  const request = async (url: string, validate?: (bytes: Buffer) => void): Promise<Buffer> => {
-    let error: unknown;
-    for (let attempt = 0; attempt < options.attempts; attempt++) {
-      try {
-        await waitForRequestSlot();
-        upstreamStop.signal.throwIfAborted();
-        const response = await fetch(url, {
-          headers: { 'User-Agent': `MagicRuleBackup/1.0 (+https://github.com/${options.repository})`, Accept: '*/*' },
-          signal: AbortSignal.any([upstreamStop.signal, AbortSignal.timeout(options.timeoutMs)]), redirect: 'error',
-        });
-        const challenge = response.headers.get('cf-mitigated') === 'challenge';
-        if (!response.ok || challenge) {
-          const message = `HTTP ${response.status}: ${url}`;
-          const ray = response.headers.get('cf-ray');
-          const detail = ray && /^[\w-]{1,80}$/.test(ray) ? ` (CF-Ray: ${ray})` : '';
-          if (response.status === 403 || challenge) {
-            const code = await cloudflareErrorCode(response).catch(() => undefined);
-            const policy = challenge ? 'Cloudflare challenge' : code ? `Cloudflare error ${code}` : 'upstream access denied';
-            stop(new Error(`${message} — ${policy}${detail}`));
-          }
-          if (response.status === 429) {
-            const cooldown = Math.max(1_000, retryAfterMs(response.headers.get('retry-after')));
-            if (attempt + 1 === options.attempts || cooldown > 60_000) {
-              stop(new Error(`${message}${detail} — rate limit, cooldown ${cooldown / 1000}s`));
-            }
-            nextRequestAt = Math.max(nextRequestAt, performance.now() + cooldown);
-            console.warn(`${message}${detail} — pausing upstream requests for ${cooldown / 1000}s`);
-            await response.body?.cancel();
-            continue;
-          }
-          await response.body?.cancel();
-          if ([404, 408].includes(response.status) || response.status >= 500) {
-            throw new RetryableUpstreamError(message);
-          }
-          throw new Error(message);
-        }
-        const chunks: Uint8Array[] = [];
-        let size = 0;
-        for await (const chunk of response.body!) {
-          size += chunk.byteLength;
-          if (size > 100 * 1024 * 1024) { throw new Error(`File exceeds 100 MiB: ${url}`); }
-          chunks.push(chunk);
-        }
-        const bytes = Buffer.concat(chunks);
-        if (/^\s*(?:<!doctype\s+html|<html\b)/i.test(bytes.subarray(0, 256).toString('utf8'))) throw new RetryableUpstreamError(`HTML returned instead of data: ${url}`);
-        validate?.(bytes);
-        return bytes;
-      } catch (cause) {
-        upstreamStop.signal.throwIfAborted();
-        // Fetch and response-body failures surface as TypeError or a timeout.
-        if (cause instanceof TypeError || (cause instanceof Error && cause.name === 'TimeoutError')) {
-          error = new RetryableUpstreamError(`Upstream request failed: ${url}`, { cause });
-        } else if (cause instanceof RetryableUpstreamError) {
-          error = cause;
-        } else {
-          throw cause;
-        }
-        if (attempt + 1 < options.attempts) {
-          try {
-            await delay((options.retryDelayMs ?? 1000) * 2 ** attempt, undefined, { signal: upstreamStop.signal });
-          } catch (cause) {
-            upstreamStop.signal.throwIfAborted();
-            throw cause;
-          }
-        }
-      }
-    }
-    throw error;
-  };
-  const requestJson = async <T>(url: string): Promise<{ bytes: Buffer; value: T }> => {
-    const bytes = await request(url);
-    try { return { bytes, value: JSON.parse(bytes.toString('utf8')) as T }; }
-    catch (cause) { throw new RetryableUpstreamError(`Invalid JSON: ${url}`, { cause }); }
-  };
-  try {
-    if (await present(current)) await cp(current, staging, { recursive: true });
-    await rm(path.join(staging, 'rules'), { recursive: true, force: true });
-    await mkdir(path.join(staging, 'rules'), { recursive: true });
-    await mkdir(path.join(staging, 'raw', 'meta'), { recursive: true });
-    await mkdir(path.join(staging, 'raw', 'index'), { recursive: true });
-    const metadata = await pool(['clients', 'capabilities', 'config'], options.concurrency, async name => {
-      const result = await requestJson<Record<string, unknown>>(urlFor(`/data/meta/${name}.json`));
-      await writeFile(path.join(staging, 'raw', 'meta', `${name}.json`), result.bytes);
-      return result.value;
-    });
-    const available = (metadata[0].clients as { name: string }[] | undefined)?.map(client => client.name);
-    if (!available || options.clients.some(client => !available.includes(client))) throw new Error('Selected client missing from upstream directory');
-    const indexes = await pool(options.clients, options.concurrency, async client => {
-      segment(client);
-      const url = urlFor(`/data/index/${client}.json`);
-      const result = await requestJson<{ client?: string; generated_at?: string; rules: SourceRule[] }>(url);
-      if (!Array.isArray(result.value.rules) || !result.value.rules.length) throw new Error(`Empty or invalid index: ${client}`);
-      checkSourceIdentity(client, result.value);
-      const ids = new Set<string>();
-      for (const rule of result.value.rules) {
-        segment(rule.id);
-        if (!rule.name || !rule.manifest || ids.has(rule.id)) throw new Error(`Invalid or duplicate rule: ${client}/${rule.id}`);
-        ids.add(rule.id);
-      }
-      await writeFile(path.join(staging, 'raw', 'index', `${client}.json`), result.bytes);
-      return { client, url, sha256: digest(result.bytes), generatedAt: date(result.value.generated_at), rules: result.value.rules };
-    });
-    const jobs = indexes.flatMap(index => index.rules.map(rule => ({ client: index.client, rule })));
-    console.log(`Syncing ${jobs.length} client records (${options.clients.join(', ')}).`);
-    const records = await pool(jobs, options.concurrency, async ({ client, rule }) => {
-      const manifestUrl = urlFor(rule.manifest, true);
-      const result = await requestJson<SourceManifest>(manifestUrl);
-      const manifest = result.value;
-      if (!Array.isArray(manifest.artifacts)) throw new Error(`Invalid manifest: ${client}/${rule.name}`);
-      checkSourceIdentity(client, manifest, rule.name);
-      const directory = path.join(staging, 'raw', 'manifests', client);
-      await mkdir(directory, { recursive: true });
-      await writeFile(path.join(directory, `${rule.id}.json`), result.bytes);
-      const prior = oldVariants.get(`${client}/${rule.id}`);
-      const previousArtifacts = prior ? [...prior.artifacts, ...(prior.retainedArtifacts ?? [])] : [];
-      const previousByKey = new Map(previousArtifacts.map(artifact => [`${artifact.key}.${artifact.extension}`, artifact]));
-      const keys = new Set<string>();
-      const artifacts: Artifact[] = [];
-      for (const artifact of manifest.artifacts) {
-        segment(artifact.key); segment(artifact.ext);
-        const identity = `${artifact.key}.${artifact.ext}`;
-        const old = previousByKey.get(identity);
-        const initialLocation = artifactLocation(client, rule.name, artifact.key, artifact.ext, options.repository);
-        const location = old ? publishedLocation(client, old, options.repository) : initialLocation;
-        if (keys.has(identity)) throw new Error(`Duplicate artifact: ${client}/${rule.id}/${identity}`);
-        keys.add(identity);
-        claimPath(location.path, `${client}/${rule.id}/${identity}`);
-        const relative = location.path;
-        const file = path.join(staging, ...relative.split('/').slice(1));
-        const sourceUrl = urlFor(artifact.url);
-        const expectedHash = artifact.dedupe?.bytes_sha256;
-        if (expectedHash && !/^[a-f0-9]{64}$/i.test(expectedHash)) throw new Error(`Invalid artifact hash: ${sourceUrl}`);
-        let bytes: Buffer | undefined;
-        if (expectedHash && old && (old.sha256 === expectedHash || old.expectedSha256 === expectedHash) && await present(ruleFile(root, old.path))) {
-          const cached = await readFile(ruleFile(root, old.path));
-          if (digest(cached) === old?.sha256) {
-            try { verifyArtifact(cached, artifact); bytes = cached; reusedFiles++; } catch { /* Re-download corrupt or outdated cache. */ }
-          }
-        }
-        if (!bytes) {
-          const cacheKey = digest(Buffer.from(JSON.stringify([sourceUrl, expectedHash, artifact.dedupe?.semantic_sha256])));
-          const cacheFile = path.join(root, '.downloads', cacheKey);
-          if (expectedHash && await present(cacheFile)) {
-            const cached = await readFile(cacheFile);
-            try { verifyArtifact(cached, artifact); bytes = cached; reusedFiles++; } catch { /* Fetch again if a cache entry is corrupt. */ }
-          }
-          if (!bytes) {
-            bytes = await request(sourceUrl, data => {
-              if (!data.length && !artifact.empty) {
-                throw new RetryableUpstreamError(`Unexpected empty artifact: ${sourceUrl}`);
-              }
-              try { verifyArtifact(data, artifact); }
-              catch (cause) {
-                throw new RetryableUpstreamError(`Artifact validation failed: ${client}/${rule.name}/${identity} (${sourceUrl})`, { cause });
-              }
-            });
-            downloadedFiles++;
-            if (expectedHash) {
-              await mkdir(path.dirname(cacheFile), { recursive: true });
-              await writeFile(cacheFile, bytes);
-            }
-          }
-          if (!bytes.length && !artifact.empty) throw new Error(`Unexpected empty artifact: ${sourceUrl}`);
-        }
-        await mkdir(path.dirname(file), { recursive: true });
-        await writeFile(file, bytes);
-        const sha256 = digest(bytes);
-        artifacts.push({
-          key: artifact.key, label: artifact.label || artifact.key, extension: artifact.ext,
-          binary: Boolean(artifact.binary), empty: Boolean(artifact.empty), recommended: Boolean(artifact.recommended),
-          ...location,
-          sourceUrl, sha256, expectedSha256: expectedHash || null, verification: verifyArtifact(bytes, artifact),
-          bytes: bytes.length, changedAt: old?.sha256 === sha256 ? old.changedAt : now,
-        });
-      }
-      const removedFormats = previousArtifacts.filter(artifact => !keys.has(`${artifact.key}.${artifact.extension}`));
-      const retainedArtifacts = await copyRetainedList(client, rule.id, removedFormats);
-      const signature = (items: Artifact[]) => JSON.stringify(items.map(item => [item.key, item.extension, item.sha256]).sort());
-      const fileChangedAt = prior && signature(prior.artifacts) === signature(artifacts) ? prior.fileChangedAt : now;
-      const variant: Variant = {
-        client, name: rule.name, chineseName: rule.chinese_name || '',
-        description: rule.description || manifest.description || '',
-        types: rule.types || Object.keys(manifest.type_counts || {}),
-        typeCounts: manifest.type_counts || rule.type_counts || {},
-        totalLineCount: manifest.total_line_count ?? rule.total_line_count ?? null,
-        sourceUpdatedAt: date(rule.rule_updated_at) || date(manifest.rule_updated_at),
-        generatedAt: date(manifest.generated_at), fileChangedAt,
-        providers: rule.providers?.length ? rule.providers : manifest.providers || [],
-        sourceManifestUrl: manifestUrl, archived: false, artifacts,
-        ...(retainedArtifacts.length ? { retainedArtifacts } : {}),
-      };
-      if (++completed % 100 === 0 || completed === jobs.length) console.log(`Validated ${completed}/${jobs.length}; downloaded ${downloadedFiles}, reused ${reusedFiles}.`);
-      return { id: rule.id, variant };
-    });
-    const grouped = new Map<string, Rule>();
-    for (const rule of oldCatalog.rules) {
-      const variants = rule.variants.filter(v => options.clients.includes(v.client)).map(v => ({ ...v, archived: true }));
-      if (variants.length) grouped.set(rule.id, { ...rule, variants });
-    }
-    const changes: Change[] = [];
-    const seen = new Set<string>();
-    for (const { id, variant } of records) {
-      const key = `${variant.client}/${id}`;
-      seen.add(key);
-      const prior = oldVariants.get(key);
-      if (!prior || prior.archived) changes.push({ id, name: variant.name, client: variant.client, kind: 'added' });
-      else if (prior.fileChangedAt !== variant.fileChangedAt || prior.description !== variant.description || prior.sourceUpdatedAt !== variant.sourceUpdatedAt || prior.name !== variant.name || prior.chineseName !== variant.chineseName) changes.push({ id, name: variant.name, client: variant.client, kind: 'modified' });
-      const rule = grouped.get(id) || { id, name: variant.name, chineseName: variant.chineseName, variants: [] };
-      rule.name = variant.name; rule.chineseName ||= variant.chineseName;
-      rule.variants = [...rule.variants.filter(v => v.client !== variant.client), variant].sort((a, b) => options.clients.indexOf(a.client) - options.clients.indexOf(b.client));
-      grouped.set(id, rule);
-    }
-    for (const rule of oldCatalog.rules) for (const variant of rule.variants) {
-      if (options.clients.includes(variant.client) && !variant.archived && !seen.has(`${variant.client}/${rule.id}`)) changes.push({ id: rule.id, name: rule.name, client: variant.client, kind: 'removed' });
-    }
-    // Rebuild archived files at their published addresses too.
-    for (const rule of grouped.values()) for (const variant of rule.variants.filter(v => v.archived)) {
-      variant.artifacts = await copyRetainedList(variant.client, rule.id, variant.artifacts);
-      if (variant.retainedArtifacts) {
-        variant.retainedArtifacts = await copyRetainedList(variant.client, rule.id, variant.retainedArtifacts);
-      }
-    }
-    const publishedPaths = new Set([...grouped.values()].flatMap(rule => rule.variants.flatMap(variant =>
-      [...variant.artifacts, ...(variant.retainedArtifacts ?? [])].map(artifact => artifact.path))));
-    for (const rule of oldCatalog.rules) for (const variant of rule.variants) for (const artifact of [...variant.artifacts, ...(variant.retainedArtifacts ?? [])]) {
-      if (!publishedPaths.has(artifact.path)) throw new Error(`Refusing to remove a published rule address: ${artifact.path}`);
-    }
-    const catalog: Catalog = { schemaVersion: 1, clients: options.clients, rules: [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name, 'en')) };
-    await pool(indexes, options.concurrency, async index => {
-      if (digest(await request(index.url)) !== index.sha256) {
-        throw new RetryableUpstreamError(`Upstream index changed during sync: ${index.client}`);
-      }
-    });
-    const successfulAt = (options.now?.() || new Date()).toISOString();
-    const status: SyncStatus = {
-      schemaVersion: 1, source: options.source, lastSuccessfulSyncAt: successfulAt,
-      activeRuleCount: catalog.rules.filter(rule => rule.variants.some(v => !v.archived)).length,
-      clientRuleCount: records.length, artifactCount: records.reduce((sum, record) => sum + record.variant.artifacts.length, 0),
-      totalBytes: records.reduce((sum, record) => sum + record.variant.artifacts.reduce((size, file) => size + file.bytes, 0), 0),
-      downloadedFiles, reusedFiles,
-      clients: indexes.map(index => ({ name: index.client, count: index.rules.length, generatedAt: index.generatedAt })),
-    };
-    const history = await jsonRead<SyncRun[]>(path.join(current, 'history.json'), []);
-    const run: SyncRun = { syncedAt: successfulAt, added: changes.filter(c => c.kind === 'added').length, modified: changes.filter(c => c.kind === 'modified').length, removed: changes.filter(c => c.kind === 'removed').length, changes };
-    await jsonWrite(path.join(staging, 'catalog.json'), catalog);
-    await jsonWrite(path.join(staging, 'status.json'), status);
-    await jsonWrite(path.join(staging, 'history.json'), [run, ...history].slice(0, 90));
-    await publishSnapshot(root, staging);
-    await writeFile(path.join(root, '.gitignore'), '.staging-*\n.previous-*\n.downloads/\n');
-    await writeFile(path.join(root, '.gitattributes'), '* -text\n');
-    await writeFile(path.join(root, 'README.md'), '# MagicRule backup data\n\nGenerated by the main branch sync workflow. Do not edit manually.\n\n`current/raw/` preserves upstream indexes and manifests; `current/rules/` preserves artifact bytes; `current/catalog.json`, `status.json`, and `history.json` describe the snapshot. Original author and license statements remain in upstream files.\n');
-    console.log(JSON.stringify(status, null, 2));
-    return status;
-  } catch (error) {
-    await rm(staging, { recursive: true, force: true });
-    throw error;
+    const matches = manifest.artifacts.filter(artifact => artifact.key === spec.key && artifact.ext === spec.extension && !artifact.binary);
+    if (matches.length !== 1) throw new Error('Missing or ambiguous source artifact: ' + id);
+    const artifact = matches[0];
+    const url = checkedUrl(artifact.url, manifestUrl);
+    const bytes = downloads.get(url) ?? await request(url, data => { verifyArtifact(data, artifact); });
+    const verification = verifyArtifact(bytes, artifact);
+    downloads.set(url, bytes);
+    inputs.set(id, { bytes, url, manifestUrl, updatedAt: asDate(manifest.rule_updated_at), verification });
   }
+  const manifest = await publishRules(path.resolve(options.dataDirectory), inputs, (options.now?.() ?? new Date()).toISOString());
+  console.log('Verified ' + inputs.size + ' upstream files (' + downloads.size + ' distinct downloads) and generated ' + manifest.files.length + ' subscriptions.');
+  return manifest;
 }
 
-export async function syncWithRetry(options: SyncOptions, retryDelayMs = 60_000): Promise<SyncStatus> {
-  try {
-    return await sync(options);
-  } catch (error) {
-    if (!(error instanceof RetryableUpstreamError)) throw error;
-    console.warn(`Sync attempt failed. Retrying the full snapshot in ${retryDelayMs / 1000}s.`, error);
-    await delay(retryDelayMs);
-    return sync(options);
+export async function migrate(root: string) {
+  const catalogPath = path.join(root, 'current/catalog.json');
+  if (!await exists(catalogPath)) return;
+  const catalog = await readJson<Catalog>(catalogPath);
+  const status = await readJson<{ lastSuccessfulSyncAt: string }>(path.join(root, 'current/status.json'));
+  const syncedAt = asDate(status.lastSuccessfulSyncAt);
+  if (!syncedAt) throw new Error('Invalid legacy snapshot timestamp');
+  const inputs = new Map<string, RuleSource>();
+  for (const spec of sourceRules) {
+    const id = sourceId(spec);
+    const variants = catalog.rules.flatMap(rule => rule.variants).filter(variant => !variant.archived && variant.client === spec.client && variant.name === spec.name);
+    if (variants.length !== 1) throw new Error('Missing or ambiguous legacy source: ' + id);
+    const variant = variants[0];
+    const matches = variant.artifacts.filter(artifact => artifact.key === spec.key && artifact.extension === spec.extension);
+    if (matches.length !== 1) throw new Error('Missing or ambiguous legacy artifact: ' + id);
+    const artifact = matches[0];
+    const filename = path.resolve(root, artifact.path);
+    if (!filename.startsWith(path.resolve(root, 'current/rules') + path.sep)) throw new Error('Invalid legacy artifact path: ' + id);
+    const bytes = await readFile(filename);
+    if (bytes.length !== artifact.bytes || sha256(bytes) !== artifact.sha256 || artifact.verification === 'recorded') {
+      throw new Error('Legacy source verification failed: ' + id);
+    }
+    inputs.set(id, {
+      bytes, url: artifact.sourceUrl, manifestUrl: variant.sourceManifestUrl,
+      updatedAt: variant.sourceUpdatedAt, verification: artifact.verification,
+    });
   }
+  await publishRules(root, inputs, syncedAt, true);
+  for (const file of ['README.md', '.gitignore', '.gitattributes']) await rm(path.join(root, file), { force: true });
+  console.log('Migrated the previously verified source files to the 10 existing subscription paths.');
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  const config = JSON.parse(await readFile(new URL('../sync.config.json', import.meta.url), 'utf8')) as SyncOptions;
-  config.dataDirectory = process.env.BACKUP_DIR || config.dataDirectory;
-  await syncWithRetry(config);
+  const options = await readJson<SyncOptions>(path.join(import.meta.dirname, '../sync.config.json'));
+  options.dataDirectory = path.resolve(process.env.BACKUP_DIR || options.dataDirectory);
+  if (process.argv.includes('--migrate')) await migrate(options.dataDirectory);
+  else await sync(options);
 }

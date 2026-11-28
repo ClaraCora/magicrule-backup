@@ -13,7 +13,8 @@ if (existsSync(path.join(directory, '.git'))) {
   mkdirSync(path.dirname(directory), { recursive: true });
   const remote = execFileSync('git', ['ls-remote', '--heads', 'origin', 'refs/heads/data'], { encoding: 'utf8' }).trim();
   if (remote) {
-    git('fetch', 'origin', 'data');
+    const shallow = execFileSync('git', ['rev-parse', '--is-shallow-repository'], { encoding: 'utf8' }).trim() === 'true';
+    git('fetch', ...(shallow ? ['--depth=1'] : []), 'origin', 'data');
     git('worktree', 'add', '-b', 'data', directory, 'FETCH_HEAD');
   } else {
     git('worktree', 'add', '--detach', directory, 'HEAD');

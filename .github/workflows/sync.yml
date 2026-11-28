@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       sync:
-        description: 'Fetch upstream rules (disable to rebuild the website from the existing data branch)'
+        description: 'Refresh the five upstream inputs before publishing'
         type: boolean
         default: true
   push:
@@ -22,14 +22,14 @@ concurrency:
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 12
+    outputs:
+      upstream: ${{ steps.refresh.outcome }}
     permissions:
       contents: write
       pages: read
     steps:
       - uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
@@ -38,26 +38,22 @@ jobs:
       - run: npm run check && npm test
       - name: Prepare data worktree
         run: npm run prepare:data
-      - name: Validate published rule addresses offline
-        run: npm run migrate:names
-      - name: Restore verified download cache
-        uses: actions/cache@v4
-        with:
-          path: .cache/backup/.downloads
-          key: rule-downloads-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: rule-downloads-${{ runner.os }}-
-      - name: Sync and validate complete snapshot
+      - name: Migrate the published rules to the existing custom paths
+        run: npm run migrate:data
+      - name: Refresh the five upstream inputs
+        id: refresh
         if: github.event_name != 'workflow_dispatch' || inputs.sync
+        continue-on-error: true
         run: npm run sync
-      - name: Build website from backup
-        run: npm run verify && npm run config:rules && npm run build
-      - name: Commit validated backup
+      - name: Verify subscriptions and build website
+        run: npm run verify && npm run build
+      - name: Commit validated subscriptions
         run: |
           git -C .cache/backup config user.name 'github-actions[bot]'
           git -C .cache/backup config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git -C .cache/backup add --all
           if ! git -C .cache/backup diff --cached --quiet; then
-            git -C .cache/backup commit -m "backup: successful sync $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git -C .cache/backup commit -m "rules: publish verified subscriptions $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             git -C .cache/backup push origin HEAD:data
           fi
       - uses: actions/configure-pages@v5
@@ -77,3 +73,12 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+  upstream-result:
+    needs: [sync-and-build, deploy]
+    if: needs.sync-and-build.outputs.upstream == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report upstream refresh failure
+        run: |
+          echo "::error::The upstream refresh failed. The last verified subscriptions remain published. See the refresh step for details."
+          exit 1

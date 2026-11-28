@@ -7,7 +7,6 @@ const input = document.querySelector<HTMLInputElement>('#query')!;
 const type = document.querySelector<HTMLSelectElement>('#rule-type')!;
 const format = document.querySelector<HTMLSelectElement>('#file-format')!;
 const sort = document.querySelector<HTMLSelectElement>('#sort')!;
-const archived = document.querySelector<HTMLInputElement>('#include-archived')!;
 const results = document.querySelector<HTMLElement>('#results')!;
 const count = document.querySelector<HTMLElement>('#result-count')!;
 const empty = document.querySelector<HTMLElement>('#empty')!;
@@ -31,10 +30,9 @@ function readParams() {
   format.value = params.get('format') || '';
   sort.value = params.get('sort') || 'updated';
   if (!sort.value) sort.value = 'updated';
-  archived.checked = params.get('archived') === '1';
   page = Math.max(1, Number.parseInt(params.get('page') || '1', 10) || 1);
 }
-const filters = (): Filters => ({ query: input.value, client: selectedClient, type: type.value, format: format.value, sort: sort.value, archived: archived.checked });
+const filters = (): Filters => ({ query: input.value, client: selectedClient, type: type.value, format: format.value, sort: sort.value, archived: false });
 function updateUrl(push = false) {
   const url = new URL(location.href);
   url.search = '';
@@ -43,7 +41,6 @@ function updateUrl(push = false) {
   if (type.value) url.searchParams.set('type', type.value);
   if (format.value) url.searchParams.set('format', format.value);
   if (sort.value !== 'updated') url.searchParams.set('sort', sort.value);
-  if (archived.checked) url.searchParams.set('archived', '1');
   if (page > 1) url.searchParams.set('page', String(page));
   if (url.href !== location.href) history[push ? 'pushState' : 'replaceState']({}, '', url);
 }
@@ -141,8 +138,8 @@ clientButtons.forEach(button => {
 });
 input.addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => change(), 180); });
 document.querySelector('#search-form')!.addEventListener('submit', event => { event.preventDefault(); clearTimeout(debounce); change(true); });
-for (const control of [type, format, sort, archived]) control.addEventListener('change', () => change(true));
-document.querySelector('#reset')!.addEventListener('click', () => { input.value = ''; type.value = ''; format.value = ''; sort.value = 'updated'; selectedClient = ''; archived.checked = false; change(true); input.focus(); });
+for (const control of [type, format, sort]) control.addEventListener('change', () => change(true));
+document.querySelector('#reset')!.addEventListener('click', () => { input.value = ''; type.value = ''; format.value = ''; sort.value = 'updated'; selectedClient = ''; change(true); input.focus(); });
 previous.addEventListener('click', () => { page--; render(); updateUrl(true); document.querySelector('.results-toolbar')?.scrollIntoView({ block: 'start' }); });
 next.addEventListener('click', () => { page++; render(); updateUrl(true); document.querySelector('.results-toolbar')?.scrollIntoView({ block: 'start' }); });
 document.querySelector('#retry')!.addEventListener('click', () => { void load(); });

@@ -1,11 +1,20 @@
 {
   "source": "https://magicrule.pages.dev",
-  "allowedOrigins": ["https://magicrule.pages.dev", "https://rule-26r.pages.dev", "https://rule2-ze9.pages.dev"],
-  "clients": ["Egern", "Mihomo", "Loon", "Surge"],
+  "allowedOrigins": [
+    "https://magicrule.pages.dev",
+    "https://rule-26r.pages.dev",
+    "https://rule2-ze9.pages.dev"
+  ],
   "repository": "ClaraCora/magicrule-backup",
   "dataDirectory": ".cache/backup",
-  "concurrency": 4,
   "requestIntervalMs": 250,
   "timeoutMs": 30000,
-  "attempts": 3
+  "attempts": 3,
+  "manifests": {
+    "Mihomo/GlobalAI": "https://magicrule.pages.dev/data/rules/Mihomo/751f401cb91ca739d9cc2d19/manifest.json",
+    "Egern/GlobalAI": "https://rule2-ze9.pages.dev/data/rules/Egern/56e1132cef7141537613e1e3/manifest.json",
+    "Loon/GlobalAI": "https://magicrule.pages.dev/data/rules/Loon/883f2b9b9bbdd4521ae94b86/manifest.json",
+    "Surge/GlobalAI": "https://magicrule.pages.dev/data/rules/Surge/a71f6500ad64b424bc1ca465/manifest.json",
+    "Egern/NetEaseMusic": "https://rule2-ze9.pages.dev/data/rules/Egern/909a4a4714ab94b04aa34747/manifest.json"
+  }
 }
