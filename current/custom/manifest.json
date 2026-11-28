@@ -1,50 +1,57 @@
 {
-  "schemaVersion": 1,
-  "syncedAt": "2026-11-27T03:00:39.681Z",
-  "policySha256": "ab50244f6dcb31d7c41f2a6736a0e2de5660a2d61311d1b47a3e1b35ab099a01",
+  "schemaVersion": 2,
+  "syncedAt": "2026-11-28T08:29:50.697Z",
   "sources": {
-    "Mihomo/GlobalAI": {
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_classical_53616f647b807ae2.yaml",
-      "manifestUrl": "https://magicrule.pages.dev/data/rules/Mihomo/751f401cb91ca739d9cc2d19/manifest.json",
-      "updatedAt": "2026-11-26T03:12:32.824Z",
-      "verification": "bytes",
-      "sha256": "9c5c3dc5152124bcd148a5db206b3939a0487d0416f0945d691dbf8d5da25276"
+    "vpsdance-ai": {
+      "url": "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/main/rules/surge/all.list",
+      "repo": "https://github.com/VPSDance/ai-proxy-rules",
+      "license": "MIT",
+      "bytes": 14518,
+      "sha256": "b1684f186649078fef50201138334729c0349dfb70251d134a8ab9a7481b41df"
     },
-    "Egern/GlobalAI": {
-      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/GlobalAI_rules_f7fcf61ae36f83d8.yaml",
-      "manifestUrl": "https://rule2-ze9.pages.dev/data/rules/Egern/56e1132cef7141537613e1e3/manifest.json",
-      "updatedAt": "2026-11-27T01:54:18.000Z",
-      "verification": "bytes",
-      "sha256": "57b8c9e375ab69585369f1d4ad2ee99350602a497419c0a84ccc26b1fa34ce59"
+    "sukka-ai": {
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf",
+      "repo": "https://github.com/SukkaW/Surge",
+      "license": "AGPL-3.0",
+      "bytes": 2250,
+      "sha256": "407f909cbe02d5ae7061ddf182ac1c6441a3a2c19c1273774fea44984279d935"
     },
-    "Loon/GlobalAI": {
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
-      "manifestUrl": "https://magicrule.pages.dev/data/rules/Loon/883f2b9b9bbdd4521ae94b86/manifest.json",
-      "updatedAt": "2026-11-26T03:11:46.142Z",
-      "verification": "bytes",
-      "sha256": "93ff24942caa6bdd5a7f79ba30bc650a7e4c877fd7715857dedfa9629940e94b"
+    "v2fly-ai": {
+      "url": "https://codeload.github.com/v2fly/domain-list-community/tar.gz/refs/heads/master",
+      "repo": "https://github.com/v2fly/domain-list-community",
+      "license": "MIT",
+      "bytes": 357074,
+      "sha256": "87827baa3701adeaa9420866e65417614e0e6d89e28e21bd92e8bd29f0a8e830"
     },
-    "Surge/GlobalAI": {
-      "url": "https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_rules_7591fffa97b1e679.list",
-      "manifestUrl": "https://magicrule.pages.dev/data/rules/Surge/a71f6500ad64b424bc1ca465/manifest.json",
-      "updatedAt": "2026-11-26T03:12:09.994Z",
-      "verification": "normalized-header",
-      "sha256": "93ff24942caa6bdd5a7f79ba30bc650a7e4c877fd7715857dedfa9629940e94b"
+    "acl4ssr-music": {
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+      "repo": "https://github.com/ACL4SSR/ACL4SSR",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 1367,
+      "sha256": "8254e2518082103b7b3f88063562cefc3e04350b74aa411aad0ee4a66e8a9338"
     },
-    "Egern/NetEaseMusic": {
-      "url": "https://rule2-ze9.pages.dev/data/_shared/artifacts/NetEaseMusic_rules_054ccb99778fe94d.yaml",
-      "manifestUrl": "https://rule2-ze9.pages.dev/data/rules/Egern/909a4a4714ab94b04aa34747/manifest.json",
-      "updatedAt": "2026-11-27T01:54:18.000Z",
-      "verification": "bytes",
-      "sha256": "0a1497523e6d13b322eef1c7815d3ba3cbee117447a2f8b0609e937c72c4d0d4"
+    "mazetsz-music": {
+      "url": "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list",
+      "repo": "https://github.com/Mazetsz/ACL4SSR",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 1681,
+      "sha256": "5fce70ca3231fb6ad989db00cbdfdd70c2312cf36deadc134ee98563393dc9e9"
+    },
+    "sukka-music": {
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/neteasemusic.conf",
+      "repo": "https://github.com/SukkaW/Surge",
+      "license": "AGPL-3.0",
+      "bytes": 251,
+      "sha256": "b404068103b9b573db97e84e3268e13314ce603b89d198e60efd6db1c388a3ce"
     }
   },
+  "policySha256": "095350ad5ca88bf7338c88b5640e26f7e108f7b50b35203d5b456397572bff13",
   "files": [
     {
       "file": "Mihomo/ForeignAI.yaml",
-      "sha256": "06065ba52813dee3084782804c9f4adb70e6ccb7afcf8864ec1baedabdbd74ca",
-      "bytes": 10965,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "e8582b133911bc14b339344762eee61db00c44e98f001f79506ecf680b8511cd",
+      "bytes": 10978,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 43,
         "DOMAIN-SUFFIX": 266
@@ -52,9 +59,9 @@
     },
     {
       "file": "Mihomo/DomesticAI.yaml",
-      "sha256": "9efe21529fcc14b97dfd0319ac6d7638c67cf128c87a7f6cdeeb4dab53a31dcd",
-      "bytes": 2041,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "1d76eace3e89836f99e7d4e2b909d911b0d6ea2f17c087fc6551f8296d2cae23",
+      "bytes": 2054,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 10,
         "DOMAIN-SUFFIX": 43
@@ -62,9 +69,9 @@
     },
     {
       "file": "Egern/ForeignAI.yaml",
-      "sha256": "23153474720394be6c97039758b30a59909fb251413668bea2b970b466ac1d7f",
-      "bytes": 6975,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "54ae0b4ad8fcdac04c7de8a3b03ee9d1ab78be40e2b8f51966813b3ed6205692",
+      "bytes": 6992,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 43,
         "DOMAIN-SUFFIX": 266
@@ -72,9 +79,9 @@
     },
     {
       "file": "Egern/DomesticAI.yaml",
-      "sha256": "8ceddd2e7331aef6d1adc89a207c24eded8f5081a74fa8149d7ea091c91753eb",
-      "bytes": 1404,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "5e7bd2f62d74d16b5aef718f71676a2b5427270f0403354108e97355e7476017",
+      "bytes": 1421,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 10,
         "DOMAIN-SUFFIX": 43
@@ -82,9 +89,9 @@
     },
     {
       "file": "Loon/ForeignAI.list",
-      "sha256": "4ae3443cdabcdf943f33a122b955eefa0747a88e837c8084b8c9df01b59e5406",
-      "bytes": 9716,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "0577faebdeefe184a345f76461a85504db03338198afd3b142e61e8c75b64dcf",
+      "bytes": 9733,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 43,
         "DOMAIN-SUFFIX": 266
@@ -92,9 +99,9 @@
     },
     {
       "file": "Loon/DomesticAI.list",
-      "sha256": "61a069e8498cfa4e3a6d139ce641cf94b2ec573b4787cc2ecfd60b2c33fa5be5",
-      "bytes": 1816,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "80e9024fddc0777fd4ae59079473c3dd418ad33a4cdf38dd13971658d7cd9f2f",
+      "bytes": 1833,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 10,
         "DOMAIN-SUFFIX": 43
@@ -102,9 +109,9 @@
     },
     {
       "file": "Surge/ForeignAI.list",
-      "sha256": "4ae3443cdabcdf943f33a122b955eefa0747a88e837c8084b8c9df01b59e5406",
-      "bytes": 9716,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "0577faebdeefe184a345f76461a85504db03338198afd3b142e61e8c75b64dcf",
+      "bytes": 9733,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 43,
         "DOMAIN-SUFFIX": 266
@@ -112,9 +119,9 @@
     },
     {
       "file": "Surge/DomesticAI.list",
-      "sha256": "61a069e8498cfa4e3a6d139ce641cf94b2ec573b4787cc2ecfd60b2c33fa5be5",
-      "bytes": 1816,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "80e9024fddc0777fd4ae59079473c3dd418ad33a4cdf38dd13971658d7cd9f2f",
+      "bytes": 1833,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 10,
         "DOMAIN-SUFFIX": 43
@@ -122,9 +129,9 @@
     },
     {
       "file": "Egern/NetEaseMusic.yaml",
-      "sha256": "6375d03ed2f7b482ff31393238b9972065bfb98e254b3912a36c608e52d554d8",
-      "bytes": 1632,
-      "changedAt": "2026-11-27T03:00:39.681Z",
+      "sha256": "c61808bd028325dc1a9d40f5874fbd5d96f65b4b735e082f14dfd4479364f711",
+      "bytes": 1831,
+      "changedAt": "2026-11-28T08:29:50.697Z",
       "typeCounts": {
         "DOMAIN": 1,
         "DOMAIN-SUFFIX": 13,

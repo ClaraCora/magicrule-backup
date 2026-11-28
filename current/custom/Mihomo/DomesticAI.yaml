@@ -1,10 +1,9 @@
 # NAME: DomesticAI
-# AUTHOR: MagicRule
-# REPO: https://magicrule.pages.dev/
-# UPDATED: 2026-11-26 13:40:09
-# DERIVED: scoped domains only; no shared cloud IP/ASN, process or keyword rules.
-# SOURCE: https://magicrule.pages.dev/data/_shared/artifacts/GlobalAI_classical_53616f647b807ae2.yaml
-# SOURCE-SHA256: 9c5c3dc5152124bcd148a5db206b3939a0487d0416f0945d691dbf8d5da25276
+# SOURCE: https://github.com/VPSDance/ai-proxy-rules (MIT)
+# SOURCE: https://github.com/v2fly/domain-list-community (MIT)
+# SOURCE: https://github.com/SukkaW/Surge (AGPL-3.0)
+# DERIVED: Scoped service domains, with local compatibility rules.
+# INPUT-CHECKSUMS: https://raw.githubusercontent.com/ClaraCora/magicrule-backup/refs/heads/data/current/custom/manifest.json
 
 payload:
   - DOMAIN,api.hunyuan.cloud.tencent.com
