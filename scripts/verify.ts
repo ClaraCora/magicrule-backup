@@ -1,29 +1,47 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { customFiles, sha256, sourceId, sourceRules, type CustomManifest } from './config-rules.ts';
+import { customFiles, directSourceGroups, sha256, sourceId, sourceRules, type CustomManifest } from './config-rules.ts';
+
+function validateSourceLink(value: string, secureOnly: boolean) {
+  const url = new URL(value);
+  if ((url.protocol !== 'https:' && (secureOnly || url.protocol !== 'http:')) || url.username || url.password || url.hash) {
+    throw new Error('Invalid source link: ' + value);
+  }
+}
 
 export async function verifyCustom(snapshot: string): Promise<CustomManifest> {
   const directory = path.join(snapshot, 'custom');
   const manifest: CustomManifest = JSON.parse(await readFile(path.join(directory, 'manifest.json'), 'utf8'));
-  if (manifest.schemaVersion !== 1 || !Number.isFinite(Date.parse(manifest.syncedAt)) ||
+  if ((manifest.schemaVersion !== 1 && manifest.schemaVersion !== 2) || !Number.isFinite(Date.parse(manifest.syncedAt)) ||
       !/^[a-f0-9]{64}$/.test(manifest.policySha256) ||
       !Array.isArray(manifest.files) || manifest.files.length !== customFiles.length) {
     throw new Error('Invalid custom rules manifest');
   }
   const expected = new Set(customFiles);
-  const sourceKeys = new Set(sourceRules.map(sourceId));
-  for (const [id, source] of Object.entries(manifest.sources)) {
-    if (!sourceKeys.delete(id) || !/^[a-f0-9]{64}$/.test(source.sha256) ||
-        !['bytes', 'normalized-header'].includes(source.verification)) {
-      throw new Error('Invalid source entry: ' + id);
+  if (manifest.schemaVersion === 1) {
+    const sourceKeys = new Set(sourceRules.map(sourceId));
+    for (const [id, source] of Object.entries(manifest.sources)) {
+      if (!sourceKeys.delete(id) || !/^[a-f0-9]{64}$/.test(source.sha256) ||
+          !['bytes', 'normalized-header'].includes(source.verification)) {
+        throw new Error('Invalid source entry: ' + id);
+      }
+      validateSourceLink(source.url, false);
+      validateSourceLink(source.manifestUrl, false);
     }
-    for (const value of [source.url, source.manifestUrl]) {
-      const url = new URL(value);
-      if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password) throw new Error('Invalid source link: ' + id);
+    if (sourceKeys.size) throw new Error('Missing source entries in the custom manifest');
+  } else {
+    const expectedIds = Object.values(directSourceGroups).flat();
+    if (Object.keys(manifest.sources).length !== expectedIds.length) throw new Error('Unexpected direct source count');
+    for (const id of expectedIds) {
+      const source = manifest.sources[id];
+      if (!source || !/^[a-f0-9]{64}$/.test(source.sha256) || !Number.isSafeInteger(source.bytes) || source.bytes < 1 || !source.license) {
+        throw new Error('Invalid direct source entry: ' + id);
+      }
+      validateSourceLink(source.url, true);
+      validateSourceLink(source.repo, true);
     }
   }
-  if (sourceKeys.size) throw new Error('Missing source entries in the custom manifest');
   for (const artifact of manifest.files) {
     if (!expected.delete(artifact.file) || !Number.isFinite(Date.parse(artifact.changedAt))) throw new Error('Invalid custom file: ' + artifact.file);
     const bytes = await readFile(path.join(directory, artifact.file));

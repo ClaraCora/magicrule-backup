@@ -1,20 +1,43 @@
 {
-  "source": "https://magicrule.pages.dev",
   "allowedOrigins": [
-    "https://magicrule.pages.dev",
-    "https://rule-26r.pages.dev",
-    "https://rule2-ze9.pages.dev"
+    "https://raw.githubusercontent.com",
+    "https://codeload.github.com"
   ],
   "repository": "ClaraCora/magicrule-backup",
   "dataDirectory": ".cache/backup",
   "requestIntervalMs": 250,
   "timeoutMs": 30000,
   "attempts": 3,
-  "manifests": {
-    "Mihomo/GlobalAI": "https://magicrule.pages.dev/data/rules/Mihomo/751f401cb91ca739d9cc2d19/manifest.json",
-    "Egern/GlobalAI": "https://rule2-ze9.pages.dev/data/rules/Egern/56e1132cef7141537613e1e3/manifest.json",
-    "Loon/GlobalAI": "https://magicrule.pages.dev/data/rules/Loon/883f2b9b9bbdd4521ae94b86/manifest.json",
-    "Surge/GlobalAI": "https://magicrule.pages.dev/data/rules/Surge/a71f6500ad64b424bc1ca465/manifest.json",
-    "Egern/NetEaseMusic": "https://rule2-ze9.pages.dev/data/rules/Egern/909a4a4714ab94b04aa34747/manifest.json"
+  "sources": {
+    "vpsdance-ai": {
+      "url": "https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/main/rules/surge/all.list",
+      "repo": "https://github.com/VPSDance/ai-proxy-rules",
+      "license": "MIT"
+    },
+    "v2fly-ai": {
+      "url": "https://codeload.github.com/v2fly/domain-list-community/tar.gz/refs/heads/master",
+      "repo": "https://github.com/v2fly/domain-list-community",
+      "license": "MIT"
+    },
+    "sukka-ai": {
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf",
+      "repo": "https://github.com/SukkaW/Surge",
+      "license": "AGPL-3.0"
+    },
+    "acl4ssr-music": {
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+      "repo": "https://github.com/ACL4SSR/ACL4SSR",
+      "license": "CC-BY-SA-4.0"
+    },
+    "mazetsz-music": {
+      "url": "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list",
+      "repo": "https://github.com/Mazetsz/ACL4SSR",
+      "license": "CC-BY-SA-4.0"
+    },
+    "sukka-music": {
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/neteasemusic.conf",
+      "repo": "https://github.com/SukkaW/Surge",
+      "license": "AGPL-3.0"
+    }
   }
 }

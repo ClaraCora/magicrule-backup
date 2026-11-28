@@ -4,12 +4,15 @@ import { setTimeout as delay } from 'node:timers/promises';
 import { pathToFileURL } from 'node:url';
 import type { Catalog } from '../src/lib/types.ts';
 import { publishSnapshot } from './artifact-layout.ts';
-import { generateConfigRules, sha256, sourceId, sourceRules, type RuleSource } from './config-rules.ts';
+import {
+  directSourceGroups, generateConfigRules, sha256, sourceId, sourceRules,
+  type CustomManifest, type DirectSource, type DirectSourceId, type DirectSources, type RuleSource,
+} from './config-rules.ts';
+import { generateDirectRules } from './direct-rules.ts';
 import { verifyCustom } from './verify.ts';
 
-export interface SyncOptions {
+interface SyncOptions {
   allowedOrigins: string[];
-  manifests: Record<string, string>;
   repository: string;
   dataDirectory: string;
   requestIntervalMs: number;
@@ -134,14 +137,18 @@ function fetchUpstream(options: SyncOptions) {
   };
 }
 
-async function publishRules(root: string, inputs: Map<string, RuleSource>, syncedAt: string, migrating = false) {
+async function generateAndPublish(
+  root: string,
+  generate: (staging: string, previous?: CustomManifest) => Promise<CustomManifest>,
+  migrating = false,
+) {
   const previous = migrating ? undefined : await verifyCustom(path.join(root, 'current')).catch((error: NodeJS.ErrnoException) => {
     if (error.code !== 'ENOENT') throw error;
     return undefined;
   });
   const staging = await mkdtemp(path.join(root, '.staging-'));
   try {
-    const manifest = await generateConfigRules(inputs, path.join(staging, 'custom'), syncedAt, previous);
+    const manifest = await generate(staging, previous);
     await verifyCustom(staging);
     await publishSnapshot(root, staging);
     return manifest;
@@ -150,7 +157,7 @@ async function publishRules(root: string, inputs: Map<string, RuleSource>, synce
   }
 }
 
-export async function sync(options: SyncOptions) {
+export async function sync(options: SyncOptions & ({ sources: DirectSources } | { manifests: Record<string, string> })) {
   const allowed = new Set(options.allowedOrigins);
   const checkedUrl = (value: string, base?: string) => {
     const url = new URL(value, base);
@@ -158,6 +165,21 @@ export async function sync(options: SyncOptions) {
     return url.href;
   };
   const request = fetchUpstream(options);
+  const root = path.resolve(options.dataDirectory);
+  const syncedAt = () => (options.now?.() ?? new Date()).toISOString();
+  if ('sources' in options) {
+    const inputs = new Map<DirectSourceId, DirectSource & { bytes: Buffer }>();
+    for (const id of Object.values(directSourceGroups).flat()) {
+      const source = options.sources[id];
+      if (!source) throw new Error('Missing configured source: ' + id);
+      const url = checkedUrl(source.url);
+      inputs.set(id, { ...source, url, bytes: await request(url) });
+    }
+    const manifest = await generateAndPublish(root, (staging, previous) =>
+      generateDirectRules(inputs, staging, syncedAt(), previous));
+    console.log('Validated ' + inputs.size + ' author inputs and generated ' + manifest.files.length + ' subscriptions.');
+    return manifest;
+  }
   const inputs = new Map<string, RuleSource>();
   const downloads = new Map<string, Buffer>();
   for (const spec of sourceRules) {
@@ -176,7 +198,8 @@ export async function sync(options: SyncOptions) {
     downloads.set(url, bytes);
     inputs.set(id, { bytes, url, manifestUrl, updatedAt: asDate(manifest.rule_updated_at), verification });
   }
-  const manifest = await publishRules(path.resolve(options.dataDirectory), inputs, (options.now?.() ?? new Date()).toISOString());
+  const manifest = await generateAndPublish(root, (staging, previous) =>
+    generateConfigRules(inputs, path.join(staging, 'custom'), syncedAt(), previous));
   console.log('Verified ' + inputs.size + ' upstream files (' + downloads.size + ' distinct downloads) and generated ' + manifest.files.length + ' subscriptions.');
   return manifest;
 }
@@ -208,13 +231,14 @@ export async function migrate(root: string) {
       updatedAt: variant.sourceUpdatedAt, verification: artifact.verification,
     });
   }
-  await publishRules(root, inputs, syncedAt, true);
+  await generateAndPublish(root, staging =>
+    generateConfigRules(inputs, path.join(staging, 'custom'), syncedAt), true);
   for (const file of ['README.md', '.gitignore', '.gitattributes']) await rm(path.join(root, file), { force: true });
   console.log('Migrated the previously verified source files to the 10 existing subscription paths.');
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  const options = await readJson<SyncOptions>(path.join(import.meta.dirname, '../sync.config.json'));
+  const options = await readJson<SyncOptions & { sources: DirectSources }>(path.join(import.meta.dirname, '../sync.config.json'));
   options.dataDirectory = path.resolve(process.env.BACKUP_DIR || options.dataDirectory);
   if (process.argv.includes('--migrate')) await migrate(options.dataDirectory);
   else await sync(options);

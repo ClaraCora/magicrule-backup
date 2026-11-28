@@ -404,5 +404,49 @@
     "turn.metrix.com",
     "turn1.turnserver.me",
     "turn2.turnserver.me"
-  ]
+  ],
+  "compatibility": {
+    "foreignAI": {
+      "include": [],
+      "omit": [
+        "DOMAIN,ai.google.dev",
+        "DOMAIN,aicode.googleapis.com",
+        "DOMAIN,aida.googleapis.com",
+        "DOMAIN,aisandbox-pa.googleapis.com",
+        "DOMAIN,antigravity-unleash.goog",
+        "DOMAIN,antigravity.google",
+        "DOMAIN,api.jetbrains.ai",
+        "DOMAIN,bridge.claudeusercontent.com",
+        "DOMAIN,claude.site",
+        "DOMAIN,cloud.zed.dev",
+        "DOMAIN,cloudcode-pa.googleapis.com",
+        "DOMAIN,gateway.ai.cloudflare.com",
+        "DOMAIN,jules.google.com",
+        "DOMAIN,openaiapi-site.azureedge.net",
+        "DOMAIN,openaicom.imgix.net",
+        "DOMAIN,openrouter.ai",
+        "DOMAIN,robinfrontend-pa.googleapis.com",
+        "DOMAIN,server.codeium.com",
+        "DOMAIN,server.self-serve.windsurf.com"
+      ]
+    },
+    "domesticAI": {
+      "include": [
+        "DOMAIN-SUFFIX,kimi.ai",
+        "DOMAIN-SUFFIX,minimax.io"
+      ],
+      "omit": [
+        "DOMAIN,api.minimax.io",
+        "DOMAIN-SUFFIX,deepseek.com",
+        "DOMAIN-SUFFIX,deepseeksvc.com",
+        "DOMAIN-SUFFIX,doubao.com"
+      ]
+    },
+    "music": [
+      "DOMAIN,netease.ugcvideoss.ourdvs.com",
+      "DOMAIN-SUFFIX,yun-app.net",
+      "IP-CIDR,59.111.181.155/32",
+      "USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*"
+    ]
+  }
 }

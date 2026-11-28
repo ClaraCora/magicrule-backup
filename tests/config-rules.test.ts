@@ -2,6 +2,23 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import YAML from 'yaml';
 import { domainEntries, repairMusicYaml, scopedEntries, validatePolicy } from '../scripts/config-rules.ts';
+import { readV2flyCategories } from '../scripts/direct-rules.ts';
+
+test('v2fly includes honor attribute filters and retain exact-host semantics', () => {
+  const lists: Record<string, string> = {
+    'category-ai-!cn': 'include:global @!cn @-ads # split public hosts',
+    'category-ai-cn': 'include:domestic',
+    global: 'include:common\nsite.example @!cn\nignored.example @!cn @ads',
+    common: 'full:api.example @!cn\nregexp:.* @!cn',
+    domestic: 'domain:local.example',
+  };
+  const categories = readV2flyCategories(file => lists[file]);
+  const rules = categories.foreignAI.map(({ type, value }) => type + ',' + value);
+  assert.deepEqual(rules, ['DOMAIN,api.example', 'DOMAIN-SUFFIX,site.example']);
+  assert.deepEqual(categories.domesticAI.map(({ value }) => value), ['local.example']);
+  lists.common = 'include:global';
+  assert.throws(() => readV2flyCategories(file => lists[file]), /recursive/);
+});
 
 test('AI scoping excludes shared domains, lookalikes, cloud ASNs and process rules in all four clients', () => {
   const scope = { domains: ['copilot-proxy.githubusercontent.com'], suffixes: ['openai.com', 'githubcopilot.com'] };

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       sync:
-        description: 'Refresh the five upstream inputs before publishing'
+        description: 'Refresh the author inputs before publishing'
         type: boolean
         default: true
   push:
@@ -40,7 +40,7 @@ jobs:
         run: npm run prepare:data
       - name: Migrate the published rules to the existing custom paths
         run: npm run migrate:data
-      - name: Refresh the five upstream inputs
+      - name: Refresh rules from author repositories
         id: refresh
         if: github.event_name != 'workflow_dispatch' || inputs.sync
         continue-on-error: true

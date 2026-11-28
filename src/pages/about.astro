@@ -9,7 +9,7 @@ import Layout from '../layouts/Layout.astro';
     <h2>复制订阅地址</h2>
     <p>在目录中选好客户端，然后复制地址并添加为远程规则集。Mihomo 的 AI 文件使用 classical YAML，WebRTC 使用 classical text。Surge 在 RULE-SET 中引用。代理策略和 DNS 分流在客户端配置中指定。</p>
     <h2>检查同步和文件</h2>
-    <p>每天北京时间 04:17 检查 AI 和网易云音乐所需的五份上游文件。成功后更新发布文件和校验清单。上游请求或校验失败时，已有订阅继续提供上一版。</p>
+    <p>每天北京时间 04:17 从作者的 GitHub 仓库和官方 Git 镜像更新 AI 和网易云音乐规则。发布清单记录源文件和订阅的 SHA-256。上游请求或校验失败时，订阅继续提供上一版。</p>
     <p><a href="https://github.com/ClaraCora/magicrule-backup/tree/data/current/custom">发布文件和校验清单</a> · <a href="https://github.com/ClaraCora/magicrule-backup/actions/workflows/sync.yml">GitHub Actions</a></p>
   </article>
 </Layout>
